@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajax_delete_trip_php",
+      "label": "delete_trip.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajax/delete_trip.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

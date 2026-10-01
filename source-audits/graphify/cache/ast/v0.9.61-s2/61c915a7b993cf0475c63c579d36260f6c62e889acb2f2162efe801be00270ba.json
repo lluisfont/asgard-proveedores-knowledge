@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_ubicaciones_ajax_lista_php",
+      "label": "lista.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/ubicaciones/ajax/lista.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

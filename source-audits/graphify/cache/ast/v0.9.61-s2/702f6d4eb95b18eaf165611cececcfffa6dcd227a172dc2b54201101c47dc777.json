@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_fonts_freeserifbi_php",
+      "label": "freeserifbi.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/fonts/freeserifbi.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

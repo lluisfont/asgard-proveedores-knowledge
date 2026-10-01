@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_php",
+      "label": "exponentialBestFitClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "label": "PHPExcel_Exponential_Best_Fit",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L39",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_best_fit",
+      "label": "PHPExcel_Best_Fit",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofyforx",
+      "label": ".getValueOfYForX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "label": ".getValueOfXForY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getequation",
+      "label": ".getEquation()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L78",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "label": ".getSlope()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L92",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "label": ".getIntersect()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L106",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "label": "._exponential_regression()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L121",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L142",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "phpexcel_best_fit",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofyforx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getequation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofyforx",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofyforx",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getequation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getequation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_construct",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L144",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofyforx",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L57",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "callee": "log",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L68",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getvalueofxfory",
+      "callee": "log",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L68",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "callee": "exp",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L94",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getslope",
+      "callee": "exp",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "callee": "exp",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_getintersect",
+      "callee": "exp",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "callee": "log",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "callee": "log",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_exponential_regression",
+      "callee": "_leastSquareFit",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_trend_exponentialbestfitclass_phpexcel_exponential_best_fit_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/trend/exponentialBestFitClass.php",
+      "source_location": "L143",
+      "receiver": null
+    }
+  ]
+}

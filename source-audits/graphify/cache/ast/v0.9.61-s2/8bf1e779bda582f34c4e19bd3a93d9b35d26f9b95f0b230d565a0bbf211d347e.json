@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_ajax_get_estados_php",
+      "label": "get-estados.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/ajax/get-estados.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

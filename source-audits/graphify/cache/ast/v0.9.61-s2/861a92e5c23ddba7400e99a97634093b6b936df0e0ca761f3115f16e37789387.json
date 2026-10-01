@@ -1,0 +1,1428 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_php",
+      "label": "NumberFormat.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "label": "PHPExcel_Style_NumberFormat",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_style_supervisor",
+      "label": "PHPExcel_Style_Supervisor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "label": ".getSharedComponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getstylearray",
+      "label": ".getStyleArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "label": ".applyFromArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L163",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "label": ".getFormatCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "label": ".setFormatCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L202",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getbuiltinformatcode",
+      "label": ".getBuiltInFormatCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L222",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "label": ".setBuiltInFormatCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L236",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_fillbuiltinformatcodes",
+      "label": ".fillBuiltInFormatCodes()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L252",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcode",
+      "label": ".builtInFormatCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L320",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcodeindex",
+      "label": ".builtInFormatCodeIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L342",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L360",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "label": "._formatAsDate()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L434",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "label": "._formatAsPercentage()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L457",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "label": "._formatAsFraction()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L475",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "label": "._complexNumberFormatMask()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L500",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "label": ".toFormattedString()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L544",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "phpexcel_style_supervisor",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getstylearray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getbuiltinformatcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_fillbuiltinformatcodes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L320",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcodeindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L342",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L434",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L457",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L475",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L500",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L544",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getbuiltinformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getbuiltinformatcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getbuiltinformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_fillbuiltinformatcodes",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L363",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L363",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L551",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L119",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getsharedcomponent",
+      "callee": "getNumberFormat",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L169",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_applyfromarray",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L174",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_getformatcode",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L191",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setformatcode",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L212",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L240",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_setbuiltinformatcode",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_fillbuiltinformatcodes",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L255",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_fillbuiltinformatcodes",
+      "callee": "array_flip",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L310",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcode",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L323",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcode",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L326",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcode",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L329",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcodeindex",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L345",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_builtinformatcodeindex",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L348",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L365",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L444",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L446",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L447",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L448",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "PHPExcel_Shared_Date",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L453",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasdate",
+      "callee": "format",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L454",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L462",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L463",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L463",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L464",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L466",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L467",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L467",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L469",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formataspercentage",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L471",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "floor",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L479",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L480",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "fmod",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L480",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L481",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L482",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "PHPExcel_Calculation_MathTrig",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L484",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L489",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L489",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_formatasfraction",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L489",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L501",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L502",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L503",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L504",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "strrev",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "strrev",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "strrev",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L509",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "array_reverse",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L511",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L515",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L518",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "fmod",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L520",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "floor",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L522",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "substr_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L523",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_complexnumberformatmask",
+      "callee": "substr_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L526",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "is_numeric",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L547",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L556",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L565",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L600",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L603",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L604",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L605",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L606",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L609",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L612",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L615",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L618",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L623",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L625",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L626",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L634",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L638",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L639",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L642",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L645",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L655",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L658",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L666",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L666",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L666",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "number_format",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L668",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L670",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L671",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L672",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L674",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L676",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L678",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L679",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L680",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L682",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L683",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L684",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L689",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L693",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L695",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L697",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_numberformat_phpexcel_style_numberformat_toformattedstring",
+      "callee": "$function",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/NumberFormat.php",
+      "source_location": "L705",
+      "receiver": null
+    }
+  ]
+}

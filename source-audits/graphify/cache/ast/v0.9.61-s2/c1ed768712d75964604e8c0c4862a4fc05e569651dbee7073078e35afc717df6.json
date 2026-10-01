@@ -1,0 +1,115 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_usuario_usuarioclass_php",
+      "label": "UsuarioClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass",
+      "label": "UsuarioClass",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_getusuario",
+      "label": ".getusuario()",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L6",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "label": ".updatePassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L12",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_usuario_usuarioclass_php",
+      "target": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass",
+      "target": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_getusuario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass",
+      "target": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L12",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_getusuario",
+      "callee": "HelperClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L9",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L14",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "callee": "HelperClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L15",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L17",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_usuario_usuarioclass_usuarioclass_updatepassword",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/usuario/UsuarioClass.php",
+      "source_location": "L33",
+      "receiver": null
+    }
+  ]
+}

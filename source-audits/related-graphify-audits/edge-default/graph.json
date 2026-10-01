@@ -1,0 +1,16 @@
+{
+  "directed": true,
+  "nodes": [
+    {
+      "id": "DefaultGraph-0",
+      "label": "DefaultGraph 0",
+      "community": 0
+    },
+    {
+      "id": "DefaultGraph-1",
+      "label": "DefaultGraph 1",
+      "community": 0
+    }
+  ],
+  "edges": []
+}

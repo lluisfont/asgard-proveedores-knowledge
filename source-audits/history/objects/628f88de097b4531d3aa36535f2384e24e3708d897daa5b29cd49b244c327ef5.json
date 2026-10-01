@@ -1,0 +1,20 @@
+{
+  "project": "proveedores-master_peru",
+  "baseline": {
+    "repository_commit": null,
+    "source_hash": "75060ae41c623868f78e9eeb5c7be8343dcd0196a395053e4199b3eb34897e15",
+    "database_hash": "ef3b8233e4b210cabbb5217f83a42e5456dc4a81d4918f45fa5e72278d8a5baf",
+    "confirmed": false
+  },
+  "current_domain": null,
+  "current_phase": "business_validation",
+  "current_version": "0.1",
+  "verdict": "IN_PROGRESS",
+  "last_completed_step": "seed_baseline",
+  "next_action": "review_seed_baseline_then_reconstruct_business_domains",
+  "blockers": [],
+  "canonical_domains": [],
+  "provisional_domains": [],
+  "rejected_domains": [],
+  "updated_at": "2026-09-15T14:12:33.979518+00:00"
+}

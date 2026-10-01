@@ -1,0 +1,3123 @@
+openapi: 3.0.3
+info:
+  title: proveedores-master_peru augmented file-routed API
+  version: 0.1.0
+  description: Provisional OpenAPI generated from PHP direct-route evidence; review required.
+paths:
+  "/index.php":
+    get:
+      operationId: aug_d8e3bf50740c1b3ce958_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/2fa/ajax/autenticar.php":
+    post:
+      operationId: aug_364f798c4b585cc983b9_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/2fa/ajax/autenticar.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/2fa/ajax/reenviar-codigo.php":
+    post:
+      operationId: aug_96c789e43af97ae99f7f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/2fa/ajax/reenviar-codigo.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/2fa/ajax/verificar-codigo.php":
+    post:
+      operationId: aug_9868d3d7990ebd7695dc_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/2fa/ajax/verificar-codigo.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/2fa.php":
+    get:
+      operationId: aug_3a2cb9b9602de05c5644_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/2fa.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/ajax/buscarDatos.php":
+    get:
+      operationId: aug_1e8b3ad3b286a88e5b01_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/ajax/buscarDatos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/cambiocontrasena.php":
+    get:
+      operationId: aug_4f26ce7b40f78555cd20_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/cambiocontrasena.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/cambiocontrasena_update.php":
+    post:
+      operationId: aug_bcda02044fc8c82480ef_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/cambiocontrasena_update.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/cargarlibroventas.php":
+    get:
+      operationId: aug_5a6ca44fe7314cca7e8b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/cargarlibroventas.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/cargarlibroventas_ajax.php":
+    post:
+      operationId: aug_08cc8cd0b8d1b7dbc4c1_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/cargarlibroventas_ajax.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/data.php":
+    get:
+      operationId: aug_b5f1ede3658960820cce_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/data.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/download.php":
+    get:
+      operationId: aug_4a021beb4ded1a00a036_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/download.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/asignar-viaje-embarque.php":
+    get:
+      operationId: aug_c567c94ea85ab9b07534_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/asignar-viaje-embarque.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/borrarEmbarque.php":
+    post:
+      operationId: aug_a3a147b6b1f18c285c66_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/borrarEmbarque.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/duplicarEmbarque.php":
+    post:
+      operationId: aug_0152ccce95c3735370f2_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/duplicarEmbarque.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_0152ccce95c3735370f2_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/duplicarEmbarque.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/get-categorias.php":
+    get:
+      operationId: aug_e11d46f55de72891fd17_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/get-categorias.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/get-conceptos.php":
+    get:
+      operationId: aug_b6e26d7d1a5b0cd25cd6_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/get-conceptos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/get-costos.php":
+    get:
+      operationId: aug_b44015100e0d0198a9a6_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/get-costos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/get-monedas.php":
+    get:
+      operationId: aug_467915e5ee4e26c709be_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/get-monedas.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/guardar-costos.php":
+    get:
+      operationId: aug_a21913bc1e880a68b34f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardar-costos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/guardarAgenteProveedor.php":
+    post:
+      operationId: aug_b2af5641cbb04f36b710_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardarAgenteProveedor.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/guardarCostos.php":
+    post:
+      operationId: aug_84e2820dd771c561841d_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardarCostos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/guardarGestionAduanera.php":
+    post:
+      operationId: aug_21c112ab35c2e5a3cab0_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardarGestionAduanera.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_21c112ab35c2e5a3cab0_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardarGestionAduanera.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/guardarRuta.php":
+    post:
+      operationId: aug_7f4b12e9d5d0d568906e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/guardarRuta.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaAerolineas.php":
+    post:
+      operationId: aug_683a86cfc656581bf52f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaAerolineas.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaClientes.php":
+    get:
+      operationId: aug_351ba6e9204255e634b2_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaClientes.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaClientesFiltro.php":
+    get:
+      operationId: aug_8424f318ab110c4afb77_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaClientesFiltro.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaEmbarques.php":
+    post:
+      operationId: aug_ce01d1197ae108e76df1_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaEmbarques.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_ce01d1197ae108e76df1_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaEmbarques.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaEstado.php":
+    get:
+      operationId: aug_d353f4cf5823ec3f4d47_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaEstado.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaLineasFiltro.php":
+    get:
+      operationId: aug_48dbb0fa6bfb0b9ce0de_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaLineasFiltro.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaModalidadTransporte.php":
+    get:
+      operationId: aug_dcd15221735f000a325f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaModalidadTransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaPais.php":
+    post:
+      operationId: aug_f35cf304ccc555e8a002_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaPais.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 2
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaProveedoresFiltro.php":
+    get:
+      operationId: aug_b201848f930f9c8f35cc_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaProveedoresFiltro.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaRutas.php":
+    post:
+      operationId: aug_1446f5c216a0e6de0bb9_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaRutas.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/listaTipoMercancia.php":
+    post:
+      operationId: aug_84f25e3a929ee8db510b_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/listaTipoMercancia.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 4
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/notificacionDiariaRutas.php":
+    get:
+      operationId: aug_b648b1c065358f1bc0c3_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/notificacionDiariaRutas.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/recuperar-viajes.php":
+    get:
+      operationId: aug_402463570534700d6d07_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/recuperar-viajes.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/ajax/saveDescripcionItems.php":
+    get:
+      operationId: aug_2dc410642db2763fdd58_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/ajax/saveDescripcionItems.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/asesoria-gestion/index.php":
+    get:
+      operationId: aug_fa0760d1a4ad090a9a8f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/asesoria-gestion/index.php"
+      x-route-strength: "strong_page_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/internacional/aereo.php":
+    get:
+      operationId: aug_b58dc081c6e87dd59a2e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/internacional/aereo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/internacional/ferreo.php":
+    get:
+      operationId: aug_b3c54ad4efa36b41e39d_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/internacional/ferreo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/internacional/multimodal.php":
+    get:
+      operationId: aug_7e2da37b08f933389a0f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/internacional/multimodal.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/internacional/terrestre.php":
+    get:
+      operationId: aug_617e5b8083eb35e387aa_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/internacional/terrestre.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/internacional/textoplano.php":
+    get:
+      operationId: aug_44c2a8639b83abee5900_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/internacional/textoplano.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/local/ferreo.php":
+    get:
+      operationId: aug_b6efc7a8b6c537f56a17_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/local/ferreo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/local/terrestre.php":
+    get:
+      operationId: aug_e377658667cb8824961b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/local/terrestre.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/local/textoplano.php":
+    get:
+      operationId: aug_98ec75265aba3e97e981_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/local/textoplano.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/nacional/aereo.php":
+    get:
+      operationId: aug_bae2bd50faa68263a1b0_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/nacional/aereo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/nacional/ferreo.php":
+    get:
+      operationId: aug_e62ebe3fcf21287eaa25_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/nacional/ferreo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/nacional/terrestre.php":
+    get:
+      operationId: aug_1a8dfdabfde62e6e48ff_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/nacional/terrestre.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/cotizaciones/nacional/textoplano.php":
+    get:
+      operationId: aug_c45725cd2182d4865f10_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/cotizaciones/nacional/textoplano.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_contenedor_modal.php":
+    get:
+      operationId: aug_c560634da03ef0628a14_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_contenedor_modal.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_crear_documentacion.php":
+    get:
+      operationId: aug_cb2ceea093449f583b71_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_crear_documentacion.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_datos.php":
+    get:
+      operationId: aug_d02382a72b80d7b5d5d6_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_datos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_datosotros.php":
+    get:
+      operationId: aug_d6c404dc94947d703d51_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_datosotros.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_datosotrosemb.php":
+    get:
+      operationId: aug_18c417239f3936667cd5_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_datosotrosemb.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php":
+    get:
+      operationId: aug_80184915e065fc285415_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_diccionario_palabras.php":
+    get:
+      operationId: aug_b90fbf06ba97431594e1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_diccionario_palabras.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_documentacion.php":
+    get:
+      operationId: aug_d39dcc2172718d0d6a77_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_documentacion.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_lista_viajes.php":
+    get:
+      operationId: aug_095e11ccf801b18457d3_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_lista_viajes.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_mercancia.php":
+    get:
+      operationId: aug_0a034904c1f6be1d200b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_mercancia.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_rutas.php":
+    get:
+      operationId: aug_a9a3ae195c531bd7706f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_rutas.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_rutas_modal.php":
+    get:
+      operationId: aug_33e9fedba15786ff6647_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_rutas_modal.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_textoplano.php":
+    get:
+      operationId: aug_3bfbf47da63667e75de9_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_textoplano.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_tramos.php":
+    get:
+      operationId: aug_8e5d1124b955167b681b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_tramos.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_ver_gestion_aduanera.php":
+    get:
+      operationId: aug_f54ab7ab03888b5fd32c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_ver_gestion_aduanera.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 1
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/embarques_viaje_detalle.php":
+    get:
+      operationId: aug_a36e7aa27b520db7747c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/embarques_viaje_detalle.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/estado-pedidos/ajax/eliminar.php":
+    get:
+      operationId: aug_fd4c90d8d37be1f07076_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/estado-pedidos/ajax/eliminar.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/estado-pedidos/ajax/get-estado-pedidos.php":
+    get:
+      operationId: aug_e3b2373e7c0f2e9ad2a0_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/estado-pedidos/ajax/get-estado-pedidos.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/estado-pedidos/ajax/get-estados.php":
+    get:
+      operationId: aug_1a1694b4ea2a6fffed87_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/estado-pedidos/ajax/get-estados.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/componentes/estado-pedidos/ajax/guardar-edp.php":
+    get:
+      operationId: aug_ae6f64a8715356447d8e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/componentes/estado-pedidos/ajax/guardar-edp.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/costos.php":
+    get:
+      operationId: aug_eb89cc552adea435b630_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/costos.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/CotizacionClass.php":
+    get:
+      operationId: aug_1265337d063d5c1b42ce_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/CotizacionClass.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/datoscaso.php":
+    get:
+      operationId: aug_67a2c8eaa3c8ecbfaa57_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/datoscaso.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/editar.php":
+    get:
+      operationId: aug_61fa110351e1164dbb4b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/editar.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/editarController.php":
+    post:
+      operationId: aug_2a0c59f82255ba895942_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/editarController.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 1
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_2a0c59f82255ba895942_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/editarController.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 1
+      x-risk-flags: ["POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/EmbarqueClass.php":
+    post:
+      operationId: aug_30c21048d8d089364afc_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/EmbarqueClass.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/embarquecrear.php":
+    get:
+      operationId: aug_d403620d8b7767736335_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/embarquecrear.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/embarquesController.php":
+    post:
+      operationId: aug_9325cb7cdbc8a7e53615_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/embarquesController.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 10
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_9325cb7cdbc8a7e53615_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/embarquesController.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 10
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/embarquever.php":
+    get:
+      operationId: aug_34b8174e7a7f828a33af_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/embarquever.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/aduanas.php":
+    get:
+      operationId: aug_c17e458248af53882af7_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/aduanas.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/costos.php":
+    get:
+      operationId: aug_c38feb7ecb3a613e6349_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/costos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/datoscaso.php":
+    get:
+      operationId: aug_1d99ab8d88d5b01bc6b1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/datoscaso.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/documentos.php":
+    get:
+      operationId: aug_916a5b1a0dab82247e18_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/documentos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/estado-pedidos.php":
+    get:
+      operationId: aug_250de1e1b3d9f5bdb31b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/estado-pedidos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/inventario.php":
+    get:
+      operationId: aug_a0a57d970d952afd73d5_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/inventario.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/inventario_local.php":
+    get:
+      operationId: aug_64370fa1d08d4c2fdd18_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/inventario_local.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 4
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/items.php":
+    get:
+      operationId: aug_3f05b63d5a4ce71f4e3a_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/items.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/rutas.php":
+    get:
+      operationId: aug_c671b9b5a8fdf5b41586_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/rutas.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/servicios-adicionales.php":
+    get:
+      operationId: aug_c9a58b8c3b20a3657aff_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/servicios-adicionales.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/frames/tracking.php":
+    get:
+      operationId: aug_7b6b77c3e0a24e59bbfc_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/frames/tracking.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/index.php":
+    get:
+      operationId: aug_df7c04480a2421301a04_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/index.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/pedidos.php":
+    get:
+      operationId: aug_9e074a89cccb91f55cf1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/pedidos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/embarques/verembarque.php":
+    get:
+      operationId: aug_1ed56ada8d6fbb402e9e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/embarques/verembarque.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/encodeUser.php":
+    get:
+      operationId: aug_b3703353ec1c8ed1364c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/encodeUser.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/excel.php":
+    get:
+      operationId: aug_f43c6c281c5268647616_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/excel.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/footer.php":
+    get:
+      operationId: aug_06f8558dbbbeda7678d1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/footer.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/footerbs4.php":
+    get:
+      operationId: aug_e1baf9bb65ae518a4797_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/footerbs4.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/bootstrap-filestyle/test/upload.php":
+    post:
+      operationId: aug_cf7d2ad2c2416cf9e4b5_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/bootstrap-filestyle/test/upload.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/formularios.php":
+    get:
+      operationId: aug_8263fea057ca7561c94e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/formularios.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/formulariosA.php":
+    get:
+      operationId: aug_a0a24d8065036a475a7e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/formulariosA.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/formulariosB.php":
+    get:
+      operationId: aug_f5f61ffdc96b30d28fdc_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/formulariosB.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/formulariosR.php":
+    get:
+      operationId: aug_a9d6dfb8ca8ad27ecc1e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/formulariosR.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/formulariosxls.php":
+    get:
+      operationId: aug_64edeed6a9be07e8bae8_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/formulariosxls.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/js/fValidate/fValidate.server.php":
+    get:
+      operationId: aug_51781dbfcf0be52e9945_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/js/fValidate/fValidate.server.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/carbon/src/Carbon/Carbon.php":
+    get:
+      operationId: aug_2bc64dce1b3c32790742_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/carbon/src/Carbon/Carbon.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/carbon/src/JsonSerializable.php":
+    get:
+      operationId: aug_4d6b6e0c1b8927ea8167_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/carbon/src/JsonSerializable.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/modulos/config.php":
+    get:
+      operationId: aug_6b2290fd7f769b5d81ca_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/modulos/config.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/modulos/libs/Correo.class.php":
+    get:
+      operationId: aug_213afb65479f0bef7677_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/modulos/libs/Correo.class.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/modulos/libs/PDO.class.php":
+    get:
+      operationId: aug_b48b35a337a5226eedaa_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/modulos/libs/PDO.class.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/libs/pdo/PDO.class.php":
+    get:
+      operationId: aug_82a57aceffdcc19d0912_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/libs/pdo/PDO.class.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/logAsgard.php":
+    get:
+      operationId: aug_1ebd49427ce153107008_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/logAsgard.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/login.php":
+    post:
+      operationId: aug_65426bd31624681ab3ce_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/login.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_65426bd31624681ab3ce_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/login.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/logistica/embarquereferencia.php":
+    post:
+      operationId: aug_e494a33eb4f0e4ff8261_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/logistica/embarquereferencia.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/logistica/inventario-chasis.php":
+    get:
+      operationId: aug_e0895a592f2507d7ccbd_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/logistica/inventario-chasis.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/logout.php":
+    get:
+      operationId: aug_945a11bc8cefa3f6dd11_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/logout.php"
+      x-route-strength: "strong_page_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/MailClass.php":
+    get:
+      operationId: aug_cdc1ce79bbfc5e4d9890_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/MailClass.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/menu.php":
+    get:
+      operationId: aug_16933e5e1377f4021aa0_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/menu.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/menu_b4.php":
+    get:
+      operationId: aug_33ac06c19b51ade7b7c7_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/menu_b4.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/actualizar-cliente.php":
+    post:
+      operationId: aug_b632fce66aa81ab8f5ca_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/actualizar-cliente.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/borrar-cliente.php":
+    post:
+      operationId: aug_199cb7167acf18003d2d_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/borrar-cliente.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/cargar-excel-clientes-proveedores.php":
+    post:
+      operationId: aug_387b732904176825e94a_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/cargar-excel-clientes-proveedores.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/get-cliente.php":
+    post:
+      operationId: aug_45236478937df51d2f04_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/get-cliente.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/get-clientes.php":
+    get:
+      operationId: aug_490fa82df2e2fbeb0a9f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/get-clientes.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/ajax/nuevo-cliente.php":
+    post:
+      operationId: aug_0c32c47a4bc960f68638_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/ajax/nuevo-cliente.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/clientes/index.php":
+    get:
+      operationId: aug_25caf7cd690b0f00bc70_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/clientes/index.php"
+      x-route-strength: "strong_page_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/ajax/editar.php":
+    post:
+      operationId: aug_0d343e00cf9349fb4eb8_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/ajax/editar.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/ajax/eliminar.php":
+    post:
+      operationId: aug_3ad9614549554143f43a_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/ajax/eliminar.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/ajax/guardar.php":
+    post:
+      operationId: aug_f4937b0697e2b87f15c2_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/ajax/guardar.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/ajax/lista.php":
+    get:
+      operationId: aug_d96fcba741e70646c668_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/ajax/lista.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/ajax/uploadexcel.php":
+    post:
+      operationId: aug_d32f8bef5bc77732d130_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/ajax/uploadexcel.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/componentes/datos.php":
+    get:
+      operationId: aug_6ddcb112a032f55e8241_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/componentes/datos.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/importar.php":
+    get:
+      operationId: aug_04eb685266747e244dfc_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/importar.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/parametros/ubicaciones/index.php":
+    get:
+      operationId: aug_95bc022df87154b5fdf4_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/parametros/ubicaciones/index.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/permisos.php":
+    get:
+      operationId: aug_3594f66104ced9331d02_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/permisos.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/php-jwt-5.2.0/src/JWT.php":
+    get:
+      operationId: aug_e3cbc459152956b25939_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/php-jwt-5.2.0/src/JWT.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/preembarques/frames/inventario.php":
+    get:
+      operationId: aug_7bbc41aa9ba43bdc017e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/preembarques/frames/inventario.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/preembarques/frames/items.php":
+    get:
+      operationId: aug_626d6a7fad3525551308_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/preembarques/frames/items.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: []
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/preembarques/index.php":
+    get:
+      operationId: aug_9807954c1ebfa354413a_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/preembarques/index.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/preembarques/preembarquever.php":
+    get:
+      operationId: aug_4aca20b10a9ea6228a0d_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/preembarques/preembarquever.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/principal.php":
+    get:
+      operationId: aug_f74c9bf2bd0252751f0b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/principal.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/rating/get-rating.php":
+    post:
+      operationId: aug_8e8f7fb95214e15d9a20_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/rating/get-rating.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/rating/rating.php":
+    post:
+      operationId: aug_56745a312c7166bb81df_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/rating/rating.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/rating/verifica-mensual.php":
+    post:
+      operationId: aug_fd0245b53e5356c515d9_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/rating/verifica-mensual.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reporteexcel/reporteexcel.php":
+    post:
+      operationId: aug_a61f2363959b836ad2f9_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reporteexcel/reporteexcel.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 4
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reporteexcel/reporteexcelNew.php":
+    post:
+      operationId: aug_da546efe22e4cc28c67a_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reporteexcel/reporteexcelNew.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php":
+    post:
+      operationId: aug_7f0e864ce784f1256630_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 3
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_7f0e864ce784f1256630_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 3
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php":
+    post:
+      operationId: aug_f1527c3d5595d3f95536_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/filtros/clientes.php":
+    get:
+      operationId: aug_0465c1ea293244ef9377_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/filtros/clientes.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/filtros/fechas.php":
+    get:
+      operationId: aug_eff03837408eee6e20f7_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/filtros/fechas.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/filtros/logis_estados.php":
+    get:
+      operationId: aug_d52d20de8687e4c89e31_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/filtros/logis_estados.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/filtros/operadores.php":
+    get:
+      operationId: aug_2fc7edc8a738015e68e1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/filtros/operadores.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/filtros/proveedores.php":
+    get:
+      operationId: aug_0d1fec13e97f872665c2_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/filtros/proveedores.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/inventario-por-chasis.php":
+    get:
+      operationId: aug_3631208d74f91c34d1b3_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/inventario-por-chasis.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/recepcion_fisica_mics.php":
+    get:
+      operationId: aug_d58e9412b7b9d345ea9d_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/recepcion_fisica_mics.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportecontrolad.php":
+    post:
+      operationId: aug_734c393dda600d3a9cac_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolad.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_734c393dda600d3a9cac_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolad.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_734c393dda600d3a9cac_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolad.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportecontroladquery.php":
+    get:
+      operationId: aug_050aada3e25bcd834839_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontroladquery.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportecontrolol.php":
+    post:
+      operationId: aug_6676c6d2f6aaadb7a15e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolol.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_6676c6d2f6aaadb7a15e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolol.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    post:
+      operationId: aug_6676c6d2f6aaadb7a15e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrolol.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportecontrololquery.php":
+    get:
+      operationId: aug_ee5b30c711311125a63d_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportecontrololquery.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportepreembarquenacional.php":
+    post:
+      operationId: aug_e502fbc2de56dae4287e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportepreembarquenacional.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_e502fbc2de56dae4287e_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportepreembarquenacional.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reportepreembarquenacionalquery.php":
+    get:
+      operationId: aug_ce1a5a0f133b5b07c241_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reportepreembarquenacionalquery.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reporteviajescargamasiva.php":
+    post:
+      operationId: aug_75e27da6e464aebd7f0c_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reporteviajescargamasiva.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_75e27da6e464aebd7f0c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reporteviajescargamasiva.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/reportes/reporteviajescargamasivaquery.php":
+    get:
+      operationId: aug_e769a9fec682b4709a19_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/reportes/reporteviajescargamasivaquery.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/resetpassword/ajax/generateToken.php":
+    post:
+      operationId: aug_d2d6f442124f39e33c64_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/resetpassword/ajax/generateToken.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/resetpassword/ajax/resetPassword.php":
+    post:
+      operationId: aug_9b51b5536ea41f0a5f3f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/resetpassword/ajax/resetPassword.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/resetpassword/ajax/sendCredentials.php":
+    post:
+      operationId: aug_55d60c57c46e7ddf6ead_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/resetpassword/ajax/sendCredentials.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/resetpassword/ResetPassword.php":
+    get:
+      operationId: aug_9e4f9f6fa5aade6b069c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/resetpassword/ResetPassword.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/actualizardocumentoempresatransporte.php":
+    post:
+      operationId: aug_d72ca66a0464301dfd89_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/actualizardocumentoempresatransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/actualizarempresatransporte.php":
+    post:
+      operationId: aug_907556d120183b9db04b_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/actualizarempresatransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/actualizartransportista.php":
+    post:
+      operationId: aug_606d188ac2812f60148d_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/actualizartransportista.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/actualizarubicacion.php":
+    post:
+      operationId: aug_4fb8262afb72f436b549_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/actualizarubicacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/actualizarunidadtransporte.php":
+    post:
+      operationId: aug_89963238d99a0ee4eb6f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/actualizarunidadtransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/agregar_chofer.php":
+    post:
+      operationId: aug_0bedc62d2e064afda5ed_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/agregar_chofer.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/borrarempresa.php":
+    post:
+      operationId: aug_0010d54daea6e057671b_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/borrarempresa.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/borrarparametros.php":
+    post:
+      operationId: aug_cebe0c71e6ce7cc6ae0b_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/borrarparametros.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/buscar-partida.php":
+    get:
+      operationId: aug_5c48e9274247f2b52973_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/buscar-partida.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/cargar-imagenes-viaje.php":
+    post:
+      operationId: aug_fc79be2e1bbadf850c65_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/cargar-imagenes-viaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/comprobar_ci.php":
+    post:
+      operationId: aug_b0725a499c882e091f13_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/comprobar_ci.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/delete_trip.php":
+    post:
+      operationId: aug_866028524c6b44c5c39e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/delete_trip.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/discontinued-trip.php":
+    post:
+      operationId: aug_1a76e984518854f1c961_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/discontinued-trip.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/duplicar-viaje.php":
+    get:
+      operationId: aug_4a30d47083395dbf98ac_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/duplicar-viaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/eliminarviaje.php":
+    post:
+      operationId: aug_4cf56f118237d5682b1f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/eliminarviaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/getdocumentostransporte.php":
+    post:
+      operationId: aug_36af0f062d6c16b685ec_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/getdocumentostransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/getempresatransporte.php":
+    post:
+      operationId: aug_fa74214f80b2886c61c4_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/getempresatransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/gettransportista.php":
+    post:
+      operationId: aug_5af0f4bfb6d7b72a2778_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/gettransportista.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/getunidadtransporte.php":
+    post:
+      operationId: aug_a1c74ca7ceb5ac85c334_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/getunidadtransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/guardarasigancionviaje.php":
+    post:
+      operationId: aug_b8fecffbe3897f5e4d96_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/guardarasigancionviaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/guardardocumentoempresatransporte.php":
+    post:
+      operationId: aug_de0bd69f168b1e837d3e_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/guardardocumentoempresatransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/guardarempresatransporte.php":
+    post:
+      operationId: aug_8f5ea3f37f41ab16233f_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/guardarempresatransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/guardartransportista.php":
+    post:
+      operationId: aug_59500f82e5659216e0a5_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/guardartransportista.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/guardarunidadtransporte.php":
+    post:
+      operationId: aug_7133f4cc86b2db261a73_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/guardarunidadtransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/imagenes.php":
+    post:
+      operationId: aug_ba0b727856df7ec18ccf_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/imagenes.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/localizacion.php":
+    post:
+      operationId: aug_8773e96da70524509131_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/localizacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/buscar-chofer-viaje.php":
+    get:
+      operationId: aug_67898b729d17523e2c1f_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/buscar-chofer-viaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/datos-iniciales.php":
+    get:
+      operationId: aug_5fe8c792bd97a57819d3_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/datos-iniciales.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/eliminar-destino.php":
+    get:
+      operationId: aug_e1af0733f343087bca05_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/eliminar-destino.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/lista-choferes.php":
+    get:
+      operationId: aug_4da791889feef25ee0a9_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/lista-choferes.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/lista-destinos-asignados.php":
+    get:
+      operationId: aug_ff452517fd814bc93d47_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/lista-destinos-asignados.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/lista-unidades.php":
+    get:
+      operationId: aug_086a5a2bd89012cab608_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/lista-unidades.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/reasignacion-viajes/reasignar-viaje.php":
+    get:
+      operationId: aug_c961a4deb9a3a1dba6b1_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/reasignacion-viajes/reasignar-viaje.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/unidadestransporte.php":
+    post:
+      operationId: aug_a3a10ae495a529f9aab1_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/unidadestransporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajax/uploadExcelCargaMasiva.php":
+    post:
+      operationId: aug_9ec6a2dfde283d6efc5d_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php":
+    post:
+      operationId: aug_dcc4081aad1112d0f073_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/conductores.php":
+    get:
+      operationId: aug_367bfda980a663b545ba_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/conductores.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/detalle_cliente.php":
+    get:
+      operationId: aug_ed568c992bec931e4b33_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/detalle_cliente.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/editar_asignacion.php":
+    get:
+      operationId: aug_533efa1f276aac1477e6_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/editar_asignacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/embarques.php":
+    get:
+      operationId: aug_c10ed74c2068b2fd89bd_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/embarques.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php":
+    get:
+      operationId: aug_4209263969a93b308858_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/guardar_ubicacion.php":
+    get:
+      operationId: aug_6335e195448e8671f04a_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/guardar_ubicacion.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/origen.php":
+    get:
+      operationId: aug_1d30e857b2c4c64c77a5_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/origen.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/parametros.php":
+    get:
+      operationId: aug_3eae2a42b5ddfe86f7ef_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/parametros.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ajaxAsignacion/transporte.php":
+    get:
+      operationId: aug_cdbdea6544fc5a9b0696_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ajaxAsignacion/transporte.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/asignacionviaje.php":
+    get:
+      operationId: aug_e500ad9a9386140f4efb_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/asignacionviaje.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/carga-masiva.php":
+    get:
+      operationId: aug_c45900109b86f68cff1c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/carga-masiva.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/aduana_ruta_plazo.php":
+    get:
+      operationId: aug_d920264c19f6551ddab3_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/aduana_ruta_plazo.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/datos_generales.php":
+    get:
+      operationId: aug_a87f24fa01780d3296f9_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/datos_generales.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/datos_mercancia.php":
+    get:
+      operationId: aug_3e50dde59e11c0839286_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/datos_mercancia.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/multimodal-programacion-embarque.php":
+    get:
+      operationId: aug_dd3d12bdc7fc949e1455_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/multimodal-programacion-embarque.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/programacion_embarque-local.php":
+    get:
+      operationId: aug_dbd75d8bd604921910c4_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/programacion_embarque-local.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 4
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/programacion_embarque-nacional.php":
+    get:
+      operationId: aug_70fe63ae9d3053ac3740_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/programacion_embarque-nacional.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/programacion_embarque.php":
+    get:
+      operationId: aug_724e40ed2d9e68a0803b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/programacion_embarque.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/asignacion_viaje/terrestre-programacion-embarque.php":
+    get:
+      operationId: aug_76120465693993152ac0_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/asignacion_viaje/terrestre-programacion-embarque.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/modal-edit-unity.php":
+    get:
+      operationId: aug_3a8c96af5d51d56c06ae_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/modal-edit-unity.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/components/modal-edit-user-transport.php":
+    get:
+      operationId: aug_476ff52d43f3d4ac6a4c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/components/modal-edit-user-transport.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/crear-viaje.php":
+    get:
+      operationId: aug_75c3da2f64b4247539ea_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/crear-viaje.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/documentosempresatransporte.php":
+    get:
+      operationId: aug_887995e30e9993eabd2c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/documentosempresatransporte.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/editar-viaje.php":
+    get:
+      operationId: aug_757f0711e0316c04d0e4_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/editar-viaje.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/empresatransporte.php":
+    get:
+      operationId: aug_2afed0c98ef41dac7d07_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/empresatransporte.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/generar_excel.php":
+    get:
+      operationId: aug_49c2d64558524f0d6da4_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/generar_excel.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/generar_excel_detalle.php":
+    get:
+      operationId: aug_7c9a03c73f8531109fd7_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/generar_excel_detalle.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_UPLOAD_OR_IMPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/getImage.php":
+    get:
+      operationId: aug_4428845a03a85fa04b5b_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/getImage.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/listaviajes.php":
+    post:
+      operationId: aug_08acde0193c5f84dcf1c_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/listaviajes.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/ListaViajesClass.php":
+    get:
+      operationId: aug_d69dd72a2e106f60ea06_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/ListaViajesClass.php"
+      x-route-strength: "public_php_logic_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/localizacion.php":
+    get:
+      operationId: aug_9f276f47716d9ae1be6c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/localizacion.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/logistica-internacional.php":
+    get:
+      operationId: aug_0faa4177deda83216981_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/logistica-internacional.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/logistica-local.php":
+    get:
+      operationId: aug_cc4894252f3966bd4b04_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/logistica-local.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 4
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/logistica-nacional.php":
+    get:
+      operationId: aug_1b0120dfcb3e65d2414d_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/logistica-nacional.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/reporte-detalle-viaje.php":
+    get:
+      operationId: aug_5866e0af910986ca386c_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/reporte-detalle-viaje.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/reporte-viajes.php":
+    post:
+      operationId: aug_5acf7e84a2661bf42330_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/reporte-viajes.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_5acf7e84a2661bf42330_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/reporte-viajes.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "JSON_ENDPOINT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/TrackingNewClass.php":
+    get:
+      operationId: aug_4a67b2b2b725a5d19c35_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/TrackingNewClass.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DB_WRITE_WITHOUT_CSRF_SIGNAL", "DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/tracking/viajedetalle.php":
+    get:
+      operationId: aug_f1d053ecc306c5169111_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/tracking/viajedetalle.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/usuario/ajax/update-password.php":
+    get:
+      operationId: aug_53fa865a87c32dc61d89_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/usuario/ajax/update-password.php"
+      x-route-strength: "strong_ajax_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT", "NO_LOCAL_AUTH_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/usuario/editar-perfil.php":
+    get:
+      operationId: aug_77a97a489a310c992002_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/usuario/editar-perfil.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 0
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/veriflogin.php":
+    post:
+      operationId: aug_8c5ca78587e954bfc7ea_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/veriflogin.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 1
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "JSON_ENDPOINT"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/versolicitud.php":
+    get:
+      operationId: aug_6622239c5d30c2be5470_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/versolicitud.php"
+      x-route-strength: "public_php_page_candidate"
+      x-caller-refs: 0
+      x-risk-flags: ["RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+  "/index_archivos/versolicituddetalle.php":
+    post:
+      operationId: aug_3d4f6e223d9842f52cbb_post
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/versolicituddetalle.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 2
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.
+    get:
+      operationId: aug_3d4f6e223d9842f52cbb_get
+      summary: Provisional PHP file route
+      x-asgard-augmented-confidence: augmented_file_route
+      x-handler: "index_archivos/versolicituddetalle.php"
+      x-route-strength: "strong_direct_endpoint"
+      x-caller-refs: 2
+      x-risk-flags: ["DESTRUCTIVE_OR_MUTATING_ACTION", "FILE_DOWNLOAD_OR_EXPORT", "FILE_UPLOAD_OR_IMPORT", "POST_OR_REQUEST_WITHOUT_CSRF_SIGNAL", "RAW_SQL_SIGNAL"]
+      responses:
+        '200':
+          description: Response observed from legacy PHP route; schema not proven.

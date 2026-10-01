@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reportes_inventario_por_chasis_php",
+      "label": "inventario-por-chasis.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/inventario-por-chasis.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_bind_grid_to_mysql_database_virtual_scrolling_index_php",
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/bind_grid_to_mysql_database_virtual_scrolling/index.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

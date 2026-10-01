@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_ubicaciones_componentes_datos_php",
+      "label": "datos.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/ubicaciones/componentes/datos.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

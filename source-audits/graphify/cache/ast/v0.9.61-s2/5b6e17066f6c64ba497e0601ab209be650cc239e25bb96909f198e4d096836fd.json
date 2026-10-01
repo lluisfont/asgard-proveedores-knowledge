@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_master_tcpdf_fonts_freemono_php",
+      "label": "freemono.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger-master/tcpdf/fonts/freemono.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

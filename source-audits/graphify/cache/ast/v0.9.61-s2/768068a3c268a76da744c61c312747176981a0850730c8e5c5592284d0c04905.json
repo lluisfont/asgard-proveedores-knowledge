@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_php",
+      "label": "ICache.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "label": "PHPExcel_CachedObjectStorage_ICache",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_addcachedata",
+      "label": ".addCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_cell",
+      "label": "PHPExcel_Cell",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_updatecachedata",
+      "label": ".updateCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getcachedata",
+      "label": ".getCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_deletecachedata",
+      "label": ".deleteCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L72",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_isdataset",
+      "label": ".isDataSet()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L80",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getcelllist",
+      "label": ".getCellList()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getsortedcelllist",
+      "label": ".getSortedCellList()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L94",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_copycellcollection",
+      "label": ".copyCellCollection()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_cachemethodisavailable",
+      "label": ".cacheMethodIsAvailable()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L110",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_addcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_addcachedata",
+      "target": "phpexcel_cell",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_updatecachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_updatecachedata",
+      "target": "phpexcel_cell",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_deletecachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_isdataset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getcelllist",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_getsortedcelllist",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_copycellcollection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_copycellcollection",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cachedobjectstorage_icache_phpexcel_cachedobjectstorage_icache_cachemethodisavailable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/CachedObjectStorage/ICache.php",
+      "source_location": "L110",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

@@ -1,0 +1,74 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_src_core_users_application_find_userfind_php",
+      "label": "UserFind.php",
+      "file_type": "code",
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_src_core_users_application_find_userfind_userfinder",
+      "label": "UserFinder",
+      "file_type": "code",
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_src_core_users_application_find_userfind_userfinder_execute",
+      "label": ".Execute()",
+      "file_type": "code",
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L12",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_src_core_users_application_find_userfind_php",
+      "target": "$graphify-root$_src_core_users_application_find_userfind_userfinder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_src_core_users_application_find_userfind_userfinder",
+      "target": "$graphify-root$_src_core_users_application_find_userfind_userfinder_execute",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L12",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_src_core_users_application_find_userfind_userfinder_execute",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L14",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_src_core_users_application_find_userfind_userfinder_execute",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_src_core_users_application_find_userfind_userfinder_execute",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "src/core/users/application/Find/UserFind.php",
+      "source_location": "L43",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "node_count": 48495,
+  "unverified_node_count": 0,
+  "raw_edge_count": 120944,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 4,
+  "self_loop_edges": 1434,
+  "valid_candidate_edges": 120940,
+  "exact_duplicate_edges": 0,
+  "directed_unique_endpoint_pairs": 117657,
+  "directed_same_endpoint_collapsed_edges": 3283,
+  "undirected_unique_endpoint_pairs": 116642,
+  "undirected_same_endpoint_collapsed_edges": 4298,
+  "same_endpoint_group_count": 2546,
+  "relation_variant_groups": 1301,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 1268,
+  "context_variant_groups": 0,
+  "post_build_graph_type": "Graph",
+  "post_build_node_count": 48495,
+  "post_build_edge_count": 116642,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "C:\\Users\\GMKtek-1\\.graphify\\repos\\Graphify-Labs\\graphify-v0.9.61\\graphify\\extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1336,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 1869,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 1871,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 2241,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2388,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 3026,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 3195,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 4887,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 4995,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 5074,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 5589,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 5590,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "index_archivos_js_kendo_web_min",
+      "target": "index_archivos_js_kendo_web_min_i",
+      "edge_count": 17,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "index_archivos/js/kendo.web.min.js"
+      ],
+      "source_locations": [
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "index_archivos_js_kendo_web_min",
+      "target": "index_archivos_js_kendo_web_min_r",
+      "edge_count": 16,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "index_archivos/js/kendo.web.min.js"
+      ],
+      "source_locations": [
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L20",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "index_archivos_js_kendo_web_min",
+      "target": "index_archivos_js_kendo_web_min_a",
+      "edge_count": 16,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "index_archivos/js/kendo.web.min.js"
+      ],
+      "source_locations": [
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L20",
+        "L21",
+        "L22",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "index_archivos_js_kendo_web_min",
+      "target": "index_archivos_js_kendo_web_min_n",
+      "edge_count": 15,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "index_archivos/js/kendo.web.min.js"
+      ],
+      "source_locations": [
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L20",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28"
+      ],
+      "contexts": [
+        ""
+      ]
+    },
+    {
+      "source": "index_archivos_js_jquery_easyui_min",
+      "target": "index_archivos_js_jquery_easyui_min_init",
+      "edge_count": 13,
+      "relations": [
+        "contains"
+      ],
+      "source_files": [
+        "index_archivos/js/jquery.easyui.min.js"
+      ],
+      "source_locations": [
+        "L10183",
+        "L11599",
+        "L2088",
+        "L2156",
+        "L4299",
+        "L4667",
+        "L5070",
+        "L5161",
+        "L5253",
+        "L5427",
+        "L5855",
+        "L6080",
+        "L6363"
+      ],
+      "contexts": [
+        ""
+      ]
+    }
+  ]
+}

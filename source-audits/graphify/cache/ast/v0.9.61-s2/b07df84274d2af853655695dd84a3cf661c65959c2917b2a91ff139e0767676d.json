@@ -1,0 +1,537 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_php",
+      "label": "DataSeries.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "label": "PHPExcel_Chart_DataSeries",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L140",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplottype",
+      "label": ".getPlotType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L165",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplottype",
+      "label": ".setPlotType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L175",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotgrouping",
+      "label": ".getPlotGrouping()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L185",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotgrouping",
+      "label": ".setPlotGrouping()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L195",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotdirection",
+      "label": ".getPlotDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L205",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotdirection",
+      "label": ".setPlotDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L215",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotorder",
+      "label": ".getPlotOrder()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L225",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabels",
+      "label": ".getPlotLabels()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L234",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabelbyindex",
+      "label": ".getPlotLabelByIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L243",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategories",
+      "label": ".getPlotCategories()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L258",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategorybyindex",
+      "label": ".getPlotCategoryByIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L267",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotstyle",
+      "label": ".getPlotStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L282",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotstyle",
+      "label": ".setPlotStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L292",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvalues",
+      "label": ".getPlotValues()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L302",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvaluesbyindex",
+      "label": ".getPlotValuesByIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotseriescount",
+      "label": ".getPlotSeriesCount()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L326",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getsmoothline",
+      "label": ".getSmoothLine()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L335",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setsmoothline",
+      "label": ".setSmoothLine()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L345",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_refresh",
+      "label": ".refresh()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L350",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplottype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplottype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotgrouping",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotgrouping",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotdirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotdirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotorder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabels",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabelbyindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategories",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategorybyindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setplotstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvalues",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvaluesbyindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotseriescount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L326",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getsmoothline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L335",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_setsmoothline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_refresh",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_refresh",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L350",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_refresh",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L353",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L147",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L147",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_construct",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L153",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabelbyindex",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabelbyindex",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L245",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotlabelbyindex",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L247",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategorybyindex",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L268",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategorybyindex",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L269",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotcategorybyindex",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L271",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvaluesbyindex",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L312",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvaluesbyindex",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L313",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotvaluesbyindex",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L315",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_dataseries_phpexcel_chart_dataseries_getplotseriescount",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/DataSeries.php",
+      "source_location": "L327",
+      "receiver": null
+    }
+  ]
+}

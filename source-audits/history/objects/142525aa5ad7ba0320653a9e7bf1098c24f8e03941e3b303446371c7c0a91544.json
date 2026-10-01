@@ -1,0 +1,403 @@
+{
+  "auditor_version": "0.8.0",
+  "detector_hints": [
+    "consumed:fetch",
+    "consumed:guzzle",
+    "consumed:php-curl"
+  ],
+  "excluded_roots": [
+    ".git",
+    "index_archivos/MPDF57",
+    "index_archivos/PHPExcel",
+    "index_archivos/js/jqwidgetsVer",
+    "index_archivos/libs/PDFMerger",
+    "index_archivos/libs/carbon",
+    "index_archivos/php-jwt-5.2.0",
+    "index_archivos/reporteexcel/lib/PHPExcel"
+  ],
+  "existing_specs": [],
+  "files_scanned": 6283,
+  "frameworks": [],
+  "http_clients": [
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 14,
+          "note": "code signature",
+          "path": "index_archivos/js/kendo.web.min.js"
+        },
+        {
+          "kind": "source",
+          "line": 7,
+          "note": "code signature",
+          "path": "index_archivos/js/vue-json-excel.umd.min.js"
+        },
+        {
+          "kind": "source",
+          "line": 9022,
+          "note": "code signature",
+          "path": "index_archivos/js/spreadsjs/external/angular.1.0.8.js"
+        },
+        {
+          "kind": "source",
+          "line": 7958,
+          "note": "code signature",
+          "path": "index_archivos/js/spreadsjs/external/angular.1.2.22.js"
+        },
+        {
+          "kind": "source",
+          "line": 68,
+          "note": "code signature",
+          "path": "index_archivos/parametros/ubicaciones/js/mapaEventoViaje.js"
+        },
+        {
+          "kind": "source",
+          "line": 104,
+          "note": "code signature",
+          "path": "index_archivos/tracking/vue/components/location.component.js"
+        }
+      ],
+      "kind": "http_client",
+      "name": "fetch"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "manifest",
+          "line": null,
+          "note": "composer dependency",
+          "path": "index_archivos/composer.json"
+        }
+      ],
+      "kind": "http_client",
+      "name": "guzzle"
+    },
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 83,
+          "note": "code signature",
+          "path": "index_archivos/MailClass.php"
+        },
+        {
+          "kind": "source",
+          "line": 557,
+          "note": "code signature",
+          "path": "index_archivos/embarques/EmbarqueClass.php"
+        }
+      ],
+      "kind": "http_client",
+      "name": "php-curl"
+    }
+  ],
+  "integration_surfaces": [],
+  "inventory_complete": false,
+  "languages": [
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap/js/bootstrap-tab.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap/js/bootstrap-tooltip.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap/js/bootstrap.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap/js/bootstrap.min.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap4/js/bootstrap.bundle.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap4/js/bootstrap.bundle.min.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap4/js/bootstrap.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/bootstrap4/js/bootstrap.min.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/asesoria-gestion/components/solicitud-tag.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/asesoria-gestion/components/tramites.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/costos/card-component.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/costos/costos.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/costos/cotizaciones-previas.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/estado-pedidos/estado-pedidos.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/detalle-vehiculo.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/index.js"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js"
+        }
+      ],
+      "kind": "language",
+      "name": "javascript"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": ".env-example.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "info.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/2fa.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/HelperClass.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/MailClass.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/MenuClass.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/boton.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/cambiocontrasena.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/cambiocontrasena_update.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/cargarlibroventas.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/cargarlibroventas_ajax.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/cnfdb105.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/data.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/download.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/encodeUser.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/excel.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/footer.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/footerbs4.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "index_archivos/logAsgard.php"
+        }
+      ],
+      "kind": "language",
+      "name": "php"
+    }
+  ],
+  "manifest_errors": [],
+  "manifests": [
+    "index_archivos/composer.json",
+    "index_archivos/jquery-ui/package.json",
+    "index_archivos/libs/fileinput/composer.json",
+    "index_archivos/libs/fileinput/package.json",
+    "package.json"
+  ],
+  "notes": [
+    "inventory_complete describes execution coverage of inventory scope v1.0, not proof that every possible technology pattern is known.",
+    "Dependency-manifest matches are confirmed; source-code signatures are probable unless corroborated by a manifest.",
+    "Documentation files are not searched for technology signatures to avoid false positives.",
+    "oversize text candidates were not inspected",
+    "git submodules are not traversed in v0.3"
+  ],
+  "repository": "asgard-api-audit-target-20260915",
+  "repository_id": "asgard-api-audit-target-20260915",
+  "repository_identity_source": "directory-name",
+  "required_detector_categories": [
+    "inventory",
+    "configuration",
+    "consumed"
+  ],
+  "schema_version": "1.0",
+  "scope_version": "1.0",
+  "skipped_oversize_files": [
+    "index_archivos/fontawesome/metadata/icons.json",
+    "index_archivos/js/datatable/datatables.js",
+    "index_archivos/js/datatable/datatables.min.js",
+    "index_archivos/js/ext-all-debug.js",
+    "index_archivos/js/spreadsjs/scripts/jquery.wijmo.wijspread.3.20151.16.js",
+    "index_archivos/js/spreadsjs/scripts/jquery.wijmo.wijspread.all.3.20151.16.js",
+    "index_archivos/js/spreadsjs/scripts/jquery.wijmo.wijspread.all.3.20151.16.min.js",
+    "index_archivos/js/spreadsjs/scripts/pluggable/jquery.wijmo.wijspread.core.3.20151.16.js",
+    "index_archivos/libs/datatables/datatables.js",
+    "index_archivos/libs/datatables/datatables.min.js",
+    "index_archivos/libs/fontawesome/metadata/icons.json"
+  ],
+  "skipped_symlinks": [],
+  "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a",
+  "source_ref": "HEAD",
+  "submodules": [
+    "index_archivos/intercambioDocumental",
+    "index_archivos/servicioNotificaciones"
+  ],
+  "text_files_inspected": 1598,
+  "working_tree_dirty": false
+}

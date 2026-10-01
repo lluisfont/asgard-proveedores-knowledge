@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "label": "functions.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "label": "array_insert()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L4",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "label": "urlencode_part()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L21",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "label": "_strspn()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "label": "_strcspn()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "label": "_fgets()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_str_ireplace",
+      "label": "str_ireplace()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_htmlspecialchars_decode",
+      "label": "htmlspecialchars_decode()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L81",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_preparepretext",
+      "label": "PreparePreText()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcode2utf",
+      "label": "strcode2utf()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "label": "code2utf()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_functions_codehex2utf",
+      "label": "codeHex2utf()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L118",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_str_ireplace",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_htmlspecialchars_decode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_preparepretext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcode2utf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_codehex2utf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_includes_functions_codehex2utf",
+      "target": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L121",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L5",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_values",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L6",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L7",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L8",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L8",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_unshift",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L9",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_slice",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L11",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L12",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_slice",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L14",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_array_insert",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L22",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L26",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_urlencode_part",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L30",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "callee": "func_num_args",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L36",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "callee": "strspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "callee": "strspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L41",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strspn",
+      "callee": "strspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L44",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "callee": "func_num_args",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L50",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "callee": "strcspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L52",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "callee": "strcspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcspn",
+      "callee": "strcspn",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "ftell",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L63",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "fgets",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L64",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "fseek",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L67",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_fgets",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L67",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_str_ireplace",
+      "callee": "preg_quote",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L76",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_str_ireplace",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L77",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_htmlspecialchars_decode",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L82",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_htmlspecialchars_decode",
+      "callee": "array_flip",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L82",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_htmlspecialchars_decode",
+      "callee": "get_html_translation_table",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L82",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_preparepretext",
+      "callee": "htmlspecialchars",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_preparepretext",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcode2utf",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_strcode2utf",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L97",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L106",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L109",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L109",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_code2utf",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_includes_functions_codehex2utf",
+      "callee": "hexdec",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/includes/functions.php",
+      "source_location": "L119",
+      "receiver": null
+    }
+  ]
+}

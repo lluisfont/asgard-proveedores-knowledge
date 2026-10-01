@@ -1,0 +1,22 @@
+{
+  "bad_key": 401,
+  "delete_mcp_no_session": 400,
+  "get_mcp_no_session": 400,
+  "good_key": 200,
+  "missing_key": 401,
+  "session_header_present": true,
+  "tools": [
+    "get_community",
+    "get_neighbors",
+    "get_node",
+    "get_pr_impact",
+    "god_nodes",
+    "graph_stats",
+    "list_prs",
+    "query_graph",
+    "shortest_path",
+    "triage_prs"
+  ],
+  "tools_list_status": 200,
+  "unknown_path": 404
+}

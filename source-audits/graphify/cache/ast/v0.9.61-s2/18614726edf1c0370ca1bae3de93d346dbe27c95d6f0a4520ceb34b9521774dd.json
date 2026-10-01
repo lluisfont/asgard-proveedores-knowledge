@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_preembarques_index_php",
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index_archivos/preembarques/index.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

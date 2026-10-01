@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_cotizaciones_internacional_terrestre_php",
+      "label": "terrestre.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/cotizaciones/internacional/terrestre.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

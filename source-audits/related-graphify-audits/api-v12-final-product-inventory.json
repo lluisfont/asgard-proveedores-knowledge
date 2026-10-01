@@ -1,0 +1,185 @@
+{
+  "auditor_version": "0.8.0",
+  "detector_hints": [],
+  "excluded_roots": [
+    ".brownfield",
+    ".pytest_cache",
+    ".ruff_cache",
+    "bandit_v0961.json",
+    "build",
+    "dist_audit",
+    "dist_audit_iter",
+    "dist_audit_pass3",
+    "graphify-out",
+    "graphify/__pycache__",
+    "graphify/exporters/__pycache__",
+    "graphify/extractors/__pycache__",
+    "pip_audit_v0961.json",
+    "pyright_v0961.json",
+    "tests",
+    "tools/__pycache__",
+    "tools/skillgen/__pycache__",
+    "worked"
+  ],
+  "existing_specs": [],
+  "files_scanned": 496,
+  "frameworks": [],
+  "http_clients": [],
+  "integration_surfaces": [],
+  "inventory_complete": false,
+  "languages": [
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/__init__.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/__main__.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/_minhash.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/affected.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/analyze.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/benchmark.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/build.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cache.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/callflow_html.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cargo_introspect.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cli.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cluster.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cross_repo_calls.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cross_repo_types.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/csharp_dispatch.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/dedup.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/detect.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/diagnostics.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/export.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/extract.py"
+        }
+      ],
+      "kind": "language",
+      "name": "python"
+    }
+  ],
+  "manifest_errors": [],
+  "manifests": [
+    "pyproject.toml"
+  ],
+  "notes": [
+    "inventory_complete describes execution coverage of inventory scope v1.0, not proof that every possible technology pattern is known.",
+    "Dependency-manifest matches are confirmed; source-code signatures are probable unless corroborated by a manifest.",
+    "Documentation files are not searched for technology signatures to avoid false positives.",
+    "working tree is dirty"
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "graphify-v0.9.61-final-product",
+  "repository_identity_source": "explicit",
+  "required_detector_categories": [
+    "inventory",
+    "configuration"
+  ],
+  "schema_version": "1.0",
+  "scope_version": "1.0",
+  "skipped_oversize_files": [],
+  "skipped_symlinks": [],
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "submodules": [],
+  "text_files_inspected": 98,
+  "working_tree_dirty": true
+}

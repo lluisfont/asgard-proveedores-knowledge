@@ -1,0 +1,11 @@
+{
+  "directed": true,
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "N1",
+      "community": 0
+    }
+  ],
+  "edges": []
+}

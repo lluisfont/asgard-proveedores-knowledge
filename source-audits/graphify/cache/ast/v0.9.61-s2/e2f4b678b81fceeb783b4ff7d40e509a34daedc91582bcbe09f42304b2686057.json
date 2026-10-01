@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_versolicitud_php",
+      "label": "versolicitud.php",
+      "file_type": "code",
+      "source_file": "index_archivos/versolicitud.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

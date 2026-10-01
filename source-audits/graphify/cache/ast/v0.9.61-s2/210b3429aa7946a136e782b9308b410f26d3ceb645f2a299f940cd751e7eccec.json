@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajaxasignacion_conductores_php",
+      "label": "conductores.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajaxAsignacion/conductores.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

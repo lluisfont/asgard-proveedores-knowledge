@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_php",
+      "label": "IWriter.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/IWriter.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_phpexcel_writer_iwriter",
+      "label": "PHPExcel_Writer_IWriter",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/IWriter.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_phpexcel_writer_iwriter_save",
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/IWriter.php",
+      "source_location": "L44",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_phpexcel_writer_iwriter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/IWriter.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_phpexcel_writer_iwriter",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_iwriter_phpexcel_writer_iwriter_save",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/IWriter.php",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_expiredexception_php",
+      "label": "ExpiredException.php",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/ExpiredException.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_expiredexception_expiredexception",
+      "label": "ExpiredException",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/ExpiredException.php",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "unexpectedvalueexception",
+      "label": "UnexpectedValueException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_expiredexception_php",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_expiredexception_expiredexception",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/ExpiredException.php",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_expiredexception_expiredexception",
+      "target": "unexpectedvalueexception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/ExpiredException.php",
+      "source_location": "L4",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

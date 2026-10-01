@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-15T14:12:41.223508+00:00",
+  "status": "IMPORTED",
+  "source_dir": "graphify-out",
+  "imported": [
+    {
+      "name": "GRAPH_REPORT.md",
+      "source": "graphify-out/GRAPH_REPORT.md",
+      "work_path": "work/graphify/GRAPH_REPORT.md",
+      "size_bytes": 191362,
+      "sha256": "0420fa97a050f7acf80918a7da8dbd98ae9d09d95ef4fa8303f990540c6dda32"
+    },
+    {
+      "name": "graph.json",
+      "source": "graphify-out/graph.json",
+      "work_path": "work/graphify/graph.json",
+      "size_bytes": 80923760,
+      "sha256": "44968f2e29311f16fad7249de713ff62715b53a6cb1280d70a364b2a83a7754c"
+    },
+    {
+      "name": "graph.html",
+      "source": "graphify-out/graph.html",
+      "work_path": "work/graphify/graph.html",
+      "size_bytes": 1962687,
+      "sha256": "1b5b3634ee45175ce4032bf435babb1e771691a790b3cfc1f7984eaaffbe9e44"
+    }
+  ],
+  "missing": [],
+  "trust_boundary": "Graphify output is treated as external architecture evidence. Edges tagged EXTRACTED or INFERRED must keep their original confidence and cannot be promoted to confirmed business behavior without review.",
+  "recommended_next_phases": [
+    "05-architecture-reconstruct",
+    "08-domain-discover",
+    "09-business-reconstruct",
+    "11-flow-usage-semantics-reconstruct",
+    "15-openspec-baseline"
+  ]
+}

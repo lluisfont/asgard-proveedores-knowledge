@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_pedidos_php",
+      "label": "pedidos.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/pedidos.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

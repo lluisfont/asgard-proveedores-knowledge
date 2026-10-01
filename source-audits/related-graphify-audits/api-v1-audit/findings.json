@@ -1,0 +1,278 @@
+{
+  "artifacts": {
+    "api-knowledge.md": {
+      "sha256": "2c668daff1fac12b5148d601b19694ff166c50de494464af06097234e04dd17e",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "audit-report.md": {
+      "sha256": "ab5ec75ceb98557f897b2b4558a26c5cc2f290da74e2eb252ac0207182bf9ec2",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "openapi.yaml": {
+      "sha256": "f8c97850eb1ecb9b99beb97ac1c60624e15f9698943549a2efd77756dc976cae",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    }
+  },
+  "audit_id": "audit-948c4f9ecafa27fb",
+  "audit_timestamp": "2026-09-15T10:55:06.448193+00:00",
+  "auditor_version": "0.8.0",
+  "coverage": {
+    "contract_enrichment": {
+      "path_parameters_applicable": 0,
+      "path_parameters_enriched": 0,
+      "request_enriched": 0,
+      "request_enrichment_applicable": 0,
+      "response_enriched": 0,
+      "response_enrichment_applicable": 0,
+      "security_enriched": 0,
+      "security_enrichment_applicable": 0,
+      "total_exposed_endpoints": 0,
+      "unresolved_contract_enrichment": 0
+    },
+    "detectors": [
+      {
+        "category": "exposed",
+        "detector_id": "aspnet-core-routes",
+        "detector_version": "0.0.0",
+        "files_scanned": 0,
+        "notes": [],
+        "status": "unsupported",
+        "supported_patterns": [],
+        "unsupported_patterns": [
+          "aspnet-core"
+        ]
+      },
+      {
+        "category": "exposed",
+        "detector_id": "django-routes",
+        "detector_version": "0.0.0",
+        "files_scanned": 0,
+        "notes": [],
+        "status": "unsupported",
+        "supported_patterns": [],
+        "unsupported_patterns": [
+          "django"
+        ]
+      },
+      {
+        "category": "exposed",
+        "detector_id": "nestjs-routes",
+        "detector_version": "0.0.0",
+        "files_scanned": 0,
+        "notes": [],
+        "status": "unsupported",
+        "supported_patterns": [],
+        "unsupported_patterns": [
+          "nestjs"
+        ]
+      },
+      {
+        "category": "consumed",
+        "detector_id": "angular-httpclient-consumer",
+        "detector_version": "1.0.0",
+        "files_scanned": 1,
+        "notes": [],
+        "status": "partial",
+        "supported_patterns": [
+          "direct literal angular-httpclient HTTP calls"
+        ],
+        "unsupported_patterns": [
+          "http_client_detected_no_calls"
+        ]
+      },
+      {
+        "category": "consumed",
+        "detector_id": "dotnet-httpclient-consumer",
+        "detector_version": "0.0.0",
+        "files_scanned": 0,
+        "notes": [],
+        "status": "unsupported",
+        "supported_patterns": [],
+        "unsupported_patterns": [
+          "dotnet-httpclient"
+        ]
+      },
+      {
+        "category": "consumed",
+        "detector_id": "fetch-consumer",
+        "detector_version": "1.0.0",
+        "files_scanned": 1,
+        "notes": [],
+        "status": "partial",
+        "supported_patterns": [
+          "direct literal fetch HTTP calls"
+        ],
+        "unsupported_patterns": [
+          "fetch_dynamic_or_complex_call_unresolved",
+          "http_client_detected_no_calls"
+        ]
+      },
+      {
+        "category": "integration",
+        "detector_id": "integration-surface-gate",
+        "detector_version": "1.0.0",
+        "files_scanned": 0,
+        "notes": [],
+        "status": "partial",
+        "supported_patterns": [],
+        "unsupported_patterns": [
+          "sse"
+        ]
+      }
+    ],
+    "exclusion_rules": [
+      ".brownfield",
+      ".pytest_cache",
+      ".ruff_cache",
+      "bandit_v0961.json",
+      "build",
+      "dist_audit",
+      "dist_audit_iter",
+      "dist_audit_pass3",
+      "graphify/__pycache__",
+      "graphify/exporters/__pycache__",
+      "graphify/extractors/__pycache__",
+      "pip_audit_v0961.json",
+      "pyright_v0961.json",
+      "tests/__pycache__",
+      "tests/fixtures/__pycache__",
+      "tools/__pycache__",
+      "tools/skillgen/__pycache__"
+    ],
+    "files_excluded": 0,
+    "files_scanned": 1601,
+    "frameworks": [
+      "aspnet-core",
+      "django",
+      "nestjs"
+    ],
+    "http_clients": [
+      "angular-httpclient",
+      "dotnet-httpclient",
+      "fetch"
+    ],
+    "inventory_complete": false,
+    "languages": [
+      "csharp",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "php",
+      "python",
+      "ruby",
+      "swift",
+      "typescript"
+    ],
+    "notes": [
+      "Exact excluded-file count is not tracked in technical inventory v1.0.",
+      "contract_enrichment_scope=not_applicable",
+      "correlation_scope=out_of_scope"
+    ],
+    "required_detector_categories": [
+      "inventory",
+      "framework",
+      "configuration",
+      "exposed",
+      "consumed",
+      "integration"
+    ],
+    "semantic_enrichment": {
+      "operations_with_auth_context_facts": 0,
+      "operations_with_conditional_outcome_facts": 0,
+      "operations_with_data_access_facts": 0,
+      "operations_with_non_generic_description": 0,
+      "operations_with_outbound_integration_facts": 0,
+      "semantic_analysis_attempted": 0,
+      "semantic_complete": 0,
+      "semantic_partial": 0,
+      "semantic_unresolved": 0,
+      "semantic_unresolved_count": 0,
+      "total_exposed_endpoints": 0
+    },
+    "unsupported_surfaces": [
+      "sse"
+    ]
+  },
+  "endpoints": [],
+  "integration_surfaces": [],
+  "notes": [
+    "Generated from deterministic source discovery.",
+    "Consumed HTTP calls are retained in findings/knowledge but are not emitted as OpenAPI paths.",
+    "SOAP is retained as a non-REST integration surface."
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "graphify-v0.9.61",
+  "schema_version": "2.0",
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "status": "partial",
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'aspnet-core' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-6b457107d310702a"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'django' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-3bc81298e0c286a4"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'nestjs' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-44aa0a11cb368052"
+    },
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'angular-httpclient' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-3a4641e954db351c"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_http_client: HTTP client 'dotnet-httpclient' is detected but has no v0.4 endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-b64386aed15d5fd9"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 11,
+          "note": "unresolved fetch call",
+          "path": "tests/fixtures/sample.ts"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'fetch' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-cef81bbf50c912af"
+    },
+    {
+      "category": "coverage",
+      "description": "non_http_integration_requires_dedicated_detector: Non-HTTP/OpenAPI integration surfaces detected (sse); v0.4 endpoint discovery does not audit those contracts yet.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-e0ca08ef102f1955"
+    }
+  ]
+}

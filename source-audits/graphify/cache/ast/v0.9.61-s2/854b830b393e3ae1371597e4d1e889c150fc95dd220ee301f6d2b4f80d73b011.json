@@ -1,0 +1,4199 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_php",
+      "label": "tcpdf_static.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "label": "TCPDF_STATIC",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L52",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettcpdfversion",
+      "label": ".getTCPDFVersion()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L117",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettcpdfproducer",
+      "label": ".getTCPDFProducer()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L127",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_set_mqr",
+      "label": ".set_mqr()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L137",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_get_mqr",
+      "label": ".get_mqr()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L153",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidurl",
+      "label": ".isValidURL()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L171",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_removeshy",
+      "label": ".removeSHY()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "label": ".getBorderMode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L211",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_empty_string",
+      "label": ".empty_string()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L283",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getobjfilename",
+      "label": ".getObjFilename()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L295",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escape",
+      "label": "._escape()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L305",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escapexml",
+      "label": "._escapeXML()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L317",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_objclone",
+      "label": ".objclone()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L330",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_sendoutputdata",
+      "label": ".sendOutputData()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L345",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_replacepagenumaliases",
+      "label": ".replacePageNumAliases()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L361",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettimestamp",
+      "label": ".getTimestamp()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L380",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getformatteddate",
+      "label": ".getFormattedDate()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L395",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "label": ".getRandomSeed()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L407",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_md5_16",
+      "label": "._md5_16()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L430",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "label": "._AES()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L444",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "label": "._AESnopad()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L469",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "label": "._RC4()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L492",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getuserpermissioncode",
+      "label": ".getUserPermissionCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L536",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_converthexstringtostring",
+      "label": ".convertHexStringToString()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L573",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "label": ".convertStringToHexString()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L595",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "label": ".getEncPermissionsString()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L612",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "label": ".encodeNameObject()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L629",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "label": ".getAnnotOptFromJSProp()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L653",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formatpagenumber",
+      "label": ".formatPageNumber()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1019",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formattocpagenumber",
+      "label": ".formatTOCPageNumber()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1031",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "label": ".extractCSSproperties()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1043",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "label": ".fixHTMLCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1139",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "label": ".isValidCSSSelectorForTag()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1205",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "label": ".getCSSdataArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1365",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "label": ".getTagStyleFromCSSarray()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1410",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_inttoroman",
+      "label": ".intToRoman()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1441",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "label": ".revstrpos()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1507",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "label": ".getHyphenPatternsFromTEX()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1522",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpathpaintoperator",
+      "label": ".getPathPaintOperator()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1568",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettransformationmatrixproduct",
+      "label": ".getTransformationMatrixProduct()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1647",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "label": ".getSVGTransformMatrix()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1666",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "label": ".getVectorsAngle()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1763",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "label": ".pregSplit()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1823",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fopenlocal",
+      "label": ".fopenLocal()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1848",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "label": ".fileGetContents()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1866",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getulong",
+      "label": "._getULONG()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1963",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getushort",
+      "label": "._getUSHORT()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1977",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getshort",
+      "label": "._getSHORT()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1991",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfword",
+      "label": "._getFWORD()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2005",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getufword",
+      "label": "._getUFWORD()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2022",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfixed",
+      "label": "._getFIXED()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2036",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbyte",
+      "label": "._getBYTE()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2054",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "label": ".rfread()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2068",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_freadint",
+      "label": "._freadint()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2086",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagesizefromformat",
+      "label": ".getPageSizeFromFormat()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2456",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_setpageboxes",
+      "label": ".setPageBoxes()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2478",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_swappageboxcoordinates",
+      "label": ".swapPageBoxCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2504",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagelayoutmode",
+      "label": ".getPageLayoutMode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2525",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagemode",
+      "label": ".getPageMode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2568",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_php",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettcpdfversion",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettcpdfproducer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_set_mqr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_get_mqr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidurl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_removeshy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_empty_string",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getobjfilename",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escape",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escapexml",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L317",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_objclone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_sendoutputdata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_replacepagenumaliases",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettimestamp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getformatteddate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_md5_16",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L469",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L492",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getuserpermissioncode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L536",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_converthexstringtostring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L595",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L612",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L629",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L653",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formatpagenumber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1019",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formattocpagenumber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1031",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1043",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1205",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1410",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_inttoroman",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1441",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1507",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1522",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpathpaintoperator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1568",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettransformationmatrixproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1647",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1666",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1763",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1823",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fopenlocal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1848",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1866",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getulong",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1963",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getushort",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1977",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getshort",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1991",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2005",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getufword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2022",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfixed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2036",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbyte",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2054",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2068",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_freadint",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2086",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagesizefromformat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2456",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_setpageboxes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2478",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_swappageboxcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2504",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagelayoutmode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2525",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagemode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2568",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getobjfilename",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L296",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1537",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettcpdfproducer",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_set_mqr",
+      "callee": "defined",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_set_mqr",
+      "callee": "define",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L140",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_set_mqr",
+      "callee": "set_magic_quotes_runtime",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L143",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_get_mqr",
+      "callee": "defined",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_get_mqr",
+      "callee": "define",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L156",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_get_mqr",
+      "callee": "get_magic_quotes_runtime",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L159",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidurl",
+      "callee": "get_headers",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L172",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidurl",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L173",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_removeshy",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L194",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_removeshy",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L196",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L212",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "is_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L218",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L220",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L243",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L250",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L252",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L261",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbordermode",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L264",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_empty_string",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_empty_string",
+      "callee": "is_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_empty_string",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getobjfilename",
+      "callee": "tempnam",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L296",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getobjfilename",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L296",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escape",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L307",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escape",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L307",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_escapexml",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L319",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_objclone",
+      "callee": "version_compare",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L331",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_objclone",
+      "callee": "phpversion",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L331",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_objclone",
+      "callee": "clone",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L333",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_sendoutputdata",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L346",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_sendoutputdata",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L346",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_sendoutputdata",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L348",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_replacepagenumaliases",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L364",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_replacepagenumaliases",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L365",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettimestamp",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L383",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettimestamp",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L385",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getformatteddate",
+      "callee": "substr_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L396",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getformatteddate",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L396",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getformatteddate",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L396",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "uniqid",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L408",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "rand",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L408",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "microtime",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L408",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L409",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "posix_getpid",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L410",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "openssl_random_pseudo_bytes",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L414",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "uniqid",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L417",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "serialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getrandomseed",
+      "callee": "microtime",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_md5_16",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L431",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_md5_16",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L431",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L446",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "str_repeat",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L447",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L447",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "extension_loaded",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L448",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "openssl_random_pseudo_bytes",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L449",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "openssl_cipher_iv_length",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L449",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "openssl_encrypt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L451",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "mcrypt_create_iv",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L453",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "mcrypt_get_iv_size",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L453",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aes",
+      "callee": "mcrypt_encrypt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L454",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "extension_loaded",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L470",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "str_repeat",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L471",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "openssl_cipher_iv_length",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L471",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "openssl_encrypt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L472",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L473",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "str_repeat",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L475",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "mcrypt_get_iv_size",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L475",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_aesnopad",
+      "callee": "mcrypt_encrypt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L476",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L493",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "mcrypt_encrypt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L493",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "str_repeat",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L498",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L498",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L503",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L512",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L523",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rc4",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L523",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getuserpermissioncode",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L550",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_converthexstringtostring",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L575",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_converthexstringtostring",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L582",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_converthexstringtostring",
+      "callee": "hexdec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L582",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L597",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L599",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L599",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_convertstringtohexstring",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L599",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L613",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L614",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "bindec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L614",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L614",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L615",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "bindec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L615",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L615",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L616",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "bindec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L616",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L616",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L617",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "bindec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L617",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getencpermissionsstring",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L617",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L631",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L634",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L637",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_encodenameobject",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L637",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L654",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L654",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L681",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L682",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L687",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L724",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L724",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L727",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L730",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L735",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L739",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L743",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L747",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L760",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L781",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L821",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L822",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "TCPDF_COLORS",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L829",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L830",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "TCPDF_COLORS",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L833",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L837",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L841",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L842",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L844",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L848",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L852",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L856",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L860",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L864",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L868",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L872",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L876",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L880",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L884",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L888",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L892",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L896",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L900",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L904",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L908",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L912",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L916",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L921",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L926",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L930",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L943",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L943",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L947",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L948",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L952",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L963",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L967",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L971",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L975",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getannotoptfromjsprop",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L979",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formatpagenumber",
+      "callee": "number_format",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1020",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_formattocpagenumber",
+      "callee": "number_format",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1032",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1044",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1048",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1050",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1052",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1054",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1056",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1057",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1059",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1063",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1068",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1071",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1071",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1074",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1074",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1081",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1083",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1085",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1088",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1089",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1096",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1097",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1099",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1112",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1112",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_extractcssproperties",
+      "callee": "ksort",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "tidy_parse_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "cleanRepair",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1164",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "tidy_get_head",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1166",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1169",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1170",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1172",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1173",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1174",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "tidy_get_body",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1181",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1184",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fixhtmlcode",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1187",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1210",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1210",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1213",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1213",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1214",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1216",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1218",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "array_pop",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1219",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "array_pop",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1222",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1223",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1223",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "array_pop",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1226",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1228",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1238",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1245",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1246",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1248",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1257",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1257",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1269",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1269",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1275",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1283",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1313",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1317",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1327",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1333",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_isvalidcssselectorfortag",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1342",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1369",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1374",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1376",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1378",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1380",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1381",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1388",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1395",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getcssdataarray",
+      "callee": "ksort",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1399",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1414",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1416",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1417",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1419",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1422",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gettagstylefromcssarray",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1430",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1508",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1510",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "callee": "strrev",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1510",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "callee": "strrev",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1510",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_revstrpos",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1511",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "file_get_contents",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1525",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1528",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1530",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1531",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1531",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1533",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1538",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1539",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_gethyphenpatternsfromtex",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1540",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpathpaintoperator",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1628",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpathpaintoperator",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1629",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1670",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1672",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1682",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1693",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1696",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1702",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1705",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1712",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1713",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1716",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1717",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1722",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1723",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1724",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1725",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1734",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1735",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1735",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1740",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1741",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1741",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getsvgtransformmatrix",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1746",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1765",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1766",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "callee": "acos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1767",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getvectorsangle",
+      "callee": "is_nan",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1768",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1826",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1830",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1831",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1831",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1831",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1833",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1835",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1836",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_pregsplit",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1836",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fopenlocal",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1849",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fopenlocal",
+      "callee": "stream_is_local",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1851",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_fopenlocal",
+      "callee": "fopen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1854",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1869",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1872",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1875",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "htmlspecialchars_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1877",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "urldecode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1877",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1882",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1882",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1887",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1887",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1888",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "htmlspecialchars_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1890",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1893",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1894",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1895",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "parse_url",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1897",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1898",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1900",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1902",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "htmlspecialchars_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1903",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "urldecode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1903",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1908",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1909",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1910",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "parse_url",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1912",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "array_unique",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1916",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "file_get_contents",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1919",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "ini_get",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1924",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1925",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1926",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_init",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1929",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1930",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1931",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1932",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1933",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "ini_get",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1934",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "ini_get",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1934",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1935",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1937",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1938",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1939",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1941",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_exec",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1942",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_filegetcontents",
+      "callee": "curl_close",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1943",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getulong",
+      "callee": "unpack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1964",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getulong",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1964",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getushort",
+      "callee": "unpack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1978",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getushort",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1978",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getshort",
+      "callee": "unpack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1992",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getshort",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L1992",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfword",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2006",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getufword",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2023",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfixed",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2038",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfixed",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2040",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getfixed",
+      "callee": "floatval",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2041",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbyte",
+      "callee": "unpack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2055",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getbyte",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2055",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2069",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2073",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "callee": "feof",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2074",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_rfread",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2075",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_freadint",
+      "callee": "unpack",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2087",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_freadint",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2087",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_getpagesizefromformat",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2457",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_setpageboxes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2479",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_setpageboxes",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2483",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_static_tcpdf_static_swappageboxcoordinates",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_static.php",
+      "source_location": "L2507",
+      "receiver": null
+    }
+  ]
+}

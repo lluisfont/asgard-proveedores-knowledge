@@ -1,0 +1,513 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_php",
+      "label": "JWK.php",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "label": "JWK",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "label": ".parseKeySet()",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "label": ".parseKey()",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L73",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "label": ".createPemFromModulusAndExponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "label": ".encodeLength()",
+      "file_type": "code",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L161",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_php",
+      "target": "domainexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_php",
+      "target": "unexpectedvalueexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_php",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk",
+      "target": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L161",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "UnexpectedValueException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L42",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "InvalidArgumentException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L43",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L47",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "\\count",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L53",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekeyset",
+      "callee": "UnexpectedValueException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L54",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L75",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "InvalidArgumentException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L76",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L78",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "UnexpectedValueException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "\\array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "UnexpectedValueException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "UnexpectedValueException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L91",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "\\openssl_pkey_get_public",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L92",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "DomainException",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L94",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_parsekey",
+      "callee": "\\openssl_error_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "JWT",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "JWT",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L125",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L136",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L136",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L136",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\chunk_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_createpemfrommodulusandexponent",
+      "callee": "\\base64_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L164",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\ltrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L169",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_php_jwt_5_2_0_src_jwk_jwk_encodelength",
+      "callee": "\\strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/php-jwt-5.2.0/src/JWK.php",
+      "source_location": "L169",
+      "receiver": null
+    }
+  ]
+}

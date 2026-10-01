@@ -1,0 +1,175 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_php",
+      "label": "TextElement.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "label": "PHPExcel_RichText_TextElement",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L34",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_richtext_itextelement",
+      "label": "PHPExcel_RichText_ITextElement",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_gettext",
+      "label": ".getText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_settext",
+      "label": ".setText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_getfont",
+      "label": ".getFont()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L79",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L98",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "phpexcel_richtext_itextelement",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_gettext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_settext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_getfont",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L98",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L89",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L99",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_richtext_textelement_phpexcel_richtext_textelement_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/RichText/TextElement.php",
+      "source_location": "L101",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_cotizaciones_internacional_multimodal_php",
+      "label": "multimodal.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/cotizaciones/internacional/multimodal.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

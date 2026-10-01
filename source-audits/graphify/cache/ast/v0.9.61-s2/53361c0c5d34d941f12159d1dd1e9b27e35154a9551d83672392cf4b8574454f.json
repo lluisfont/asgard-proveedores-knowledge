@@ -1,0 +1,503 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_php",
+      "label": "PHPTemp.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "label": "PHPExcel_CachedObjectStorage_PHPTemp",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_cachedobjectstorage_cachebase",
+      "label": "PHPExcel_CachedObjectStorage_CacheBase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_cachedobjectstorage_icache",
+      "label": "PHPExcel_CachedObjectStorage_ICache",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "label": "._storeData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_addcachedata",
+      "label": ".addCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_cell",
+      "label": "PHPExcel_Cell",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "label": ".getCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcelllist",
+      "label": ".getCellList()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "label": ".copyCellCollection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L147",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_unsetworksheetcells",
+      "label": ".unsetWorksheetCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L165",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_destruct",
+      "label": ".__destruct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L199",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "phpexcel_cachedobjectstorage_cachebase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "phpexcel_cachedobjectstorage_icache",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_addcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_addcachedata",
+      "target": "phpexcel_cell",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcelllist",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L147",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_unsetworksheetcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_destruct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_addcachedata",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcelllist",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_unsetworksheetcells",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_destruct",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L176",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L60",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "detach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L61",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "fseek",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L63",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "ftell",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L64",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "serialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_storedata",
+      "callee": "ftell",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L67",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "callee": "fseek",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "callee": "unserialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcachedata",
+      "callee": "attach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_getcelllist",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "fopen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L150",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "fseek",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "feof",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L153",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_copycellcollection",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_unsetworksheetcells",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L166",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_unsetworksheetcells",
+      "callee": "detach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L187",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L190",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_construct",
+      "callee": "fopen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L191",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_destruct",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L200",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_phptemp_phpexcel_cachedobjectstorage_phptemp_destruct",
+      "callee": "fclose",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/PHPTemp.php",
+      "source_location": "L201",
+      "receiver": null
+    }
+  ]
+}

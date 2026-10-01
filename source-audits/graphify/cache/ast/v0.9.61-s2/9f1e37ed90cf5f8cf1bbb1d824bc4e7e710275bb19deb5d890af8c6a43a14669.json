@@ -1,0 +1,637 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_php",
+      "label": "tcPDF.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "label": "PHPExcel_Writer_PDF_tcPDF",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_writer_pdf_core",
+      "label": "PHPExcel_Writer_PDF_Core",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_writer_iwriter",
+      "label": "PHPExcel_Writer_IWriter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel",
+      "label": "PHPExcel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L63",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "target": "phpexcel_writer_pdf_core",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "target": "phpexcel_writer_iwriter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_construct",
+      "target": "phpexcel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L63",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L54",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getOrientation",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageSetup",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPaperSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L76",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageSetup",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L76",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L76",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageMargins",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L77",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L77",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getOrientation",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageSetup",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPaperSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageSetup",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPageMargins",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getOrientation",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getOrientation",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L89",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L94",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPaperSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L94",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getPaperSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L98",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "TCPDF",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L104",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "setFontSubsetting",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetMargins",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getLeft",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getTop",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getRight",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetAutoPageBreak",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getBottom",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "setPrintHeader",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "setPrintFooter",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "AddPage",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L116",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L116",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "writeHTML",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "generateHTMLHeader",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "generateSheetData",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L119",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "generateHTMLFooter",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetTitle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getTitle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getProperties",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetAuthor",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L125",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getCreator",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L125",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getProperties",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L125",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetSubject",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getSubject",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getProperties",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetKeywords",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getKeywords",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getProperties",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "SetCreator",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getCreator",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "getProperties",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "output",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_writer_pdf_tcpdf_phpexcel_writer_pdf_tcpdf_save",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Writer/PDF/tcPDF.php",
+      "source_location": "L133",
+      "receiver": null
+    }
+  ]
+}

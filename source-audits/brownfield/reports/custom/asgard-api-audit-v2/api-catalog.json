@@ -1,0 +1,265 @@
+{
+  "auditor_version": "0.8.0",
+  "catalog_id": "catalog-7e000eca229013137c16",
+  "coverage": {
+    "consumed_endpoints": 2,
+    "discovery_complete": false,
+    "excluded_endpoints": 0,
+    "exposed_endpoints": 0,
+    "included_endpoints": 2,
+    "inventory_complete": false,
+    "total_endpoints": 2,
+    "unresolved": 1
+  },
+  "endpoints": [
+    {
+      "api_id": null,
+      "authentication": {
+        "authentication": null,
+        "authorization": null,
+        "credential_format": null,
+        "evidence": [],
+        "header_semantics": null,
+        "required": null,
+        "scheme": null,
+        "schemes": [],
+        "unresolved": []
+      },
+      "base_url": "https://maps.googleapis.com",
+      "behavior": {
+        "auth_context": {
+          "consumed_jwt_claims": [],
+          "produced_jwt_claims": []
+        },
+        "conditions": [],
+        "confidence": null,
+        "data_access": [],
+        "evidence": [],
+        "local_calls": [],
+        "outbound_integrations": [],
+        "request_fields": [],
+        "response_semantics": {},
+        "schema_version": null,
+        "semantic_partial_materiality": null,
+        "semantic_status": null,
+        "side_effects": [],
+        "source_module": null,
+        "summary": null,
+        "tags": [],
+        "unresolved": []
+      },
+      "confidence": "confirmed",
+      "confidence_reason": "Literal fetch HTTP method and URL found in source.",
+      "contract_status": "unknown",
+      "direction": "consumed",
+      "endpoint_id": "endpoint-8776e9ffb4a902d97b22",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 104,
+          "note": "fetch HTTP call",
+          "path": "index_archivos/tracking/vue/components/location.component.js"
+        }
+      ],
+      "headers": [],
+      "method": "GET",
+      "normalized_path": "/maps/api/geocode/json",
+      "notes": [],
+      "parameters": [],
+      "path_shape": "/maps/api/geocode/json",
+      "request": {
+        "accepts_additional_parameters": null,
+        "body_schema": null,
+        "content_type": null,
+        "evidence": [],
+        "fields": [],
+        "optional_fields": [],
+        "parameters": [],
+        "rejects_additional_parameters": null,
+        "required_fields": [],
+        "unknown_requiredness_fields": [],
+        "unresolved": []
+      },
+      "response": {
+        "additional_fields_backward_compatible": null,
+        "content_type": null,
+        "evidence": [],
+        "fields": [],
+        "fields_used_by_consumer": [],
+        "optional_fields": [],
+        "required_fields": [],
+        "schema": null,
+        "status_code_compatibility": null,
+        "status_codes": [],
+        "tolerates_additional_fields": null,
+        "tolerates_additional_statuses": null,
+        "unknown_requiredness_fields": [],
+        "unresolved": []
+      },
+      "scope": {
+        "selectors": [],
+        "status": "included"
+      },
+      "security": {
+        "drift": [],
+        "policy": "unknown"
+      },
+      "semantic_status": "unknown",
+      "source": {
+        "findings_sha256": "7f4a1e0e35273625aa0c2612dd4f06cd154994287dc0925082867d16f4557cea",
+        "repository_id": "proveedores-master-peru",
+        "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a"
+      },
+      "source_endpoint_id": "ep_74dc3d085e619b689e51",
+      "stable_identity": {
+        "direction": "consumed",
+        "method": "GET",
+        "path_shape": "/maps/api/geocode/json"
+      },
+      "surface_type": "http",
+      "unresolved": []
+    },
+    {
+      "api_id": null,
+      "authentication": {
+        "authentication": null,
+        "authorization": null,
+        "credential_format": null,
+        "evidence": [],
+        "header_semantics": null,
+        "required": null,
+        "scheme": null,
+        "schemes": [],
+        "unresolved": []
+      },
+      "base_url": "https://api.sendgrid.com",
+      "behavior": {
+        "auth_context": {
+          "consumed_jwt_claims": [],
+          "produced_jwt_claims": []
+        },
+        "conditions": [],
+        "confidence": null,
+        "data_access": [],
+        "evidence": [],
+        "local_calls": [],
+        "outbound_integrations": [],
+        "request_fields": [],
+        "response_semantics": {},
+        "schema_version": null,
+        "semantic_partial_materiality": null,
+        "semantic_status": null,
+        "side_effects": [],
+        "source_module": null,
+        "summary": null,
+        "tags": [],
+        "unresolved": []
+      },
+      "confidence": "confirmed",
+      "confidence_reason": "Literal php-curl HTTP method and URL found in source.",
+      "contract_status": "unknown",
+      "direction": "consumed",
+      "endpoint_id": "endpoint-eb1d67eed17a4729aada",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 558,
+          "note": "php-curl HTTP call",
+          "path": "index_archivos/embarques/EmbarqueClass.php"
+        }
+      ],
+      "headers": [],
+      "method": "POST",
+      "normalized_path": "/v3/mail/send",
+      "notes": [],
+      "parameters": [],
+      "path_shape": "/v3/mail/send",
+      "request": {
+        "accepts_additional_parameters": null,
+        "body_schema": null,
+        "content_type": null,
+        "evidence": [],
+        "fields": [],
+        "optional_fields": [],
+        "parameters": [],
+        "rejects_additional_parameters": null,
+        "required_fields": [],
+        "unknown_requiredness_fields": [],
+        "unresolved": []
+      },
+      "response": {
+        "additional_fields_backward_compatible": null,
+        "content_type": null,
+        "evidence": [],
+        "fields": [],
+        "fields_used_by_consumer": [],
+        "optional_fields": [],
+        "required_fields": [],
+        "schema": null,
+        "status_code_compatibility": null,
+        "status_codes": [],
+        "tolerates_additional_fields": null,
+        "tolerates_additional_statuses": null,
+        "unknown_requiredness_fields": [],
+        "unresolved": []
+      },
+      "scope": {
+        "selectors": [],
+        "status": "included"
+      },
+      "security": {
+        "drift": [],
+        "policy": "unknown"
+      },
+      "semantic_status": "unknown",
+      "source": {
+        "findings_sha256": "7f4a1e0e35273625aa0c2612dd4f06cd154994287dc0925082867d16f4557cea",
+        "repository_id": "proveedores-master-peru",
+        "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a"
+      },
+      "source_endpoint_id": "ep_12a92dbed8ff00fb6f9e",
+      "stable_identity": {
+        "direction": "consumed",
+        "method": "POST",
+        "path_shape": "/v3/mail/send"
+      },
+      "surface_type": "http",
+      "unresolved": []
+    }
+  ],
+  "generated_at": "2026-09-15T15:28:56.372426+00:00",
+  "input_hashes": [
+    {
+      "path": "C:\\repos\\proveedores-master_peru\\.brownfield\\work\\custom\\asgard-api-audit-v2\\findings.json",
+      "sha256": "7f4a1e0e35273625aa0c2612dd4f06cd154994287dc0925082867d16f4557cea"
+    }
+  ],
+  "metadata": {
+    "findings_audit_id": "audit-6e48abdfb91166ed",
+    "findings_auditor_version": "0.8.0",
+    "findings_schema_version": "2.0",
+    "findings_sha256": "7f4a1e0e35273625aa0c2612dd4f06cd154994287dc0925082867d16f4557cea",
+    "repository": "asgard-api-audit-target-20260915",
+    "repository_id": "proveedores-master-peru",
+    "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a",
+    "source_ref": "HEAD",
+    "stable_namespace": null
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "exclude_endpoints": [],
+    "excluded_endpoints": 0,
+    "include_endpoints": [],
+    "included_endpoints": 2,
+    "mode": "all"
+  },
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'guzzle' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-9b5c276185a0d553"
+    }
+  ]
+}

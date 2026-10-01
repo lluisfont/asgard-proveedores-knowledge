@@ -1,0 +1,540 @@
+file,line,sink,superglobals_in_context,tainted_vars_in_context,escape_signal,prepare_signal,risk,snippet
+index_archivos/2fa/TwoFaClass.php,135,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""INSERT INTO dav_codigos_2fa (id, codigo, user_ip, correo,tipo_usuario, created_at, updated_at) VALUES"
+index_archivos/2fa/TwoFaClass.php,145,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/2fa/TwoFaClass.php,152,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE dav_codigos_2fa SET deleted_at = CURRENT_TIMESTAMP() WHERE codigo = '$codigo' AND tipo_usuario = 'PROVEEDOR'"");"
+index_archivos/2fa/TwoFaClass.php,159,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE dav_codigos_2fa SET deleted_at = CURRENT_TIMESTAMP() WHERE codigo = '$codigo' AND tipo_usuario = 'PROVEEDOR'"");"
+index_archivos/2fa/TwoFaClass.php,171,mysql_query,,,true,false,legacy_mysql_api,"mysql_query(""UPDATE prov_usuarioaccesoproveedor SET activo = null WHERE idusuarioaccesoproveedor = $usuario->idusuarioaccesoproveedor;"");"
+index_archivos/cambiocontrasena.php,7,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select"
+index_archivos/cargarlibroventas_ajax.php,94,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT idlogislibroventas from logis_libroventas WHERE noautorizacion='"".$facturas[$ff]['noautorizacion'].""' AND nofactura="".$facturas[$ff]['nofactura']."";"");"
+index_archivos/cargarlibroventas_ajax.php,107,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""INSERT INTO logis_libroventas (idoperador, noautorizacion, nofactura, fecha, nit, importe, codigocontrol) VALUES $insertdata;"");"
+index_archivos/cnfdb105.php,23,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""SET NAMES 'utf8'"");"
+index_archivos/cnfdb105.php,24,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""SET time_zone = '-05:00';"");"
+index_archivos/controllers/Commons.php,9,mysql_query,,,false,false,legacy_mysql_api,mysql_query($sp);
+index_archivos/controllers/Commons.php,13,mysql_query,,,false,false,legacy_mysql_api,mysql_query($complemento);
+index_archivos/controllers/Commons.php,15,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,65,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,77,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,89,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,96,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,103,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,110,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,117,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/controllers/GlobalClass.php,146,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/data.php,8,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query($query[$qqy]) or die(mysql_error().""update failed"");;"
+index_archivos/data.php,13,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query[0]);
+index_archivos/embarques/ajax/listaClientesFiltro.php,87,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/ajax/listaLineasFiltro.php,85,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/ajax/listaRutas.php,18,mysql_query,REQUEST.idembarque,$id,false,false,tainted_sql,$result = mysql_query($query);
+index_archivos/embarques/ajax/saveDescripcionItems.php,9,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE logis_pedidos_detalle SET "".$campo[1].""='$value' WHERE id="".$campo[2]."";"");"
+index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php,478,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select * from dav_usuario WHERE (idciudad="".(int)$datosSolicitud[0]['idciudad']."" AND idtipousuario=7 AND ifnull(activo,0)=1) "".$filtrovehiculo."";"");"
+index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php,497,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select id as idusuario, nombre, mail, idagentesaduana from ada_agentescontactos WHERE idagentesaduana="".$idagentesaduana."";"");"
+index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php,778,mysql_query,,,false,false,legacy_mysql_api,$result2 = mysql_query($query2);
+index_archivos/embarques/componentes/embarques_lista_viajes.php,98,mysql_query,GET.id,$id,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/componentes/embarques_rutas.php,10,mysql_query,GET.id,$id,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,20,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,59,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""SET @idcliente=$idcliente;"");"
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,102,mysql_query,,,false,false,legacy_mysql_api,"if (mysql_query(""UPDATE logis_edp SET deleted_at = CURRENT_TIMESTAMP() WHERE id = $estadoPedidoId"")){"
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,143,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,148,mysql_query,,,false,false,legacy_mysql_api,"$queryactores = mysql_fetch_assoc(mysql_query(""SELECT idagentesaduana, gestor_transporte_id FROM logis_embarques WHERE id = {$dataX->embarque_id}""));"
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,153,mysql_query,,,false,false,legacy_mysql_api,$result4 = mysql_query($operadorlog);
+index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,156,mysql_query,,,false,false,legacy_mysql_api,"$nombreOperador  = mysql_fetch_assoc(mysql_query(""SELECT nombre, (SELECT idusuario FROM logis_embarques WHERE id = {$dataX->embarque_id} AND idtransportista IS NULL) AS cliente_id  from prov_usuarioaccesoproveedor WHERE "
+index_archivos/embarques/CostosClass.php,22,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,30,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,37,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,151,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,159,mysql_query,,,false,false,legacy_mysql_api,$resultMag = mysql_query($queryMag);
+index_archivos/embarques/CostosClass.php,176,mysql_query,,,false,false,legacy_mysql_api,$resultCon = mysql_query($queryCon);
+index_archivos/embarques/CostosClass.php,192,mysql_query,,,false,false,legacy_mysql_api,$resultOperador = mysql_query($queryOperador);
+index_archivos/embarques/CostosClass.php,199,mysql_query,,,false,false,legacy_mysql_api,$resultDocs = mysql_query($queryDocs);
+index_archivos/embarques/CostosClass.php,243,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,254,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,282,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,286,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($queryupd);
+index_archivos/embarques/CostosClass.php,295,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,308,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,322,mysql_query,,,false,false,legacy_mysql_api,$agenteAduana = mysql_query($queryAgenteAduana);
+index_archivos/embarques/CostosClass.php,333,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,345,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,392,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/embarques/CostosClass.php,405,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,429,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,448,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,450,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = {$embarqueId} AND categoria_id = {$categoriaId}"");"
+index_archivos/embarques/CostosClass.php,451,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN ({$query})"");"
+index_archivos/embarques/CostosClass.php,459,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,488,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,512,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,551,mysql_query,,,false,false,legacy_mysql_api,$resultCostoDetalle = mysql_query($query);
+index_archivos/embarques/CostosClass.php,560,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_costos_detalle WHERE costos_id = {$costosID} AND esAutomatico = 1"");"
+index_archivos/embarques/CostosClass.php,575,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/embarques/CostosClass.php,583,mysql_query,,,false,false,legacy_mysql_api,if(mysql_query($query)) {
+index_archivos/embarques/CostosClass.php,586,mysql_query,,,false,false,legacy_mysql_api,$resLastCost = mysql_query($queryLastCost);
+index_archivos/embarques/CostosClass.php,591,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_costos WHERE id = {$lastCostID}"");"
+index_archivos/embarques/CostosClass.php,601,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,605,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,610,mysql_query,,,false,false,legacy_mysql_api,"$nombreOperador  = mysql_fetch_assoc(mysql_query(""SELECT nombre, (SELECT idusuario FROM logis_embarques WHERE id = {$embarqueId} AND idtransportista IS NULL) AS cliente_id  from prov_usuarioaccesoproveedor WHERE idusuari"
+index_archivos/embarques/CostosClass.php,612,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,672,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CostosClass.php,692,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,20,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,40,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,48,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,65,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,94,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,107,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,120,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,137,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,149,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,162,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,180,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,193,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,206,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,218,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,230,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,242,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,255,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,334,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,415,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,497,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,511,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,527,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,539,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,551,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,568,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,581,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,594,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,607,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,620,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,633,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,641,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,649,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,657,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,686,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,727,mysql_query,,,false,false,legacy_mysql_api,$resultMag = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,741,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,761,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,776,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,787,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,814,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,831,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,836,mysql_query,,,false,false,legacy_mysql_api,$resultMag = mysql_query($queryMag);
+index_archivos/embarques/CotizacionClass.php,853,mysql_query,,,false,false,legacy_mysql_api,$resultCon = mysql_query($queryCon);
+index_archivos/embarques/CotizacionClass.php,868,mysql_query,,,false,false,legacy_mysql_api,$resultOperador = mysql_query($queryOperador);
+index_archivos/embarques/CotizacionClass.php,875,mysql_query,,,false,false,legacy_mysql_api,$resultDocs = mysql_query($queryDocs);
+index_archivos/embarques/CotizacionClass.php,905,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,941,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,962,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,976,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,990,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1004,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1012,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1013,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query2);
+index_archivos/embarques/CotizacionClass.php,1022,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1029,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1038,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1047,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1057,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1060,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1064,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1066,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1068,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1070,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1072,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1088,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1101,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1124,mysql_query,,,false,false,legacy_mysql_api,$resultTram = mysql_query($queryTram);
+index_archivos/embarques/CotizacionClass.php,1144,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1159,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1209,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)){
+index_archivos/embarques/CotizacionClass.php,1228,mysql_query,,,true,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_embarquesmagnitudes WHERE idembarque = {$idEmbarque}"");"
+index_archivos/embarques/CotizacionClass.php,1244,mysql_query,,,true,false,legacy_mysql_api,$resultMag = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1247,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_fetch_assoc(mysql_query(""SELECT id FROM logis_embarquesmagnitudes WHERE idembarque = {$idEmbarque} ORDER BY id LIMIT 1;""));"
+index_archivos/embarques/CotizacionClass.php,1250,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_embarquescontenedor WHERE idembarquesmagnitudes = {$idmagn}"");"
+index_archivos/embarques/CotizacionClass.php,1260,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1267,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_tramos WHERE embarque_id = {$embarqueId}"");"
+index_archivos/embarques/CotizacionClass.php,1283,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1287,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM logis_embarquesoperador WHERE idembarque = {$idEmbarque}"");"
+index_archivos/embarques/CotizacionClass.php,1290,mysql_query,,,false,false,legacy_mysql_api,$exists = mysql_query($queryExists);
+index_archivos/embarques/CotizacionClass.php,1296,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1302,mysql_query,,,false,false,legacy_mysql_api,$resultOperador = mysql_query($queryOperador);
+index_archivos/embarques/CotizacionClass.php,1314,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1323,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1333,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1346,mysql_query,,,false,false,legacy_mysql_api,"$query = mysql_query(""INSERT INTO logis_pedidos(proveedor_id,cliente_id,embarque_id,created_by,created_at) VALUES($proveedorID,$clienteID,$embarqueID,$userLog, CURDATE());"") ;"
+index_archivos/embarques/CotizacionClass.php,1355,mysql_query,,,false,false,legacy_mysql_api,"$queryDetalle = mysql_query(""INSERT INTO logis_pedidos_detalle(pedido_id,cliente_lineas_id,posicion,created_by,created_at)VALUES($pedidoID,$clienteLineaID,'$posicion',$userLog, CURDATE());"") ;"
+index_archivos/embarques/CotizacionClass.php,1373,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1388,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/CotizacionClass.php,1398,mysql_query,,,false,false,legacy_mysql_api,"$query = mysql_fetch_assoc(mysql_query(""SELECT id FROM logis_pedidos WHERE embarque_id = {$embarqueId} LIMIT 1""));"
+index_archivos/embarques/CotizacionClass.php,1403,mysql_query,,,true,false,legacy_mysql_api,"$resDesc = mysql_query(""SELECT descripcioncarga FROM logis_embarques WHERE id = {$embarque_id}"");"
+index_archivos/embarques/CotizacionClass.php,1411,mysql_query,,,true,false,legacy_mysql_api,"$check = mysql_query(""SELECT COUNT(*) AS total FROM logis_pedidos_detalle WHERE pedido_id = {$pedido_id} AND posicion = '"".mysql_real_escape_string($chasis).""'"");"
+index_archivos/embarques/CotizacionClass.php,1414,mysql_query,,,true,false,legacy_mysql_api,"mysql_query(""INSERT INTO logis_pedidos_detalle (pedido_id, cliente_lineas_id, posicion, created_by, created_at)"
+index_archivos/embarques/CotizacionClass.php,1421,mysql_query,,,true,false,legacy_mysql_api,"mysql_query(""UPDATE logis_embarques SET descripcioncarga = '"".mysql_real_escape_string($finalString).""' WHERE id = {$embarque_id}"");"
+index_archivos/embarques/editarController.php,76,mysql_query,POST.idtipoviaje;POST.idembarque,,true,false,legacy_mysql_api,"$resultOperador = mysql_query(""SELECT emailorigen FROM dav_clientetransportista WHERE idtransportista="".$idProveedorAsignado."" AND deleted_at IS NULL;"");"
+index_archivos/embarques/editarController.php,84,mysql_query,,,false,false,legacy_mysql_api,"$resultConcesionario = mysql_query(""SELECT email FROM cn_concesionario_contactos WHERE concesionario_id="".$idConcesionarioActual."" AND deleted_at IS NULL;"");"
+index_archivos/embarques/editarController.php,92,mysql_query,,,false,false,legacy_mysql_api,"$resultCliente = mysql_query(""SELECT correo FROM dav_clienteusuarios WHERE idcliente="".$datosCotizacion['idcliente']."" AND IFNULL(activo,0)=1 AND deleted_at IS NULL;"");"
+index_archivos/embarques/editarController.php,101,mysql_query,,,false,false,legacy_mysql_api,"$transportista = mysql_fetch_assoc(mysql_query(""SELECT transportista FROM dav_transportista WHERE idtransportista = "".$idProveedorAsignado));"
+index_archivos/embarques/editarController.php,142,mysql_query,POST.idoperador;POST.idoperador,,true,false,legacy_mysql_api,"$datosOperador = mysql_fetch_assoc(mysql_query(""SELECT idtransportista, nombre FROM dav_clientetransportista WHERE idclientetransportista = "".$idOperadorSeleccionado."" LIMIT 1;""));"
+index_archivos/embarques/editarController.php,144,mysql_query,POST.idoperador;POST.idoperador,,true,false,legacy_mysql_api,"$resultMailOperador = mysql_query("""
+index_archivos/embarques/EmbarqueClass.php,23,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,41,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,56,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,80,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,93,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,106,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,119,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,315,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($queryfinal);
+index_archivos/embarques/EmbarqueClass.php,348,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,379,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,388,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,438,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,471,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,490,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,512,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,579,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,600,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,627,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,636,mysql_query,,,false,false,legacy_mysql_api,"$nombreOperador  = mysql_fetch_assoc(mysql_query(""SELECT nombre, (SELECT idusuario FROM logis_embarques WHERE id = {$embarqueId} AND idtransportista IS NULL) AS cliente_id  from prov_usuarioaccesoproveedor WHERE idusuari"
+index_archivos/embarques/EmbarqueClass.php,675,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,687,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/EmbarqueClass.php,707,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/embarquever.php,155,mysql_query,GET.id,$id,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/embarquever.php,279,mysql_query,GET.id,$id,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/frames/costos.php,54,mysql_query,,$id,false,false,tainted_sql,$result = mysql_query($query);
+index_archivos/embarques/frames/documentos.php,83,mysql_query,GET.id,$id,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/frames/estado-pedidos.php,21,mysql_query,GET.id,$id,false,false,tainted_sql,$result = mysql_query($query);
+index_archivos/embarques/frames/rutas.php,86,mysql_query,GET.id,$id,true,false,legacy_mysql_api,"$result = mysql_query(""SELECT fecha_finalizacion FROM logis_embarques WHERE id = $id"");"
+index_archivos/embarques/pedidos.php,8,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select"
+index_archivos/embarques/pedidos.php,22,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select"
+index_archivos/embarques/pedidos.php,37,mysql_query,GET.idpedido,$idpedido,false,false,tainted_sql,"$query = mysql_query(""SELECT * FROM dav_clienteusuariospermisos WHERE idclienteusuarios ="".$_SESSION['idclienteusuarios']."" AND idreportescliente = 94"");"
+index_archivos/embarques/pedidos.php,122,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select"
+index_archivos/embarques/pedidos.php,445,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT id, tipoviaje FROM logis_tipoviaje WHERE id NOT IN(1,3);"");"
+index_archivos/embarques/SolicitudesClass.php,46,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,80,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,115,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,126,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DROP TEMPORARY TABLE IF EXISTS tmp_casosdampendientes;"");"
+index_archivos/embarques/SolicitudesClass.php,127,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""CREATE TEMPORARY TABLE tmp_casosdampendientes (idcasosprevios INT, cantidadsinDAM INT);"");"
+index_archivos/embarques/SolicitudesClass.php,128,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""INSERT INTO tmp_casosdampendientes (idcasosprevios, cantidadsinDAM)"
+index_archivos/embarques/SolicitudesClass.php,146,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""ALTER TABLE tmp_casosdampendientes ADD INDEX idcasosprevios (idcasosprevios);"");"
+index_archivos/embarques/SolicitudesClass.php,175,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,186,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DROP TEMPORARY TABLE IF EXISTS tmp_casosdampendientes;"");"
+index_archivos/embarques/SolicitudesClass.php,187,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""CREATE TEMPORARY TABLE tmp_casosdampendientes (idcasosprevios INT, cantidadsinDAM INT);"");"
+index_archivos/embarques/SolicitudesClass.php,188,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""INSERT INTO tmp_casosdampendientes (idcasosprevios, cantidadsinDAM)"
+index_archivos/embarques/SolicitudesClass.php,206,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""ALTER TABLE tmp_casosdampendientes ADD INDEX idcasosprevios (idcasosprevios);"");"
+index_archivos/embarques/SolicitudesClass.php,236,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,274,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,316,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,355,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,417,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,429,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,441,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,453,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,465,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,477,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,489,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,501,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,513,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,525,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,537,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,549,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,568,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,582,mysql_query,,,false,false,legacy_mysql_api,"$resultaduana = mysql_query(""SELECT idclientelineas FROM dav_clientelineas WHERE idcliente="".$_SESSION[""idcliente""]."" AND IFNULL(esvehiculo,0)=1;"");"
+index_archivos/embarques/SolicitudesClass.php,626,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,629,mysql_query,,,false,false,legacy_mysql_api,"$resultaduana = mysql_query(""select max(idcasosprevios) as idcasosprevios FROM dav_casosprevios;"");"
+index_archivos/embarques/SolicitudesClass.php,635,mysql_query,,,false,false,legacy_mysql_api,"$resultaduana = mysql_query(""select"
+index_archivos/embarques/SolicitudesClass.php,652,mysql_query,,,false,false,legacy_mysql_api,$resultInsert = mysql_query($queryInsert);
+index_archivos/embarques/SolicitudesClass.php,692,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/embarques/SolicitudesClass.php,706,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DELETE from dav_tramites WHERE idcasosprevios=$idcasosprevios;"");"
+index_archivos/embarques/SolicitudesClass.php,707,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DELETE from dav_documentosprevios WHERE idcasosprevios=$idcasosprevios;"");"
+index_archivos/embarques/SolicitudesClass.php,708,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DELETE from dav_otrosdocumentosprevios WHERE idcasosprevios=$idcasosprevios;"");"
+index_archivos/embarques/SolicitudesClass.php,709,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DELETE from dav_vehiculosprevios WHERE idcasosprevios=$idcasosprevios;"");"
+index_archivos/embarques/SolicitudesClass.php,710,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DELETE from dav_casosprevios WHERE idcasosprevios=$idcasosprevios;"");"
+index_archivos/embarques/ViajesClass.php,33,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)){
+index_archivos/HelperClass.php,9,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/HelperClass.php,22,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/js/formularios.php,502,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/js/formularios.php,772,mysql_query,GET.IraPagina;GET.IraPagina,$PaginaActual,false,false,tainted_sql,$NroRegistros=mysql_num_rows(mysql_query($query.$querybusqueda));
+index_archivos/js/formularios.php,891,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog.$veriffiltro."";"");"
+index_archivos/js/formularios.php,933,mysql_query,,,false,false,legacy_mysql_api,"$resultagregargrid = mysql_query(""INSERT INTO "".$tabla."" ("".substr($queryvalores,0,-2)."") VALUES ("".substr($queryguardar,0,-2)."");"");"
+index_archivos/js/formularios.php,1004,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""='"".$datog.""' and "".$idgrid.""<>"".$_GET[$idgrid].$filtro2."";"");"
+index_archivos/js/formularios.php,1029,mysql_query,,,false,false,legacy_mysql_api,"$resulteditargrid = mysql_query(""UPDATE "".$tabla."" set "".substr($queryguardar,0,-2)."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formularios.php,1040,mysql_query,,,false,false,legacy_mysql_api,"$resultelgrid = mysql_query(""DELETE FROM "".$tabla."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formularios.php,1185,mysql_query,,$PaginaActual,false,false,tainted_sql,"$resultgrid = mysql_query($query.$querybusqueda.$ordenar."" LIMIT "".$limite."", "".$paginacion);"
+index_archivos/js/formulariosA.php,482,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/js/formulariosA.php,754,mysql_query,GET.IraPagina;GET.IraPagina,$PaginaActual,false,false,tainted_sql,$NroRegistros=mysql_num_rows(mysql_query($query.$querybusqueda));
+index_archivos/js/formulariosA.php,865,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog."";"");"
+index_archivos/js/formulariosA.php,902,mysql_query,,,false,false,legacy_mysql_api,"$resultagregargrid = mysql_query(""INSERT INTO "".$tabla."" ("".substr($queryvalores,0,-2)."") VALUES ("".substr($queryguardar,0,-2)."");"");"
+index_archivos/js/formulariosA.php,964,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog."" and "".$idgrid.""<>"".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosA.php,988,mysql_query,,,false,false,legacy_mysql_api,"$resulteditargrid = mysql_query(""UPDATE "".$tabla."" set "".substr($queryguardar,0,-2)."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosA.php,999,mysql_query,,,false,false,legacy_mysql_api,"$resultelgrid = mysql_query(""DELETE FROM "".$tabla."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosA.php,1145,mysql_query,,,false,false,legacy_mysql_api,"$resultgrid = mysql_query($query.$querybusqueda.$ordenar."" LIMIT "".$limite."", "".$paginacion);"
+index_archivos/js/formulariosB.php,502,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/js/formulariosB.php,766,mysql_query,GET.IraPagina;GET.IraPagina,$PaginaActual,false,false,tainted_sql,$NroRegistros=mysql_num_rows(mysql_query($query.$querybusqueda));
+index_archivos/js/formulariosB.php,881,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog.$veriffiltro."";"");"
+index_archivos/js/formulariosB.php,923,mysql_query,,,false,false,legacy_mysql_api,"$resultagregargrid = mysql_query(""INSERT INTO "".$tabla."" ("".substr($queryvalores,0,-2)."") VALUES ("".substr($queryguardar,0,-2)."");"");"
+index_archivos/js/formulariosB.php,989,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog."" and "".$idgrid.""<>"".$_GET[$idgrid].$filtro2."";"");"
+index_archivos/js/formulariosB.php,1014,mysql_query,,,false,false,legacy_mysql_api,"$resulteditargrid = mysql_query(""UPDATE "".$tabla."" set "".substr($queryguardar,0,-2)."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosB.php,1025,mysql_query,,,false,false,legacy_mysql_api,"$resultelgrid = mysql_query(""DELETE FROM "".$tabla."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosB.php,1170,mysql_query,,$PaginaActual,false,false,tainted_sql,"$resultgrid = mysql_query($query.$querybusqueda.$ordenar."" LIMIT "".$limite."", "".$paginacion);"
+index_archivos/js/formulariosR.php,509,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/js/formulariosR.php,776,mysql_query,GET.IraPagina;GET.IraPagina,$PaginaActual,false,false,tainted_sql,$NroRegistros=mysql_num_rows(mysql_query($query.$querybusqueda));
+index_archivos/js/formulariosR.php,891,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog.$veriffiltro."";"");"
+index_archivos/js/formulariosR.php,933,mysql_query,,,false,false,legacy_mysql_api,"$resultagregargrid = mysql_query(""INSERT INTO "".$tabla."" ("".substr($queryvalores,0,-2)."") VALUES ("".substr($queryguardar,0,-2)."");"");"
+index_archivos/js/formulariosR.php,1000,mysql_query,,$datog,false,false,tainted_sql,"$resultverifunico = mysql_query(""SELECT * FROM "".$tabla."" WHERE "".$datos[$v]['guardar'].""="".$datog."" and "".$idgrid.""<>"".$_GET[$idgrid].$filtro2."";"");"
+index_archivos/js/formulariosR.php,1025,mysql_query,,,false,false,legacy_mysql_api,"$resulteditargrid = mysql_query(""UPDATE "".$tabla."" set "".substr($queryguardar,0,-2)."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosR.php,1036,mysql_query,,,false,false,legacy_mysql_api,"$resultelgrid = mysql_query(""DELETE FROM "".$tabla."" WHERE "".$idgrid.""="".$_GET[$idgrid]."";"");"
+index_archivos/js/formulariosR.php,1181,mysql_query,,$PaginaActual,false,false,tainted_sql,"$resultgrid = mysql_query($query.$querybusqueda.$ordenar."" LIMIT "".$limite."", "".$paginacion);"
+index_archivos/js/formulariosxls.php,28,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($consulta);
+index_archivos/logAsgard.php,32,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($querylog);
+index_archivos/logAsgard.php,48,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/logistica/embarquereferencia.php,18,mysql_query,,$documents;$idembarque,true,false,legacy_mysql_api,$result2 = mysql_query($query2);
+index_archivos/menu.php,23,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT left(nombre,15) as nombre FROM prov_usuarioaccesoproveedor WHERE idusuarioaccesoproveedor="".$_SESSION[""idusuarioaccesoproveedor""]."";"");"
+index_archivos/menu_b4.php,82,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT left(nombre,15) as nombre FROM prov_usuarioaccesoproveedor WHERE idusuarioaccesoproveedor="".$_SESSION[""idusuarioaccesoproveedor""]."";"");"
+index_archivos/MenuClass.php,19,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/MenuClass.php,35,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/clientes/ClienteProveedorClass.php,26,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/parametros/clientes/ClienteProveedorClass.php,38,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/parametros/clientes/ClienteProveedorClass.php,62,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/parametros/clientes/ClienteProveedorClass.php,73,mysql_query,,,false,false,legacy_mysql_api,$queryResult = mysql_query($query);
+index_archivos/parametros/clientes/ClienteProveedorClass.php,104,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/clientes/ClienteProveedorClass.php,139,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/parametros/clientes/ClienteProveedorClass.php,154,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/ajax/lista.php,17,mysql_query,,,false,false,legacy_mysql_api,"$query = mysql_fetch_assoc(mysql_query(""SELECT idpais FROM dav_pais WHERE pais = '"".$row[""country""].""';""));"
+index_archivos/parametros/ubicaciones/Ubicacion.php,44,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,56,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,68,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,80,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,99,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,126,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,141,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,216,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""DROP TEMPORARY TABLE IF EXISTS tmp_logisoperadorubicaciones;"");"
+index_archivos/parametros/ubicaciones/Ubicacion.php,217,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""CREATE TEMPORARY TABLE tmp_logisoperadorubicaciones ("
+index_archivos/parametros/ubicaciones/Ubicacion.php,230,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""INSERT INTO tmp_logisoperadorubicaciones (`fila`, `latitude`, `longitude`, `name`, `type`, `country`, `city`, `address`, `client`) VALUES "".$datosinsertar."";"");"
+index_archivos/parametros/ubicaciones/Ubicacion.php,243,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,259,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,267,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/parametros/ubicaciones/Ubicacion.php,303,mysql_query,,,false,false,legacy_mysql_api,$res = mysql_query($query);
+index_archivos/principal.php,135,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/principal.php,143,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/principal.php,151,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/principal.php,157,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/rating/RatingClass.php,13,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/rating/RatingClass.php,36,mysql_query,,,false,false,legacy_mysql_api,$rs = mysql_query($query);
+index_archivos/reporteexcel/reporteexcel.php,54,mysql_query,,,false,false,legacy_mysql_api,$result=mysql_query($consultas[$qqy]);
+index_archivos/reporteexcel/reporteexcel.php,58,mysql_query,,,false,false,legacy_mysql_api,$result=mysql_query($consultas[0]);
+index_archivos/reporteexcel/reporteexcelNew.php,11,mysql_query,POST.idreportescliente;POST.query;POST.datos;POST.posiciones;POST.formatos;POST.cabecera,,false,false,tainted_sql,"$resultupdate = mysql_query(""UPDATE dav_contadorreportesclientes SET excel=IFNULL(excel,0)+1 WHERE idclienteusuarios="".$_SESSION[""idclienteusuarios""]."" AND idreportescliente='"".$_POST[""idreportescliente""].""';"");"
+index_archivos/reporteexcel/reporteexcelNew.php,125,mysql_query,,,false,false,legacy_mysql_api,mysql_query($consultas[$qqy]);
+index_archivos/reporteexcel/reporteexcelNew.php,130,mysql_query,,,false,false,legacy_mysql_api,$result=mysql_query($consultas[0]);
+index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,40,mysql_query,,$tipo,false,false,tainted_sql,if (mysql_query($insert) && mysql_query($query)){
+index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,72,mysql_query,,$tipo,false,false,tainted_sql,if (mysql_query($insert) && mysql_query($query)){
+index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,73,mysql_query,,$estadoDocumento;$placa,false,false,tainted_sql,$res = mysql_query($query);
+index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,95,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,114,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/reportes/filtros/clientes.php,4,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT idcliente, cliente FROM dav_cliente WHERE idcliente = 429;"");"
+index_archivos/reportes/filtros/logis_estados.php,4,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select"
+index_archivos/reportes/filtros/operadores.php,4,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT idclientetransportista, nombre FROM dav_clientetransportista WHERE idcliente = 429 AND nombre IS NOT NULL"");"
+index_archivos/reportes/filtros/proveedores.php,4,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT"
+index_archivos/reportes/reportecontrololquery.php,19,mysql_query,,,false,false,legacy_mysql_api,"$queryoperador = mysql_fetch_assoc(mysql_query(""SELECT idclientetransportista FROM dav_clientetransportista WHERE idcliente = 429 AND idtransportista ="".$_SESSION['idtransportista']."";""));"
+index_archivos/reportes/reportecontrololquery.php,20,mysql_query,,,false,false,legacy_mysql_api,"$queryoperador2 = mysql_fetch_assoc(mysql_query(""SELECT idoperador FROM logis_embarquesoperador WHERE idoperador ="".$queryoperador['idclientetransportista']."";""));"
+index_archivos/reportes/reportepreembarquenacional.php,54,mysql_query,,,false,false,legacy_mysql_api,$resTransportista = mysql_query($queryTransportista);
+index_archivos/reportes/reportepreembarquenacional.php,68,mysql_query,,,false,false,legacy_mysql_api,$resConcesionario = mysql_query($queryConcesionario);
+index_archivos/reportes/reporteviajescargamasiva.php,116,mysql_query,,,false,false,legacy_mysql_api,$resMov = mysql_query($queryMov);
+index_archivos/resetpassword/ResetPassword.php,22,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/resetpassword/ResetPassword.php,48,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/resetpassword/ResetPassword.php,62,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE dav_reseteos_passswords_proveedores SET deleted_at = CURRENT_TIMESTAMP WHERE id = {$data['id']}"");"
+index_archivos/resetpassword/ResetPassword.php,78,mysql_query,,,false,false,legacy_mysql_api,"$dataClient = mysql_fetch_assoc(mysql_query(""SELECT correo, proveedor_usuario FROM dav_reseteos_passswords_proveedores WHERE id = $params->identifier""));"
+index_archivos/resetpassword/ResetPassword.php,81,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/resetpassword/ResetPassword.php,292,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ajax/borrarempresa.php,8,mysql_query,POST.id,$id,false,false,tainted_sql,$result = mysql_query($query);
+index_archivos/tracking/ajax/buscar-partida.php,14,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ajax/cargar-imagenes-viaje.php,11,mysql_query,FILES.image;POST.viaje-id,$viajeId,false,false,tainted_sql,$resultQuery = mysql_query($eventoQuery);
+index_archivos/tracking/ajax/cargar-imagenes-viaje.php,18,mysql_query,,$viajeId,false,false,tainted_sql,"mysql_query(""INSERT INTO tck_imagenes (id, image, idreferencia, idasignacionviaje, tipo, created_at, updated_at) VALUES (DEFAULT, '{$nameImage}', {$registroEvento['id']}, $viajeId, 1, CURRENT_TIMESTAMP(), CURRENT_TIMESTA"
+index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php,13,mysql_query,POST.id,$location_id,false,false,tainted_sql,$result = mysql_query($query);
+index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php,127,mysql_query,,$idEmbarque,false,false,tainted_sql,"$nombreOperador  = mysql_fetch_assoc(mysql_query(""SELECT nombre, (SELECT idusuario FROM logis_embarques WHERE id = {$idEmbarque} AND idtransportista IS NULL) AS cliente_id  from prov_usuarioaccesoproveedor WHERE idusuari"
+index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php,128,mysql_query,,$idEmbarque,false,false,tainted_sql,"$idviaje = mysql_fetch_assoc(mysql_query(""SELECT id FROM tck_asignacion_viaje WHERE embarque_id = {$idEmbarque} ORDER BY id DESC LIMIT 1""));"
+index_archivos/tracking/CommonsClass.php,12,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/CommonsClass.php,16,mysql_query,,,false,false,legacy_mysql_api,if (mysql_fetch_assoc(mysql_query($query))) {
+index_archivos/tracking/CommonsClass.php,148,mysql_query,,,false,false,legacy_mysql_api,"$query = mysql_query(""UPDATE tck_localizaciones SET deleted_at = NOW(), deleted_by = $transportista WHERE id = $destinoId"");"
+index_archivos/tracking/controllers/CargaMasiva.php,27,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""DELETE FROM tck_tmpcargamasiva WHERE IFNULL(estado,0)=0 AND idusuarioaccesoproveedor="".$idusuarioaccesoproveedor."";"");"
+index_archivos/tracking/controllers/CargaMasiva.php,80,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""INSERT INTO `tck_tmpcargamasiva`(`idcargado`, `idtransportista`, `idusuarioaccesoproveedor`, `idembarque`, `numero`, `referencia`, `codigo`, `nombrecliente`, `direccion`, `tipo`, `pais`, `ciudad`, `contacto`"
+index_archivos/tracking/controllers/CargaMasiva.php,89,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,108,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,114,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,122,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,159,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,168,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,182,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,204,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,214,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,221,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,228,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,268,mysql_query,,,true,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,290,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,310,mysql_query,,,true,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,336,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,343,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,460,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,487,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,510,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,547,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,567,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,575,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,585,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,608,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,634,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/controllers/CargaMasiva.php,643,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/HerramientasClass.php,8,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/tracking/HerramientasClass.php,24,mysql_query,,,false,false,legacy_mysql_api,"return mysql_query(""UPDATE tck_asignacion_viaje SET deleted_at = CURRENT_TIMESTAMP(), deleted_by = {$_SESSION['idtransportista']} WHERE id = $id"")"
+index_archivos/tracking/HerramientasClass.php,35,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/tracking/ListaViajesClass.php,91,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,146,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,196,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_fetch_assoc(mysql_query($query));
+index_archivos/tracking/ListaViajesClass.php,272,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,288,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,300,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT id FROM tck_asignacion_viaje WHERE  id = $idViaje AND alcance LIKE '%local%'"");"
+index_archivos/tracking/ListaViajesClass.php,309,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,343,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,366,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,378,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,402,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,416,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,432,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,444,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,462,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,502,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,528,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ListaViajesClass.php,545,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,70,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,111,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,132,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,153,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,171,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,187,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,206,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,221,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,236,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,251,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/ReporteViajesClass.php,268,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,17,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,31,mysql_query,,,false,false,legacy_mysql_api,$rs = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,51,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,70,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,89,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,113,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,135,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,175,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,188,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,213,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,221,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/TrackingClass.php,247,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,273,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,279,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,291,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,328,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,340,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,366,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,394,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,411,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,428,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,445,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,466,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,493,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,505,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,530,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,574,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,610,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,626,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,643,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,656,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,672,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,732,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/tracking/TrackingClass.php,751,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/tracking/TrackingClass.php,789,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/tracking/TrackingClass.php,804,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/tracking/TrackingClass.php,812,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingClass.php,836,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/TrackingClass.php,838,mysql_query,,,false,false,legacy_mysql_api,mysql_query($queryUnidadTransporte);
+index_archivos/tracking/TrackingClass.php,843,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE tck_localizaciones SET asignacion_viaje_id = {$data->nuevo_viaje_id}, orden = $orden, updated_at = CURRENT_TIMESTAMP() WHERE id = {$destinoData->id}"");"
+index_archivos/tracking/TrackingClass.php,844,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE tck_carga SET asignacion_viaje_id = $data->nuevo_viaje_id, updated_at = CURRENT_TIMESTAMP() WHERE descripciondetallada = '$destinoData->descripcion_detallada' AND asignacion_viaje_id = {$data->actual_"
+index_archivos/tracking/TrackingClass.php,850,mysql_query,,,false,false,legacy_mysql_api,"mysql_query(""UPDATE tck_localizaciones SET orden = $orden, updated_at = CURRENT_TIMESTAMP() WHERE id = {$antDestinoData->id}"");"
+index_archivos/tracking/TrackingNewClass.php,24,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,89,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,123,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,232,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,283,mysql_query,,,false,false,legacy_mysql_api,//mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,295,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,311,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($modalityQuery);
+index_archivos/tracking/TrackingNewClass.php,342,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,358,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,374,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,390,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,405,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,420,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,480,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,496,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,512,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,529,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,550,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,580,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,635,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,704,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,755,mysql_query,,,true,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,782,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,805,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,911,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,938,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,950,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,994,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1083,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1103,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1128,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1143,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1162,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1188,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1227,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1279,mysql_query,,,false,false,legacy_mysql_api,mysql_query( $queryUpdate );
+index_archivos/tracking/TrackingNewClass.php,1300,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1332,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1342,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1362,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1368,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_fetch_assoc(mysql_query($query));
+index_archivos/tracking/TrackingNewClass.php,1372,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_fetch_assoc(mysql_query($query));
+index_archivos/tracking/TrackingNewClass.php,1395,mysql_query,,,false,false,legacy_mysql_api,if (mysql_num_rows(mysql_query($query))) {
+index_archivos/tracking/TrackingNewClass.php,1396,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_fetch_assoc(mysql_query($query));
+index_archivos/tracking/TrackingNewClass.php,1411,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1436,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1454,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1470,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1517,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1541,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1555,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1563,mysql_query,,,false,false,legacy_mysql_api,$resultSearch = mysql_query($querySearch);
+index_archivos/tracking/TrackingNewClass.php,1574,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1586,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($queryDelete)) {
+index_archivos/tracking/TrackingNewClass.php,1597,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($queryDelete)) {
+index_archivos/tracking/TrackingNewClass.php,1607,mysql_query,,,false,false,legacy_mysql_api,if (mysql_query($query)) {
+index_archivos/tracking/TrackingNewClass.php,1618,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1629,mysql_query,,,false,false,legacy_mysql_api,return mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1638,mysql_query,,,false,false,legacy_mysql_api,$resultCliente = mysql_query($cliente);
+index_archivos/tracking/TrackingNewClass.php,1644,mysql_query,,,false,false,legacy_mysql_api,$result = mysql_query($query);
+index_archivos/tracking/TrackingNewClass.php,1647,mysql_query,,,false,false,legacy_mysql_api,mysql_query($query);
+index_archivos/usuario/UsuarioClass.php,33,mysql_query,,,false,false,legacy_mysql_api,"if(mysql_query(""UPDATE prov_usuarioaccesoproveedor SET contrasena = '{$password}', fechacontrasena=CURRENT_DATE() WHERE idusuarioaccesoproveedor = {$user->identifier}"")) {"
+index_archivos/versolicitud.php,59,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""SELECT"
+index_archivos/versolicituddetalle.php,10,mysql_query,GET.idcasosprevios;GET.idcasos;GET.accion,$accion;$idcasos;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""SELECT"
+index_archivos/versolicituddetalle.php,27,mysql_query,,$idcasos;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""SELECT IFNULL(fecha_doc_completo_cliente,'0000-00-00') as fecha_doc_completo_cliente"
+index_archivos/versolicituddetalle.php,64,mysql_query,POST.otrosdocumentosprevios-0-0;FILES.filesotro-0-0,$accion;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""INSERT INTO dav_otrosdocumentosprevios (idcasosprevios,       transportista, otrosdocumentosprevios)"
+index_archivos/versolicituddetalle.php,66,mysql_query,POST.otrosdocumentosprevios-0-0;FILES.filesotro-0-0,$accion;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""SELECT MAX(idotrosdocumentosprevios) as idotrosdocumentosprevios FROM dav_otrosdocumentosprevios WHERE idcasosprevios="".$idcasosprevios."";"");"
+index_archivos/versolicituddetalle.php,86,mysql_query,FILES.filesotro-0-0;FILES.filesotro-0-0;FILES.filesotro-0-0;FILES.filesotro-0-0,$accion,false,false,tainted_sql,"$result = mysql_query(""UPDATE dav_otrosdocumentosprevios SET adjunto='"".$fileName.""' WHERE idotrosdocumentosprevios="".$idotrosdocumentosprevios."";"");"
+index_archivos/versolicituddetalle.php,95,mysql_query,FILES.filesotro-0-0,$accion;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""SELECT * FROM dav_otrosdocumentosprevios WHERE idcasosprevios="".$idcasosprevios."";"");"
+index_archivos/versolicituddetalle.php,98,mysql_query,,$accion;$idcasosprevios,false,false,tainted_sql,"$resultupdate = mysql_query(""UPDATE dav_otrosdocumentosprevios SET"
+index_archivos/versolicituddetalle.php,112,mysql_query,FILES.files,,false,false,tainted_sql,"$resultinsert = mysql_query(""UPDATE dav_otrosdocumentosprevios SET adjunto='"".$fileName.""' WHERE idotrosdocumentosprevios="".$row[""idotrosdocumentosprevios""]."";"");"
+index_archivos/versolicituddetalle.php,123,mysql_query,POST.cantidadotrosdocumentos,$accion;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""INSERT INTO dav_otrosdocumentosprevios (idcasosprevios,       transportista, otrosdocumentosprevios)"
+index_archivos/versolicituddetalle.php,135,mysql_query,GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios,$accion,false,false,tainted_sql,"$result = mysql_query(""DELETE FROM dav_otrosdocumentosprevios WHERE idotrosdocumentosprevios="".$_GET[""idotrosdocumentosprevios""]."";"");"
+index_archivos/versolicituddetalle.php,140,mysql_query,GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios,$accion,false,false,tainted_sql,"$result = mysql_query(""SELECT adjunto FROM dav_otrosdocumentosprevios WHERE idotrosdocumentosprevios="".$_GET[""idotrosdocumentosprevios""]."";"");"
+index_archivos/versolicituddetalle.php,144,mysql_query,GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios,$accion,false,false,tainted_sql,"$result = mysql_query(""UPDATE dav_otrosdocumentosprevios SET adjunto='' WHERE idotrosdocumentosprevios="".$_GET[""idotrosdocumentosprevios""]."";"");"
+index_archivos/versolicituddetalle.php,148,mysql_query,GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios;GET.idotrosdocumentosprevios,$accion,false,false,tainted_sql,"$result = mysql_query(""SELECT"
+index_archivos/versolicituddetalle.php,193,mysql_query,,$idcasos,false,false,tainted_sql,"$result = mysql_query(""SELECT"
+index_archivos/versolicituddetalle.php,249,mysql_query,,$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""select otrosdocumentosprevios, adjunto from dav_otrosdocumentosprevios WHERE (IFNULL(estado,0)=0 OR IFNULL(estado,0)=3) AND idcasosprevios="".$idcasosprevios."" AND IFNULL(transportista,0)=1;"");"
+index_archivos/versolicituddetalle.php,277,mysql_query,,,false,false,legacy_mysql_api,"$result = mysql_query(""select * FROM dav_transportistamail WHERE idtransportista="".$idtransportista."" AND idcliente="".$idcliente."";"");"
+index_archivos/versolicituddetalle.php,286,mysql_query,,$idcasosprevios,false,false,tainted_sql,"$resultupdate = mysql_query(""UPDATE dav_otrosdocumentosprevios SET enviado=1, estado=1 WHERE idcasosprevios="".$idcasosprevios."" AND (IFNULL(estado,0)=0 OR IFNULL(estado,0)=3) AND IFNULL(transportista,0)=1;"");"
+index_archivos/versolicituddetalle.php,381,mysql_query,,$accion;$idcasosprevios,false,false,tainted_sql,"$result = mysql_query(""select * from dav_otrosdocumentosprevios WHERE idcasosprevios="".$idcasosprevios."" AND IFNULL(transportista,0)=1;"");"
+src/core/users/application/Find/UserFind.php,40,mysql_query,,,false,false,legacy_mysql_api,$data = mysql_query($query);

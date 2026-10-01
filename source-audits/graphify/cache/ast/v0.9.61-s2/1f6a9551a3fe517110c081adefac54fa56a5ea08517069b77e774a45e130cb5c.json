@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_ajax_borrar_cliente_php",
+      "label": "borrar-cliente.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ajax/borrar-cliente.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_ajax_guardarcostos_php",
+      "label": "guardarCostos.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ajax/guardarCostos.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

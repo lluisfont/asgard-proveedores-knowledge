@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_ajax_actualizar_cliente_php",
+      "label": "actualizar-cliente.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ajax/actualizar-cliente.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

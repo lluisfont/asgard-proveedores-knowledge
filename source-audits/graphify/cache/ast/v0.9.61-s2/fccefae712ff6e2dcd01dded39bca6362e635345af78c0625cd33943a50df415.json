@@ -1,0 +1,4206 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_php",
+      "label": "svg.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "label": "SVG",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg",
+      "label": ".SVG()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "label": ".svgGradient()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L91",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "label": ".svgOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L643",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "label": ".svg_overflow()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L690",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "label": ".svgDefineStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L723",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "label": ".svgStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L910",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "label": ".svgPath()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1099",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "label": ".Arcto()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1507",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calcvectorangle",
+      "label": ".CalcVectorAngle()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1621",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "label": ".ConvertSVGSizePixels()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1631",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepts",
+      "label": ".ConvertSVGSizePts()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1649",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "label": ".svgRect()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1663",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "label": ".svgEllipse()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1718",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "label": ".svgPolyline()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1753",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "label": ".svgPolygon()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1783",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "label": ".svgText()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1802",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "label": ".svgDefineTxtStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1920",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgaddgradient",
+      "label": ".svgAddGradient()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2090",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgwritestring",
+      "label": ".svgWriteString()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2100",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "label": ".ImageSVG()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2109",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "label": ".calc_bezier_bbox()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2516",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "label": "._testIntersectCircle()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2557",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersect",
+      "label": "._testIntersect()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2577",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L643",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L690",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L723",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L910",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1099",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1507",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calcvectorangle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1621",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1631",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1649",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1663",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1718",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1753",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1783",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1802",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1920",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgaddgradient",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2090",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgwritestring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2516",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2557",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2577",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L580",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L918",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L979",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1270",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1475",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calcvectorangle",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1565",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1667",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1723",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1760",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1846",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "target": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2004",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L92",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L149",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L153",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L188",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L190",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L191",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L192",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L193",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L194",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L195",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L199",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L201",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L203",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L206",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L208",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L213",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L215",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L216",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L216",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L217",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L217",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L220",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L221",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L223",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L224",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L225",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L228",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L229",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L229",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L234",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L245",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L245",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L250",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L251",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L252",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L256",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L257",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L258",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "array_unshift",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L269",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L272",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L277",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L285",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L286",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L287",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L288",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L290",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L292",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L294",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L296",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L299",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L300",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L301",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L302",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L311",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L311",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "rad2deg",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L312",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L312",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L333",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L336",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L336",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L369",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L372",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L373",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L411",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L414",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L415",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L424",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "array_unshift",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L424",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L430",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L434",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L453",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L454",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L473",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L473",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L476",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L477",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L478",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L479",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L480",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L481",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L499",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L500",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L501",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L502",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L503",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "stristr",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L504",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L513",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L513",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "rad2deg",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L514",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L514",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L542",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L545",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L545",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L550",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L550",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L550",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L587",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L591",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L610",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L611",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svggradient",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L613",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L646",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L647",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L647",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L648",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "ConvertSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L657",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgoffset",
+      "callee": "ConvertSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L658",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L694",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L699",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L700",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "callee": "floor",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L703",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svg_overflow",
+      "callee": "floor",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L706",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L725",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L732",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L733",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L734",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L735",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L736",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L737",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L738",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L739",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L742",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L769",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L771",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L774",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L776",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L777",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L781",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L783",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L784",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L784",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L785",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L785",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L788",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L789",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L791",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L792",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L793",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L796",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L797",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L797",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L798",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L800",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "tan",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L801",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L801",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L802",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L810",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L811",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L812",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L814",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L818",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L821",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L824",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L825",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L827",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L831",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L834",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L837",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L840",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L843",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L847",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L851",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L855",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L859",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L863",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L867",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L871",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L875",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L879",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L883",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L887",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L892",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L895",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinestyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L900",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "substr_count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L912",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L915",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L917",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L929",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L930",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L934",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L935",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "SetFColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L936",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L941",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L945",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L946",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "SetFColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L947",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "substr_count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L953",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L970",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L971",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L975",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L976",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "SetDColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L977",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L980",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L984",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L988",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L989",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "SetDColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L990",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L993",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1019",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1022",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1023",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1027",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "preg_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1029",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1030",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1034",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1034",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1036",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1037",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1039",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1040",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1050",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "AddExtGState",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1056",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1058",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1062",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "AddExtGState",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1068",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgstyle",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1070",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1177",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1203",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1229",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1278",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1282",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1332",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1336",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1392",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1396",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpath",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1449",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1530",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1530",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1531",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "deg2rad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1531",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1547",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1555",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "ceil",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1573",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1575",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1575",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1575",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1578",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1579",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "cos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1581",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sin",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1582",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_arcto",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1611",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calcvectorangle",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1622",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calcvectorangle",
+      "callee": "atan2",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1623",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepixels",
+      "callee": "ConvertSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1644",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_convertsvgsizepts",
+      "callee": "ConvertSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1656",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1682",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1683",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1684",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1685",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1686",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1693",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1698",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1699",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1700",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1701",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1702",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1704",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1705",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1706",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgrect",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1707",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1721",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1740",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1741",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1742",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1743",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgellipse",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1744",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1763",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1764",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolyline",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1773",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1786",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1787",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1791",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgpolygon",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1794",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "array_pop",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1804",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1807",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "SetFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1815",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1822",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "AddExtGState",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1828",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1830",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1834",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1835",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "SetFColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1837",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1841",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "ConvertColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1842",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "SetDColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1844",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1848",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1860",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1861",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1862",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1863",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1864",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1866",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "purify_utf8_text",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1868",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "all_entities_to_utf8",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1870",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "mb_convert_encoding",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1874",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1875",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "magic_reverse_dir",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1877",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "ConvertIndic",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1878",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "GetStringWidth",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1882",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "GetStringWidth",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1885",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "UTF8StringToArray",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1890",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "UTF8ToUTF16BE",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1891",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "_escape",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1893",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1903",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1907",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgtext",
+      "callee": "SetFontSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1908",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1923",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1925",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1926",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1927",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1929",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1933",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1936",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1939",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1940",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1942",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1946",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1949",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1952",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1955",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1958",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1961",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1964",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1968",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1971",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1974",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1977",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1982",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1986",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L1993",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2002",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "SetFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2005",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2010",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2013",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2016",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2020",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2021",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2028",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2029",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2036",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2038",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "SetFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2042",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2045",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2047",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2050",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2051",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2052",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2053",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2053",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2054",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2055",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2056",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2057",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2065",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2066",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2067",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2068",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2068",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2069",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2070",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2070",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2070",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2078",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_svgdefinetxtstyle",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2083",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_quote",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_match",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2129",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "RAND",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_quote",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_match_all",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2144",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "preg_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2150",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2158",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "xml_parser_create",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2497",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "xml_parser_set_option",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2498",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "xml_set_element_handler",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2499",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "xml_set_character_data_handler",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2500",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_imagesvg",
+      "callee": "xml_parse",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2501",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2534",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2534",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2534",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2534",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2538",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2540",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2542",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2542",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2542",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2542",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2544",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2546",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2546",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2546",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_calc_bezier_bbox",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2546",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2566",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2566",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2566",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2567",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2567",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2567",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2568",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2568",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2568",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "sqrt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2569",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2569",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_classes_svg_svg_testintersectcircle",
+      "callee": "pow",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/classes/svg.php",
+      "source_location": "L2569",
+      "receiver": null
+    }
+  ],
+  "parse_errors": {
+    "first_error_line": 934,
+    "multiline_error": true
+  }
+}

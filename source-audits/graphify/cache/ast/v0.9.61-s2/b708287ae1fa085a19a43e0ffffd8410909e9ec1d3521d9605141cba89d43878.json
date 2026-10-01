@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_frames_servicios_adicionales_php",
+      "label": "servicios-adicionales.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/frames/servicios-adicionales.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

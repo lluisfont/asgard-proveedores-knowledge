@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_ttfontdata_dejavuserifcondensedb_mtx_php",
+      "label": "dejavuserifcondensedB.mtx.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/ttfontdata/dejavuserifcondensedB.mtx.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

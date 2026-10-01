@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajax_comprobar_ci_php",
+      "label": "comprobar_ci.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajax/comprobar_ci.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_tracking_ajax_comprobar_ci_php",
+      "target": "commonsclass",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/tracking/ajax/comprobar_ci.php",
+      "source_location": "L8",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

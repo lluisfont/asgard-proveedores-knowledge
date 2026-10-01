@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_usuario_editar_perfil_php",
+      "label": "editar-perfil.php",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/editar-perfil.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

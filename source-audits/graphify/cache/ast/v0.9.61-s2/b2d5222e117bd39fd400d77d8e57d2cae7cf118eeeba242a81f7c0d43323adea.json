@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_reportelibs_bs2_php",
+      "label": "reportelibs_bs2.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/reportelibs_bs2.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

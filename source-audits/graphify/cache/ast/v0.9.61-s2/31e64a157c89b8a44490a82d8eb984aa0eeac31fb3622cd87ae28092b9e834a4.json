@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_php",
+      "label": "RecepcionFisicaMICs.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics",
+      "label": "RecepcionFisicaMICs",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "label": ".getReporteControlAlicorp()",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getdatosdex",
+      "label": ".getDatosDEX()",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_gethistorialdex",
+      "label": ".getHistorialDEX()",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L100",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_php",
+      "target": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics",
+      "target": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics",
+      "target": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getdatosdex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics",
+      "target": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_gethistorialdex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L100",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L45",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L45",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "implode",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L46",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "array_map",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L46",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L47",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L53",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L53",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L57",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L57",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L61",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L61",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L73",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getreportecontrolalicorp",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L78",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getdatosdex",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_getdatosdex",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_gethistorialdex",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_gethistorialdex",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reportes_exportaciones_ajax_recepcionfisicamics_recepcionfisicamics_gethistorialdex",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "source_location": "L118",
+      "receiver": null
+    }
+  ]
+}

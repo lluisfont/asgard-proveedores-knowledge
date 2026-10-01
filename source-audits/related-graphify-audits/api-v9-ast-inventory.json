@@ -1,0 +1,3636 @@
+{
+  "dynamic_fetches": [
+    {
+      "call": "safe_fetch_text",
+      "line": 86,
+      "path": "graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "safe_fetch_text",
+      "line": 110,
+      "path": "graphify/ingest.py",
+      "url_arg": "oembed_api"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 215,
+      "path": "graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 229,
+      "path": "graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 239,
+      "path": "graphify/security.py",
+      "url_arg": "newurl"
+    },
+    {
+      "call": "validate_url",
+      "line": 274,
+      "path": "graphify/security.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 307,
+      "path": "graphify/security.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 57,
+      "path": "graphify/transcribe.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 36,
+      "path": "tests/test_security.py",
+      "url_arg": "http://example.com/page"
+    },
+    {
+      "call": "validate_url",
+      "line": 39,
+      "path": "tests/test_security.py",
+      "url_arg": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "call": "validate_url",
+      "line": 43,
+      "path": "tests/test_security.py",
+      "url_arg": "file:///etc/passwd"
+    },
+    {
+      "call": "validate_url",
+      "line": 47,
+      "path": "tests/test_security.py",
+      "url_arg": "ftp://files.example.com/data.zip"
+    },
+    {
+      "call": "validate_url",
+      "line": 51,
+      "path": "tests/test_security.py",
+      "url_arg": "data:text/html,<script>alert(1)</script>"
+    },
+    {
+      "call": "validate_url",
+      "line": 55,
+      "path": "tests/test_security.py",
+      "url_arg": "//no-scheme.example.com"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 75,
+      "path": "tests/test_security.py",
+      "url_arg": "file:///etc/passwd"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 79,
+      "path": "tests/test_security.py",
+      "url_arg": "ftp://example.com/file.zip"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 87,
+      "path": "tests/test_security.py",
+      "url_arg": "https://example.com/"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 97,
+      "path": "tests/test_security.py",
+      "url_arg": "https://example.com/missing"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 115,
+      "path": "tests/test_security.py",
+      "url_arg": "https://example.com/huge"
+    },
+    {
+      "call": "safe_fetch_text",
+      "line": 129,
+      "path": "tests/test_security.py",
+      "url_arg": "https://example.com/"
+    },
+    {
+      "call": "safe_fetch_text",
+      "line": 139,
+      "path": "tests/test_security.py",
+      "url_arg": "https://example.com/"
+    },
+    {
+      "call": "safe_fetch_text",
+      "line": 86,
+      "path": "build/lib/graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "safe_fetch_text",
+      "line": 110,
+      "path": "build/lib/graphify/ingest.py",
+      "url_arg": "oembed_api"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 215,
+      "path": "build/lib/graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 229,
+      "path": "build/lib/graphify/ingest.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 239,
+      "path": "build/lib/graphify/security.py",
+      "url_arg": "newurl"
+    },
+    {
+      "call": "validate_url",
+      "line": 274,
+      "path": "build/lib/graphify/security.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "safe_fetch",
+      "line": 307,
+      "path": "build/lib/graphify/security.py",
+      "url_arg": "url"
+    },
+    {
+      "call": "validate_url",
+      "line": 57,
+      "path": "build/lib/graphify/transcribe.py",
+      "url_arg": "url"
+    }
+  ],
+  "env_vars": [
+    {
+      "access": "get",
+      "line": 229,
+      "name": "GRAPHIFY_MTIME_GRANULARITY_MS",
+      "path": "graphify/cache.py"
+    },
+    {
+      "access": "get",
+      "line": 679,
+      "name": "GRAPHIFY_HOOK_STRICT",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 704,
+      "name": "GRAPHIFY_HOOK_STRICT_TTL",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 887,
+      "name": "CLAUDE_PROJECT_DIR",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2404,
+      "name": "GRAPHIFY_FORCE",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2449,
+      "name": "GEMINI_API_KEY",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2450,
+      "name": "GOOGLE_API_KEY",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2451,
+      "name": "MOONSHOT_API_KEY",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2452,
+      "name": "DEEPSEEK_API_KEY",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2453,
+      "name": "GRAPHIFY_NO_TIPS",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2827,
+      "name": "FALKORDB_PASSWORD",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2828,
+      "name": "NEO4J_PASSWORD",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3235,
+      "name": "GRAPHIFY_FORCE",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "subscript",
+      "line": 3371,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "subscript",
+      "line": 3373,
+      "name": "GRAPHIFY_MAX_WORKERS",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3686,
+      "name": "OLLAMA_BASE_URL",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3696,
+      "name": "OLLAMA_BASE_URL",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3710,
+      "name": "AWS_PROFILE",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3711,
+      "name": "AWS_REGION",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3712,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3713,
+      "name": "AWS_ACCESS_KEY_ID",
+      "path": "graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 53,
+      "name": "GRAPHIFY_NO_BACKUP",
+      "path": "graphify/export.py"
+    },
+    {
+      "access": "get",
+      "line": 182,
+      "name": "GRAPHIFY_DEBUG",
+      "path": "graphify/extract.py"
+    },
+    {
+      "access": "get",
+      "line": 6177,
+      "name": "GRAPHIFY_MAX_WORKERS",
+      "path": "graphify/extract.py"
+    },
+    {
+      "access": "get",
+      "line": 27,
+      "name": "GRAPHIFY_GOOGLE_WORKSPACE",
+      "path": "graphify/google_workspace.py"
+    },
+    {
+      "access": "get",
+      "line": 109,
+      "name": "GRAPHIFY_GOOGLE_WORKSPACE_TIMEOUT",
+      "path": "graphify/google_workspace.py"
+    },
+    {
+      "access": "get",
+      "line": 100,
+      "name": "LOCALAPPDATA",
+      "path": "graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 132,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "graphify/install.py"
+    },
+    {
+      "access": "subscript",
+      "line": 133,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 698,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "graphify/install.py"
+    },
+    {
+      "access": "subscript",
+      "line": 699,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 68,
+      "name": "OLLAMA_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 71,
+      "name": "OLLAMA_HOST",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 106,
+      "name": "ANTHROPIC_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 107,
+      "name": "ANTHROPIC_MODEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 117,
+      "name": "KIMI_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 129,
+      "name": "OLLAMA_MODEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 139,
+      "name": "GEMINI_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 154,
+      "name": "OPENAI_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 155,
+      "name": "OPENAI_MODEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 171,
+      "name": "DEEPSEEK_BASE_URL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 194,
+      "name": "AZURE_OPENAI_DEPLOYMENT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 194,
+      "name": "GRAPHIFY_AZURE_MODEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 275,
+      "name": "GRAPHIFY_ALLOW_LOCAL_PROVIDERS",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 310,
+      "name": "GRAPHIFY_MAX_OUTPUT_TOKENS",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 364,
+      "name": "GRAPHIFY_LLM_TEMPERATURE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 409,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 428,
+      "name": "GRAPHIFY_MAX_RETRIES",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 452,
+      "name": "GRAPHIFY_MAX_RETRY_DEPTH",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 476,
+      "name": "GRAPHIFY_DISABLE_THINKING",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 893,
+      "name": "GRAPHIFY_OLLAMA_VISION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1387,
+      "name": "GRAPHIFY_MAX_RETRIES",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1428,
+      "name": "GRAPHIFY_OLLAMA_NUM_CTX",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1461,
+      "name": "GRAPHIFY_OLLAMA_KEEP_ALIVE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1761,
+      "name": "GRAPHIFY_CLAUDE_CLI_MODEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1829,
+      "name": "AZURE_OPENAI_API_VERSION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1830,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1889,
+      "name": "AWS_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1889,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1890,
+      "name": "AWS_PROFILE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2005,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2654,
+      "name": "GRAPHIFY_OLLAMA_PARALLEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2658,
+      "name": "GRAPHIFY_CLAUDE_CLI_PARALLEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2667,
+      "name": "GRAPHIFY_NO_INCREMENTAL_CACHE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2983,
+      "name": "AWS_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2983,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2984,
+      "name": "AWS_PROFILE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3005,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3186,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_PROFILE",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3428,
+      "name": "GRAPHIFY_OLLAMA_PARALLEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3430,
+      "name": "GRAPHIFY_CLAUDE_CLI_PARALLEL",
+      "path": "graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 26,
+      "name": "GRAPHIFY_OUT",
+      "path": "graphify/paths.py"
+    },
+    {
+      "access": "get",
+      "line": 38,
+      "name": "NO_COLOR",
+      "path": "graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 575,
+      "name": "GRAPHIFY_TRIAGE_BACKEND",
+      "path": "graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 577,
+      "name": "GRAPHIFY_TRIAGE_MODEL",
+      "path": "graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 584,
+      "name": "GRAPHIFY_TRIAGE_MODEL",
+      "path": "graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 24,
+      "name": "GRAPHIFY_QUERY_LOG_DISABLE",
+      "path": "graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 26,
+      "name": "GRAPHIFY_QUERY_LOG",
+      "path": "graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 29,
+      "name": "GRAPHIFY_QUERY_LOG_ENABLE",
+      "path": "graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 35,
+      "name": "GRAPHIFY_QUERY_LOG_RESPONSES",
+      "path": "graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 49,
+      "name": "GRAPHIFY_MAX_GRAPH_BYTES",
+      "path": "graphify/security.py"
+    },
+    {
+      "access": "get",
+      "line": 112,
+      "name": "GRAPHIFY_MAX_CONTEXTS",
+      "path": "graphify/serve.py"
+    },
+    {
+      "access": "get",
+      "line": 2578,
+      "name": "GRAPHIFY_API_KEY",
+      "path": "graphify/serve.py"
+    },
+    {
+      "access": "get",
+      "line": 20,
+      "name": "GRAPHIFY_WHISPER_MODEL",
+      "path": "graphify/transcribe.py"
+    },
+    {
+      "access": "get",
+      "line": 106,
+      "name": "GRAPHIFY_WHISPER_PROMPT",
+      "path": "graphify/transcribe.py"
+    },
+    {
+      "access": "get",
+      "line": 232,
+      "name": "GRAPHIFY_REBUILD_MEMORY_LIMIT_MB",
+      "path": "graphify/watch.py"
+    },
+    {
+      "access": "get",
+      "line": 1213,
+      "name": "GRAPHIFY_REPO_ROOT",
+      "path": "graphify/watch.py"
+    },
+    {
+      "access": "get",
+      "line": 22,
+      "name": "STATIC",
+      "path": "scripts/gen_demo_path.py"
+    },
+    {
+      "access": "get",
+      "line": 25,
+      "name": "FALKORDB_HOST",
+      "path": "tests/test_falkordb_integration.py"
+    },
+    {
+      "access": "get",
+      "line": 26,
+      "name": "FALKORDB_PORT",
+      "path": "tests/test_falkordb_integration.py"
+    },
+    {
+      "access": "get",
+      "line": 229,
+      "name": "GRAPHIFY_MTIME_GRANULARITY_MS",
+      "path": "build/lib/graphify/cache.py"
+    },
+    {
+      "access": "get",
+      "line": 679,
+      "name": "GRAPHIFY_HOOK_STRICT",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 704,
+      "name": "GRAPHIFY_HOOK_STRICT_TTL",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 887,
+      "name": "CLAUDE_PROJECT_DIR",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2404,
+      "name": "GRAPHIFY_FORCE",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2449,
+      "name": "GEMINI_API_KEY",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2450,
+      "name": "GOOGLE_API_KEY",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2451,
+      "name": "MOONSHOT_API_KEY",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2452,
+      "name": "DEEPSEEK_API_KEY",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2453,
+      "name": "GRAPHIFY_NO_TIPS",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2827,
+      "name": "FALKORDB_PASSWORD",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 2828,
+      "name": "NEO4J_PASSWORD",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3235,
+      "name": "GRAPHIFY_FORCE",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "subscript",
+      "line": 3371,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "subscript",
+      "line": 3373,
+      "name": "GRAPHIFY_MAX_WORKERS",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3686,
+      "name": "OLLAMA_BASE_URL",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3696,
+      "name": "OLLAMA_BASE_URL",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3710,
+      "name": "AWS_PROFILE",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3711,
+      "name": "AWS_REGION",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3712,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 3713,
+      "name": "AWS_ACCESS_KEY_ID",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "access": "get",
+      "line": 53,
+      "name": "GRAPHIFY_NO_BACKUP",
+      "path": "build/lib/graphify/export.py"
+    },
+    {
+      "access": "get",
+      "line": 182,
+      "name": "GRAPHIFY_DEBUG",
+      "path": "build/lib/graphify/extract.py"
+    },
+    {
+      "access": "get",
+      "line": 6177,
+      "name": "GRAPHIFY_MAX_WORKERS",
+      "path": "build/lib/graphify/extract.py"
+    },
+    {
+      "access": "get",
+      "line": 27,
+      "name": "GRAPHIFY_GOOGLE_WORKSPACE",
+      "path": "build/lib/graphify/google_workspace.py"
+    },
+    {
+      "access": "get",
+      "line": 109,
+      "name": "GRAPHIFY_GOOGLE_WORKSPACE_TIMEOUT",
+      "path": "build/lib/graphify/google_workspace.py"
+    },
+    {
+      "access": "get",
+      "line": 100,
+      "name": "LOCALAPPDATA",
+      "path": "build/lib/graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 132,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "build/lib/graphify/install.py"
+    },
+    {
+      "access": "subscript",
+      "line": 133,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "build/lib/graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 698,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "build/lib/graphify/install.py"
+    },
+    {
+      "access": "subscript",
+      "line": 699,
+      "name": "CLAUDE_CONFIG_DIR",
+      "path": "build/lib/graphify/install.py"
+    },
+    {
+      "access": "get",
+      "line": 68,
+      "name": "OLLAMA_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 71,
+      "name": "OLLAMA_HOST",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 106,
+      "name": "ANTHROPIC_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 107,
+      "name": "ANTHROPIC_MODEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 117,
+      "name": "KIMI_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 129,
+      "name": "OLLAMA_MODEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 139,
+      "name": "GEMINI_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 154,
+      "name": "OPENAI_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 155,
+      "name": "OPENAI_MODEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 171,
+      "name": "DEEPSEEK_BASE_URL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 194,
+      "name": "AZURE_OPENAI_DEPLOYMENT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 194,
+      "name": "GRAPHIFY_AZURE_MODEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 275,
+      "name": "GRAPHIFY_ALLOW_LOCAL_PROVIDERS",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 310,
+      "name": "GRAPHIFY_MAX_OUTPUT_TOKENS",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 364,
+      "name": "GRAPHIFY_LLM_TEMPERATURE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 409,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 428,
+      "name": "GRAPHIFY_MAX_RETRIES",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 452,
+      "name": "GRAPHIFY_MAX_RETRY_DEPTH",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 476,
+      "name": "GRAPHIFY_DISABLE_THINKING",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 893,
+      "name": "GRAPHIFY_OLLAMA_VISION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1387,
+      "name": "GRAPHIFY_MAX_RETRIES",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1428,
+      "name": "GRAPHIFY_OLLAMA_NUM_CTX",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1461,
+      "name": "GRAPHIFY_OLLAMA_KEEP_ALIVE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1761,
+      "name": "GRAPHIFY_CLAUDE_CLI_MODEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1829,
+      "name": "AZURE_OPENAI_API_VERSION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1830,
+      "name": "GRAPHIFY_API_TIMEOUT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1889,
+      "name": "AWS_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1889,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 1890,
+      "name": "AWS_PROFILE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2005,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2654,
+      "name": "GRAPHIFY_OLLAMA_PARALLEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2658,
+      "name": "GRAPHIFY_CLAUDE_CLI_PARALLEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2667,
+      "name": "GRAPHIFY_NO_INCREMENTAL_CACHE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2983,
+      "name": "AWS_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2983,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 2984,
+      "name": "AWS_PROFILE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3005,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3186,
+      "name": "AZURE_OPENAI_ENDPOINT",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_PROFILE",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3188,
+      "name": "AWS_DEFAULT_REGION",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3428,
+      "name": "GRAPHIFY_OLLAMA_PARALLEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 3430,
+      "name": "GRAPHIFY_CLAUDE_CLI_PARALLEL",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "access": "get",
+      "line": 26,
+      "name": "GRAPHIFY_OUT",
+      "path": "build/lib/graphify/paths.py"
+    },
+    {
+      "access": "get",
+      "line": 38,
+      "name": "NO_COLOR",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 575,
+      "name": "GRAPHIFY_TRIAGE_BACKEND",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 577,
+      "name": "GRAPHIFY_TRIAGE_MODEL",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 584,
+      "name": "GRAPHIFY_TRIAGE_MODEL",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "access": "get",
+      "line": 24,
+      "name": "GRAPHIFY_QUERY_LOG_DISABLE",
+      "path": "build/lib/graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 26,
+      "name": "GRAPHIFY_QUERY_LOG",
+      "path": "build/lib/graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 29,
+      "name": "GRAPHIFY_QUERY_LOG_ENABLE",
+      "path": "build/lib/graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 35,
+      "name": "GRAPHIFY_QUERY_LOG_RESPONSES",
+      "path": "build/lib/graphify/querylog.py"
+    },
+    {
+      "access": "get",
+      "line": 49,
+      "name": "GRAPHIFY_MAX_GRAPH_BYTES",
+      "path": "build/lib/graphify/security.py"
+    },
+    {
+      "access": "get",
+      "line": 112,
+      "name": "GRAPHIFY_MAX_CONTEXTS",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "access": "get",
+      "line": 2578,
+      "name": "GRAPHIFY_API_KEY",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "access": "get",
+      "line": 20,
+      "name": "GRAPHIFY_WHISPER_MODEL",
+      "path": "build/lib/graphify/transcribe.py"
+    },
+    {
+      "access": "get",
+      "line": 106,
+      "name": "GRAPHIFY_WHISPER_PROMPT",
+      "path": "build/lib/graphify/transcribe.py"
+    },
+    {
+      "access": "get",
+      "line": 232,
+      "name": "GRAPHIFY_REBUILD_MEMORY_LIMIT_MB",
+      "path": "build/lib/graphify/watch.py"
+    },
+    {
+      "access": "get",
+      "line": 1213,
+      "name": "GRAPHIFY_REPO_ROOT",
+      "path": "build/lib/graphify/watch.py"
+    },
+    {
+      "access": "get",
+      "line": 24,
+      "name": "GRAPHIFY_VIZ_NODE_LIMIT",
+      "path": "build/lib/graphify/exporters/html.py"
+    },
+    {
+      "access": "get",
+      "line": 24,
+      "name": "GRAPHIFY_VIZ_NODE_LIMIT",
+      "path": "graphify/exporters/html.py"
+    }
+  ],
+  "imports": [
+    {
+      "line": 3695,
+      "module": "urllib.parse",
+      "path": "graphify/cli.py"
+    },
+    {
+      "line": 17,
+      "module": "urllib.parse",
+      "path": "graphify/google_workspace.py"
+    },
+    {
+      "line": 6,
+      "module": "urllib.error",
+      "path": "graphify/ingest.py"
+    },
+    {
+      "line": 7,
+      "module": "urllib.parse",
+      "path": "graphify/ingest.py"
+    },
+    {
+      "line": 86,
+      "module": "urllib.parse",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 242,
+      "module": "urllib.parse",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 1369,
+      "module": "openai",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 1498,
+      "module": "anthropic",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 1824,
+      "module": "openai",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 1881,
+      "module": "boto3",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 2222,
+      "module": "openai",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 2227,
+      "module": "anthropic",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 2915,
+      "module": "anthropic",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 2979,
+      "module": "boto3",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 3029,
+      "module": "openai",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 3113,
+      "module": "urllib.parse",
+      "path": "graphify/llm.py"
+    },
+    {
+      "line": 14,
+      "module": "psycopg",
+      "path": "graphify/pg_introspect.py"
+    },
+    {
+      "line": 636,
+      "module": "anthropic",
+      "path": "graphify/prs.py"
+    },
+    {
+      "line": 648,
+      "module": "openai",
+      "path": "graphify/prs.py"
+    },
+    {
+      "line": 8,
+      "module": "urllib.error",
+      "path": "graphify/security.py"
+    },
+    {
+      "line": 9,
+      "module": "urllib.parse",
+      "path": "graphify/security.py"
+    },
+    {
+      "line": 10,
+      "module": "urllib.request",
+      "path": "graphify/security.py"
+    },
+    {
+      "line": 36,
+      "module": "yt_dlp",
+      "path": "graphify/transcribe.py"
+    },
+    {
+      "line": 339,
+      "module": "openai",
+      "path": "tests/test_llm_backends.py"
+    },
+    {
+      "line": 345,
+      "module": "anthropic",
+      "path": "tests/test_llm_backends.py"
+    },
+    {
+      "line": 5,
+      "module": "urllib.error",
+      "path": "tests/test_security.py"
+    },
+    {
+      "line": 104,
+      "module": "urllib.parse",
+      "path": "tests/test_wiki_link_filename_parity.py"
+    },
+    {
+      "line": 3695,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/cli.py"
+    },
+    {
+      "line": 17,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/google_workspace.py"
+    },
+    {
+      "line": 6,
+      "module": "urllib.error",
+      "path": "build/lib/graphify/ingest.py"
+    },
+    {
+      "line": 7,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/ingest.py"
+    },
+    {
+      "line": 86,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 242,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 1369,
+      "module": "openai",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 1498,
+      "module": "anthropic",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 1824,
+      "module": "openai",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 1881,
+      "module": "boto3",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 2222,
+      "module": "openai",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 2227,
+      "module": "anthropic",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 2915,
+      "module": "anthropic",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 2979,
+      "module": "boto3",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 3029,
+      "module": "openai",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 3113,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "line": 14,
+      "module": "psycopg",
+      "path": "build/lib/graphify/pg_introspect.py"
+    },
+    {
+      "line": 636,
+      "module": "anthropic",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "line": 648,
+      "module": "openai",
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "line": 8,
+      "module": "urllib.error",
+      "path": "build/lib/graphify/security.py"
+    },
+    {
+      "line": 9,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/security.py"
+    },
+    {
+      "line": 10,
+      "module": "urllib.request",
+      "path": "build/lib/graphify/security.py"
+    },
+    {
+      "line": 36,
+      "module": "yt_dlp",
+      "path": "build/lib/graphify/transcribe.py"
+    },
+    {
+      "line": 24,
+      "module": "neo4j",
+      "path": "build/lib/graphify/exporters/graphdb.py"
+    },
+    {
+      "line": 109,
+      "module": "falkordb",
+      "path": "build/lib/graphify/exporters/graphdb.py"
+    },
+    {
+      "line": 115,
+      "module": "urllib.parse",
+      "path": "build/lib/graphify/exporters/graphdb.py"
+    },
+    {
+      "line": 24,
+      "module": "neo4j",
+      "path": "graphify/exporters/graphdb.py"
+    },
+    {
+      "line": 109,
+      "module": "falkordb",
+      "path": "graphify/exporters/graphdb.py"
+    },
+    {
+      "line": 115,
+      "module": "urllib.parse",
+      "path": "graphify/exporters/graphdb.py"
+    }
+  ],
+  "pyproject": {
+    "dependencies": [
+      "networkx>=3.4",
+      "numpy>=1.21",
+      "rapidfuzz>=3.0",
+      "tomli>=2.0.1; python_version < '3.11'",
+      "tree-sitter>=0.23.0,<0.26",
+      "tree-sitter-python>=0.23,<0.26",
+      "tree-sitter-javascript>=0.23,<0.26",
+      "tree-sitter-typescript>=0.23,<0.25",
+      "tree-sitter-go>=0.23,<0.26",
+      "tree-sitter-rust>=0.23,<0.25",
+      "tree-sitter-java>=0.23,<0.25",
+      "tree-sitter-groovy>=0.1,<0.3",
+      "tree-sitter-c>=0.23,<0.25",
+      "tree-sitter-cpp>=0.23,<0.25",
+      "tree-sitter-ruby>=0.23,<0.25",
+      "tree-sitter-c-sharp>=0.23,<0.25",
+      "tree-sitter-kotlin>=1.0,<2.0",
+      "tree-sitter-scala>=0.23,<0.27",
+      "tree-sitter-php>=0.23,<0.25",
+      "tree-sitter-swift>=0.7,<0.9",
+      "tree-sitter-lua>=0.2,<0.6",
+      "tree-sitter-zig>=1.0,<2.0",
+      "tree-sitter-powershell>=0.26,<0.28",
+      "tree-sitter-elixir>=0.3,<0.5",
+      "tree-sitter-objc>=3.0,<4.0",
+      "tree-sitter-julia>=0.23,<0.25",
+      "tree-sitter-verilog>=1.0,<2.0",
+      "tree-sitter-fortran>=0.6,<0.8",
+      "tree-sitter-bash>=0.23,<0.27",
+      "tree-sitter-json>=0.23,<0.26"
+    ],
+    "optional_dependencies": {
+      "all": [
+        "mcp>=1,<3",
+        "starlette>=1.3.1,<2",
+        "neo4j",
+        "falkordb",
+        "pypdf>=6.16.1",
+        "markdownify",
+        "watchdog",
+        "graspologic; python_version < '3.13'",
+        "graspologic-native>=1.3.1,<2; python_version >= '3.13'",
+        "python-docx",
+        "openpyxl",
+        "psycopg[binary]",
+        "faster-whisper; python_version >= '3.11'",
+        "yt-dlp>=2026.7.4",
+        "matplotlib",
+        "numpy>=2.0; python_version >= '3.13'",
+        "openai",
+        "tiktoken",
+        "boto3",
+        "anthropic",
+        "tree-sitter-sql",
+        "jieba; python_version < '3.12'",
+        "jieba-py>=0.46.12,<1; python_version >= '3.12'",
+        "tree-sitter-dm",
+        "tree-sitter-hcl",
+        "tree-sitter-pascal",
+        "tree-sitter-ocaml",
+        "tree-sitter-commonlisp",
+        "robotframework>=4.0"
+      ],
+      "anthropic": [
+        "anthropic"
+      ],
+      "bedrock": [
+        "boto3"
+      ],
+      "chinese": [
+        "jieba; python_version < '3.12'",
+        "jieba-py>=0.46.12,<1; python_version >= '3.12'"
+      ],
+      "commonlisp": [
+        "tree-sitter-commonlisp"
+      ],
+      "dm": [
+        "tree-sitter-dm"
+      ],
+      "falkordb": [
+        "falkordb"
+      ],
+      "gemini": [
+        "openai",
+        "tiktoken"
+      ],
+      "google": [
+        "openpyxl"
+      ],
+      "kimi": [
+        "openai",
+        "tiktoken"
+      ],
+      "leiden": [
+        "graspologic; python_version < '3.13'",
+        "graspologic-native>=1.3.1,<2; python_version >= '3.13'"
+      ],
+      "mcp": [
+        "mcp>=1,<3",
+        "starlette>=1.3.1,<2"
+      ],
+      "neo4j": [
+        "neo4j"
+      ],
+      "ocaml": [
+        "tree-sitter-ocaml"
+      ],
+      "office": [
+        "python-docx",
+        "openpyxl"
+      ],
+      "ollama": [
+        "openai"
+      ],
+      "openai": [
+        "openai",
+        "tiktoken"
+      ],
+      "pascal": [
+        "tree-sitter-pascal"
+      ],
+      "pdf": [
+        "pypdf>=6.16.1",
+        "markdownify"
+      ],
+      "postgres": [
+        "psycopg[binary]",
+        "tree-sitter-sql"
+      ],
+      "robot": [
+        "robotframework>=4.0"
+      ],
+      "sql": [
+        "tree-sitter-sql"
+      ],
+      "svg": [
+        "matplotlib",
+        "numpy>=2.0; python_version >= '3.13'"
+      ],
+      "terraform": [
+        "tree-sitter-hcl"
+      ],
+      "video": [
+        "faster-whisper; python_version >= '3.11'",
+        "yt-dlp>=2026.7.4"
+      ],
+      "watch": [
+        "watchdog"
+      ]
+    },
+    "scripts": {
+      "graphify": "graphify.__main__:main",
+      "graphify-mcp": "graphify.serve:_main"
+    }
+  },
+  "repo": "C:\\Users\\GMKtek-1\\.graphify\\repos\\Graphify-Labs\\graphify-v0.9.61",
+  "resources": [
+    {
+      "description": "Full GRAPH_REPORT.md",
+      "line": 2203,
+      "mimeType": "text/markdown",
+      "name": "Graph Report",
+      "path": "graphify/serve.py",
+      "uri": "graphify://report"
+    },
+    {
+      "description": "Node/edge/community counts and confidence breakdown",
+      "line": 2204,
+      "mimeType": "text/plain",
+      "name": "Graph Stats",
+      "path": "graphify/serve.py",
+      "uri": "graphify://stats"
+    },
+    {
+      "description": "Top 10 most-connected nodes",
+      "line": 2205,
+      "mimeType": "text/plain",
+      "name": "God Nodes",
+      "path": "graphify/serve.py",
+      "uri": "graphify://god-nodes"
+    },
+    {
+      "description": "Cross-community surprising connections",
+      "line": 2206,
+      "mimeType": "text/plain",
+      "name": "Surprising Connections",
+      "path": "graphify/serve.py",
+      "uri": "graphify://surprises"
+    },
+    {
+      "description": "EXTRACTED/INFERRED/AMBIGUOUS edge breakdown",
+      "line": 2207,
+      "mimeType": "text/plain",
+      "name": "Confidence Audit",
+      "path": "graphify/serve.py",
+      "uri": "graphify://audit"
+    },
+    {
+      "description": "Suggested questions for this codebase",
+      "line": 2208,
+      "mimeType": "text/plain",
+      "name": "Suggested Questions",
+      "path": "graphify/serve.py",
+      "uri": "graphify://questions"
+    },
+    {
+      "description": "Full GRAPH_REPORT.md",
+      "line": 2203,
+      "mimeType": "text/markdown",
+      "name": "Graph Report",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://report"
+    },
+    {
+      "description": "Node/edge/community counts and confidence breakdown",
+      "line": 2204,
+      "mimeType": "text/plain",
+      "name": "Graph Stats",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://stats"
+    },
+    {
+      "description": "Top 10 most-connected nodes",
+      "line": 2205,
+      "mimeType": "text/plain",
+      "name": "God Nodes",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://god-nodes"
+    },
+    {
+      "description": "Cross-community surprising connections",
+      "line": 2206,
+      "mimeType": "text/plain",
+      "name": "Surprising Connections",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://surprises"
+    },
+    {
+      "description": "EXTRACTED/INFERRED/AMBIGUOUS edge breakdown",
+      "line": 2207,
+      "mimeType": "text/plain",
+      "name": "Confidence Audit",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://audit"
+    },
+    {
+      "description": "Suggested questions for this codebase",
+      "line": 2208,
+      "mimeType": "text/plain",
+      "name": "Suggested Questions",
+      "path": "build/lib/graphify/serve.py",
+      "uri": "graphify://questions"
+    }
+  ],
+  "routes": [
+    {
+      "call": "Route",
+      "endpoint": "_MCPASGIApp",
+      "line": 2483,
+      "path": "graphify/serve.py",
+      "path_arg": null
+    },
+    {
+      "call": "Route",
+      "endpoint": "_MCPASGIApp",
+      "line": 2483,
+      "path": "build/lib/graphify/serve.py",
+      "path_arg": null
+    }
+  ],
+  "server_callbacks": [
+    {
+      "callbacks": {
+        "on_call_tool": "_on_call_tool",
+        "on_list_resources": "_on_list_resources",
+        "on_list_tools": "_on_list_tools",
+        "on_read_resource": "_on_read_resource"
+      },
+      "line": 2319,
+      "path": "graphify/serve.py"
+    },
+    {
+      "callbacks": {
+        "on_call_tool": "_on_call_tool",
+        "on_list_resources": "_on_list_resources",
+        "on_list_tools": "_on_list_tools",
+        "on_read_resource": "_on_read_resource"
+      },
+      "line": 2319,
+      "path": "build/lib/graphify/serve.py"
+    }
+  ],
+  "subprocesses": [
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1104,
+      "path": "graphify/detect.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 110,
+      "path": "graphify/google_workspace.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1658,
+      "path": "graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1774,
+      "path": "graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 2946,
+      "path": "graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 143,
+      "path": "graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "symbolic-ref",
+        "refs/remotes/origin/HEAD"
+      ],
+      "line": 171,
+      "path": "graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 239,
+      "path": "graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "line": 312,
+      "path": "graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 42,
+      "path": "tests/test_backend_env_isolation.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 74,
+      "path": "tests/test_callflow_html.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 131,
+      "path": "tests/test_callflow_html.py"
+    },
+    {
+      "call": "subprocess.Popen",
+      "command": null,
+      "line": 19,
+      "path": "tests/test_cli_broken_pipe.py"
+    },
+    {
+      "call": "subprocess.Popen",
+      "command": null,
+      "line": 22,
+      "path": "tests/test_cli_broken_pipe.py"
+    },
+    {
+      "call": "subprocess.Popen",
+      "command": null,
+      "line": 38,
+      "path": "tests/test_cli_broken_pipe.py"
+    },
+    {
+      "call": "subprocess.Popen",
+      "command": null,
+      "line": 41,
+      "path": "tests/test_cli_broken_pipe.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 20,
+      "path": "tests/test_cli_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 752,
+      "path": "tests/test_cli_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 753,
+      "path": "tests/test_cli_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 758,
+      "path": "tests/test_cli_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 17,
+      "path": "tests/test_cli_help.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 260,
+      "path": "tests/test_cross_repo_member_calls.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 22,
+      "path": "tests/test_cross_repo_shared_types.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 964,
+      "path": "tests/test_dedup.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 13,
+      "path": "tests/test_detect.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 2940,
+      "path": "tests/test_detect.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 163,
+      "path": "tests/test_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "line": 172,
+      "path": "tests/test_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1087,
+      "path": "tests/test_export.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 32,
+      "path": "tests/test_extract_code_only_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 62,
+      "path": "tests/test_extract_code_only_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 77,
+      "path": "tests/test_extract_code_only_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 202,
+      "path": "tests/test_extract_code_only_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 26,
+      "path": "tests/test_gemini_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 67,
+      "path": "tests/test_gemini_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 14,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 212,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 560,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 655,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 820,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 912,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 956,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 993,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1006,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1008,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1062,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1105,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1169,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1245,
+      "path": "tests/test_hooks.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 27,
+      "path": "tests/test_hook_chain_survives_skip.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 43,
+      "path": "tests/test_hook_chain_survives_skip.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 239,
+      "path": "tests/test_hook_guard.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 275,
+      "path": "tests/test_hook_guard.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 26,
+      "path": "tests/test_incremental.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 409,
+      "path": "tests/test_install_references.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 4379,
+      "path": "tests/test_languages.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1141,
+      "path": "tests/test_llm_backends.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1171,
+      "path": "tests/test_llm_backends.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 19,
+      "path": "tests/test_merge_graphs_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 154,
+      "path": "tests/test_path_cli.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 36,
+      "path": "tests/test_read_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 131,
+      "path": "tests/test_read_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 44,
+      "path": "tests/test_reflect.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 32,
+      "path": "tests/test_search_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 44,
+      "path": "tests/test_search_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 111,
+      "path": "tests/test_search_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 133,
+      "path": "tests/test_search_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 181,
+      "path": "tests/test_search_hook.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1136,
+      "path": "tests/test_serve.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 24,
+      "path": "tests/test_tree_html.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1601,
+      "path": "tests/test_watch.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1602,
+      "path": "tests/test_watch.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1606,
+      "path": "tests/test_watch.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "init",
+        "-q",
+        "."
+      ],
+      "line": 184,
+      "path": "tests/test_watch_manifest_location.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "add",
+        "-A"
+      ],
+      "line": 185,
+      "path": "tests/test_watch_manifest_location.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 186,
+      "path": "tests/test_watch_manifest_location.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "line": 187,
+      "path": "tests/test_watch_manifest_location.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 23,
+      "path": "tests/test_wheel_packaging.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 60,
+      "path": "tests/test_wheel_packaging.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1104,
+      "path": "build/lib/graphify/detect.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 110,
+      "path": "build/lib/graphify/google_workspace.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1658,
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 1774,
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 2946,
+      "path": "build/lib/graphify/llm.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 143,
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "symbolic-ref",
+        "refs/remotes/origin/HEAD"
+      ],
+      "line": 171,
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 239,
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "line": 312,
+      "path": "build/lib/graphify/prs.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 35,
+      "path": "build/lib/graphify/extractors/fortran.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 35,
+      "path": "graphify/extractors/fortran.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": null,
+      "line": 743,
+      "path": "tools/skillgen/gen.py"
+    },
+    {
+      "call": "subprocess.run",
+      "command": [
+        "git",
+        "rev-parse",
+        "--verify",
+        "--quiet",
+        "origin/v8"
+      ],
+      "line": 764,
+      "path": "tools/skillgen/gen.py"
+    }
+  ],
+  "tools": [
+    {
+      "description": "Search the knowledge graph using BFS or DFS. Returns relevant nodes and edges as text context.",
+      "inputSchema": {
+        "properties": {
+          "context_filter": {
+            "description": "Optional explicit edge-context filter, e.g. ['call', 'field']",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "depth": {
+            "default": 3,
+            "description": "Traversal depth (1-6)",
+            "type": "integer"
+          },
+          "mode": {
+            "default": "bfs",
+            "description": "bfs=broad context, dfs=trace a specific path",
+            "enum": [
+              "bfs",
+              "dfs"
+            ],
+            "type": "string"
+          },
+          "question": {
+            "description": "Natural language question or keyword search",
+            "type": "string"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "type": "object"
+      },
+      "line": 1804,
+      "name": "query_graph",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Get full details for a specific node by label or ID.",
+      "inputSchema": {
+        "properties": {
+          "label": {
+            "description": "Node label or ID to look up",
+            "type": "string"
+          }
+        },
+        "required": [
+          "label"
+        ],
+        "type": "object"
+      },
+      "line": 1824,
+      "name": "get_node",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Get all direct neighbors of a node with edge details.",
+      "inputSchema": {
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "relation_filter": {
+            "description": "Optional: filter by relation type",
+            "type": "string"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "label"
+        ],
+        "type": "object"
+      },
+      "line": 1833,
+      "name": "get_neighbors",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Get all nodes in a community by community ID.",
+      "inputSchema": {
+        "properties": {
+          "community_id": {
+            "description": "Community ID (0-indexed by size)",
+            "type": "integer"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "community_id"
+        ],
+        "type": "object"
+      },
+      "line": 1846,
+      "name": "get_community",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Return the most connected nodes - the core abstractions of the knowledge graph.",
+      "inputSchema": {
+        "properties": {
+          "exclude_hubs_percentile": {
+            "description": "Suppress nodes whose degree exceeds this percentile (0-100) of the degree distribution, matching cluster()'s hub exclusion",
+            "type": "number"
+          },
+          "top_n": {
+            "default": 10,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1858,
+      "name": "god_nodes",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Return summary statistics: node count, edge count, communities, confidence breakdown.",
+      "inputSchema": {
+        "properties": {},
+        "type": "object"
+      },
+      "line": 1867,
+      "name": "graph_stats",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Find the shortest path between two concepts in the knowledge graph. Follows stored edge direction by default; set undirected=true to ignore it.",
+      "inputSchema": {
+        "properties": {
+          "max_hops": {
+            "default": 8,
+            "description": "Maximum hops to consider",
+            "type": "integer"
+          },
+          "source": {
+            "description": "Source concept label or keyword",
+            "type": "string"
+          },
+          "target": {
+            "description": "Target concept label or keyword",
+            "type": "string"
+          },
+          "undirected": {
+            "default": false,
+            "description": "Ignore stored edge direction when searching",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "source",
+          "target"
+        ],
+        "type": "object"
+      },
+      "line": 1872,
+      "name": "shortest_path",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "List open GitHub PRs with CI status, review state, and graph impact (which communities each PR touches, blast radius). Use this before starting work to check if a PR already covers the area you're about to change.",
+      "inputSchema": {
+        "properties": {
+          "base": {
+            "description": "Base branch to filter PRs by (auto-detected if omitted)",
+            "type": "string"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1890,
+      "name": "list_prs",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Get detailed graph impact for a specific PR: which files it changes, which knowledge-graph communities are affected, and how many nodes are touched. Use this to assess merge risk or check for overlap with your current work.",
+      "inputSchema": {
+        "properties": {
+          "pr_number": {
+            "description": "PR number to analyse",
+            "type": "integer"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pr_number"
+        ],
+        "type": "object"
+      },
+      "line": 1905,
+      "name": "get_pr_impact",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Return all actionable open PRs (correct base, not stale) with full graph impact data so you can reason about review priority, merge order, and conflict risk. Call this when the user asks 'what PRs should I review?' or 'what's ready to merge?'",
+      "inputSchema": {
+        "properties": {
+          "base": {
+            "description": "Base branch to filter PRs by (auto-detected if omitted)",
+            "type": "string"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1921,
+      "name": "triage_prs",
+      "path": "graphify/serve.py"
+    },
+    {
+      "description": "Search the knowledge graph using BFS or DFS. Returns relevant nodes and edges as text context.",
+      "inputSchema": {
+        "properties": {
+          "context_filter": {
+            "description": "Optional explicit edge-context filter, e.g. ['call', 'field']",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "depth": {
+            "default": 3,
+            "description": "Traversal depth (1-6)",
+            "type": "integer"
+          },
+          "mode": {
+            "default": "bfs",
+            "description": "bfs=broad context, dfs=trace a specific path",
+            "enum": [
+              "bfs",
+              "dfs"
+            ],
+            "type": "string"
+          },
+          "question": {
+            "description": "Natural language question or keyword search",
+            "type": "string"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "question"
+        ],
+        "type": "object"
+      },
+      "line": 1804,
+      "name": "query_graph",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Get full details for a specific node by label or ID.",
+      "inputSchema": {
+        "properties": {
+          "label": {
+            "description": "Node label or ID to look up",
+            "type": "string"
+          }
+        },
+        "required": [
+          "label"
+        ],
+        "type": "object"
+      },
+      "line": 1824,
+      "name": "get_node",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Get all direct neighbors of a node with edge details.",
+      "inputSchema": {
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "relation_filter": {
+            "description": "Optional: filter by relation type",
+            "type": "string"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "label"
+        ],
+        "type": "object"
+      },
+      "line": 1833,
+      "name": "get_neighbors",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Get all nodes in a community by community ID.",
+      "inputSchema": {
+        "properties": {
+          "community_id": {
+            "description": "Community ID (0-indexed by size)",
+            "type": "integer"
+          },
+          "token_budget": {
+            "default": 2000,
+            "description": "Max output tokens",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "community_id"
+        ],
+        "type": "object"
+      },
+      "line": 1846,
+      "name": "get_community",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Return the most connected nodes - the core abstractions of the knowledge graph.",
+      "inputSchema": {
+        "properties": {
+          "exclude_hubs_percentile": {
+            "description": "Suppress nodes whose degree exceeds this percentile (0-100) of the degree distribution, matching cluster()'s hub exclusion",
+            "type": "number"
+          },
+          "top_n": {
+            "default": 10,
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1858,
+      "name": "god_nodes",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Return summary statistics: node count, edge count, communities, confidence breakdown.",
+      "inputSchema": {
+        "properties": {},
+        "type": "object"
+      },
+      "line": 1867,
+      "name": "graph_stats",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Find the shortest path between two concepts in the knowledge graph. Follows stored edge direction by default; set undirected=true to ignore it.",
+      "inputSchema": {
+        "properties": {
+          "max_hops": {
+            "default": 8,
+            "description": "Maximum hops to consider",
+            "type": "integer"
+          },
+          "source": {
+            "description": "Source concept label or keyword",
+            "type": "string"
+          },
+          "target": {
+            "description": "Target concept label or keyword",
+            "type": "string"
+          },
+          "undirected": {
+            "default": false,
+            "description": "Ignore stored edge direction when searching",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "source",
+          "target"
+        ],
+        "type": "object"
+      },
+      "line": 1872,
+      "name": "shortest_path",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "List open GitHub PRs with CI status, review state, and graph impact (which communities each PR touches, blast radius). Use this before starting work to check if a PR already covers the area you're about to change.",
+      "inputSchema": {
+        "properties": {
+          "base": {
+            "description": "Base branch to filter PRs by (auto-detected if omitted)",
+            "type": "string"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1890,
+      "name": "list_prs",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Get detailed graph impact for a specific PR: which files it changes, which knowledge-graph communities are affected, and how many nodes are touched. Use this to assess merge risk or check for overlap with your current work.",
+      "inputSchema": {
+        "properties": {
+          "pr_number": {
+            "description": "PR number to analyse",
+            "type": "integer"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pr_number"
+        ],
+        "type": "object"
+      },
+      "line": 1905,
+      "name": "get_pr_impact",
+      "path": "build/lib/graphify/serve.py"
+    },
+    {
+      "description": "Return all actionable open PRs (correct base, not stale) with full graph impact data so you can reason about review priority, merge order, and conflict risk. Call this when the user asks 'what PRs should I review?' or 'what's ready to merge?'",
+      "inputSchema": {
+        "properties": {
+          "base": {
+            "description": "Base branch to filter PRs by (auto-detected if omitted)",
+            "type": "string"
+          },
+          "repo": {
+            "description": "GitHub repo (owner/repo). Defaults to current repo.",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "line": 1921,
+      "name": "triage_prs",
+      "path": "build/lib/graphify/serve.py"
+    }
+  ],
+  "urls": [
+    {
+      "line": 1707,
+      "path": "graphify/callflow_html.py",
+      "url": "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"
+    },
+    {
+      "line": 98,
+      "path": "graphify/google_workspace.py",
+      "url": "https://github.com/googleworkspace/cli"
+    },
+    {
+      "line": 108,
+      "path": "graphify/ingest.py",
+      "url": "https://publish.twitter.com/oembed?url="
+    },
+    {
+      "line": 171,
+      "path": "graphify/ingest.py",
+      "url": "https://export.arxiv.org/abs/"
+    },
+    {
+      "line": 729,
+      "path": "graphify/install.py",
+      "url": "https://app.graphify.com"
+    },
+    {
+      "line": 106,
+      "path": "graphify/llm.py",
+      "url": "https://api.anthropic.com"
+    },
+    {
+      "line": 117,
+      "path": "graphify/llm.py",
+      "url": "https://api.moonshot.ai/v1"
+    },
+    {
+      "line": 128,
+      "path": "graphify/llm.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 139,
+      "path": "graphify/llm.py",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/"
+    },
+    {
+      "line": 154,
+      "path": "graphify/llm.py",
+      "url": "https://api.openai.com/v1"
+    },
+    {
+      "line": 171,
+      "path": "graphify/llm.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 1703,
+      "path": "graphify/llm.py",
+      "url": "https://claude.ai/code"
+    },
+    {
+      "line": 1708,
+      "path": "graphify/llm.py",
+      "url": "https://claude.ai/code"
+    },
+    {
+      "line": 2008,
+      "path": "graphify/llm.py",
+      "url": "https://my-resource.openai.azure.com/"
+    },
+    {
+      "line": 3140,
+      "path": "graphify/llm.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 197,
+      "path": "graphify/tree_html.py",
+      "url": "https://d3js.org/d3.v7.min.js"
+    },
+    {
+      "line": 268,
+      "path": "graphify/wiki.py",
+      "url": "https://github.com/safishamsi/graphify"
+    },
+    {
+      "line": 625,
+      "path": "graphify/__main__.py",
+      "url": "http://localhost:8080/v1"
+    },
+    {
+      "line": 72,
+      "path": "scripts/gen_demo_path.py",
+      "url": "http://www.w3.org/2000/svg"
+    },
+    {
+      "line": 18,
+      "path": "tests/test_anthropic_custom_endpoint.py",
+      "url": "https://api.anthropic.com"
+    },
+    {
+      "line": 26,
+      "path": "tests/test_anthropic_custom_endpoint.py",
+      "url": "http://localhost:4000"
+    },
+    {
+      "line": 30,
+      "path": "tests/test_anthropic_custom_endpoint.py",
+      "url": "http://localhost:4000"
+    },
+    {
+      "line": 39,
+      "path": "tests/test_backend_env_isolation.py",
+      "url": "https://example.openai.azure.com"
+    },
+    {
+      "line": 40,
+      "path": "tests/test_backend_env_isolation.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 41,
+      "path": "tests/test_backend_env_isolation.py",
+      "url": "http://localhost:11434"
+    },
+    {
+      "line": 286,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    },
+    {
+      "line": 286,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml"
+    },
+    {
+      "line": 405,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    },
+    {
+      "line": 405,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml"
+    },
+    {
+      "line": 451,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    },
+    {
+      "line": 451,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml"
+    },
+    {
+      "line": 476,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    },
+    {
+      "line": 476,
+      "path": "tests/test_dotnet.py",
+      "url": "http://schemas.microsoft.com/winfx/2006/xaml"
+    },
+    {
+      "line": 362,
+      "path": "tests/test_export.py",
+      "url": "https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"
+    },
+    {
+      "line": 379,
+      "path": "tests/test_export.py",
+      "url": "https://unpkg.com/vis-network/standalone"
+    },
+    {
+      "line": 10,
+      "path": "tests/test_google_workspace.py",
+      "url": "https://docs.google.com/document/d/doc-123/edit"
+    },
+    {
+      "line": 23,
+      "path": "tests/test_google_workspace.py",
+      "url": "https://docs.google.com/spreadsheets/d/sheet-456/edit?resourcekey=key-1"
+    },
+    {
+      "line": 36,
+      "path": "tests/test_google_workspace.py",
+      "url": "https://docs.google.com/document/d/doc-123/edit"
+    },
+    {
+      "line": 332,
+      "path": "tests/test_image_vision.py",
+      "url": "http://x"
+    },
+    {
+      "line": 340,
+      "path": "tests/test_image_vision.py",
+      "url": "http://x"
+    },
+    {
+      "line": 2846,
+      "path": "tests/test_languages.py",
+      "url": "https://example.com/x"
+    },
+    {
+      "line": 36,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://myhost:11434/v1"
+    },
+    {
+      "line": 41,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://myhost:11434/v1"
+    },
+    {
+      "line": 43,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://myhost:11434/v1"
+    },
+    {
+      "line": 98,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/"
+    },
+    {
+      "line": 352,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://test"
+    },
+    {
+      "line": 353,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://test"
+    },
+    {
+      "line": 557,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 571,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 585,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 598,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 614,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 659,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 683,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 703,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 714,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.openai.com/v1"
+    },
+    {
+      "line": 726,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://gateway.example/v1"
+    },
+    {
+      "line": 745,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://kitor.example/vllm/v1"
+    },
+    {
+      "line": 759,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.moonshot.ai/v1"
+    },
+    {
+      "line": 779,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 792,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 806,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 822,
+      "path": "tests/test_llm_backends.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 961,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://my-resource.openai.azure.com/"
+    },
+    {
+      "line": 966,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://my-resource.openai.azure.com/"
+    },
+    {
+      "line": 976,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://my-resource.openai.azure.com/"
+    },
+    {
+      "line": 1153,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://proxy.example/kimi/v1"
+    },
+    {
+      "line": 1154,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://proxy.example/gemini"
+    },
+    {
+      "line": 1155,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://proxy.example/deepseek"
+    },
+    {
+      "line": 1162,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.moonshot.ai/v1"
+    },
+    {
+      "line": 1163,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/"
+    },
+    {
+      "line": 1164,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 1270,
+      "path": "tests/test_llm_backends.py",
+      "url": "https://api.moonshot.ai/v1"
+    },
+    {
+      "line": 69,
+      "path": "tests/test_manifest_ingest.py",
+      "url": "http://maven.apache.org/POM/4.0.0"
+    },
+    {
+      "line": 10,
+      "path": "tests/test_ollama.py",
+      "url": "http://169.254.169.254/v1"
+    },
+    {
+      "line": 11,
+      "path": "tests/test_ollama.py",
+      "url": "http://169.254.1.5:11434/v1"
+    },
+    {
+      "line": 12,
+      "path": "tests/test_ollama.py",
+      "url": "http://metadata.google.internal/v1"
+    },
+    {
+      "line": 13,
+      "path": "tests/test_ollama.py",
+      "url": "http://0.0.0.0:11434/v1"
+    },
+    {
+      "line": 23,
+      "path": "tests/test_ollama.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 25,
+      "path": "tests/test_ollama.py",
+      "url": "http://192.168.1.50:11434/v1"
+    },
+    {
+      "line": 38,
+      "path": "tests/test_ollama.py",
+      "url": "http://innocent-looking-host/v1"
+    },
+    {
+      "line": 44,
+      "path": "tests/test_ollama.py",
+      "url": "http://192.168.1.50:11434/v1"
+    },
+    {
+      "line": 48,
+      "path": "tests/test_ollama.py",
+      "url": "http://169.254.169.254/v1"
+    },
+    {
+      "line": 61,
+      "path": "tests/test_ollama.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 67,
+      "path": "tests/test_ollama.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 78,
+      "path": "tests/test_ollama.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 34,
+      "path": "tests/test_ollama_retry_cap.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 42,
+      "path": "tests/test_ollama_retry_cap.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 50,
+      "path": "tests/test_ollama_retry_cap.py",
+      "url": "https://api.moonshot.cn/v1"
+    },
+    {
+      "line": 58,
+      "path": "tests/test_ollama_retry_cap.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 17,
+      "path": "tests/test_openai_custom_endpoint.py",
+      "url": "https://api.openai.com/v1"
+    },
+    {
+      "line": 25,
+      "path": "tests/test_openai_custom_endpoint.py",
+      "url": "http://localhost:8080/v1"
+    },
+    {
+      "line": 29,
+      "path": "tests/test_openai_custom_endpoint.py",
+      "url": "http://localhost:8080/v1"
+    },
+    {
+      "line": 1,
+      "path": "tests/test_package_json_subpath_imports.py",
+      "url": "https://nodejs.org/api/packages.html#subpath-imports:"
+    },
+    {
+      "line": 17,
+      "path": "tests/test_provider_registry.py",
+      "url": "https://integrate.api.nvidia.com/v1"
+    },
+    {
+      "line": 27,
+      "path": "tests/test_provider_registry.py",
+      "url": "https://integrate.api.nvidia.com/v1"
+    },
+    {
+      "line": 35,
+      "path": "tests/test_provider_registry.py",
+      "url": "http://localhost:8080/v1"
+    },
+    {
+      "line": 57,
+      "path": "tests/test_provider_registry.py",
+      "url": "http://evil.example.com/v1"
+    },
+    {
+      "line": 80,
+      "path": "tests/test_provider_registry.py",
+      "url": "https://attacker.example/v1"
+    },
+    {
+      "line": 98,
+      "path": "tests/test_provider_registry.py",
+      "url": "https://lab.internal/v1"
+    },
+    {
+      "line": 131,
+      "path": "tests/test_provider_registry.py",
+      "url": "https://api.example/v1"
+    },
+    {
+      "line": 132,
+      "path": "tests/test_provider_registry.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 137,
+      "path": "tests/test_provider_registry.py",
+      "url": "http://example.com/v1"
+    },
+    {
+      "line": 148,
+      "path": "tests/test_provider_registry.py",
+      "url": "http://example.com/v1"
+    },
+    {
+      "line": 430,
+      "path": "tests/test_rationale.py",
+      "url": "https://example.com/api/v3/settlements/"
+    },
+    {
+      "line": 441,
+      "path": "tests/test_rationale.py",
+      "url": "https://example.com/"
+    },
+    {
+      "line": 578,
+      "path": "tests/test_rationale.py",
+      "url": "https://example.com/api/v3/settlements/"
+    },
+    {
+      "line": 36,
+      "path": "tests/test_security.py",
+      "url": "http://example.com/page"
+    },
+    {
+      "line": 36,
+      "path": "tests/test_security.py",
+      "url": "http://example.com/page"
+    },
+    {
+      "line": 39,
+      "path": "tests/test_security.py",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "line": 39,
+      "path": "tests/test_security.py",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "line": 87,
+      "path": "tests/test_security.py",
+      "url": "https://example.com/"
+    },
+    {
+      "line": 97,
+      "path": "tests/test_security.py",
+      "url": "https://example.com/missing"
+    },
+    {
+      "line": 115,
+      "path": "tests/test_security.py",
+      "url": "https://example.com/huge"
+    },
+    {
+      "line": 129,
+      "path": "tests/test_security.py",
+      "url": "https://example.com/"
+    },
+    {
+      "line": 139,
+      "path": "tests/test_security.py",
+      "url": "https://example.com/"
+    },
+    {
+      "line": 58,
+      "path": "tests/test_serve_http.py",
+      "url": "http://127.0.0.1"
+    },
+    {
+      "line": 451,
+      "path": "tests/test_skillgen.py",
+      "url": "https://example.com"
+    },
+    {
+      "line": 2894,
+      "path": "tests/test_watch.py",
+      "url": "https://example.com/doc"
+    },
+    {
+      "line": 1707,
+      "path": "build/lib/graphify/callflow_html.py",
+      "url": "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"
+    },
+    {
+      "line": 98,
+      "path": "build/lib/graphify/google_workspace.py",
+      "url": "https://github.com/googleworkspace/cli"
+    },
+    {
+      "line": 108,
+      "path": "build/lib/graphify/ingest.py",
+      "url": "https://publish.twitter.com/oembed?url="
+    },
+    {
+      "line": 171,
+      "path": "build/lib/graphify/ingest.py",
+      "url": "https://export.arxiv.org/abs/"
+    },
+    {
+      "line": 729,
+      "path": "build/lib/graphify/install.py",
+      "url": "https://app.graphify.com"
+    },
+    {
+      "line": 106,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://api.anthropic.com"
+    },
+    {
+      "line": 117,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://api.moonshot.ai/v1"
+    },
+    {
+      "line": 128,
+      "path": "build/lib/graphify/llm.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 139,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://generativelanguage.googleapis.com/v1beta/openai/"
+    },
+    {
+      "line": 154,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://api.openai.com/v1"
+    },
+    {
+      "line": 171,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://api.deepseek.com"
+    },
+    {
+      "line": 1703,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://claude.ai/code"
+    },
+    {
+      "line": 1708,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://claude.ai/code"
+    },
+    {
+      "line": 2008,
+      "path": "build/lib/graphify/llm.py",
+      "url": "https://my-resource.openai.azure.com/"
+    },
+    {
+      "line": 3140,
+      "path": "build/lib/graphify/llm.py",
+      "url": "http://localhost:11434/v1"
+    },
+    {
+      "line": 197,
+      "path": "build/lib/graphify/tree_html.py",
+      "url": "https://d3js.org/d3.v7.min.js"
+    },
+    {
+      "line": 268,
+      "path": "build/lib/graphify/wiki.py",
+      "url": "https://github.com/safishamsi/graphify"
+    },
+    {
+      "line": 625,
+      "path": "build/lib/graphify/__main__.py",
+      "url": "http://localhost:8080/v1"
+    },
+    {
+      "line": 605,
+      "path": "build/lib/graphify/exporters/html.py",
+      "url": "https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"
+    },
+    {
+      "line": 637,
+      "path": "build/lib/graphify/extractors/resolution.py",
+      "url": "https://nodejs.org/api/packages.html#subpath-imports"
+    },
+    {
+      "line": 605,
+      "path": "graphify/exporters/html.py",
+      "url": "https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"
+    },
+    {
+      "line": 637,
+      "path": "graphify/extractors/resolution.py",
+      "url": "https://nodejs.org/api/packages.html#subpath-imports"
+    }
+  ]
+}

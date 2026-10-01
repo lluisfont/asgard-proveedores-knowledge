@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-09-15T14:01:00.386247+00:00",
+  "toolkit_mutations": {
+    "AGENTS.md": {
+      "existed_before_install": false,
+      "sha256_before_install": null,
+      "size_before_install": 0
+    }
+  }
+}

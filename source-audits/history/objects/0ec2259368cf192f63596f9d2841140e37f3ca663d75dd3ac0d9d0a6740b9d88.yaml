@@ -1,0 +1,24 @@
+dimensions:
+  scope: 8
+  actors_permissions: 8
+  business_rules: 10
+  flows: 10
+  data_relations: 10
+  states: 8
+  integrations: 8
+  security: 10
+  transactions: 8
+  tests: 8
+  traceability: 6
+  artifact_consistency: 6
+verdicts:
+  pass:
+    minimum_score: 80
+    blockers: 0
+    maximum_high_findings: 2
+  conditional_pass:
+    minimum_score: 60
+    blockers: 0
+  fail:
+    any_blocker: true
+    score_below: 60

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajaxasignacion_origen_php",
+      "label": "origen.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajaxAsignacion/origen.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

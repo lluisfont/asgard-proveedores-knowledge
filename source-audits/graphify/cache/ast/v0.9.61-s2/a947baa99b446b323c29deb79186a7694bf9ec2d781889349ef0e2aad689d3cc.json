@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_embarques_datosotrosemb_php",
+      "label": "embarques_datosotrosemb.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/embarques_datosotrosemb.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_ajax_eliminar_php",
+      "label": "eliminar.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/ajax/eliminar.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

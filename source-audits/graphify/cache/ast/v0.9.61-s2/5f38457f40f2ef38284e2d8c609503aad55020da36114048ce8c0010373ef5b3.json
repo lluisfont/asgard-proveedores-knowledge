@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajax_actualizarempresatransporte_php",
+      "label": "actualizarempresatransporte.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajax/actualizarempresatransporte.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

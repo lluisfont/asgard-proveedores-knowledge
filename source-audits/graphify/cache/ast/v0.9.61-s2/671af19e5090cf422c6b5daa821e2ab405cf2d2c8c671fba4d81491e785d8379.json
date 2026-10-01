@@ -1,0 +1,563 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_php",
+      "label": "Correo.class.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "label": "Correo",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setfrom",
+      "label": ".setFrom()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L21",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setsubject",
+      "label": ".setSubject()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setheader",
+      "label": ".setHeader()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setmessage",
+      "label": ".setMessage()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addto",
+      "label": ".addTo()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addcc",
+      "label": ".addCC()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addbcc",
+      "label": ".addBCC()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addfile",
+      "label": ".addFile()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "label": ".enviar()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L68",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_debug",
+      "label": ".debug()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_error",
+      "label": ".error()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L162",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "label": ".log()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L166",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_php",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setfrom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setsubject",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setheader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setmessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addto",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addcc",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addbcc",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addfile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_debug",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_error",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_construct",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_setfrom",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_construct",
+      "target": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addbcc",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L18",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addto",
+      "callee": "filter_var",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addcc",
+      "callee": "filter_var",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L47",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_addbcc",
+      "callee": "filter_var",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L56",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L70",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L93",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L100",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L101",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "is_file",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L109",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "fopen",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L112",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "filesize",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L112",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "fclose",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "chunk_split",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "base64_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L116",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "filesize",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "mail",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_enviar",
+      "callee": "error_get_last",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "callee": "_log",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "callee": "class_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_modulos_libs_correo_class_correo_log",
+      "callee": "Db",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "source_location": "L172",
+      "receiver": null
+    }
+  ]
+}

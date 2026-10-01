@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_logistica_inventario_chasis_php",
+      "label": "inventario-chasis.php",
+      "file_type": "code",
+      "source_file": "index_archivos/logistica/inventario-chasis.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

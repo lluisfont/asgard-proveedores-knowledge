@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_master_sample_php",
+      "label": "sample.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger-master/sample.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_php",
+      "label": "JsonSerializable.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/JsonSerializable.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_jsonserializable",
+      "label": "JsonSerializable",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/JsonSerializable.php",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_jsonserializable_jsonserialize",
+      "label": ".jsonSerialize()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/JsonSerializable.php",
+      "source_location": "L16",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_php",
+      "target": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_jsonserializable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/carbon/src/JsonSerializable.php",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_jsonserializable",
+      "target": "$graphify-root$_index_archivos_libs_carbon_src_jsonserializable_jsonserializable_jsonserialize",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/carbon/src/JsonSerializable.php",
+      "source_location": "L16",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

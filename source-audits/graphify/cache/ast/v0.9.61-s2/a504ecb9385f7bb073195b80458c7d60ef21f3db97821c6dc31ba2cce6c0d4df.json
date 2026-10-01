@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_frames_estado_pedidos_php",
+      "label": "estado-pedidos.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/frames/estado-pedidos.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_usuario_ajax_update_password_php",
+      "label": "update-password.php",
+      "file_type": "code",
+      "source_file": "index_archivos/usuario/ajax/update-password.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

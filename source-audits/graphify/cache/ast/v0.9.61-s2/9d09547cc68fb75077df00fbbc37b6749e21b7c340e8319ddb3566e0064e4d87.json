@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_2fa_ajax_verificar_codigo_php",
+      "label": "verificar-codigo.php",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/ajax/verificar-codigo.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

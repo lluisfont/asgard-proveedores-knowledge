@@ -1,0 +1,10 @@
+required_capability: highest_available_reasoning
+preferred_model: gpt-5.6-thinking
+required_model_name_patterns:
+  - thinking
+reasoning_effort: high
+forbidden_model_patterns:
+  - instant
+  - mini
+  - nano
+require_model_log: true

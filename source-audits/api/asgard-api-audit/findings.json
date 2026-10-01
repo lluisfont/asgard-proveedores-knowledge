@@ -1,0 +1,496 @@
+{
+  "artifacts": {
+    "api-knowledge.md": {
+      "sha256": "7c124cc78ef6e4f257d7c5f0fab04117aeb5a64fb9f16694a1d0d1eede6f0ef9",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "audit-report.md": {
+      "sha256": "9a2454601a6522e95b85dc83adfce63f6e133873ea0ef51c976cd0c0d0deb4bd",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "openapi.yaml": {
+      "sha256": "49c5cac5b5848387eaf8db1f82ed58503c96c76c78d9f0b4746d79bd7bea37f3",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    }
+  },
+  "audit_id": "audit-ccb4411d42a22cd0",
+  "audit_timestamp": "2026-09-15T15:26:48.073434+00:00",
+  "auditor_version": "0.8.0",
+  "coverage": {
+    "contract_enrichment": {
+      "path_parameters_applicable": 0,
+      "path_parameters_enriched": 0,
+      "request_enriched": 0,
+      "request_enrichment_applicable": 0,
+      "response_enriched": 0,
+      "response_enrichment_applicable": 0,
+      "security_enriched": 0,
+      "security_enrichment_applicable": 0,
+      "total_exposed_endpoints": 0,
+      "unresolved_contract_enrichment": 0
+    },
+    "detectors": [
+      {
+        "category": "consumed",
+        "detector_id": "fetch-consumer",
+        "detector_version": "1.0.0",
+        "files_scanned": 16,
+        "notes": [],
+        "status": "partial",
+        "supported_patterns": [
+          "direct literal fetch HTTP calls"
+        ],
+        "unsupported_patterns": [
+          "fetch_dynamic_or_complex_call_unresolved"
+        ]
+      },
+      {
+        "category": "consumed",
+        "detector_id": "guzzle-consumer",
+        "detector_version": "1.0.0",
+        "files_scanned": 2,
+        "notes": [],
+        "status": "partial",
+        "supported_patterns": [
+          "direct literal guzzle HTTP calls"
+        ],
+        "unsupported_patterns": [
+          "http_client_detected_no_calls"
+        ]
+      },
+      {
+        "category": "consumed",
+        "detector_id": "php-curl-consumer",
+        "detector_version": "1.0.0",
+        "files_scanned": 2,
+        "notes": [],
+        "status": "supported",
+        "supported_patterns": [
+          "direct literal php-curl HTTP calls"
+        ],
+        "unsupported_patterns": []
+      }
+    ],
+    "exclusion_rules": [
+      ".git",
+      "index_archivos/MPDF57",
+      "index_archivos/PHPExcel",
+      "index_archivos/js/jqwidgetsVer",
+      "index_archivos/libs/PDFMerger",
+      "index_archivos/libs/carbon",
+      "index_archivos/php-jwt-5.2.0",
+      "index_archivos/reporteexcel/lib/PHPExcel"
+    ],
+    "files_excluded": 0,
+    "files_scanned": 6283,
+    "frameworks": [],
+    "http_clients": [
+      "fetch",
+      "guzzle",
+      "php-curl"
+    ],
+    "inventory_complete": false,
+    "languages": [
+      "javascript",
+      "php"
+    ],
+    "notes": [
+      "Exact excluded-file count is not tracked in technical inventory v1.0.",
+      "contract_enrichment_scope=not_applicable",
+      "correlation_scope=out_of_scope"
+    ],
+    "required_detector_categories": [
+      "inventory",
+      "configuration",
+      "consumed"
+    ],
+    "semantic_enrichment": {
+      "operations_with_auth_context_facts": 0,
+      "operations_with_conditional_outcome_facts": 0,
+      "operations_with_data_access_facts": 0,
+      "operations_with_non_generic_description": 0,
+      "operations_with_outbound_integration_facts": 0,
+      "semantic_analysis_attempted": 0,
+      "semantic_complete": 0,
+      "semantic_partial": 0,
+      "semantic_unresolved": 0,
+      "semantic_unresolved_count": 0,
+      "total_exposed_endpoints": 0
+    },
+    "unsupported_surfaces": []
+  },
+  "endpoints": [
+    {
+      "base_url": "https://maps.googleapis.com",
+      "confidence": "confirmed",
+      "confidence_reason": "Literal fetch HTTP method and URL found in source.",
+      "consumer_repository": "asgard-api-audit-target-20260915",
+      "direction": "consumed",
+      "endpoint_id": "ep_74dc3d085e619b689e51",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 104,
+          "note": "fetch HTTP call",
+          "path": "index_archivos/tracking/vue/components/location.component.js"
+        }
+      ],
+      "method": "GET",
+      "notes": [],
+      "path": "/maps/api/geocode/json",
+      "surface_type": "http"
+    },
+    {
+      "base_url": "https://api.sendgrid.com",
+      "confidence": "confirmed",
+      "confidence_reason": "Literal php-curl HTTP method and URL found in source.",
+      "consumer_repository": "asgard-api-audit-target-20260915",
+      "direction": "consumed",
+      "endpoint_id": "ep_12a92dbed8ff00fb6f9e",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 558,
+          "note": "php-curl HTTP call",
+          "path": "index_archivos/embarques/EmbarqueClass.php"
+        }
+      ],
+      "method": "POST",
+      "notes": [],
+      "path": "/v3/mail/send",
+      "surface_type": "http"
+    }
+  ],
+  "integration_surfaces": [],
+  "notes": [
+    "Generated from deterministic source discovery.",
+    "Consumed HTTP calls are retained in findings/knowledge but are not emitted as OpenAPI paths.",
+    "SOAP is retained as a non-REST integration surface."
+  ],
+  "repository": "asgard-api-audit-target-20260915",
+  "repository_id": "proveedores-master-peru",
+  "schema_version": "2.0",
+  "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a",
+  "source_ref": "HEAD",
+  "status": "partial",
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 14,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 14,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 15,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 16,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 16,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 18,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 19,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 19,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 20,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 20,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 25,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 25,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'guzzle' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-9b5c276185a0d553"
+    }
+  ]
+}

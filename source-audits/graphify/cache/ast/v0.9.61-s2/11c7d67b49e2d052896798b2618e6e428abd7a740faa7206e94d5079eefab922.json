@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_fonts_dejavusansmonobi_php",
+      "label": "dejavusansmonobi.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/fonts/dejavusansmonobi.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

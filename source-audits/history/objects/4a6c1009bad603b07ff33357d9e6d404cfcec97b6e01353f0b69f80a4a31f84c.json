@@ -1,0 +1,14 @@
+[
+  {
+    "file": "index_archivos\\tracking\\documentosempresatransporte.php",
+    "output": " Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in index_archivos\\tracking\\documentosempresatransporte.php on line 37 Errors parsing index_archivos\\tracking\\documentosempresatransporte.php"
+  },
+  {
+    "file": "index_archivos\\embarques\\componentes\\cotizaciones\\local\\terrestre.php",
+    "output": " Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in index_archivos\\embarques\\componentes\\cotizaciones\\local\\terrestre.php on line 57 Errors parsing index_archivos\\embarques\\componentes\\cotizaciones\\local\\terrestre.php"
+  },
+  {
+    "file": "index_archivos\\embarques\\componentes\\cotizaciones\\local\\ferreo.php",
+    "output": " Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in index_archivos\\embarques\\componentes\\cotizaciones\\local\\ferreo.php on line 57 Errors parsing index_archivos\\embarques\\componentes\\cotizaciones\\local\\ferreo.php"
+  }
+]

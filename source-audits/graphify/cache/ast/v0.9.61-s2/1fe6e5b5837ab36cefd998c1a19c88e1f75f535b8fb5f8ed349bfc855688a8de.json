@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_carbon_lang_dv_mv_php",
+      "label": "dv_MV.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/Carbon/Lang/dv_MV.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

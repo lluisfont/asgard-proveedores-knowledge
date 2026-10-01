@@ -1,0 +1,539 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_php",
+      "label": "TwoFaClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "label": "TwoFaClass",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "label": ".enviarCorreo()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_ofuscarcorreo",
+      "label": ".ofuscarCorreo()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "label": ".generateCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_userip",
+      "label": ".userIp()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L41",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_obtenerubicacionip",
+      "label": ".obtenerUbicacionIP()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L53",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_correohtml",
+      "label": ".correoHtml()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_guardarcodigo",
+      "label": ".guardarCodigo()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L133",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "label": ".verificarCodigo()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L139",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "label": ".autenticar()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L187",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "label": ".decodeUsuario()",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L216",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_php",
+      "target": "jwt",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_php",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_ofuscarcorreo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_userip",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_obtenerubicacionip",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_correohtml",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_guardarcodigo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_userip",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_obtenerubicacionip",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_correohtml",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_guardarcodigo",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "target": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L191",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_enviarcorreo",
+      "callee": "MailClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L20",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_ofuscarcorreo",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L29",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_ofuscarcorreo",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L31",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_ofuscarcorreo",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L31",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L37",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "callee": "str_shuffle",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L37",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_generatecode",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_userip",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L43",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_userip",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L45",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_obtenerubicacionip",
+      "callee": "file_get_contents",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_obtenerubicacionip",
+      "callee": "json_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L56",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_guardarcodigo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "session_status",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "session_start",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L147",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L149",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L152",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L159",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L169",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_verificarcodigo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "callee": "session_start",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "callee": "ini_set",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L197",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "callee": "logAsgard",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L198",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "callee": "UserFinder",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L201",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_autenticar",
+      "callee": "JWT",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L205",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "callee": "base64_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L218",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_2fa_twofaclass_twofaclass_decodeusuario",
+      "callee": "json_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/2fa/TwoFaClass.php",
+      "source_location": "L219",
+      "receiver": null
+    }
+  ]
+}

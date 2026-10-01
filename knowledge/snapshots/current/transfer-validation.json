@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "transferred_artifact_entries": 1741,
+  "historical_checkpoints": 7,
+  "historical_checkpoint_entries": 3313,
+  "distinct_verified_payloads": 2197,
+  "text_artifacts_checked": 2126,
+  "nodes": 48495,
+  "edges": 116642,
+  "coverage_status": "PARTIAL",
+  "note": "PASS confirms export integrity and format validity, not application correctness or audit completeness."
+}

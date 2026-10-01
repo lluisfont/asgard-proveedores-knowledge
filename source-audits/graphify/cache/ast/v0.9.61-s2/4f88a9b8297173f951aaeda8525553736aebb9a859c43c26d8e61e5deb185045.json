@@ -1,0 +1,213 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_php",
+      "label": "logAsgard.php",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "label": "logAsgard",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "label": ".saveLog()",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L12",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_logasgard_datosusuario",
+      "label": ".datosUsuario()",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_logasgard_userinfo",
+      "label": ".userInfo()",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "label": ".getUserIpAddr()",
+      "file_type": "code",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L54",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_logasgard_php",
+      "target": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "target": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "target": "$graphify-root$_index_archivos_logasgard_logasgard_datosusuario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "target": "$graphify-root$_index_archivos_logasgard_logasgard_userinfo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_logasgard_logasgard",
+      "target": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L54",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "callee": "addslashes",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L19",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "callee": "json_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L28",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_savelog",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L32",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_datosusuario",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L37",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_datosusuario",
+      "callee": "gethostname",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_datosusuario",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_userinfo",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_userinfo",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L50",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "callee": "trim",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "callee": "shell_exec",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L56",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_logasgard_logasgard_getuseripaddr",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/logAsgard.php",
+      "source_location": "L61",
+      "receiver": null
+    }
+  ]
+}

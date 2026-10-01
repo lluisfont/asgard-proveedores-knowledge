@@ -1,0 +1,4 @@
+file,line,sink,superglobals_in_context,tainted_vars_in_context,risk,snippet
+index_archivos/js/formulariosxls.php,13,unserialize,GET.consulta;GET.datos,,tainted_sink,"$datosxls = unserialize(urldecode(stripslashes($_GET[""datos""])));"
+index_archivos/logAsgard.php,55,shell_exec,,,dangerous_sink,"$publicIP = trim(shell_exec(""dig +short myip.opendns.com @resolver1.opendns.com""));"
+index_archivos/tracking/generar_excel.php,8,unserialize,GET.id;GET.data,$idProveedor,tainted_sink,"$obtainedInfo=unserialize(stripslashes($_GET[""data""]));"

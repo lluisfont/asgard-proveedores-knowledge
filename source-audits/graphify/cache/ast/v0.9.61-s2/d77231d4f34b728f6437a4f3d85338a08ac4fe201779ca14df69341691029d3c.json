@@ -1,0 +1,286 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_php",
+      "label": "DocumentSecurity.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "label": "PHPExcel_DocumentSecurity",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_issecurityenabled",
+      "label": ".isSecurityEnabled()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L91",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockrevision",
+      "label": ".getLockRevision()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockrevision",
+      "label": ".setLockRevision()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockstructure",
+      "label": ".getLockStructure()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L122",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockstructure",
+      "label": ".setLockStructure()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockwindows",
+      "label": ".getLockWindows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockwindows",
+      "label": ".setLockWindows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L152",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getrevisionspassword",
+      "label": ".getRevisionsPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L162",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setrevisionspassword",
+      "label": ".setRevisionsPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L173",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getworkbookpassword",
+      "label": ".getWorkbookPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setworkbookpassword",
+      "label": ".setWorkbookPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L197",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L208",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_issecurityenabled",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockrevision",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockrevision",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockstructure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockstructure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getlockwindows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setlockwindows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getrevisionspassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setrevisionspassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_getworkbookpassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setworkbookpassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L208",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setrevisionspassword",
+      "callee": "PHPExcel_Shared_PasswordHasher",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L175",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_setworkbookpassword",
+      "callee": "PHPExcel_Shared_PasswordHasher",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L199",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentsecurity_phpexcel_documentsecurity_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentSecurity.php",
+      "source_location": "L211",
+      "receiver": null
+    }
+  ]
+}

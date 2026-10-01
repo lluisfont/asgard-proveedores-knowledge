@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_logout_php",
+      "label": "logout.php",
+      "file_type": "code",
+      "source_file": "index_archivos/logout.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

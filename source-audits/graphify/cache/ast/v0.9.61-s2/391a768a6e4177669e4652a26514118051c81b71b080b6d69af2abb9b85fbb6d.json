@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_carbon_lang_pt_br_php",
+      "label": "pt_BR.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/Carbon/Lang/pt_BR.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

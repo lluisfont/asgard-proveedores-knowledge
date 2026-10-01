@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_ajax_recuperar_viajes_php",
+      "label": "recuperar-viajes.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ajax/recuperar-viajes.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

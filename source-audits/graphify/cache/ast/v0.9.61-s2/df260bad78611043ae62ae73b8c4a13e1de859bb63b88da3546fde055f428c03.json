@@ -1,0 +1,435 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_php",
+      "label": "Conditional.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "label": "PHPExcel_Style_Conditional",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L96",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getconditiontype",
+      "label": ".getConditionType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L111",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditiontype",
+      "label": ".setConditionType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L121",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getoperatortype",
+      "label": ".getOperatorType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L131",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setoperatortype",
+      "label": ".setOperatorType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gettext",
+      "label": ".getText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L151",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_settext",
+      "label": ".setText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L161",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getcondition",
+      "label": ".getCondition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L172",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setcondition",
+      "label": ".setCondition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L187",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getconditions",
+      "label": ".getConditions()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L199",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditions",
+      "label": ".setConditions()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L209",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_addcondition",
+      "label": ".addCondition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L223",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getstyle",
+      "label": ".getStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L233",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setstyle",
+      "label": ".setStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L244",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_style",
+      "label": "PHPExcel_Style",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L254",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L267",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getconditiontype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditiontype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getoperatortype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setoperatortype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gettext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_settext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getcondition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setcondition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getconditions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_addcondition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setstyle",
+      "target": "phpexcel_style",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L244",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_construct",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_construct",
+      "target": "phpexcel_style",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setcondition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L259",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_getcondition",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L173",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setcondition",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L188",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_setconditions",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L210",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L255",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_gethashcode",
+      "callee": "implode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L258",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L268",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_conditional_phpexcel_style_conditional_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Conditional.php",
+      "source_location": "L270",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_ubicaciones_importar_php",
+      "label": "importar.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/ubicaciones/importar.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,729 @@
+{
+  "errors": [],
+  "generated_at": "2026-09-14T15:18:38Z",
+  "metrics": {
+    ".\\graphify\\llm.py": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 12,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2716,
+      "nosec": 0,
+      "skipped_tests": 1
+    },
+    ".\\graphify\\prs.py": {
+      "CONFIDENCE.HIGH": 11,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 11,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 619,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    ".\\graphify\\security.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 325,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    ".\\graphify\\serve.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2053,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 26,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 26,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 5713,
+      "nosec": 0,
+      "skipped_tests": 1
+    }
+  },
+  "results": [
+    {
+      "code": "11 import re\n12 import subprocess\n13 import sys\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 12,
+      "line_range": [
+        12
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "299                         providers[name] = cfg\n300             except Exception:\n301                 pass\n302     return providers\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 300,
+      "line_range": [
+        300,
+        301
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "400     model call. CREATE_NO_WINDOW keeps the children invisible; no-op elsewhere.\"\"\"\n401     import subprocess\n402     if sys.platform == \"win32\":\n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 401,
+      "line_range": [
+        401
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "685             content = read_slice_text(u) if isinstance(u, FileSlice) else _file_to_text(safe)\n686         except Exception:  # noqa: BLE001 — one unreadable file (e.g. a malformed PDF) must not disable binding for the whole chunk\n687             continue\n688         by_path[safe] = by_path.get(safe, \"\") + content[:_FILE_CHAR_CAP].lower()\n",
+      "col_offset": 8,
+      "end_col_offset": 20,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Continue detected.",
+      "line_number": 686,
+      "line_range": [
+        686,
+        687
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b112_try_except_continue.html",
+      "test_id": "B112",
+      "test_name": "try_except_continue"
+    },
+    {
+      "code": "1651     \"\"\"\n1652     import subprocess\n1653 \n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 1652,
+      "line_range": [
+        1652
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1657     try:\n1658         proc = subprocess.run(\n1659             [claude_cmd, \"--help\"],\n1660             capture_output=True,\n1661             text=True,\n1662             encoding=\"utf-8\",\n1663             errors=\"replace\",\n1664             timeout=30,\n1665             check=False,\n1666             **_no_window_kwargs(),\n1667         )\n1668         supported = \"--json-schema\" in (proc.stdout or \"\")\n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1658,
+      "line_range": [
+        1658,
+        1659,
+        1660,
+        1661,
+        1662,
+        1663,
+        1664,
+        1665,
+        1666,
+        1667
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1687     import shutil\n1688     import subprocess\n1689 \n",
+      "col_offset": 4,
+      "end_col_offset": 21,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 1688,
+      "line_range": [
+        1688
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1773         cli_args.extend([\"--json-schema\", _EXTRACTION_JSON_SCHEMA])\n1774     proc = subprocess.run(\n1775         cli_args,\n1776         input=combined_message,\n1777         capture_output=True,\n1778         text=True,\n1779         encoding=\"utf-8\",  # Force UTF-8 — prevents UnicodeEncodeError on Windows cp1252\n1780         errors=\"replace\",  # Tolerate non-UTF-8 bytes (e.g. GBK/cp936 from claude.cmd on Chinese Windows)\n1781         timeout=_resolve_api_timeout(),\n1782         check=False,\n1783         **_no_window_kwargs(),\n1784     )\n1785     cli_error = _claude_cli_error(proc.stdout)\n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 1774,
+      "line_range": [
+        1774,
+        1775,
+        1776,
+        1777,
+        1778,
+        1779,
+        1780,
+        1781,
+        1782,
+        1783,
+        1784
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "2714                 continue\n2715             assert result is not None\n2716             _merge_into(merged, result)\n",
+      "col_offset": 12,
+      "end_col_offset": 37,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 2715,
+      "line_range": [
+        2715
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "2739                     continue\n2740                 assert result is not None\n2741                 results_by_idx[idx] = result\n",
+      "col_offset": 16,
+      "end_col_offset": 41,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.",
+      "line_number": 2740,
+      "line_range": [
+        2740
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b101_assert_used.html",
+      "test_id": "B101",
+      "test_name": "assert_used"
+    },
+    {
+      "code": "2929     if backend == \"claude-cli\":\n2930         import platform, shutil, subprocess\n2931         # Mirror the extraction-path resolution: on Windows the npm shim is\n",
+      "col_offset": 8,
+      "end_col_offset": 43,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 2930,
+      "line_range": [
+        2930
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "2945             cli_args.extend([\"--model\", mdl])\n2946         proc = subprocess.run(\n2947             cli_args,\n2948             input=prompt,\n2949             capture_output=True,\n2950             text=True,\n2951             encoding=\"utf-8\",  # Force UTF-8 — prevents UnicodeEncodeError on Windows cp1252\n2952             errors=\"replace\",  # Tolerate non-UTF-8 bytes (e.g. GBK/cp936 from claude.cmd on Chinese Windows)\n2953             timeout=_resolve_api_timeout(),\n2954             check=False,\n2955             **_no_window_kwargs(),\n2956         )\n2957         cli_error = _claude_cli_error(proc.stdout)\n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\llm.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 2946,
+      "line_range": [
+        2946,
+        2947,
+        2948,
+        2949,
+        2950,
+        2951,
+        2952,
+        2953,
+        2954,
+        2955,
+        2956
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "20 import re\n21 import subprocess\n22 import sys\n",
+      "col_offset": 0,
+      "end_col_offset": 17,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 21,
+      "line_range": [
+        21
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "142     try:\n143         result = subprocess.run(\n144             [\"gh\", *args],\n145             stdin=subprocess.DEVNULL,\n146             # Decode gh's output as UTF-8, not the Windows cp1252 locale codec: gh\n147             # emits UTF-8 JSON with non-Latin1 titles/logins (emoji, فارسی), and the\n148             # default text=True decode crashes on those (#1505 fixed the same in llm).\n149             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=30\n150         )\n151         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 143,
+      "line_range": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "142     try:\n143         result = subprocess.run(\n144             [\"gh\", *args],\n145             stdin=subprocess.DEVNULL,\n146             # Decode gh's output as UTF-8, not the Windows cp1252 locale codec: gh\n147             # emits UTF-8 JSON with non-Latin1 titles/logins (emoji, فارسی), and the\n148             # default text=True decode crashes on those (#1505 fixed the same in llm).\n149             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=30\n150         )\n151         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 143,
+      "line_range": [
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "170         try:\n171             result = subprocess.run(\n172                 [\"git\", \"symbolic-ref\", \"refs/remotes/origin/HEAD\"],\n173                 stdin=subprocess.DEVNULL,\n174                 capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=5\n175             )\n176             if result.returncode == 0:\n",
+      "col_offset": 21,
+      "end_col_offset": 13,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 171,
+      "line_range": [
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "170         try:\n171             result = subprocess.run(\n172                 [\"git\", \"symbolic-ref\", \"refs/remotes/origin/HEAD\"],\n173                 stdin=subprocess.DEVNULL,\n174                 capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=5\n175             )\n176             if result.returncode == 0:\n",
+      "col_offset": 21,
+      "end_col_offset": 13,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 171,
+      "line_range": [
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "238     try:\n239         result = subprocess.run(\n240             [\"gh\", *args],\n241             stdin=subprocess.DEVNULL,\n242             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=30\n243         )\n244         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "238     try:\n239         result = subprocess.run(\n240             [\"gh\", *args],\n241             stdin=subprocess.DEVNULL,\n242             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=30\n243         )\n244         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240,
+        241,
+        242,
+        243
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "311     try:\n312         result = subprocess.run(\n313             [\"git\", \"worktree\", \"list\", \"--porcelain\"],\n314             stdin=subprocess.DEVNULL,\n315             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=10\n316         )\n317         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 312,
+      "line_range": [
+        312,
+        313,
+        314,
+        315,
+        316
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "311     try:\n312         result = subprocess.run(\n313             [\"git\", \"worktree\", \"list\", \"--porcelain\"],\n314             stdin=subprocess.DEVNULL,\n315             capture_output=True, text=True, encoding=\"utf-8\", errors=\"replace\", timeout=10\n316         )\n317         if result.returncode != 0:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 312,
+      "line_range": [
+        312,
+        313,
+        314,
+        315,
+        316
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "663         elif backend == \"claude-cli\":\n664             import platform as _platform, shutil as _shutil, subprocess as _sp\n665             _claude = \"claude\"\n",
+      "col_offset": 12,
+      "end_col_offset": 78,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with the subprocess module.",
+      "line_number": 664,
+      "line_range": [
+        664
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/blacklists/blacklist_imports.html#b404-import-subprocess",
+      "test_id": "B404",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "667                 _claude = _shutil.which(\"claude.cmd\") or _shutil.which(\"claude\") or \"claude\"\n668             proc = _sp.run(\n669                 [_claude, \"-p\", \"--no-session-persistence\"],\n670                 input=prompt, capture_output=True, text=True,\n671                 encoding=\"utf-8\", errors=\"replace\", timeout=120,\n672             )\n673             if proc.returncode != 0:\n",
+      "col_offset": 19,
+      "end_col_offset": 13,
+      "filename": ".\\graphify\\prs.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 668,
+      "line_range": [
+        668,
+        669,
+        670,
+        671,
+        672
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "69                 )\n70         except Exception:\n71             pass\n72         try:\n",
+      "col_offset": 8,
+      "end_col_offset": 16,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 70,
+      "line_range": [
+        70,
+        71
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "1706                         dst.flush()\n1707         except Exception:\n1708             pass\n1709 \n",
+      "col_offset": 8,
+      "end_col_offset": 16,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 1707,
+      "line_range": [
+        1707,
+        1708
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "2194                 return {int(k): v for k, v in json.loads(labels_path.read_text(encoding=\"utf-8\")).items()}\n2195             except Exception:\n2196                 pass\n2197         return {cid: f\"Community {cid}\" for cid in communities}\n",
+      "col_offset": 12,
+      "end_col_offset": 20,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 703,
+        "link": "https://cwe.mitre.org/data/definitions/703.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Try, Except, Pass detected.",
+      "line_number": 2195,
+      "line_range": [
+        2195,
+        2196
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b110_try_except_pass.html",
+      "test_id": "B110",
+      "test_name": "try_except_pass"
+    },
+    {
+      "code": "2452     # the port) plus the localhost aliases.\n2453     if host in (\"0.0.0.0\", \"::\", \"\"):\n2454         security = TransportSecuritySettings(enable_dns_rebinding_protection=False)\n",
+      "col_offset": 16,
+      "end_col_offset": 25,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 605,
+        "link": "https://cwe.mitre.org/data/definitions/605.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible binding to all interfaces.",
+      "line_number": 2453,
+      "line_range": [
+        2453
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b104_hardcoded_bind_all_interfaces.html",
+      "test_id": "B104",
+      "test_name": "hardcoded_bind_all_interfaces"
+    },
+    {
+      "code": "2537     )\n2538     if host in (\"0.0.0.0\", \"::\", \"\") and not api_key:\n2539         print(\n",
+      "col_offset": 16,
+      "end_col_offset": 25,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 605,
+        "link": "https://cwe.mitre.org/data/definitions/605.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible binding to all interfaces.",
+      "line_number": 2538,
+      "line_range": [
+        2538
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b104_hardcoded_bind_all_interfaces.html",
+      "test_id": "B104",
+      "test_name": "hardcoded_bind_all_interfaces"
+    },
+    {
+      "code": "2539         print(\n2540             f\"WARNING: binding {host or '0.0.0.0'} with no api-key exposes the graph \"\n2541             \"unauthenticated on the network. Set --api-key (or GRAPHIFY_API_KEY).\",\n",
+      "col_offset": 40,
+      "end_col_offset": 49,
+      "filename": ".\\graphify\\serve.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 605,
+        "link": "https://cwe.mitre.org/data/definitions/605.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible binding to all interfaces.",
+      "line_number": 2540,
+      "line_range": [
+        2540
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.4/plugins/b104_hardcoded_bind_all_interfaces.html",
+      "test_id": "B104",
+      "test_name": "hardcoded_bind_all_interfaces"
+    }
+  ]
+}

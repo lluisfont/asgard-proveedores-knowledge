@@ -1,0 +1,178 @@
+{
+  "auditor_version": "0.8.0",
+  "detectors": [
+    {
+      "category": "exposed",
+      "detector_id": "aspnet-core-routes",
+      "detector_version": "0.0.0",
+      "files_scanned": 0,
+      "notes": [],
+      "status": "unsupported",
+      "supported_patterns": [],
+      "unsupported_patterns": [
+        "aspnet-core"
+      ]
+    },
+    {
+      "category": "exposed",
+      "detector_id": "django-routes",
+      "detector_version": "0.0.0",
+      "files_scanned": 0,
+      "notes": [],
+      "status": "unsupported",
+      "supported_patterns": [],
+      "unsupported_patterns": [
+        "django"
+      ]
+    },
+    {
+      "category": "exposed",
+      "detector_id": "nestjs-routes",
+      "detector_version": "0.0.0",
+      "files_scanned": 0,
+      "notes": [],
+      "status": "unsupported",
+      "supported_patterns": [],
+      "unsupported_patterns": [
+        "nestjs"
+      ]
+    },
+    {
+      "category": "consumed",
+      "detector_id": "angular-httpclient-consumer",
+      "detector_version": "1.0.0",
+      "files_scanned": 1,
+      "notes": [],
+      "status": "partial",
+      "supported_patterns": [
+        "direct literal angular-httpclient HTTP calls"
+      ],
+      "unsupported_patterns": [
+        "http_client_detected_no_calls"
+      ]
+    },
+    {
+      "category": "consumed",
+      "detector_id": "dotnet-httpclient-consumer",
+      "detector_version": "0.0.0",
+      "files_scanned": 0,
+      "notes": [],
+      "status": "unsupported",
+      "supported_patterns": [],
+      "unsupported_patterns": [
+        "dotnet-httpclient"
+      ]
+    },
+    {
+      "category": "consumed",
+      "detector_id": "fetch-consumer",
+      "detector_version": "1.0.0",
+      "files_scanned": 1,
+      "notes": [],
+      "status": "partial",
+      "supported_patterns": [
+        "direct literal fetch HTTP calls"
+      ],
+      "unsupported_patterns": [
+        "fetch_dynamic_or_complex_call_unresolved",
+        "http_client_detected_no_calls"
+      ]
+    },
+    {
+      "category": "integration",
+      "detector_id": "integration-surface-gate",
+      "detector_version": "1.0.0",
+      "files_scanned": 0,
+      "notes": [],
+      "status": "partial",
+      "supported_patterns": [],
+      "unsupported_patterns": [
+        "sse"
+      ]
+    }
+  ],
+  "discovery_complete": false,
+  "endpoints": [],
+  "integrations": [],
+  "inventory_complete": false,
+  "notes": [
+    "v0.4 discovers literal HTTP routes/calls and fails closed on dynamic or unsupported patterns.",
+    "discovery_complete is not equivalent to final audit status; OpenAPI generation and contract enrichment follow later."
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "graphify-v0.9.61",
+  "schema_version": "1.0",
+  "soap_contracts_complete": null,
+  "soap_operations": 0,
+  "soap_operations_complete": null,
+  "soap_services": 0,
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "unresolved": [
+    {
+      "code": "unsupported_server_framework",
+      "detector_id": "aspnet-core-routes",
+      "evidence": [],
+      "message": "Server framework 'aspnet-core' has no v0.4 exposed-endpoint detector.",
+      "severity": "blocking"
+    },
+    {
+      "code": "unsupported_server_framework",
+      "detector_id": "django-routes",
+      "evidence": [],
+      "message": "Server framework 'django' has no v0.4 exposed-endpoint detector.",
+      "severity": "blocking"
+    },
+    {
+      "code": "unsupported_server_framework",
+      "detector_id": "nestjs-routes",
+      "evidence": [],
+      "message": "Server framework 'nestjs' has no v0.4 exposed-endpoint detector.",
+      "severity": "blocking"
+    },
+    {
+      "code": "http_client_detected_no_calls",
+      "detector_id": "angular-httpclient-consumer",
+      "evidence": [],
+      "message": "HTTP client 'angular-httpclient' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "severity": "blocking"
+    },
+    {
+      "code": "unsupported_http_client",
+      "detector_id": "dotnet-httpclient-consumer",
+      "evidence": [],
+      "message": "HTTP client 'dotnet-httpclient' is detected but has no v0.4 endpoint detector.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 11,
+          "note": "unresolved fetch call",
+          "path": "tests/fixtures/sample.ts",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "http_client_detected_no_calls",
+      "detector_id": "fetch-consumer",
+      "evidence": [],
+      "message": "HTTP client 'fetch' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "severity": "blocking"
+    },
+    {
+      "code": "non_http_integration_requires_dedicated_detector",
+      "detector_id": "integration-surface-gate",
+      "evidence": [],
+      "message": "Non-HTTP/OpenAPI integration surfaces detected (sse); v0.4 endpoint discovery does not audit those contracts yet.",
+      "severity": "blocking"
+    }
+  ]
+}

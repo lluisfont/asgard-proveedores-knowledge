@@ -1,0 +1,31 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_embarques_viaje_detalle_php",
+      "label": "embarques_viaje_detalle.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/embarques_viaje_detalle.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_embarques_viaje_detalle_showseparator",
+      "label": "showSeparator()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/embarques_viaje_detalle.php",
+      "source_location": "L11",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_embarques_viaje_detalle_php",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_embarques_viaje_detalle_showseparator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/embarques_viaje_detalle.php",
+      "source_location": "L11",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

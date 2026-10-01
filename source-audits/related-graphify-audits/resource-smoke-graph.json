@@ -1,0 +1,23 @@
+{
+  "directed": true,
+  "nodes": [
+    {
+      "id": "a",
+      "label": "Alpha",
+      "community": 0
+    },
+    {
+      "id": "b",
+      "label": "Beta",
+      "community": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "a",
+      "target": "b",
+      "relation": "calls",
+      "confidence": "EXTRACTED"
+    }
+  ]
+}

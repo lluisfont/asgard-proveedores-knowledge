@@ -1,0 +1,536 @@
+{
+  "auditor_version": "0.8.0",
+  "detector_hints": [
+    "consumed:angular-httpclient",
+    "consumed:dotnet-httpclient",
+    "consumed:fetch",
+    "exposed:aspnet-core",
+    "exposed:django",
+    "exposed:nestjs",
+    "framework:aspnet-core",
+    "framework:django",
+    "framework:nestjs",
+    "integration:sse"
+  ],
+  "excluded_roots": [
+    ".brownfield",
+    ".pytest_cache",
+    ".ruff_cache",
+    "bandit_v0961.json",
+    "build",
+    "dist_audit",
+    "dist_audit_iter",
+    "dist_audit_pass3",
+    "graphify/__pycache__",
+    "graphify/exporters/__pycache__",
+    "graphify/extractors/__pycache__",
+    "pip_audit_v0961.json",
+    "pyright_v0961.json",
+    "tests/__pycache__",
+    "tests/fixtures/__pycache__",
+    "tools/__pycache__",
+    "tools/skillgen/__pycache__"
+  ],
+  "existing_specs": [],
+  "files_scanned": 1601,
+  "frameworks": [
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "manifest",
+          "line": null,
+          "note": "dotnet dependency",
+          "path": "tests/fixtures/sample.csproj"
+        }
+      ],
+      "kind": "framework",
+      "name": "aspnet-core"
+    },
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 247,
+          "note": "code signature",
+          "path": "tests/test_rationale.py"
+        }
+      ],
+      "kind": "framework",
+      "name": "django"
+    },
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 20,
+          "note": "code signature",
+          "path": "tests/fixtures/typescript_advanced.ts"
+        }
+      ],
+      "kind": "framework",
+      "name": "nestjs"
+    }
+  ],
+  "http_clients": [
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 3,
+          "note": "code signature",
+          "path": "tests/fixtures/sample.ts"
+        }
+      ],
+      "kind": "http_client",
+      "name": "angular-httpclient"
+    },
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 22,
+          "note": "code signature",
+          "path": "tests/fixtures/sample.cs"
+        }
+      ],
+      "kind": "http_client",
+      "name": "dotnet-httpclient"
+    },
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 11,
+          "note": "code signature",
+          "path": "tests/fixtures/sample.ts"
+        }
+      ],
+      "kind": "http_client",
+      "name": "fetch"
+    }
+  ],
+  "integration_surfaces": [
+    {
+      "confidence": "probable",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": 45,
+          "note": "code signature",
+          "path": "tests/test_serve_http.py"
+        }
+      ],
+      "kind": "integration_surface",
+      "name": "sse"
+    }
+  ],
+  "inventory_complete": false,
+  "languages": [
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.xaml.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/xaml_viewmodel/ViewModels/DesignViewModel.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/xaml_viewmodel/ViewModels/MainViewModel.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/xaml_viewmodel/ViewModels/PrismOrderViewModel.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/xaml_viewmodel/ViewModels/SettingsViewModel.cs"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/xaml_viewmodel/ViewModels/ToolkitViewModel.cs"
+        }
+      ],
+      "kind": "language",
+      "name": "csharp"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.go"
+        }
+      ],
+      "kind": "language",
+      "name": "go"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.java"
+        }
+      ],
+      "kind": "language",
+      "name": "java"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/cjs_require.js"
+        }
+      ],
+      "kind": "language",
+      "name": "javascript"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.kt"
+        }
+      ],
+      "kind": "language",
+      "name": "kotlin"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample_php_config.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample_php_container.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample_php_listen.php"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample_php_static_prop.php"
+        }
+      ],
+      "kind": "language",
+      "name": "php"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/__init__.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/__main__.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/_minhash.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/affected.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/analyze.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/benchmark.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/build.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cache.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/callflow_html.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cargo_introspect.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cli.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cluster.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cross_repo_calls.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/cross_repo_types.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/csharp_dispatch.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/dedup.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/detect.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/diagnostics.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/export.py"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "graphify/extract.py"
+        }
+      ],
+      "kind": "language",
+      "name": "python"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.rb"
+        }
+      ],
+      "kind": "language",
+      "name": "ruby"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.swift"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/objc_mixed/WidgetExtras.swift"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/swift_cross_file/Foo+Ext.swift"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/swift_cross_file/Foo.swift"
+        }
+      ],
+      "kind": "language",
+      "name": "swift"
+    },
+    {
+      "confidence": "confirmed",
+      "evidence": [
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/barrel_reexport.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/cookieHelpers.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/dynamic_import.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/sample.tsx"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/storageHelpers.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/typescript_advanced.ts"
+        },
+        {
+          "kind": "source",
+          "line": null,
+          "note": null,
+          "path": "tests/fixtures/urlHelpers.ts"
+        }
+      ],
+      "kind": "language",
+      "name": "typescript"
+    }
+  ],
+  "manifest_errors": [],
+  "manifests": [
+    "pyproject.toml",
+    "tests/fixtures/sample.csproj",
+    "tests/fixtures/xaml_viewmodel/App.csproj"
+  ],
+  "notes": [
+    "inventory_complete describes execution coverage of inventory scope v1.0, not proof that every possible technology pattern is known.",
+    "Dependency-manifest matches are confirmed; source-code signatures are probable unless corroborated by a manifest.",
+    "Documentation files are not searched for technology signatures to avoid false positives.",
+    "working tree is dirty",
+    "oversize text candidates were not inspected"
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "graphify-v0.9.61",
+  "repository_identity_source": "explicit",
+  "required_detector_categories": [
+    "inventory",
+    "framework",
+    "configuration",
+    "exposed",
+    "consumed",
+    "integration"
+  ],
+  "schema_version": "1.0",
+  "scope_version": "1.0",
+  "skipped_oversize_files": [
+    "graphify-out/graph.json",
+    "worked/rsl-siege-manager/graph.json"
+  ],
+  "skipped_symlinks": [],
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "submodules": [],
+  "text_files_inspected": 1074,
+  "working_tree_dirty": true
+}

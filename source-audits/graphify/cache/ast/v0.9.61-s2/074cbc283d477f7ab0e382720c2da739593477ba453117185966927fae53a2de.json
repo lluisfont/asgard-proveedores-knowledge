@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_generar_excel_detalle_php",
+      "label": "generar_excel_detalle.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/generar_excel_detalle.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

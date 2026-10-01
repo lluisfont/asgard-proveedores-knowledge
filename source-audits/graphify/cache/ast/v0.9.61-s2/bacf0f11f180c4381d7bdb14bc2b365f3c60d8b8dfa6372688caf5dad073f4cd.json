@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reportes_reportecontrololquery_php",
+      "label": "reportecontrololquery.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/reportecontrololquery.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

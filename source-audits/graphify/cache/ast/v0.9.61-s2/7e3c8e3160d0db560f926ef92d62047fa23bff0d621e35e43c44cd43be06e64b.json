@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_php",
+      "label": "tcpdf_import.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import",
+      "label": "TCPDF_IMPORT",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L59",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "tcpdf",
+      "label": "TCPDF",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "label": ".importPDF()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L68",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_php",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import",
+      "target": "tcpdf",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L68",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "file_get_contents",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L70",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "Error",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "TCPDF_PARSER",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L82",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "die",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "getMessage",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "getParsedData",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_tcpdf_import_tcpdf_import_importpdf",
+      "callee": "print_r",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/tcpdf_import.php",
+      "source_location": "L94",
+      "receiver": null
+    }
+  ]
+}

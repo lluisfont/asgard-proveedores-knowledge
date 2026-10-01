@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_cnfdb105_php",
+      "label": "cnfdb105.php",
+      "file_type": "code",
+      "source_file": "index_archivos/cnfdb105.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

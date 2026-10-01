@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_ajax_buscardatos_php",
+      "label": "buscarDatos.php",
+      "file_type": "code",
+      "source_file": "index_archivos/ajax/buscarDatos.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

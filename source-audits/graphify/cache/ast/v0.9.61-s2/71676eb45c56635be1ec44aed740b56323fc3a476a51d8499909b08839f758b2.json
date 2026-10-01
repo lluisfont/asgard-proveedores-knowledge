@@ -1,0 +1,282 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mailclass_php",
+      "label": "MailClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mailclass_mailclass",
+      "label": "MailClass",
+      "file_type": "code",
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "label": ".sendMail()",
+      "file_type": "code",
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L11",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_mailclass_php",
+      "target": "$graphify-root$_index_archivos_mailclass_mailclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mailclass_mailclass",
+      "target": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L11",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_unique",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L17",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L20",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L22",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_unique",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L27",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L29",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L31",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L36",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L41",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L44",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L46",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "base64_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "file_get_contents",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L66",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L70",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_init",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "json_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_setopt",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "curl_exec",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L90",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L93",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mailclass_mailclass_sendmail",
+      "callee": "print_r",
+      "is_member_call": false,
+      "source_file": "index_archivos/MailClass.php",
+      "source_location": "L94",
+      "receiver": null
+    }
+  ]
+}

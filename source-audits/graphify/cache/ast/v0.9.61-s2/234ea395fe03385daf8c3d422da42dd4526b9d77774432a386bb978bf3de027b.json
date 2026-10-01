@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajaxasignacion_guardar_ubicacion_php",
+      "label": "guardar_ubicacion.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajaxAsignacion/guardar_ubicacion.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

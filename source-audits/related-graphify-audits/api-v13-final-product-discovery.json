@@ -1,0 +1,30 @@
+{
+  "auditor_version": "0.8.0",
+  "detectors": [],
+  "discovery_complete": false,
+  "endpoints": [],
+  "integrations": [],
+  "inventory_complete": false,
+  "notes": [
+    "v0.4 discovers literal HTTP routes/calls and fails closed on dynamic or unsupported patterns.",
+    "discovery_complete is not equivalent to final audit status; OpenAPI generation and contract enrichment follow later."
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "graphify-v0.9.61-final-product",
+  "schema_version": "1.0",
+  "soap_contracts_complete": null,
+  "soap_operations": 0,
+  "soap_operations_complete": null,
+  "soap_services": 0,
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "unresolved": [
+    {
+      "code": "no_supported_api_detector_selected",
+      "detector_id": "discovery-orchestrator",
+      "evidence": [],
+      "message": "Inventory did not select any v0.4 API detector. Absence of findings is not proof that the repository has no API integrations.",
+      "severity": "blocking"
+    }
+  ]
+}

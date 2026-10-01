@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_excel_php",
+      "label": "excel.php",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_excel_xlsbof",
+      "label": "xlsBOF()",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L3",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_excel_xlseof",
+      "label": "xlsEOF()",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L7",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_excel_xlswritenumber",
+      "label": "xlsWriteNumber()",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_excel_xlswritelabel",
+      "label": "xlsWriteLabel()",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_excel_getheaders",
+      "label": "getHeaders()",
+      "file_type": "code",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L32",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_excel_php",
+      "target": "$graphify-root$_index_archivos_excel_xlsbof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_excel_php",
+      "target": "$graphify-root$_index_archivos_excel_xlseof",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_excel_php",
+      "target": "$graphify-root$_index_archivos_excel_xlswritenumber",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_excel_php",
+      "target": "$graphify-root$_index_archivos_excel_xlswritelabel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_excel_php",
+      "target": "$graphify-root$_index_archivos_excel_getheaders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L32",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlsbof",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L4",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlseof",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L8",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlswritenumber",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L12",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlswritenumber",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlswritelabel",
+      "callee": "strtr",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlswritelabel",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L27",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_xlswritelabel",
+      "callee": "pack",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L28",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L33",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L34",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L35",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L37",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L41",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_excel_getheaders",
+      "callee": "header",
+      "is_member_call": false,
+      "source_file": "index_archivos/excel.php",
+      "source_location": "L42",
+      "receiver": null
+    }
+  ]
+}

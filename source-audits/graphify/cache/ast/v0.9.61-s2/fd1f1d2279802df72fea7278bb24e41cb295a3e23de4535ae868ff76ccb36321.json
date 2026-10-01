@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_2fa_ajax_reenviar_codigo_php",
+      "label": "reenviar-codigo.php",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/ajax/reenviar-codigo.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_controllers_commons_php",
+      "label": "Commons.php",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_commons_commons",
+      "label": "Commons",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "label": ".getQuery()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L7",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_controllers_commons_php",
+      "target": "$graphify-root$_index_archivos_controllers_commons_commons",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_commons_commons",
+      "target": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L7",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L9",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_errno",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L10",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_error",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L10",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L15",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_errno",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L16",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_error",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L16",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L20",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_commons_commons_getquery",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/Commons.php",
+      "source_location": "L23",
+      "receiver": null
+    }
+  ]
+}

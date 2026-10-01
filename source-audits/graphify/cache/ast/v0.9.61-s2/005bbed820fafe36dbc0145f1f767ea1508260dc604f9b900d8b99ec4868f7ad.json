@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_php",
+      "label": "ResetPassword.php",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "label": "ResetPassword",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "label": ".generateToken()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "label": ".verifyToken()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_resetpasswordclient",
+      "label": ".resetPasswordClient()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatecode",
+      "label": ".generateCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L96",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_sendemailverification",
+      "label": ".sendEmailVerification()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verificausurio",
+      "label": ".verificausurio()",
+      "file_type": "code",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L289",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_php",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_resetpasswordclient",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatecode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_sendemailverification",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword",
+      "target": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verificausurio",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L289",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L12",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L22",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatetoken",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L26",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L51",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L52",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L53",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L53",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verifytoken",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L62",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_resetpasswordclient",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L78",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_resetpasswordclient",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L78",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_resetpasswordclient",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L81",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatecode",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L98",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatecode",
+      "callee": "str_shuffle",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L98",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_generatecode",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L99",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_sendemailverification",
+      "callee": "MailClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L255",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verificausurio",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L292",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verificausurio",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L293",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_resetpassword_resetpassword_resetpassword_verificausurio",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/resetpassword/ResetPassword.php",
+      "source_location": "L294",
+      "receiver": null
+    }
+  ]
+}

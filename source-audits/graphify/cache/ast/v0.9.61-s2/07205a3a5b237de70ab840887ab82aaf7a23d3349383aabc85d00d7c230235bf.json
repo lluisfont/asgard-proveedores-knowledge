@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_font_ctimesbi_php",
+      "label": "ctimesbi.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/font/ctimesbi.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

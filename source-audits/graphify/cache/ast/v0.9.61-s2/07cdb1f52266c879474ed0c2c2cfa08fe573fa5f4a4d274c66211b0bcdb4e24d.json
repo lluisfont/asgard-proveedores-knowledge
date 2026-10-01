@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_2fa_php",
+      "label": "2fa.php",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

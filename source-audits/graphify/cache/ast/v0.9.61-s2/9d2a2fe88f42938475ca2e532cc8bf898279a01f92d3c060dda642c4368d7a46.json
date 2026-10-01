@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_layouts_styles_php",
+      "label": "styles.php",
+      "file_type": "code",
+      "source_file": "index_archivos/layouts/styles.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

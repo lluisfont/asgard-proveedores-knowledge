@@ -1,0 +1,233 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_php",
+      "label": "PlotArea.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "label": "PHPExcel_Chart_PlotArea",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_chart_layout",
+      "label": "PHPExcel_Chart_Layout",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getlayout",
+      "label": ".getLayout()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L66",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroupcount",
+      "label": ".getPlotGroupCount()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotseriescount",
+      "label": ".getPlotSeriesCount()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L84",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroup",
+      "label": ".getPlotGroup()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroupbyindex",
+      "label": ".getPlotGroupByIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L106",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_setplotseries",
+      "label": ".setPlotSeries()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_refresh",
+      "label": ".refresh()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L122",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_construct",
+      "target": "phpexcel_chart_layout",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getlayout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroupcount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotseriescount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroup",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroupbyindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_setplotseries",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_refresh",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_refresh",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L122",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotseriescount",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotseriescount",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_refresh",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L124",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_plotarea_phpexcel_chart_plotarea_getplotgroupcount",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/PlotArea.php",
+      "source_location": "L76",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_php",
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_encriptar",
+      "label": "encriptar()",
+      "file_type": "code",
+      "source_file": "index.php",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_desencriptar",
+      "label": "desencriptar()",
+      "file_type": "code",
+      "source_file": "index.php",
+      "source_location": "L19",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_php",
+      "target": "$graphify-root$_index_encriptar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_php",
+      "target": "$graphify-root$_index_desencriptar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.php",
+      "source_location": "L19",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_encriptar",
+      "callee": "base64_encode",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_encriptar",
+      "callee": "mcrypt_encrypt",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_encriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_encriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_encriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "mcrypt_decrypt",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "base64_decode",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_desencriptar",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index.php",
+      "source_location": "L21",
+      "receiver": null
+    }
+  ]
+}

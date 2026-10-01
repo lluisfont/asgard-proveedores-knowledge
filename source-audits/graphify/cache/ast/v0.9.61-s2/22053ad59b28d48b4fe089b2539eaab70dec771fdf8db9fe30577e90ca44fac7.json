@@ -1,0 +1,341 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_php",
+      "label": "Drawing.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "label": "PHPExcel_Worksheet_Drawing",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_worksheet_basedrawing",
+      "label": "PHPExcel_Worksheet_BaseDrawing",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getfilename",
+      "label": ".getFilename()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "label": ".getIndexedFilename()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L71",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "label": ".getExtension()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L82",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getpath",
+      "label": ".getPath()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L92",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_setpath",
+      "label": ".setPath()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L127",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L138",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "phpexcel_worksheet_basedrawing",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getfilename",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getpath",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_setpath",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getfilename",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L74",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L54",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getfilename",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L63",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L73",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getindexedfilename",
+      "callee": "getImageIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_getextension",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_setpath",
+      "callee": "file_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L106",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_setpath",
+      "callee": "getimagesize",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_setpath",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_gethashcode",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_drawing_phpexcel_worksheet_drawing_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Drawing.php",
+      "source_location": "L141",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_cargarlibroventas_php",
+      "label": "cargarlibroventas.php",
+      "file_type": "code",
+      "source_file": "index_archivos/cargarlibroventas.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

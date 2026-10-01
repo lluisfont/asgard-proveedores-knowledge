@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_server_side_grid_filtering_and_sorting_and_paging_index_php",
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/server_side_grid_filtering_and_sorting_and_paging/index.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

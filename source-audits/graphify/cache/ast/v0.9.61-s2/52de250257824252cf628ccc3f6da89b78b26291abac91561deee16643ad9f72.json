@@ -1,0 +1,720 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_php",
+      "label": "BaseDrawing.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "label": "PHPExcel_Worksheet_BaseDrawing",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getimageindex",
+      "label": ".getImageIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L157",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getname",
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L166",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setname",
+      "label": ".setName()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L176",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getdescription",
+      "label": ".getDescription()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setdescription",
+      "label": ".setDescription()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getworksheet",
+      "label": ".getWorksheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L206",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "label": ".setWorksheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L218",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getcoordinates",
+      "label": ".getCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L251",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setcoordinates",
+      "label": ".setCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L261",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getoffsetx",
+      "label": ".getOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L271",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setoffsetx",
+      "label": ".setOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L281",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getoffsety",
+      "label": ".getOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L291",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setoffsety",
+      "label": ".setOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L301",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getwidth",
+      "label": ".getWidth()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidth",
+      "label": ".setWidth()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L321",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getheight",
+      "label": ".getHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L339",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setheight",
+      "label": ".setHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L349",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidthandheight",
+      "label": ".setWidthAndHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L375",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getresizeproportional",
+      "label": ".getResizeProportional()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L395",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setresizeproportional",
+      "label": ".setResizeProportional()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L405",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getrotation",
+      "label": ".getRotation()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L415",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setrotation",
+      "label": ".setRotation()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L425",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getshadow",
+      "label": ".getShadow()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L435",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setshadow",
+      "label": ".setShadow()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L446",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet_drawing_shadow",
+      "label": "PHPExcel_Worksheet_Drawing_Shadow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L456",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L475",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getimageindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getdescription",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setdescription",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getworksheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L218",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L281",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L301",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getwidth",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidth",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L339",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidthandheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getresizeproportional",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L395",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setresizeproportional",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getrotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L415",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setrotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L425",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_getshadow",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setshadow",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L446",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setshadow",
+      "target": "phpexcel_worksheet_drawing_shadow",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L446",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L456",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L475",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_construct",
+      "target": "phpexcel_worksheet_drawing_shadow",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L460",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L219",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L222",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L223",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "getDrawingCollection",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L223",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "getIterator",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "getDrawingCollection",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "valid",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L229",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "current",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "offsetUnset",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "getDrawingCollection",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "key",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setworksheet",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L240",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidthandheight",
+      "callee": "ceil",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L380",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_setwidthandheight",
+      "callee": "ceil",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L383",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L457",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L476",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_basedrawing_phpexcel_worksheet_basedrawing_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/BaseDrawing.php",
+      "source_location": "L478",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_components_asignacion_viaje_multimodal_programacion_embarque_php",
+      "label": "multimodal-programacion-embarque.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/components/asignacion_viaje/multimodal-programacion-embarque.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

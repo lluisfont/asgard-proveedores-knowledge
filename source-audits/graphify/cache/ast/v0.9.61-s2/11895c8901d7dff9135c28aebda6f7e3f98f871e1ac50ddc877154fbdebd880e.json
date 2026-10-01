@@ -1,0 +1,458 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_php",
+      "label": "Rule.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "label": "PHPExcel_Worksheet_AutoFilter_Column_Rule",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L275",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet_autofilter_column",
+      "label": "PHPExcel_Worksheet_AutoFilter_Column",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getruletype",
+      "label": ".getRuleType()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L285",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setruletype",
+      "label": ".setRuleType()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L296",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getvalue",
+      "label": ".getValue()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "label": ".setValue()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L322",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getoperator",
+      "label": ".getOperator()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L351",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "label": ".setOperator()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L362",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getgrouping",
+      "label": ".getGrouping()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L379",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "label": ".setGrouping()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L390",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setrule",
+      "label": ".setRule()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L412",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getparent",
+      "label": ".getParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L429",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setparent",
+      "label": ".setParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L439",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L448",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_construct",
+      "target": "phpexcel_worksheet_autofilter_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L275",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getruletype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setruletype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L296",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getvalue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getoperator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L362",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getgrouping",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L379",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setrule",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L412",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_getparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L429",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L439",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setparent",
+      "target": "phpexcel_worksheet_autofilter_column",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L439",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L448",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L339",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setrule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setrule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setrule",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L419",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setruletype",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L297",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setruletype",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L298",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L323",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L327",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "callee": "array_search",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L332",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L335",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setvalue",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L336",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L363",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L365",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L366",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setoperator",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L367",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L392",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L393",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L394",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_setgrouping",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L395",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L449",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_autofilter_column_rule_phpexcel_worksheet_autofilter_column_rule_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/AutoFilter/Column/Rule.php",
+      "source_location": "L451",
+      "receiver": null
+    }
+  ]
+}

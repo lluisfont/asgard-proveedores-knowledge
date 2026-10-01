@@ -1,0 +1,570 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_php",
+      "label": "DataValidation.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "label": "PHPExcel_Cell_DataValidation",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L157",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getformula1",
+      "label": ".getFormula1()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setformula1",
+      "label": ".setFormula1()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L190",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getformula2",
+      "label": ".getFormula2()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L200",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setformula2",
+      "label": ".setFormula2()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L210",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gettype",
+      "label": ".getType()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L220",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_settype",
+      "label": ".setType()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L230",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterrorstyle",
+      "label": ".getErrorStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L240",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterrorstyle",
+      "label": ".setErrorStyle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L250",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getoperator",
+      "label": ".getOperator()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L260",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setoperator",
+      "label": ".setOperator()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L270",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getallowblank",
+      "label": ".getAllowBlank()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L280",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setallowblank",
+      "label": ".setAllowBlank()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L290",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowdropdown",
+      "label": ".getShowDropDown()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L300",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowdropdown",
+      "label": ".setShowDropDown()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L310",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowinputmessage",
+      "label": ".getShowInputMessage()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L320",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowinputmessage",
+      "label": ".setShowInputMessage()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L330",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowerrormessage",
+      "label": ".getShowErrorMessage()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L340",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowerrormessage",
+      "label": ".setShowErrorMessage()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L350",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterrortitle",
+      "label": ".getErrorTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L360",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterrortitle",
+      "label": ".setErrorTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L370",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterror",
+      "label": ".getError()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L380",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterror",
+      "label": ".setError()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L390",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getprompttitle",
+      "label": ".getPromptTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L400",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setprompttitle",
+      "label": ".setPromptTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L410",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getprompt",
+      "label": ".getPrompt()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L420",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setprompt",
+      "label": ".setPrompt()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L430",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L440",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L462",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getformula1",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setformula1",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getformula2",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setformula2",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gettype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_settype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterrorstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterrorstyle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getoperator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setoperator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getallowblank",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setallowblank",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L290",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowdropdown",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowdropdown",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowinputmessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L320",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowinputmessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getshowerrormessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L340",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setshowerrormessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterrortitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterrortitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_geterror",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_seterror",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getprompttitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L400",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setprompttitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_getprompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_setprompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L462",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_construct",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gethashcode",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L444",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L463",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_cell_datavalidation_phpexcel_cell_datavalidation_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Cell/DataValidation.php",
+      "source_location": "L465",
+      "receiver": null
+    }
+  ]
+}

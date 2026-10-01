@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_components_modal_edit_user_transport_php",
+      "label": "modal-edit-user-transport.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/components/modal-edit-user-transport.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

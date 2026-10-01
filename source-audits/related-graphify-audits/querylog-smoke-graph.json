@@ -1,0 +1,11 @@
+{
+  "directed": true,
+  "nodes": [
+    {
+      "id": "secret-node",
+      "label": "Secret Customer Endpoint",
+      "community": 0
+    }
+  ],
+  "edges": []
+}

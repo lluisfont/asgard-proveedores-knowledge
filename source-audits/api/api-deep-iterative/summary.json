@@ -1,0 +1,26 @@
+{
+  "endpoint_risk_rows": 194,
+  "consumer_risk_rows": 22,
+  "endpoint_flags": {
+    "DB_WRITE": 7,
+    "NO_CSRF": 74,
+    "CALLER_REFERENCED": 56,
+    "IDOR_CANDIDATE": 51,
+    "SQL_TAINT": 16,
+    "SENSITIVE_TABLE_ACCESS": 50,
+    "FK_GAP_TABLE_ACCESS": 49,
+    "PATH_TRAVERSAL_CANDIDATE": 2,
+    "LEGACY_MYSQL_API": 43,
+    "UPLOAD_IMPORT": 50,
+    "NO_LOCAL_AUTH": 70,
+    "PASSWORD_CHANGE_NO_LOCAL_AUTH": 2,
+    "DANGEROUS_SINK": 3
+  },
+  "consumer_flags": {
+    "UNRESOLVED_BASE_CONSTANT": 10,
+    "TLS_VERIFY_DISABLED": 3,
+    "SECRET_IN_CONTEXT": 12,
+    "DEV_OR_PLAINTEXT_EGRESS": 6
+  },
+  "output": "C:\\repos\\proveedores-master_peru\\.brownfield\\work\\custom\\api-deep-iterative"
+}

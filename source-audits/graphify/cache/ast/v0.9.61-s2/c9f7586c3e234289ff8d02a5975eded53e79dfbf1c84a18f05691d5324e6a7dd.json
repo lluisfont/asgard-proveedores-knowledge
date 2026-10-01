@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajaxasignacion_parametros_php",
+      "label": "parametros.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajaxAsignacion/parametros.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

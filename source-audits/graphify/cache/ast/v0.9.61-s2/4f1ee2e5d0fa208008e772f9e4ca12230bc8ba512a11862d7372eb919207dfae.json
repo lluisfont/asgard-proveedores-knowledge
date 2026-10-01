@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_ajax_get_categorias_php",
+      "label": "get-categorias.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ajax/get-categorias.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

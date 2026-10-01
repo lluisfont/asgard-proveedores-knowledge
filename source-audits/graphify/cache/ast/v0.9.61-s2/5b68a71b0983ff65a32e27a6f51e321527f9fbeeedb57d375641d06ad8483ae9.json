@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reportes_filtros_logis_estados_php",
+      "label": "logis_estados.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/filtros/logis_estados.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

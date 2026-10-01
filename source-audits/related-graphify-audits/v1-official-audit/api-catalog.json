@@ -1,0 +1,106 @@
+{
+  "auditor_version": "0.8.0",
+  "catalog_id": "catalog-80b14c7d85888f928caf",
+  "coverage": {
+    "consumed_endpoints": 0,
+    "discovery_complete": false,
+    "excluded_endpoints": 0,
+    "exposed_endpoints": 0,
+    "included_endpoints": 0,
+    "inventory_complete": false,
+    "total_endpoints": 0,
+    "unresolved": 8
+  },
+  "endpoints": [],
+  "generated_at": "2026-09-14T15:06:18.274863+00:00",
+  "input_hashes": [
+    {
+      "path": "C:\\repos\\proveedores\\graphify-asgard-audit\\v1-official-audit\\findings.json",
+      "sha256": "996a93c5fffa777d61236bbc02547c14866e2fdaab5d3064fa7653480177c2e7"
+    }
+  ],
+  "metadata": {
+    "findings_audit_id": "audit-8a6f5739c248b9f3",
+    "findings_auditor_version": "0.8.0",
+    "findings_schema_version": "2.0",
+    "findings_sha256": "996a93c5fffa777d61236bbc02547c14866e2fdaab5d3064fa7653480177c2e7",
+    "repository": "graphify-v0.9.61",
+    "repository_id": "graphify-v0.9.61",
+    "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+    "source_ref": "HEAD",
+    "stable_namespace": null
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "exclude_endpoints": [],
+    "excluded_endpoints": 0,
+    "include_endpoints": [],
+    "included_endpoints": 0,
+    "mode": "all"
+  },
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'aspnet-core' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-6b457107d310702a"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'django' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-3bc81298e0c286a4"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_server_framework: Server framework 'nestjs' has no v0.4 exposed-endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-44aa0a11cb368052"
+    },
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'angular-httpclient' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-3a4641e954db351c"
+    },
+    {
+      "category": "coverage",
+      "description": "unsupported_http_client: HTTP client 'dotnet-httpclient' is detected but has no v0.4 endpoint detector.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-b64386aed15d5fd9"
+    },
+    {
+      "category": "coverage",
+      "description": "fetch_dynamic_or_complex_call_unresolved: fetch() call could not be resolved as a supported literal URL/options form.",
+      "evidence": [
+        {
+          "kind": "http_client",
+          "line": 11,
+          "note": "unresolved fetch call",
+          "path": "tests/fixtures/sample.ts"
+        }
+      ],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-373e3bb65e74e77c"
+    },
+    {
+      "category": "coverage",
+      "description": "http_client_detected_no_calls: HTTP client 'fetch' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-cef81bbf50c912af"
+    },
+    {
+      "category": "coverage",
+      "description": "non_http_integration_requires_dedicated_detector: Non-HTTP/OpenAPI integration surfaces detected (sse); v0.4 endpoint discovery does not audit those contracts yet.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-e0ca08ef102f1955"
+    }
+  ]
+}

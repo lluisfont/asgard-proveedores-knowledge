@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_2fa_ajax_autenticar_php",
+      "label": "autenticar.php",
+      "file_type": "code",
+      "source_file": "index_archivos/2fa/ajax/autenticar.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

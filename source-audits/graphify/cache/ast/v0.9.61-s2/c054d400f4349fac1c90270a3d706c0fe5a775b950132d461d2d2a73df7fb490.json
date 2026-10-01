@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_src_carbon_lang_sr_cyrl_me_php",
+      "label": "sr_Cyrl_ME.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/src/Carbon/Lang/sr_Cyrl_ME.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,18 @@
+policy:
+  infer_business_meaning_from_names: candidate_only
+  require_evidence_for_confirmation: true
+  ddl_comments_are_confirmed_business_meaning: false
+  inferred_status: INFERRED_DRAFT_REVIEW_REQUIRED
+  confirmed_status: CONFIRMED
+  unknown_marker: "?"
+outputs:
+  - DATA_DICTIONARY.xlsx
+  - DATA_DICTIONARY.md
+  - data_dictionary.json
+  - tables.csv
+  - columns.csv
+  - relations.csv
+  - indexes.csv
+  - constraints.csv
+  - database_objects.csv
+  - business_review_backlog.csv

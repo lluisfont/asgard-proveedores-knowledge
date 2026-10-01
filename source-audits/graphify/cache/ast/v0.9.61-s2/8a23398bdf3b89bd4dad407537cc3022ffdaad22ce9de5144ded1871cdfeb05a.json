@@ -1,0 +1,618 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "label": "SYLK.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "label": "PHPExcel_Reader_SYLK",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_reader_abstract",
+      "label": "PHPExcel_Reader_Abstract",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_reader_ireader",
+      "label": "PHPExcel_Reader_IReader",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L78",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "label": "._isValidFormat()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_setinputencoding",
+      "label": ".setInputEncoding()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_getinputencoding",
+      "label": ".getInputEncoding()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L123",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "label": ".listWorksheetInfo()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L134",
+      "_callable": true
+    },
+    {
+      "id": "lastcolumnindex",
+      "label": "lastColumnIndex",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_load",
+      "label": "load()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L204",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "label": "loadIntoExisting()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L221",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel",
+      "label": "PHPExcel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_getsheetindex",
+      "label": "getSheetIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L435",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_setsheetindex",
+      "label": "setSheetIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L445",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "phpexcel_reader_abstract",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "phpexcel_reader_ireader",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_setinputencoding",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_getinputencoding",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk",
+      "target": "lastcolumnindex",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L186",
+      "weight": 1.0,
+      "context": "field"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_load",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "target": "phpexcel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L221",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_getsheetindex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_setsheetindex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L445",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_load",
+      "target": "phpexcel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_load",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L225",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_construct",
+      "callee": "PHPExcel_Reader_DefaultReadFilter",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "callee": "fread",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L90",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "callee": "substr_count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L93",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L99",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_isvalidformat",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L100",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "_openFile",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "fclose",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "PHPExcel_Reader_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L140",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "rewind",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L143",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "fgets",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L157",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L161",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "array_shift",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L167",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L174",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_phpexcel_reader_sylk_listworksheetinfo",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L178",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "_openFile",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L224",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "fclose",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L226",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "PHPExcel_Reader_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "rewind",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "getSheetCount",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "createSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L234",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "setActiveSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L236",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "fgets",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L246",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L249",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "rtrim",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "array_shift",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L255",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L261",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L261",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L264",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L266",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L268",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_sylk_loadintoexisting",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/SYLK.php",
+      "source_location": "L269",
+      "receiver": null
+    }
+  ],
+  "parse_errors": {
+    "first_error_line": 171,
+    "multiline_error": true
+  }
+}

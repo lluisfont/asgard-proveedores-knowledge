@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_empresatransporte_php",
+      "label": "empresatransporte.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/empresatransporte.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,330 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_php",
+      "label": "ZipStreamWrapper.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "label": "PHPExcel_Shared_ZipStreamWrapper",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_register",
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L68",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "label": ".stream_open()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L82",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_statname",
+      "label": ".statName()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L108",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_url_stat",
+      "label": ".url_stat()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L117",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_stat",
+      "label": ".stream_stat()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L126",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_read",
+      "label": ".stream_read()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L136",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_tell",
+      "label": ".stream_tell()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L148",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_eof",
+      "label": ".stream_eof()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L157",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_seek",
+      "label": ".stream_seek()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L168",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_register",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_statname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_url_stat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_stat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_read",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_tell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_eof",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_seek",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_url_stat",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_statname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_stat",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_statname",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L127",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_register",
+      "callee": "stream_wrapper_unregister",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_register",
+      "callee": "stream_wrapper_register",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L70",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "PHPExcel_Reader_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "strrpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L89",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L90",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "ZipArchive",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L93",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L94",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_open",
+      "callee": "getFromName",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L98",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_read",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_read",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_eof",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L158",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_seek",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_seek",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_zipstreamwrapper_phpexcel_shared_zipstreamwrapper_stream_seek",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/ZipStreamWrapper.php",
+      "source_location": "L190",
+      "receiver": null
+    }
+  ],
+  "parse_errors": {
+    "first_error_line": 84,
+    "multiline_error": false
+  }
+}

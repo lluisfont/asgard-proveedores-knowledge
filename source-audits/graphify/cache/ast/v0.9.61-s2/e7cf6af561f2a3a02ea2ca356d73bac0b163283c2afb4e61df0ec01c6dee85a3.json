@@ -1,0 +1,1054 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_php",
+      "label": "Chart.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "label": "PHPExcel_Chart",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L153",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_chart_title",
+      "label": "PHPExcel_Chart_Title",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart.php"
+    },
+    {
+      "id": "phpexcel_chart_legend",
+      "label": "PHPExcel_Chart_Legend",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart.php"
+    },
+    {
+      "id": "phpexcel_chart_plotarea",
+      "label": "PHPExcel_Chart_PlotArea",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getname",
+      "label": ".getName()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L170",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getworksheet",
+      "label": ".getWorksheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L179",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setworksheet",
+      "label": ".setWorksheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L190",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettitle",
+      "label": ".getTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L201",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settitle",
+      "label": ".setTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L211",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getlegend",
+      "label": ".getLegend()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L222",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setlegend",
+      "label": ".setLegend()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L232",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getxaxislabel",
+      "label": ".getXAxisLabel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L243",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setxaxislabel",
+      "label": ".setXAxisLabel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L253",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getyaxislabel",
+      "label": ".getYAxisLabel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L264",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setyaxislabel",
+      "label": ".setYAxisLabel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L274",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getplotarea",
+      "label": ".getPlotArea()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L285",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getplotvisibleonly",
+      "label": ".getPlotVisibleOnly()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L294",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setplotvisibleonly",
+      "label": ".setPlotVisibleOnly()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L304",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getdisplayblanksas",
+      "label": ".getDisplayBlanksAs()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L315",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setdisplayblanksas",
+      "label": ".setDisplayBlanksAs()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L325",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "label": ".setTopLeftPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L338",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftposition",
+      "label": ".getTopLeftPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L353",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftcell",
+      "label": ".getTopLeftCell()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L365",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftcell",
+      "label": ".setTopLeftCell()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L375",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "label": ".setTopLeftOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L388",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftoffset",
+      "label": ".getTopLeftOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L402",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftxoffset",
+      "label": ".setTopLeftXOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L408",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftxoffset",
+      "label": ".getTopLeftXOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L414",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftyoffset",
+      "label": ".setTopLeftYOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L418",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftyoffset",
+      "label": ".getTopLeftYOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L424",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "label": ".setBottomRightPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L436",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightposition",
+      "label": ".getBottomRightPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L451",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightcell",
+      "label": ".setBottomRightCell()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L458",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightcell",
+      "label": ".getBottomRightCell()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L469",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "label": ".setBottomRightOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L480",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightoffset",
+      "label": ".getBottomRightOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L494",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightxoffset",
+      "label": ".setBottomRightXOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L500",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightxoffset",
+      "label": ".getBottomRightXOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L506",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightyoffset",
+      "label": ".setBottomRightYOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L510",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightyoffset",
+      "label": ".getBottomRightYOffset()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L516",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_refresh",
+      "label": ".refresh()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L521",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "label": ".render()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L527",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_construct",
+      "target": "phpexcel_chart_title",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L153",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_construct",
+      "target": "phpexcel_chart_legend",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L153",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_construct",
+      "target": "phpexcel_chart_plotarea",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L153",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getname",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getworksheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setworksheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setworksheet",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L190",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settitle",
+      "target": "phpexcel_chart_title",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L211",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getlegend",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setlegend",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setlegend",
+      "target": "phpexcel_chart_legend",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L232",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getxaxislabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setxaxislabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setxaxislabel",
+      "target": "phpexcel_chart_title",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L253",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getyaxislabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setyaxislabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setyaxislabel",
+      "target": "phpexcel_chart_title",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L274",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getplotarea",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getplotvisibleonly",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setplotvisibleonly",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L304",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getdisplayblanksas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setdisplayblanksas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L338",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftcell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftcell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L388",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L402",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftxoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L408",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftxoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftyoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_gettopleftyoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L436",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L451",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightcell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L458",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightcell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L469",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L480",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L494",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightxoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L500",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightxoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L506",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightyoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_getbottomrightyoffset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L516",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_refresh",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L521",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L527",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftxoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftyoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftxoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftyoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightxoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L439",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightyoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L441",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightxoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L482",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightyoffset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L484",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_refresh",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L523",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_refresh",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L548",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L340",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftposition",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L342",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L389",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_settopleftoffset",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L391",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L438",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightposition",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L440",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L481",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_setbottomrightoffset",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L483",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "PHPExcel_Settings",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L528",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L529",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "PHPExcel_Settings",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L535",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L536",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "get_include_path",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L536",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L537",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "strpos",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L538",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "set_include_path",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L539",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_phpexcel_chart_render",
+      "callee": "get_include_path",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart.php",
+      "source_location": "L539",
+      "receiver": null
+    }
+  ]
+}

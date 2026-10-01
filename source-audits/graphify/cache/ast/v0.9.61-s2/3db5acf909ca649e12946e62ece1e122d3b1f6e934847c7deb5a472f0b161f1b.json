@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_rating_get_rating_php",
+      "label": "get-rating.php",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/get-rating.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

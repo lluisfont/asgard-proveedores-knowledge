@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_textdata_php",
+      "label": "TextData.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/TextData.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": [],
+  "parse_errors": {
+    "first_error_line": 1,
+    "multiline_error": true
+  }
+}

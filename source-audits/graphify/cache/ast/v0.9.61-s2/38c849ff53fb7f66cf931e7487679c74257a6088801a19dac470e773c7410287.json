@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_layouts_google_analytics_php",
+      "label": "google_analytics.php",
+      "file_type": "code",
+      "source_file": "index_archivos/layouts/google_analytics.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

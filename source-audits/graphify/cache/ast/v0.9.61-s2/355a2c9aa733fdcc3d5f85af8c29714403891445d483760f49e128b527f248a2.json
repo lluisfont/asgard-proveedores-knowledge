@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_font_ccourierbi_php",
+      "label": "ccourierbi.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/font/ccourierbi.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_php",
+      "label": "SpgrContainer.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "label": "PHPExcel_Shared_Escher_DgContainer_SpgrContainer",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L35",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_setparent",
+      "label": ".setParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getparent",
+      "label": ".getParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L66",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_addchild",
+      "label": ".addChild()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getchildren",
+      "label": ".getChildren()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getallspcontainers",
+      "label": ".getAllSpContainers()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L95",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_setparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_addchild",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getchildren",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getallspcontainers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_addchild",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_setparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getallspcontainers",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getallspcontainers",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L101",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_shared_escher_dgcontainer_spgrcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_getallspcontainers",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Shared/Escher/DgContainer/SpgrContainer.php",
+      "source_location": "L101",
+      "receiver": null
+    }
+  ]
+}

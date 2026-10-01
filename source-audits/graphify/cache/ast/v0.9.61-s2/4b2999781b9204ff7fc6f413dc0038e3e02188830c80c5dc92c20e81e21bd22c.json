@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajax_localizacion_php",
+      "label": "localizacion.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajax/localizacion.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

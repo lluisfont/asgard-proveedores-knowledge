@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_php",
+      "label": "Abstract.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "label": "PHPExcel_Writer_Abstract",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_writer_iwriter",
+      "label": "PHPExcel_Writer_IWriter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getincludecharts",
+      "label": ".getIncludeCharts()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setincludecharts",
+      "label": ".setIncludeCharts()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getprecalculateformulas",
+      "label": ".getPreCalculateFormulas()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setprecalculateformulas",
+      "label": ".setPreCalculateFormulas()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getusediskcaching",
+      "label": ".getUseDiskCaching()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L125",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setusediskcaching",
+      "label": ".setUseDiskCaching()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L137",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getdiskcachingdirectory",
+      "label": ".getDiskCachingDirectory()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L155",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "phpexcel_writer_iwriter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getincludecharts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setincludecharts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getprecalculateformulas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setprecalculateformulas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getusediskcaching",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setusediskcaching",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_getdiskcachingdirectory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L155",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setusediskcaching",
+      "callee": "is_dir",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_abstract_phpexcel_writer_abstract_setusediskcaching",
+      "callee": "PHPExcel_Writer_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/Abstract.php",
+      "source_location": "L144",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_viajesclass_php",
+      "label": "ViajesClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "label": "ViajesClass",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "commons",
+      "label": "Commons",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_getviajes",
+      "label": ".getViajes()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L18",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_asignarembarqueviaje",
+      "label": ".asignarEmbarqueViaje()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L29",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_php",
+      "target": "commons",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_php",
+      "target": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "target": "commons",
+      "relation": "mixes_in",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "target": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "target": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_getviajes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass",
+      "target": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_asignarembarqueviaje",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L29",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_getviajes",
+      "callee": "getQuery",
+      "is_member_call": true,
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L26",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_viajesclass_viajesclass_asignarembarqueviaje",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/ViajesClass.php",
+      "source_location": "L33",
+      "receiver": null
+    }
+  ]
+}

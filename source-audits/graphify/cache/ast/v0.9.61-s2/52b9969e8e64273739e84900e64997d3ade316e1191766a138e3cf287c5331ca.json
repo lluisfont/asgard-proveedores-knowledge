@@ -1,0 +1,441 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_php",
+      "label": "EstadoPedidosClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "label": "EstadoPedidosClass",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "commons",
+      "label": "Commons",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_agregaredp",
+      "label": ".agregarEdp()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestadospedidos",
+      "label": ".getEstadosPedidos()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestados",
+      "label": ".getEstados()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L57",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "label": ".guardarEstadoPedido()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_eliminar",
+      "label": ".eliminar()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L100",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "label": ".determinarEstado()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L117",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "label": ".enviarNotificacionEstado()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_envianotificacion",
+      "label": ".enviaNotificacion()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L207",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_php",
+      "target": "commons",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_php",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "commons",
+      "relation": "mixes_in",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_agregaredp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestadospedidos",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestados",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_eliminar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_envianotificacion",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_agregaredp",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_agregaredp",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "target": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_envianotificacion",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L204",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_agregaredp",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L20",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestadospedidos",
+      "callee": "getQuery",
+      "is_member_call": true,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L54",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestados",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L59",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_getestados",
+      "callee": "getQuery",
+      "is_member_call": true,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L73",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "callee": "stdClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_guardarestadopedido",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_eliminar",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L102",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "getQuery",
+      "is_member_call": true,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L125",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L132",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_determinarestado",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L143",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L153",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L155",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L156",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L156",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "array_unique",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L200",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_enviarnotificacionestado",
+      "callee": "ServicioNotificacionesClass",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L202",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_envianotificacion",
+      "callee": "Pusher",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L209",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_componentes_estado_pedidos_controllers_estadopedidosclass_estadopedidosclass_envianotificacion",
+      "callee": "trigger",
+      "is_member_call": true,
+      "source_file": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "source_location": "L215",
+      "receiver": null
+    }
+  ]
+}

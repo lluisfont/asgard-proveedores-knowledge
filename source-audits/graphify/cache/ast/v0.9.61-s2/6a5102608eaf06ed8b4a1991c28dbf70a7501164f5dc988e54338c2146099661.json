@@ -1,0 +1,845 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_php",
+      "label": "Color.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "label": "PHPExcel_Style_Color",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_style_supervisor",
+      "label": "PHPExcel_Style_Supervisor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_bindparent",
+      "label": ".bindParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L101",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "label": ".getSharedComponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L114",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "label": ".getStyleArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "label": ".applyFromArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L160",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getargb",
+      "label": ".getARGB()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L183",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "label": ".setARGB()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "label": ".getRGB()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L214",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "label": ".setRGB()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L227",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getcolourcomponent",
+      "label": "._getColourComponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L250",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getred",
+      "label": ".getRed()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L265",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getgreen",
+      "label": ".getGreen()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L277",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getblue",
+      "label": ".getBlue()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L289",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "label": ".changeBrightness()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L300",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "label": ".indexedColor()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L338",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L419",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "phpexcel_style_supervisor",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_bindparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getargb",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getcolourcomponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getred",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getgreen",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getblue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L338",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L419",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getargb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getargb",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getargb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L421",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L421",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "callee": "getEndColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "callee": "getColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getsharedcomponent",
+      "callee": "getStartColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L161",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L163",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L163",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L163",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_applyfromarray",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L173",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L202",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L202",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setargb",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L202",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getrgb",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L218",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_setrgb",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getcolourcomponent",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L251",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getcolourcomponent",
+      "callee": "hexdec",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L253",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getred",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L266",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getred",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L266",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getgreen",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L278",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getgreen",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L278",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getblue",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L290",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_getblue",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L290",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L301",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L303",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L304",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L305",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L323",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L323",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L323",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L324",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L324",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "str_pad",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L325",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_changebrightness",
+      "callee": "dechex",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L325",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L340",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L343",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_indexedcolor",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L404",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_style_color_phpexcel_style_color_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Style/Color.php",
+      "source_location": "L423",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_rating_verifica_mensual_php",
+      "label": "verifica-mensual.php",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/verifica-mensual.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

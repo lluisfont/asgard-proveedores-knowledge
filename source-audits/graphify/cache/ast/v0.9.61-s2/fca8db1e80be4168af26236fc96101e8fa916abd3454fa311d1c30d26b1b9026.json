@@ -1,0 +1,744 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_php",
+      "label": "DocumentProperties.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "label": "PHPExcel_DocumentProperties",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L134",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcreator",
+      "label": ".getCreator()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L147",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreator",
+      "label": ".setCreator()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L157",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getlastmodifiedby",
+      "label": ".getLastModifiedBy()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L167",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setlastmodifiedby",
+      "label": ".setLastModifiedBy()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L177",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcreated",
+      "label": ".getCreated()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L187",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "label": ".setCreated()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L197",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getmodified",
+      "label": ".getModified()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L217",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "label": ".setModified()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L227",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_gettitle",
+      "label": ".getTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L247",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_settitle",
+      "label": ".setTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L257",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getdescription",
+      "label": ".getDescription()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L267",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setdescription",
+      "label": ".setDescription()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L277",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getsubject",
+      "label": ".getSubject()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L287",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setsubject",
+      "label": ".setSubject()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L297",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getkeywords",
+      "label": ".getKeywords()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L307",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setkeywords",
+      "label": ".setKeywords()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L317",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcategory",
+      "label": ".getCategory()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L327",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcategory",
+      "label": ".setCategory()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L337",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcompany",
+      "label": ".getCompany()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L347",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcompany",
+      "label": ".setCompany()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L357",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getmanager",
+      "label": ".getManager()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L367",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmanager",
+      "label": ".setManager()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L377",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustomproperties",
+      "label": ".getCustomProperties()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L387",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_iscustompropertyset",
+      "label": ".isCustomPropertySet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L397",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertyvalue",
+      "label": ".getCustomPropertyValue()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L407",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertytype",
+      "label": ".getCustomPropertyType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L420",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "label": ".setCustomProperty()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L440",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L466",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_convertproperty",
+      "label": ".convertProperty()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L477",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_convertpropertytype",
+      "label": ".convertPropertyType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L535",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcreator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreator",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getlastmodifiedby",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setlastmodifiedby",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcreated",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getmodified",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_gettitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_settitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getdescription",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setdescription",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getsubject",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L287",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setsubject",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getkeywords",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setkeywords",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L317",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcategory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcategory",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcompany",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcompany",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L357",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getmanager",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmanager",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustomproperties",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L387",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_iscustompropertyset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L397",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertyvalue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertytype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L440",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L466",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_convertproperty",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L477",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_convertpropertytype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L535",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_construct",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_construct",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L199",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "callee": "is_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L200",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "callee": "is_numeric",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L201",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L202",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcreated",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L204",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "callee": "time",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L229",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "callee": "is_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "callee": "is_numeric",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "callee": "intval",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setmodified",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L234",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustomproperties",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L388",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_iscustompropertyset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L398",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertyvalue",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L408",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_getcustompropertytype",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L421",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "callee": "is_float",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L448",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "callee": "is_int",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_setcustomproperty",
+      "callee": "is_bool",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L452",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L467",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L469",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_documentproperties_phpexcel_documentproperties_convertproperty",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/DocumentProperties.php",
+      "source_location": "L511",
+      "receiver": null
+    }
+  ]
+}

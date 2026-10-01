@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_demos_php_checkedlistbox_php",
+      "label": "checkedlistbox.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/demos/php/checkedlistbox.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

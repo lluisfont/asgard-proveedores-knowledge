@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "project",
+    "baseline",
+    "current_phase",
+    "verdict",
+    "next_action",
+    "updated_at"
+  ],
+  "properties": {
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "baseline": {
+      "type": "object",
+      "required": [
+        "confirmed"
+      ],
+      "properties": {
+        "repository_commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "database_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confirmed": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    },
+    "current_domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "current_phase": {
+      "type": "string",
+      "minLength": 1
+    },
+    "current_version": {
+      "type": "string"
+    },
+    "verdict": {
+      "enum": [
+        "IN_PROGRESS",
+        "PASS",
+        "CONDITIONAL_PASS",
+        "FAIL"
+      ]
+    },
+    "last_completed_step": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "blockers": {
+      "type": "array"
+    },
+    "canonical_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provisional_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejected_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": true
+}

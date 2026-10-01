@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_verembarque_php",
+      "label": "verembarque.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/verembarque.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

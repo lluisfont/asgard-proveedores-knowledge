@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_utils_font_coverage_php",
+      "label": "font_coverage.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/utils/font_coverage.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

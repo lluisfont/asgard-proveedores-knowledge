@@ -1,0 +1,13 @@
+{
+  "auth_correct_x_api_key_wrong_bearer": 200,
+  "auth_missing_delete_mcp": 401,
+  "auth_missing_get_mcp": 401,
+  "auth_wrong_x_api_key_correct_bearer": 401,
+  "bad_host_body": "Invalid Host header",
+  "bad_host_status": 421,
+  "external_project_path_status": 200,
+  "external_project_path_text": "Nodes: 7\nEdges: 0\nCommunities: 1\nEXTRACTED: 0%\nINFERRED: 0%\nAMBIGUOUS: 0%\n",
+  "max_contexts_bogus": 8,
+  "max_contexts_zero": 1,
+  "wildcard_host_status": 200
+}

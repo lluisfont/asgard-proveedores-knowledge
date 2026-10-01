@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_versolicituddetalle_php",
+      "label": "versolicituddetalle.php",
+      "file_type": "code",
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "label": "Delete()",
+      "file_type": "code",
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L36",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_versolicituddetalle_php",
+      "target": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "target": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "is_dir",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "array_diff",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "scandir",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "realpath",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L44",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "rmdir",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L47",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "is_file",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L50",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_versolicituddetalle_delete",
+      "callee": "unlink",
+      "is_member_call": false,
+      "source_file": "index_archivos/versolicituddetalle.php",
+      "source_location": "L52",
+      "receiver": null
+    }
+  ]
+}

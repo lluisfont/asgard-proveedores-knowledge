@@ -1,0 +1,420 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_php",
+      "label": "Shadow.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "label": "PHPExcel_Worksheet_Drawing_Shadow",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getvisible",
+      "label": ".getVisible()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L121",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setvisible",
+      "label": ".setVisible()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L131",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getblurradius",
+      "label": ".getBlurRadius()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setblurradius",
+      "label": ".setBlurRadius()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L151",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getdistance",
+      "label": ".getDistance()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L161",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setdistance",
+      "label": ".setDistance()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L171",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getdirection",
+      "label": ".getDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L181",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setdirection",
+      "label": ".setDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L191",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getalignment",
+      "label": ".getAlignment()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L201",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setalignment",
+      "label": ".setAlignment()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L211",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getcolor",
+      "label": ".getColor()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L221",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setcolor",
+      "label": ".setColor()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L232",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_style_color",
+      "label": "PHPExcel_Style_Color",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getalpha",
+      "label": ".getAlpha()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L242",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setalpha",
+      "label": ".setAlpha()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L252",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L262",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L278",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getvisible",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setvisible",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getblurradius",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setblurradius",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getdistance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setdistance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getdirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setdirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getalignment",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setalignment",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getcolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setcolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setcolor",
+      "target": "phpexcel_style_color",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L232",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_getalpha",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_setalpha",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_construct",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_construct",
+      "target": "phpexcel_style_color",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_construct",
+      "target": "phpexcel_style_color",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_gethashcode",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L269",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L279",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_drawing_shadow_phpexcel_worksheet_drawing_shadow_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/Drawing/Shadow.php",
+      "source_location": "L281",
+      "receiver": null
+    }
+  ]
+}

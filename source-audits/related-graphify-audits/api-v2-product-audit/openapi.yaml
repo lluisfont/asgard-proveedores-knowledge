@@ -1,0 +1,9 @@
+openapi: 3.1.2
+info:
+  title: "graphify-v0.9.61-product discovered API"
+  version: "fe6638908336"
+  description: "OpenAPI generated from source evidence; unknown request/response/security details are not inferred."
+x-asgard-audit-id: "audit-e6ecc0bb7c3b6245"
+x-asgard-source-commit: "fe66389083369c3159aa391117185c8f58b4d07c"
+x-asgard-contract-enrichment: not_applicable
+paths: {}

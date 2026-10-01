@@ -1,0 +1,13 @@
+{
+  "audit_read_status": 200,
+  "audit_text": "Total edges: 1\nEXTRACTED: 1 (100%)\nINFERRED: 0 (0%)\nAMBIGUOUS: 0 (0%)\n",
+  "resources": [
+    "graphify://report",
+    "graphify://stats",
+    "graphify://god-nodes",
+    "graphify://surprises",
+    "graphify://audit",
+    "graphify://questions"
+  ],
+  "resources_list_status": 200
+}

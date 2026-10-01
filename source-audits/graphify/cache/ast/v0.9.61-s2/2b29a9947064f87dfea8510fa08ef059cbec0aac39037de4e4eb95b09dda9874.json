@@ -1,0 +1,823 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_php",
+      "label": "Database.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "label": "PHPExcel_Calculation_Database",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L46",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "label": ".__fieldExtract()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "label": ".__filter()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "label": ".DAVERAGE()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "label": ".DCOUNT()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L232",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "label": ".DCOUNTA()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L281",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "label": ".DGET()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L328",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "label": ".DMAX()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L379",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "label": ".DMIN()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L426",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "label": ".DPRODUCT()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L472",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "label": ".DSTDEV()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L519",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "label": ".DSTDEVP()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L566",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "label": ".DSUM()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L612",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "label": ".DVAR()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L659",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "label": ".DVARP()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L706",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L281",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L328",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L379",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L472",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L519",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L566",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L612",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L659",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L706",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L68",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "PHPExcel_Calculation_Functions",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L68",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "array_map",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "array_shift",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "is_numeric",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "array_keys",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L72",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_fieldextract",
+      "callee": "array_search",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L75",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "array_shift",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L99",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "array_shift",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L100",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "PHPExcel_Calculation_Functions",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "implode",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "implode",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "array_search",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "is_string",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "_calculateFormulaValue",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_filter",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L181",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L182",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_daverage",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L194",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L233",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L234",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L239",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcount",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L247",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L282",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L283",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L288",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dcounta",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L296",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L329",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L330",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L335",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L343",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dget",
+      "callee": "PHPExcel_Calculation_Functions",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L344",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L380",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L381",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L386",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmax",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L394",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L427",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L428",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L433",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dmin",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L473",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L474",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L479",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dproduct",
+      "callee": "PHPExcel_Calculation_MathTrig",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L487",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L520",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L521",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L526",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdev",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L534",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L567",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L568",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L573",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dstdevp",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L581",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L613",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L614",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L619",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dsum",
+      "callee": "PHPExcel_Calculation_MathTrig",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L627",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L661",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L666",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvar",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L674",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L707",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L708",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L713",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_calculation_database_phpexcel_calculation_database_dvarp",
+      "callee": "PHPExcel_Calculation_Statistical",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Calculation/Database.php",
+      "source_location": "L721",
+      "receiver": null
+    }
+  ]
+}

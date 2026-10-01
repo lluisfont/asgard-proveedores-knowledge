@@ -1,0 +1,295 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_php",
+      "label": "Igbinary.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "label": "PHPExcel_CachedObjectStorage_Igbinary",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_cachedobjectstorage_cachebase",
+      "label": "PHPExcel_CachedObjectStorage_CacheBase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_cachedobjectstorage_icache",
+      "label": "PHPExcel_CachedObjectStorage_ICache",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "label": "._storeData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_addcachedata",
+      "label": ".addCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_cell",
+      "label": "PHPExcel_Cell",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "label": ".getCacheData()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L84",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcelllist",
+      "label": ".getCellList()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_unsetworksheetcells",
+      "label": ".unsetWorksheetCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L126",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_cachemethodisavailable",
+      "label": ".cacheMethodIsAvailable()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L144",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "phpexcel_cachedobjectstorage_cachebase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "phpexcel_cachedobjectstorage_icache",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_addcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_addcachedata",
+      "target": "phpexcel_cell",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcelllist",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_unsetworksheetcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_cachemethodisavailable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_addcachedata",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcelllist",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L114",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L46",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "callee": "detach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L47",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_storedata",
+      "callee": "igbinary_serialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L49",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L91",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "callee": "igbinary_unserialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L98",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcachedata",
+      "callee": "attach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L100",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_getcelllist",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_unsetworksheetcells",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_unsetworksheetcells",
+      "callee": "detach",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cachedobjectstorage_igbinary_phpexcel_cachedobjectstorage_igbinary_cachemethodisavailable",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/CachedObjectStorage/Igbinary.php",
+      "source_location": "L145",
+      "receiver": null
+    }
+  ]
+}

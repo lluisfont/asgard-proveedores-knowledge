@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reportes_filtros_fechas_php",
+      "label": "fechas.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reportes/filtros/fechas.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_server_side_grid_filtering_and_virtualscrolling_connect_php",
+      "label": "connect.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/server_side_grid_filtering_and_virtualscrolling/connect.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

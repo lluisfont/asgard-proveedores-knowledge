@@ -1,0 +1,584 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_php",
+      "label": "CSV.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "label": "PHPExcel_Writer_CSV",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_writer_abstract",
+      "label": "PHPExcel_Writer_Abstract",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_writer_iwriter",
+      "label": "PHPExcel_Writer_IWriter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L91",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel",
+      "label": "PHPExcel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "label": ".save()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L101",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getdelimiter",
+      "label": ".getDelimiter()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L150",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setdelimiter",
+      "label": ".setDelimiter()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L160",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getenclosure",
+      "label": ".getEnclosure()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L170",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setenclosure",
+      "label": ".setEnclosure()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getlineending",
+      "label": ".getLineEnding()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setlineending",
+      "label": ".setLineEnding()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L203",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getusebom",
+      "label": ".getUseBOM()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L213",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setusebom",
+      "label": ".setUseBOM()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L223",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getexcelcompatibility",
+      "label": ".getExcelCompatibility()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L233",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setexcelcompatibility",
+      "label": ".setExcelCompatibility()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L244",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getsheetindex",
+      "label": ".getSheetIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L254",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setsheetindex",
+      "label": ".setSheetIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L264",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "label": "._writeLine()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L276",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "phpexcel_writer_abstract",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "phpexcel_writer_iwriter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_construct",
+      "target": "phpexcel",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L91",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getdelimiter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setdelimiter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getenclosure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setenclosure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getlineending",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setlineending",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getusebom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setusebom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getexcelcompatibility",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setexcelcompatibility",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_getsheetindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setsheetindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setenclosure",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_setdelimiter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L135",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L103",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getWriteDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "setWriteDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L106",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L106",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L106",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "fopen",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Writer_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L123",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getHighestColumn",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getHighestRow",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "rangeToArray",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L133",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "fclose",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "setWriteDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "getDebugLog",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_save",
+      "callee": "PHPExcel_Calculation",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L277",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L286",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L304",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "mb_convert_encoding",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L304",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "fwrite",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L306",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_writer_csv_phpexcel_writer_csv_writeline",
+      "callee": "PHPExcel_Writer_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Writer/CSV.php",
+      "source_location": "L309",
+      "receiver": null
+    }
+  ]
+}

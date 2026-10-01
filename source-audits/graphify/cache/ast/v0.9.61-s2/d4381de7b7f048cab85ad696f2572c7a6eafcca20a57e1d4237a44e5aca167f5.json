@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_helperclass_php",
+      "label": "HelperClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_helperclass_helperclass",
+      "label": "HelperClass",
+      "file_type": "code",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "label": ".getAll()",
+      "file_type": "code",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L7",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_helperclass_helperclass_getfind",
+      "label": ".getFind()",
+      "file_type": "code",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L20",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_helperclass_php",
+      "target": "$graphify-root$_index_archivos_helperclass_helperclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_helperclass_helperclass",
+      "target": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_helperclass_helperclass",
+      "target": "$graphify-root$_index_archivos_helperclass_helperclass_getfind",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L20",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L9",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L11",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L12",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getall",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getfind",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L22",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getfind",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L24",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_helperclass_helperclass_getfind",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/HelperClass.php",
+      "source_location": "L25",
+      "receiver": null
+    }
+  ]
+}

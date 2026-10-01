@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_logistica_local_php",
+      "label": "logistica-local.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/logistica-local.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

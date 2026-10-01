@@ -1,0 +1,318 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "label": "bootstrap-filestyle.jquery.json",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_keywords",
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_homepage",
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_demo",
+      "label": "demo",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_bugs",
+      "label": "bugs",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author_url",
+      "label": "url",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_maintainers",
+      "label": "maintainers",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository",
+      "label": "repository",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository_url",
+      "label": "url",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_licenses",
+      "label": "licenses",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L30"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_devdependencies_jquery",
+      "label": "jquery",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "ref_jquery",
+      "label": "jquery",
+      "file_type": "concept",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_homepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_demo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_bugs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_author_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_maintainers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_repository_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_licenses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_devdependencies",
+      "target": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_devdependencies_jquery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_bootstrap_filestyle_bootstrap_filestyle_jquery_json",
+      "target": "ref_jquery",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/bootstrap-filestyle/bootstrap-filestyle.jquery.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

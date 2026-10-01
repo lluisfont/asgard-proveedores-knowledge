@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_menu_php",
+      "label": "menu.php",
+      "file_type": "code",
+      "source_file": "index_archivos/menu.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_master_tcpdf_fonts_pdfahelveticai_php",
+      "label": "pdfahelveticai.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger-master/tcpdf/fonts/pdfahelveticai.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

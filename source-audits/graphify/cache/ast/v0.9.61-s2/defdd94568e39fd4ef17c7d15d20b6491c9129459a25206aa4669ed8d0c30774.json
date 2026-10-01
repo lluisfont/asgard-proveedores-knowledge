@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_componentes_embarques_textoplano_php",
+      "label": "embarques_textoplano.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/componentes/embarques_textoplano.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

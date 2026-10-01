@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_compress_php",
+      "label": "compress.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/compress.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_php",
+      "label": "Legend.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "label": "PHPExcel_Chart_Legend",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_chart_layout",
+      "label": "PHPExcel_Chart_Layout",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getposition",
+      "label": ".getPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setposition",
+      "label": ".setPosition()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L106",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getpositionxl",
+      "label": ".getPositionXL()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setpositionxl",
+      "label": ".setPositionXL()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L129",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getoverlay",
+      "label": ".getOverlay()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setoverlay",
+      "label": ".setOverlay()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L153",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getlayout",
+      "label": ".getLayout()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L167",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_construct",
+      "target": "phpexcel_chart_layout",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L85",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setposition",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getpositionxl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setpositionxl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getoverlay",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setoverlay",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getlayout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_construct",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setposition",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_construct",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setoverlay",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L89",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setposition",
+      "callee": "in_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_getpositionxl",
+      "callee": "array_search",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setpositionxl",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_chart_legend_phpexcel_chart_legend_setoverlay",
+      "callee": "is_bool",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Chart/Legend.php",
+      "source_location": "L154",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_php",
+      "label": "QRDecomposition.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "label": "PHPExcel_Shared_JAMA_QRDecomposition",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_isfullrank",
+      "label": ".isFullRank()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L101",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_geth",
+      "label": ".getH()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getr",
+      "label": ".getR()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L135",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getq",
+      "label": ".getQ()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L156",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "label": ".solve()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L194",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_isfullrank",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_geth",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getq",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_isfullrank",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L196",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "callee": "getArrayCopy",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L57",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "callee": "getRowDimension",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "callee": "getColumnDimension",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L59",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "callee": "hypo",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_construct",
+      "callee": "PHPExcel_Calculation_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L91",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_geth",
+      "callee": "PHPExcel_Shared_JAMA_Matrix",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getr",
+      "callee": "PHPExcel_Shared_JAMA_Matrix",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L147",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_getq",
+      "callee": "PHPExcel_Shared_JAMA_Matrix",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L184",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "getRowDimension",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L195",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "getColumnDimension",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L198",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "getArrayCopy",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L199",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "PHPExcel_Shared_JAMA_Matrix",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L224",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "getMatrix",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L225",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "PHPExcel_Calculation_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L227",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_jama_qrdecomposition_phpexcel_shared_jama_qrdecomposition_solve",
+      "callee": "PHPExcel_Calculation_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/JAMA/QRDecomposition.php",
+      "source_location": "L230",
+      "receiver": null
+    }
+  ]
+}

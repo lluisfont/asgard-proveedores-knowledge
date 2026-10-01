@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_ajax_guardaragenteproveedor_php",
+      "label": "guardarAgenteProveedor.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ajax/guardarAgenteProveedor.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

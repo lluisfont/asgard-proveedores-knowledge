@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_php",
+      "label": "GlobalClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "label": "GlobalClass",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "label": ".guardarArchivo()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getlistaclientestipovehiculos",
+      "label": ".getListaClientesTipoVehiculos()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getclientelineas",
+      "label": ".getClienteLineas()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosusuariointerno",
+      "label": ".getDatosUsuarioInterno()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoscliente",
+      "label": ".getDatosCliente()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L94",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedor",
+      "label": ".getDatosProveedor()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L101",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedormultipleperfil",
+      "label": ".getDatosProveedorMultiplePerfil()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L108",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoslocalidadpornombre",
+      "label": ".getDatosLocalidadPorNombre()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_buscadorglobalembarques",
+      "label": ".buscadorGlobalEmbarques()",
+      "file_type": "code",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L123",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_php",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getlistaclientestipovehiculos",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getclientelineas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosusuariointerno",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoscliente",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedormultipleperfil",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoslocalidadpornombre",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_controllers_globalclass_globalclass",
+      "target": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_buscadorglobalembarques",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L123",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "file_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L21",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "mkdir",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L22",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "uniqid",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "rand",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L25",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "basename",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L26",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "move_uploaded_file",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L27",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_guardararchivo",
+      "callee": "file_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L29",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getlistaclientestipovehiculos",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getlistaclientestipovehiculos",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L68",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getlistaclientestipovehiculos",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L69",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getclientelineas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L77",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getclientelineas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L80",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getclientelineas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L81",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosusuariointerno",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L89",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosusuariointerno",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L90",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoscliente",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoscliente",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L97",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L103",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedor",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L104",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedormultipleperfil",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatosproveedormultipleperfil",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L111",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoslocalidadpornombre",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_getdatoslocalidadpornombre",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_buscadorglobalembarques",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_buscadorglobalembarques",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L149",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_controllers_globalclass_globalclass_buscadorglobalembarques",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/controllers/GlobalClass.php",
+      "source_location": "L150",
+      "receiver": null
+    }
+  ]
+}

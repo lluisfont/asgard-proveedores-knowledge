@@ -1,0 +1,239 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "label": "bower.json",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_homepage",
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_authors",
+      "label": "authors",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_main",
+      "label": "main",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_keywords",
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies_jquery",
+      "label": "jquery",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "ref_jquery",
+      "label": "jquery",
+      "file_type": "concept",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies_bootstrap",
+      "label": "bootstrap",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "ref_bootstrap",
+      "label": "bootstrap",
+      "file_type": "concept",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L30"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_fileinput_bower_ignore",
+      "label": "ignore",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_homepage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_authors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_keywords",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies_jquery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "ref_jquery",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_dependencies_bootstrap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "ref_bootstrap",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_fileinput_bower_json",
+      "target": "$graphify-root$_index_archivos_libs_fileinput_bower_ignore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/fileinput/bower.json",
+      "source_location": "L31",
+      "weight": 1.0
+    }
+  ]
+}

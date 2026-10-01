@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_config_fonts_php",
+      "label": "config_fonts.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/config_fonts.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

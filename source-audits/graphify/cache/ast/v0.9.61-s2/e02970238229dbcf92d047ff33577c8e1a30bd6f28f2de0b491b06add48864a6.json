@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_js_php",
+      "label": "js.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/js.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

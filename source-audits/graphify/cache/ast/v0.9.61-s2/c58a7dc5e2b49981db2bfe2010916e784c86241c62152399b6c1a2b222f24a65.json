@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_ttfontdata_dejavusanscondensedbi_mtx_php",
+      "label": "dejavusanscondensedBI.mtx.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/ttfontdata/dejavusanscondensedBI.mtx.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

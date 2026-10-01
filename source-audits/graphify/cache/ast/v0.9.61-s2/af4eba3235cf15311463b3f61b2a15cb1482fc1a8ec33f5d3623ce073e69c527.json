@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_php",
+      "label": "SpContainer.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "label": "PHPExcel_Shared_Escher_DgContainer_SpgrContainer_SpContainer",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L35",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setparent",
+      "label": ".setParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L126",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getparent",
+      "label": ".getParent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L136",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspgr",
+      "label": ".setSpgr()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L146",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspgr",
+      "label": ".getSpgr()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L156",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setsptype",
+      "label": ".setSpType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L166",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getsptype",
+      "label": ".getSpType()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L176",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspflag",
+      "label": ".setSpFlag()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspflag",
+      "label": ".getSpFlag()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspid",
+      "label": ".setSpId()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L206",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspid",
+      "label": ".getSpId()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L216",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setopt",
+      "label": ".setOPT()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L227",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getopt",
+      "label": ".getOPT()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L238",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getoptcollection",
+      "label": ".getOPTCollection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L251",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartcoordinates",
+      "label": ".setStartCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L261",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartcoordinates",
+      "label": ".getStartCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L271",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartoffsetx",
+      "label": ".setStartOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L281",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartoffsetx",
+      "label": ".getStartOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L291",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartoffsety",
+      "label": ".setStartOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L301",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartoffsety",
+      "label": ".getStartOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendcoordinates",
+      "label": ".setEndCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L321",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendcoordinates",
+      "label": ".getEndCoordinates()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L331",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendoffsetx",
+      "label": ".setEndOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L341",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendoffsetx",
+      "label": ".getEndOffsetX()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L351",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendoffsety",
+      "label": ".setEndOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L361",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendoffsety",
+      "label": ".getEndOffsetY()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L371",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getnestinglevel",
+      "label": ".getNestingLevel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L383",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getparent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspgr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspgr",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setsptype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getsptype",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspflag",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspflag",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setspid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getspid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setopt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getopt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getoptcollection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L281",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setstartoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L301",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getstartoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendcoordinates",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L331",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendoffsetx",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_setendoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getendoffsety",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L371",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getnestinglevel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L383",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getnestinglevel",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getparent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L387",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_phpexcel_shared_escher_dgcontainer_spgrcontainer_spcontainer_getopt",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher/DgContainer/SpgrContainer/SpContainer.php",
+      "source_location": "L240",
+      "receiver": null
+    }
+  ]
+}

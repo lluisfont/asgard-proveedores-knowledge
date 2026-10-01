@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_subs_core_php",
+      "label": "subs_core.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/subs_core.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

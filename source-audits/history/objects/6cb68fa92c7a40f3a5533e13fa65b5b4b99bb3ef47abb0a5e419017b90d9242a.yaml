@@ -1,0 +1,31 @@
+project_name: proveedores-master_peru
+source_roots:
+- .
+database_sources: []
+documentation_sources: []
+documentation_languages:
+  technical: Spanish
+  business: Spanish
+graphify:
+  output_dir: graphify-out
+exclude:
+- .git
+- .brownfield
+- node_modules
+- vendor
+- .venv
+- graphify-out
+- PHPExcel
+- MPDF57
+- jqwidgetsVer
+- jqwidgets
+- spreadsjs
+- datatables
+- datatables_old
+- datatable
+- PDFMerger
+- bootstrap4
+- jquery-ui
+- jqGrid
+- fontawesome
+- vendor

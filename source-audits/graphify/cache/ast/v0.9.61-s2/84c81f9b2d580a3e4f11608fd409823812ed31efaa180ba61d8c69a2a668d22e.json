@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_font_data_php",
+      "label": "tcpdf_font_data.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_font_data.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_font_data_tcpdf_font_data",
+      "label": "TCPDF_FONT_DATA",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_font_data.php",
+      "source_location": "L48",
+      "_callable": true,
+      "_callable_class": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_font_data_php",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_tcpdf_include_tcpdf_font_data_tcpdf_font_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/tcpdf/include/tcpdf_font_data.php",
+      "source_location": "L48",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

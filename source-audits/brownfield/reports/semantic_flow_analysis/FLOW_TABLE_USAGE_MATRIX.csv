@@ -1,0 +1,596 @@
+domain,process_id,process_name,trigger,table,usage,evidence_ids,validation_status
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,CURRENT_TIMESTAMP,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,RESTRICT,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,TMP_SALDOINICIAL,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ada_agentesaduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ada_agentescontactos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ages_asesoria_gestion_carpetas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ages_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ages_solicitudes_asesoria_gestion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,base,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,cc_registro_documentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_acuerdo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_anticipos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_balance,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_banco,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_calculoice,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_calculokpiflete,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_canal,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_casos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_casosdevueltos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientealmacen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientecomision2,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientecomisionmaestro2,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientefacturaanulada,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientegastosdespacho,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientegastosdespacho2,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientetipoproducto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_cobros,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_comisiondefault,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_concepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_conciliacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_contadorreportesclientes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_dato,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_dav,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_detalleexactitud,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_deteriorodocumentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_divisa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_division,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_documentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_dosificacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_dui,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_duidue,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_empresa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_entidademisoratramite,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_entidademisoratramitetipo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_errordocumentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_estadofactura,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_estadopartida,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_estadoprestamo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_estadoregularizacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_facturacomercial,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_facturanotasvalor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_facturaplanilla,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_facturasdetalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_faltadocumentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_feriados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_form1,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_form1edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_gestion_aduanera1,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_gestlogistica,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_incobrables,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_liquidacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_meses,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_modalidadenvio,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_motivoprestamo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_notasdebito,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_notasdebitodetalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_notasvalor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_observacionesexactitud,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_pagos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_pagosdetalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_partidas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_prestamoarchivo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_producto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_productosproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_proveedorcoordinador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_puerto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_reasignacionoficial,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_regimen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_regimennacional,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_reportescliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipocambio,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipodocumento,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipoerror,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipotramite,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipousuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tipousuariocliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tmp_arancel,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tmp_casosdevueltos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_tramites,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,dav_vehiculosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_accesorios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_parametros,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_partes_mercancias,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_registros_accesorios,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_registros_contaminaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_registros_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_registros_partes_mercancia,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_registros_ubicaciones_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_tipos_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,inventario_ubicaciones_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_contenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_costos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_costos_detalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_embarquescontenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_embarquesmagnitudes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_embarquesrutas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_estados_edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_pedidos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_pedidos_detalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_pre_embarques_detalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,ocr_alicorp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,pbi_reporte_casos_cliente,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,prm_feriado,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_derivaciones_analistas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_noconformidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_origenobservacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_procesosafectados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_tiposhallazgos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,rnc_tiposregistros,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,soat_loteitems,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,soat_parametros,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,soat_pedidos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,t_procesos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,t_tipo_hallazgo,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,t_tipohallazgo,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_aduanasrutasplazos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_asignacion_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_carga,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_documentossoporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_empresa_transporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_eventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_imagenes,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_items_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_orden_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_registrareventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_registrarincidentes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_registros_entregas_recojos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_rutasautorizadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_transporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tck_transportista,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,temp_contaminaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,temp_datos_chasis,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,temp_registro_accesorios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,temp_registro_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tipos_inventario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_ALBO,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_DAB,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_ESSLG,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_Otros,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_TSLG,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_accesorios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_almacenaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_anbfac,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_anbpla,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_autorizacionprevia,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cantidaddevueltos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_casos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_clientecomision,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosdebitos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosdebitosagrupadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosdesglosado,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosfacturas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosfacturasagrupadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosplanillas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cobrosplanillasagrupadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_comision,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_contaminacion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_contenedores,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costofleteaereo,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costofletemaritimo,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costofleteotros,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costofleteterrestre,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costoslogisticos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costosproveedor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_costosseguro,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_cotizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_datosbl,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_datoscp,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_datosfactura,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_datosga,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_derivaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_desperfectos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_edpEmbarque,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_embarquesmagnitudes,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_estadoEmbarque,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_estadoPedido,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_estados,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_estadosEmbarque,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_eventos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_factura,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_factura1,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_factura2,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_facturacion,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_fechaesperaarribo,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_fechaparterececpion,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_fechaplazoprm,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_fechascurrier,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_fobs,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_form506,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_gastosdespacho,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_ibmetro,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_ibmetrofac,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_incobrablesdebitos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_incobrablesfacturas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_incobrablesplanillas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_items_db,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_liquidacion,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_log_embarques,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_monto1erordencompra,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoCAG,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoGA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoGDE,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoICD,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoICE,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoIEHD,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoIVA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoLEG,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montoordencompra,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montosFOBpeso,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_montosoat,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_movimientos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_movimientosdos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_notasvalor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_observacionesexactitud_dav,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_observacionesexactitud_dui,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_operacionestransito,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_otrosfactura,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_otrosplanilla,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_pagotributos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_paisOrigenEX,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_paisorigen,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_partidas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_partidas_ages,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_partidas_totales,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_partidasnds,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_partidasnds_ages,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_pesos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_pesosfijos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_planillados,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_primeraderivacion,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_productos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_prorrateo,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_recinto,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_regularizacion,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_reintegroGA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_reintegroICE,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_reintegroIVA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_reportevehiculos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_resumenoperaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldo_1_5,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldo_30_60,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldo_5_30,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldo_60,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldo_actual,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_saldos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_solicitudes,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_sumapesosfijos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_sumas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_sumasFOB,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_tareaactual,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalfactura,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalfacturaagrupada,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalmontosFOBpeso,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalnotas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalnotasagrupada,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalnotasvalor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalnotasvalorFOB,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalplanilla,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_totalplanillaagrupada,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_tramites,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_tributos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_ultimadevolucion,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_unidades,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorAP,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorComision,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorDIM,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorGA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorGDE,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorGestionSeguro,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorICE,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,tmp_valorIVA,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,untartab,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,untartab_new,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,v_arancel,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,v_reporte_casos_clientes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B740F488B7B742,asgardpe Base de Datos Peru,QUEUE_WORKER candidate in asgardpe Base de Datos Peru.sql,v_rnc_reporte_general,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-1CF132E090F13F,TwoFaClass,CLI_COMMAND candidate in index_archivos/2fa/TwoFaClass.php,dav_codigos_2fa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientereportescliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,ada_agentesaduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,adaprov_agenteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,cn_concesionario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientealmacen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_divisa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_documentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_puerto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_categorias_costos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos_concepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos_detalle,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costosconcepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarquesdatos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_pedidos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_pedidos_detalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_pre_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_pre_embarques_detalle,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,cn_clienteconcesionario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,cn_concesionario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientealmacen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clienteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_puerto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_aeropuertos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_contenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_costosdetalles,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquereferencias,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarques,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquescontenedor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesdatos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesdocumentos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesmagnitudes,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesoperador,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tramos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,adaprov_agenteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,adaprov_agenteproveedormercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,ads_agenteseguro,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_aerolineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_navieras,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_tramites,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_clientemails,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarques,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesdocumentos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesrutas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_aerolineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_casosprevios,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientedeclarante,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientetipoproducto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_navieras,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_regimen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,tmp_casosdampendientes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-437DA696ABB851,listaLineasFiltro,CLI_COMMAND candidate in index_archivos/embarques/ajax/listaLineasFiltro.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-437DA696ABB851,listaLineasFiltro,CLI_COMMAND candidate in index_archivos/embarques/ajax/listaLineasFiltro.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-369CD2D3CEE8D2,embarques_lista_viajes,CLI_COMMAND candidate in index_archivos/embarques/componentes/embarques_lista_viajes.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,ages_solicitudes_asesoria_gestion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_edp,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_estados_edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costosconcepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costosdetalles,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_cotizacionoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-4E18644CE60D5B,embarquever,EVENT_CONSUMER candidate in index_archivos/embarques/embarquever.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-6EDF11BB5453A6,estado-pedidos,CLI_COMMAND candidate in index_archivos/embarques/frames/estado-pedidos.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-66B863C80479CE,logAsgard,CLI_COMMAND candidate in index_archivos/logAsgard.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,prov_clientes_proveedores,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tck_location,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tck_tipoubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tmp_logisoperadorubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,ada_clienteagenteaduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,ges_clientegestortransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-19AAEAC7452F0B,RatingClass,CLI_COMMAND candidate in index_archivos/rating/RatingClass.php,dav_rating,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-FF15EAB85BFF3D,ActualizarMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,dex_suma,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dex_suma,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dex_suma_estado_historial,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+identity-access,PROCESS-504F5874497D38,ResetPassword,CLI_COMMAND candidate in index_archivos/resetpassword/ResetPassword.php,dav_reseteos_passswords_proveedores,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+identity-access,PROCESS-504F5874497D38,ResetPassword,CLI_COMMAND candidate in index_archivos/resetpassword/ResetPassword.php,prov_usuarioaccesoproveedor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_vehiculosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_carga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_empresa_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_eventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_imagenes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_localizaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registrareventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registrarincidentes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registros_entregas_recojos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_trackeo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,v_tck_infoviajecliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_carga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_empresa_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_eventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_localizaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_registrareventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_registrarincidentes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_trackeo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,capacidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_aduanasrutasplazos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_asignacionesviajes,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_capacidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_choferoperador,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_documentosoperadortransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_documentossoporte,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_operadorestransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_programacionembarques,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_rutas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_tiposcarguios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_tiposunidades,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transporte,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transportista,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transportistausuario,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_ubicaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_unidadestransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_contenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_edp,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesdatos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesmagnitudes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_asignacion_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_carga,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_documentos_soporte_lista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_documentossoporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_empresa_transporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_items_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_location,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_orden_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_rutas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_rutasautorizadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_transportista,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_unidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_asignacion_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_carga,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_choferoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_items_localizaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_localizaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_tipoubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_tmpcargamasiva,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_transportistausuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_unidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED

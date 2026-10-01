@@ -1,0 +1,9 @@
+{
+  "endpoint_candidates": 246,
+  "frontend_php_call_references": 91,
+  "endpoints_with_caller_references": 56,
+  "unmatched_php_call_references": 16,
+  "output_dir": "C:\\repos\\proveedores-master_peru\\.brownfield\\work\\custom",
+  "release_http_catalog": "C:\\repos\\proveedores-master_peru\\.brownfield\\work\\release\\engineering-analysis\\interfaces\\HTTP_ENDPOINT_CATALOG.md",
+  "release_route_matrix": "C:\\repos\\proveedores-master_peru\\.brownfield\\work\\release\\engineering-analysis\\interfaces\\ROUTE_TO_HANDLER_MATRIX.csv"
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_env_example_php",
+      "label": ".env-example.php",
+      "file_type": "code",
+      "source_file": ".env-example.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

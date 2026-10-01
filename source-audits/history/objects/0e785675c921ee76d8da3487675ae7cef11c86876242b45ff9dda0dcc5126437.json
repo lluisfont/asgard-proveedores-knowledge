@@ -1,0 +1,490 @@
+{
+  "auditor_version": "0.8.0",
+  "detectors": [
+    {
+      "category": "consumed",
+      "detector_id": "fetch-consumer",
+      "detector_version": "1.0.0",
+      "files_scanned": 16,
+      "notes": [],
+      "status": "partial",
+      "supported_patterns": [
+        "direct literal fetch HTTP calls"
+      ],
+      "unsupported_patterns": [
+        "fetch_dynamic_or_complex_call_unresolved"
+      ]
+    },
+    {
+      "category": "consumed",
+      "detector_id": "guzzle-consumer",
+      "detector_version": "1.0.0",
+      "files_scanned": 2,
+      "notes": [],
+      "status": "partial",
+      "supported_patterns": [
+        "direct literal guzzle HTTP calls"
+      ],
+      "unsupported_patterns": [
+        "http_client_detected_no_calls"
+      ]
+    },
+    {
+      "category": "consumed",
+      "detector_id": "php-curl-consumer",
+      "detector_version": "1.0.0",
+      "files_scanned": 2,
+      "notes": [],
+      "status": "supported",
+      "supported_patterns": [
+        "direct literal php-curl HTTP calls"
+      ],
+      "unsupported_patterns": []
+    }
+  ],
+  "discovery_complete": false,
+  "endpoints": [
+    {
+      "api_id": null,
+      "api_name": null,
+      "authentication": null,
+      "authorization": null,
+      "base_url": "https://maps.googleapis.com",
+      "behavior": null,
+      "confidence": "confirmed",
+      "confidence_reason": "Literal fetch HTTP method and URL found in source.",
+      "consumer_repository": "asgard-api-audit-target-20260915",
+      "credential_format": null,
+      "direction": "consumed",
+      "endpoint_id": "ep_74dc3d085e619b689e51",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 104,
+          "note": "fetch HTTP call",
+          "path": "index_archivos/tracking/vue/components/location.component.js",
+          "symbol": null
+        }
+      ],
+      "handler": null,
+      "header_semantics": null,
+      "method": "GET",
+      "notes": [],
+      "path": "/maps/api/geocode/json",
+      "provider_repository": null,
+      "request": null,
+      "response": null,
+      "scheme": null
+    },
+    {
+      "api_id": null,
+      "api_name": null,
+      "authentication": null,
+      "authorization": null,
+      "base_url": "https://api.sendgrid.com",
+      "behavior": null,
+      "confidence": "confirmed",
+      "confidence_reason": "Literal php-curl HTTP method and URL found in source.",
+      "consumer_repository": "asgard-api-audit-target-20260915",
+      "credential_format": null,
+      "direction": "consumed",
+      "endpoint_id": "ep_12a92dbed8ff00fb6f9e",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 558,
+          "note": "php-curl HTTP call",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "symbol": null
+        }
+      ],
+      "handler": null,
+      "header_semantics": null,
+      "method": "POST",
+      "notes": [],
+      "path": "/v3/mail/send",
+      "provider_repository": null,
+      "request": null,
+      "response": null,
+      "scheme": null
+    }
+  ],
+  "integrations": [],
+  "inventory_complete": false,
+  "notes": [
+    "v0.4 discovers literal HTTP routes/calls and fails closed on dynamic or unsupported patterns.",
+    "discovery_complete is not equivalent to final audit status; OpenAPI generation and contract enrichment follow later."
+  ],
+  "repository": "asgard-api-audit-target-20260915",
+  "repository_id": "asgard-api-audit-target-20260915",
+  "schema_version": "1.0",
+  "soap_contracts_complete": null,
+  "soap_operations": 0,
+  "soap_operations_complete": null,
+  "soap_services": 0,
+  "source_commit": "f4f6d607c39d5b911b2f6e1dbf98c9658d5b3f4a",
+  "source_ref": "HEAD",
+  "unresolved": [
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 14,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 14,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 15,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 16,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 16,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 17,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 18,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 19,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 19,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 20,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 20,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 25,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 25,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "fetch_dynamic_or_complex_call_unresolved",
+      "detector_id": "fetch-consumer",
+      "evidence": [
+        {
+          "end_line": null,
+          "kind": "http_client",
+          "line": 26,
+          "note": "unresolved fetch call",
+          "path": "index_archivos/js/kendo.web.min.js",
+          "symbol": null
+        }
+      ],
+      "message": "fetch() call could not be resolved as a supported literal URL/options form.",
+      "severity": "blocking"
+    },
+    {
+      "code": "http_client_detected_no_calls",
+      "detector_id": "guzzle-consumer",
+      "evidence": [],
+      "message": "HTTP client 'guzzle' was detected by inventory but no supported direct calls were proven. Wrapper or dynamic usage may exist.",
+      "severity": "blocking"
+    }
+  ]
+}

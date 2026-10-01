@@ -1,0 +1,686 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_php",
+      "label": "Protection.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "label": "PHPExcel_Worksheet_Protection",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L160",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_isprotectionenabled",
+      "label": ".isProtectionEnabled()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L169",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getsheet",
+      "label": ".getSheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setsheet",
+      "label": ".setSheet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L203",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getobjects",
+      "label": ".getObjects()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L213",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setobjects",
+      "label": ".setObjects()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L223",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getscenarios",
+      "label": ".getScenarios()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L233",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setscenarios",
+      "label": ".setScenarios()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L243",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatcells",
+      "label": ".getFormatCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L253",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatcells",
+      "label": ".setFormatCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L263",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatcolumns",
+      "label": ".getFormatColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L273",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatcolumns",
+      "label": ".setFormatColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L283",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatrows",
+      "label": ".getFormatRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L293",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatrows",
+      "label": ".setFormatRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L303",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinsertcolumns",
+      "label": ".getInsertColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L313",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinsertcolumns",
+      "label": ".setInsertColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L323",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinsertrows",
+      "label": ".getInsertRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L333",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinsertrows",
+      "label": ".setInsertRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L343",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinserthyperlinks",
+      "label": ".getInsertHyperlinks()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L353",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinserthyperlinks",
+      "label": ".setInsertHyperlinks()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L363",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getdeletecolumns",
+      "label": ".getDeleteColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L373",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setdeletecolumns",
+      "label": ".setDeleteColumns()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L383",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getdeleterows",
+      "label": ".getDeleteRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L393",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setdeleterows",
+      "label": ".setDeleteRows()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L403",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getselectlockedcells",
+      "label": ".getSelectLockedCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L413",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setselectlockedcells",
+      "label": ".setSelectLockedCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L423",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getsort",
+      "label": ".getSort()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L433",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setsort",
+      "label": ".setSort()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L443",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getautofilter",
+      "label": ".getAutoFilter()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L453",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setautofilter",
+      "label": ".setAutoFilter()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L463",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getpivottables",
+      "label": ".getPivotTables()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L473",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setpivottables",
+      "label": ".setPivotTables()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L483",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getselectunlockedcells",
+      "label": ".getSelectUnlockedCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L493",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setselectunlockedcells",
+      "label": ".setSelectUnlockedCells()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L503",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getpassword",
+      "label": ".getPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L513",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setpassword",
+      "label": ".setPassword()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L524",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L535",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_isprotectionenabled",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getsheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setsheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getobjects",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setobjects",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getscenarios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setscenarios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatcolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatcolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getformatrows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setformatrows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinsertcolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinsertcolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L323",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinsertrows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinsertrows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L343",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getinserthyperlinks",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setinserthyperlinks",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L363",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getdeletecolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setdeletecolumns",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L383",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getdeleterows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setdeleterows",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getselectlockedcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L413",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setselectlockedcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getsort",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setsort",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L443",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getautofilter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setautofilter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getpivottables",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L473",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setpivottables",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L483",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getselectunlockedcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setselectunlockedcells",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L503",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_getpassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L513",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setpassword",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L524",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L535",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_setpassword",
+      "callee": "PHPExcel_Shared_PasswordHasher",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L526",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L536",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_worksheet_protection_phpexcel_worksheet_protection_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Worksheet/Protection.php",
+      "source_location": "L538",
+      "receiver": null
+    }
+  ]
+}

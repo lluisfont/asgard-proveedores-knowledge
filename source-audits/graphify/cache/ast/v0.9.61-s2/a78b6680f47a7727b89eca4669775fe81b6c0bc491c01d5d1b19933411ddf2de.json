@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_dashboards_implementaciondt_php",
+      "label": "implementaciondt.php",
+      "file_type": "code",
+      "source_file": "index_archivos/dashboards/implementaciondt.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

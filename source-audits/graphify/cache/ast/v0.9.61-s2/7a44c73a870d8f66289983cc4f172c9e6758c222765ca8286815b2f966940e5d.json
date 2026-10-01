@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_bootstrap_filestyle_test_upload_php",
+      "label": "upload.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/bootstrap-filestyle/test/upload.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

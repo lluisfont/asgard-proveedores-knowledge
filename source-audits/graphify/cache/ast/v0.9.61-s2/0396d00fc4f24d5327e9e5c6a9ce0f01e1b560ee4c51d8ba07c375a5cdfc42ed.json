@@ -1,0 +1,695 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_php",
+      "label": "fpdi_pdf_parser.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "label": "fpdi_pdf_parser",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "pdf_parser",
+      "label": "pdf_parser",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "label": ".fpdi_pdf_parser()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecount",
+      "label": ".getPageCount()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_setpageno",
+      "label": ".setPageno()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "label": ".getPageResources()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getcontent",
+      "label": ".getContent()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L154",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "label": "._getPageContent()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L174",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "label": "._rebuildContentStream()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L200",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "label": ".getPageBox()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L260",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageboxes",
+      "label": ".getPageBoxes()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L284",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "label": ".getPageRotation()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L306",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "label": ".read_pages()",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L336",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_php",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "pdf_parser",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_setpageno",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getcontent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageboxes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageboxes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L306",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L336",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_setpageno",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecount",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getcontent",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getcontent",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageboxes",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "target": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L351",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L67",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_fpdi_pdf_parser",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L79",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_setpageno",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L102",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "_getPageResources",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L123",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L129",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L130",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageresources",
+      "callee": "_getPageResources",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getcontent",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L157",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L178",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagecontent",
+      "callee": "array_merge",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L203",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "function_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L218",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L219",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "gzuncompress",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L219",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L221",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L221",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L224",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "FilterLZW",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "FilterASCII85",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L237",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L238",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "error",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_rebuildcontentstream",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L261",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L266",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L267",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L271",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L277",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagebox",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L280",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpageboxes",
+      "callee": "_getPageBoxes",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L285",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "_getPageRotation",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L307",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L311",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L312",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L313",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L318",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_getpagerotation",
+      "callee": "_getPageRotation",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L321",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L338",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L340",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "callee": "sprintf",
+      "is_member_call": false,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L343",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_mpdf57_mpdfi_fpdi_pdf_parser_fpdi_pdf_parser_read_pages",
+      "callee": "pdf_resolve_object",
+      "is_member_call": true,
+      "source_file": "index_archivos/MPDF57/mpdfi/fpdi_pdf_parser.php",
+      "source_location": "L347",
+      "receiver": null
+    }
+  ]
+}

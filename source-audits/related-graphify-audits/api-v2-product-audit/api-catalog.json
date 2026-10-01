@@ -1,0 +1,50 @@
+{
+  "auditor_version": "0.8.0",
+  "catalog_id": "catalog-3c89098525f14887af7c",
+  "coverage": {
+    "consumed_endpoints": 0,
+    "discovery_complete": false,
+    "excluded_endpoints": 0,
+    "exposed_endpoints": 0,
+    "included_endpoints": 0,
+    "inventory_complete": false,
+    "total_endpoints": 0,
+    "unresolved": 1
+  },
+  "endpoints": [],
+  "generated_at": "2026-09-15T10:55:57.903479+00:00",
+  "input_hashes": [
+    {
+      "path": "C:\\repos\\proveedores\\graphify-asgard-audit\\api-v2-product-audit\\findings.json",
+      "sha256": "8a83e1f5a8cfff23e9b917d04701451ee766ba8a2b5af5ba16edeeb217fc09eb"
+    }
+  ],
+  "metadata": {
+    "findings_audit_id": "audit-e6ecc0bb7c3b6245",
+    "findings_auditor_version": "0.8.0",
+    "findings_schema_version": "2.0",
+    "findings_sha256": "8a83e1f5a8cfff23e9b917d04701451ee766ba8a2b5af5ba16edeeb217fc09eb",
+    "repository": "graphify-v0.9.61",
+    "repository_id": "graphify-v0.9.61-product",
+    "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+    "source_ref": "HEAD",
+    "stable_namespace": null
+  },
+  "schema_version": "1.0",
+  "scope": {
+    "exclude_endpoints": [],
+    "excluded_endpoints": 0,
+    "include_endpoints": [],
+    "included_endpoints": 0,
+    "mode": "all"
+  },
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "no_supported_api_detector_selected: Inventory did not select any v0.4 API detector. Absence of findings is not proof that the repository has no API integrations.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-f46f2fe5034fa51a"
+    }
+  ]
+}

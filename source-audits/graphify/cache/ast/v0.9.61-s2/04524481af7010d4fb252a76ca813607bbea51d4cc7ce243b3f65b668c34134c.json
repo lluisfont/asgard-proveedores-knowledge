@@ -1,0 +1,1213 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "label": "Northwind.MySQL5.sql",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": null
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "label": "`Categories`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categoryname",
+      "label": "CategoryName",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customercustomerdemo",
+      "label": "`CustomerCustomerDemo`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L34"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customerdemographics",
+      "label": "`CustomerDemographics`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L44"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "label": "`Customers`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L54"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_city",
+      "label": "City",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L69"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_companyname",
+      "label": "CompanyName",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L71"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_postalcode",
+      "label": "PostalCode",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L73"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_region",
+      "label": "Region",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L75"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "label": "`Employees`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L81"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_lastname",
+      "label": "LastName",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L104"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employeeterritories",
+      "label": "`EmployeeTerritories`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L112"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "label": "`Order Details`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L122"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "label": "`Orders`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L135"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orderdate",
+      "label": "OrderDate",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L153"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippeddate",
+      "label": "ShippedDate",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L155"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippostalcode",
+      "label": "ShipPostalCode",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L157"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "label": "`Products`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L163"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_productname",
+      "label": "ProductName",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L177"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippers",
+      "label": "`Shippers`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L193"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "label": "`Suppliers`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L204"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_territories",
+      "label": "`Territories`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L228"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_alphabetical_list_of_products",
+      "label": "`Alphabetical list of products`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3958"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_current_product_list",
+      "label": "`Current Product List`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3970"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customer_and_suppliers_by_city",
+      "label": "`Customer and Suppliers by City`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3981"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "label": "`Invoices`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4000"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders_qry",
+      "label": "`Orders Qry`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4039"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "label": "`Order Subtotals`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4067"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "label": "`Product Sales for 1997`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4077"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_above_average_price",
+      "label": "`Products Above Average Price`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4092"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_by_category",
+      "label": "`Products by Category`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4102"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_quarterly_orders",
+      "label": "`Quarterly Orders`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4116"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_totals_by_amount",
+      "label": "`Sales Totals by Amount`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4129"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_quarter",
+      "label": "`Summary of Sales by Quarter`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4144"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_year",
+      "label": "`Summary of Sales by Year`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4156"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_category_sales_for_1997",
+      "label": "`Category Sales for 1997`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4168"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details_extended",
+      "label": "`Order Details Extended`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4178"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "label": "`Sales by Category`",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4193"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_myround",
+      "label": "`MyRound`()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4451"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categoryname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categoryname",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customercustomerdemo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customerdemographics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_city",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_city",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_companyname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_companyname",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_postalcode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_postalcode",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_region",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_region",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_lastname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_lastname",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_postalcode",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employeeterritories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orderdate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orderdate",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippeddate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippeddate",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippostalcode",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippostalcode",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_productname",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_productname",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_companyname",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_postalcode",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "relation": "indexes",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L222",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_territories",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customercustomerdemo",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customerdemographics",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3915",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customercustomerdemo",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3918",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3921",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employeeterritories",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3924",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employeeterritories",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_territories",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3927",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3930",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3933",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3936",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3939",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3942",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3945",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3948",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_territories",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_region",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3951",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_alphabetical_list_of_products",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3958",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_alphabetical_list_of_products",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3962",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_alphabetical_list_of_products",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3963",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_current_product_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3970",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_current_product_list",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3974",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customer_and_suppliers_by_city",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3981",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customer_and_suppliers_by_city",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3987",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customer_and_suppliers_by_city",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_suppliers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L3993",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4000",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4028",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4029",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_employees",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4030",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4031",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4032",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_invoices",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_shippers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4033",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders_qry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4039",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders_qry",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4060",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders_qry",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4061",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4067",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4070",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4077",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4081",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4082",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4083",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4084",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_above_average_price",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4092",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_above_average_price",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4095",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_above_average_price",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4096",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_by_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_quarterly_orders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_quarterly_orders",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_quarterly_orders",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_totals_by_amount",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_totals_by_amount",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_customers",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_totals_by_amount",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_totals_by_amount",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_quarter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_quarter",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4148",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_quarter",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_year",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_year",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_summary_of_sales_by_year",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_subtotals",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_category_sales_for_1997",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_category_sales_for_1997",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_product_sales_for_1997",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details_extended",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4178",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details_extended",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details_extended",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_categories",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_products",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_order_details_extended",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sales_by_category",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_orders",
+      "relation": "reads_from",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_sql",
+      "target": "$graphify-root$_index_archivos_js_jqwidgetsver_phpdemos_northwind_mysql5_myround",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql",
+      "source_location": "L4451",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+status_on_static_extraction: CANDIDATE_AS_IS
+relationship_scope: component_level_until_handler_validated
+max_overview_nodes: 250
+required_business_fields:
+  - business_goal
+  - trigger
+  - actor
+  - preconditions
+  - happy_path
+  - alternative_paths
+  - business_rules
+  - outputs
+  - evidence_ids
+formats:
+  - json
+  - csv
+  - mermaid

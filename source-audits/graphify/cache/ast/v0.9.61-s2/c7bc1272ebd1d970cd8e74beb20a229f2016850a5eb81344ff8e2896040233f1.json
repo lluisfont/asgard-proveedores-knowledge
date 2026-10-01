@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_footerbs4_php",
+      "label": "footerbs4.php",
+      "file_type": "code",
+      "source_file": "index_archivos/footerbs4.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_menu_b4_php",
+      "label": "menu_b4.php",
+      "file_type": "code",
+      "source_file": "index_archivos/menu_b4.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

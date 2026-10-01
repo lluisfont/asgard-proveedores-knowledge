@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_ajax_borrarembarque_php",
+      "label": "borrarEmbarque.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/ajax/borrarEmbarque.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

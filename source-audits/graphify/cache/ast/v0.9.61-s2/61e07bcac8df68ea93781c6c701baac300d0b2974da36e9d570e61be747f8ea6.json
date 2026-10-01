@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_responses_php",
+      "label": "Responses.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_responses_responses",
+      "label": "Responses",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L2",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_responses_responses_success",
+      "label": ".success()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L4",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_responses_responses_error",
+      "label": ".error()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L13",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_responses_php",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_responses_responses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_responses_responses",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_responses_responses_success",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_responses_responses",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_responses_responses_error",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/Responses.php",
+      "source_location": "L13",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

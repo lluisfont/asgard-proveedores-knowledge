@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_php",
+      "label": "PDO.Iterator.class.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "label": "PDOIterator",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L2",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "iterator",
+      "label": "Iterator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L8",
+      "_callable": true
+    },
+    {
+      "id": "pdostatement",
+      "label": "PDOStatement",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/libs/pdo/PDO.Iterator.class.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_rewind",
+      "label": ".rewind()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_current",
+      "label": ".current()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_key",
+      "label": ".key()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_next",
+      "label": ".next()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_valid",
+      "label": ".valid()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L33",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_php",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "iterator",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_construct",
+      "target": "pdostatement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_rewind",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_current",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_key",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator",
+      "target": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_valid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L33",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_rewind",
+      "callee": "execute",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L16",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_rewind",
+      "callee": "fetch",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L17",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_next",
+      "callee": "fetch",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L30",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdo_pdo_iterator_class_pdoiterator_valid",
+      "callee": "closeCursor",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "source_location": "L36",
+      "receiver": null
+    }
+  ]
+}

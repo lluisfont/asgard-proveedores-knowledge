@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_frames_inventario_local_php",
+      "label": "inventario_local.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/frames/inventario_local.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

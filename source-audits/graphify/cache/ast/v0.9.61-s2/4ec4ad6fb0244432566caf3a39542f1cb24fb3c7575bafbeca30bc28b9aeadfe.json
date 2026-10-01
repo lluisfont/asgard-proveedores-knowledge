@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_php",
+      "label": "PDFMerger.php",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "label": "PDFMerger",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "label": ".addPDF()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L58",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "label": ".merge()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_switchmode",
+      "label": "._switchmode()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L159",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "label": "._rewritepages()",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L186",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_php",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_switchmode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "target": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_switchmode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L127",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "callee": "file_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L60",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L62",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_addpdf",
+      "callee": "exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L71",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "TCPDI",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L87",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "SetPrintHeader",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L88",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "SetPrintFooter",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L89",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "setSourceFile",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L97",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "importPage",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L104",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "getTemplateSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "AddPage",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "useTemplate",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L109",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "importPage",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L116",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L116",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "getTemplateSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L117",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "AddPage",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "useTemplate",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "Output",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "Output",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "Output",
+      "is_member_call": true,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L140",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_merge",
+      "callee": "exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_switchmode",
+      "callee": "strtolower",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L161",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L188",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "callee": "explode",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L194",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L196",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_libs_pdfmerger_pdfmerger_pdfmerger_rewritepages",
+      "callee": "exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/libs/PDFMerger/PDFMerger.php",
+      "source_location": "L201",
+      "receiver": null
+    }
+  ]
+}

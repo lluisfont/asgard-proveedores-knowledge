@@ -1,0 +1,1524 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_php",
+      "label": "formularios.php",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "label": "encrypt()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L2",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "label": "decrypt()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L12",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "label": "mostrar_calendario()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_formulariocalendario",
+      "label": "formularioCalendario()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_dame_nombre_mes",
+      "label": "dame_nombre_mes()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L201",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_calcula_numero_dia_semana",
+      "label": "calcula_numero_dia_semana()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L242",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_ultimodia",
+      "label": "ultimoDia()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L250",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "label": "dame_estilo()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L257",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creaformtext",
+      "label": "creaformtext()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L278",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "label": "creaformselect()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L373",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creaformchek",
+      "label": "creaformchek()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L517",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creaformtextarea",
+      "label": "creaformtextarea()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L539",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creaformfecha",
+      "label": "creaformfecha()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L568",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creargrid",
+      "label": "creargrid()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L588",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "label": "creagrid()",
+      "file_type": "code",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L591",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_formulariocalendario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_dame_nombre_mes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_calcula_numero_dia_semana",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_ultimodia",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L257",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformtext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformchek",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L517",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformtextarea",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L539",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformfecha",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L568",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creargrid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L588",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_php",
+      "target": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L591",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "target": "$graphify-root$_index_archivos_js_formularios_dame_nombre_mes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "target": "$graphify-root$_index_archivos_js_formularios_calcula_numero_dia_semana",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "target": "$graphify-root$_index_archivos_js_formularios_ultimodia",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_mostrar_calendario",
+      "target": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformtext",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L704",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L711",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "target": "$graphify-root$_index_archivos_js_formularios_creaformchek",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1155",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L4",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L5",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L6",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L6",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L7",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L7",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L7",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_encrypt",
+      "callee": "base64_encode",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L10",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "base64_decode",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L14",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L15",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L16",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L17",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L17",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "chr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_decrypt",
+      "callee": "ord",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L18",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_calcula_numero_dia_semana",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L243",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_calcula_numero_dia_semana",
+      "callee": "mktime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L243",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_ultimodia",
+      "callee": "checkdate",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L252",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L260",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L260",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "callee": "mktime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L264",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_dame_estilo",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L265",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L381",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L384",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L389",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L393",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L393",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L394",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L394",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L398",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L401",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L406",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L410",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L410",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L411",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L411",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L423",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L428",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L432",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L432",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L433",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L433",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L442",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L445",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L454",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L454",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L455",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "strlen",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L455",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L502",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creaformselect",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L503",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L593",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L593",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L597",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L606",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L633",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L633",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L633",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L634",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L634",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L634",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "fmod",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L646",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L658",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L658",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L658",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L659",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L659",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L659",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L660",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L662",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L662",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L662",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L663",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L663",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L663",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L664",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L664",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L664",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L698",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L718",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L719",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L720",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L721",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L722",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L749",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L772",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L772",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L776",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L782",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L806",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L827",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L847",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L847",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L847",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L848",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L848",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L848",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L849",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L849",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L849",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L871",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L888",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L891",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L892",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L928",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L933",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L933",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L933",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L949",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L968",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L968",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L968",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L969",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L969",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L969",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "date",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L970",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "strtotime",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L970",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L970",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L992",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L999",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1004",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1005",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1029",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1029",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1040",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "urlencode",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1059",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1061",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "serialize",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1065",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "urlencode",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1066",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1077",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1094",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1103",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1179",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1185",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1195",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1246",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_js_formularios_creagrid",
+      "callee": "sizeof",
+      "is_member_call": false,
+      "source_file": "index_archivos/js/formularios.php",
+      "source_location": "L1291",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,1621 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_php",
+      "label": "Chart.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "label": "PHPExcel_Reader_Excel2007_Chart",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L35",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_getattribute",
+      "label": "._getAttribute()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "label": "._readColor()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "label": ".readChart()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "label": "._chartTitle()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L205",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "label": "._chartLayoutDetails()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L230",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "label": "._chartDataSeries()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L247",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "label": "._chartDataSeriesValueSet()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L298",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalues",
+      "label": "._chartDataSeriesValues()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L326",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvaluesmultilevel",
+      "label": "._chartDataSeriesValuesMultiLevel()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L361",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "label": "._parseRichText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L393",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "label": "._readChartAttributes()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L459",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "label": "._setChartAttributes()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L488",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_getattribute",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalues",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L326",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvaluesmultilevel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L459",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L488",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_getattribute",
+      "callee": "attributes",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_getattribute",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L55",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L57",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "callee": "getARGB",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readcolor",
+      "callee": "PHPExcel_Style_Color",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "getNamespaces",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L64",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L65",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L74",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L82",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L85",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L86",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L90",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L91",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L91",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L95",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L96",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L101",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L102",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotDirection",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L103",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L105",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L109",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L114",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L121",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L122",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L124",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L129",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L136",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L142",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L143",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L145",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L149",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L150",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "setPlotStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L151",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L153",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L156",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L157",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "PHPExcel_Chart_Layout",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "PHPExcel_Chart_PlotArea",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L164",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L174",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L183",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L189",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "PHPExcel_Chart_Legend",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L193",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchart",
+      "callee": "PHPExcel_Chart",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L199",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L211",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L215",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L216",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L221",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_charttitle",
+      "callee": "PHPExcel_Chart_Title",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L226",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L231",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L234",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L235",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartlayoutdetails",
+      "callee": "PHPExcel_Chart_Layout",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L243",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L252",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L256",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L263",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L266",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L270",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L273",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L276",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L279",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L282",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L285",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L288",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseries",
+      "callee": "PHPExcel_Chart_DataSeries",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L294",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L299",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L301",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L301",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L303",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L304",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L306",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L306",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L308",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L309",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L311",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L311",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L312",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L314",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L315",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L317",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "children",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L317",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L318",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalueset",
+      "callee": "PHPExcel_Chart_DataSeriesValues",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L320",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalues",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L334",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalues",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L340",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvalues",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L350",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvaluesmultilevel",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L370",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_chartdataseriesvaluesmultilevel",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L376",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "PHPExcel_RichText",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L394",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L397",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "createTextRun",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L398",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L400",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L401",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setName",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L402",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L402",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L405",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L406",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L407",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L407",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "floor",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L407",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L410",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L411",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setColor",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "PHPExcel_Style_Color",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L412",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L415",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L416",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setBold",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L417",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L417",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L421",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setItalic",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L422",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L422",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L425",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L426",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setSuperScript",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L428",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L428",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setSubScript",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L430",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L430",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L434",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L435",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setUnderline",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L437",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L437",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setUnderline",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L439",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L439",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setUnderline",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L445",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "is_null",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L446",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setStrikethrough",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L448",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L448",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "setStrikethrough",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_parserichtext",
+      "callee": "getFont",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L450",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L461",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L462",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L463",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L465",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L466",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L468",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L469",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L471",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L472",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L474",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L475",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L477",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L478",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L480",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_readchartattributes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L481",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowLegendKey",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L493",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowVal",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L496",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowCatName",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L499",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowSerName",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L502",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowPercent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowBubbleSize",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L508",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_reader_excel2007_chart_phpexcel_reader_excel2007_chart_setchartattributes",
+      "callee": "setShowLeaderLines",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Reader/Excel2007/Chart.php",
+      "source_location": "L511",
+      "receiver": null
+    }
+  ]
+}

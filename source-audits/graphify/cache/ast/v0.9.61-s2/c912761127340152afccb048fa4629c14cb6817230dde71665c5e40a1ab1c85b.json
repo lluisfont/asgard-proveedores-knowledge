@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_reporte_detalle_viaje_php",
+      "label": "reporte-detalle-viaje.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/reporte-detalle-viaje.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

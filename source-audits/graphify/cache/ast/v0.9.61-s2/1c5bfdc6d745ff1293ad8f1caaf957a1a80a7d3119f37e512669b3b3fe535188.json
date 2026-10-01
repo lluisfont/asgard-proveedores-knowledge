@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_libs_carbon_bin_upgrade_carbon",
+      "label": "upgrade-carbon",
+      "file_type": "code",
+      "source_file": "index_archivos/libs/carbon/bin/upgrade-carbon",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

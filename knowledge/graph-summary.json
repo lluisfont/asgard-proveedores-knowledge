@@ -1,0 +1,7 @@
+{
+  "nodes": 48495,
+  "edges": 116642,
+  "includes_third_party": true,
+  "community_count": 3043,
+  "full_graph": "source-audits/graphify/graph.json.gz"
+}

@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_php",
+      "label": "PageMargins.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "label": "PHPExcel_Worksheet_PageMargins",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getleft",
+      "label": ".getLeft()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L92",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setleft",
+      "label": ".setLeft()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getright",
+      "label": ".getRight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setright",
+      "label": ".setRight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L122",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_gettop",
+      "label": ".getTop()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_settop",
+      "label": ".setTop()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getbottom",
+      "label": ".getBottom()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L152",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setbottom",
+      "label": ".setBottom()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L162",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getheader",
+      "label": ".getHeader()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L172",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setheader",
+      "label": ".setHeader()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L182",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getfooter",
+      "label": ".getFooter()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L192",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setfooter",
+      "label": ".setFooter()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L202",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L210",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getleft",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setleft",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getright",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setright",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_gettop",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_settop",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getbottom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setbottom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getheader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setheader",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_getfooter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_setfooter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L210",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L211",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_pagemargins_phpexcel_worksheet_pagemargins_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/PageMargins.php",
+      "source_location": "L213",
+      "receiver": null
+    }
+  ]
+}

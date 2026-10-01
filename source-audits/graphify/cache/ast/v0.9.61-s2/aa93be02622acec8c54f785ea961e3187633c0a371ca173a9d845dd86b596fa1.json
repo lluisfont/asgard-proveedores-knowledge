@@ -1,0 +1,1121 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_php",
+      "label": "SolicitudesClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "label": "SolicitudesClass",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L3",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcasobyid",
+      "label": ".getCasoById()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L8",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientes",
+      "label": ".listaSolicitudesPendientes()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientesgestor",
+      "label": ".listaSolicitudesPendientesGestor()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L90",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "label": ".listaSolicitudesEnviadas()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L125",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "label": ".listaSolicitudesEnviadasGestor()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L185",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesaprobadas",
+      "label": ".listaSolicitudesAprobadas()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L246",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenproceso",
+      "label": ".listaSolicitudesEnProceso()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L284",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesdespacho",
+      "label": ".listaSolicitudesDespacho()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L326",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getsolicitudbyid",
+      "label": ".getSolicitudById()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L365",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcoordinadores",
+      "label": ".getCoordinadores()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L427",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getregimenes",
+      "label": ".getRegimenes()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L439",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettipodeclaracion",
+      "label": ".getTipoDeclaracion()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L451",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaduanas",
+      "label": ".getAduanas()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L463",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransporte",
+      "label": ".getModoTransporte()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L475",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransportetracking",
+      "label": ".getModoTransporteTracking()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L487",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getnavieras",
+      "label": ".getNavieras()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L499",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaerolineas",
+      "label": ".getAerolineas()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L511",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettiposproducto",
+      "label": ".getTiposProducto()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L523",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getlineas",
+      "label": ".getLineas()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L535",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getciudades",
+      "label": ".getCiudades()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L547",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getclientesdeclarantes",
+      "label": ".getClientesDeclarantes()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L559",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "label": ".guardarGestionAduanera()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L578",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_actualizargestionaduanera",
+      "label": ".actualizarGestionAduanera()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L674",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "label": ".eliminarSolicitud()",
+      "file_type": "code",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L705",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_php",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcasobyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientesgestor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesaprobadas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenproceso",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesdespacho",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L326",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getsolicitudbyid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcoordinadores",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getregimenes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L439",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettipodeclaracion",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L451",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaduanas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransporte",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L475",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransportetracking",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L487",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getnavieras",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L499",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaerolineas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L511",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettiposproducto",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L523",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getlineas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L535",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getciudades",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L547",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getclientesdeclarantes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L559",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L578",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_actualizargestionaduanera",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L674",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass",
+      "target": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L705",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcasobyid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L46",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcasobyid",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L49",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcasobyid",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L50",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientes",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L80",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientes",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L83",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientes",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L84",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientesgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L115",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientesgestor",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L118",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudespendientesgestor",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L119",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L128",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L146",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L175",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L178",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L179",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L186",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L187",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L188",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L206",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L236",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L239",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenviadasgestor",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L240",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesaprobadas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L274",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesaprobadas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L277",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesaprobadas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L278",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenproceso",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L316",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenproceso",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L319",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesenproceso",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L320",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesdespacho",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L355",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesdespacho",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L358",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_listasolicitudesdespacho",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L359",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getsolicitudbyid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L417",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getsolicitudbyid",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L420",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getsolicitudbyid",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L421",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcoordinadores",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L429",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcoordinadores",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L432",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getcoordinadores",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L433",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getregimenes",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L441",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getregimenes",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L444",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getregimenes",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L445",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettipodeclaracion",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L453",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettipodeclaracion",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L456",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettipodeclaracion",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L457",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaduanas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L465",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaduanas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L468",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaduanas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L469",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransporte",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L477",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransporte",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L480",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransporte",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L481",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransportetracking",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L489",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransportetracking",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L492",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getmodotransportetracking",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L493",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getnavieras",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L501",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getnavieras",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L504",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getnavieras",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L505",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaerolineas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L513",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaerolineas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L516",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getaerolineas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L517",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettiposproducto",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L525",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettiposproducto",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L528",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_gettiposproducto",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L529",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getlineas",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L537",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getlineas",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L540",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getlineas",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L541",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getciudades",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L549",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getciudades",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L552",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getciudades",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L553",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getclientesdeclarantes",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L568",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getclientesdeclarantes",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L571",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_getclientesdeclarantes",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L572",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L582",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L583",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L626",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L629",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L630",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L635",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_fetch_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L643",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_guardargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L652",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_actualizargestionaduanera",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L692",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L706",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L707",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L708",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L709",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_embarques_solicitudesclass_solicitudesclass_eliminarsolicitud",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/embarques/SolicitudesClass.php",
+      "source_location": "L710",
+      "receiver": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_ajax_cargar_excel_clientes_proveedores_php",
+      "label": "cargar-excel-clientes-proveedores.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ajax/cargar-excel-clientes-proveedores.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

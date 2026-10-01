@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_php",
+      "label": "DataType.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "label": "PHPExcel_Cell_DataType",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_geterrorcodes",
+      "label": ".getErrorCodes()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L68",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_datatypeforvalue",
+      "label": ".dataTypeForValue()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L79",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkstring",
+      "label": ".checkString()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L89",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkerrorcode",
+      "label": ".checkErrorCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L111",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_geterrorcodes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_datatypeforvalue",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkstring",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkerrorcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L111",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_datatypeforvalue",
+      "callee": "PHPExcel_Cell_DefaultValueBinder",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L80",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkstring",
+      "callee": "PHPExcel_Shared_String",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L97",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkstring",
+      "callee": "str_replace",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L100",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_cell_datatype_phpexcel_cell_datatype_checkerrorcode",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Cell/DataType.php",
+      "source_location": "L115",
+      "receiver": null
+    }
+  ]
+}

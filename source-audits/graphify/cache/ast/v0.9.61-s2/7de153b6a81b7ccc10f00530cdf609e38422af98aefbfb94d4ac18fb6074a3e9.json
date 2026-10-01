@@ -1,0 +1,100 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_php",
+      "label": "Escher.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "label": "PHPExcel_Shared_Escher",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L35",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_getdggcontainer",
+      "label": ".getDggContainer()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_setdggcontainer",
+      "label": ".setDggContainer()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L66",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_getdgcontainer",
+      "label": ".getDgContainer()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_setdgcontainer",
+      "label": ".setDgContainer()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L86",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_getdggcontainer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_setdggcontainer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_getdgcontainer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_shared_escher_phpexcel_shared_escher_setdgcontainer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Shared/Escher.php",
+      "source_location": "L86",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

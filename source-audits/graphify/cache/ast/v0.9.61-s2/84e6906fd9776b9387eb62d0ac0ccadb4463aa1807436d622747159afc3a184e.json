@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_ajaxasignacion_guardar_asignacion_php",
+      "label": "guardar_asignacion.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

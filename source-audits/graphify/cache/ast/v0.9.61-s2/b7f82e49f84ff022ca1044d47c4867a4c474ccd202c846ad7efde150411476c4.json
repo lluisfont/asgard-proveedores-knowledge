@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_components_asignacion_viaje_programacion_embarque_local_php",
+      "label": "programacion_embarque-local.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/components/asignacion_viaje/programacion_embarque-local.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_tracking_carga_masiva_php",
+      "label": "carga-masiva.php",
+      "file_type": "code",
+      "source_file": "index_archivos/tracking/carga-masiva.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

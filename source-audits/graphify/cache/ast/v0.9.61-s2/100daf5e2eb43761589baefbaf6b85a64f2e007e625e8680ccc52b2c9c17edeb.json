@@ -1,0 +1,65 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_php",
+      "label": "DefaultReadFilter.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter",
+      "label": "PHPExcel_Reader_DefaultReadFilter",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_reader_ireadfilter",
+      "label": "PHPExcel_Reader_IReadFilter",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter_readcell",
+      "label": ".readCell()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L55",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter",
+      "target": "phpexcel_reader_ireadfilter",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_reader_defaultreadfilter_phpexcel_reader_defaultreadfilter_readcell",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Reader/DefaultReadFilter.php",
+      "source_location": "L55",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

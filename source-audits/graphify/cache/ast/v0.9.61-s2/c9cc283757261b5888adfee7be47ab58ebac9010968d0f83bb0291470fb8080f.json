@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_ttfontdata_dejavuserifcondensedi_cw127_php",
+      "label": "dejavuserifcondensedI.cw127.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/ttfontdata/dejavuserifcondensedI.cw127.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

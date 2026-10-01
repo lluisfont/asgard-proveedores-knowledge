@@ -1,0 +1,53 @@
+{
+  "bad_depth_string": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Error executing query_graph: invalid literal for int() with base 10: 'bogus'"
+  },
+  "bad_project_path": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Error executing graph_stats: graph.json not found: C:\\repos\\proveedores\\graphify-asgard-audit\\missing-project\\graphify-out\\graph.json"
+  },
+  "negative_depth": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Graph: C:/repos/proveedores/graphify-asgard-audit/edge-errors/graph.json (20 nodes) | Traversal: BFS depth=-3 | Start: ['Node0'] | 1 nodes found\n\nNODE Node0 [src=src/file_0.py loc=L0 community=0]"
+  },
+  "negative_max_hops": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Path exceeds max_hops=-1 (2 hops found)."
+  },
+  "negative_token_budget": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "[!] TRUNCATED: showing 20 of 21 lines (~-5-token budget). Raise token_budget or use get_node for specific members\n\nCommunity 0 (20 nodes):\n  Node0 [src/file_0.py]\n  Node1 [src/file_1.py]\n  Node2 [src/file_2.py]\n  Node3 [src/file_3.py]\n  Node4 [src/file_4.py]\n  Node5 [src/file_5.py]\n  Node6 [src/file_6.py]\n  Node7 [src/file_7.py]\n  Node8 [src/file_8.py]\n  Node9 [src/file_9.py]\n  Node10 [src/file_10.py]\n  Node11 [src/file_11.py]\n  Node12 [src/file_12.py]\n  Node13 [src/file_13.py]\n  Node14 [src/file_14.py]\n  Node15 [src/file_15.py]\n  Node16 [src/file_16.py]\n  Node17 [src/file_17.py]\n  Node18 [src/file_18.py]\n... (truncated — 1 more lines cut by ~-5-token budget. Raise token_budget or use get_node for specific members)"
+  },
+  "unknown_resource": {
+    "isError": null,
+    "jsonrpc_error": {
+      "code": 0,
+      "message": "Unknown resource: graphify://does-not-exist"
+    },
+    "status": 200,
+    "text": null
+  },
+  "unknown_tool": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Unknown tool: definitely_not_a_tool"
+  },
+  "zero_max_hops": {
+    "isError": false,
+    "jsonrpc_error": null,
+    "status": 200,
+    "text": "Path exceeds max_hops=0 (2 hops found)."
+  }
+}

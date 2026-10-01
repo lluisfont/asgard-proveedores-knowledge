@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_ubicaciones_ajax_uploadexcel_php",
+      "label": "uploadexcel.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/ubicaciones/ajax/uploadexcel.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

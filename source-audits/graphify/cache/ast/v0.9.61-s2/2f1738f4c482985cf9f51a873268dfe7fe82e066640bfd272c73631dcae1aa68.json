@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_logistica_embarquereferencia_php",
+      "label": "embarquereferencia.php",
+      "file_type": "code",
+      "source_file": "index_archivos/logistica/embarquereferencia.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

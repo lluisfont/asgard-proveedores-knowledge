@@ -1,0 +1,4 @@
+# Preserve evidence bytes so exported hashes remain portable across checkouts.
+source-audits/** -text
+*.gz binary
+*.xlsx binary

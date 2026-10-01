@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_patterns_fi_php",
+      "label": "fi.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/patterns/fi.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

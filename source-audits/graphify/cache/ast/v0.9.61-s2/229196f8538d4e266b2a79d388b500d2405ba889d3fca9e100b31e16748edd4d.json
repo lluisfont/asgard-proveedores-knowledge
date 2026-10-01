@@ -1,0 +1,998 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_php",
+      "label": "Alignment.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "label": "PHPExcel_Style_Alignment",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_style_supervisor",
+      "label": "PHPExcel_Style_Supervisor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L107",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "label": ".getSharedComponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L125",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "label": ".getStyleArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L136",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "label": ".applyFromArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L159",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "label": ".getHorizontal()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L195",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "label": ".setHorizontal()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L208",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getvertical",
+      "label": ".getVertical()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L228",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "label": ".setVertical()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L241",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gettextrotation",
+      "label": ".getTextRotation()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L260",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "label": ".setTextRotation()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L274",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getwraptext",
+      "label": ".getWrapText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L300",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "label": ".setWrapText()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L313",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getshrinktofit",
+      "label": ".getShrinkToFit()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L331",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "label": ".setShrinkToFit()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L344",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getindent",
+      "label": ".getIndent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L362",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "label": ".setIndent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L375",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L397",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "phpexcel_style_supervisor",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getvertical",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L241",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gettextrotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getwraptext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getshrinktofit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L331",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L344",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getindent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L362",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L375",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L397",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getvertical",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getvertical",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getvertical",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gettextrotation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gettextrotation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gettextrotation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getwraptext",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getwraptext",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getwraptext",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L319",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getshrinktofit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getshrinktofit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getshrinktofit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getindent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getindent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getindent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethorizontal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L399",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L399",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L110",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_getsharedcomponent",
+      "callee": "getAlignment",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L160",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L165",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L168",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L171",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L174",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L177",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "isset",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L180",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_applyfromarray",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L185",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L215",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L215",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_sethorizontal",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L215",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L248",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L248",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setvertical",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L248",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L284",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_settextrotation",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L289",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L319",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L319",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setwraptext",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L319",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L350",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L350",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setshrinktofit",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L350",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L385",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L385",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_setindent",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L385",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_alignment_phpexcel_style_alignment_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Alignment.php",
+      "source_location": "L401",
+      "receiver": null
+    }
+  ]
+}

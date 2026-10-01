@@ -1,0 +1,588 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_php",
+      "label": "ClienteProveedorClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "label": "ClienteProveedorClass",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "responses",
+      "label": "Responses",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getclientes",
+      "label": ".getClientes()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L12",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_nuevocliente",
+      "label": ".nuevoCliente()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_borrarcliente",
+      "label": ".borrarCliente()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getcliente",
+      "label": ".getCliente()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "label": ".actualizarCliente()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L51",
+      "_callable": true
+    },
+    {
+      "id": "stdclass",
+      "label": "stdClass",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/parametros/clientes/ClienteProveedorClass.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "label": ".getQuery()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getlistaclientessinubicacion",
+      "label": ".getListaClientesSinUbicacion()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "label": ".cargarExcelClienteProveedor()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L118",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getciudadid",
+      "label": ".getCiudadId()",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L151",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_php",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "responses",
+      "relation": "mixes_in",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getclientes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_nuevocliente",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_borrarcliente",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getcliente",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "target": "stdclass",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getlistaclientessinubicacion",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass",
+      "target": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getciudadid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L151",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getclientes",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L19",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_nuevocliente",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L26",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_nuevocliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L28",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_nuevocliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L31",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_borrarcliente",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_borrarcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L39",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_borrarcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L42",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L48",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L62",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L63",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_actualizarcliente",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L66",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L73",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L75",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L77",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getquery",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L80",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getlistaclientessinubicacion",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L104",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getlistaclientessinubicacion",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L107",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getlistaclientessinubicacion",
+      "callee": "array_push",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L108",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "empty",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L120",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "PHPExcel_Reader_Excel2007",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L126",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L127",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "setActiveSheetIndex",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L129",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getHighestRow",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L131",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "mb_strtoupper",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getCell",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L135",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "substr",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_cargarexcelclienteproveedor",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getciudadid",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getciudadid",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L155",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_parametros_clientes_clienteproveedorclass_clienteproveedorclass_getciudadid",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "source_location": "L156",
+      "receiver": null
+    }
+  ]
+}

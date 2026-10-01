@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_utils_unicoderanges_php",
+      "label": "UnicodeRanges.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/utils/UnicodeRanges.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

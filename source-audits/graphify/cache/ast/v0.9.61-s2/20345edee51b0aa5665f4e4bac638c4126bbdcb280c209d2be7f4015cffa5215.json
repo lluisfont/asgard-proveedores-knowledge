@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_parametros_ubicaciones_ajax_guardar_php",
+      "label": "guardar.php",
+      "file_type": "code",
+      "source_file": "index_archivos/parametros/ubicaciones/ajax/guardar.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

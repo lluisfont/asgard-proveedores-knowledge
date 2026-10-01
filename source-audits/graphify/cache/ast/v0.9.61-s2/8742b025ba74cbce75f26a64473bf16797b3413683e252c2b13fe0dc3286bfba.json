@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_php",
+      "label": "RowIterator.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "label": "PHPExcel_Worksheet_RowIterator",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "iterator",
+      "label": "Iterator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L68",
+      "_callable": true
+    },
+    {
+      "id": "phpexcel_worksheet",
+      "label": "PHPExcel_Worksheet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_destruct",
+      "label": ".__destruct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_resetstart",
+      "label": ".resetStart()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_seek",
+      "label": ".seek()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L96",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_rewind",
+      "label": ".rewind()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_current",
+      "label": ".current()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_key",
+      "label": ".key()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L121",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_next",
+      "label": ".next()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L128",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_prev",
+      "label": ".prev()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L135",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_valid",
+      "label": ".valid()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L145",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "iterator",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_construct",
+      "target": "phpexcel_worksheet",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L68",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_destruct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_resetstart",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_seek",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L96",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_rewind",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_current",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_key",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_prev",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_valid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_construct",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_resetstart",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_resetstart",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_seek",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L88",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_current",
+      "callee": "PHPExcel_Worksheet_Row",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L113",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowiterator_phpexcel_worksheet_rowiterator_valid",
+      "callee": "getHighestRow",
+      "is_member_call": true,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowIterator.php",
+      "source_location": "L146",
+      "receiver": null
+    }
+  ]
+}

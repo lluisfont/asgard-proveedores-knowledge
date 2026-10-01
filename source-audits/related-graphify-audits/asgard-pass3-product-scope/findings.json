@@ -1,0 +1,109 @@
+{
+  "artifacts": {
+    "api-knowledge.md": {
+      "sha256": "cca182e90882e2a1e5dc60501946d6f015e99e4b95b79efc2ec81c979304cc24",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "audit-report.md": {
+      "sha256": "a7b292a1c9148654ece166e34ffa3c33ae7272e8468cf56bb539541ae39ff8a9",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    },
+    "openapi.yaml": {
+      "sha256": "c606f2827815b21679e0978ab68a761a576f5d9befb4cde0f0157ef9f4282d66",
+      "status": "validated",
+      "validation": "validate_audit_set"
+    }
+  },
+  "audit_id": "audit-a631f2caab021e22",
+  "audit_timestamp": "2026-09-15T11:44:15.639989+00:00",
+  "auditor_version": "0.8.0",
+  "coverage": {
+    "contract_enrichment": {
+      "path_parameters_applicable": 0,
+      "path_parameters_enriched": 0,
+      "request_enriched": 0,
+      "request_enrichment_applicable": 0,
+      "response_enriched": 0,
+      "response_enrichment_applicable": 0,
+      "security_enriched": 0,
+      "security_enrichment_applicable": 0,
+      "total_exposed_endpoints": 0,
+      "unresolved_contract_enrichment": 0
+    },
+    "detectors": [],
+    "exclusion_rules": [
+      ".brownfield",
+      ".git",
+      ".pytest_cache",
+      ".ruff_cache",
+      "build",
+      "dist_audit",
+      "dist_audit_iter",
+      "dist_audit_pass3",
+      "docs",
+      "graphify-out",
+      "graphify/__pycache__",
+      "graphify/exporters/__pycache__",
+      "graphify/extractors/__pycache__",
+      "tests",
+      "tools/__pycache__",
+      "tools/skillgen/__pycache__",
+      "worked"
+    ],
+    "files_excluded": 0,
+    "files_scanned": 456,
+    "frameworks": [],
+    "http_clients": [],
+    "inventory_complete": false,
+    "languages": [
+      "python"
+    ],
+    "notes": [
+      "Exact excluded-file count is not tracked in technical inventory v1.0.",
+      "contract_enrichment_scope=not_applicable",
+      "correlation_scope=out_of_scope"
+    ],
+    "required_detector_categories": [
+      "inventory",
+      "configuration"
+    ],
+    "semantic_enrichment": {
+      "operations_with_auth_context_facts": 0,
+      "operations_with_conditional_outcome_facts": 0,
+      "operations_with_data_access_facts": 0,
+      "operations_with_non_generic_description": 0,
+      "operations_with_outbound_integration_facts": 0,
+      "semantic_analysis_attempted": 0,
+      "semantic_complete": 0,
+      "semantic_partial": 0,
+      "semantic_unresolved": 0,
+      "semantic_unresolved_count": 0,
+      "total_exposed_endpoints": 0
+    },
+    "unsupported_surfaces": []
+  },
+  "endpoints": [],
+  "integration_surfaces": [],
+  "notes": [
+    "Generated from deterministic source discovery.",
+    "Consumed HTTP calls are retained in findings/knowledge but are not emitted as OpenAPI paths.",
+    "SOAP is retained as a non-REST integration surface."
+  ],
+  "repository": "graphify-v0.9.61",
+  "repository_id": "github.com/Graphify-Labs/graphify",
+  "schema_version": "2.0",
+  "source_commit": "fe66389083369c3159aa391117185c8f58b4d07c",
+  "source_ref": "HEAD",
+  "status": "partial",
+  "unresolved": [
+    {
+      "category": "coverage",
+      "description": "no_supported_api_detector_selected: Inventory did not select any v0.4 API detector. Absence of findings is not proof that the repository has no API integrations.",
+      "evidence": [],
+      "impact": "blocking",
+      "unresolved_id": "unresolved-f46f2fe5034fa51a"
+    }
+  ]
+}

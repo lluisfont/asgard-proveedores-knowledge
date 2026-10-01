@@ -1,0 +1,209 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_php",
+      "label": "RatingClass.php",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "label": "RatingClass",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_guardarrating",
+      "label": ".guardarRating()",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L8",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getrating",
+      "label": ".getRating()",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "stdclass",
+      "label": "stdClass",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/index_archivos/rating/RatingClass.php"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getquery",
+      "label": ".getQuery()",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "label": ".verificaMensual()",
+      "file_type": "code",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L46",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_php",
+      "target": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "target": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_guardarrating",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "target": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getrating",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getrating",
+      "target": "stdclass",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type"
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "target": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getquery",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass",
+      "target": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "target": "stdclass",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "parameter_type"
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_guardarrating",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L13",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getrating",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L30",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getquery",
+      "callee": "mysql_query",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L36",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getquery",
+      "callee": "mysql_num_rows",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L38",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_getquery",
+      "callee": "mysql_fetch_assoc",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L40",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "callee": "self",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L58",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "callee": "count",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L59",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "callee": "\\Carbon\\Carbon",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L60",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "callee": "\\Carbon\\Carbon",
+      "is_member_call": false,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L61",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_rating_ratingclass_ratingclass_verificamensual",
+      "callee": "isBefore",
+      "is_member_call": true,
+      "source_file": "index_archivos/rating/RatingClass.php",
+      "source_location": "L63",
+      "receiver": null
+    }
+  ]
+}

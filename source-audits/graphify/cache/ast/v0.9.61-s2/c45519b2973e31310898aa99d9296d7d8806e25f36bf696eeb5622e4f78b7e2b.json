@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_mpdf57_includes_cjkdata_php",
+      "label": "CJKdata.php",
+      "file_type": "code",
+      "source_file": "index_archivos/MPDF57/includes/CJKdata.php",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

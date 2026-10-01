@@ -1,0 +1,329 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_php",
+      "label": "RowDimension.php",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "label": "PHPExcel_Worksheet_RowDimension",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L94",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getrowindex",
+      "label": ".getRowIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L108",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setrowindex",
+      "label": ".setRowIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L118",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getrowheight",
+      "label": ".getRowHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L128",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setrowheight",
+      "label": ".setRowHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L138",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getzeroheight",
+      "label": ".getzeroHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L148",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setzeroheight",
+      "label": ".setzeroHeight()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L158",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getvisible",
+      "label": ".getVisible()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L168",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setvisible",
+      "label": ".setVisible()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L178",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getoutlinelevel",
+      "label": ".getOutlineLevel()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L188",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setoutlinelevel",
+      "label": ".setOutlineLevel()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L201",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getcollapsed",
+      "label": ".getCollapsed()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L215",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setcollapsed",
+      "label": ".setCollapsed()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L225",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getxfindex",
+      "label": ".getXfIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L235",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setxfindex",
+      "label": ".setXfIndex()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L246",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_clone",
+      "label": ".__clone()",
+      "file_type": "code",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L255",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_php",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getrowindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setrowindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getrowheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setrowheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getzeroheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L148",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setzeroheight",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getvisible",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setvisible",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getoutlinelevel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setoutlinelevel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getcollapsed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setcollapsed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_getxfindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setxfindex",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension",
+      "target": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_clone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L255",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_setoutlinelevel",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L203",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_clone",
+      "callee": "get_object_vars",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L256",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_reporteexcel_lib_phpexcel_phpexcel_worksheet_rowdimension_phpexcel_worksheet_rowdimension_clone",
+      "callee": "is_object",
+      "is_member_call": false,
+      "source_file": "index_archivos/reporteexcel/lib/PHPExcel/PHPExcel/Worksheet/RowDimension.php",
+      "source_location": "L258",
+      "receiver": null
+    }
+  ]
+}

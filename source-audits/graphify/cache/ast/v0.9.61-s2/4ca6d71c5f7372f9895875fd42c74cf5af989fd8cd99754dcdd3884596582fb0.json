@@ -1,0 +1,936 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_php",
+      "label": "Borders.php",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "label": "PHPExcel_Style_Borders",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "phpexcel_style_supervisor",
+      "label": "PHPExcel_Style_Supervisor",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "phpexcel_icomparable",
+      "label": "PHPExcel_IComparable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L131",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "label": ".getSharedComponent()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L173",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getstylearray",
+      "label": ".getStyleArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "label": ".applyFromArray()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L227",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getleft",
+      "label": ".getLeft()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L268",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getright",
+      "label": ".getRight()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L277",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gettop",
+      "label": ".getTop()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L286",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getbottom",
+      "label": ".getBottom()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L295",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonal",
+      "label": ".getDiagonal()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L304",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getallborders",
+      "label": ".getAllBorders()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L314",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getoutline",
+      "label": ".getOutline()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L327",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getinside",
+      "label": ".getInside()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L340",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getvertical",
+      "label": ".getVertical()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L353",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethorizontal",
+      "label": ".getHorizontal()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L366",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "label": ".getDiagonalDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L378",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "label": ".setDiagonalDirection()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L391",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "label": ".getHashCode()",
+      "file_type": "code",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L409",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_php",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "phpexcel_style_supervisor",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "phpexcel_icomparable",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getstylearray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getleft",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getright",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gettop",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getbottom",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L304",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getallborders",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L314",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getoutline",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getinside",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L340",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getvertical",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethorizontal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getleft",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getright",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gettop",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getbottom",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L248",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders",
+      "relation": "references_constant",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getstylearray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L397",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L411",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getleft",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getright",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L415",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gettop",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L416",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getbottom",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L418",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "target": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getdiagonaldirection",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L419",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "parent",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L134",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L137",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L138",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L139",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L140",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L141",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L147",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L148",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L149",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L150",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "PHPExcel_Style_Border",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L151",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L154",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L155",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L156",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L157",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L158",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L159",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L160",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L161",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L162",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_construct",
+      "callee": "bindParent",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L163",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getsharedcomponent",
+      "callee": "getBorders",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L175",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "is_array",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L228",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L230",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L232",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L235",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L238",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L241",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L244",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L247",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "array_key_exists",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L250",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_applyfromarray",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L258",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getallborders",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L316",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getoutline",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L329",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getinside",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L342",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_getvertical",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L355",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethorizontal",
+      "callee": "PHPExcel_Exception",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L368",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "callee": "getStyle",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L397",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "callee": "getActiveSheet",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L397",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_setdiagonaldirection",
+      "callee": "getSelectedCells",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L397",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "callee": "getHashcode",
+      "is_member_call": true,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L411",
+      "receiver": null
+    },
+    {
+      "caller_nid": "$graphify-root$_index_archivos_phpexcel_classes_phpexcel_style_borders_phpexcel_style_borders_gethashcode",
+      "callee": "md5",
+      "is_member_call": false,
+      "source_file": "index_archivos/PHPExcel/Classes/PHPExcel/Style/Borders.php",
+      "source_location": "L413",
+      "receiver": null
+    }
+  ]
+}
