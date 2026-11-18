@@ -1,0 +1,16 @@
+caller,line,kind,url
+index_archivos/embarques/editar.php,335,url:,ajax/subirArchivos.php
+index_archivos/permisos.php,14,action=,<?=$linksistema?>index_archivos/login.php
+index_archivos/embarques/js/datosCotizacion.js,12,url:,ajax/guardarOpeTrans.php
+index_archivos/embarques/js/datosCotizacion.js,216,url:,ajax/duplicarCotizacion.php?accion=duplicarCotizacion
+index_archivos/embarques/js/datosCotizacion.js,253,url:,cotizacionEditarController.php?accion=enviarCotizacion
+index_archivos/jqGrid/plugins/jquery.searchFilter.js,46,Url:,http://server/path/script.php?propName=propValue
+index_archivos/js/ux/ajax/SimManager.js,37,url:,page.php
+index_archivos/libs/logistica.js,159,url:,despachoajax.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,13,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,47,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,81,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,115,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,150,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,184,url:,exportaciones/ajax/filtros.php
+index_archivos/reportes/exportaciones/js/formulario-filtros.js,218,url:,exportaciones/ajax/filtros.php

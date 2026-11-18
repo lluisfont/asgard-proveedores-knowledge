@@ -1,0 +1,4624 @@
+{
+  "schema_status": "not_supplied",
+  "warning": "SQL tokens in static source are candidates, not verified physical tables, foreign keys or column types.",
+  "tables": [
+    {
+      "name": "Selected",
+      "reads": [
+        {
+          "path": "index_archivos/js/ux/form/ItemSelector.js",
+          "line": 40
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "ada_agentesaduana",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 142
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 329
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 189
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 69
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line": 33
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "ada_agentescontactos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php",
+          "line": 500
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 188
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 68
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "adaprov_agenteproveedor",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 144
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "adaprov_agenteproveedormercancia",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 657
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "ads_agenteseguro",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 77
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 271
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 285
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 144
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 294
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 324
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "ages_solicitudes_asesoria_gestion",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 122
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "all",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 2097
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 2782
+        }
+      ]
+    },
+    {
+      "name": "capacidad",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 504
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_aduana",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 41
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 70
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 104
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 139
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 199
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 259
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 318
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 356
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 397
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 437
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 505
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 558
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 226
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 105
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 269
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 511
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 84
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 171
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_aerolineas",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 92
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 417
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 606
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_casos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 569
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 354
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 395
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 435
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 123
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 82
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_casosprevios",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 572
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 37
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 723
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 745
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 121
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 191
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 71
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 168
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 683
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 770
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 804
+        }
+      ]
+    },
+    {
+      "name": "dav_ciudad",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 134
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 585
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 648
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 39
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 71
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 105
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 140
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 200
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 260
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 319
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 355
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 396
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 436
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 642
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 153
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 15
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 28
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 83
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 170
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_cliente",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 95
+        },
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 134
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 29
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 254
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 271
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 281
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 292
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 303
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 314
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 325
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 330
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 510
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 196
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 211
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 228
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 242
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 256
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 270
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 284
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 560
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 734
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 22
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 33
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 44
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 55
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 66
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 77
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+          "line": 82
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 41
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 18
+        },
+        {
+          "path": "index_archivos/reportes/filtros/clientes.php",
+          "line": 4
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 173
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 53
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 55
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 131
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 256
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 55
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 203
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 266
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 547
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 931
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 88
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 17
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 167
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clientealmacen",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 226
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 538
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 192
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 72
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clientelineas",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 76
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 145
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 434
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 445
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 456
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 467
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 478
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 489
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 494
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 43
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 72
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 106
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 141
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 201
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 261
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 320
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 357
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 398
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 438
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 630
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 676
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 20
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 31
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 53
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 64
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 75
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 228
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 85
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clientereportescliente",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 61
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clientetipoproducto",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 618
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clientetransportista",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 133
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 126
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 950
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 980
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1329
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 54
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 197
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 419
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 578
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 508
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 150
+        },
+        {
+          "path": "index_archivos/principal.php",
+          "line": 156
+        },
+        {
+          "path": "index_archivos/reportes/filtros/operadores.php",
+          "line": 4
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 171
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 19
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 51
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_clienteusuarios",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 602
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 142
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+          "line": 111
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_codigos_2fa",
+      "reads": [
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line": 142
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line": 136
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line": 150
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line": 157
+        }
+      ]
+    },
+    {
+      "name": "dav_contadorreportesclientes",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/reporteexcel/reporteexcelNew.php",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "name": "dav_dam",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 171
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 231
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 292
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_damitems",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 170
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 230
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 291
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_divisa",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 455
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 570
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_documentosprevios",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 744
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 745
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 743
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 801
+        }
+      ]
+    },
+    {
+      "name": "dav_facturacomercial",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ajax/buscar-partida.php",
+          "line": 11
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_localidad",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 116
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 210
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 220
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 232
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1091
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1108
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1134
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1267
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 413
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 415
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_meses",
+      "reads": [
+        {
+          "path": "index_archivos/js/formularios.php",
+          "line": 756
+        },
+        {
+          "path": "index_archivos/js/formulariosA.php",
+          "line": 734
+        },
+        {
+          "path": "index_archivos/js/formulariosB.php",
+          "line": 750
+        },
+        {
+          "path": "index_archivos/js/formulariosR.php",
+          "line": 760
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_modotransporte",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 416
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 570
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 582
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 267
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_modotransportedocumento",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 744
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_navieras",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 418
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 594
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_otrosdocumentosprevios",
+      "reads": [
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 66
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 95
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 140
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 249
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 381
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 802
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 64
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 86
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 98
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 112
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 123
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 135
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 144
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 286
+        }
+      ]
+    },
+    {
+      "name": "dav_pais",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 133
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 137
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 138
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 143
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 212
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 223
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 235
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 119
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 624
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1110
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 412
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 414
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 67
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 79
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 271
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 279
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/ajax/lista.php",
+          "line": 17
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 222
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 101
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 186
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 479
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_partidas",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ajax/buscar-partida.php",
+          "line": 12
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_proveedor",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 102
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 132
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 353
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 364
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 375
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 386
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 397
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 408
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 413
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 520
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 195
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 210
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 227
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 241
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 255
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 269
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 283
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 38
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 73
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 107
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 142
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 202
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 262
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 321
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 358
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 399
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 439
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 507
+        },
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 18
+        },
+        {
+          "path": "index_archivos/reportes/filtros/proveedores.php",
+          "line": 10
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 172
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 52
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 630
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 930
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 86
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 172
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line": 32
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_puerto",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 135
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 211
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 221
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 233
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 19
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 632
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1109
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_rating",
+      "reads": [
+        {
+          "path": "index_archivos/rating/RatingClass.php",
+          "line": 27
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/rating/RatingClass.php",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "name": "dav_regimen",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 40
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 506
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 534
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 225
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 104
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_region",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 222
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 234
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1149
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1277
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 202
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 217
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 231
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 245
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 259
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 273
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 287
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_reseteos_passswords_proveedores",
+      "reads": [
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 47
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 78
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 20
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 62
+        }
+      ]
+    },
+    {
+      "name": "dav_tipodeclaracion",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 546
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 227
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 106
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 268
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 528
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_tipodocumento",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 744
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_tipomercancia",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 270
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 642
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_tramites",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 688
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 800
+        }
+      ]
+    },
+    {
+      "name": "dav_transportista",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 114
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 556
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1028
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 40
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 212
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 229
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 243
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 257
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 561
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 149
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 932
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line": 31
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_transportistamail",
+      "reads": [
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 277
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_unidad",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 155
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 572
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 337
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 60
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 271
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 357
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 220
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_usuario",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 88
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 359
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 400
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 440
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 522
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php",
+          "line": 481
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 44
+        },
+        {
+          "path": "index_archivos/versolicitud.php",
+          "line": 87
+        },
+        {
+          "path": "index_archivos/versolicituddetalle.php",
+          "line": 169
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "dav_vehiculosprevios",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 169
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 229
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 290
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 116
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 365
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 803
+        }
+      ]
+    },
+    {
+      "name": "dex_suma",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+          "line": 94
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 31
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 33
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 35
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 37
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 63
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 65
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 67
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 69
+        }
+      ]
+    },
+    {
+      "name": "dex_suma_estado_historial",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "name": "failed",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/data.php",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "name": "ges_gestores_transporte",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 146
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 109
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 233
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 265
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 933
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "intercambiodocumental",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 229
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "log_asgard_cloud",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/logAsgard.php",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "name": "logis_aeropuertos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 39
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 47
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 64
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_categorias_costos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 342
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 401
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_contenedor",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 170
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 171
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 598
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 611
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 840
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 841
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 419
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_costos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 445
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 509
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 583
+        },
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 20
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 231
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 448
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 579
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 589
+        }
+      ]
+    },
+    {
+      "name": "logis_costos_concepto",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 485
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 567
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_costos_detalle",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 426
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 548
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 232
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 233
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 234
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 235
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 236
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 237
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 384
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 449
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 558
+        }
+      ]
+    },
+    {
+      "name": "logis_costosconcepto",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 36
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 251
+        },
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 16
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_costosdetalles",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 20
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 273
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 292
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 299
+        }
+      ]
+    },
+    {
+      "name": "logis_cotizacion",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 14
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 14
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_cotizacionoperador",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/costos.php",
+          "line": 18
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_edp",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 193
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 194
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 195
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 196
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 197
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 198
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 199
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 200
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 201
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 202
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 203
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 204
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 205
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 206
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 207
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 208
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 209
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 210
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 211
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 212
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 213
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 214
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 215
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 216
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 217
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 218
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 219
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 220
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 223
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 73
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 74
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 75
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 76
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 77
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 78
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 79
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 81
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 82
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 83
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 84
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 85
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 86
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 87
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 88
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 89
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 90
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 91
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 92
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 93
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 94
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 95
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 96
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 97
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 98
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 99
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 102
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1643
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 102
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1646
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquereferencias",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1316
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_embarques",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 20
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 319
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 571
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 598
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 608
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 609
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1019
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1348
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 192
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 361
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 576
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 620
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 74
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 108
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 143
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 172
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 203
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 232
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 263
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 293
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 322
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 360
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 401
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 441
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaRutas.php",
+          "line": 17
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php",
+          "line": 782
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_lista_viajes.php",
+          "line": 97
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_rutas.php",
+          "line": 9
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 148
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 156
+        },
+        {
+          "path": "index_archivos/embarques/embarquever.php",
+          "line": 134
+        },
+        {
+          "path": "index_archivos/embarques/embarquever.php",
+          "line": 256
+        },
+        {
+          "path": "index_archivos/embarques/frames/costos.php",
+          "line": 53
+        },
+        {
+          "path": "index_archivos/embarques/frames/documentos.php",
+          "line": 82
+        },
+        {
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line": 20
+        },
+        {
+          "path": "index_archivos/embarques/frames/rutas.php",
+          "line": 102
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 259
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 128
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocal.php",
+          "line": 114
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 110
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 54
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 130
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 255
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 54
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 202
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1371
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1637
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php",
+          "line": 127
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 657
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 875
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1002
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1062
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1176
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1366
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 670
+        },
+        {
+          "path": "index_archivos/logistica/embarquereferencia.php",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquescontenedor",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 726
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1050
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1227
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1230
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquesdatos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 113
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 819
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 631
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 993
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1060
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquesdocumentos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 196
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 865
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 966
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 118
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 800
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 926
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1056
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 323
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 371
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquesmagnitudes",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 826
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1047
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1224
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 633
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 703
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 701
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1054
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1211
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1212
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquesoperador",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 132
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 189
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 91
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 858
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1037
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1076
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 577
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 151
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 20
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 283
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 763
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 771
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 990
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 992
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1001
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1010
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1058
+        }
+      ]
+    },
+    {
+      "name": "logis_embarquesrutas",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 434
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 471
+        }
+      ]
+    },
+    {
+      "name": "logis_estados",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 179
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 22
+        },
+        {
+          "path": "index_archivos/reportes/filtros/logis_estados.php",
+          "line": 8
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 187
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 67
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_estados_edp",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 40
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 67
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 260
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 270
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 129
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 139
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_incoterms",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 127
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 571
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 106
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 190
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 70
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_libroventas",
+      "reads": [
+        {
+          "path": "index_archivos/cargarlibroventas_ajax.php",
+          "line": 94
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/cargarlibroventas_ajax.php",
+          "line": 107
+        }
+      ]
+    },
+    {
+      "name": "logis_pedidos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 147
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1343
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1291
+        }
+      ]
+    },
+    {
+      "name": "logis_pedidos_detalle",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1356
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1300
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1359
+        },
+        {
+          "path": "index_archivos/embarques/ajax/saveDescripcionItems.php",
+          "line": 9
+        }
+      ]
+    },
+    {
+      "name": "logis_tipocarga",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 136
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 140
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 214
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 225
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 237
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 192
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1112
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 224
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 103
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 404
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 632
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1409
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tipoembarque",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 128
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 161
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 194
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 209
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 226
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 240
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 254
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 268
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 282
+        },
+        {
+          "path": "index_archivos/embarques/datoscaso.php",
+          "line": 16
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrolad.php",
+          "line": 136
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 310
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 546
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 929
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tipomercancia",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 129
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 217
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 341
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tipomercanciaclase",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 130
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 229
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 372
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tipomercanciaun",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 131
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 241
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 388
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tipoviaje",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 141
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 820
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 193
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 208
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 225
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 239
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 253
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 267
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 281
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 294
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 548
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 578
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 928
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "logis_tramos",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 201
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 216
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 230
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 244
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 258
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 272
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 286
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 221
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 221
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 100
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 100
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1408
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 741
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1244
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1246
+        }
+      ]
+    },
+    {
+      "name": "master_pass",
+      "reads": [
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line": 53
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "prov_clientes_proveedores",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1330
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 47
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 314
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 115
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 338
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 61
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 599
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 605
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 24
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 36
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 53
+        },
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 132
+        }
+      ]
+    },
+    {
+      "name": "prov_proveedorusuariospermisos",
+      "reads": [
+        {
+          "path": "index_archivos/MenuClass.php",
+          "line": 17
+        },
+        {
+          "path": "index_archivos/MenuClass.php",
+          "line": 33
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "prov_tipoproveedor",
+      "reads": [
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line": 75
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line": 30
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "prov_usuarioaccesoproveedor",
+      "reads": [
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line": 109
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 608
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1331
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 620
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 46
+        },
+        {
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line": 156
+        },
+        {
+          "path": "index_archivos/logAsgard.php",
+          "line": 47
+        },
+        {
+          "path": "index_archivos/menu.php",
+          "line": 23
+        },
+        {
+          "path": "index_archivos/menu_b4.php",
+          "line": 82
+        },
+        {
+          "path": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+          "line": 110
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 291
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php",
+          "line": 127
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line": 9
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line": 15
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line": 30
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line": 170
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "tck_aduanasrutasplazos",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 736
+        }
+      ]
+    },
+    {
+      "name": "tck_asignacion_viaje",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 199
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line": 214
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 162
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 111
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 166
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 300
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 363
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1367
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php",
+          "line": 128
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line": 31
+        },
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line": 24
+        },
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line": 31
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 231
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1100
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1511
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 585
+        }
+      ]
+    },
+    {
+      "name": "tck_asignacionesviajes",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 666
+        }
+      ]
+    },
+    {
+      "name": "tck_capacidadestransporte",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 504
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_carga",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 114
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 67
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 364
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 59
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 844
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1168
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1584
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 436
+        }
+      ]
+    },
+    {
+      "name": "tck_choferoperador",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 15
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 169
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 22
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 212
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 216
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 391
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 807
+        }
+      ]
+    },
+    {
+      "name": "tck_documentos_soporte_lista",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 494
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_documentosoperadortransporte",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 68
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 410
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 385
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 461
+        }
+      ]
+    },
+    {
+      "name": "tck_documentossoporte",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1453
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 765
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1351
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1606
+        }
+      ]
+    },
+    {
+      "name": "tck_empresa_transporte",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line": 23
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 117
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 56
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 132
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 257
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 56
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 265
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 837
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1133
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1548
+        }
+      ]
+    },
+    {
+      "name": "tck_eventos",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 195
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 401
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 149
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 169
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_imagenes",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 70
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 75
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 85
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 414
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 444
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/ajax/cargar-imagenes-viaje.php",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "name": "tck_items_localizaciones",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 169
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1317
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 490
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 551
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 642
+        }
+      ]
+    },
+    {
+      "name": "tck_localizaciones",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 112
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 156
+        },
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 62
+        },
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 79
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 298
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 339
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 62
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 148
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 843
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 850
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1197
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1595
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 464
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 519
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 633
+        }
+      ]
+    },
+    {
+      "name": "tck_location",
+      "reads": [
+        {
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line": 98
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 304
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 154
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 166
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 86
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 113
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 140
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1243
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1265
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php",
+          "line": 8
+        }
+      ]
+    },
+    {
+      "name": "tck_lugaresentregacarga",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 139
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 213
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 224
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line": 236
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 205
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 640
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line": 1111
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 278
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_operadorestransporte",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 59
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 135
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 260
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 58
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 28
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 339
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 42
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 356
+        },
+        {
+          "path": "index_archivos/tracking/ajax/borrarempresa.php",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "name": "tck_orden_viaje",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1393
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1111
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1527
+        }
+      ]
+    },
+    {
+      "name": "tck_programacionembarques",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 681
+        }
+      ]
+    },
+    {
+      "name": "tck_registrareventos",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 75
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 88
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 100
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 152
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 159
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 163
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 63
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 64
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 65
+        },
+        {
+          "path": "index_archivos/tracking/ajax/cargar-imagenes-viaje.php",
+          "line": 9
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_registrarincidentes",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 397
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_registros_entregas_recojos",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 429
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_rutas",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 654
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 511
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_rutasautorizadas",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1081
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1617
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1340
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1620
+        }
+      ]
+    },
+    {
+      "name": "tck_tiposcarguios",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 290
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_tiposunidades",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 492
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_tipoubicaciones",
+      "reads": [
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 43
+        },
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 55
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 155
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 600
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 606
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_tmpcargamasiva",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 88
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 113
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 121
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 227
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 341
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 27
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 80
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 107
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 267
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 289
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 309
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 335
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 574
+        }
+      ]
+    },
+    {
+      "name": "tck_trackeo",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 66
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 142
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 267
+        }
+      ],
+      "writes": []
+    },
+    {
+      "name": "tck_transporte",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 793
+        }
+      ]
+    },
+    {
+      "name": "tck_transportista",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line": 22
+        },
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 118
+        },
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 78
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 57
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 58
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 133
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 134
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 258
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 259
+        },
+        {
+          "path": "index_archivos/tracking/ReporteViajesClass.php",
+          "line": 57
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1562
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 833
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1149
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 1565
+        }
+      ]
+    },
+    {
+      "name": "tck_transportistausuario",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 11
+        },
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 45
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 444
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 198
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 516
+        }
+      ]
+    },
+    {
+      "name": "tck_ubicaciones",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 327
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 609
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 242
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 621
+        }
+      ]
+    },
+    {
+      "name": "tck_unidadestransporte",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/CommonsClass.php",
+          "line": 108
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 112
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 427
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 86
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line": 750
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line": 201
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 124
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 388
+        },
+        {
+          "path": "index_archivos/tracking/TrackingClass.php",
+          "line": 564
+        }
+      ]
+    },
+    {
+      "name": "the",
+      "reads": [],
+      "writes": [
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 1364
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 2879
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 5351
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 5364
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 6150
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 6161
+        },
+        {
+          "path": "index_archivos/js/datatables.js",
+          "line": 11780
+        }
+      ]
+    },
+    {
+      "name": "tmp_casosdampendientes",
+      "reads": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 204
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 264
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 323
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 163
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 223
+        },
+        {
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line": 284
+        }
+      ]
+    },
+    {
+      "name": "tmp_estadoEmbarque",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 186
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 66
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 253
+        },
+        {
+          "path": "index_archivos/reportes/reportecontroladquery.php",
+          "line": 267
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 122
+        },
+        {
+          "path": "index_archivos/reportes/reportecontrololquery.php",
+          "line": 136
+        }
+      ]
+    },
+    {
+      "name": "tmp_eventos",
+      "reads": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 119
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+          "line": 137
+        }
+      ]
+    },
+    {
+      "name": "tmp_logisoperadorubicaciones",
+      "reads": [
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 254
+        }
+      ],
+      "writes": [
+        {
+          "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+          "line": 243
+        }
+      ]
+    },
+    {
+      "name": "v_tck_infoviajecliente",
+      "reads": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line": 378
+        }
+      ],
+      "writes": []
+    }
+  ]
+}

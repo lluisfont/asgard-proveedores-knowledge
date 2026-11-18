@@ -39,6 +39,11 @@ def write(path, content):
 
 
 def main():
+    manifest = json.loads(text('knowledge/manifest.json'))
+    if manifest.get('knowledge_pack', {}).get('version') != '0.1.0':
+        import runpy
+        runpy.run_path(str(ROOT / 'scripts/audit/build_knowledge.py'), run_name='__main__')
+        return
     endpoints = rows(BF + 'custom/http_endpoint_catalog.csv')
     domains = rows(BF + 'semantic_flow_analysis/DOMAIN_FLOW_SEMANTIC_SUMMARY.csv')
     risks = rows(API + 'api-deep-iterative/endpoint_deep_risks.csv')

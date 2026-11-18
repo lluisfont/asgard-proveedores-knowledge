@@ -1,17 +1,18 @@
-# Dominios y superficie candidata
+# Dominios y modulos de Proveedores
 
-Agrupaciones tecnicas extraidas del catalogo PHP/AJAX historico. Los nombres de carpetas no confirman limites de negocio. Fuente: `source-audits/brownfield/reports/custom/http_endpoint_catalog.csv`.
+AS-IS estatico del commit `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`, rama `master`. Los candidatos requieren verificar configuracion y despliegue.
+
+Entradas principales: [procesos](../general/workflows.md), [actores](../general/actors-and-permissions.md), [reglas](../general/business-rules.md), [glosario de negocio](../glossary/business-glossary.md).
 
 | Grupo de handlers | Candidatos |
 | --- | --- |
-| embarques | 82 |
-| tracking | 74 |
-| (raiz) | 23 |
-| reportes | 17 |
+| embarques | 81 |
+| tracking | 75 |
+| (raiz) | 24 |
 | parametros | 15 |
+| reportes | 15 |
 | js | 7 |
 | libs | 6 |
-| preembarques | 4 |
 | resetpassword | 4 |
 | 2fa | 3 |
 | rating | 3 |
@@ -21,12 +22,4 @@ Agrupaciones tecnicas extraidas del catalogo PHP/AJAX historico. Los nombres de 
 | ajax | 1 |
 | php-jwt-5.2.0 | 1 |
 
-Reconstruccion semantica Brownfield, pendiente de revision humana:
-
-| Dominio candidato | Procesos | Tablas | Campos | Estado |
-| --- | --- | --- | --- | --- |
-| general-business-data | 42 | 370 | 4348 | INFERRED_DRAFT_REVIEW_REQUIRED |
-| identity-access | 1 | 2 | 25 | INFERRED_DRAFT_REVIEW_REQUIRED |
-| operations-workflow | 5 | 0 | 0 | INFERRED_DRAFT_REVIEW_REQUIRED |
-
-Fuente: `source-audits/brownfield/reports/semantic_flow_analysis/DOMAIN_FLOW_SEMANTIC_SUMMARY.csv`. Las definiciones completas permanecen en los mapas, glosario y diccionarios originales.
+Estas agrupaciones son tecnicas; no equivalen a bounded contexts confirmados. Las diferencias por pais estan en [variantes](../variants/README.md). Las pantallas dedicadas de pedidos y preembarques de Peru no se incorporan como funciones universales de master; master ya contiene operaciones relacionadas con pedidos.

@@ -1,0 +1,23 @@
+{
+  "endpoint_risk_rows": 176,
+  "consumer_risk_rows": 19,
+  "endpoint_flags": {
+    "DB_WRITE": 7,
+    "NO_CSRF": 73,
+    "CALLER_REFERENCED": 55,
+    "IDOR_CANDIDATE": 51,
+    "SQL_TAINT": 16,
+    "NO_LOCAL_AUTH": 71,
+    "PASSWORD_CHANGE_NO_LOCAL_AUTH": 2,
+    "PATH_TRAVERSAL_CANDIDATE": 2,
+    "UPLOAD_IMPORT": 47,
+    "DANGEROUS_SINK": 3
+  },
+  "consumer_flags": {
+    "UNRESOLVED_BASE_CONSTANT": 8,
+    "TLS_VERIFY_DISABLED": 3,
+    "SECRET_IN_CONTEXT": 11,
+    "DEV_OR_PLAINTEXT_EGRESS": 6
+  },
+  "output": "C:\\repos\\proveedores-github-review-20261118\\.brownfield\\work\\custom\\api-deep-iterative"
+}

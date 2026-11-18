@@ -1,4 +1,10 @@
-# API Knowledge de Proveedores
+# API Knowledge historico de Peru
+
+La referencia actual de master esta en
+`knowledge/general/api-reference.md` y los artefactos nuevos en
+`source-audits/master/2026-11-18/brownfield/custom/`.
+Las cifras y resultados de este documento describen exclusivamente la
+auditoria historica de Peru, no la ejecucion actual sobre master.
 
 Version del auditor nativo: `asgard-api-auditor 0.8.0`.
 Fecha de las auditorias originales: 2026-09-15.

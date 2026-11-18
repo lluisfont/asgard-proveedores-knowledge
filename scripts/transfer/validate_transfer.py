@@ -74,10 +74,17 @@ def main():
     if leaked:
         raise ValueError('Unexpected application/runtime files: ' + ', '.join(leaked))
     graph = json.loads((root / 'knowledge/graph-summary.json').read_text(encoding='utf-8'))
+    historical_manifest = root / 'knowledge/history/manifest-20261001.json'
+    if historical_manifest.exists():
+        historical = json.loads(historical_manifest.read_text(encoding='utf-8-sig'))
+        original_graph = historical['audits']['graphify']
+        graph = {'nodes': original_graph['nodes'], 'edges': original_graph['edges'],
+                 'full_graph': 'source-audits/graphify/graph.json.gz'}
     graph_data = json.loads(gzip.decompress((root / graph['full_graph']).read_bytes()))
     if len(graph_data['nodes']) != graph['nodes'] or len(graph_data['links']) != graph['edges']:
         raise ValueError('Graph count mismatch')
-    report = {'status': 'PASS', 'transferred_artifact_entries': len(manifest['entries']),
+    report = {'status': 'PASS', 'scope': 'historical_peru_transfer',
+              'transferred_artifact_entries': len(manifest['entries']),
               'historical_checkpoints': len(manifest['checkpoints']), 'historical_checkpoint_entries': checkpoint_entries,
               'distinct_verified_payloads': files, 'text_artifacts_checked': text_count,
               'nodes': graph['nodes'], 'edges': graph['edges'],

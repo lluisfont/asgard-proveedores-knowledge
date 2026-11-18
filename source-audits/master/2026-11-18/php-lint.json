@@ -1,0 +1,1684 @@
+{
+  "runtime": "PHP 8.4.25 (cli) (built: Aug 25 2026 18:38:47) (ZTS Visual C++ 2022 x64)",
+  "short_open_tag": true,
+  "executed_application": false,
+  "files": 279,
+  "failed": 3,
+  "results": [
+    {
+      "path": ".env-example.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/2fa.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/2fa/TwoFaClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/2fa/ajax/autenticar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/2fa/ajax/reenviar-codigo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/2fa/ajax/verificar-codigo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/HelperClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/MailClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/MenuClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/ajax/buscarDatos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/boton.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/cambiocontrasena.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/cambiocontrasena_update.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/cargarlibroventas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/cargarlibroventas_ajax.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/cnfdb105.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/controllers/Commons.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/controllers/GlobalClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/dashboards/implementaciondt.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/data.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/download.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/CostosClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/CotizacionClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/EmbarqueClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/SolicitudesClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ViajesClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/asignar-viaje-embarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/borrarEmbarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/duplicarEmbarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/get-categorias.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/get-conceptos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/get-costos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/get-monedas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/guardar-costos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/guardarAgenteProveedor.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/guardarCostos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/guardarGestionAduanera.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/guardarRuta.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaAerolineas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaClientes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaClientesFiltro.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaEstado.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaLineasFiltro.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaModalidadTransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaPais.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaProveedoresFiltro.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaRutas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/listaTipoMercancia.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/notificacionDiariaRutas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/recuperar-viajes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/ajax/saveDescripcionItems.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/asesoria-gestion/index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/internacional/aereo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/internacional/ferreo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/internacional/multimodal.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/internacional/terrestre.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/internacional/textoplano.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/local/ferreo.php",
+      "exit_code": 255,
+      "status": "fail",
+      "message": "Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in <source>\\index_archivos\\embarques\\componentes\\cotizaciones\\local\\ferreo.php on line 57\nErrors parsing <source>\\index_archivos\\embarques\\componentes\\cotizaciones\\local\\ferreo.php"
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/local/terrestre.php",
+      "exit_code": 255,
+      "status": "fail",
+      "message": "Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in <source>\\index_archivos\\embarques\\componentes\\cotizaciones\\local\\terrestre.php on line 57\nErrors parsing <source>\\index_archivos\\embarques\\componentes\\cotizaciones\\local\\terrestre.php"
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/local/textoplano.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/nacional/aereo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/nacional/ferreo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/nacional/terrestre.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/cotizaciones/nacional/textoplano.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_contenedor_modal.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_costos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_crear_documentacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_datos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_datosotros.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_datosotrosemb.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_detalle_gestion_aduanera.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_diccionario_palabras.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_documentacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_lista_viajes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_rutas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_rutas_modal.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_textoplano.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_ver_gestion_aduanera.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/embarques_viaje_detalle.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/estado-pedidos/ajax/eliminar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/estado-pedidos/ajax/get-estado-pedidos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/estado-pedidos/ajax/get-estados.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/estado-pedidos/ajax/guardar-edp.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/costos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/datoscaso.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/editar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/editarController.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/embarquecrear.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/embarquesController.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/embarquever.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/aduanas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/costos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/datoscaso.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/documentos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/estado-pedidos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/inventario.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/inventario_local.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/items.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/rutas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/servicios-adicionales.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/frames/tracking.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/embarques/verembarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/encodeUser.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/excel.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/footer.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/footerbs4.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/guardia_descargas_rel.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/bootstrap-filestyle/test/upload.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/fValidate/fValidate.server.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/formularios.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/formulariosA.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/formulariosB.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/formulariosR.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/formulariosxls.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/js/numerosliteral.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/layouts/google_analytics.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/layouts/styles.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/js.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/config.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/libs/Correo.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/libs/MonedaLiteral.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/libs/PDO.Iterator.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/libs/PDO.Log.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/modulos/libs/PDO.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/pdo/PDO.Iterator.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/pdo/PDO.Log.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/pdo/PDO.class.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/php/arraycolumn/array_column.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/libs/reportelibs_bs2.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/logAsgard.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/login.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/logistica/embarquereferencia.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/logistica/inventario-chasis.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/logout.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/menu.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/menu_b4.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/Responses.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/actualizar-cliente.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/borrar-cliente.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/cargar-excel-clientes-proveedores.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/get-cliente.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/get-clientes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/ajax/nuevo-cliente.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/clientes/index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/Ubicacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/ajax/editar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/ajax/eliminar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/ajax/guardar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/ajax/lista.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/ajax/uploadexcel.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/componentes/datos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/importar.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/parametros/ubicaciones/index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/permisos.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/principal.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/rating/RatingClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/rating/get-rating.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/rating/rating.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/rating/verifica-mensual.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reporteexcel/reporteexcel.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reporteexcel/reporteexcelNew.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/filtros/clientes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/filtros/fechas.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/filtros/logis_estados.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/filtros/operadores.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/filtros/proveedores.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/inventario-por-chasis.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/recepcion_fisica_mics.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportecontrolad.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportecontroladquery.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportecontrolol.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportecontrololquery.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportetrackingnacionallocal.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/reportes/reportetrackingnacionallocalquery.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/resetpassword/ResetPassword.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/resetpassword/ajax/generateToken.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/resetpassword/ajax/resetPassword.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/resetpassword/ajax/sendCredentials.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/resetpassword/index.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/CommonsClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/HerramientasClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ListaViajesClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ReporteViajesClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/TrackingClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/TrackingNewClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/actualizardocumentoempresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/actualizarempresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/actualizartransportista.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/actualizarubicacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/actualizarunidadtransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/agregar_chofer.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/borrarempresa.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/borrarparametros.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/buscar-partida.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/cargar-imagenes-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/comprobar_ci.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/delete_trip.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/discontinued-trip.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/duplicar-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/eliminarviaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/getdocumentostransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/getempresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/gettransportista.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/getunidadtransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/guardarasigancionviaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/guardardocumentoempresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/guardarempresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/guardartransportista.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/guardarunidadtransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/imagenes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/localizacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/buscar-chofer-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/datos-iniciales.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/eliminar-destino.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/lista-choferes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/lista-destinos-asignados.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/lista-unidades.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/reasignacion-viajes/reasignar-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/unidadestransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/conductores.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/detalle_cliente.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/editar_asignacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/embarques.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/guardar_asignacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/guardar_ubicacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/origen.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/parametros.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/ajaxAsignacion/transporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/asignacionviaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/carga-masiva.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/aduana_ruta_plazo.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/datos_generales.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/datos_mercancia.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/multimodal-programacion-embarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/programacion_embarque-local.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/programacion_embarque-nacional.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/programacion_embarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/asignacion_viaje/terrestre-programacion-embarque.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/modal-edit-document.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/modal-edit-unity.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/modal-edit-user-transport.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/components/modal-map.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/crear-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/documentosempresatransporte.php",
+      "exit_code": 255,
+      "status": "fail",
+      "message": "Fatal error: Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in <source>\\index_archivos\\tracking\\documentosempresatransporte.php on line 37\nErrors parsing <source>\\index_archivos\\tracking\\documentosempresatransporte.php"
+    },
+    {
+      "path": "index_archivos/tracking/editar-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/empresatransporte.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/generar_excel.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/generar_excel_detalle.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/getImage.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/guardia_imagen.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/listaviajes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/localizacion.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/logistica-internacional.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/logistica-local.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/logistica-nacional.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/reporte-detalle-viaje.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/reporte-viajes.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/tracking/viajedetalle.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/usuario/UsuarioClass.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/usuario/ajax/update-password.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/usuario/editar-perfil.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/veriflogin.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/versolicitud.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "index_archivos/versolicituddetalle.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "info.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "src/core/users/application/Find/UserFind.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    },
+    {
+      "path": "src/core/users/config.php",
+      "exit_code": 0,
+      "status": "pass",
+      "message": ""
+    }
+  ],
+  "warning": "Syntax check under local PHP only. Dockerfile declares PHP 5.4; deployment/runtime/DB remain unverified."
+}

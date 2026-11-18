@@ -1,7 +1,9 @@
 {
-  "nodes": 48495,
-  "edges": 116642,
-  "includes_third_party": true,
-  "community_count": 3043,
-  "full_graph": "source-audits/graphify/graph.json.gz"
+  "nodes": 2173,
+  "edges": 2711,
+  "community_count": 620,
+  "includes_third_party": "possible_residual_dependencies",
+  "dependency_exclusion_is_best_effort": true,
+  "full_graph": "source-audits/master/2026-11-18/graphify/graph.json.gz",
+  "historical_peru_graph": "source-audits/graphify/graph.json.gz"
 }

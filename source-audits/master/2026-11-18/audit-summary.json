@@ -1,0 +1,42 @@
+{
+  "repository": "https://github.com/KPO-Group/proveedores",
+  "branch": "master",
+  "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "audit_date": "2026-11-18",
+  "tracked_entries": 10629,
+  "first_party_code_files": 545,
+  "php_files_linted": 279,
+  "php_lint_failures": 3,
+  "request_field_references": 1222,
+  "sql_token_references": 942,
+  "table_candidates": 134,
+  "credential_literal_locations": 6,
+  "database_schema": "not_versioned_in_master",
+  "submodules": [
+    {
+      "path": "index_archivos/intercambioDocumental",
+      "mode": "160000",
+      "kind": "commit",
+      "blob": "dc840f9dd80d5d0bda0f31c343a0f9f877519327",
+      "bytes": null,
+      "sha256_checkout": null,
+      "scope": "first_party_review"
+    },
+    {
+      "path": "index_archivos/servicioNotificaciones",
+      "mode": "160000",
+      "kind": "commit",
+      "blob": "71e3097542750058b4880f3595cd2ed3b1a89fc6",
+      "bytes": null,
+      "sha256_checkout": null,
+      "scope": "first_party_review"
+    }
+  ],
+  "native_asgard": {
+    "status": "not_executed",
+    "reason": "Windows Application Control blocked installed executable"
+  },
+  "runtime_validation": "not_executed_missing_deployment_environment",
+  "source_writes": "audit_tool_metadata_only"
+}

@@ -26,10 +26,19 @@ function Resolve-KnowledgeRoot {
 }
 $KnowledgeRepo = Resolve-KnowledgeRoot -Explicit $KnowledgeRepo
 $target = (Resolve-Path $TargetRepo).Path
-foreach ($dir in @("knowledge", "scripts\knowledge", "source-audits")) {
+if ($target -eq $KnowledgeRepo) { throw "Knowledge source and application checkout must be different directories" }
+foreach ($dir in @("knowledge", "scripts\knowledge", "scripts\audit", "scripts\transfer", "source-audits")) {
   $src = Join-Path $KnowledgeRepo $dir
   if (Test-Path -LiteralPath $src) {
     $dst = Join-Path $target $dir
+    $resolvedDestination = [IO.Path]::GetFullPath($dst)
+    $resolvedRoot = [IO.Path]::GetFullPath($target).TrimEnd('\', '/') + [IO.Path]::DirectorySeparatorChar
+    if (-not $resolvedDestination.StartsWith($resolvedRoot, [StringComparison]::OrdinalIgnoreCase)) {
+      throw "Knowledge destination is outside the requested checkout: $resolvedDestination"
+    }
+    if ((Test-Path -LiteralPath $dst) -and ((Get-Item -LiteralPath $dst -Force).Attributes -band [IO.FileAttributes]::ReparsePoint)) {
+      throw "Knowledge destination cannot be a junction or symbolic link: $dst"
+    }
     New-Item -ItemType Directory -Force -Path (Split-Path $dst -Parent) | Out-Null
     if (Test-Path -LiteralPath $dst) { Remove-Item -LiteralPath $dst -Recurse -Force }
     Copy-Item -LiteralPath $src -Destination $dst -Recurse -Force
@@ -43,6 +52,8 @@ $ignoreBlock = @"
 # Knowledge Pack local install
 knowledge/
 scripts/knowledge/
+scripts/audit/
+scripts/transfer/
 source-audits/
 KNOWLEDGE_PACK.md
 "@

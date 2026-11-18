@@ -1,0 +1,1 @@
+from_table,from_column,to_table,to_column,relation_type,constraint_name,on_delete,on_update,source,line,evidence_id

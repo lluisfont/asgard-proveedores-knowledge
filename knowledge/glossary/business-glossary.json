@@ -1,0 +1,4415 @@
+{
+  "schema_version": "1.1",
+  "language": "es",
+  "title": "Glosario de negocio de Proveedores",
+  "review_date": "2026-11-18",
+  "review_method": "Inspección estática directa de clases de dominio, pantallas y consultas SQL en los dos commits fijados. Revisión de fuente, sin validación de ejecución, esquema físico ni aprobación de responsables de negocio.",
+  "source_repository": "C:/repos/proveedores-github-review-20261118",
+  "source_refs": [
+    {
+      "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "branch": "master",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+    },
+    {
+      "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "branch": "origin/master_peru",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+    }
+  ],
+  "conventions": {
+    "confidence": {
+      "observed": "Significado o comportamiento local explícito en los pasajes citados; no acredita despliegue ni validación de negocio.",
+      "inferred": "Interpretación funcional de relaciones o consultas observadas; pendiente de confirmación de negocio.",
+      "unknown": "Uso local documentado, pero la acepción precisa o expansión de sigla queda sin confirmar."
+    },
+    "scope": {
+      "shared_evidence": "El significado descrito se contrastó en ambos commits, con referencias separadas por rama; no afirma igualdad completa de implementación.",
+      "master": "Significado documentado en master; no se extiende a Perú por coincidencia de ruta.",
+      "bolivia": "Reservado a una atribución territorial con evidencia explícita; no se asigna automáticamente por rama o zona horaria.",
+      "peru": "Variante o flujo documentado en origin/master_peru; la exclusividad se limita a la evidencia revisada."
+    },
+    "evidence": "Cada rango es inclusivo y utiliza líneas del archivo en el commit incluido en ref (rama@SHA). Las rutas son relativas al repositorio de aplicación. Solo se publican paráfrasis y referencias.",
+    "aliases": "Ayudas de búsqueda dentro del contexto de la entrada. Las coincidencias entre entradas son homónimos, no equivalencias de identidad ni de claves.",
+    "reviewed": "Revisado contra código. No equivale a aprobado por negocio; incluso unknown tiene un uso local acotado revisado."
+  },
+  "counts": {
+    "reviewed_entries": 81,
+    "by_scope": {
+      "shared_evidence": 76,
+      "master": 1,
+      "peru": 4
+    },
+    "by_confidence": {
+      "observed": 69,
+      "inferred": 9,
+      "unknown": 3
+    },
+    "business_owner_validated": 0,
+    "historical_candidates": 891,
+    "historical_candidates_not_validated": 891
+  },
+  "entries": [
+    {
+      "id": "cliente-logistico",
+      "term": "Cliente de la operación logística",
+      "definition": "Organización seleccionada como solicitante del embarque y vinculada al catálogo general de clientes. Sus relaciones determinan proveedores, operadores de transporte y almacenes disponibles.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 252,
+          "line_end": 262
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 252,
+          "line_end": 262
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 1,
+          "line_end": 9
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 1,
+          "line_end": 9
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cliente",
+        "solicitante del embarque"
+      ],
+      "usage_and_relationships": "Distinguir del cliente propio del operador y de la persona solicitante; el selector «Solicitante» usa el identificador del cliente.",
+      "category": "Actores"
+    },
+    {
+      "id": "cliente-del-operador",
+      "term": "Cliente propio del operador",
+      "definition": "Cliente que el operador mantiene en su directorio, con nombre, identificación, dirección y contacto, asociado al operador que lo registra.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line_start": 12,
+          "line_end": 28
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line_start": 12,
+          "line_end": 28
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cliente del proveedor",
+        "cliente externo del operador"
+      ],
+      "usage_and_relationships": "Es un directorio distinto del catálogo general de clientes del embarque; no asumir identidad ni equivalencia de claves entre ambos.",
+      "category": "Actores"
+    },
+    {
+      "id": "proveedor-mercancia",
+      "term": "Proveedor de mercancía",
+      "definition": "Actor que suministra la mercancía y se referencia en los datos del embarque y de la solicitud aduanera. El código lo distingue del operador logístico y del gestor de transporte.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 655,
+          "line_end": 674
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 663,
+          "line_end": 682
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 172,
+          "line_end": 193
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 172,
+          "line_end": 193
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "proveedor de bienes",
+        "proveedor"
+      ],
+      "usage_and_relationships": "«Proveedor» sin contexto es ambiguo: aquí designa al suministrador de bienes, no al conductor ni a toda empresa de transporte.",
+      "category": "Actores"
+    },
+    {
+      "id": "operador-logistico",
+      "term": "Operador logístico",
+      "definition": "Actor asociado al cliente para gestionar el transporte del embarque. La consulta del operador elegido recupera la relación cliente–transportista cuya propuesta figura aceptada.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 39,
+          "line_end": 60
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 83,
+          "line_end": 104
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 549,
+          "line_end": 559
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 549,
+          "line_end": 558
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "operador de transporte",
+        "transportista del catálogo"
+      ],
+      "usage_and_relationships": "Distinguir la empresa del catálogo, su relación con el cliente y el usuario de acceso; sus identificadores no son intercambiables.",
+      "category": "Actores"
+    },
+    {
+      "id": "empresa-transporte",
+      "term": "Empresa de transporte del viaje",
+      "definition": "Empresa registrada en un viaje junto con placa, tipo de unidad y capacidad. Es parte de la asignación concreta de transporte.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1132,
+          "line_end": 1144
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1132,
+          "line_end": 1144
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "empresa transportista",
+        "carrier"
+      ],
+      "usage_and_relationships": "El viaje conserva estos datos asociados; no confundir esta empresa con la relación cliente–operador ni con el conductor.",
+      "category": "Actores",
+      "example": "El alta del viaje guarda el nombre de empresa junto con placa, tipo de unidad y capacidad."
+    },
+    {
+      "id": "conductor",
+      "term": "Conductor",
+      "definition": "Persona asignada al viaje, registrada con nombre y datos de identificación, contacto y licencia. La creación del viaje guarda al conductor principal.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 192,
+          "line_end": 199
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 192,
+          "line_end": 199
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1147,
+          "line_end": 1163
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1147,
+          "line_end": 1163
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "chofer",
+        "transportista del viaje",
+        "driver"
+      ],
+      "usage_and_relationships": "En este contexto «transportista» también puede nombrar a la persona conductora; distinguirla de la empresa de transporte.",
+      "category": "Actores"
+    },
+    {
+      "id": "conductor-relevo",
+      "term": "Conductor de relevo",
+      "definition": "Segunda asignación de conductor del viaje, guardada con un tipo de conductor distinto del principal.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 212,
+          "line_end": 220
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 212,
+          "line_end": 220
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "chofer de relevo"
+      ],
+      "usage_and_relationships": "Comparte estructura con el conductor principal; el tipo identifica su papel en el viaje.",
+      "category": "Actores"
+    },
+    {
+      "id": "gestor-transporte",
+      "term": "Gestor de transporte",
+      "definition": "Actor diferenciado del operador logístico y del agente de aduana que figura entre los participantes del embarque y destinatarios de actualizaciones de pedidos.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 186
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 186
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "gestor"
+      ],
+      "usage_and_relationships": "La evidencia acredita su participación y notificación; no delimita todas sus responsabilidades contractuales.",
+      "category": "Actores"
+    },
+    {
+      "id": "agente-aduana",
+      "term": "Agente de aduana",
+      "definition": "Actor aduanero asignado al embarque y consultado por nombre desde su catálogo. Participa en las notificaciones de estado junto con cliente, gestor y operador.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 314,
+          "line_end": 338
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 316,
+          "line_end": 340
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 178
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 178
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "agente aduanero"
+      ],
+      "usage_and_relationships": "No equivale a la aduana como dependencia ni al declarante configurado para el cliente.",
+      "category": "Actores"
+    },
+    {
+      "id": "agente-seguro",
+      "term": "Agente de seguro",
+      "definition": "Actor del catálogo de agentes de seguro vinculado al embarque y recuperado por nombre.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 69,
+          "line_end": 86
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 113,
+          "line_end": 130
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "agente de seguros"
+      ],
+      "usage_and_relationships": "La vinculación no acredita por sí misma contratación, cobertura ni vigencia de una póliza.",
+      "category": "Actores"
+    },
+    {
+      "id": "agente-proveedor",
+      "term": "Agente del proveedor de mercancía",
+      "definition": "Actor asociado a proveedores de mercancía que puede seleccionarse y asignarse al embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 650,
+          "line_end": 671
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 744,
+          "line_end": 765
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "agente proveedor"
+      ],
+      "usage_and_relationships": "La lista se obtiene por proveedor; el nombre de un parámetro «transportista» no convierte a este agente en empresa de transporte.",
+      "category": "Actores"
+    },
+    {
+      "id": "declarante",
+      "term": "Declarante del cliente",
+      "definition": "Registro activo de declarante asociado al cliente, que puede marcarse como principal y seleccionarse en la gestión aduanera.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 653,
+          "line_end": 661
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 559,
+          "line_end": 567
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cliente declarante"
+      ],
+      "usage_and_relationships": "Es distinto del cliente solicitante y del agente de aduana. El código consultado no fija su representación jurídica.",
+      "category": "Actores"
+    },
+    {
+      "id": "cotizacion",
+      "term": "Cotización logística",
+      "definition": "Solicitud de valoración del transporte que registra cliente, mercancía, magnitudes y trayecto. Se lista como cotización mientras el indicador correspondiente está activado en el mismo registro utilizado para el embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 86,
+          "line_end": 101
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 86,
+          "line_end": 101
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cotización",
+        "solicitud de cotización"
+      ],
+      "usage_and_relationships": "Se relaciona con propuestas de operadores; la aceptación de una propuesta desactiva el indicador de cotización.",
+      "example": "La aceptación marca al operador elegido y cambia el registro de cotización a embarque.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "embarque",
+      "term": "Embarque",
+      "definition": "Unidad de gestión logística que reúne datos de cliente y carga y sirve de referencia para documentos, rutas, solicitudes aduaneras y viajes. En la conversión desde cotización se conserva el registro y se cambia su indicador.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 117,
+          "line_end": 126
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 161,
+          "line_end": 170
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 685,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 779,
+          "line_end": 784
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "operación logística"
+      ],
+      "usage_and_relationships": "No equivale a un viaje individual: los viajes se vinculan por separado al embarque.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "viaje",
+      "term": "Viaje",
+      "definition": "Asignación concreta de transporte con información de orden, empresa, conductor, carga, orígenes, destinos y documentos de soporte. Puede recuperarse sin embarque y vincularse después a uno.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 181,
+          "line_end": 220
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 181,
+          "line_end": 220
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "asignación de viaje",
+        "journey"
+      ],
+      "usage_and_relationships": "Distinguir del embarque y de su ruta informativa; un viaje tiene sus propios datos y estado.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "alcance-viaje",
+      "term": "Alcance del viaje",
+      "definition": "Clasificación del ámbito del traslado obtenida del catálogo de tipos de viaje y guardada en la asignación. No es la misma selección que el sentido de ida o vuelta.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 293,
+          "line_end": 305
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 293,
+          "line_end": 305
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 33,
+          "line_end": 40
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "line_start": 8,
+          "line_end": 12
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "line_start": 8,
+          "line_end": 12
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "alcance",
+        "tipo de viaje del embarque"
+      ],
+      "usage_and_relationships": "La pantalla y las reglas distinguen contextos internacional, nacional y local; no deducir fronteras o distancias de un número de catálogo.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "sentido-viaje",
+      "term": "Sentido del viaje",
+      "definition": "Elección entre solo ida, ida y vuelta o solo vuelta en la asignación de transporte.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 323,
+          "line_end": 338
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 323,
+          "line_end": 338
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "solo ida",
+        "ida y vuelta",
+        "solo vuelta",
+        "tipo de viaje de la asignación"
+      ],
+      "usage_and_relationships": "Se guarda como tipo de viaje de la asignación; no confundir con el alcance nacional, internacional o local.",
+      "category": "Operación y carga",
+      "example": "El selector ofrece «Solo Ida», «Ida y Vuelta» y «Solo vuelta»."
+    },
+    {
+      "id": "modalidad-transporte",
+      "term": "Modalidad de transporte",
+      "definition": "Selección que caracteriza cómo se transporta la carga y que la pantalla del embarque denomina «Modalidad de Transporte». La presentación de rutas distingue transporte marítimo, aéreo, terrestre y ferroviario mediante catálogos de empresas diferentes.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 80,
+          "line_end": 87
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 80,
+          "line_end": 87
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 402,
+          "line_end": 419
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 496,
+          "line_end": 513
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "tipo de embarque",
+        "modo de transporte"
+      ],
+      "usage_and_relationships": "El identificador de tipo de embarque y el de modo de transporte proceden de estructuras distintas; no igualarlos por su valor numérico.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "tramo",
+      "term": "Tramo del embarque",
+      "definition": "Parte numerada del trayecto descrita mediante registros de ubicación y tipo: región, localidad, puerto o aeropuerto, lugar de entrega y tipo de carga.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 739,
+          "line_end": 755
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 747,
+          "line_end": 763
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "tramo logístico"
+      ],
+      "usage_and_relationships": "Sirve para representar los puntos del trayecto previsto en la cotización o el embarque; no equivale a una asignación de conductor.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "ruta-embarque",
+      "term": "Ruta del embarque",
+      "definition": "Registro de recorrido que informa origen y destino, localidades de salida y arribo, fechas, tiempo de tránsito y modalidad o empresa de transporte.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 393,
+          "line_end": 421
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 487,
+          "line_end": 515
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "itinerario",
+        "ruta"
+      ],
+      "usage_and_relationships": "Se consulta y añade al embarque por separado de los tramos de cotización y del viaje terrestre.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "origen-destino",
+      "term": "Origen y destino del viaje",
+      "definition": "Lugares de salida y llegada guardados como colecciones separadas al crear el viaje. Pueden contener ítems y cantidades asociados a cada localización.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 210
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 210
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "localizaciones del viaje",
+        "puntos de carga y entrega"
+      ],
+      "usage_and_relationships": "Distinguir del par de puntos mostrado en una ruta informativa del embarque.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "orden-compra",
+      "term": "Orden de compra de referencia",
+      "definition": "Referencia comercial capturada por la pantalla como «Orden de Compra» y guardada en el campo inicial de orden de compra del embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "OC",
+        "ordencompraini"
+      ],
+      "usage_and_relationships": "Coexiste con una referencia «Pedido» en otro campo; el código no demuestra aquí un proceso completo de aprobación de compras.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "pedido-referencia",
+      "term": "Pedido de referencia",
+      "definition": "Referencia que la pantalla del embarque etiqueta «Pedido», aunque se almacena en un campo denominado ordencompra.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "pedido del embarque",
+        "ordencompra"
+      ],
+      "usage_and_relationships": "No confundir con la orden de compra contigua ni con el pedido operativo con cabecera y posiciones.",
+      "example": "En el mismo formulario hay dos entradas: «Orden de Compra» y «Pedido».",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "pedido-operativo",
+      "term": "Pedido operativo",
+      "definition": "Agrupación de posiciones con cabecera vinculada a proveedor, cliente y embarque y con un detalle de posiciones. Hay una rutina que lo crea a partir de chasis en un caso local condicionado.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 680,
+          "line_end": 689
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 688,
+          "line_end": 697
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1288,
+          "line_end": 1304
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1343,
+          "line_end": 1359
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "pedido con posiciones",
+        "pedido logístico"
+      ],
+      "usage_and_relationships": "La creación automática revisada depende de un cliente concreto y del alcance local; no extenderla a todos los clientes o embarques.",
+      "category": "Operación y carga",
+      "example": "La rutina local divide una lista de chasis y crea una posición por elemento; su llamada está condicionada a un cliente."
+    },
+    {
+      "id": "item-posicion",
+      "term": "Ítem o posición del pedido",
+      "definition": "Unidad de detalle identificada por una posición y asociada a un pedido. La pantalla muestra descripción, SKU y ubicación; en el caso vehicular la posición se genera a partir del chasis.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1293,
+          "line_end": 1301
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 54,
+          "line_end": 70
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 110,
+          "line_end": 125
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "ítem",
+        "posición",
+        "item"
+      ],
+      "usage_and_relationships": "El significado de posición depende de la carga; no asumir que todo SKU o posición es un VIN.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "bulto",
+      "term": "Bulto y tipo de bulto",
+      "definition": "Unidad de agrupación de carga cuyo tipo se elige de un catálogo de unidades y se relaciona con cantidades en las magnitudes o localizaciones.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 570,
+          "line_end": 580
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 578,
+          "line_end": 588
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 714
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "tipo de bulto",
+        "unidad de bulto"
+      ],
+      "usage_and_relationships": "Distinguir la cantidad de bultos de su tipo y de la cantidad de contenedores.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "tipo-carga",
+      "term": "Tipo de carga o carguío",
+      "definition": "Clasificación de carga seleccionada en los datos de trayecto y guardada también en la orden del viaje.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+          "line_start": 124,
+          "line_end": 139
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+          "line_start": 124,
+          "line_end": 139
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "tipo de carguío"
+      ],
+      "usage_and_relationships": "La interfaz de tramos usa «Tipo de Carguío»; no confundir esta clasificación con tipo de mercancía o tipo de bulto.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "tipo-mercancia",
+      "term": "Tipo de mercancía",
+      "definition": "Clasificación de la mercancía seleccionada desde un catálogo y almacenada en el embarque y la orden del viaje.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 216,
+          "line_end": 237
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 216,
+          "line_end": 237
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "mercancía",
+        "tipoMercancia"
+      ],
+      "usage_and_relationships": "Es el nivel del que depende la clase de mercancía; no se han validado los valores completos del catálogo ni obligaciones externas.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "clase-mercancia",
+      "term": "Clase de mercancía",
+      "definition": "Clasificación dependiente del tipo de mercancía que permite seleccionar un registro de clase; de esa clase depende el selector UN.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 228,
+          "line_end": 249
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 228,
+          "line_end": 249
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "clase"
+      ],
+      "usage_and_relationships": "No atribuir a una clase una categoría regulatoria concreta sin revisar el valor y su uso operativo.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "codigo-un",
+      "term": "Código UN de mercancía",
+      "definition": "Valor denominado UN que la aplicación selecciona de un catálogo dependiente de la clase de mercancía y guarda en la orden del viaje.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 240,
+          "line_end": 249
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 240,
+          "line_end": 249
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "UN",
+        "número UN"
+      ],
+      "usage_and_relationships": "Se observa su uso como dato de clasificación; la fuente revisada no valida significado normativo, valores ni condiciones de transporte.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "incoterm",
+      "term": "Incoterm seleccionado",
+      "definition": "Condición comercial de la operación elegida desde el catálogo de Incoterms en el formulario internacional. Interviene en la selección de conceptos de costos.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 89,
+          "line_end": 98
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 89,
+          "line_end": 98
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 250,
+          "line_end": 251
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 252,
+          "line_end": 253
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "Incoterms"
+      ],
+      "usage_and_relationships": "El glosario documenta su uso en la aplicación; no define versiones de reglas, reparto de riesgos ni obligaciones contractuales.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "magnitudes-carga",
+      "term": "Magnitudes de la carga",
+      "definition": "Conjunto de medidas y cantidades del embarque: tipo y cantidad de bultos, peso, peso bruto, dimensiones y volumen, con sus unidades.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 732
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 740
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "dimensiones de carga",
+        "medidas de carga"
+      ],
+      "usage_and_relationships": "Pueden existir varias líneas de dimensiones y volumen y registros de contenedores relacionados.",
+      "category": "Operación y carga",
+      "example": "El alta permite varias líneas de dimensiones y volumen dentro de las magnitudes del embarque."
+    },
+    {
+      "id": "contenedor",
+      "term": "Contenedor",
+      "definition": "Elemento de la descripción logística que se registra mediante tipo y cantidad en las magnitudes del embarque y mediante datos específicos en la orden del viaje.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 596,
+          "line_end": 619
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 604,
+          "line_end": 627
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 723,
+          "line_end": 733
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 731,
+          "line_end": 741
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "tipo de contenedor",
+        "cantidad de contenedores"
+      ],
+      "usage_and_relationships": "El catálogo separa selectores de tipo y número; no asumir que todo valor denominado contenedor es un número físico de equipo.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "peso-carga",
+      "term": "Peso y peso bruto de la carga",
+      "definition": "Medidas que el embarque guarda por separado junto con sus unidades; la carga del viaje también conserva peso y unidad de peso.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 714
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "peso",
+        "peso bruto"
+      ],
+      "usage_and_relationships": "La existencia de dos campos no acredita por sí sola una fórmula de tara ni una conversión automática.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "volumen-carga",
+      "term": "Volumen de la carga",
+      "definition": "Magnitud registrada con unidad de volumen, junto con dimensiones y su unidad en las líneas de carga del viaje.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "volumen",
+        "dimensiones"
+      ],
+      "usage_and_relationships": "Usar la unidad guardada; el pasaje revisado no demuestra cálculo automático ni equivalencia con peso facturable.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "almacen-cliente",
+      "term": "Almacén del cliente",
+      "definition": "Lugar de almacenamiento configurado para un cliente y ofrecido como opción cuando figura activo.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 537,
+          "line_end": 546
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 537,
+          "line_end": 546
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "almacén"
+      ],
+      "usage_and_relationships": "Se relaciona con las ubicaciones de la operación; no confundir con una denominación de aduana o con el inventario de un vehículo.",
+      "category": "Operación y carga"
+    },
+    {
+      "id": "propuesta-costos",
+      "term": "Propuesta de costos del operador",
+      "definition": "Detalle de importes por concepto asociado a la participación de un operador en la cotización. Al guardarlo, el sistema marca que el operador completó su cotización y registra la fecha.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 269,
+          "line_end": 285
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 287
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cotización del operador",
+        "oferta de costos"
+      ],
+      "usage_and_relationships": "Distinguir esta propuesta del registro posterior de costos por categoría del embarque.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "aceptacion-cotizacion",
+      "term": "Aceptación de la cotización del operador",
+      "definition": "Acción que marca como aceptada la participación del operador y convierte el registro de cotización en embarque mediante su indicador.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "operador aceptado",
+        "aceptación de costos"
+      ],
+      "usage_and_relationships": "Es una transición concreta de la propuesta; no equivale a «Aceptado» en el resumen aduanero.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "revision-cotizacion",
+      "term": "Revisión de cotización",
+      "definition": "Solicitud de revisión que incrementa un contador y registra la fecha en la participación del operador cuando se utiliza el envío de costos con estado de revisión.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 987,
+          "line_end": 1013
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 996,
+          "line_end": 1022
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "revisión de costos"
+      ],
+      "usage_and_relationships": "La rama de revisión del envío contiene la escritura observada; otra función de nombre parecido termina antes de ejecutar su consulta.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "concepto-costo",
+      "term": "Concepto de costo",
+      "definition": "Renglón que describe un cargo y su importe. Existe tanto en el detalle de la propuesta de un operador como en el detalle de costos por categoría del embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 269,
+          "line_end": 281
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 283
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 384,
+          "line_end": 392
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cargo",
+        "concepto"
+      ],
+      "usage_and_relationships": "No tratar ambos detalles como una única tabla ni como un catálogo idéntico; el detalle por categoría permite concepto adicional y marca de automático.",
+      "category": "Costos, documentos y aduanas",
+      "example": "El detalle de costos por categoría guarda concepto, importe y una marca que indica si es automático."
+    },
+    {
+      "id": "categoria-costo",
+      "term": "Categoría de costo",
+      "definition": "Agrupación del registro de costos del embarque elegida desde un catálogo de categorías no eliminadas. Una categoría reúne conceptos y su total.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 340,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 342,
+          "line_end": 369
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 443,
+          "line_end": 449
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 445,
+          "line_end": 451
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "categoría de costos"
+      ],
+      "usage_and_relationships": "Al guardar costos de una categoría se reemplaza lógicamente el registro previo de esa categoría; no asumir que cada guardado añade otro costo acumulable.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "moneda-costo",
+      "term": "Moneda del costo",
+      "definition": "Divisa seleccionable por código y nombre para identificar la moneda del registro de costos.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 453,
+          "line_end": 464
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 455,
+          "line_end": 466
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 583
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 585
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "divisa",
+        "moneda"
+      ],
+      "usage_and_relationships": "La disponibilidad del catálogo no demuestra conversión, tipo de cambio ni que puedan sumarse importes de monedas distintas.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "documento-adjunto",
+      "term": "Documento adjunto del embarque",
+      "definition": "Archivo cargado y registrado como documento del embarque, con nombre y número interno de documento dentro de ese embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 310,
+          "line_end": 332
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 404,
+          "line_end": 426
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "adjunto",
+        "documento del embarque"
+      ],
+      "usage_and_relationships": "Distinguir el archivo adjunto de los tipos de documento de soporte del viaje y de los documentos previos de una solicitud aduanera.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "documento-soporte-viaje",
+      "term": "Documento de soporte del viaje",
+      "definition": "Selección de documentos de un catálogo que se vincula a la asignación de viaje, al operador y, cuando existe, al embarque.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1347,
+          "line_end": 1363
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1347,
+          "line_end": 1363
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "documentación de soporte"
+      ],
+      "usage_and_relationships": "El guardado observado registra identificadores de documentos; no demuestra por sí solo la carga de un archivo ni su validez.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "solicitud-aduanera",
+      "term": "Solicitud de gestión aduanera",
+      "definition": "Solicitud vinculada al embarque que reúne cliente, proveedor, línea, aduana, régimen, declaración, datos de transporte y referencias de pedido. El código la consulta como caso previo.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 684,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 719
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 625
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "gestión aduanera",
+        "caso previo",
+        "solicitud de aduana"
+      ],
+      "usage_and_relationships": "Puede relacionarse con casos y trámites posteriores; no confundir con el embarque ni con una declaración aduanera presentada.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "documento-previo",
+      "term": "Documento previo de la solicitud",
+      "definition": "Registro documental de una solicitud aduanera con tipo, emisor, formato, número, fecha de recepción, plazo, importe y divisa. El alta puede generar registros según el modo de transporte.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 743,
+          "line_end": 745
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 649,
+          "line_end": 651
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "documentación previa"
+      ],
+      "usage_and_relationships": "Un registro generado no acredita recepción efectiva del documento: algunos campos se inicializan vacíos.",
+      "category": "Costos, documentos y aduanas",
+      "example": "Al crear la solicitud se generan registros documentales con número o emisor inicialmente vacíos."
+    },
+    {
+      "id": "caso-aduanero",
+      "term": "Caso aduanero",
+      "definition": "Registro de gestión asociado a una solicitud previa, con carpeta y fechas operativas, que se utiliza para clasificar solicitudes aprobadas, en proceso o de despacho.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 340,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 273
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "caso",
+        "expediente aduanero"
+      ],
+      "usage_and_relationships": "La relación entre embarque y caso no debe deducirse solo de la orden de compra: las consultas revisadas utilizan criterios diferentes.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "carpeta",
+      "term": "Carpeta del caso",
+      "definition": "Referencia del caso aduanero mostrada en las listas de solicitudes. Su presencia también sirve al resumen del embarque para mostrar el estado «Aceptado».",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 340,
+          "line_end": 354
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 260
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "número de carpeta",
+        "carpeta aduanera"
+      ],
+      "usage_and_relationships": "No confundir la referencia de expediente con un directorio de archivos del servidor.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "tramite",
+      "term": "Trámite de una solicitud",
+      "definition": "Unidad de gestión asociada a un caso previo que la consulta de solicitudes del embarque cuenta separadamente.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 684,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "trámite aduanero"
+      ],
+      "usage_and_relationships": "La fuente demuestra la relación y el conteo; no define todas las etapas o responsabilidades de un trámite.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "regimen-aduanero",
+      "term": "Régimen de la solicitud",
+      "definition": "Clasificación seleccionada del catálogo de regímenes y guardada en la gestión aduanera.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 533,
+          "line_end": 535
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 439,
+          "line_end": 441
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 694
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "régimen",
+        "régimen aduanero"
+      ],
+      "usage_and_relationships": "La presencia del selector no acredita elegibilidad, requisitos legales ni vigencia de cada régimen.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "tipo-declaracion",
+      "term": "Tipo de declaración",
+      "definition": "Clasificación documental seleccionada de un catálogo para la gestión aduanera. La consulta revisada excluye un identificador del selector.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 545,
+          "line_end": 547
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 451,
+          "line_end": 453
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 694
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "declaración"
+      ],
+      "usage_and_relationships": "No inferir el nombre del valor excluido ni una obligación de presentar determinada declaración.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "aduana",
+      "term": "Aduana seleccionada",
+      "definition": "Dependencia o ubicación aduanera elegida del catálogo de aduanas y asociada a la solicitud; se muestra mediante código y nombre.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 557,
+          "line_end": 559
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 463,
+          "line_end": 465
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 56,
+          "line_end": 76
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 56,
+          "line_end": 76
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "aduana de la solicitud"
+      ],
+      "usage_and_relationships": "Distinguirla del agente de aduana, que es un actor, y de la aduana de nacionalización registrada para un viaje.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "ruta-autorizada",
+      "term": "Ruta autorizada del viaje",
+      "definition": "Conjunto de datos de ruta que la asignación guarda cuando se informa aduana de nacionalización: ruta asignada, tipo de despacho, fecha límite de cierre de tránsito, descarga en aduana y plazo.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "ruta asignada",
+        "datos aduaneros del viaje"
+      ],
+      "usage_and_relationships": "La denominación de la estructura no prueba autorización administrativa; el glosario describe los datos capturados.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "cierre-transito",
+      "term": "Fecha límite de cierre de tránsito",
+      "definition": "Fecha informada junto con los datos aduaneros de la ruta del viaje y almacenada como límite de cierre de tránsito.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "cierre de tránsito",
+        "plazo de tránsito"
+      ],
+      "usage_and_relationships": "Se diferencia de las fechas de salida y arribo. El código revisado no permite derivar un plazo legal ni confirmar el cierre efectivo.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "dam",
+      "term": "DAM en el control de solicitudes",
+      "definition": "Referencia operativa utilizada por el control de solicitudes enviadas para relacionar vehículos con registros DAM y contar vehículos que carecen de esa asociación.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 160,
+          "line_end": 176
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 125,
+          "line_end": 141
+        }
+      ],
+      "confidence": "unknown",
+      "aliases": [
+        "DAM",
+        "cantidad sin DAM"
+      ],
+      "usage_and_relationships": "No se ha confirmado en esta revisión la expansión de la sigla ni su equivalencia jurídica por país; el conteo es una regla de la aplicación.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "dui",
+      "term": "DUI en la clasificación de despacho",
+      "definition": "Sigla presente en el campo de fecha de pago usado para separar solicitudes en proceso de solicitudes de despacho.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 402,
+          "line_end": 408
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 308,
+          "line_end": 314
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 442,
+          "line_end": 447
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 348,
+          "line_end": 353
+        }
+      ],
+      "confidence": "unknown",
+      "aliases": [
+        "DUI",
+        "pago DUI"
+      ],
+      "usage_and_relationships": "Se observa el criterio de fecha vacía o informada; quedan sin confirmar la expansión de la sigla y su equivalencia con DAM u otras declaraciones.",
+      "category": "Costos, documentos y aduanas"
+    },
+    {
+      "id": "inventario-vehicular",
+      "term": "Inventario del vehículo",
+      "definition": "Consulta de la condición y los elementos de un vehículo identificado por chasis, con datos de partida, modelo, lugar y fecha de inventario. La interfaz distingue diferentes momentos de revisión.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "inventario",
+        "inspección de vehículo"
+      ],
+      "usage_and_relationships": "En este módulo no significa por sí mismo un saldo contable de existencias ni una cantidad disponible para vender.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "inventario-puerto",
+      "term": "Inventario en puerto de carga",
+      "definition": "Sección de revisión de vehículos que la interfaz distingue como inventario realizado en puerto de carga.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "inventario puerto"
+      ],
+      "usage_and_relationships": "Es uno de los momentos del inventario, junto con depósito transitorio y post nacionalización; no acredita que todos los vehículos hayan sido revisados.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "inventario-deposito",
+      "term": "Inventario de depósito transitorio",
+      "definition": "Sección de inventario separada para la revisión denominada «Depósito transitorio».",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "depósito transitorio"
+      ],
+      "usage_and_relationships": "La etiqueta identifica un contexto de revisión; no define el régimen jurídico del depósito ni su plazo de permanencia.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "inventario-post-nacionalizacion",
+      "term": "Inventario post nacionalización",
+      "definition": "Sección de inventario que la aplicación presenta como revisión posterior a la nacionalización y distingue de puerto y depósito.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "post nacionalización",
+        "salida de depósito"
+      ],
+      "usage_and_relationships": "La visibilidad de la sección no acredita que una operación haya completado un procedimiento aduanero.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "inventario-nacional-local",
+      "term": "Inventario de despacho y recepción",
+      "definition": "Revisiones separadas para despacho y recepción en contextos nacional y local. El contexto local añade una revisión de showroom.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 33,
+          "line_end": 40
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "inventario local",
+        "inventario nacional",
+        "showroom"
+      ],
+      "usage_and_relationships": "Distinguir despacho físico del inventario de la lista aduanera de solicitudes de despacho.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "chasis",
+      "term": "Chasis como identificador de vehículo",
+      "definition": "Dato que identifica al vehículo al consultar su inventario y que, en una creación local condicionada, se utiliza como posición del detalle de pedido.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1293,
+          "line_end": 1301
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "chasis de vehículo"
+      ],
+      "usage_and_relationships": "Permite relacionar posiciones e inventario; no se ha comprobado una regla general que convierta todo campo de chasis en un VIN validado.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "partida-inventario",
+      "term": "Partida del inventario",
+      "definition": "Dato de referencia mostrado junto al chasis y modelo del vehículo en el detalle del inventario.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 16
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 16
+        }
+      ],
+      "confidence": "unknown",
+      "aliases": [
+        "partida"
+      ],
+      "usage_and_relationships": "El código de presentación no explica si corresponde a lote, partida documental o clasificación arancelaria. No usar esas acepciones como sinónimos confirmados.",
+      "category": "Inventario y seguimiento",
+      "example": "El encabezado del inventario muestra partida, chasis y modelo como datos separados."
+    },
+    {
+      "id": "parte-recepcion",
+      "term": "Parte de recepción",
+      "definition": "Evidencia de recepción que la interfaz del inventario consulta por chasis y presenta mediante imágenes.",
+      "scope": "master",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 27,
+          "line_end": 48
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "parte recepción"
+      ],
+      "usage_and_relationships": "Documenta la consulta de imágenes; no se han validado el contenido obligatorio del parte, firmas o efectos de aceptación. En Perú el componente homónimo consulta fotografías 360°; no se ha demostrado equivalencia funcional con este parte.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "desperfecto",
+      "term": "Desperfecto del vehículo",
+      "definition": "Daño o defecto registrado en el inventario con atributo, tipo, indicación de levedad, ubicación, comentario y posible evidencia fotográfica.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js",
+          "line_start": 4,
+          "line_end": 31
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js",
+          "line_start": 4,
+          "line_end": 40
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "daño",
+        "defecto"
+      ],
+      "usage_and_relationships": "La consulta presenta autor y fecha de inventario; no determina responsabilidad, costo de reparación ni indemnización.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "contaminacion",
+      "term": "Contaminación en la revisión del vehículo",
+      "definition": "Evaluación del inventario que registra nombre de evaluación, resultado, comentario y fotografías cuando existen.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js",
+          "line_start": 10,
+          "line_end": 26
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js",
+          "line_start": 10,
+          "line_end": 26
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "evaluación de contaminación"
+      ],
+      "usage_and_relationships": "Es una sección de inspección; el pasaje no identifica sustancias, umbrales técnicos ni criterios regulatorios.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "accesorio",
+      "term": "Accesorio inventariado",
+      "definition": "Elemento del vehículo mostrado en el inventario con nombre, cantidad, observaciones y fotografía cuando existe.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js",
+          "line_start": 10,
+          "line_end": 25
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js",
+          "line_start": 10,
+          "line_end": 25
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "accesorios"
+      ],
+      "usage_and_relationships": "Se distingue de los desperfectos del vehículo y de la mercancía general del embarque.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "estado-catalogo-embarque",
+      "term": "Estado del catálogo de embarques",
+      "definition": "Valor del catálogo de estados usado para mostrar una etiqueta de estado del embarque, con configuración de color o estilo.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 20,
+          "line_end": 29
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 64,
+          "line_end": 73
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "estado de embarque",
+        "estado"
+      ],
+      "usage_and_relationships": "No es intercambiable con estado del viaje, anotación EDP ni resumen calculado a partir de fechas.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "edp",
+      "term": "Estado de pedidos (EDP)",
+      "definition": "Anotación de seguimiento asociada al embarque que registra etapa seleccionada, fecha, texto, valor y autor. El catálogo de etapas puede variar por cliente y tipo de proveedor.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 14,
+          "line_end": 70
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 14,
+          "line_end": 70
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "EDP",
+        "estado de pedido",
+        "seguimiento de pedidos"
+      ],
+      "usage_and_relationships": "Es un historial de anotaciones; no equivale a un único estado universal ni requiere necesariamente un pedido operativo identificado.",
+      "example": "El historial distingue anotaciones de cliente, usuario interno y operador por el tipo de autor.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "estado-viaje",
+      "term": "Estado de la asignación de viaje",
+      "definition": "Dato propio del viaje que se guarda al crear su información. La rutina revisada utiliza un valor nulo o un código según el indicador de asignación.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "estado del viaje"
+      ],
+      "usage_and_relationships": "No se ha confirmado el nombre de todos sus códigos; no traducir el código de creación a un estado de embarque.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "estado-resumen",
+      "term": "Estado resumen calculado del embarque",
+      "definition": "Etiqueta calculada a partir de fechas de solicitud, envío, oficialización, carpeta y finalización. La función revisada elige una sola fila y aplica prioridades.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "resumen de estado"
+      ],
+      "usage_and_relationships": "Es una vista resumida; no acredita por sí sola que todos los casos o viajes estén en la misma etapa.",
+      "category": "Inventario y seguimiento",
+      "example": "Si hay fecha de finalización, la función devuelve «Finalizado» aunque existan también otras fechas."
+    },
+    {
+      "id": "pendiente-resumen",
+      "term": "Pendiente en el resumen del embarque",
+      "definition": "Etiqueta inicial del resumen cuando la fila consultada no activa condiciones de finalización, proceso, aceptación o envío.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "pendiente"
+      ],
+      "usage_and_relationships": "No significa que la aplicación haya comprobado todas las tareas pendientes de la operación.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "enviado-resumen",
+      "term": "Enviado en el resumen del embarque",
+      "definition": "Etiqueta del resumen cuando hay fecha derivada de finalización o complemento de solicitud, o fecha de envío, sin cumplirse una condición de mayor prioridad.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "enviado"
+      ],
+      "usage_and_relationships": "No equivale al envío de cotización al operador ni al filtro específico de solicitudes enviadas.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "aceptado-resumen",
+      "term": "Aceptado en el resumen del embarque",
+      "definition": "Etiqueta del resumen cuando existe carpeta y no prevalecen fecha de oficialización o finalización.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "aceptado"
+      ],
+      "usage_and_relationships": "Distinguir de la aceptación de la propuesta del operador, que modifica otros datos.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "en-proceso-resumen",
+      "term": "En proceso en el resumen del embarque",
+      "definition": "Etiqueta del resumen cuando existe fecha de oficialización y no existe fecha de finalización.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "en proceso"
+      ],
+      "usage_and_relationships": "El filtro de solicitudes en proceso utiliza criterios adicionales; no asumir equivalencia con este resumen.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "finalizado-resumen",
+      "term": "Finalizado en el resumen del embarque",
+      "definition": "Etiqueta de mayor prioridad cuando el embarque tiene fecha de finalización informada.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line_start": 20,
+          "line_end": 27
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line_start": 20,
+          "line_end": 27
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "finalizado",
+        "finalización"
+      ],
+      "usage_and_relationships": "Algunas pantallas usan esa fecha para ocultar acciones de alta. La etiqueta no demuestra cierre contable o legal.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "estados-solicitud-aduanera",
+      "term": "Estados de las listas de solicitudes aduaneras",
+      "definition": "Clasificaciones calculadas por consultas diferentes: pendientes sin fecha de fin; enviadas con fecha de fin y sin aprobación; aprobadas según fecha de aprobación, tipo de usuario y caso no anulado; en proceso con aprobación y sin fecha de pago DUI; despacho con fecha de pago DUI.",
+      "scope": "shared_evidence",
+      "evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 74,
+          "line_end": 79
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 74,
+          "line_end": 79
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 203,
+          "line_end": 209
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 168,
+          "line_end": 174
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 353,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 259,
+          "line_end": 273
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 394,
+          "line_end": 409
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 300,
+          "line_end": 315
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 435,
+          "line_end": 448
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 341,
+          "line_end": 354
+        }
+      ],
+      "confidence": "inferred",
+      "aliases": [
+        "solicitud pendiente",
+        "solicitud enviada",
+        "solicitud aprobada",
+        "solicitud en proceso",
+        "solicitud de despacho"
+      ],
+      "usage_and_relationships": "Son filtros de listas, no un catálogo único de transiciones. Algunas listas enlazan por cliente y referencia de pedido, por lo que no deben interpretarse como un historial exacto del embarque.",
+      "category": "Inventario y seguimiento"
+    },
+    {
+      "id": "concesionario-cliente",
+      "term": "Concesionario asociado al cliente",
+      "definition": "Actor disponible en el selector que consulta los concesionarios vinculados al cliente y no eliminados.",
+      "scope": "peru",
+      "evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 560,
+          "line_end": 575
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "concesionario"
+      ],
+      "usage_and_relationships": "La consulta específica se observó en Perú; la revisión no confirma que el concesionario sea siempre destinatario, comprador o propietario de la mercancía.",
+      "category": "Extensiones observadas en Perú"
+    },
+    {
+      "id": "viaje-desde-vin",
+      "term": "Creación de viaje desde VIN seleccionados",
+      "definition": "Flujo del detalle de ítems nacionales que crea una asignación a partir de vehículos seleccionados. Exige embarque nacional, origen, unidad, conductor y fecha y hora programadas, y rechaza VIN duplicados o ya asociados a viaje.",
+      "scope": "peru",
+      "evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 61,
+          "line_end": 76
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 19,
+          "line_end": 54
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 68,
+          "line_end": 106
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "crear viaje desde ítems",
+        "selección de VIN",
+        "VIN"
+      ],
+      "usage_and_relationships": "Es una extensión observada en Perú. Un VIN debe pertenecer al embarque; la unidad y el origen deben corresponder al operador, y el conductor a la unidad o empresa elegida.",
+      "example": "Si alguno de los VIN seleccionados ya tiene viaje asociado, la validación rechaza la solicitud.",
+      "category": "Extensiones observadas en Perú"
+    },
+    {
+      "id": "registro-kilometraje-imagen",
+      "term": "Registro de kilometraje con imagen",
+      "definition": "Consulta específica del inventario que muestra kilometraje, observaciones e imagen y solicita el registro por chasis, embarque y tipo de inventario.",
+      "scope": "peru",
+      "evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 1,
+          "line_end": 20
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 46,
+          "line_end": 62
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "kilometraje de la unidad",
+        "odómetro"
+      ],
+      "usage_and_relationships": "La variante documentada corresponde al componente específico de Perú. Master ya muestra kilometraje dentro de accesorios, por lo que el concepto general de kilometraje no es exclusivo de Perú.",
+      "category": "Extensiones observadas en Perú"
+    },
+    {
+      "id": "fotografias-360",
+      "term": "Fotografías 360° del inventario",
+      "definition": "Conjunto de imágenes de revisión del vehículo que el componente de inventario de Perú consulta por chasis y tipo de inventario, presenta con comentario general y permite descargar en conjunto.",
+      "scope": "peru",
+      "evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 1,
+          "line_end": 31
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 54,
+          "line_end": 77
+        }
+      ],
+      "confidence": "observed",
+      "aliases": [
+        "fotos 360",
+        "imágenes 360"
+      ],
+      "usage_and_relationships": "El archivo conserva un nombre de parte de recepción, pero su contenido funcional se refiere a fotografías 360°; no tratar el nombre de archivo como prueba de equivalencia documental.",
+      "category": "Extensiones observadas en Perú"
+    }
+  ],
+  "historical_candidates": {
+    "status": "historical_not_validated",
+    "count": 891,
+    "disposition": "Los 891 candidatos conservan su estado histórico INFERRED_DRAFT_REVIEW_REQUIRED. No se promovió ni descartó ninguno mediante una equivalencia automática con las entradas revisadas. El residual histórico sin validación individual es 891; no corresponde restar el número de conceptos nuevos porque no hay relación uno a uno.",
+    "category_counts": {
+      "Business domain": 3,
+      "Business entity": 865,
+      "Business field concept": 23
+    },
+    "original_csv": "source-audits/brownfield/reports/business_glossary/BUSINESS_GLOSSARY.csv",
+    "original_csv_sha256": "57a0927cc7da3f5ed5263bd5865d2b6b26e573f9b9a3805e93c8bc98963826bb",
+    "original_markdown": "source-audits/brownfield/reports/business_glossary/BUSINESS_GLOSSARY.md",
+    "original_review": "source-audits/brownfield/reports/business_glossary/BUSINESS_GLOSSARY_REVIEW.md",
+    "release_copies": [
+      "source-audits/brownfield/reports/release/business-analysis/BUSINESS_GLOSSARY.csv",
+      "source-audits/brownfield/reports/release/business-analysis/BUSINESS_GLOSSARY.md",
+      "source-audits/brownfield/reports/release/openspec/glossary.md"
+    ],
+    "preservation": "Referencias a los originales archivados, conservados en su ubicación; no se copian sus definiciones provisionales al catálogo de conceptos revisados."
+  },
+  "review_register": "knowledge/glossary/review-register.md",
+  "index": {
+    "normalization": "NFD, eliminar marcas diacríticas, convertir a minúsculas, recortar y colapsar espacios. Las claves conservan el resto de signos.",
+    "by_id": {
+      "cliente-logistico": "/entries/0",
+      "cliente-del-operador": "/entries/1",
+      "proveedor-mercancia": "/entries/2",
+      "operador-logistico": "/entries/3",
+      "empresa-transporte": "/entries/4",
+      "conductor": "/entries/5",
+      "conductor-relevo": "/entries/6",
+      "gestor-transporte": "/entries/7",
+      "agente-aduana": "/entries/8",
+      "agente-seguro": "/entries/9",
+      "agente-proveedor": "/entries/10",
+      "declarante": "/entries/11",
+      "cotizacion": "/entries/12",
+      "embarque": "/entries/13",
+      "viaje": "/entries/14",
+      "alcance-viaje": "/entries/15",
+      "sentido-viaje": "/entries/16",
+      "modalidad-transporte": "/entries/17",
+      "tramo": "/entries/18",
+      "ruta-embarque": "/entries/19",
+      "origen-destino": "/entries/20",
+      "orden-compra": "/entries/21",
+      "pedido-referencia": "/entries/22",
+      "pedido-operativo": "/entries/23",
+      "item-posicion": "/entries/24",
+      "bulto": "/entries/25",
+      "tipo-carga": "/entries/26",
+      "tipo-mercancia": "/entries/27",
+      "clase-mercancia": "/entries/28",
+      "codigo-un": "/entries/29",
+      "incoterm": "/entries/30",
+      "magnitudes-carga": "/entries/31",
+      "contenedor": "/entries/32",
+      "peso-carga": "/entries/33",
+      "volumen-carga": "/entries/34",
+      "almacen-cliente": "/entries/35",
+      "propuesta-costos": "/entries/36",
+      "aceptacion-cotizacion": "/entries/37",
+      "revision-cotizacion": "/entries/38",
+      "concepto-costo": "/entries/39",
+      "categoria-costo": "/entries/40",
+      "moneda-costo": "/entries/41",
+      "documento-adjunto": "/entries/42",
+      "documento-soporte-viaje": "/entries/43",
+      "solicitud-aduanera": "/entries/44",
+      "documento-previo": "/entries/45",
+      "caso-aduanero": "/entries/46",
+      "carpeta": "/entries/47",
+      "tramite": "/entries/48",
+      "regimen-aduanero": "/entries/49",
+      "tipo-declaracion": "/entries/50",
+      "aduana": "/entries/51",
+      "ruta-autorizada": "/entries/52",
+      "cierre-transito": "/entries/53",
+      "dam": "/entries/54",
+      "dui": "/entries/55",
+      "inventario-vehicular": "/entries/56",
+      "inventario-puerto": "/entries/57",
+      "inventario-deposito": "/entries/58",
+      "inventario-post-nacionalizacion": "/entries/59",
+      "inventario-nacional-local": "/entries/60",
+      "chasis": "/entries/61",
+      "partida-inventario": "/entries/62",
+      "parte-recepcion": "/entries/63",
+      "desperfecto": "/entries/64",
+      "contaminacion": "/entries/65",
+      "accesorio": "/entries/66",
+      "estado-catalogo-embarque": "/entries/67",
+      "edp": "/entries/68",
+      "estado-viaje": "/entries/69",
+      "estado-resumen": "/entries/70",
+      "pendiente-resumen": "/entries/71",
+      "enviado-resumen": "/entries/72",
+      "aceptado-resumen": "/entries/73",
+      "en-proceso-resumen": "/entries/74",
+      "finalizado-resumen": "/entries/75",
+      "estados-solicitud-aduanera": "/entries/76",
+      "concesionario-cliente": "/entries/77",
+      "viaje-desde-vin": "/entries/78",
+      "registro-kilometraje-imagen": "/entries/79",
+      "fotografias-360": "/entries/80"
+    },
+    "by_term": {
+      "cliente de la operacion logistica": [
+        "cliente-logistico"
+      ],
+      "cliente propio del operador": [
+        "cliente-del-operador"
+      ],
+      "proveedor de mercancia": [
+        "proveedor-mercancia"
+      ],
+      "operador logistico": [
+        "operador-logistico"
+      ],
+      "empresa de transporte del viaje": [
+        "empresa-transporte"
+      ],
+      "conductor": [
+        "conductor"
+      ],
+      "conductor de relevo": [
+        "conductor-relevo"
+      ],
+      "gestor de transporte": [
+        "gestor-transporte"
+      ],
+      "agente de aduana": [
+        "agente-aduana"
+      ],
+      "agente de seguro": [
+        "agente-seguro"
+      ],
+      "agente del proveedor de mercancia": [
+        "agente-proveedor"
+      ],
+      "declarante del cliente": [
+        "declarante"
+      ],
+      "cotizacion logistica": [
+        "cotizacion"
+      ],
+      "embarque": [
+        "embarque"
+      ],
+      "viaje": [
+        "viaje"
+      ],
+      "alcance del viaje": [
+        "alcance-viaje"
+      ],
+      "sentido del viaje": [
+        "sentido-viaje"
+      ],
+      "modalidad de transporte": [
+        "modalidad-transporte"
+      ],
+      "tramo del embarque": [
+        "tramo"
+      ],
+      "ruta del embarque": [
+        "ruta-embarque"
+      ],
+      "origen y destino del viaje": [
+        "origen-destino"
+      ],
+      "orden de compra de referencia": [
+        "orden-compra"
+      ],
+      "pedido de referencia": [
+        "pedido-referencia"
+      ],
+      "pedido operativo": [
+        "pedido-operativo"
+      ],
+      "item o posicion del pedido": [
+        "item-posicion"
+      ],
+      "bulto y tipo de bulto": [
+        "bulto"
+      ],
+      "tipo de carga o carguio": [
+        "tipo-carga"
+      ],
+      "tipo de mercancia": [
+        "tipo-mercancia"
+      ],
+      "clase de mercancia": [
+        "clase-mercancia"
+      ],
+      "codigo un de mercancia": [
+        "codigo-un"
+      ],
+      "incoterm seleccionado": [
+        "incoterm"
+      ],
+      "magnitudes de la carga": [
+        "magnitudes-carga"
+      ],
+      "contenedor": [
+        "contenedor"
+      ],
+      "peso y peso bruto de la carga": [
+        "peso-carga"
+      ],
+      "volumen de la carga": [
+        "volumen-carga"
+      ],
+      "almacen del cliente": [
+        "almacen-cliente"
+      ],
+      "propuesta de costos del operador": [
+        "propuesta-costos"
+      ],
+      "aceptacion de la cotizacion del operador": [
+        "aceptacion-cotizacion"
+      ],
+      "revision de cotizacion": [
+        "revision-cotizacion"
+      ],
+      "concepto de costo": [
+        "concepto-costo"
+      ],
+      "categoria de costo": [
+        "categoria-costo"
+      ],
+      "moneda del costo": [
+        "moneda-costo"
+      ],
+      "documento adjunto del embarque": [
+        "documento-adjunto"
+      ],
+      "documento de soporte del viaje": [
+        "documento-soporte-viaje"
+      ],
+      "solicitud de gestion aduanera": [
+        "solicitud-aduanera"
+      ],
+      "documento previo de la solicitud": [
+        "documento-previo"
+      ],
+      "caso aduanero": [
+        "caso-aduanero"
+      ],
+      "carpeta del caso": [
+        "carpeta"
+      ],
+      "tramite de una solicitud": [
+        "tramite"
+      ],
+      "regimen de la solicitud": [
+        "regimen-aduanero"
+      ],
+      "tipo de declaracion": [
+        "tipo-declaracion"
+      ],
+      "aduana seleccionada": [
+        "aduana"
+      ],
+      "ruta autorizada del viaje": [
+        "ruta-autorizada"
+      ],
+      "fecha limite de cierre de transito": [
+        "cierre-transito"
+      ],
+      "dam en el control de solicitudes": [
+        "dam"
+      ],
+      "dui en la clasificacion de despacho": [
+        "dui"
+      ],
+      "inventario del vehiculo": [
+        "inventario-vehicular"
+      ],
+      "inventario en puerto de carga": [
+        "inventario-puerto"
+      ],
+      "inventario de deposito transitorio": [
+        "inventario-deposito"
+      ],
+      "inventario post nacionalizacion": [
+        "inventario-post-nacionalizacion"
+      ],
+      "inventario de despacho y recepcion": [
+        "inventario-nacional-local"
+      ],
+      "chasis como identificador de vehiculo": [
+        "chasis"
+      ],
+      "partida del inventario": [
+        "partida-inventario"
+      ],
+      "parte de recepcion": [
+        "parte-recepcion"
+      ],
+      "desperfecto del vehiculo": [
+        "desperfecto"
+      ],
+      "contaminacion en la revision del vehiculo": [
+        "contaminacion"
+      ],
+      "accesorio inventariado": [
+        "accesorio"
+      ],
+      "estado del catalogo de embarques": [
+        "estado-catalogo-embarque"
+      ],
+      "estado de pedidos (edp)": [
+        "edp"
+      ],
+      "estado de la asignacion de viaje": [
+        "estado-viaje"
+      ],
+      "estado resumen calculado del embarque": [
+        "estado-resumen"
+      ],
+      "pendiente en el resumen del embarque": [
+        "pendiente-resumen"
+      ],
+      "enviado en el resumen del embarque": [
+        "enviado-resumen"
+      ],
+      "aceptado en el resumen del embarque": [
+        "aceptado-resumen"
+      ],
+      "en proceso en el resumen del embarque": [
+        "en-proceso-resumen"
+      ],
+      "finalizado en el resumen del embarque": [
+        "finalizado-resumen"
+      ],
+      "estados de las listas de solicitudes aduaneras": [
+        "estados-solicitud-aduanera"
+      ],
+      "concesionario asociado al cliente": [
+        "concesionario-cliente"
+      ],
+      "creacion de viaje desde vin seleccionados": [
+        "viaje-desde-vin"
+      ],
+      "registro de kilometraje con imagen": [
+        "registro-kilometraje-imagen"
+      ],
+      "fotografias 360° del inventario": [
+        "fotografias-360"
+      ]
+    },
+    "by_alias": {
+      "cliente": [
+        "cliente-logistico"
+      ],
+      "solicitante del embarque": [
+        "cliente-logistico"
+      ],
+      "cliente del proveedor": [
+        "cliente-del-operador"
+      ],
+      "cliente externo del operador": [
+        "cliente-del-operador"
+      ],
+      "proveedor de bienes": [
+        "proveedor-mercancia"
+      ],
+      "proveedor": [
+        "proveedor-mercancia"
+      ],
+      "operador de transporte": [
+        "operador-logistico"
+      ],
+      "transportista del catalogo": [
+        "operador-logistico"
+      ],
+      "empresa transportista": [
+        "empresa-transporte"
+      ],
+      "carrier": [
+        "empresa-transporte"
+      ],
+      "chofer": [
+        "conductor"
+      ],
+      "transportista del viaje": [
+        "conductor"
+      ],
+      "driver": [
+        "conductor"
+      ],
+      "chofer de relevo": [
+        "conductor-relevo"
+      ],
+      "gestor": [
+        "gestor-transporte"
+      ],
+      "agente aduanero": [
+        "agente-aduana"
+      ],
+      "agente de seguros": [
+        "agente-seguro"
+      ],
+      "agente proveedor": [
+        "agente-proveedor"
+      ],
+      "cliente declarante": [
+        "declarante"
+      ],
+      "cotizacion": [
+        "cotizacion"
+      ],
+      "solicitud de cotizacion": [
+        "cotizacion"
+      ],
+      "operacion logistica": [
+        "embarque"
+      ],
+      "asignacion de viaje": [
+        "viaje"
+      ],
+      "journey": [
+        "viaje"
+      ],
+      "alcance": [
+        "alcance-viaje"
+      ],
+      "tipo de viaje del embarque": [
+        "alcance-viaje"
+      ],
+      "solo ida": [
+        "sentido-viaje"
+      ],
+      "ida y vuelta": [
+        "sentido-viaje"
+      ],
+      "solo vuelta": [
+        "sentido-viaje"
+      ],
+      "tipo de viaje de la asignacion": [
+        "sentido-viaje"
+      ],
+      "tipo de embarque": [
+        "modalidad-transporte"
+      ],
+      "modo de transporte": [
+        "modalidad-transporte"
+      ],
+      "tramo logistico": [
+        "tramo"
+      ],
+      "itinerario": [
+        "ruta-embarque"
+      ],
+      "ruta": [
+        "ruta-embarque"
+      ],
+      "localizaciones del viaje": [
+        "origen-destino"
+      ],
+      "puntos de carga y entrega": [
+        "origen-destino"
+      ],
+      "oc": [
+        "orden-compra"
+      ],
+      "ordencompraini": [
+        "orden-compra"
+      ],
+      "pedido del embarque": [
+        "pedido-referencia"
+      ],
+      "ordencompra": [
+        "pedido-referencia"
+      ],
+      "pedido con posiciones": [
+        "pedido-operativo"
+      ],
+      "pedido logistico": [
+        "pedido-operativo"
+      ],
+      "item": [
+        "item-posicion"
+      ],
+      "posicion": [
+        "item-posicion"
+      ],
+      "tipo de bulto": [
+        "bulto"
+      ],
+      "unidad de bulto": [
+        "bulto"
+      ],
+      "tipo de carguio": [
+        "tipo-carga"
+      ],
+      "mercancia": [
+        "tipo-mercancia"
+      ],
+      "tipomercancia": [
+        "tipo-mercancia"
+      ],
+      "clase": [
+        "clase-mercancia"
+      ],
+      "un": [
+        "codigo-un"
+      ],
+      "numero un": [
+        "codigo-un"
+      ],
+      "incoterms": [
+        "incoterm"
+      ],
+      "dimensiones de carga": [
+        "magnitudes-carga"
+      ],
+      "medidas de carga": [
+        "magnitudes-carga"
+      ],
+      "tipo de contenedor": [
+        "contenedor"
+      ],
+      "cantidad de contenedores": [
+        "contenedor"
+      ],
+      "peso": [
+        "peso-carga"
+      ],
+      "peso bruto": [
+        "peso-carga"
+      ],
+      "volumen": [
+        "volumen-carga"
+      ],
+      "dimensiones": [
+        "volumen-carga"
+      ],
+      "almacen": [
+        "almacen-cliente"
+      ],
+      "cotizacion del operador": [
+        "propuesta-costos"
+      ],
+      "oferta de costos": [
+        "propuesta-costos"
+      ],
+      "operador aceptado": [
+        "aceptacion-cotizacion"
+      ],
+      "aceptacion de costos": [
+        "aceptacion-cotizacion"
+      ],
+      "revision de costos": [
+        "revision-cotizacion"
+      ],
+      "cargo": [
+        "concepto-costo"
+      ],
+      "concepto": [
+        "concepto-costo"
+      ],
+      "categoria de costos": [
+        "categoria-costo"
+      ],
+      "divisa": [
+        "moneda-costo"
+      ],
+      "moneda": [
+        "moneda-costo"
+      ],
+      "adjunto": [
+        "documento-adjunto"
+      ],
+      "documento del embarque": [
+        "documento-adjunto"
+      ],
+      "documentacion de soporte": [
+        "documento-soporte-viaje"
+      ],
+      "gestion aduanera": [
+        "solicitud-aduanera"
+      ],
+      "caso previo": [
+        "solicitud-aduanera"
+      ],
+      "solicitud de aduana": [
+        "solicitud-aduanera"
+      ],
+      "documentacion previa": [
+        "documento-previo"
+      ],
+      "caso": [
+        "caso-aduanero"
+      ],
+      "expediente aduanero": [
+        "caso-aduanero"
+      ],
+      "numero de carpeta": [
+        "carpeta"
+      ],
+      "carpeta aduanera": [
+        "carpeta"
+      ],
+      "tramite aduanero": [
+        "tramite"
+      ],
+      "regimen": [
+        "regimen-aduanero"
+      ],
+      "regimen aduanero": [
+        "regimen-aduanero"
+      ],
+      "declaracion": [
+        "tipo-declaracion"
+      ],
+      "aduana de la solicitud": [
+        "aduana"
+      ],
+      "ruta asignada": [
+        "ruta-autorizada"
+      ],
+      "datos aduaneros del viaje": [
+        "ruta-autorizada"
+      ],
+      "cierre de transito": [
+        "cierre-transito"
+      ],
+      "plazo de transito": [
+        "cierre-transito"
+      ],
+      "dam": [
+        "dam"
+      ],
+      "cantidad sin dam": [
+        "dam"
+      ],
+      "dui": [
+        "dui"
+      ],
+      "pago dui": [
+        "dui"
+      ],
+      "inventario": [
+        "inventario-vehicular"
+      ],
+      "inspeccion de vehiculo": [
+        "inventario-vehicular"
+      ],
+      "inventario puerto": [
+        "inventario-puerto"
+      ],
+      "deposito transitorio": [
+        "inventario-deposito"
+      ],
+      "post nacionalizacion": [
+        "inventario-post-nacionalizacion"
+      ],
+      "salida de deposito": [
+        "inventario-post-nacionalizacion"
+      ],
+      "inventario local": [
+        "inventario-nacional-local"
+      ],
+      "inventario nacional": [
+        "inventario-nacional-local"
+      ],
+      "showroom": [
+        "inventario-nacional-local"
+      ],
+      "chasis de vehiculo": [
+        "chasis"
+      ],
+      "partida": [
+        "partida-inventario"
+      ],
+      "parte recepcion": [
+        "parte-recepcion"
+      ],
+      "dano": [
+        "desperfecto"
+      ],
+      "defecto": [
+        "desperfecto"
+      ],
+      "evaluacion de contaminacion": [
+        "contaminacion"
+      ],
+      "accesorios": [
+        "accesorio"
+      ],
+      "estado de embarque": [
+        "estado-catalogo-embarque"
+      ],
+      "estado": [
+        "estado-catalogo-embarque"
+      ],
+      "edp": [
+        "edp"
+      ],
+      "estado de pedido": [
+        "edp"
+      ],
+      "seguimiento de pedidos": [
+        "edp"
+      ],
+      "estado del viaje": [
+        "estado-viaje"
+      ],
+      "resumen de estado": [
+        "estado-resumen"
+      ],
+      "pendiente": [
+        "pendiente-resumen"
+      ],
+      "enviado": [
+        "enviado-resumen"
+      ],
+      "aceptado": [
+        "aceptado-resumen"
+      ],
+      "en proceso": [
+        "en-proceso-resumen"
+      ],
+      "finalizado": [
+        "finalizado-resumen"
+      ],
+      "finalizacion": [
+        "finalizado-resumen"
+      ],
+      "solicitud pendiente": [
+        "estados-solicitud-aduanera"
+      ],
+      "solicitud enviada": [
+        "estados-solicitud-aduanera"
+      ],
+      "solicitud aprobada": [
+        "estados-solicitud-aduanera"
+      ],
+      "solicitud en proceso": [
+        "estados-solicitud-aduanera"
+      ],
+      "solicitud de despacho": [
+        "estados-solicitud-aduanera"
+      ],
+      "concesionario": [
+        "concesionario-cliente"
+      ],
+      "crear viaje desde items": [
+        "viaje-desde-vin"
+      ],
+      "seleccion de vin": [
+        "viaje-desde-vin"
+      ],
+      "vin": [
+        "viaje-desde-vin"
+      ],
+      "kilometraje de la unidad": [
+        "registro-kilometraje-imagen"
+      ],
+      "odometro": [
+        "registro-kilometraje-imagen"
+      ],
+      "fotos 360": [
+        "fotografias-360"
+      ],
+      "imagenes 360": [
+        "fotografias-360"
+      ]
+    },
+    "by_scope": {
+      "shared_evidence": [
+        "cliente-logistico",
+        "cliente-del-operador",
+        "proveedor-mercancia",
+        "operador-logistico",
+        "empresa-transporte",
+        "conductor",
+        "conductor-relevo",
+        "gestor-transporte",
+        "agente-aduana",
+        "agente-seguro",
+        "agente-proveedor",
+        "declarante",
+        "cotizacion",
+        "embarque",
+        "viaje",
+        "alcance-viaje",
+        "sentido-viaje",
+        "modalidad-transporte",
+        "tramo",
+        "ruta-embarque",
+        "origen-destino",
+        "orden-compra",
+        "pedido-referencia",
+        "pedido-operativo",
+        "item-posicion",
+        "bulto",
+        "tipo-carga",
+        "tipo-mercancia",
+        "clase-mercancia",
+        "codigo-un",
+        "incoterm",
+        "magnitudes-carga",
+        "contenedor",
+        "peso-carga",
+        "volumen-carga",
+        "almacen-cliente",
+        "propuesta-costos",
+        "aceptacion-cotizacion",
+        "revision-cotizacion",
+        "concepto-costo",
+        "categoria-costo",
+        "moneda-costo",
+        "documento-adjunto",
+        "documento-soporte-viaje",
+        "solicitud-aduanera",
+        "documento-previo",
+        "caso-aduanero",
+        "carpeta",
+        "tramite",
+        "regimen-aduanero",
+        "tipo-declaracion",
+        "aduana",
+        "ruta-autorizada",
+        "cierre-transito",
+        "dam",
+        "dui",
+        "inventario-vehicular",
+        "inventario-puerto",
+        "inventario-deposito",
+        "inventario-post-nacionalizacion",
+        "inventario-nacional-local",
+        "chasis",
+        "partida-inventario",
+        "desperfecto",
+        "contaminacion",
+        "accesorio",
+        "estado-catalogo-embarque",
+        "edp",
+        "estado-viaje",
+        "estado-resumen",
+        "pendiente-resumen",
+        "enviado-resumen",
+        "aceptado-resumen",
+        "en-proceso-resumen",
+        "finalizado-resumen",
+        "estados-solicitud-aduanera"
+      ],
+      "master": [
+        "parte-recepcion"
+      ],
+      "bolivia": [],
+      "peru": [
+        "concesionario-cliente",
+        "viaje-desde-vin",
+        "registro-kilometraje-imagen",
+        "fotografias-360"
+      ]
+    },
+    "by_confidence": {
+      "observed": [
+        "cliente-logistico",
+        "cliente-del-operador",
+        "proveedor-mercancia",
+        "operador-logistico",
+        "empresa-transporte",
+        "conductor",
+        "conductor-relevo",
+        "agente-aduana",
+        "agente-seguro",
+        "agente-proveedor",
+        "declarante",
+        "cotizacion",
+        "viaje",
+        "alcance-viaje",
+        "sentido-viaje",
+        "modalidad-transporte",
+        "ruta-embarque",
+        "origen-destino",
+        "orden-compra",
+        "pedido-referencia",
+        "pedido-operativo",
+        "item-posicion",
+        "bulto",
+        "tipo-carga",
+        "tipo-mercancia",
+        "clase-mercancia",
+        "incoterm",
+        "magnitudes-carga",
+        "contenedor",
+        "peso-carga",
+        "volumen-carga",
+        "almacen-cliente",
+        "propuesta-costos",
+        "aceptacion-cotizacion",
+        "revision-cotizacion",
+        "concepto-costo",
+        "categoria-costo",
+        "moneda-costo",
+        "documento-adjunto",
+        "documento-soporte-viaje",
+        "solicitud-aduanera",
+        "documento-previo",
+        "carpeta",
+        "regimen-aduanero",
+        "tipo-declaracion",
+        "aduana",
+        "ruta-autorizada",
+        "cierre-transito",
+        "inventario-vehicular",
+        "inventario-puerto",
+        "inventario-deposito",
+        "inventario-post-nacionalizacion",
+        "inventario-nacional-local",
+        "chasis",
+        "desperfecto",
+        "contaminacion",
+        "accesorio",
+        "estado-catalogo-embarque",
+        "edp",
+        "estado-resumen",
+        "pendiente-resumen",
+        "enviado-resumen",
+        "aceptado-resumen",
+        "en-proceso-resumen",
+        "finalizado-resumen",
+        "concesionario-cliente",
+        "viaje-desde-vin",
+        "registro-kilometraje-imagen",
+        "fotografias-360"
+      ],
+      "inferred": [
+        "gestor-transporte",
+        "embarque",
+        "tramo",
+        "codigo-un",
+        "caso-aduanero",
+        "tramite",
+        "parte-recepcion",
+        "estado-viaje",
+        "estados-solicitud-aduanera"
+      ],
+      "unknown": [
+        "dam",
+        "dui",
+        "partida-inventario"
+      ]
+    },
+    "by_category": {
+      "Actores": [
+        "cliente-logistico",
+        "cliente-del-operador",
+        "proveedor-mercancia",
+        "operador-logistico",
+        "empresa-transporte",
+        "conductor",
+        "conductor-relevo",
+        "gestor-transporte",
+        "agente-aduana",
+        "agente-seguro",
+        "agente-proveedor",
+        "declarante"
+      ],
+      "Operación y carga": [
+        "cotizacion",
+        "embarque",
+        "viaje",
+        "alcance-viaje",
+        "sentido-viaje",
+        "modalidad-transporte",
+        "tramo",
+        "ruta-embarque",
+        "origen-destino",
+        "orden-compra",
+        "pedido-referencia",
+        "pedido-operativo",
+        "item-posicion",
+        "bulto",
+        "tipo-carga",
+        "tipo-mercancia",
+        "clase-mercancia",
+        "codigo-un",
+        "incoterm",
+        "magnitudes-carga",
+        "contenedor",
+        "peso-carga",
+        "volumen-carga",
+        "almacen-cliente"
+      ],
+      "Costos, documentos y aduanas": [
+        "propuesta-costos",
+        "aceptacion-cotizacion",
+        "revision-cotizacion",
+        "concepto-costo",
+        "categoria-costo",
+        "moneda-costo",
+        "documento-adjunto",
+        "documento-soporte-viaje",
+        "solicitud-aduanera",
+        "documento-previo",
+        "caso-aduanero",
+        "carpeta",
+        "tramite",
+        "regimen-aduanero",
+        "tipo-declaracion",
+        "aduana",
+        "ruta-autorizada",
+        "cierre-transito",
+        "dam",
+        "dui"
+      ],
+      "Inventario y seguimiento": [
+        "inventario-vehicular",
+        "inventario-puerto",
+        "inventario-deposito",
+        "inventario-post-nacionalizacion",
+        "inventario-nacional-local",
+        "chasis",
+        "partida-inventario",
+        "parte-recepcion",
+        "desperfecto",
+        "contaminacion",
+        "accesorio",
+        "estado-catalogo-embarque",
+        "edp",
+        "estado-viaje",
+        "estado-resumen",
+        "pendiente-resumen",
+        "enviado-resumen",
+        "aceptado-resumen",
+        "en-proceso-resumen",
+        "finalizado-resumen",
+        "estados-solicitud-aduanera"
+      ],
+      "Extensiones observadas en Perú": [
+        "concesionario-cliente",
+        "viaje-desde-vin",
+        "registro-kilometraje-imagen",
+        "fotografias-360"
+      ]
+    },
+    "alphabetical": [
+      "accesorio",
+      "aceptacion-cotizacion",
+      "aceptado-resumen",
+      "aduana",
+      "agente-aduana",
+      "agente-seguro",
+      "agente-proveedor",
+      "alcance-viaje",
+      "almacen-cliente",
+      "bulto",
+      "carpeta",
+      "caso-aduanero",
+      "categoria-costo",
+      "chasis",
+      "clase-mercancia",
+      "cliente-logistico",
+      "cliente-del-operador",
+      "codigo-un",
+      "concepto-costo",
+      "concesionario-cliente",
+      "conductor",
+      "conductor-relevo",
+      "contaminacion",
+      "contenedor",
+      "cotizacion",
+      "viaje-desde-vin",
+      "dam",
+      "declarante",
+      "desperfecto",
+      "documento-adjunto",
+      "documento-soporte-viaje",
+      "documento-previo",
+      "dui",
+      "embarque",
+      "empresa-transporte",
+      "en-proceso-resumen",
+      "enviado-resumen",
+      "estado-viaje",
+      "edp",
+      "estado-catalogo-embarque",
+      "estado-resumen",
+      "estados-solicitud-aduanera",
+      "cierre-transito",
+      "finalizado-resumen",
+      "fotografias-360",
+      "gestor-transporte",
+      "incoterm",
+      "inventario-deposito",
+      "inventario-nacional-local",
+      "inventario-vehicular",
+      "inventario-puerto",
+      "inventario-post-nacionalizacion",
+      "item-posicion",
+      "magnitudes-carga",
+      "modalidad-transporte",
+      "moneda-costo",
+      "operador-logistico",
+      "orden-compra",
+      "origen-destino",
+      "parte-recepcion",
+      "partida-inventario",
+      "pedido-referencia",
+      "pedido-operativo",
+      "pendiente-resumen",
+      "peso-carga",
+      "propuesta-costos",
+      "proveedor-mercancia",
+      "regimen-aduanero",
+      "registro-kilometraje-imagen",
+      "revision-cotizacion",
+      "ruta-autorizada",
+      "ruta-embarque",
+      "sentido-viaje",
+      "solicitud-aduanera",
+      "tipo-carga",
+      "tipo-declaracion",
+      "tipo-mercancia",
+      "tramite",
+      "tramo",
+      "viaje",
+      "volumen-carga"
+    ]
+  },
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Diccionario e índice del glosario de negocio de Proveedores",
+    "description": "Esquema completo del documento contenedor. Las comprobaciones cruzadas de índice, conteos, hashes y fuentes requieren la verificación adicional descrita en review-register.md.",
+    "type": "object",
+    "properties": {
+      "schema_version": {
+        "const": "1.1"
+      },
+      "language": {
+        "const": "es"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "review_date": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "review_method": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_repository": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source_refs": {
+        "type": "array",
+        "minItems": 2,
+        "items": {
+          "$ref": "#/$defs/source_ref"
+        }
+      },
+      "conventions": {
+        "type": "object",
+        "properties": {
+          "confidence": {
+            "type": "object",
+            "properties": {
+              "observed": {
+                "type": "string",
+                "minLength": 1
+              },
+              "inferred": {
+                "type": "string",
+                "minLength": 1
+              },
+              "unknown": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "observed",
+              "inferred",
+              "unknown"
+            ],
+            "additionalProperties": false
+          },
+          "scope": {
+            "type": "object",
+            "properties": {
+              "shared_evidence": {
+                "type": "string",
+                "minLength": 1
+              },
+              "master": {
+                "type": "string",
+                "minLength": 1
+              },
+              "bolivia": {
+                "type": "string",
+                "minLength": 1
+              },
+              "peru": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "shared_evidence",
+              "master",
+              "bolivia",
+              "peru"
+            ],
+            "additionalProperties": false
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reviewed": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "confidence",
+          "scope",
+          "evidence",
+          "aliases",
+          "reviewed"
+        ],
+        "additionalProperties": false
+      },
+      "counts": {
+        "type": "object",
+        "properties": {
+          "reviewed_entries": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "by_scope": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "by_confidence": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "business_owner_validated": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "historical_candidates": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "historical_candidates_not_validated": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "reviewed_entries",
+          "by_scope",
+          "by_confidence",
+          "business_owner_validated",
+          "historical_candidates",
+          "historical_candidates_not_validated"
+        ],
+        "additionalProperties": false
+      },
+      "entries": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "$ref": "#/$defs/entry"
+        }
+      },
+      "index": {
+        "type": "object",
+        "properties": {
+          "normalization": {
+            "type": "string",
+            "minLength": 1
+          },
+          "by_id": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^/entries/[0-9]+$"
+            }
+          },
+          "by_term": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "by_alias": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "by_scope": {
+            "type": "object",
+            "properties": {
+              "shared_evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              },
+              "master": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              },
+              "bolivia": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              },
+              "peru": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "shared_evidence",
+              "master",
+              "bolivia",
+              "peru"
+            ],
+            "additionalProperties": false
+          },
+          "by_confidence": {
+            "type": "object",
+            "properties": {
+              "observed": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              },
+              "inferred": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              },
+              "unknown": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "observed",
+              "inferred",
+              "unknown"
+            ],
+            "additionalProperties": false
+          },
+          "by_category": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "uniqueItems": true
+            }
+          },
+          "alphabetical": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "normalization",
+          "by_id",
+          "by_term",
+          "by_alias",
+          "by_scope",
+          "by_confidence",
+          "by_category",
+          "alphabetical"
+        ],
+        "additionalProperties": false
+      },
+      "historical_candidates": {
+        "$ref": "#/$defs/history"
+      },
+      "review_register": {
+        "type": "string",
+        "minLength": 1
+      },
+      "schema": {
+        "type": "object",
+        "description": "Copia de este esquema, para validación sin archivo externo."
+      }
+    },
+    "required": [
+      "schema_version",
+      "language",
+      "title",
+      "review_date",
+      "review_method",
+      "source_repository",
+      "source_refs",
+      "conventions",
+      "counts",
+      "entries",
+      "index",
+      "historical_candidates",
+      "review_register",
+      "schema"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+      "source_ref": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": "string",
+            "pattern": "^(master|origin/master_peru)@[0-9a-f]{40}$"
+          },
+          "branch": {
+            "enum": [
+              "master",
+              "origin/master_peru"
+            ]
+          },
+          "commit": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          }
+        },
+        "required": [
+          "ref",
+          "branch",
+          "commit"
+        ],
+        "additionalProperties": false
+      },
+      "evidence": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": "string",
+            "pattern": "^(master|origin/master_peru)@[0-9a-f]{40}$"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "line_start": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "line_end": {
+            "type": "integer",
+            "minimum": 1
+          }
+        },
+        "required": [
+          "ref",
+          "path",
+          "line_start",
+          "line_end"
+        ],
+        "additionalProperties": false
+      },
+      "entry": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "enum": [
+              "shared_evidence",
+              "master",
+              "bolivia",
+              "peru"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/evidence"
+            }
+          },
+          "confidence": {
+            "enum": [
+              "observed",
+              "inferred",
+              "unknown"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "usage_and_relationships": {
+            "type": "string",
+            "minLength": 1
+          },
+          "example": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "term",
+          "definition",
+          "scope",
+          "evidence",
+          "confidence",
+          "aliases",
+          "usage_and_relationships",
+          "category"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "scope": {
+                  "const": "shared_evidence"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "evidence": {
+                  "minItems": 2,
+                  "allOf": [
+                    {
+                      "contains": {
+                        "properties": {
+                          "ref": {
+                            "pattern": "^master@"
+                          }
+                        },
+                        "required": [
+                          "ref"
+                        ]
+                      }
+                    },
+                    {
+                      "contains": {
+                        "properties": {
+                          "ref": {
+                            "pattern": "^origin/master_peru@"
+                          }
+                        },
+                        "required": [
+                          "ref"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      "history": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "const": "historical_not_validated"
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "disposition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category_counts": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "original_csv": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_csv_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "original_markdown": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_review": {
+            "type": "string",
+            "minLength": 1
+          },
+          "release_copies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "preservation": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "status",
+          "count",
+          "disposition",
+          "category_counts",
+          "original_csv",
+          "original_csv_sha256",
+          "original_markdown",
+          "original_review",
+          "release_copies",
+          "preservation"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -2,14 +2,14 @@
 
 ## Verdict
 
-FAIL - functional code/database changed or coverage could not be demonstrated.
+PARTIAL - source, database or deployment coverage remains unverified; review required_action.
 
 | Field | Value |
 | --- | --- |
-| Audited commit | `` |
-| Current HEAD | `` |
+| Audited commit | `a8ce2c23dead8552d2c4699e4a9b9134f7a18707` |
+| Current HEAD | `89f6d3c237232dcafba1f7af4ab60a2a2c6e4ccb` |
 | Changed functional paths | 0 |
-| Required action | `no_confirmed_audited_commit_use_hash_comparison_and_refresh_audits` |
+| Required action | `knowledge_repository_documents_a_pinned_snapshot_use_application_checkout_for_code_coverage` |
 
 ## Checked Scope
 
@@ -21,8 +21,6 @@ FAIL - functional code/database changed or coverage could not be demonstrated.
 | `info.php` | checked |
 | `.htaccess` | checked |
 | `.env-example.php` | checked |
-| `asgard.sql` | checked |
-| `asgardpe Base de Datos Peru.sql` | checked |
 | `Dockerfile` | checked |
 | `package.json` | checked |
 
@@ -30,4 +28,4 @@ FAIL - functional code/database changed or coverage could not be demonstrated.
 
 | Path | Status |
 | --- | --- |
-| none | no functional changes detected |
+| none reported | This alone does not prove database or deployment coverage |

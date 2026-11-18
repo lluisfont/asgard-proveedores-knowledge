@@ -1,0 +1,19 @@
+{
+  "master_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "counts": {
+    "identical_blob": 10466,
+    "changed_blob": 157,
+    "peru_only": 60,
+    "master_only": 4,
+    "changed_gitlink": 2
+  },
+  "first_party_counts": {
+    "identical_blob": 873,
+    "changed_blob": 157,
+    "peru_only": 41,
+    "master_only": 4,
+    "changed_gitlink": 2
+  },
+  "warning": "Equal blobs demonstrate equal source bytes only, not equal deployment configuration or business behavior."
+}

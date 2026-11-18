@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "mode": "isolated_in_memory_extracted_source",
+  "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_root": "C:\\repos\\proveedores-github-review-20261118",
+  "php_version": "8.4.25",
+  "source_hashes_verified": true,
+  "source_files": [
+    "index_archivos/tracking/guardia_imagen.php",
+    "index_archivos/guardia_descargas_rel.php",
+    "index_archivos/permisos.php",
+    "index_archivos/resetpassword/ResetPassword.php",
+    "index_archivos/2fa/TwoFaClass.php"
+  ],
+  "database_access": false,
+  "network_access": false,
+  "application_handler_executed": false,
+  "session_storage_used": false,
+  "application_writes": false,
+  "cases": [
+    {
+      "case": "image_anonymous",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "image_dotdot",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "image_absolute",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "image_relative",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected": "CONTINUE",
+      "actual": "CONTINUE",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "download_anonymous",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "download_dotdot",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected": "BLOCK",
+      "actual": "BLOCK",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "download_relative",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected": "CONTINUE",
+      "actual": "CONTINUE",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria; sin almacenamiento de sesiones"
+    },
+    {
+      "case": "permisos_authenticated",
+      "source": "index_archivos/permisos.php",
+      "expected": "CONTINUE",
+      "actual": "CONTINUE",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria"
+    },
+    {
+      "case": "permisos_anonymous_php84",
+      "source": "index_archivos/permisos.php",
+      "expected": "Error",
+      "actual": "Error",
+      "status": "pass",
+      "adaptation": "session_start sustituido solo en memoria"
+    },
+    {
+      "case": "permisos_anonymous_legacy_constant_simulation",
+      "source": "index_archivos/permisos.php",
+      "expected": "CONTINUE",
+      "actual": "CONTINUE",
+      "status": "pass",
+      "adaptation": "Sesión en memoria; el caso legacy define únicamente la constante y no ejecuta PHP 5.4"
+    },
+    {
+      "case": "reset_without_token_mocked_db",
+      "source": "index_archivos/resetpassword/ResetPassword.php",
+      "expected": {
+        "success": true,
+        "query_count": 2,
+        "update_constructed": true
+      },
+      "actual": {
+        "success": true,
+        "query_count": 2,
+        "update_constructed": true
+      },
+      "status": "pass",
+      "adaptation": "Solo el método extraído; funciones de BD sustituidas por funciones en memoria; ningún token suministrado"
+    },
+    {
+      "case": "mfa_client_identity_before_logging_failure",
+      "source": "index_archivos/2fa/TwoFaClass.php",
+      "expected": {
+        "session_provider_assigned": true,
+        "session_user_assigned": true,
+        "mfa_code_supplied": false
+      },
+      "actual": {
+        "session_provider_assigned": true,
+        "session_user_assigned": true,
+        "mfa_code_supplied": false
+      },
+      "status": "pass",
+      "adaptation": "Métodos extraídos; sesión en memoria y logger que lanza una excepción antes de BD/JWT; no prueba persistencia"
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "limitation": "Pruebas de guardias y métodos aislados con sustitutos en memoria. No prueban autenticación completa, persistencia de sesión, aislamiento entre proveedores, despliegue ni ejecución con PHP 5.4."
+}

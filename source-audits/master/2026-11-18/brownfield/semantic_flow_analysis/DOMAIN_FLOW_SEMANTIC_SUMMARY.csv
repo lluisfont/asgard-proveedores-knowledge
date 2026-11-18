@@ -1,0 +1,4 @@
+domain,process_count,table_count,field_count,read_crossings,write_crossings,validation_status
+general-business-data,40,114,0,265,46,INFERRED_DRAFT_REVIEW_REQUIRED
+identity-access,1,2,0,2,2,INFERRED_DRAFT_REVIEW_REQUIRED
+operations-workflow,2,0,0,0,0,INFERRED_DRAFT_REVIEW_REQUIRED

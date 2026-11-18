@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-11-18T15:04:49.875637+00:00",
+  "sql_files": 0,
+  "database_sha256": null,
+  "documentation_languages": {
+    "technical": "Spanish",
+    "business": "Spanish"
+  },
+  "tables": [],
+  "columns": [],
+  "relations": [],
+  "indexes": [],
+  "constraints": [],
+  "database_objects": [],
+  "policy": "Physical facts are extracted automatically. DDL comments are documentary clues, not confirmed business meaning; all business descriptions require review."
+}

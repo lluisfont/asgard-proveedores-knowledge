@@ -1,0 +1,38 @@
+{
+  "status": "LOCAL_SCHEMA_CANDIDATE_UNVERIFIED",
+  "source_file": "asgard.sql",
+  "source_sha256": "a0833cde6629ac2d458dad6faaa17df4c61af19401eacad59e4bc4400aa5d1e5",
+  "source_bytes": 2699239,
+  "header_schema_name": "asgard",
+  "header_environment_label": "Asgard_dev",
+  "header_export_date": "2026-07-23",
+  "country": "unknown",
+  "git_commit": null,
+  "matches_master_deployment": "not_verified",
+  "counts": {
+    "tables": 1432,
+    "columns": 13149,
+    "relations": 62,
+    "indexes": 1717,
+    "constraints": 908,
+    "database_objects": 158
+  },
+  "master_reference_candidates_found_in_local_schema": 121,
+  "master_reference_candidates_unmatched": [
+    "Selected",
+    "all",
+    "capacidad",
+    "failed",
+    "intercambiodocumental",
+    "logis_cotizacion",
+    "logis_cotizacionoperador",
+    "tck_asignacionesviajes",
+    "the",
+    "tmp_casosdampendientes",
+    "tmp_eventos",
+    "tmp_logisoperadorubicaciones",
+    "v_tck_infoviajecliente"
+  ],
+  "unmatched_names_do_not_prove_missing_tables": true,
+  "note": "Matching names is not proof of compatible columns, deployed schema, business meaning or country. Unmatched candidates may include temporary/view names or lexical false positives (for example FROM inside TRIM). No INSERT data, credentials, defaults, server address or routine bodies are exported."
+}

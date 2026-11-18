@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-11-18T15:07:27.778844+00:00",
+  "pipeline_phases": [
+    "01-inventory",
+    "02-technical-evidence",
+    "03-data-archaeology",
+    "04-data-semantics-reconstruct",
+    "05-architecture-reconstruct",
+    "06-security-analyze",
+    "07-transaction-analyze",
+    "08-domain-discover",
+    "09-business-reconstruct",
+    "10-business-rules-reconstruct",
+    "11-flow-usage-semantics-reconstruct",
+    "12-business-glossary-reconstruct",
+    "13-characterization-tests-plan",
+    "14-verify-baseline",
+    "15-openspec-baseline",
+    "16-consolidate-release"
+  ],
+  "release_directories": [
+    "work/release/engineering-analysis",
+    "work/release/business-analysis",
+    "work/release/openspec",
+    "work/release/traceability",
+    "work/release/verification"
+  ],
+  "minimum_expected_artifacts": 284,
+  "generated_deterministic_artifacts": 33,
+  "required_release_artifacts": 323,
+  "seeded_release_artifacts": 34,
+  "deterministic_coverage_percent": 11.62,
+  "status": "INCOMPLETE_BASELINE",
+  "rule": "Static analysis creates seeds and review backlogs only; business and OpenSpec artifacts require evidence-backed reconstruction and validation.",
+  "groups": [
+    {
+      "family": "engineering-analysis",
+      "area": "baseline",
+      "minimum_artifacts": 15,
+      "generated_deterministic_artifacts": 2,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "05-architecture-reconstruct",
+      "deterministic_outputs": [
+        "work/inventory/source_inventory.csv",
+        "work/inventory/summary.json"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "architecture",
+      "minimum_artifacts": 16,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "05-architecture-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "data",
+      "minimum_artifacts": 24,
+      "generated_deterministic_artifacts": 10,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "04-data-semantics-reconstruct",
+      "deterministic_outputs": [
+        "work/data_dictionary/DATA_DICTIONARY.xlsx",
+        "work/data_dictionary/DATA_DICTIONARY.md",
+        "work/data_dictionary/data_dictionary.json",
+        "work/data_dictionary/tables.csv",
+        "work/data_dictionary/columns.csv",
+        "work/data_dictionary/relations.csv",
+        "work/data_dictionary/indexes.csv",
+        "work/data_dictionary/constraints.csv",
+        "work/data_dictionary/database_objects.csv",
+        "work/data_dictionary/business_review_backlog.csv"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "interfaces",
+      "minimum_artifacts": 18,
+      "generated_deterministic_artifacts": 6,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "05-architecture-reconstruct",
+      "deterministic_outputs": [
+        "work/process_maps/process_map.json",
+        "work/process_maps/process_nodes.csv",
+        "work/process_maps/process_edges.csv",
+        "work/process_maps/component_index.csv",
+        "work/process_maps/PROCESS_MAP.md",
+        "work/process_maps/process_business_review.csv"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "security",
+      "minimum_artifacts": 18,
+      "generated_deterministic_artifacts": 1,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "06-security-analyze",
+      "deterministic_outputs": [
+        "work/evidence/evidence.jsonl"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "behavior",
+      "minimum_artifacts": 16,
+      "generated_deterministic_artifacts": 1,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "07-transaction-analyze",
+      "deterministic_outputs": [
+        "work/evidence/evidence.jsonl"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "integrations",
+      "minimum_artifacts": 14,
+      "generated_deterministic_artifacts": 1,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "05-architecture-reconstruct",
+      "deterministic_outputs": [
+        "work/evidence/evidence.jsonl"
+      ]
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "quality",
+      "minimum_artifacts": 15,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "13-characterization-tests-plan",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "engineering-analysis",
+      "area": "tests",
+      "minimum_artifacts": 14,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "13-characterization-tests-plan",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "traceability",
+      "area": "verification",
+      "minimum_artifacts": 15,
+      "generated_deterministic_artifacts": 1,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "14-verify-baseline",
+      "deterministic_outputs": [
+        "work/evidence/evidence.jsonl"
+      ]
+    },
+    {
+      "family": "openspec",
+      "area": "baseline",
+      "minimum_artifacts": 12,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "15-openspec-baseline",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "product-context",
+      "minimum_artifacts": 12,
+      "generated_deterministic_artifacts": 2,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "12-business-glossary-reconstruct",
+      "deterministic_outputs": [
+        "work/business_glossary/BUSINESS_GLOSSARY.md",
+        "work/business_glossary/BUSINESS_GLOSSARY.csv"
+      ]
+    },
+    {
+      "family": "business-analysis",
+      "area": "actors",
+      "minimum_artifacts": 8,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "09-business-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "processes",
+      "minimum_artifacts": 8,
+      "generated_deterministic_artifacts": 1,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "11-flow-usage-semantics-reconstruct",
+      "deterministic_outputs": [
+        "work/process_maps/process_business_review.csv"
+      ]
+    },
+    {
+      "family": "business-analysis",
+      "area": "semantic-flow-analysis",
+      "minimum_artifacts": 5,
+      "generated_deterministic_artifacts": 5,
+      "status": "GENERATED",
+      "required_next_phase": "12-business-glossary-reconstruct",
+      "deterministic_outputs": [
+        "work/semantic_flow_analysis/FLOW_USAGE_SEMANTIC_ANALYSIS.xlsx",
+        "work/semantic_flow_analysis/FLOW_USAGE_SEMANTIC_REVERSE_ENGINEERING.md",
+        "work/semantic_flow_analysis/FLOW_TABLE_USAGE_MATRIX.csv",
+        "work/semantic_flow_analysis/FLOW_FIELD_USAGE_MATRIX.csv",
+        "work/semantic_flow_analysis/DOMAIN_FLOW_SEMANTIC_SUMMARY.csv"
+      ]
+    },
+    {
+      "family": "business-analysis",
+      "area": "rules",
+      "minimum_artifacts": 12,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "10-business-rules-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "domain-model",
+      "minimum_artifacts": 9,
+      "generated_deterministic_artifacts": 3,
+      "status": "PARTIAL_DETERMINISTIC_SEED",
+      "required_next_phase": "04-data-semantics-reconstruct",
+      "deterministic_outputs": [
+        "work/data_dictionary/business_review_backlog.csv",
+        "work/data_dictionary/SEMANTIC_TABLE_CATALOG.csv",
+        "work/data_dictionary/SEMANTIC_FIELD_CATALOG.csv"
+      ]
+    },
+    {
+      "family": "business-analysis",
+      "area": "use-cases",
+      "minimum_artifacts": 5,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "09-business-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "ui",
+      "minimum_artifacts": 9,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "09-business-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "reporting",
+      "minimum_artifacts": 8,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "10-business-rules-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "documents",
+      "minimum_artifacts": 8,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "09-business-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "exceptions",
+      "minimum_artifacts": 7,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "09-business-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "variants",
+      "minimum_artifacts": 7,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "10-business-rules-reconstruct",
+      "deterministic_outputs": []
+    },
+    {
+      "family": "business-analysis",
+      "area": "governance",
+      "minimum_artifacts": 9,
+      "generated_deterministic_artifacts": 0,
+      "status": "INFERRED_DRAFT_REVIEW_REQUIRED",
+      "required_next_phase": "14-verify-baseline",
+      "deterministic_outputs": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-01T21:55:14Z",
-  "current_head": null,
-  "audited_commit": null,
+  "generated_at": "2026-11-18T15:21:38Z",
+  "current_head": "89f6d3c237232dcafba1f7af4ab60a2a2c6e4ccb",
+  "audited_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
   "functional_paths_checked": [
     "src",
     "index_archivos",
@@ -9,13 +9,15 @@
     "info.php",
     ".htaccess",
     ".env-example.php",
-    "asgard.sql",
-    "asgardpe Base de Datos Peru.sql",
     "Dockerfile",
     "package.json"
   ],
   "changed_functional_path_count": 0,
   "changed_functional_paths": [],
+  "uncommitted_functional_changes": [],
+  "source_snapshot_code_matches": false,
+  "master_database_schema_verified": false,
+  "standalone_knowledge_repository": true,
   "code_and_database_covered_by_existing_audit": false,
-  "required_action": "no_confirmed_audited_commit_use_hash_comparison_and_refresh_audits"
+  "required_action": "knowledge_repository_documents_a_pinned_snapshot_use_application_checkout_for_code_coverage"
 }

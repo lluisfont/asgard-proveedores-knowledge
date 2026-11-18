@@ -2,6 +2,8 @@
 
 | Carpeta | Proyecto auditado | Papel |
 | --- | --- | --- |
+| `master/2026-11-18/` | KPO-Group/proveedores, master a8ce2c23 | Auditoria actual fijada a commit, comparacion de variantes y verificaciones |
+| `local-schema-candidate/2026-11-18/` | asgard.sql local no versionado, hash fijado | Metadatos estructurales; pais y correspondencia con master sin confirmar |
 | `graphify/` | Proveedores, copia `proveedores-master_peru` | Grafo historico completo y artefactos de extraccion |
 | `brownfield/` | Proveedores, copia `proveedores-master_peru` | Baseline determinista, evidencias, reconstruccion y borradores |
 | `api/` | Proveedores, copia `proveedores-master_peru` | Auditoria API nativa y aumentada, con estados parciales |
@@ -12,7 +14,7 @@ Los hallazgos de `related-graphify-audits/` no describen vulnerabilidades ni API
 de Proveedores. Se conserva su texto original y sus evidencias para evitar
 perder el contexto del trabajo anterior.
 
-Los informes iterativos de Proveedores estan en `brownfield/reports/iterative/`.
+Los informes iterativos historicos de Peru estan en `brownfield/reports/iterative/`.
 Los informes de seguridad, integridad SQL y ampliacion de endpoints estan en
 `brownfield/reports/custom/`. La configuracion y los scanners se conservan en
 `brownfield/verification/`.

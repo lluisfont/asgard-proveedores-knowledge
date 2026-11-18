@@ -1,0 +1,4 @@
+term,category,definition,source_object,evidence_ids,validation_status
+General Business Data,Business domain,"Candidate domain grouping with 40 processes, 114 tables and 0 fields.",general-business-data,,INFERRED_DRAFT_REVIEW_REQUIRED
+Identity Access,Business domain,"Candidate domain grouping with 1 processes, 2 tables and 0 fields.",identity-access,,INFERRED_DRAFT_REVIEW_REQUIRED
+Operations Workflow,Business domain,"Candidate domain grouping with 2 processes, 0 tables and 0 fields.",operations-workflow,,INFERRED_DRAFT_REVIEW_REQUIRED

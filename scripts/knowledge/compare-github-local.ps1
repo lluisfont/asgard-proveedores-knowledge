@@ -1,7 +1,7 @@
 param(
   [string]$Root = (Resolve-Path ".").Path,
   [string]$Remote = "origin",
-  [string]$Branch = "main",
+  [string]$Branch = "",
   [string]$LocalRef = "HEAD"
 )
 $ErrorActionPreference = "Stop"
@@ -22,6 +22,10 @@ function Impact([string]$Path, [object]$Manifest) {
   return @($items | Select-Object -Unique)
 }
 $manifest = Get-Content -LiteralPath (Join-Path $Root "knowledge\manifest.json") -Raw | ConvertFrom-Json
+if (-not $Branch) {
+  $Branch = if (Test-Path -LiteralPath (Join-Path $Root "index.php")) { $manifest.repository.branch } else { "main" }
+  if (-not $Branch) { $Branch = "master" }
+}
 if (Test-Path -LiteralPath (Join-Path $Root ".git")) {
   $remoteUrl = $null
   try { $remoteUrl = @(Invoke-GitCommand @("remote", "get-url", $Remote))[0] } catch {}

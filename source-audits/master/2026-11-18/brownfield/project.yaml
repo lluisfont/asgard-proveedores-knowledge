@@ -1,0 +1,35 @@
+project_name: proveedores-master-a8ce2c23
+source_roots:
+- .
+database_sources: []
+documentation_sources: []
+documentation_languages:
+  technical: Spanish
+  business: Spanish
+graphify:
+  output_dir: graphify-out
+exclude:
+- .git
+- .brownfield
+- node_modules
+- vendor
+- .venv
+- graphify-out
+- .vscode
+- PHPExcel
+- MPDF57
+- PDFMerger
+- jqwidgetsVer
+- jqwidgets
+- spreadsjs
+- datatables
+- datatables_old
+- datatable
+- bootstrap4
+- bootstrap
+- fontawesome
+- jquery-ui
+- jqGrid
+- php-jwt-5.2.0
+- Carbon
+- carbon

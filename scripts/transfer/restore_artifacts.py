@@ -29,6 +29,10 @@ def main():
         data = gzip.decompress(source.read_bytes())
         inventory = json.loads((root / 'knowledge/transfer-artifacts.json').read_text(encoding='utf-8-sig'))
         matching = [e for e in inventory['entries'] if e['path'] == source.relative_to(root).as_posix()]
+        current_index = root / 'knowledge/current-artifacts.json'
+        if current_index.exists():
+            current = json.loads(current_index.read_text(encoding='utf-8-sig'))
+            matching += [e for e in current['entries'] if e['path'] == source.relative_to(root).as_posix()]
         if not matching or any(hashlib.sha256(data).hexdigest() != e['export_sha256'] for e in matching):
             raise ValueError('Artifact is not indexed or its integrity check failed')
         destination.mkdir(parents=True, exist_ok=True)

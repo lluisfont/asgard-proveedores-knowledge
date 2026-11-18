@@ -1,0 +1,9 @@
+{
+  "business_terms": 81,
+  "historical_candidates_accounted_for": 891,
+  "historical_dispositions": {
+    "historical_candidate_no_master_reference_verified": 769,
+    "master_reference_candidate_no_master_ddl": 122
+  },
+  "warning": "Reviewed business concepts and legacy physical identifiers are different inventories. No human approval or master physical schema is implied."
+}

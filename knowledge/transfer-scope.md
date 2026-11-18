@@ -1,5 +1,10 @@
 # Alcance y procedencia de la transferencia
 
+Documento historico de la transferencia del 2026-10-01. La base actual,
+auditada el 2026-11-18 sobre master de GitHub, se documenta en
+[audit-scope.md](audit-scope.md). Las limitaciones y fuentes descritas debajo
+pertenecen al paquete original basado en Peru.
+
 Fecha de transferencia: 2026-10-01.
 
 El paquete se genera con `lluisfont/convertidor-knowledge`, commit

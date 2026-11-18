@@ -1,0 +1,279 @@
+domain,process_id,process_name,trigger,table,usage,evidence_ids,validation_status
+general-business-data,PROCESS-1CF132E090F13F,TwoFaClass,CLI_COMMAND candidate in index_archivos/2fa/TwoFaClass.php,dav_codigos_2fa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientereportescliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-B4E936134C1C3C,GlobalClass,CLI_COMMAND candidate in index_archivos/controllers/GlobalClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,ada_agentesaduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,adaprov_agenteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientealmacen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_divisa,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_documentos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_puerto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_categorias_costos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos_concepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costos_detalle,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_costosconcepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarquesdatos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_pedidos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-503E9AFB57A4F5,CostosClass,CLI_COMMAND candidate in index_archivos/embarques/CostosClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientealmacen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clienteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_puerto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_aeropuertos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_contenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_costosdetalles,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquereferencias,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarques,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquescontenedor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesdatos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesdocumentos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesmagnitudes,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_embarquesoperador,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_incoterms,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,logis_tramos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2140331068EF8A,CotizacionClass,CLI_COMMAND candidate in index_archivos/embarques/CotizacionClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,adaprov_agenteproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,adaprov_agenteproveedormercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,ads_agenteseguro,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_aerolineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_localidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_navieras,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_region,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_tramites,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_clientemails,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarques,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesdocumentos,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_embarquesrutas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_estados,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-84FA6432C13C9D,EmbarqueClass,CLI_COMMAND candidate in index_archivos/embarques/EmbarqueClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,ads_agenteseguro,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_aerolineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_casosprevios,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientedeclarante,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientetipoproducto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_navieras,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_regimen,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-AE602D78037010,SolicitudesClass,CLI_COMMAND candidate in index_archivos/embarques/SolicitudesClass.php,tmp_casosdampendientes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-437DA696ABB851,listaLineasFiltro,CLI_COMMAND candidate in index_archivos/embarques/ajax/listaLineasFiltro.php,dav_clientelineas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-437DA696ABB851,listaLineasFiltro,CLI_COMMAND candidate in index_archivos/embarques/ajax/listaLineasFiltro.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-369CD2D3CEE8D2,embarques_lista_viajes,CLI_COMMAND candidate in index_archivos/embarques/componentes/embarques_lista_viajes.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,ages_solicitudes_asesoria_gestion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_casos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,dav_usuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_edp,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,logis_estados_edp,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-08D8C2BE522741,EstadoPedidosClass,CLI_COMMAND candidate in index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costosconcepto,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_costosdetalles,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D45AF63D9C8FB2,costos,CLI_COMMAND candidate in index_archivos/embarques/costos.php,logis_cotizacionoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-4E18644CE60D5B,embarquever,EVENT_CONSUMER candidate in index_archivos/embarques/embarquever.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-6EDF11BB5453A6,estado-pedidos,CLI_COMMAND candidate in index_archivos/embarques/frames/estado-pedidos.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-E7BA4F72595CF5,rutas,CLI_COMMAND candidate in index_archivos/embarques/frames/rutas.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-66B863C80479CE,logAsgard,CLI_COMMAND candidate in index_archivos/logAsgard.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,prov_clientes_proveedores,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-F745998F6FDFD5,ClienteProveedorClass,CLI_COMMAND candidate in index_archivos/parametros/clientes/ClienteProveedorClass.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tck_location,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tck_tipoubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2A34764653153E,Ubicacion,CLI_COMMAND candidate in index_archivos/parametros/ubicaciones/Ubicacion.php,tmp_logisoperadorubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,ada_clienteagenteaduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2BF21C615C7623,principal,EVENT_CONSUMER candidate in index_archivos/principal.php,ges_clientegestortransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-19AAEAC7452F0B,RatingClass,CLI_COMMAND candidate in index_archivos/rating/RatingClass.php,dav_rating,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-FF15EAB85BFF3D,ActualizarMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,dex_suma,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dav_clienteusuarios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dex_suma,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,dex_suma_estado_historial,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-7985C77A820F0C,RecepcionFisicaMICs,CLI_COMMAND candidate in index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,prov_usuarioaccesoproveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+identity-access,PROCESS-504F5874497D38,ResetPassword,CLI_COMMAND candidate in index_archivos/resetpassword/ResetPassword.php,dav_reseteos_passswords_proveedores,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+identity-access,PROCESS-504F5874497D38,ResetPassword,CLI_COMMAND candidate in index_archivos/resetpassword/ResetPassword.php,prov_usuarioaccesoproveedor,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,dav_vehiculosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_carga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_empresa_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_eventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_imagenes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_localizaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registrareventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registrarincidentes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_registros_entregas_recojos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_trackeo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,tck_ultimas_ubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-D4D5148AE1B20C,ListaViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ListaViajesClass.php,v_tck_infoviajecliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_asignacion_viaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_carga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_empresa_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_eventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_localizaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_registrareventos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_registrarincidentes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_trackeo,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3CCCE5A6DBDC9E,ReporteViajesClass,CLI_COMMAND candidate in index_archivos/tracking/ReporteViajesClass.php,tck_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,capacidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_casosprevios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_ciudad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_modotransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_aduanasrutasplazos,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_asignacionesviajes,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_capacidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_choferoperador,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_documentosoperadortransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_documentossoporte,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_lugaresentregacarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_operadorestransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_programacionembarques,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_rutas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_tiposcarguios,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_tiposunidades,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transporte,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transportista,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_transportistausuario,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_ubicaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-3DB9A5C994D842,TrackingClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingClass.php,tck_unidadestransporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_aduana,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_cliente,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_clientetransportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_pais,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_proveedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_tipodeclaracion,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_transportista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,ges_gestores_transporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_contenedor,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_edp,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarques,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesdatos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesmagnitudes,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_embarquesoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipocarga,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipoembarque,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercancia,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercanciaclase,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipomercanciaun,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tipoviaje,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,logis_tramos,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_asignacion_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_carga,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_documentos_soporte_lista,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_documentossoporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_empresa_transporte,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_items_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_localizaciones,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_location,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_orden_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_rutas,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_rutasautorizadas,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_transportista,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-2652F34C72250E,TrackingNewClass,CLI_COMMAND candidate in index_archivos/tracking/TrackingNewClass.php,tck_unidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,dav_unidad,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,prov_clientes_proveedores,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_asignacion_viaje,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_carga,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_choferoperador,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_items_localizaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_localizaciones,writes,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_location,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_operadorestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_tipoubicaciones,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_tmpcargamasiva,"reads, writes",[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_transportistausuario,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED
+general-business-data,PROCESS-458B42A5775B82,CargaMasiva,CLI_COMMAND candidate in index_archivos/tracking/controllers/CargaMasiva.php,tck_unidadestransporte,reads,[],INFERRED_DRAFT_REVIEW_REQUIRED

@@ -1,0 +1,944 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "independent_targeted_static_security_audit",
+  "audit_date": "2026-11-18",
+  "source_root": "C:/repos/proveedores-github-review-20261118",
+  "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reference": {
+    "ref": "origin/master_peru",
+    "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "fetched": false
+  },
+  "line_ranges": "inclusive; paths relative to source_root; every evidence item is at the audit commit",
+  "classification": {
+    "source_status": "KNOWN_DEFECT",
+    "impact_status": "RISK_CONDITIONAL",
+    "recommendation_status": "TO_BE",
+    "production_validation": "UNVERIFIED",
+    "canonical": false,
+    "release_approval": false
+  },
+  "summary": {
+    "total": 14,
+    "P1": 7,
+    "P2": 7
+  },
+  "activity_constraints": {
+    "application_source_modified": false,
+    "application_entrypoints_executed": false,
+    "database_access": false,
+    "network_requests": false,
+    "application_writes": false,
+    "commits_or_pushes": false,
+    "native_asgard_or_appcontrol_bypass": false,
+    "owned_outputs": [
+      "knowledge/general/security-audit.md",
+      "knowledge/general/security-findings.json",
+      "scripts/audit/security_probes.py",
+      "source-audits/master/2026-11-18/security-probes.json"
+    ]
+  },
+  "runtime_constraints": [
+    {
+      "path": "Dockerfile",
+      "line_start": 1,
+      "line_end": 6,
+      "fact": "Declared php:5.4-apache, America/La_Paz, mysql/mysqli/PDO, port 80; actual deployment and mounts unknown."
+    },
+    {
+      "path": "index_archivos/cnfdb105.php",
+      "line_start": 2,
+      "line_end": 3,
+      "fact": "Local .env.php and required vendor/autoload.php absent; real routes cannot be validated from this checkout. Inclusion can connect to DB on legacy PHP and was not executed."
+    },
+    {
+      "path": "index_archivos/permisos.php",
+      "line_start": 21,
+      "line_end": 22,
+      "fact": "Undefined datoconservar constant in anonymous branch raises Error in local PHP 8.4; legacy PHP 5.4 normally continues with notice/string fallback. Custom error handling can differ."
+    },
+    {
+      "path": "index_archivos/veriflogin.php",
+      "line_start": 53,
+      "line_end": 59,
+      "fact": "password_verify is not native to PHP 5.4. A nonempty master-password result can abort login without a compatibility provider, which is unverified."
+    },
+    {
+      "fact": "Git submodules intercambioDocumental and servicioNotificaciones unpopulated locally; actual dependencies, include resolution and JWT consumers not verified."
+    }
+  ],
+  "validation": {
+    "local_php": "8.4.25 CLI; not production runtime proof",
+    "independent_probes": {
+      "script": "scripts/audit/security_probes.py",
+      "artifact": "source-audits/master/2026-11-18/security-probes.json",
+      "mode": "in_memory_extracted_source_with_side_effects_stubbed",
+      "php_version": "8.4.25",
+      "final_passed": 12,
+      "final_total": 12,
+      "guard_cases": 7,
+      "permission_cases": 3,
+      "helper_cases": 2,
+      "session_storage_used": false,
+      "real_db_functions_used": false,
+      "application_handlers_executed": false,
+      "source_hashes_verified": true,
+      "reproduction_command": "python scripts/audit/security_probes.py --source C:/repos/proveedores-github-review-20261118 --output source-audits/master/2026-11-18/security-probes.json",
+      "note": "Ejecución reproducida con el script guardado. Extrae el código en memoria desde --source y verifica las huellas de cinco archivos revisados; no contiene copias del código de aplicación ni credenciales. El caso antiguo solo define la constante; no ejecuta PHP 5.4. No prueba autenticación completa, persistencia de sesión ni aislamiento entre proveedores."
+    },
+    "main_guard_probes": {
+      "artifact": "source-audits/master/2026-11-18/guard-probes.json",
+      "passed": 8,
+      "total": 8,
+      "mode": "isolated_php_cli_guards_only",
+      "limitation": "No proof of tenant ownership, end-to-end authentication, handler execution or deployment safety."
+    },
+    "main_php_lint": {
+      "artifact": "source-audits/master/2026-11-18/php-lint.json",
+      "files": 279,
+      "passed": 276,
+      "failed": 3,
+      "short_open_tag": true,
+      "executed_application": false,
+      "failures": [
+        {
+          "path": "index_archivos/embarques/componentes/cotizaciones/local/ferreo.php",
+          "line": 57
+        },
+        {
+          "path": "index_archivos/embarques/componentes/cotizaciones/local/terrestre.php",
+          "line": 57
+        },
+        {
+          "path": "index_archivos/tracking/documentosempresatransporte.php",
+          "line": 37
+        }
+      ],
+      "reason": "Unparenthesized nested ternaries rejected by PHP 8.4; not separately counted as security findings."
+    },
+    "secret_metadata_artifact": "source-audits/master/2026-11-18/secret-locations.json",
+    "automated_catalogs": "Endpoint candidates, graph coverage, SQL token references, Brownfield sinks/upload markers and raw risk rows were not treated as verified vulnerabilities or DDL.",
+    "artifact_checks": {
+      "json_parses": true,
+      "unique_finding_ids": 14,
+      "priority_totals_agree": true,
+      "evidence_ranges_validated": 60,
+      "distinct_evidence_source_files": 33,
+      "source_content_matches_audited_commit": true,
+      "checkout_line_endings_normalized_for_comparison": true,
+      "secret_value_and_prefix_absent_from_outputs": true,
+      "tracked_application_source_changes": false
+    }
+  },
+  "findings": [
+    {
+      "id": "SEC-001",
+      "priority": "P1",
+      "title": "El restablecimiento de contraseña acepta un ID sin autorización de restablecimiento",
+      "cwe": [
+        "CWE-640",
+        "CWE-639"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "UNVERIFIED",
+      "confidence": "high",
+      "validation_type": [
+        "route_helper_client_trace",
+        "isolated_helper_mocked_database"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/resetpassword/ajax/resetPassword.php",
+          "line_start": 2,
+          "line_end": 11
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 46,
+          "line_end": 68
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 77,
+          "line_end": 81
+        },
+        {
+          "path": "index_archivos/resetpassword/js/thridStep.js",
+          "line_start": 28,
+          "line_end": 34
+        }
+      ],
+      "trace": "POST password/identifier -> resetPasswordClient -> SELECT reset record by ID -> account UPDATE. No token, expiry, deleted_at or session grant is required; the separate verification result is enforced only by browser sequencing.",
+      "trigger_preconditions": [
+        "Bootstrap and DB available",
+        "Existing reset-record ID for target known or discovered",
+        "No authenticated session required by this route's source chain"
+      ],
+      "impact": "Unauthorized password replacement for that record's account, including reuse of previously consumed or expired records; subsequent access still depends on active status and other controls.",
+      "recommendation": "Require and atomically consume an expiring, random, single-use reset grant bound to the verified account; never authorize with a record ID.",
+      "validation_result": "Prueba reproducida mediante el método extraído: solo identifier y password sintéticos; funciones de base de datos simuladas capturaron dos consultas y éxito sin token. Véase security-probes.json; no se ejecutó SQL real.",
+      "reference_comparison": "Authorization defect survives mysql-to-mysqli conversion.",
+      "limitations": [
+        "No live endpoint, reset record or affected account tested",
+        "Missing local bootstrap dependencies prevent end-to-end execution"
+      ],
+      "summary": "El método final cambia la contraseña a partir de un registro de restablecimiento sin exigir token, caducidad ni autorización vinculada a la sesión. Requiere arranque y base de datos operativos y un ID existente.",
+      "validation_artifacts": [
+        "source-audits/master/2026-11-18/security-probes.json"
+      ]
+    },
+    {
+      "id": "SEC-002",
+      "priority": "P1",
+      "title": "Inyección SQL en la verificación y el cambio final de contraseña",
+      "cwe": [
+        "CWE-89"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "UNVERIFIED",
+      "confidence": "high",
+      "validation_type": [
+        "request_to_sql_sink_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/resetpassword/ajax/sendCredentials.php",
+          "line_start": 2,
+          "line_end": 11
+        },
+        {
+          "path": "index_archivos/resetpassword/ajax/resetPassword.php",
+          "line_start": 2,
+          "line_end": 11
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 46,
+          "line_end": 62
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 77,
+          "line_end": 81
+        }
+      ],
+      "trace": "Raw form username/token enter quoted verification SELECT; identifier enters an unquoted SELECT expression; raw password enters SQL MD5() in UPDATE. Escaping on generateToken.php is on another route.",
+      "trigger_preconditions": [
+        "Reset endpoint bootstrap and usable DB connection",
+        "Crafted values reach listed SQL contexts",
+        "Final UPDATE requires a selected reset record"
+      ],
+      "impact": "Altered reset selection/verification and account UPDATE within the DB user's privileges; no stacked-query, OS execution or universal table-access claim.",
+      "recommendation": "Bind all values with prepared statements, validate identifier types and enforce reset authorization independently.",
+      "validation_result": "Traced each raw input through complete helper queries; no injection executed.",
+      "reference_comparison": "Unsafe interpolation retained while execution functions migrate to mysqli.",
+      "limitations": [
+        "Schema, SQL modes, DB privileges and exploitation unverified"
+      ],
+      "summary": "Las entradas de verificación y restablecimiento se interpolan en SELECT y UPDATE sin parámetros enlazados; los efectos dependen de la sintaxis y de los permisos reales de la base de datos."
+    },
+    {
+      "id": "SEC-003",
+      "priority": "P1",
+      "title": "La autenticación MFA asigna una identidad aportada por el cliente",
+      "cwe": [
+        "CWE-287",
+        "CWE-602"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "CONDITIONAL_INCLUDE_AND_LOGGING_FAILURES",
+      "confidence": "high",
+      "validation_type": [
+        "include_and_control_flow_trace",
+        "isolated_method_with_failing_logger_stub"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/2fa/ajax/autenticar.php",
+          "line_start": 1,
+          "line_end": 6
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line_start": 1,
+          "line_end": 7
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line_start": 140,
+          "line_end": 170
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line_start": 186,
+          "line_end": 217
+        },
+        {
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 3,
+          "line_end": 5
+        },
+        {
+          "path": "index_archivos/logAsgard.php",
+          "line_start": 46,
+          "line_end": 50
+        }
+      ],
+      "trace": "POST info -> base64/JSON decode -> session provider/user/type/table/reference assignment, with no password/OTP/pending-challenge validation. Browser verification sequencing is not enforced server-side. OTP query is not account-scoped.",
+      "trigger_preconditions": [
+        "Includes reach autenticar; eager UserFind relative guard inclusion must not terminate anonymous request",
+        "Caller supplies shaped identity JSON",
+        "Bootstrap dependencies available"
+      ],
+      "impact": "Authentication-related session identity assigned without either factor before downstream failures. Successful complete login or post-error persistence is not asserted.",
+      "recommendation": "Keep pending identity server-side; bind OTP to that identity and consume it before assigning authenticated session fields; regenerate session ID and correct the logging call.",
+      "validation_result": "Prueba reproducida del método extraído con sesión en memoria y registro simulado que lanza una excepción: se asignaron proveedor y usuario sintéticos sin OTP antes del fallo. Sin JWT, base de datos, red ni sesión persistente.",
+      "reference_comparison": "Trust defect predates master. Master moves UserFind include earlier and changes log arguments to undefined row fields, adding reachability/failure constraints.",
+      "limitations": [
+        "PHP 8.4 may abort in an eagerly resolved permisos include",
+        "Undefined row at TwoFaClass.php:196 can produce malformed logging SQL before JWT generation",
+        "No end-to-end authentication or session persistence tested"
+      ],
+      "summary": "El método asigna identidad desde JSON sin comprobar los factores. Las inclusiones y un fallo posterior de registro condicionan su ejecución; no se acredita un acceso completo ni persistencia tras el error.",
+      "validation_artifacts": [
+        "source-audits/master/2026-11-18/security-probes.json"
+      ]
+    },
+    {
+      "id": "SEC-004",
+      "priority": "P1",
+      "title": "La contraseña maestra sustituye a la contraseña individual de la cuenta",
+      "cwe": [
+        "CWE-287"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "CONDITIONAL_PASSWORD_VERIFY_COMPATIBILITY",
+      "confidence": "high",
+      "validation_type": [
+        "authentication_control_flow_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 16,
+          "line_end": 20
+        },
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 40,
+          "line_end": 59
+        },
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 62,
+          "line_end": 86
+        },
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 108,
+          "line_end": 110
+        }
+      ],
+      "trace": "Any master_pass hash match sets isValid; selected account passes MD5 equality OR isValid. Active status remains checked; normal non-expired MFA remains selected when enabled.",
+      "trigger_preconditions": [
+        "Valid session-bound login CSRF token",
+        "Valid username and knowledge of a master password",
+        "Working DB and password_verify implementation; native PHP 5.4 does not supply it"
+      ],
+      "impact": "Shared-secret compromise substitutes for the first factor across active accounts. Expired-password branch assigns identity before normal MFA branch; resulting capabilities unverified.",
+      "recommendation": "Remove universal password acceptance; use explicit privileged, time-limited and separately audited impersonation if needed.",
+      "validation_result": "Traced master match through account decision; no master secret or database data used.",
+      "reference_comparison": "Present in reference and master; HSTS change does not address it.",
+      "limitations": [
+        "Nonempty master table without password_verify compatibility on PHP 5.4 can abort before login",
+        "No proof of MFA bypass or deployed master credential validity"
+      ],
+      "summary": "Una coincidencia global de master_pass sustituye al primer factor para una cuenta activa. Requiere conocer la credencial y disponer de password_verify(); no se acredita su funcionamiento en PHP 5.4 sin compatibilidad."
+    },
+    {
+      "id": "SEC-005",
+      "priority": "P1",
+      "title": "La guardia compartida no termina la denegación cuando PHP antiguo continúa",
+      "cwe": [
+        "CWE-862",
+        "CWE-754"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "PHP_VERSION_DEPENDENT",
+      "confidence": "high",
+      "validation_type": [
+        "guard_and_caller_trace",
+        "isolated_php84_guard",
+        "legacy_constant_fallback_simulation"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/permisos.php",
+          "line_start": 1,
+          "line_end": 27
+        },
+        {
+          "path": "index_archivos/tracking/ajax/borrarempresa.php",
+          "line_start": 3,
+          "line_end": 8
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php",
+          "line_start": 3,
+          "line_end": 13
+        }
+      ],
+      "trace": "Denied request emits a browser form but no exit or server-side deny status. Bare constant at line 21 aborts anonymous PHP 8.4; normal PHP 5.4 string fallback permits continuation. Caller borrarempresa has no secondary session condition.",
+      "trigger_preconditions": [
+        "Working handler bootstrap",
+        "Legacy/defined-constant continuation and error handling that does not abort",
+        "Selected caller has a valid operation without an additional deny guard"
+      ],
+      "impact": "Selected mutations can continue despite guard denial on the legacy path. Anonymous mutation on PHP 8.4 is not claimed. Callers requiring missing session SQL operands can fail instead.",
+      "recommendation": "Return server-side 401/403 and exit before handlers, remove stray constant, and enforce route/object authorization with denial tests.",
+      "validation_result": "Pruebas reproducidas: la rama autenticada continúa en PHP 8.4; la anónima genera Error; la simulación con la constante definida continúa. session_start se sustituye solo en memoria; no se ejecutó PHP 5.4 ni ningún manejador.",
+      "reference_comparison": "Master expands short opening tags but preserves the stray constant and missing exit.",
+      "limitations": [
+        "Custom error handlers and runtime constants may change legacy behavior",
+        "Must trace individual caller; not a universal anonymous-bypass claim"
+      ],
+      "summary": "La denegación solo genera un formulario. PHP 8.4 produce Error en la rama anónima; la continuación habitual de PHP 5.4 puede dejar ejecutar determinados manejadores, según sus controles adicionales.",
+      "validation_artifacts": [
+        "source-audits/master/2026-11-18/security-probes.json"
+      ]
+    },
+    {
+      "id": "SEC-006",
+      "priority": "P1",
+      "title": "Determinados manejadores de cuentas y negocio concatenan SQL controlado por la solicitud",
+      "cwe": [
+        "CWE-89"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "UNVERIFIED_AUTHENTICATED_PATH",
+      "confidence": "high",
+      "validation_type": [
+        "four_bounded_request_to_sink_traces",
+        "shared_guard_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ajax/borrarempresa.php",
+          "line_start": 3,
+          "line_end": 8
+        },
+        {
+          "path": "index_archivos/tracking/ajax/buscar-partida.php",
+          "line_start": 2,
+          "line_end": 18
+        },
+        {
+          "path": "index_archivos/embarques/ajax/saveDescripcionItems.php",
+          "line_start": 2,
+          "line_end": 9
+        },
+        {
+          "path": "index_archivos/usuario/ajax/update-password.php",
+          "line_start": 2,
+          "line_end": 10
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line_start": 12,
+          "line_end": 33
+        },
+        {
+          "path": "index_archivos/HelperClass.php",
+          "line_start": 1,
+          "line_end": 3
+        },
+        {
+          "path": "index_archivos/HelperClass.php",
+          "line_start": 20,
+          "line_end": 28
+        }
+      ],
+      "trace": "Raw POST id -> soft-delete WHERE; JSON partida -> quoted LIKE; POST key components -> UPDATE column/ID and raw value; password-change JSON identifier -> old-password SELECT and UPDATE via unchanged HelperClass execution.",
+      "trigger_preconditions": [
+        "Working bootstrap/DB",
+        "Conservatively require session idtransportista passing shared guard",
+        "Anonymous cases depend on SEC-005 and runtime, not assumed"
+      ],
+      "impact": "Query predicate manipulation, broadened mutations/reads and intended password-check selection bypass; damage bounded by actual syntax and DB privileges.",
+      "recommendation": "Prepared statements; validated integer IDs; explicit editable-column allowlist; bind account and object permissions to authenticated identity.",
+      "validation_result": "Traced raw input through guards/helpers to execution calls; no queries executed.",
+      "reference_comparison": "Unsafe interpolation survives migrations from mysql to mysqli; conversion alone provides no injection defense.",
+      "limitations": [
+        "No stacked-query, OS execution or entire-database compromise claim",
+        "Actual privileges and rows not tested"
+      ],
+      "summary": "Cuatro rutas trazadas incorporan identificadores, valores o columnas de la solicitud a SQL. Se exige conservadoramente una sesión válida; la accesibilidad anónima depende de la guardia y la versión de PHP."
+    },
+    {
+      "id": "SEC-007",
+      "priority": "P2",
+      "title": "Las contraseñas de usuario se almacenan y verifican mediante MD5 sin sal",
+      "cwe": [
+        "CWE-916"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "OFFLINE_HASH_DISCLOSURE_PRECONDITION",
+      "confidence": "high",
+      "validation_type": [
+        "login_and_password_writer_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 83,
+          "line_end": 83
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 78,
+          "line_end": 81
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line_start": 14,
+          "line_end": 17
+        },
+        {
+          "path": "index_archivos/usuario/UsuarioClass.php",
+          "line_start": 33,
+          "line_end": 33
+        }
+      ],
+      "trace": "Login checks MD5; reset and password change write MD5. Modern hashes in master_pass do not protect ordinary account hashes.",
+      "trigger_preconditions": [
+        "User hashes obtained through DB, backups or another disclosure"
+      ],
+      "impact": "Fast offline guessing and password reuse compromise; not a standalone demonstrated remote-login bypass.",
+      "recommendation": "Upgrade runtime; migrate all writers/verifiers to password_hash/password_verify with appropriate cost and opportunistic legacy rehash.",
+      "validation_result": "Both writer paths and login traced without collecting password material.",
+      "reference_comparison": "Legacy MD5 design retained.",
+      "limitations": [
+        "No hash extraction or cracking performed"
+      ],
+      "summary": "El acceso y ambos mecanismos de cambio mantienen MD5. Facilita la búsqueda de contraseñas fuera de línea si se obtienen los resúmenes; no demuestra por sí solo una elusión remota."
+    },
+    {
+      "id": "SEC-008",
+      "priority": "P2",
+      "title": "Determinadas modificaciones carecen de validación CSRF en el servidor",
+      "cwe": [
+        "CWE-352"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "CONDITIONAL_COOKIE_AND_ORIGIN_POLICY",
+      "confidence": "high",
+      "validation_type": [
+        "selected_routes_and_shared_includes_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/login.php",
+          "line_start": 2,
+          "line_end": 6
+        },
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 16,
+          "line_end": 20
+        },
+        {
+          "path": "index_archivos/permisos.php",
+          "line_start": 7,
+          "line_end": 27
+        },
+        {
+          "path": "index_archivos/tracking/ajax/borrarempresa.php",
+          "line_start": 3,
+          "line_end": 8
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php",
+          "line_start": 3,
+          "line_end": 13
+        },
+        {
+          "path": ".htaccess",
+          "line_start": 20,
+          "line_end": 27
+        }
+      ],
+      "trace": "Login validates a one-use session token; selected soft-delete routes accept normal form POSTs and common guard validates neither token nor origin.",
+      "trigger_preconditions": [
+        "Victim authenticated with required session",
+        "Browser sends cookie on cross-site POST",
+        "No upstream origin defense blocks it and target operation otherwise allowed"
+      ],
+      "impact": "Cross-site induced authorized mutations under cookie/origin preconditions.",
+      "recommendation": "Validate cryptographically generated session CSRF tokens on all mutations and appropriate request origins/methods; configure cookie policy before session startup.",
+      "validation_result": "Verified login defense and complete selected mutation paths separately; did not infer all routes from token search.",
+      "reference_comparison": "Existing login protection does not extend to business endpoints.",
+      "limitations": [
+        "Native PHP 5.4 does not support SameSite ini setting",
+        "Actual cookie/proxy policy unverified",
+        "mt_rand login token weakness noted but no prediction exploit claimed"
+      ],
+      "summary": "La protección del formulario de acceso no cubre las rutas de modificación seleccionadas. El ataque entre sitios depende de que se envíe la cookie y de la política efectiva de origen."
+    },
+    {
+      "id": "SEC-009",
+      "priority": "P2",
+      "title": "Las lecturas de archivos no comprueban la pertenencia del recurso",
+      "cwe": [
+        "CWE-639",
+        "CWE-862"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED_MISSING_OBJECT_CHECK",
+      "runtime_status": "POTENTIAL_CROSS_TENANT_IMPACT",
+      "confidence": "medium",
+      "validation_type": [
+        "guard_to_read_sink_trace",
+        "isolated_source_guard_probes"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/guardia_descargas_rel.php",
+          "line_start": 1,
+          "line_end": 5
+        },
+        {
+          "path": "index_archivos/download.php",
+          "line_start": 2,
+          "line_end": 10
+        },
+        {
+          "path": "index_archivos/download.php",
+          "line_start": 16,
+          "line_end": 40
+        },
+        {
+          "path": "index_archivos/tracking/guardia_imagen.php",
+          "line_start": 1,
+          "line_end": 5
+        },
+        {
+          "path": "index_archivos/tracking/getImage.php",
+          "line_start": 2,
+          "line_end": 17
+        }
+      ],
+      "trace": "Explicit guard session checks and traversal filtering precede filename-based reads. No supplier/trip/customer association is checked before file output; download's extension array is unused.",
+      "trigger_preconditions": [
+        "Session recognized by guard",
+        "Known/discovered existing readable relative resource name",
+        "Tenant policy restricts that resource to another identity"
+      ],
+      "impact": "Potential unauthorized cross-tenant read within configured storage; no arbitrary host-file reading or live tenant breach asserted.",
+      "recommendation": "Map opaque document IDs through ownership checks and constrain canonical paths/type allowlists.",
+      "validation_result": "Siete casos reproducibles de guardias y ocho pruebas complementarias de la auditoría general correctos. Se bloquean solicitudes anónimas, rutas superiores y barra inicial de imagen; no se prueba la pertenencia del recurso.",
+      "reference_comparison": "Master adds effective session/path guards. Previous anonymous/traversal findings must not be carried forward unchanged.",
+      "limitations": [
+        "Tenant access rules and storage policy unverified",
+        "No live file requested",
+        "Guard probes prove only bounded deny/continue behavior"
+      ],
+      "summary": "Las guardias nuevas bloquean solicitudes anónimas y los recorridos comprobados. Tras superarlas no se verifica la asociación del archivo con la identidad; el impacto entre proveedores depende de la política real.",
+      "validation_artifacts": [
+        "source-audits/master/2026-11-18/security-probes.json",
+        "source-audits/master/2026-11-18/guard-probes.json"
+      ]
+    },
+    {
+      "id": "SEC-010",
+      "priority": "P2",
+      "title": "Las subidas conservan tipos elegidos por el cliente antes de validar el contenido",
+      "cwe": [
+        "CWE-434",
+        "CWE-862"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "STORAGE_AND_HANDLER_MAPPING_UNKNOWN",
+      "confidence": "high",
+      "validation_type": [
+        "two_upload_source_to_filesystem_traces"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ajax/cargar-imagenes-viaje.php",
+          "line_start": 2,
+          "line_end": 18
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 9,
+          "line_end": 30
+        },
+        {
+          "path": "index_archivos/controllers/GlobalClass.php",
+          "line_start": 16,
+          "line_end": 33
+        }
+      ],
+      "trace": "Image upload copies bytes with attacker-selected extension after an event query lacking provider scope. Import helper moves basename-preserved upload before caller parses Excel; inspected failure path does not undo move.",
+      "trigger_preconditions": [
+        "Authenticated provider session",
+        "Writable configured storage",
+        "Matching event for image upload trip"
+      ],
+      "impact": "Unvalidated file storage and potential cross-provider trip uploads. RCE requires unverified executable web-serving mapping and is not claimed.",
+      "recommendation": "Authorize resource first; validate size, type and bytes before storage; server-generated filenames and non-executable storage outside web root.",
+      "validation_result": "Traced copy/move ordering and guard; no application file uploaded or written.",
+      "reference_comparison": "Unsafe type retention remains; mysql/mysqli migrations do not remediate it.",
+      "limitations": [
+        "No web execution mapping, parser exploitation or resource-limit testing",
+        "No anonymous upload claim on PHP 8.4"
+      ],
+      "summary": "Los flujos trazados almacenan contenido con extensiones del cliente antes de validar su tipo; la consulta del evento tampoco limita el proveedor. No se acredita ejecución remota sin conocer la publicación del almacenamiento."
+    },
+    {
+      "id": "SEC-011",
+      "priority": "P2",
+      "title": "El transporte de correo activo desactiva la verificación TLS del certificado",
+      "cwe": [
+        "CWE-295"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "NETWORK_INTERCEPTION_PRECONDITION",
+      "confidence": "high",
+      "validation_type": [
+        "active_caller_to_curl_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/MailClass.php",
+          "line_start": 11,
+          "line_end": 15
+        },
+        {
+          "path": "index_archivos/MailClass.php",
+          "line_start": 83,
+          "line_end": 90
+        },
+        {
+          "path": "index_archivos/resetpassword/ResetPassword.php",
+          "line_start": 249,
+          "line_end": 259
+        },
+        {
+          "path": "index_archivos/2fa/TwoFaClass.php",
+          "line_start": 19,
+          "line_end": 21
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 506,
+          "line_end": 510
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 541,
+          "line_end": 548
+        },
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 142,
+          "line_end": 142
+        }
+      ],
+      "trace": "Reset/MFA and shipment callers invoke mail functions that set CURLOPT_SSL_VERIFYPEER false while sending bearer auth and mail payloads.",
+      "trigger_preconditions": [
+        "Working cURL/mail path",
+        "Attacker can intercept/redirect connection with otherwise untrusted certificate"
+      ],
+      "impact": "Mail credential/message disclosure and response tampering, including reset/MFA content.",
+      "recommendation": "Enable peer verification, retain hostname verification, configure trusted CA bundle and fail closed on errors.",
+      "validation_result": "Confirmed active first-party callers rather than inferring from bundled library defaults; no TLS/mail request.",
+      "reference_comparison": "Shared MailClass unchanged; second mail transport also remains in master.",
+      "limitations": [
+        "No network interception test or deployed cURL configuration checked"
+      ],
+      "summary": "Los transportes activos envían autorización bearer y mensajes con verificación del certificado desactivada; la exposición requiere capacidad de interceptar o redirigir la conexión."
+    },
+    {
+      "id": "SEC-012",
+      "priority": "P1",
+      "title": "La credencial de correo incluida en el repositorio requiere rotación",
+      "cwe": [
+        "CWE-798"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "CREDENTIAL_VALIDITY_UNTESTED",
+      "confidence": "high",
+      "validation_type": [
+        "redacted_local_source_review",
+        "reference_assignment_comparison"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/cnfdb105.php",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "trace": "Hardcoded mail-service credential at the cited location; value and snippet intentionally omitted.",
+      "trigger_preconditions": [
+        "Access to repository copy/history containing location",
+        "Credential still valid and permitted at service"
+      ],
+      "impact": "Unauthorized mail-service use if valid; no public HTTP source disclosure or tested credential use is asserted.",
+      "recommendation": "Revoke/rotate credential, review historical use, and replace literal with controlled secret injection; deletion alone is insufficient.",
+      "validation_result": "Presence and unchanged assignment verified without displaying value; no service call.",
+      "reference_comparison": "Credential assignment unchanged from origin/master_peru.",
+      "secret_handling": "Location-only evidence; no literal, fingerprint or snippet reproduced.",
+      "limitations": [
+        "Validity and permissions not tested",
+        "Other redacted metadata locations are leads, not automatically verified vulnerabilities"
+      ],
+      "summary": "La ubicación citada contiene una credencial incorporada directamente. Debe revocarse o rotarse y sustituirse por suministro controlado; su vigencia y permisos no se han probado."
+    },
+    {
+      "id": "SEC-013",
+      "priority": "P2",
+      "title": "Se distribuye un punto de entrada phpinfo sin restricción en la aplicación",
+      "cwe": [
+        "CWE-200"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED",
+      "runtime_status": "DEPLOYMENT_EXPOSURE_UNVERIFIED",
+      "confidence": "high",
+      "validation_type": [
+        "complete_entrypoint_and_root_access_rules_trace"
+      ],
+      "evidence": [
+        {
+          "path": "info.php",
+          "line_start": 1,
+          "line_end": 2
+        },
+        {
+          "path": ".htaccess",
+          "line_start": 1,
+          "line_end": 16
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "trace": "phpinfo() executed directly; no application guard and no explicit deny in inspected root rules.",
+      "trigger_preconditions": [
+        "File deployed and served as PHP",
+        "No upstream/server rule blocks access"
+      ],
+      "impact": "Runtime configuration, versions and path disclosure, potentially environment/request values depending on settings; specific credential exposure not established.",
+      "recommendation": "Exclude diagnostic files from deployable artifacts or restrict to authenticated operations access.",
+      "validation_result": "Read complete two-line route and root access rules; no HTTP request.",
+      "reference_comparison": "info.php unchanged.",
+      "limitations": [
+        "Actual deployed route and server rules unverified"
+      ],
+      "summary": "El diagnóstico carece de guardia y de denegación explícita en las reglas inspeccionadas; su exposición depende del despliegue y de controles anteriores a la aplicación."
+    },
+    {
+      "id": "SEC-014",
+      "priority": "P2",
+      "title": "El registro de acceso serializa la sesión e incluye su JWT",
+      "cwe": [
+        "CWE-532"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED_DATA_FLOW",
+      "runtime_status": "LOG_INSERT_AND_JWT_CONSUMERS_UNVERIFIED",
+      "confidence": "high",
+      "validation_type": [
+        "login_to_logger_dataflow_trace"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 96,
+          "line_end": 104
+        },
+        {
+          "path": "index_archivos/encodeUser.php",
+          "line_start": 9,
+          "line_end": 13
+        },
+        {
+          "path": "index_archivos/logAsgard.php",
+          "line_start": 12,
+          "line_end": 32
+        }
+      ],
+      "trace": "Non-MFA login assigns tokenJWT then passes entire session to saveLog; json_encode of all supplied fields enters log_asgard_cloud INSERT without credential redaction.",
+      "trigger_preconditions": [
+        "Working non-MFA login and JWT generation",
+        "Successful log INSERT",
+        "Reader obtains table/export/backup access"
+      ],
+      "impact": "Authentication material and identity metadata copied into logging storage. Replay depends on downstream JWT acceptance and is unverified.",
+      "recommendation": "Allowlist log event/identity fields, exclude credentials/tokens and restrict log readers and retention.",
+      "validation_result": "Traced token assignment and full-session serialization; no log row created.",
+      "reference_comparison": "Logger moves to mysqli while serialization remains.",
+      "limitations": [
+        "No stored log contents inspected",
+        "Unescaped metadata can make INSERT fail",
+        "JWT consumers in unpopulated submodule not verified"
+      ],
+      "summary": "El flujo sin MFA entrega al registro la sesión completa después de asignar el JWT. El almacenamiento efectivo exige un INSERT correcto; la reutilización del token depende de consumidores no verificados."
+    }
+  ],
+  "bounded_observations_not_separate_findings": [
+    {
+      "path": "index_archivos/logAsgard.php",
+      "line_start": 54,
+      "line_end": 65,
+      "observation": "Fixed dig command can log server public IP instead of client; fallback trusts forwarded headers without proxy allowlist. Attribution concern, not command injection; no command executed."
+    },
+    {
+      "path": "index_archivos/logAsgard.php",
+      "line_start": 15,
+      "line_end": 32,
+      "observation": "JSON and metadata interpolation can break log INSERT; no DB injection or failed-event completeness claim verified."
+    },
+    {
+      "path": "index_archivos/login.php",
+      "line_start": 2,
+      "line_end": 6,
+      "observation": "mt_rand token generation should be replaced with a cryptographic generator; token prediction was not demonstrated."
+    }
+  ],
+  "credited_controls": [
+    "Login validates and consumes a session CSRF token before authentication queries.",
+    "Login username query uses PDO bound parameter and disables emulated prepares.",
+    "Master adds explicit fail-closed session/path guards before download/image bootstrap and reads.",
+    "Image parent-path and leading-slash requests are blocked; download parent-path p and basename f handling were traced.",
+    "No raw marker count was equated with an exploitable endpoint."
+  ],
+  "scope_gaps": [
+    "Production runtime/backports/error handling and include resolution",
+    "Missing environment, vendor and submodule implementations",
+    "DB schema/privileges/data; SQL references are not DDL",
+    "Tenant policy and object ownership tests",
+    "Storage symlinks/web execution mapping/upload limits",
+    "Apache/proxy/TLS/cookie/origin deployment controls",
+    "JWT consumers and replay acceptance",
+    "Complete endpoint coverage and downstream parsers",
+    "Credential validity, service permissions and historical logs"
+  ],
+  "source_integrity": "El código de aplicación coincide con el commit auditado, normalizando CRLF/LF, y permanece sin modificaciones. Los entregables contienen únicamente referencias a la credencial, sin su valor ni fragmentos.",
+  "summary_text": "Catorce hallazgos sustentados por trazas de código: siete P1 y siete P2. Las prioridades expresan urgencia bajo las precondiciones indicadas; la explotación en producción permanece sin verificar."
+}

@@ -1,0 +1,6 @@
+{
+  "generated_at": "2026-11-18T15:07:27.463040+00:00",
+  "policy": "Candidate semantic inference from identifiers, DDL, physical constraints and observed usage; human validation is required.",
+  "tables": [],
+  "fields": []
+}

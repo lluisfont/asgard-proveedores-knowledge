@@ -1,0 +1,259 @@
+id,type,label,confidence,source
+DATA:ada_agentesaduana,data,ada_agentesaduana,candidate_or_observed,
+DATA:ada_clienteagenteaduana,data,ada_clienteagenteaduana,candidate_or_observed,
+DATA:adaprov_agenteproveedor,data,adaprov_agenteproveedor,candidate_or_observed,
+DATA:adaprov_agenteproveedormercancia,data,adaprov_agenteproveedormercancia,candidate_or_observed,
+DATA:ads_agenteseguro,data,ads_agenteseguro,candidate_or_observed,
+DATA:ages_solicitudes_asesoria_gestion,data,ages_solicitudes_asesoria_gestion,candidate_or_observed,
+DATA:capacidad,data,capacidad,candidate_or_observed,
+DATA:dav_aduana,data,dav_aduana,candidate_or_observed,
+DATA:dav_aerolineas,data,dav_aerolineas,candidate_or_observed,
+DATA:dav_casos,data,dav_casos,candidate_or_observed,
+DATA:dav_casosprevios,data,dav_casosprevios,candidate_or_observed,
+DATA:dav_ciudad,data,dav_ciudad,candidate_or_observed,
+DATA:dav_cliente,data,dav_cliente,candidate_or_observed,
+DATA:dav_clientealmacen,data,dav_clientealmacen,candidate_or_observed,
+DATA:dav_clientedeclarante,data,dav_clientedeclarante,candidate_or_observed,
+DATA:dav_clientelineas,data,dav_clientelineas,candidate_or_observed,
+DATA:dav_clienteproveedor,data,dav_clienteproveedor,candidate_or_observed,
+DATA:dav_clientereportescliente,data,dav_clientereportescliente,candidate_or_observed,
+DATA:dav_clientetipoproducto,data,dav_clientetipoproducto,candidate_or_observed,
+DATA:dav_clientetransportista,data,dav_clientetransportista,candidate_or_observed,
+DATA:dav_clienteusuarios,data,dav_clienteusuarios,candidate_or_observed,
+DATA:dav_codigos_2fa,data,dav_codigos_2fa,candidate_or_observed,
+DATA:dav_divisa,data,dav_divisa,candidate_or_observed,
+DATA:dav_documentos,data,dav_documentos,candidate_or_observed,
+DATA:dav_facturacomercial,data,dav_facturacomercial,candidate_or_observed,
+DATA:dav_localidad,data,dav_localidad,candidate_or_observed,
+DATA:dav_modotransporte,data,dav_modotransporte,candidate_or_observed,
+DATA:dav_navieras,data,dav_navieras,candidate_or_observed,
+DATA:dav_pais,data,dav_pais,candidate_or_observed,
+DATA:dav_partidas,data,dav_partidas,candidate_or_observed,
+DATA:dav_proveedor,data,dav_proveedor,candidate_or_observed,
+DATA:dav_puerto,data,dav_puerto,candidate_or_observed,
+DATA:dav_rating,data,dav_rating,candidate_or_observed,
+DATA:dav_regimen,data,dav_regimen,candidate_or_observed,
+DATA:dav_region,data,dav_region,candidate_or_observed,
+DATA:dav_reseteos_passswords_proveedores,data,dav_reseteos_passswords_proveedores,candidate_or_observed,
+DATA:dav_tipodeclaracion,data,dav_tipodeclaracion,candidate_or_observed,
+DATA:dav_tipomercancia,data,dav_tipomercancia,candidate_or_observed,
+DATA:dav_tramites,data,dav_tramites,candidate_or_observed,
+DATA:dav_transportista,data,dav_transportista,candidate_or_observed,
+DATA:dav_unidad,data,dav_unidad,candidate_or_observed,
+DATA:dav_usuario,data,dav_usuario,candidate_or_observed,
+DATA:dav_vehiculosprevios,data,dav_vehiculosprevios,candidate_or_observed,
+DATA:dex_suma,data,dex_suma,candidate_or_observed,
+DATA:dex_suma_estado_historial,data,dex_suma_estado_historial,candidate_or_observed,
+DATA:ges_clientegestortransporte,data,ges_clientegestortransporte,candidate_or_observed,
+DATA:ges_gestores_transporte,data,ges_gestores_transporte,candidate_or_observed,
+DATA:logis_aeropuertos,data,logis_aeropuertos,candidate_or_observed,
+DATA:logis_categorias_costos,data,logis_categorias_costos,candidate_or_observed,
+DATA:logis_clientemails,data,logis_clientemails,candidate_or_observed,
+DATA:logis_contenedor,data,logis_contenedor,candidate_or_observed,
+DATA:logis_costos,data,logis_costos,candidate_or_observed,
+DATA:logis_costos_concepto,data,logis_costos_concepto,candidate_or_observed,
+DATA:logis_costos_detalle,data,logis_costos_detalle,candidate_or_observed,
+DATA:logis_costosconcepto,data,logis_costosconcepto,candidate_or_observed,
+DATA:logis_costosdetalles,data,logis_costosdetalles,candidate_or_observed,
+DATA:logis_cotizacionoperador,data,logis_cotizacionoperador,candidate_or_observed,
+DATA:logis_edp,data,logis_edp,candidate_or_observed,
+DATA:logis_embarquereferencias,data,logis_embarquereferencias,candidate_or_observed,
+DATA:logis_embarques,data,logis_embarques,candidate_or_observed,
+DATA:logis_embarquescontenedor,data,logis_embarquescontenedor,candidate_or_observed,
+DATA:logis_embarquesdatos,data,logis_embarquesdatos,candidate_or_observed,
+DATA:logis_embarquesdocumentos,data,logis_embarquesdocumentos,candidate_or_observed,
+DATA:logis_embarquesmagnitudes,data,logis_embarquesmagnitudes,candidate_or_observed,
+DATA:logis_embarquesoperador,data,logis_embarquesoperador,candidate_or_observed,
+DATA:logis_embarquesrutas,data,logis_embarquesrutas,candidate_or_observed,
+DATA:logis_estados,data,logis_estados,candidate_or_observed,
+DATA:logis_estados_edp,data,logis_estados_edp,candidate_or_observed,
+DATA:logis_incoterms,data,logis_incoterms,candidate_or_observed,
+DATA:logis_pedidos,data,logis_pedidos,candidate_or_observed,
+DATA:logis_tipocarga,data,logis_tipocarga,candidate_or_observed,
+DATA:logis_tipoembarque,data,logis_tipoembarque,candidate_or_observed,
+DATA:logis_tipomercancia,data,logis_tipomercancia,candidate_or_observed,
+DATA:logis_tipomercanciaclase,data,logis_tipomercanciaclase,candidate_or_observed,
+DATA:logis_tipomercanciaun,data,logis_tipomercanciaun,candidate_or_observed,
+DATA:logis_tipoviaje,data,logis_tipoviaje,candidate_or_observed,
+DATA:logis_tramos,data,logis_tramos,candidate_or_observed,
+DATA:master_pass,data,master_pass,candidate_or_observed,
+DATA:prov_clientes_proveedores,data,prov_clientes_proveedores,candidate_or_observed,
+DATA:prov_modulosproveedor,data,prov_modulosproveedor,candidate_or_observed,
+DATA:prov_proveedorusuariospermisos,data,prov_proveedorusuariospermisos,candidate_or_observed,
+DATA:prov_tipoproveedor,data,prov_tipoproveedor,candidate_or_observed,
+DATA:prov_usuarioaccesoproveedor,data,prov_usuarioaccesoproveedor,candidate_or_observed,
+DATA:tck_aduanasrutasplazos,data,tck_aduanasrutasplazos,candidate_or_observed,
+DATA:tck_asignacion_viaje,data,tck_asignacion_viaje,candidate_or_observed,
+DATA:tck_asignacionesviajes,data,tck_asignacionesviajes,candidate_or_observed,
+DATA:tck_capacidadestransporte,data,tck_capacidadestransporte,candidate_or_observed,
+DATA:tck_carga,data,tck_carga,candidate_or_observed,
+DATA:tck_choferoperador,data,tck_choferoperador,candidate_or_observed,
+DATA:tck_documentos_soporte_lista,data,tck_documentos_soporte_lista,candidate_or_observed,
+DATA:tck_documentosoperadortransporte,data,tck_documentosoperadortransporte,candidate_or_observed,
+DATA:tck_documentossoporte,data,tck_documentossoporte,candidate_or_observed,
+DATA:tck_empresa_transporte,data,tck_empresa_transporte,candidate_or_observed,
+DATA:tck_eventos,data,tck_eventos,candidate_or_observed,
+DATA:tck_imagenes,data,tck_imagenes,candidate_or_observed,
+DATA:tck_items_localizaciones,data,tck_items_localizaciones,candidate_or_observed,
+DATA:tck_localizaciones,data,tck_localizaciones,candidate_or_observed,
+DATA:tck_location,data,tck_location,candidate_or_observed,
+DATA:tck_lugaresentregacarga,data,tck_lugaresentregacarga,candidate_or_observed,
+DATA:tck_operadorestransporte,data,tck_operadorestransporte,candidate_or_observed,
+DATA:tck_orden_viaje,data,tck_orden_viaje,candidate_or_observed,
+DATA:tck_programacionembarques,data,tck_programacionembarques,candidate_or_observed,
+DATA:tck_registrareventos,data,tck_registrareventos,candidate_or_observed,
+DATA:tck_registrarincidentes,data,tck_registrarincidentes,candidate_or_observed,
+DATA:tck_registros_entregas_recojos,data,tck_registros_entregas_recojos,candidate_or_observed,
+DATA:tck_rutas,data,tck_rutas,candidate_or_observed,
+DATA:tck_rutasautorizadas,data,tck_rutasautorizadas,candidate_or_observed,
+DATA:tck_tiposcarguios,data,tck_tiposcarguios,candidate_or_observed,
+DATA:tck_tiposunidades,data,tck_tiposunidades,candidate_or_observed,
+DATA:tck_tipoubicaciones,data,tck_tipoubicaciones,candidate_or_observed,
+DATA:tck_tmpcargamasiva,data,tck_tmpcargamasiva,candidate_or_observed,
+DATA:tck_trackeo,data,tck_trackeo,candidate_or_observed,
+DATA:tck_transporte,data,tck_transporte,candidate_or_observed,
+DATA:tck_transportista,data,tck_transportista,candidate_or_observed,
+DATA:tck_transportistausuario,data,tck_transportistausuario,candidate_or_observed,
+DATA:tck_ubicaciones,data,tck_ubicaciones,candidate_or_observed,
+DATA:tck_ultimas_ubicaciones,data,tck_ultimas_ubicaciones,candidate_or_observed,
+DATA:tck_unidadestransporte,data,tck_unidadestransporte,candidate_or_observed,
+DATA:tmp_casosdampendientes,data,tmp_casosdampendientes,candidate_or_observed,
+DATA:tmp_logisoperadorubicaciones,data,tmp_logisoperadorubicaciones,candidate_or_observed,
+DATA:v_tck_infoviajecliente,data,v_tck_infoviajecliente,candidate_or_observed,
+FILE:index_archivos/2fa/TwoFaClass.php,component,index_archivos/2fa/TwoFaClass.php,observed,index_archivos/2fa/TwoFaClass.php
+FILE:index_archivos/MenuClass.php,component,index_archivos/MenuClass.php,observed,index_archivos/MenuClass.php
+FILE:index_archivos/controllers/GlobalClass.php,component,index_archivos/controllers/GlobalClass.php,observed,index_archivos/controllers/GlobalClass.php
+FILE:index_archivos/embarques/CostosClass.php,component,index_archivos/embarques/CostosClass.php,observed,index_archivos/embarques/CostosClass.php
+FILE:index_archivos/embarques/CotizacionClass.php,component,index_archivos/embarques/CotizacionClass.php,observed,index_archivos/embarques/CotizacionClass.php
+FILE:index_archivos/embarques/EmbarqueClass.php,component,index_archivos/embarques/EmbarqueClass.php,observed,index_archivos/embarques/EmbarqueClass.php
+FILE:index_archivos/embarques/SolicitudesClass.php,component,index_archivos/embarques/SolicitudesClass.php,observed,index_archivos/embarques/SolicitudesClass.php
+FILE:index_archivos/embarques/ViajesClass.php,component,index_archivos/embarques/ViajesClass.php,observed,index_archivos/embarques/ViajesClass.php
+FILE:index_archivos/embarques/ajax/listaLineasFiltro.php,component,index_archivos/embarques/ajax/listaLineasFiltro.php,observed,index_archivos/embarques/ajax/listaLineasFiltro.php
+FILE:index_archivos/embarques/ajax/listaRutas.php,component,index_archivos/embarques/ajax/listaRutas.php,observed,index_archivos/embarques/ajax/listaRutas.php
+FILE:index_archivos/embarques/componentes/embarques_lista_viajes.php,component,index_archivos/embarques/componentes/embarques_lista_viajes.php,observed,index_archivos/embarques/componentes/embarques_lista_viajes.php
+FILE:index_archivos/embarques/componentes/embarques_rutas.php,component,index_archivos/embarques/componentes/embarques_rutas.php,observed,index_archivos/embarques/componentes/embarques_rutas.php
+FILE:index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,component,index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,observed,index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php
+FILE:index_archivos/embarques/costos.php,component,index_archivos/embarques/costos.php,observed,index_archivos/embarques/costos.php
+FILE:index_archivos/embarques/embarquever.php,component,index_archivos/embarques/embarquever.php,observed,index_archivos/embarques/embarquever.php
+FILE:index_archivos/embarques/frames/costos.php,component,index_archivos/embarques/frames/costos.php,observed,index_archivos/embarques/frames/costos.php
+FILE:index_archivos/embarques/frames/documentos.php,component,index_archivos/embarques/frames/documentos.php,observed,index_archivos/embarques/frames/documentos.php
+FILE:index_archivos/embarques/frames/estado-pedidos.php,component,index_archivos/embarques/frames/estado-pedidos.php,observed,index_archivos/embarques/frames/estado-pedidos.php
+FILE:index_archivos/embarques/frames/rutas.php,component,index_archivos/embarques/frames/rutas.php,observed,index_archivos/embarques/frames/rutas.php
+FILE:index_archivos/js/ext-all-debug.js,component,index_archivos/js/ext-all-debug.js,observed,index_archivos/js/ext-all-debug.js
+FILE:index_archivos/js/jquery.easyui.min.js,component,index_archivos/js/jquery.easyui.min.js,observed,index_archivos/js/jquery.easyui.min.js
+FILE:index_archivos/js/jquery.js,component,index_archivos/js/jquery.js,observed,index_archivos/js/jquery.js
+FILE:index_archivos/js/kendo.web.min.js,component,index_archivos/js/kendo.web.min.js,observed,index_archivos/js/kendo.web.min.js
+FILE:index_archivos/js/scripts/knockout-2.2.1.js,component,index_archivos/js/scripts/knockout-2.2.1.js,observed,index_archivos/js/scripts/knockout-2.2.1.js
+FILE:index_archivos/js/ux/ajax/SimManager.js,component,index_archivos/js/ux/ajax/SimManager.js,observed,index_archivos/js/ux/ajax/SimManager.js
+FILE:index_archivos/js/ux/ajax/Simlet.js,component,index_archivos/js/ux/ajax/Simlet.js,observed,index_archivos/js/ux/ajax/Simlet.js
+FILE:index_archivos/libs/fileinput/js/fileinput.js,component,index_archivos/libs/fileinput/js/fileinput.js,observed,index_archivos/libs/fileinput/js/fileinput.js
+FILE:index_archivos/libs/fileinput/js/plugins/sortable.js,component,index_archivos/libs/fileinput/js/plugins/sortable.js,observed,index_archivos/libs/fileinput/js/plugins/sortable.js
+FILE:index_archivos/libs/fileinput/js/plugins/sortable.min.js,component,index_archivos/libs/fileinput/js/plugins/sortable.min.js,observed,index_archivos/libs/fileinput/js/plugins/sortable.min.js
+FILE:index_archivos/libs/jquery.js,component,index_archivos/libs/jquery.js,observed,index_archivos/libs/jquery.js
+FILE:index_archivos/logAsgard.php,component,index_archivos/logAsgard.php,observed,index_archivos/logAsgard.php
+FILE:index_archivos/parametros/clientes/ClienteProveedorClass.php,component,index_archivos/parametros/clientes/ClienteProveedorClass.php,observed,index_archivos/parametros/clientes/ClienteProveedorClass.php
+FILE:index_archivos/parametros/ubicaciones/Ubicacion.php,component,index_archivos/parametros/ubicaciones/Ubicacion.php,observed,index_archivos/parametros/ubicaciones/Ubicacion.php
+FILE:index_archivos/parametros/ubicaciones/ajax/uploadexcel.php,component,index_archivos/parametros/ubicaciones/ajax/uploadexcel.php,observed,index_archivos/parametros/ubicaciones/ajax/uploadexcel.php
+FILE:index_archivos/principal.php,component,index_archivos/principal.php,observed,index_archivos/principal.php
+FILE:index_archivos/rating/RatingClass.php,component,index_archivos/rating/RatingClass.php,observed,index_archivos/rating/RatingClass.php
+FILE:index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,component,index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,observed,index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php
+FILE:index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,component,index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,observed,index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php
+FILE:index_archivos/resetpassword/ResetPassword.php,component,index_archivos/resetpassword/ResetPassword.php,observed,index_archivos/resetpassword/ResetPassword.php
+FILE:index_archivos/resetpassword/js/vee-validate.js,component,index_archivos/resetpassword/js/vee-validate.js,observed,index_archivos/resetpassword/js/vee-validate.js
+FILE:index_archivos/resetpassword/js/vue.js,component,index_archivos/resetpassword/js/vue.js,observed,index_archivos/resetpassword/js/vue.js
+FILE:index_archivos/tracking/CommonsClass.php,component,index_archivos/tracking/CommonsClass.php,observed,index_archivos/tracking/CommonsClass.php
+FILE:index_archivos/tracking/HerramientasClass.php,component,index_archivos/tracking/HerramientasClass.php,observed,index_archivos/tracking/HerramientasClass.php
+FILE:index_archivos/tracking/ListaViajesClass.php,component,index_archivos/tracking/ListaViajesClass.php,observed,index_archivos/tracking/ListaViajesClass.php
+FILE:index_archivos/tracking/ReporteViajesClass.php,component,index_archivos/tracking/ReporteViajesClass.php,observed,index_archivos/tracking/ReporteViajesClass.php
+FILE:index_archivos/tracking/TrackingClass.php,component,index_archivos/tracking/TrackingClass.php,observed,index_archivos/tracking/TrackingClass.php
+FILE:index_archivos/tracking/TrackingNewClass.php,component,index_archivos/tracking/TrackingNewClass.php,observed,index_archivos/tracking/TrackingNewClass.php
+FILE:index_archivos/tracking/ajax/borrarempresa.php,component,index_archivos/tracking/ajax/borrarempresa.php,observed,index_archivos/tracking/ajax/borrarempresa.php
+FILE:index_archivos/tracking/ajax/buscar-partida.php,component,index_archivos/tracking/ajax/buscar-partida.php,observed,index_archivos/tracking/ajax/buscar-partida.php
+FILE:index_archivos/tracking/ajax/cargar-imagenes-viaje.php,component,index_archivos/tracking/ajax/cargar-imagenes-viaje.php,observed,index_archivos/tracking/ajax/cargar-imagenes-viaje.php
+FILE:index_archivos/tracking/ajax/uploadExcelCargaMasiva.php,component,index_archivos/tracking/ajax/uploadExcelCargaMasiva.php,observed,index_archivos/tracking/ajax/uploadExcelCargaMasiva.php
+FILE:index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php,component,index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php,observed,index_archivos/tracking/ajaxAsignacion/borrar_ubicacion.php
+FILE:index_archivos/tracking/controllers/CargaMasiva.php,component,index_archivos/tracking/controllers/CargaMasiva.php,observed,index_archivos/tracking/controllers/CargaMasiva.php
+FILE:index_archivos/tracking/js/magnific-popup.js,component,index_archivos/tracking/js/magnific-popup.js,observed,index_archivos/tracking/js/magnific-popup.js
+FILE:index_archivos/tracking/js/vue-draggable.js,component,index_archivos/tracking/js/vue-draggable.js,observed,index_archivos/tracking/js/vue-draggable.js
+FILE:index_archivos/tracking/js/vue.draggable.commons.js,component,index_archivos/tracking/js/vue.draggable.commons.js,observed,index_archivos/tracking/js/vue.draggable.commons.js
+FILE:index_archivos/tracking/vue/components/journey/section-locations.component.js,component,index_archivos/tracking/vue/components/journey/section-locations.component.js,observed,index_archivos/tracking/vue/components/journey/section-locations.component.js
+FILE:index_archivos/veriflogin.php,component,index_archivos/veriflogin.php,observed,index_archivos/veriflogin.php
+FILE:src/core/users/application/Find/UserFind.php,component,src/core/users/application/Find/UserFind.php,observed,src/core/users/application/Find/UserFind.php
+NONHTTP:CLI_COMMAND:index_archivos/2fa/TwoFaClass.php,trigger,CLI_COMMAND: index_archivos/2fa/TwoFaClass.php,candidate,index_archivos/2fa/TwoFaClass.php
+NONHTTP:CLI_COMMAND:index_archivos/controllers/GlobalClass.php,trigger,CLI_COMMAND: index_archivos/controllers/GlobalClass.php,candidate,index_archivos/controllers/GlobalClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/CostosClass.php,trigger,CLI_COMMAND: index_archivos/embarques/CostosClass.php,candidate,index_archivos/embarques/CostosClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/CotizacionClass.php,trigger,CLI_COMMAND: index_archivos/embarques/CotizacionClass.php,candidate,index_archivos/embarques/CotizacionClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/EmbarqueClass.php,trigger,CLI_COMMAND: index_archivos/embarques/EmbarqueClass.php,candidate,index_archivos/embarques/EmbarqueClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/SolicitudesClass.php,trigger,CLI_COMMAND: index_archivos/embarques/SolicitudesClass.php,candidate,index_archivos/embarques/SolicitudesClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/ajax/listaLineasFiltro.php,trigger,CLI_COMMAND: index_archivos/embarques/ajax/listaLineasFiltro.php,candidate,index_archivos/embarques/ajax/listaLineasFiltro.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/componentes/embarques_lista_viajes.php,trigger,CLI_COMMAND: index_archivos/embarques/componentes/embarques_lista_viajes.php,candidate,index_archivos/embarques/componentes/embarques_lista_viajes.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,trigger,CLI_COMMAND: index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php,candidate,index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/costos.php,trigger,CLI_COMMAND: index_archivos/embarques/costos.php,candidate,index_archivos/embarques/costos.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/frames/estado-pedidos.php,trigger,CLI_COMMAND: index_archivos/embarques/frames/estado-pedidos.php,candidate,index_archivos/embarques/frames/estado-pedidos.php
+NONHTTP:CLI_COMMAND:index_archivos/embarques/frames/rutas.php,trigger,CLI_COMMAND: index_archivos/embarques/frames/rutas.php,candidate,index_archivos/embarques/frames/rutas.php
+NONHTTP:CLI_COMMAND:index_archivos/logAsgard.php,trigger,CLI_COMMAND: index_archivos/logAsgard.php,candidate,index_archivos/logAsgard.php
+NONHTTP:CLI_COMMAND:index_archivos/parametros/clientes/ClienteProveedorClass.php,trigger,CLI_COMMAND: index_archivos/parametros/clientes/ClienteProveedorClass.php,candidate,index_archivos/parametros/clientes/ClienteProveedorClass.php
+NONHTTP:CLI_COMMAND:index_archivos/parametros/ubicaciones/Ubicacion.php,trigger,CLI_COMMAND: index_archivos/parametros/ubicaciones/Ubicacion.php,candidate,index_archivos/parametros/ubicaciones/Ubicacion.php
+NONHTTP:CLI_COMMAND:index_archivos/parametros/ubicaciones/ajax/uploadexcel.php,trigger,CLI_COMMAND: index_archivos/parametros/ubicaciones/ajax/uploadexcel.php,candidate,index_archivos/parametros/ubicaciones/ajax/uploadexcel.php
+NONHTTP:CLI_COMMAND:index_archivos/rating/RatingClass.php,trigger,CLI_COMMAND: index_archivos/rating/RatingClass.php,candidate,index_archivos/rating/RatingClass.php
+NONHTTP:CLI_COMMAND:index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,trigger,CLI_COMMAND: index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php,candidate,index_archivos/reportes/exportaciones/ajax/ActualizarMICs.php
+NONHTTP:CLI_COMMAND:index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,trigger,CLI_COMMAND: index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php,candidate,index_archivos/reportes/exportaciones/ajax/RecepcionFisicaMICs.php
+NONHTTP:CLI_COMMAND:index_archivos/resetpassword/ResetPassword.php,trigger,CLI_COMMAND: index_archivos/resetpassword/ResetPassword.php,candidate,index_archivos/resetpassword/ResetPassword.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/ListaViajesClass.php,trigger,CLI_COMMAND: index_archivos/tracking/ListaViajesClass.php,candidate,index_archivos/tracking/ListaViajesClass.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/ReporteViajesClass.php,trigger,CLI_COMMAND: index_archivos/tracking/ReporteViajesClass.php,candidate,index_archivos/tracking/ReporteViajesClass.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/TrackingClass.php,trigger,CLI_COMMAND: index_archivos/tracking/TrackingClass.php,candidate,index_archivos/tracking/TrackingClass.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/TrackingNewClass.php,trigger,CLI_COMMAND: index_archivos/tracking/TrackingNewClass.php,candidate,index_archivos/tracking/TrackingNewClass.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/ajax/uploadExcelCargaMasiva.php,trigger,CLI_COMMAND: index_archivos/tracking/ajax/uploadExcelCargaMasiva.php,candidate,index_archivos/tracking/ajax/uploadExcelCargaMasiva.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/controllers/CargaMasiva.php,trigger,CLI_COMMAND: index_archivos/tracking/controllers/CargaMasiva.php,candidate,index_archivos/tracking/controllers/CargaMasiva.php
+NONHTTP:CLI_COMMAND:index_archivos/tracking/js/vue-draggable.js,trigger,CLI_COMMAND: index_archivos/tracking/js/vue-draggable.js,candidate,index_archivos/tracking/js/vue-draggable.js
+NONHTTP:CLI_COMMAND:index_archivos/tracking/js/vue.draggable.commons.js,trigger,CLI_COMMAND: index_archivos/tracking/js/vue.draggable.commons.js,candidate,index_archivos/tracking/js/vue.draggable.commons.js
+NONHTTP:CLI_COMMAND:index_archivos/tracking/vue/components/journey/section-locations.component.js,trigger,CLI_COMMAND: index_archivos/tracking/vue/components/journey/section-locations.component.js,candidate,index_archivos/tracking/vue/components/journey/section-locations.component.js
+NONHTTP:EVENT_CONSUMER:index_archivos/embarques/embarquever.php,trigger,EVENT_CONSUMER: index_archivos/embarques/embarquever.php,candidate,index_archivos/embarques/embarquever.php
+NONHTTP:EVENT_CONSUMER:index_archivos/js/ext-all-debug.js,trigger,EVENT_CONSUMER: index_archivos/js/ext-all-debug.js,candidate,index_archivos/js/ext-all-debug.js
+NONHTTP:EVENT_CONSUMER:index_archivos/js/jquery.easyui.min.js,trigger,EVENT_CONSUMER: index_archivos/js/jquery.easyui.min.js,candidate,index_archivos/js/jquery.easyui.min.js
+NONHTTP:EVENT_CONSUMER:index_archivos/js/jquery.js,trigger,EVENT_CONSUMER: index_archivos/js/jquery.js,candidate,index_archivos/js/jquery.js
+NONHTTP:EVENT_CONSUMER:index_archivos/js/scripts/knockout-2.2.1.js,trigger,EVENT_CONSUMER: index_archivos/js/scripts/knockout-2.2.1.js,candidate,index_archivos/js/scripts/knockout-2.2.1.js
+NONHTTP:EVENT_CONSUMER:index_archivos/libs/fileinput/js/fileinput.js,trigger,EVENT_CONSUMER: index_archivos/libs/fileinput/js/fileinput.js,candidate,index_archivos/libs/fileinput/js/fileinput.js
+NONHTTP:EVENT_CONSUMER:index_archivos/libs/fileinput/js/plugins/sortable.js,trigger,EVENT_CONSUMER: index_archivos/libs/fileinput/js/plugins/sortable.js,candidate,index_archivos/libs/fileinput/js/plugins/sortable.js
+NONHTTP:EVENT_CONSUMER:index_archivos/libs/fileinput/js/plugins/sortable.min.js,trigger,EVENT_CONSUMER: index_archivos/libs/fileinput/js/plugins/sortable.min.js,candidate,index_archivos/libs/fileinput/js/plugins/sortable.min.js
+NONHTTP:EVENT_CONSUMER:index_archivos/libs/jquery.js,trigger,EVENT_CONSUMER: index_archivos/libs/jquery.js,candidate,index_archivos/libs/jquery.js
+NONHTTP:EVENT_CONSUMER:index_archivos/principal.php,trigger,EVENT_CONSUMER: index_archivos/principal.php,candidate,index_archivos/principal.php
+NONHTTP:EVENT_CONSUMER:index_archivos/resetpassword/js/vee-validate.js,trigger,EVENT_CONSUMER: index_archivos/resetpassword/js/vee-validate.js,candidate,index_archivos/resetpassword/js/vee-validate.js
+NONHTTP:EVENT_CONSUMER:index_archivos/tracking/js/magnific-popup.js,trigger,EVENT_CONSUMER: index_archivos/tracking/js/magnific-popup.js,candidate,index_archivos/tracking/js/magnific-popup.js
+NONHTTP:SCHEDULED_TASK:index_archivos/js/kendo.web.min.js,trigger,SCHEDULED_TASK: index_archivos/js/kendo.web.min.js,candidate,index_archivos/js/kendo.web.min.js
+NONHTTP:SCHEDULED_TASK:index_archivos/resetpassword/js/vue.js,trigger,SCHEDULED_TASK: index_archivos/resetpassword/js/vue.js,candidate,index_archivos/resetpassword/js/vue.js
+STATE:0,state,0,observed,
+STATE:1,state,1,observed,
+STATE:100,state,100,observed,
+STATE:2,state,2,observed,
+STATE:200,state,200,observed,
+STATE:204,state,204,observed,
+STATE:404,state,404,observed,
+STATE:405,state,405,observed,
+STATE:a,state,a,observed,
+STATE:c,state,c,observed,
+STATE:customerror,state,customerror,observed,
+STATE:div,state,div,observed,
+STATE:e,state,e,observed,
+STATE:function,state,function,observed,
+STATE:getInternalState,state,getInternalState,observed,
+STATE:isBool,state,isBool,observed,
+STATE:isHidden,state,isHidden,observed,
+STATE:me,state,me,observed,
+STATE:new,state,new,observed,
+STATE:null,state,null,observed,
+STATE:open,state,open,observed,
+STATE:parsererror,state,parsererror,observed,
+STATE:pending,state,pending,observed,
+STATE:responses,state,responses,observed,
+STATE:retained,state,retained,observed,
+STATE:self,state,self,observed,
+STATE:state,state,state,observed,
+STATE:stateString,state,stateString,observed,
+STATE:stateVal,state,stateVal,observed,
+STATE:status,state,status,observed,
+STATE:success,state,success,observed,
+STATE:t,state,t,observed,
+STATE:this,state,this,observed,
+STATE:true,state,true,observed,
+STATE:xhr,state,xhr,observed,

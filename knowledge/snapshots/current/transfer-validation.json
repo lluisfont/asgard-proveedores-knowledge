@@ -1,5 +1,6 @@
 {
   "status": "PASS",
+  "scope": "historical_peru_transfer",
   "transferred_artifact_entries": 1741,
   "historical_checkpoints": 7,
   "historical_checkpoint_entries": 3313,

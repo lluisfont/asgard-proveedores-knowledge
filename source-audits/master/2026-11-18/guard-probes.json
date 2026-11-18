@@ -1,0 +1,75 @@
+{
+  "mode": "isolated_php_cli_guards_only",
+  "database_access": false,
+  "network_access": false,
+  "application_handler_executed": false,
+  "cases": [
+    {
+      "case": "image_anonymous",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    },
+    {
+      "case": "image_authenticated",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected_continue": true,
+      "actual_continue": true,
+      "http_status": false,
+      "status": "pass"
+    },
+    {
+      "case": "image_parent_path",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    },
+    {
+      "case": "image_absolute_path",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    },
+    {
+      "case": "image_empty_path",
+      "source": "index_archivos/tracking/guardia_imagen.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    },
+    {
+      "case": "relative_download_anonymous",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    },
+    {
+      "case": "relative_download_authenticated",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected_continue": true,
+      "actual_continue": true,
+      "http_status": false,
+      "status": "pass"
+    },
+    {
+      "case": "relative_download_parent",
+      "source": "index_archivos/guardia_descargas_rel.php",
+      "expected_continue": false,
+      "actual_continue": false,
+      "http_status": 403,
+      "status": "pass"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "limitation": "These guards are a narrow bounded check, not end-to-end authentication, tenant ownership, authorization or deployment verification."
+}

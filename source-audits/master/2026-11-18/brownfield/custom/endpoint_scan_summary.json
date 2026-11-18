@@ -1,0 +1,9 @@
+{
+  "endpoint_candidates": 241,
+  "frontend_php_call_references": 87,
+  "endpoints_with_caller_references": 55,
+  "unmatched_php_call_references": 15,
+  "output_dir": "C:\\repos\\proveedores-github-review-20261118\\.brownfield\\work\\custom",
+  "release_http_catalog": "C:\\repos\\proveedores-github-review-20261118\\.brownfield\\work\\release\\engineering-analysis\\interfaces\\HTTP_ENDPOINT_CATALOG.md",
+  "release_route_matrix": "C:\\repos\\proveedores-github-review-20261118\\.brownfield\\work\\release\\engineering-analysis\\interfaces\\ROUTE_TO_HANDLER_MATRIX.csv"
+}

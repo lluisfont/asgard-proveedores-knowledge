@@ -1,0 +1,20 @@
+{
+  "project": "proveedores-master-a8ce2c23",
+  "baseline": {
+    "repository_commit": null,
+    "source_hash": "2b9da9c44c9c869ea7c6d73a91d0f6912851da6866d1df6a0d9d1c2c59d88ac1",
+    "database_hash": null,
+    "confirmed": false
+  },
+  "current_domain": null,
+  "current_phase": "business_validation",
+  "current_version": "0.1",
+  "verdict": "IN_PROGRESS",
+  "last_completed_step": "seed_baseline",
+  "next_action": "review_seed_baseline_then_reconstruct_business_domains",
+  "blockers": [],
+  "canonical_domains": [],
+  "provisional_domains": [],
+  "rejected_domains": [],
+  "updated_at": "2026-11-18T15:05:03.582998+00:00"
+}

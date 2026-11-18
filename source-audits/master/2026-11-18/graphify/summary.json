@@ -1,0 +1,14 @@
+{
+  "tool": "graphifyy",
+  "mode": "local_ast_code_only",
+  "files": 545,
+  "nodes": 2173,
+  "edges": 2711,
+  "communities": 620,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "semantic_extraction": false,
+  "extraction_warnings": [],
+  "symbol_less_warning_files": 319,
+  "coverage_note": "319 of 545 selected files yielded no symbols beyond a file node. Endpoint/request/SQL catalogs complement this AST representation."
+}

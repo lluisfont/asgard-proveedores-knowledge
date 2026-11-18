@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "context": "standalone_knowledge",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "current_payloads_verified": 146,
+  "glossary_terms": 81,
+  "reviewed_security_findings": 14,
+  "historical_candidates_accounted_for": 891,
+  "documents_checked": 49,
+  "local_links_checked": 198,
+  "distinct_pinned_source_citations": 611,
+  "source_line_bounds_verified": true,
+  "guard_cases_passed": 8,
+  "independent_security_cases_passed": 12,
+  "database_schema": "missing_for_master",
+  "runtime_end_to_end": "not_verified",
+  "business_approval": "pending",
+  "overall_audit_coverage": "PARTIAL",
+  "note": "PASS validates evidence integrity, structure and references. It does not certify business correctness or close security findings."
+}

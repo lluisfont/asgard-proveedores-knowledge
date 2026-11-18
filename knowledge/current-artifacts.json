@@ -1,0 +1,1175 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "entries": [
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/columns.csv",
+      "export_sha256": "ecd9197065def9420a64dbb2fe19a332ec03b4a0b4450c00c0fb4b42ec2be371",
+      "stored_sha256": "ecd9197065def9420a64dbb2fe19a332ec03b4a0b4450c00c0fb4b42ec2be371",
+      "compression": null,
+      "bytes": 1416350,
+      "stored_bytes": 1416350
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/constraints.csv",
+      "export_sha256": "ac9836446ea529534e792366e6b6e510a998f607383d6a8ca136f74299a51949",
+      "stored_sha256": "ac9836446ea529534e792366e6b6e510a998f607383d6a8ca136f74299a51949",
+      "compression": null,
+      "bytes": 100940,
+      "stored_bytes": 100940
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/database_objects.csv",
+      "export_sha256": "a4b8d844126ed060a90514c22be9b6f7cb62bd6f9c7e0dc0778b7ba1ea10aad9",
+      "stored_sha256": "a4b8d844126ed060a90514c22be9b6f7cb62bd6f9c7e0dc0778b7ba1ea10aad9",
+      "compression": null,
+      "bytes": 11056,
+      "stored_bytes": 11056
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/indexes.csv",
+      "export_sha256": "d5e8d93d219860c0b939802d9a20815a663bdf4494643e64b5bc098e69be4d88",
+      "stored_sha256": "d5e8d93d219860c0b939802d9a20815a663bdf4494643e64b5bc098e69be4d88",
+      "compression": null,
+      "bytes": 159111,
+      "stored_bytes": 159111
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/relations.csv",
+      "export_sha256": "f318832b2cc676aa4eda0ccc53e3e81d26fa59138cf56c0e6908ae6e6a4ef968",
+      "stored_sha256": "f318832b2cc676aa4eda0ccc53e3e81d26fa59138cf56c0e6908ae6e6a4ef968",
+      "compression": null,
+      "bytes": 9048,
+      "stored_bytes": 9048
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/structure.json.gz",
+      "export_sha256": "fa3f94331465aae919ca1f43a079efcc3ebef5098e15b2b4e543473cb90dc512",
+      "stored_sha256": "b3d64ec5c5311bf4df69b589029153bd0fc15e66959f837373e1246df255fe3d",
+      "compression": "gzip",
+      "bytes": 4717358,
+      "stored_bytes": 366531
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/summary.json",
+      "export_sha256": "c6f4507f7fc2a1b63667ffe838d6394a8ef2970ffe1e4cdbd7b504b5ee4eb2b4",
+      "stored_sha256": "c6f4507f7fc2a1b63667ffe838d6394a8ef2970ffe1e4cdbd7b504b5ee4eb2b4",
+      "compression": null,
+      "bytes": 1371,
+      "stored_bytes": 1371
+    },
+    {
+      "path": "source-audits/local-schema-candidate/2026-11-18/tables.csv",
+      "export_sha256": "06f8e1925d928f6b9ecbef50f058143323f29aaa8de17b8d0166634c85ad6f8a",
+      "stored_sha256": "06f8e1925d928f6b9ecbef50f058143323f29aaa8de17b8d0166634c85ad6f8a",
+      "compression": null,
+      "bytes": 88153,
+      "stored_bytes": 88153
+    },
+    {
+      "path": "source-audits/master/2026-11-18/audit-summary.json",
+      "export_sha256": "3868effc648c7e613a29311bfd47818bf5f0f44e8594b0056e03631906fc5281",
+      "stored_sha256": "3868effc648c7e613a29311bfd47818bf5f0f44e8594b0056e03631906fc5281",
+      "compression": null,
+      "bytes": 1359,
+      "stored_bytes": 1359
+    },
+    {
+      "path": "source-audits/master/2026-11-18/AUDIT_REPORT.md",
+      "export_sha256": "d2377a19abef5afe6c68e91c5314f060dcdf427b9e54a0d7bb54592a1b269a4c",
+      "stored_sha256": "d2377a19abef5afe6c68e91c5314f060dcdf427b9e54a0d7bb54592a1b269a4c",
+      "compression": null,
+      "bytes": 4312,
+      "stored_bytes": 4312
+    },
+    {
+      "path": "source-audits/master/2026-11-18/branch-comparison.csv",
+      "export_sha256": "b8f0520fcfcd0908b1e0095af6502ab4aa44cf1f077c3bcca03d7aac19b6b499",
+      "stored_sha256": "b8f0520fcfcd0908b1e0095af6502ab4aa44cf1f077c3bcca03d7aac19b6b499",
+      "compression": null,
+      "bytes": 1783572,
+      "stored_bytes": 1783572
+    },
+    {
+      "path": "source-audits/master/2026-11-18/branch-comparison.json",
+      "export_sha256": "008df0a059bb4ae63e2fcdc3b31c2571fec7aca9daeb21c485df680cbe9f33c7",
+      "stored_sha256": "008df0a059bb4ae63e2fcdc3b31c2571fec7aca9daeb21c485df680cbe9f33c7",
+      "compression": null,
+      "bytes": 560,
+      "stored_bytes": 560
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/business_glossary/BUSINESS_GLOSSARY.csv",
+      "export_sha256": "e7fef19cfb70d3218ce015bd5e5cc1e5fc0502ffa1c7aaed17e8c67e6488d8d7",
+      "stored_sha256": "e7fef19cfb70d3218ce015bd5e5cc1e5fc0502ffa1c7aaed17e8c67e6488d8d7",
+      "compression": null,
+      "bytes": 544,
+      "stored_bytes": 544
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/business_glossary/BUSINESS_GLOSSARY.md",
+      "export_sha256": "c4ea891df731de6d25072f15153255a05747b7485a81bc05a456b1946d1e0c99",
+      "stored_sha256": "c4ea891df731de6d25072f15153255a05747b7485a81bc05a456b1946d1e0c99",
+      "compression": null,
+      "bytes": 750,
+      "stored_bytes": 750
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/business_glossary/BUSINESS_GLOSSARY_REVIEW.md",
+      "export_sha256": "c0cf3af1bede8813b8a2184d65eade1dd7c5d44b152731dc5b098fe2eac31cf2",
+      "stored_sha256": "c0cf3af1bede8813b8a2184d65eade1dd7c5d44b152731dc5b098fe2eac31cf2",
+      "compression": null,
+      "bytes": 256,
+      "stored_bytes": 256
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/completeness/ANALYSIS_COMPLETENESS_REPORT.md",
+      "export_sha256": "75031976d42d1a213457ddf3a14aee0aebf36be0aaeaee08a100aaaddcf06842",
+      "stored_sha256": "75031976d42d1a213457ddf3a14aee0aebf36be0aaeaee08a100aaaddcf06842",
+      "compression": null,
+      "bytes": 3506,
+      "stored_bytes": 3506
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/completeness/DELIVERABLE_COVERAGE.csv",
+      "export_sha256": "eea13a28bed089f99e5a6f6bcb359750b34cc18ce2b76a21d5d89a5795ae6f84",
+      "stored_sha256": "eea13a28bed089f99e5a6f6bcb359750b34cc18ce2b76a21d5d89a5795ae6f84",
+      "compression": null,
+      "bytes": 3880,
+      "stored_bytes": 3880
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/completeness/DELIVERABLE_COVERAGE.json",
+      "export_sha256": "dfc2aa90b39a993ffebacdb58f07ea1b9889a34dcb37d02b30945087b7c80fb8",
+      "stored_sha256": "dfc2aa90b39a993ffebacdb58f07ea1b9889a34dcb37d02b30945087b7c80fb8",
+      "compression": null,
+      "bytes": 10371,
+      "stored_bytes": 10371
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/api-deep-iterative/API_DEEP_ITERATIVE_FINDINGS.md",
+      "export_sha256": "37f6e4789f3ac5026be32a556633d6b8e916e15ba81fad9e09af7d043816ab0a",
+      "stored_sha256": "37f6e4789f3ac5026be32a556633d6b8e916e15ba81fad9e09af7d043816ab0a",
+      "compression": null,
+      "bytes": 11818,
+      "stored_bytes": 11818
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/api-deep-iterative/consumer_deep_risks.csv",
+      "export_sha256": "5c877d29c3df3eb3ef515a31d5ce39053951d33fb8fbe0a01b8b59b7e9b519ef",
+      "stored_sha256": "5c877d29c3df3eb3ef515a31d5ce39053951d33fb8fbe0a01b8b59b7e9b519ef",
+      "compression": null,
+      "bytes": 4485,
+      "stored_bytes": 4485
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/api-deep-iterative/endpoint_deep_risks.csv",
+      "export_sha256": "ee7386b1ba458661abc416525570c78c0ffcb79f061309e13f7ef33331794574",
+      "stored_sha256": "ee7386b1ba458661abc416525570c78c0ffcb79f061309e13f7ef33331794574",
+      "compression": null,
+      "bytes": 48232,
+      "stored_bytes": 48232
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/api-deep-iterative/summary.json",
+      "export_sha256": "eab1554cf696403d6cebc4e392a24e004234b37cca0931a22040e6cac087cc3b",
+      "stored_sha256": "eab1554cf696403d6cebc4e392a24e004234b37cca0931a22040e6cac087cc3b",
+      "compression": null,
+      "bytes": 633,
+      "stored_bytes": 633
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/api-catalog.augmented.json",
+      "export_sha256": "6a7095ce05502872aed8f219a1f72ad5c6340e67eb4c782eadacf44f392d6179",
+      "stored_sha256": "6a7095ce05502872aed8f219a1f72ad5c6340e67eb4c782eadacf44f392d6179",
+      "compression": null,
+      "bytes": 297205,
+      "stored_bytes": 297205
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/api_endpoint_security_matrix.csv",
+      "export_sha256": "bfab09b0f253622eae23eea0ffad030eb3445745acb722d00dedd6e84abcfb40",
+      "stored_sha256": "bfab09b0f253622eae23eea0ffad030eb3445745acb722d00dedd6e84abcfb40",
+      "compression": null,
+      "bytes": 47287,
+      "stored_bytes": 47287
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/ASGARD_API_AUDIT_AUGMENTED.md",
+      "export_sha256": "a0313bb606348f80b694a3d60c1feabdafa57dad36e82518e4fdf8d7c48081ac",
+      "stored_sha256": "a0313bb606348f80b694a3d60c1feabdafa57dad36e82518e4fdf8d7c48081ac",
+      "compression": null,
+      "bytes": 6767,
+      "stored_bytes": 6767
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/consumed_api_augmented.csv",
+      "export_sha256": "f3dbaf020d230187db3769bd446dbabec6c817c0e16c2fd7bf68c8e7ae811cd8",
+      "stored_sha256": "f3dbaf020d230187db3769bd446dbabec6c817c0e16c2fd7bf68c8e7ae811cd8",
+      "compression": null,
+      "bytes": 5369,
+      "stored_bytes": 5369
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/openapi.augmented.yaml",
+      "export_sha256": "d71cdfd1baf407e589ce2fb988bbcd0fced83d04c6390cfe544f40d0aca68920",
+      "stored_sha256": "d71cdfd1baf407e589ce2fb988bbcd0fced83d04c6390cfe544f40d0aca68920",
+      "compression": null,
+      "bytes": 142644,
+      "stored_bytes": 142644
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/dangerous_php_sinks.csv",
+      "export_sha256": "ae8698c141f86ffee6da44e0cc65700c80975918a60e8d17e0e696d379363a74",
+      "stored_sha256": "ae8698c141f86ffee6da44e0cc65700c80975918a60e8d17e0e696d379363a74",
+      "compression": null,
+      "bytes": 545,
+      "stored_bytes": 545
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/DEEP_SECURITY_FINDINGS.md",
+      "export_sha256": "be63fbb69d9c37701a552c8db05858ebad55236005fe0bfec480f7628340e8df",
+      "stored_sha256": "be63fbb69d9c37701a552c8db05858ebad55236005fe0bfec480f7628340e8df",
+      "compression": null,
+      "bytes": 8530,
+      "stored_bytes": 8530
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/ENDPOINT_FINDINGS_AUGMENTED.md",
+      "export_sha256": "d50ae6a0a79a5625759034e5112badc462075ac881c51709a1968aad3260cb54",
+      "stored_sha256": "d50ae6a0a79a5625759034e5112badc462075ac881c51709a1968aad3260cb54",
+      "compression": null,
+      "bytes": 910,
+      "stored_bytes": 910
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/endpoint_scan_summary.json",
+      "export_sha256": "a9983e8044be42b0248756fd6495cfdcb0e4cc91c92f6f732246813e354f47a2",
+      "stored_sha256": "a9983e8044be42b0248756fd6495cfdcb0e4cc91c92f6f732246813e354f47a2",
+      "compression": null,
+      "bytes": 580,
+      "stored_bytes": 580
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/frontend_endpoint_callers.csv",
+      "export_sha256": "e9b833f141e2ed1b6dfe8e2ce41a34e4b1c0a516e4bafe91174317281a5a63ce",
+      "stored_sha256": "e9b833f141e2ed1b6dfe8e2ce41a34e4b1c0a516e4bafe91174317281a5a63ce",
+      "compression": null,
+      "bytes": 8093,
+      "stored_bytes": 8093
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/http_endpoint_catalog.csv",
+      "export_sha256": "0cd5b6d0767eb223fd6c1e00a14394e0fe6c190988b3f68bbb82a9d5956db7ad",
+      "stored_sha256": "0cd5b6d0767eb223fd6c1e00a14394e0fe6c190988b3f68bbb82a9d5956db7ad",
+      "compression": null,
+      "bytes": 93388,
+      "stored_bytes": 93388
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/HTTP_ENDPOINT_CATALOG_AUGMENTED.md",
+      "export_sha256": "9baef41b23f61463eb87624c9de7796018a23d2741ca72c26854766b2ab60a17",
+      "stored_sha256": "9baef41b23f61463eb87624c9de7796018a23d2741ca72c26854766b2ab60a17",
+      "compression": null,
+      "bytes": 9286,
+      "stored_bytes": 9286
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/sql_routine_risks.csv",
+      "export_sha256": "45de6a403954d4d7b62dacc1c02d1854762eeb474c18b469e309191db9a5f671",
+      "stored_sha256": "45de6a403954d4d7b62dacc1c02d1854762eeb474c18b469e309191db9a5f671",
+      "compression": null,
+      "bytes": 45,
+      "stored_bytes": 45
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/sql_taint_findings.csv",
+      "export_sha256": "90fca935f9209bfe6fa1217d18a280a32b4f0f324be5dc5ad9ee160241a94c3b",
+      "stored_sha256": "90fca935f9209bfe6fa1217d18a280a32b4f0f324be5dc5ad9ee160241a94c3b",
+      "compression": null,
+      "bytes": 76648,
+      "stored_bytes": 76648
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/unmatched_php_callers.csv",
+      "export_sha256": "ad5d173f156b48a90f128ce4a92de67f607f3aade9337559e13918a2417c4168",
+      "stored_sha256": "ad5d173f156b48a90f128ce4a92de67f607f3aade9337559e13918a2417c4168",
+      "compression": null,
+      "bytes": 1431,
+      "stored_bytes": 1431
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/custom/upload_security_findings.csv",
+      "export_sha256": "d3393d3cfba60497d19c8f3b0093018f75452f6ca23f1a89f088279e56fc2824",
+      "stored_sha256": "d3393d3cfba60497d19c8f3b0093018f75452f6ca23f1a89f088279e56fc2824",
+      "compression": null,
+      "bytes": 3447,
+      "stored_bytes": 3447
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/business_review_backlog.csv",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null,
+      "bytes": 0,
+      "stored_bytes": 0
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/columns.csv",
+      "export_sha256": "6e96ec2306ecdb3d648ad396debaed98c1d0163d589d85f136373a04b747e5fb",
+      "stored_sha256": "6e96ec2306ecdb3d648ad396debaed98c1d0163d589d85f136373a04b747e5fb",
+      "compression": null,
+      "bytes": 213,
+      "stored_bytes": 213
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/constraints.csv",
+      "export_sha256": "57859d5230ae325a060802971937a69d9763f4f4f9f6ea6ef6385f16a494bd98",
+      "stored_sha256": "57859d5230ae325a060802971937a69d9763f4f4f9f6ea6ef6385f16a494bd98",
+      "compression": null,
+      "bytes": 138,
+      "stored_bytes": 138
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/data_dictionary.json",
+      "export_sha256": "39421df93c813a0fe47bc037e2fd6f32409003916e04832f947bb83646d5e56b",
+      "stored_sha256": "39421df93c813a0fe47bc037e2fd6f32409003916e04832f947bb83646d5e56b",
+      "compression": null,
+      "bytes": 493,
+      "stored_bytes": 493
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/DATA_DICTIONARY.md",
+      "export_sha256": "d9f8602fa892b0af8a0c17836b2c39f02ec6b08a963f9c022883b34665a7aeda",
+      "stored_sha256": "d9f8602fa892b0af8a0c17836b2c39f02ec6b08a963f9c022883b34665a7aeda",
+      "compression": null,
+      "bytes": 467,
+      "stored_bytes": 467
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/DATA_DICTIONARY.xlsx",
+      "export_sha256": "cb8662384d503971efb1b06dfe214aa84ce9dc58309e0228ac7bf90b4309a897",
+      "stored_sha256": "cb8662384d503971efb1b06dfe214aa84ce9dc58309e0228ac7bf90b4309a897",
+      "compression": null,
+      "bytes": 9951,
+      "stored_bytes": 9951
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/database_objects.csv",
+      "export_sha256": "ca65dcdc076537f3458fe2bc38f2b9c19a085222062533229619fc2aabe7c797",
+      "stored_sha256": "ca65dcdc076537f3458fe2bc38f2b9c19a085222062533229619fc2aabe7c797",
+      "compression": null,
+      "bytes": 88,
+      "stored_bytes": 88
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/indexes.csv",
+      "export_sha256": "d067bd32d2baf16f4be378757a78e62f2b1fd9b3887327dc3bb94982427ce481",
+      "stored_sha256": "d067bd32d2baf16f4be378757a78e62f2b1fd9b3887327dc3bb94982427ce481",
+      "compression": null,
+      "bytes": 61,
+      "stored_bytes": 61
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/relations.csv",
+      "export_sha256": "72a096d5ff12f59ed32a6a8c0931d5cbc13fcf749bd736811ce58005213930d6",
+      "stored_sha256": "72a096d5ff12f59ed32a6a8c0931d5cbc13fcf749bd736811ce58005213930d6",
+      "compression": null,
+      "bytes": 117,
+      "stored_bytes": 117
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/semantic_data_dictionary.json",
+      "export_sha256": "7dea298828d8fe8672c0491599f5b44964eb696e52be6169fd91e75d98ebfd7e",
+      "stored_sha256": "7dea298828d8fe8672c0491599f5b44964eb696e52be6169fd91e75d98ebfd7e",
+      "compression": null,
+      "bytes": 233,
+      "stored_bytes": 233
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/SEMANTIC_DATA_DICTIONARY.md",
+      "export_sha256": "a1e1a49d2adc09970a7f8b4c2f3b98be7e286fdb0b230fb836e8121c13dc0b6a",
+      "stored_sha256": "a1e1a49d2adc09970a7f8b4c2f3b98be7e286fdb0b230fb836e8121c13dc0b6a",
+      "compression": null,
+      "bytes": 372,
+      "stored_bytes": 372
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/SEMANTIC_DATA_DICTIONARY.xlsx",
+      "export_sha256": "b7f0ac750071de6750599a686029fac8c7d363e8437c63fb4173ba6ee772403d",
+      "stored_sha256": "b7f0ac750071de6750599a686029fac8c7d363e8437c63fb4173ba6ee772403d",
+      "compression": null,
+      "bytes": 5941,
+      "stored_bytes": 5941
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/SEMANTIC_FIELD_CATALOG.csv",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null,
+      "bytes": 0,
+      "stored_bytes": 0
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/SEMANTIC_REVERSE_ENGINEERING.md",
+      "export_sha256": "d76c941832b137d843d39e185b33623637b2b951a83186cea77e61163a3e6ab0",
+      "stored_sha256": "d76c941832b137d843d39e185b33623637b2b951a83186cea77e61163a3e6ab0",
+      "compression": null,
+      "bytes": 386,
+      "stored_bytes": 386
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/SEMANTIC_TABLE_CATALOG.csv",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null,
+      "bytes": 0,
+      "stored_bytes": 0
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/data_dictionary/tables.csv",
+      "export_sha256": "b2b6d3aa4eee1dd0acfd75e68dc6532e0e07eb7176915582471649def10af256",
+      "stored_sha256": "b2b6d3aa4eee1dd0acfd75e68dc6532e0e07eb7176915582471649def10af256",
+      "compression": null,
+      "bytes": 198,
+      "stored_bytes": 198
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/evidence/evidence.jsonl",
+      "export_sha256": "ef72236838ee23b6ca50666e0061ebeb607dcd1ddf88f0417f261d749bcac1d4",
+      "stored_sha256": "ef72236838ee23b6ca50666e0061ebeb607dcd1ddf88f0417f261d749bcac1d4",
+      "compression": null,
+      "bytes": 364279,
+      "stored_bytes": 364279
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/evidence/summary.json",
+      "export_sha256": "2116bb52c30f852463419b71c628262b0c318dda27467801d2a7dbd261ad3df5",
+      "stored_sha256": "2116bb52c30f852463419b71c628262b0c318dda27467801d2a7dbd261ad3df5",
+      "compression": null,
+      "bytes": 624,
+      "stored_bytes": 624
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/inventory/source_inventory.csv",
+      "export_sha256": "ada57fb919c7e7c1beddb4dd44bc32b486e6061753d4c4dbee2d82ab65965ccb",
+      "stored_sha256": "ada57fb919c7e7c1beddb4dd44bc32b486e6061753d4c4dbee2d82ab65965ccb",
+      "compression": null,
+      "bytes": 186301,
+      "stored_bytes": 186301
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/inventory/summary.json",
+      "export_sha256": "c0f3c57261f7f2b30a57b0ec60eb2482389713596e5854cbebd2bb6b85c59c05",
+      "stored_sha256": "c0f3c57261f7f2b30a57b0ec60eb2482389713596e5854cbebd2bb6b85c59c05",
+      "compression": null,
+      "bytes": 930,
+      "stored_bytes": 930
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/component_index.csv",
+      "export_sha256": "e21e43a2edd92063eeb559d7ac56a0801616fa7e7521aca51cc8f2770797403c",
+      "stored_sha256": "e21e43a2edd92063eeb559d7ac56a0801616fa7e7521aca51cc8f2770797403c",
+      "compression": null,
+      "bytes": 4929,
+      "stored_bytes": 4929
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/007e3b523572.md",
+      "export_sha256": "d8bd3ea3ff9a5d4f47176304afcc117effb946394050ee972871b5e9c6df94bd",
+      "stored_sha256": "d8bd3ea3ff9a5d4f47176304afcc117effb946394050ee972871b5e9c6df94bd",
+      "compression": null,
+      "bytes": 1600,
+      "stored_bytes": 1600
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/082bc3c368bc.md",
+      "export_sha256": "7d68d3c81ead9d5fce135eac9f84dd4ce779f33a62e58d872490ca6e66fe04df",
+      "stored_sha256": "7d68d3c81ead9d5fce135eac9f84dd4ce779f33a62e58d872490ca6e66fe04df",
+      "compression": null,
+      "bytes": 433,
+      "stored_bytes": 433
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/1338cfdc34b9.md",
+      "export_sha256": "db724185f7ea31c9eda03061bb553b293c3ce0458ef44d350149ede481ae7f22",
+      "stored_sha256": "db724185f7ea31c9eda03061bb553b293c3ce0458ef44d350149ede481ae7f22",
+      "compression": null,
+      "bytes": 3714,
+      "stored_bytes": 3714
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/1a01a584e1ba.md",
+      "export_sha256": "7041f44b8e5575fd1e23ab5cfefbfa194ded7296006d2fb755cece1ca2c17b35",
+      "stored_sha256": "7041f44b8e5575fd1e23ab5cfefbfa194ded7296006d2fb755cece1ca2c17b35",
+      "compression": null,
+      "bytes": 1625,
+      "stored_bytes": 1625
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/1cd039cebd38.md",
+      "export_sha256": "c0061c5afbeef0f53552bcc81fbc348446d43787ebce4b04e700eebce7fd963f",
+      "stored_sha256": "c0061c5afbeef0f53552bcc81fbc348446d43787ebce4b04e700eebce7fd963f",
+      "compression": null,
+      "bytes": 661,
+      "stored_bytes": 661
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/1e44cc7a6da9.md",
+      "export_sha256": "f35110964555ded6e9d55f6b9e9d620f373298d9466f2e5a835f9b2952ad4a5d",
+      "stored_sha256": "f35110964555ded6e9d55f6b9e9d620f373298d9466f2e5a835f9b2952ad4a5d",
+      "compression": null,
+      "bytes": 737,
+      "stored_bytes": 737
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/20236f0015b8.md",
+      "export_sha256": "983741d24187f87f55d98bb44fbf29f01cd06a9361b9dc05c486fd1a3c151def",
+      "stored_sha256": "983741d24187f87f55d98bb44fbf29f01cd06a9361b9dc05c486fd1a3c151def",
+      "compression": null,
+      "bytes": 2520,
+      "stored_bytes": 2520
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/2043be155a16.md",
+      "export_sha256": "faaae84444574b05cc17b8c77677ff8ee340baf695a007d553e9dcb8b3aae62a",
+      "stored_sha256": "faaae84444574b05cc17b8c77677ff8ee340baf695a007d553e9dcb8b3aae62a",
+      "compression": null,
+      "bytes": 490,
+      "stored_bytes": 490
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/2114a8261007.md",
+      "export_sha256": "f4960362c521823dfda5eeab78713d4cec222edd4d35fe4f98b2fdcf2922924a",
+      "stored_sha256": "f4960362c521823dfda5eeab78713d4cec222edd4d35fe4f98b2fdcf2922924a",
+      "compression": null,
+      "bytes": 513,
+      "stored_bytes": 513
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/25581fe54527.md",
+      "export_sha256": "814dfb593252ac5c20e03d056adb6bf86ea8f67cb4d4d12b25545fd5a7700309",
+      "stored_sha256": "814dfb593252ac5c20e03d056adb6bf86ea8f67cb4d4d12b25545fd5a7700309",
+      "compression": null,
+      "bytes": 728,
+      "stored_bytes": 728
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/2f1be0d35258.md",
+      "export_sha256": "34f65ab7c2693e69de066ccc3c812b056c9664388646e39edc22c6101691294d",
+      "stored_sha256": "34f65ab7c2693e69de066ccc3c812b056c9664388646e39edc22c6101691294d",
+      "compression": null,
+      "bytes": 4033,
+      "stored_bytes": 4033
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/3448071bafcb.md",
+      "export_sha256": "5f90eb2a08961af794b37db6c8e5b17d14c6da1d22972a243de06b5cc4c91f43",
+      "stored_sha256": "5f90eb2a08961af794b37db6c8e5b17d14c6da1d22972a243de06b5cc4c91f43",
+      "compression": null,
+      "bytes": 849,
+      "stored_bytes": 849
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/3a8550249761.md",
+      "export_sha256": "6246dc1158f85bac890611a85234d926a4f0de884eabec59b871623157250239",
+      "stored_sha256": "6246dc1158f85bac890611a85234d926a4f0de884eabec59b871623157250239",
+      "compression": null,
+      "bytes": 528,
+      "stored_bytes": 528
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/3e845b67d5f4.md",
+      "export_sha256": "66298880165b525d8b29d47c708ba5364b3e8f257c254a972b881731cef63c78",
+      "stored_sha256": "66298880165b525d8b29d47c708ba5364b3e8f257c254a972b881731cef63c78",
+      "compression": null,
+      "bytes": 429,
+      "stored_bytes": 429
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/3f1389d6932d.md",
+      "export_sha256": "d6538bbaed18482cc135c4cf337936615dea13fe9a5e9270b432e66e20167c20",
+      "stored_sha256": "d6538bbaed18482cc135c4cf337936615dea13fe9a5e9270b432e66e20167c20",
+      "compression": null,
+      "bytes": 5280,
+      "stored_bytes": 5280
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/409ad6406f3d.md",
+      "export_sha256": "db99a4d076e81194cd26cdeb652db34382fc29025648bf1996e1640cfb82e501",
+      "stored_sha256": "db99a4d076e81194cd26cdeb652db34382fc29025648bf1996e1640cfb82e501",
+      "compression": null,
+      "bytes": 401,
+      "stored_bytes": 401
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/49b75af7572a.md",
+      "export_sha256": "3c5fff59c609865f7f18543e860ae94b5789b2fa4663e61d39ccdf5a956aa570",
+      "stored_sha256": "3c5fff59c609865f7f18543e860ae94b5789b2fa4663e61d39ccdf5a956aa570",
+      "compression": null,
+      "bytes": 750,
+      "stored_bytes": 750
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/4b06e0254183.md",
+      "export_sha256": "8ee6a90bb82218c296a360ae7a4b5dede37df966cdee55391b144f4db346445a",
+      "stored_sha256": "8ee6a90bb82218c296a360ae7a4b5dede37df966cdee55391b144f4db346445a",
+      "compression": null,
+      "bytes": 571,
+      "stored_bytes": 571
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/4b8cbfe18cfc.md",
+      "export_sha256": "b8526e9d07a314c47677d33eaf932c751c206daa5a789e6a9aaee19ea1eabd4a",
+      "stored_sha256": "b8526e9d07a314c47677d33eaf932c751c206daa5a789e6a9aaee19ea1eabd4a",
+      "compression": null,
+      "bytes": 601,
+      "stored_bytes": 601
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/4c37a215f71e.md",
+      "export_sha256": "2054d9763f88b5c8baeb8d53bf6a3e0a7f652a731b5ff33b5c30a668c4013ced",
+      "stored_sha256": "2054d9763f88b5c8baeb8d53bf6a3e0a7f652a731b5ff33b5c30a668c4013ced",
+      "compression": null,
+      "bytes": 409,
+      "stored_bytes": 409
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/55817b9861c3.md",
+      "export_sha256": "2343d3454f450e4b86072470c17f3004bf361dc90fd4687b6d8246b552d1e6b4",
+      "stored_sha256": "2343d3454f450e4b86072470c17f3004bf361dc90fd4687b6d8246b552d1e6b4",
+      "compression": null,
+      "bytes": 571,
+      "stored_bytes": 571
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/56cce86083fc.md",
+      "export_sha256": "13cd959ab6950063d6ab8a88cf37d9687222675d099839edd339405c501c7221",
+      "stored_sha256": "13cd959ab6950063d6ab8a88cf37d9687222675d099839edd339405c501c7221",
+      "compression": null,
+      "bytes": 591,
+      "stored_bytes": 591
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/5a3121af0754.md",
+      "export_sha256": "08e04de906df44202457e4c99dc6df7673b0079874eff105a5e0365c7dcd29cc",
+      "stored_sha256": "08e04de906df44202457e4c99dc6df7673b0079874eff105a5e0365c7dcd29cc",
+      "compression": null,
+      "bytes": 622,
+      "stored_bytes": 622
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/6d23c187b788.md",
+      "export_sha256": "4326493098172b34ee06cb7d4e40aa7517706fc00e868d1eda749b66f5b2d997",
+      "stored_sha256": "4326493098172b34ee06cb7d4e40aa7517706fc00e868d1eda749b66f5b2d997",
+      "compression": null,
+      "bytes": 5484,
+      "stored_bytes": 5484
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/6f10c29c805e.md",
+      "export_sha256": "a9bb66f4d72f0e814db45cef93303066cba89e72b34f1653dabaa092f95ea75d",
+      "stored_sha256": "a9bb66f4d72f0e814db45cef93303066cba89e72b34f1653dabaa092f95ea75d",
+      "compression": null,
+      "bytes": 552,
+      "stored_bytes": 552
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/71988d703daa.md",
+      "export_sha256": "08c66a5189eaa61c24b705daebbd2b2ebc2fb9589e9f2c8f129be8639d5d579e",
+      "stored_sha256": "08c66a5189eaa61c24b705daebbd2b2ebc2fb9589e9f2c8f129be8639d5d579e",
+      "compression": null,
+      "bytes": 413,
+      "stored_bytes": 413
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/79121a96874f.md",
+      "export_sha256": "4810fe1411d47afd78764ef8c5d04cbf68164f1403672bbfccfe5ad9e1c18461",
+      "stored_sha256": "4810fe1411d47afd78764ef8c5d04cbf68164f1403672bbfccfe5ad9e1c18461",
+      "compression": null,
+      "bytes": 588,
+      "stored_bytes": 588
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/7a4282d9a059.md",
+      "export_sha256": "e0c7404721d7025f284549c9608bd920c728143502cc1cf0828280934076dccb",
+      "stored_sha256": "e0c7404721d7025f284549c9608bd920c728143502cc1cf0828280934076dccb",
+      "compression": null,
+      "bytes": 632,
+      "stored_bytes": 632
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/7a6e86af3a32.md",
+      "export_sha256": "e8c339394fd6af56ff51d796ec59dcd3072155d370cb04b18130adb414962878",
+      "stored_sha256": "e8c339394fd6af56ff51d796ec59dcd3072155d370cb04b18130adb414962878",
+      "compression": null,
+      "bytes": 1074,
+      "stored_bytes": 1074
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/87b79b9d9ab7.md",
+      "export_sha256": "04f17ca90a53fc974af428ba38f301833eac9e02fc3b2dd78c77136defed02ff",
+      "stored_sha256": "04f17ca90a53fc974af428ba38f301833eac9e02fc3b2dd78c77136defed02ff",
+      "compression": null,
+      "bytes": 540,
+      "stored_bytes": 540
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/8cbaf69e1067.md",
+      "export_sha256": "3d2b0e906c2cb2b17a5b3927be0a6c13694a4313a276dbcb4f703acdfd43fd3c",
+      "stored_sha256": "3d2b0e906c2cb2b17a5b3927be0a6c13694a4313a276dbcb4f703acdfd43fd3c",
+      "compression": null,
+      "bytes": 525,
+      "stored_bytes": 525
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/8f4c8585d413.md",
+      "export_sha256": "0eb697414a6a53e99c14a018e20425120c912ee6cd15a4485794cce3f7ea0aa4",
+      "stored_sha256": "0eb697414a6a53e99c14a018e20425120c912ee6cd15a4485794cce3f7ea0aa4",
+      "compression": null,
+      "bytes": 564,
+      "stored_bytes": 564
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/8f5c94f1244f.md",
+      "export_sha256": "59e263918390ac1af6f2d0503be28757389c54ae441894d0b06c52749172d167",
+      "stored_sha256": "59e263918390ac1af6f2d0503be28757389c54ae441894d0b06c52749172d167",
+      "compression": null,
+      "bytes": 627,
+      "stored_bytes": 627
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/9056ef428be5.md",
+      "export_sha256": "fe00298c8455bde00b4b966bb72386226ff54ce90428e3d869ace2c49914a366",
+      "stored_sha256": "fe00298c8455bde00b4b966bb72386226ff54ce90428e3d869ace2c49914a366",
+      "compression": null,
+      "bytes": 2276,
+      "stored_bytes": 2276
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/9158c16a1765.md",
+      "export_sha256": "edaf2a7bb6c99257bdc09d65452ecb3d75c7a45a200858a9079e94f796b7a9f5",
+      "stored_sha256": "edaf2a7bb6c99257bdc09d65452ecb3d75c7a45a200858a9079e94f796b7a9f5",
+      "compression": null,
+      "bytes": 568,
+      "stored_bytes": 568
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/9667d3dc1ee1.md",
+      "export_sha256": "f9ef26fa5602f1987c9e0bc87ef43d64cee4489bdffd7cd178c825f70bbb06b6",
+      "stored_sha256": "f9ef26fa5602f1987c9e0bc87ef43d64cee4489bdffd7cd178c825f70bbb06b6",
+      "compression": null,
+      "bytes": 644,
+      "stored_bytes": 644
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/9a3ffd32f286.md",
+      "export_sha256": "3031de90ed1bef0868e3e375dff862ed1fa00ae2e910a6074a248b693a244e23",
+      "stored_sha256": "3031de90ed1bef0868e3e375dff862ed1fa00ae2e910a6074a248b693a244e23",
+      "compression": null,
+      "bytes": 974,
+      "stored_bytes": 974
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/a6e59304530e.md",
+      "export_sha256": "0e05270d35c9609be4151d984dde31edd7904075c9dfea10d43cb44266554ef3",
+      "stored_sha256": "0e05270d35c9609be4151d984dde31edd7904075c9dfea10d43cb44266554ef3",
+      "compression": null,
+      "bytes": 753,
+      "stored_bytes": 753
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/ad4f9f50db66.md",
+      "export_sha256": "a61f569040ebc48f132b00040c0294c1117ec710f87c915b434d14e79db6d00d",
+      "stored_sha256": "a61f569040ebc48f132b00040c0294c1117ec710f87c915b434d14e79db6d00d",
+      "compression": null,
+      "bytes": 388,
+      "stored_bytes": 388
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/af6b4b48f230.md",
+      "export_sha256": "b6174243479863148c54cdad92dbd79fc7b8d14684d4011864b02c787992771c",
+      "stored_sha256": "b6174243479863148c54cdad92dbd79fc7b8d14684d4011864b02c787992771c",
+      "compression": null,
+      "bytes": 512,
+      "stored_bytes": 512
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/b67a8671bef3.md",
+      "export_sha256": "a1881015ac7f83233bf1eb84b5bd3ab99f0aa923724a3fedf0ed4e9321de12ed",
+      "stored_sha256": "a1881015ac7f83233bf1eb84b5bd3ab99f0aa923724a3fedf0ed4e9321de12ed",
+      "compression": null,
+      "bytes": 430,
+      "stored_bytes": 430
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/c0f3dc7e7d28.md",
+      "export_sha256": "40c703318ebb507087cb1c2261762ea0d55f2d4e1ce07a704ab0650233314088",
+      "stored_sha256": "40c703318ebb507087cb1c2261762ea0d55f2d4e1ce07a704ab0650233314088",
+      "compression": null,
+      "bytes": 501,
+      "stored_bytes": 501
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/c83ed5226ae0.md",
+      "export_sha256": "fa0de9880b3ed243d900535888ed29d5ebb063911e6472bd8ece8ed6836903ce",
+      "stored_sha256": "fa0de9880b3ed243d900535888ed29d5ebb063911e6472bd8ece8ed6836903ce",
+      "compression": null,
+      "bytes": 498,
+      "stored_bytes": 498
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/ce40db8d65d6.md",
+      "export_sha256": "10f05350966bce2a6c1904ccf3f7d8c2c64d8030408e274ea951350fb282f453",
+      "stored_sha256": "10f05350966bce2a6c1904ccf3f7d8c2c64d8030408e274ea951350fb282f453",
+      "compression": null,
+      "bytes": 678,
+      "stored_bytes": 678
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/d33c9b254a3f.md",
+      "export_sha256": "d3ff5982183b2c62eff452f9013648fb4f99fe533d0b4c0aca6e9563d269feb7",
+      "stored_sha256": "d3ff5982183b2c62eff452f9013648fb4f99fe533d0b4c0aca6e9563d269feb7",
+      "compression": null,
+      "bytes": 7203,
+      "stored_bytes": 7203
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/d39942129726.md",
+      "export_sha256": "c99775a69f0c7eb4fb7de19ce4056eca56066ca31178ddb5331e9fc443f027ae",
+      "stored_sha256": "c99775a69f0c7eb4fb7de19ce4056eca56066ca31178ddb5331e9fc443f027ae",
+      "compression": null,
+      "bytes": 1270,
+      "stored_bytes": 1270
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/dac55dccf907.md",
+      "export_sha256": "8ff68f430ed86c59765b7dbafd23f42da674f2cf0b6ad3a3f49443ac445aa2f3",
+      "stored_sha256": "8ff68f430ed86c59765b7dbafd23f42da674f2cf0b6ad3a3f49443ac445aa2f3",
+      "compression": null,
+      "bytes": 660,
+      "stored_bytes": 660
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/e3c1c1e51e97.md",
+      "export_sha256": "0850706cf0cc30de67de172fd589c30ae75e36487a1f985178474312efa4e8d8",
+      "stored_sha256": "0850706cf0cc30de67de172fd589c30ae75e36487a1f985178474312efa4e8d8",
+      "compression": null,
+      "bytes": 5810,
+      "stored_bytes": 5810
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/e4d634dd0d1b.md",
+      "export_sha256": "31da972e930c2eafad98acf2bba3cde8f9688de09dee3c3df675576bcc796863",
+      "stored_sha256": "31da972e930c2eafad98acf2bba3cde8f9688de09dee3c3df675576bcc796863",
+      "compression": null,
+      "bytes": 911,
+      "stored_bytes": 911
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/e70cfdc3cc76.md",
+      "export_sha256": "b49d55aacec1d00cf508460a4d6e76a47ffa4a5da9bb5d461c09a26f3b3dbc85",
+      "stored_sha256": "b49d55aacec1d00cf508460a4d6e76a47ffa4a5da9bb5d461c09a26f3b3dbc85",
+      "compression": null,
+      "bytes": 1145,
+      "stored_bytes": 1145
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/e9c5554654e7.md",
+      "export_sha256": "88611bddd2d38b6470d820c1a2f1019946fb68febbc17d5d77da9ea603ca5fcb",
+      "stored_sha256": "88611bddd2d38b6470d820c1a2f1019946fb68febbc17d5d77da9ea603ca5fcb",
+      "compression": null,
+      "bytes": 550,
+      "stored_bytes": 550
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/ebbaaee950a4.md",
+      "export_sha256": "055fbb1ddf447a759f1df8af7cbb1b4904c941ab784c307652ce6287ad2f8f3e",
+      "stored_sha256": "055fbb1ddf447a759f1df8af7cbb1b4904c941ab784c307652ce6287ad2f8f3e",
+      "compression": null,
+      "bytes": 1388,
+      "stored_bytes": 1388
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/ec6fb942c02e.md",
+      "export_sha256": "b30d26fc6885bb43905fcf3bf22b62bbce2a064d6d1ec455ab1024ffcd2bf205",
+      "stored_sha256": "b30d26fc6885bb43905fcf3bf22b62bbce2a064d6d1ec455ab1024ffcd2bf205",
+      "compression": null,
+      "bytes": 405,
+      "stored_bytes": 405
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/ef71d7748a57.md",
+      "export_sha256": "ff8548a27cc81c7cb4dcec1cf38617f933bf7fc98bfddd9956fa688b0593de9d",
+      "stored_sha256": "ff8548a27cc81c7cb4dcec1cf38617f933bf7fc98bfddd9956fa688b0593de9d",
+      "compression": null,
+      "bytes": 5348,
+      "stored_bytes": 5348
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/f2c1e7e6615f.md",
+      "export_sha256": "052ea299d9bbfa4301300cb292b67ba56e6371e5630666e6ddea3962ba2f7fb5",
+      "stored_sha256": "052ea299d9bbfa4301300cb292b67ba56e6371e5630666e6ddea3962ba2f7fb5",
+      "compression": null,
+      "bytes": 612,
+      "stored_bytes": 612
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/f38ecf1b3635.md",
+      "export_sha256": "96de41c5fe3305ddd65f34b67f0ec7328f342246b3d816040a00bde92bb08a51",
+      "stored_sha256": "96de41c5fe3305ddd65f34b67f0ec7328f342246b3d816040a00bde92bb08a51",
+      "compression": null,
+      "bytes": 419,
+      "stored_bytes": 419
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/f88d27eddb15.md",
+      "export_sha256": "85a0edfafd130a8e7156fd6abde0d4203f6e5a0f1984c5875c4cbd4ba51d2c56",
+      "stored_sha256": "85a0edfafd130a8e7156fd6abde0d4203f6e5a0f1984c5875c4cbd4ba51d2c56",
+      "compression": null,
+      "bytes": 455,
+      "stored_bytes": 455
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/fb0119ab6b6c.md",
+      "export_sha256": "ea98a878bafb200c781c47a3a29d3aac9ff40ea06a92f015c9064fa573e6ad2d",
+      "stored_sha256": "ea98a878bafb200c781c47a3a29d3aac9ff40ea06a92f015c9064fa573e6ad2d",
+      "compression": null,
+      "bytes": 908,
+      "stored_bytes": 908
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/components/fde6bfa5c36f.md",
+      "export_sha256": "64f952f8090612955059bb30cf8bd7f180b1d04ac213711cef3e79c3f3b538fa",
+      "stored_sha256": "64f952f8090612955059bb30cf8bd7f180b1d04ac213711cef3e79c3f3b538fa",
+      "compression": null,
+      "bytes": 748,
+      "stored_bytes": 748
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/process_business_review.csv",
+      "export_sha256": "9e1e0696963d4a0e716d4fc0b7b152c088ee0636efc6e58ede1ac3ab083f3755",
+      "stored_sha256": "9e1e0696963d4a0e716d4fc0b7b152c088ee0636efc6e58ede1ac3ab083f3755",
+      "compression": null,
+      "bytes": 53036,
+      "stored_bytes": 53036
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/process_edges.csv",
+      "export_sha256": "fd89d3d14e7593a5b91e481c6d976e02ae225c7ff245435a16fc0fbd55d72739",
+      "stored_sha256": "fd89d3d14e7593a5b91e481c6d976e02ae225c7ff245435a16fc0fbd55d72739",
+      "compression": null,
+      "bytes": 152705,
+      "stored_bytes": 152705
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/process_findings.csv",
+      "export_sha256": "96624f872731f70b21cba6b3819a960b12576617bab3cadaa33a43b14f23d0b4",
+      "stored_sha256": "96624f872731f70b21cba6b3819a960b12576617bab3cadaa33a43b14f23d0b4",
+      "compression": null,
+      "bytes": 55,
+      "stored_bytes": 55
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/process_map.json",
+      "export_sha256": "6cb91bdefea2f01e03a4aefa45190c6dcba4fd8f2c40e4c7a645df48c27838da",
+      "stored_sha256": "6cb91bdefea2f01e03a4aefa45190c6dcba4fd8f2c40e4c7a645df48c27838da",
+      "compression": null,
+      "bytes": 365319,
+      "stored_bytes": 365319
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/PROCESS_MAP.md",
+      "export_sha256": "ac6c974b9b5dff64842198db9129ab62b6c0a6844c1a08b31480561858a0a88a",
+      "stored_sha256": "ac6c974b9b5dff64842198db9129ab62b6c0a6844c1a08b31480561858a0a88a",
+      "compression": null,
+      "bytes": 421,
+      "stored_bytes": 421
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/process_nodes.csv",
+      "export_sha256": "e21fca74d4eb1a891187e532459d752669fdf8980e74e91cbe4eab22aa55cded",
+      "stored_sha256": "e21fca74d4eb1a891187e532459d752669fdf8980e74e91cbe4eab22aa55cded",
+      "compression": null,
+      "bytes": 28185,
+      "stored_bytes": 28185
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/process_maps/routes.csv",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null,
+      "bytes": 0,
+      "stored_bytes": 0
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/project.yaml",
+      "export_sha256": "f5899a6c90086155f03302c8922a7d89c0190d27817b2f8d803e0a50adc49d49",
+      "stored_sha256": "f5899a6c90086155f03302c8922a7d89c0190d27817b2f8d803e0a50adc49d49",
+      "compression": null,
+      "bytes": 539,
+      "stored_bytes": 539
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/PROJECT_STATE.json",
+      "export_sha256": "6fbff8d2e301380372cd7e237518ce2101da9f6c437e18b82b9bb56bcb5f85f5",
+      "stored_sha256": "6fbff8d2e301380372cd7e237518ce2101da9f6c437e18b82b9bb56bcb5f85f5",
+      "compression": null,
+      "bytes": 649,
+      "stored_bytes": 649
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/semantic_flow_analysis/DOMAIN_FLOW_SEMANTIC_SUMMARY.csv",
+      "export_sha256": "838b52cfa9f4e275b345a8c41690c4032f9df9f57908cb14c95dd1899f7a0372",
+      "stored_sha256": "838b52cfa9f4e275b345a8c41690c4032f9df9f57908cb14c95dd1899f7a0372",
+      "compression": null,
+      "bytes": 285,
+      "stored_bytes": 285
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/semantic_flow_analysis/FLOW_FIELD_USAGE_MATRIX.csv",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "compression": null,
+      "bytes": 0,
+      "stored_bytes": 0
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/semantic_flow_analysis/FLOW_TABLE_USAGE_MATRIX.csv",
+      "export_sha256": "2070962c75d4beefcb529691e34e646f45c5513ed216623946bd79e45cf17e3e",
+      "stored_sha256": "2070962c75d4beefcb529691e34e646f45c5513ed216623946bd79e45cf17e3e",
+      "compression": null,
+      "bytes": 53465,
+      "stored_bytes": 53465
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/semantic_flow_analysis/FLOW_USAGE_SEMANTIC_ANALYSIS.xlsx",
+      "export_sha256": "6be1da16d070993655f938fe605b6b6301a4f591eb703fe42b62e890407d45f7",
+      "stored_sha256": "6be1da16d070993655f938fe605b6b6301a4f591eb703fe42b62e890407d45f7",
+      "compression": null,
+      "bytes": 18177,
+      "stored_bytes": 18177
+    },
+    {
+      "path": "source-audits/master/2026-11-18/brownfield/semantic_flow_analysis/FLOW_USAGE_SEMANTIC_REVERSE_ENGINEERING.md",
+      "export_sha256": "29924e5129b279f412eff042ec3ce69909f66ab68993f432399b10a6f18f5c70",
+      "stored_sha256": "29924e5129b279f412eff042ec3ce69909f66ab68993f432399b10a6f18f5c70",
+      "compression": null,
+      "bytes": 618,
+      "stored_bytes": 618
+    },
+    {
+      "path": "source-audits/master/2026-11-18/export-manifest.json",
+      "export_sha256": "a96162c7c10e37c046e8c1477b12230c413f49f4adc44108ea209064544cc3a2",
+      "stored_sha256": "a96162c7c10e37c046e8c1477b12230c413f49f4adc44108ea209064544cc3a2",
+      "compression": null,
+      "bytes": 51784,
+      "stored_bytes": 51784
+    },
+    {
+      "path": "source-audits/master/2026-11-18/graphify/graph.html",
+      "export_sha256": "c864384fada32eaedd74429a1be991eeace7caf35b8ed25ea5adcf69de3cc310",
+      "stored_sha256": "c864384fada32eaedd74429a1be991eeace7caf35b8ed25ea5adcf69de3cc310",
+      "compression": null,
+      "bytes": 1727322,
+      "stored_bytes": 1727322
+    },
+    {
+      "path": "source-audits/master/2026-11-18/graphify/graph.json.gz",
+      "export_sha256": "9f9770a442cfd064c433b56a469312d9db04f82dd799d53f0dadff9a95be854b",
+      "stored_sha256": "27463ee704d8d271e897119fa1d25543b92b134ca7943eaf2a3d78514a68d6ae",
+      "compression": "gzip",
+      "bytes": 1499929,
+      "stored_bytes": 89582
+    },
+    {
+      "path": "source-audits/master/2026-11-18/graphify/GRAPH_REPORT.md",
+      "export_sha256": "da99838d07d494db4b64c6a07c301e844e36b4380401d78c6cef7f4bfa761a83",
+      "stored_sha256": "da99838d07d494db4b64c6a07c301e844e36b4380401d78c6cef7f4bfa761a83",
+      "compression": null,
+      "bytes": 1999,
+      "stored_bytes": 1999
+    },
+    {
+      "path": "source-audits/master/2026-11-18/graphify/summary.json",
+      "export_sha256": "fdc07ef8cd0f369c7becd41b2197ee3764ef8257789ab83e54c07662de66ba25",
+      "stored_sha256": "fdc07ef8cd0f369c7becd41b2197ee3764ef8257789ab83e54c07662de66ba25",
+      "compression": null,
+      "bytes": 438,
+      "stored_bytes": 438
+    },
+    {
+      "path": "source-audits/master/2026-11-18/guard-probes.json",
+      "export_sha256": "a69cecc874dffc8f677b8ca6caeb2e0af19d451c467b2e838e0de1d33295b3e3",
+      "stored_sha256": "a69cecc874dffc8f677b8ca6caeb2e0af19d451c467b2e838e0de1d33295b3e3",
+      "compression": null,
+      "bytes": 2239,
+      "stored_bytes": 2239
+    },
+    {
+      "path": "source-audits/master/2026-11-18/inventory.csv",
+      "export_sha256": "45145768763001710931ee2dcf420c583139ce9d74ae585117844f98514c2236",
+      "stored_sha256": "45145768763001710931ee2dcf420c583139ce9d74ae585117844f98514c2236",
+      "compression": null,
+      "bytes": 2284813,
+      "stored_bytes": 2284813
+    },
+    {
+      "path": "source-audits/master/2026-11-18/native-api-execution.json",
+      "export_sha256": "ce585eb220d0b2e6da9d00f1b807b085e0980540c62d938fc61c659ba68588b6",
+      "stored_sha256": "ce585eb220d0b2e6da9d00f1b807b085e0980540c62d938fc61c659ba68588b6",
+      "compression": null,
+      "bytes": 107,
+      "stored_bytes": 107
+    },
+    {
+      "path": "source-audits/master/2026-11-18/php-lint.json",
+      "export_sha256": "487b5687bfb09fd8b7db94871e90032d25ddadf470a5bddcc83f12686d94199c",
+      "stored_sha256": "487b5687bfb09fd8b7db94871e90032d25ddadf470a5bddcc83f12686d94199c",
+      "compression": null,
+      "bytes": 43789,
+      "stored_bytes": 43789
+    },
+    {
+      "path": "source-audits/master/2026-11-18/request-fields.csv",
+      "export_sha256": "227ba6d30951a953f2df3bc5238701431bdaccde8b5a864b1c83433ff4ba2ef9",
+      "stored_sha256": "227ba6d30951a953f2df3bc5238701431bdaccde8b5a864b1c83433ff4ba2ef9",
+      "compression": null,
+      "bytes": 111520,
+      "stored_bytes": 111520
+    },
+    {
+      "path": "source-audits/master/2026-11-18/secret-locations.json",
+      "export_sha256": "fb171dcb2f12c1520e0f3583ac067af50d0466aa539f4a3206c63b2d1d4500cc",
+      "stored_sha256": "fb171dcb2f12c1520e0f3583ac067af50d0466aa539f4a3206c63b2d1d4500cc",
+      "compression": null,
+      "bytes": 1126,
+      "stored_bytes": 1126
+    },
+    {
+      "path": "source-audits/master/2026-11-18/security-probes.json",
+      "export_sha256": "9b3eeca3a0b90145fcc7d8c8d2e850dc2ecbe27239187d323c85c80cc7832bec",
+      "stored_sha256": "9b3eeca3a0b90145fcc7d8c8d2e850dc2ecbe27239187d323c85c80cc7832bec",
+      "compression": null,
+      "bytes": 4919,
+      "stored_bytes": 4919
+    },
+    {
+      "path": "source-audits/master/2026-11-18/sql-references.csv",
+      "export_sha256": "4e557a986609e6b43cdd3ffd6ca34da0fa3f72deb3e80d98c7650fbe05b3289b",
+      "stored_sha256": "4e557a986609e6b43cdd3ffd6ca34da0fa3f72deb3e80d98c7650fbe05b3289b",
+      "compression": null,
+      "bytes": 116435,
+      "stored_bytes": 116435
+    },
+    {
+      "path": "source-audits/master/2026-11-18/table-usage.json",
+      "export_sha256": "828c5ffb34acdf0dc94e7230fda0dce3f70fc833f832f81a99bef26eff298814",
+      "stored_sha256": "828c5ffb34acdf0dc94e7230fda0dce3f70fc833f832f81a99bef26eff298814",
+      "compression": null,
+      "bytes": 121379,
+      "stored_bytes": 121379
+    }
+  ],
+  "note": "Integrity of the current static evidence snapshot, not validation of runtime behavior."
+}
