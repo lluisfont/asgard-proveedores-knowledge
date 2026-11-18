@@ -1,5 +1,9 @@
 # Alcance de la auditoria actual
 
+La [ampliación iterativa](reviews/iterative-20261118/README.md) compara esta base con Knowledge `3822900b6d54d99ccf854bec43005a208e2a9694`, conserva los mismos pins y separa once hallazgos nuevos de dieciséis mejoras documentales. El [registro de versiones](reviews/iterative-20261118/iterations.json) fija el criterio de parada por deltas semánticos; no amplía por sí mismo la verificación al despliegue o a la base de datos.
+
+Actualidad comprobada el 18-11-2026: master continúa en el commit auditado; el remoto Perú avanzó a `2a179e2e6472d5705d031665ecbc90c3d806edec`. El contraste funcional de este informe se mantiene fijado en `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`. La [observación de referencias y tres rutas cambiadas](../source-audits/master/2026-11-18/iterative/remote-refs-observation.json) no equivale a auditar el nuevo HEAD de Perú.
+
 Fecha: 2026-11-18. Repositorio: `https://github.com/KPO-Group/proveedores`.
 
 | Perfil | Fuente fijada | Uso |

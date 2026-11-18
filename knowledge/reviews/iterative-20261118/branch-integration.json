@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "status": "accepted_documentary_integration_complete",
+  "accepted_ids": [
+    "BR-IMP-001",
+    "BR-IMP-002",
+    "BR-IMP-003",
+    "BR-IMP-004"
+  ],
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "targets": [
+    "knowledge/variants/peru.md",
+    "knowledge/variants/comparison.md",
+    "knowledge/reviews/iterative-20261118/branch-obligations.json",
+    "knowledge/reviews/iterative-20261118/branch-obligations.md"
+  ],
+  "historical_positive_pass": "knowledge/reviews/iterative-20261118/closure-branch-obligations.json",
+  "historical_status": "PASADA_POSITIVA_4_ACCEPTED",
+  "operational_registry_modified": false,
+  "ledger_modified": false,
+  "source_modified": false,
+  "new_remote_head_audited": false,
+  "global_convergence_claimed": false,
+  "limitations": [
+    "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+    "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+    "No modifica el registro operativo, el ledger ni la fuente.",
+    "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+  ],
+  "validation": {
+    "accepted_improvements": 4,
+    "source_ranges_valid": 28,
+    "primary_doc_links_valid": true,
+    "source_links_checked": 109,
+    "positive_pass_preserved": true,
+    "inference_checks_completed": 27,
+    "inference_new_findings": 0,
+    "inference_improvements": 0,
+    "full_build_not_run": true,
+    "new_peru_head_not_read": true,
+    "operational_registry_rechecked": true
+  },
+  "inference_review": "knowledge/reviews/iterative-20261118/closure-inference-boundaries.json"
+}

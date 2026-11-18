@@ -44,7 +44,7 @@ completos estan en `knowledge/snapshots/current/knowledge-validation.json`.
 
 ## Riesgos priorizados
 
-La revision de seguridad recoge 14 hallazgos: siete P1 y siete P2. Incluyen
+La revisión ampliada de seguridad recoge 15 hallazgos: ocho P1 y siete P2. Incluyen
 autorizacion insuficiente en el flujo final de recuperacion de clave, SQL sin
 parametrizar en handlers seleccionados, identidad suministrada por el cliente
 en la autenticacion de segundo factor, aceptacion de clave maestra, problemas
@@ -58,6 +58,12 @@ autorizacion de propietario o tenant en el handler completo.
 
 Ver `knowledge/general/security-audit.md` y `security-findings.json` para
 ubicaciones, trazas, prioridad, recomendaciones y pruebas de cada hallazgo.
+
+## Ampliación iterativa frente a Knowledge 3822900
+
+La [comparación actual](../../../knowledge/reviews/iterative-20261118/README.md) incorpora once hallazgos nuevos y dieciséis mejoras sustantivas: SEC-015, nueve defectos operativos y una variante del consumidor de Perú. El [registro de pasadas](../../../knowledge/reviews/iterative-20261118/iterations.json) distingue las versiones con novedades de los cierres independientes. Los 134 nombres léxicos de SQL se contrastan con 100 nombres en AST, sin declararlos esquema físico. El glosario mantiene 81 conceptos y precisa el estado de viaje. Los contratos API corregidos prevalecen sobre las filas raw conservadas para trazabilidad. Las precisiones de postcondiciones, retorno e IDs tipados mejoran recomendaciones TO-BE aún no aprobadas. Se documentan cuatro diferencias adicionales entre rutas/obligaciones de ambas ramas. Una precisión de actualidad distingue la comparación Perú fijada en 95fe de su nuevo remoto 2a179e2; no se atribuye esta auditoría al nuevo HEAD de Perú.
+
+La revisión delegada de salidas al navegador/navegación fue rechazada automáticamente por posible riesgo de ciberseguridad antes de completarse. Los parciales quedan excluidos de publicación y no cuentan como una pasada sin novedades. El estado global sigue PARTIAL por las brechas de despliegue y validación de negocio ya documentadas.
 No se modifico el codigo de aplicacion para corregirlos.
 
 ## Limites pendientes

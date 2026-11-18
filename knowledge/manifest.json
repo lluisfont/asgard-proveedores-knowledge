@@ -17,10 +17,12 @@
       "package.json"
     ],
     "comparison_branch": "master_peru",
-    "comparison_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+    "comparison_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "comparison_remote_observed": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "comparison_freshness": "pinned_comparison_not_latest_peru_head"
   },
   "knowledge_pack": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "generated_at": "2026-11-18",
     "generated_by": "convertidor-knowledge plus pinned master audit and evidence review",
     "mode": "embedded-and-standalone",
@@ -79,6 +81,20 @@
       },
       "country": "unknown",
       "master_deployment_correspondence": "not_verified"
+    },
+    "iterative": {
+      "baseline_knowledge_commit": "3822900b6d54d99ccf854bec43005a208e2a9694",
+      "documentation": "knowledge/reviews/iterative-20261118/README.md",
+      "accepted_deltas": "knowledge/reviews/iterative-20261118/accepted-deltas.json",
+      "ledger": "knowledge/reviews/iterative-20261118/iterations.json",
+      "counts": {
+        "new_findings": 11,
+        "improvements": 16
+      },
+      "converged_in_reviewed_scope": true,
+      "consecutive_zero_delta_passes": 2,
+      "application_source_modified": false,
+      "overall_coverage": "PARTIAL"
     }
   },
   "variants": {

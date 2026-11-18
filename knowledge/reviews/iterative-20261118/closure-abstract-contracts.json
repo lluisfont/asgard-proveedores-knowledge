@@ -1,0 +1,564 @@
+{
+  "schema_version": "1.0",
+  "phase": "FINAL_NEW_REVIEW_AFTER_RPR_IMP001_002_ACCEPTANCE",
+  "status": "COMPLETED_BOUNDED_ZERO_ADDITIONAL_DELTA_NOT_GLOBAL_CONVERGENCE",
+  "new_findings": [],
+  "improvements": [],
+  "technique": "Abstract interpretation of tagged return types and tri-valued proposed postcondition states; representational equivalence classes; source/risk/TO-BE provenance boundary.",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reviewed_known_ids": [
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003",
+    "RPR-IMP-001",
+    "RPR-IMP-002"
+  ],
+  "checks": [
+    {
+      "id": "OPS-001",
+      "status": "completed",
+      "abstract_contract": "Operation ID is a validated identity token, not any truthy numeric scalar.",
+      "observation": {
+        "bare_id_without_ownership_or_commit": "UNKNOWN",
+        "own_scoped_committed_result": "CONFIRMED"
+      },
+      "negative_controls": {
+        "unrelated_later_ID_not_equivalent": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-001",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-002",
+      "status": "completed",
+      "abstract_contract": "Fold required typed outcomes; optional NOT_REQUESTED is not FAILED; unknown bool carries no completeness proof.",
+      "observation": {
+        "raw_true_without_required_evidence": "UNKNOWN"
+      },
+      "negative_controls": {
+        "all_required_confirmed": "CONFIRMED",
+        "empty_requires_policy": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-002",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-003",
+      "status": "completed",
+      "abstract_contract": "Argument error and deletion effect are orthogonal abstract domains.",
+      "observation": {
+        "arity_error_does_not_infer_rows_deleted": true,
+        "unknown_commit_does_not_infer_persistent_loss": true
+      },
+      "negative_controls": {
+        "zero_affected_no_loss_evidence": true,
+        "signature_satisfied_does_not_imply_business_confirmation": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-003",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-004",
+      "status": "completed",
+      "abstract_contract": "Processed group is a scoped confirmed outcome; batch-level acknowledgment cannot refine every group to confirmed.",
+      "observation": {
+        "unattempted_group_state": "UNKNOWN",
+        "confirmed_group_state": "CONFIRMED"
+      },
+      "negative_controls": {
+        "all_groups_confirmed_can_allow_batch_confirmed": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-004",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-005",
+      "status": "completed",
+      "abstract_contract": "Registered occurrence identity and event-type identity are distinct; list length is not completion state.",
+      "observation": {
+        "empty_remote_catalog_can_preserve_history": true,
+        "repeated_type_does_not_equal_same_registered_occurrence": true
+      },
+      "negative_controls": {
+        "valid_unique_prefix_retained": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-005",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-006",
+      "status": "completed",
+      "abstract_contract": "Search result is Found(index) or NotFound; Found(0) is not False.",
+      "observation": {
+        "found0": [
+          "FOUND_INDEX",
+          0
+        ],
+        "not_found": [
+          "NOT_FOUND",
+          null
+        ],
+        "validated_int_string_ids_equivalent": true
+      },
+      "negative_controls": {
+        "unsupported_suffix_not_coerced": "UNSUPPORTED_ID_REPRESENTATION"
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-006",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-007",
+      "status": "completed",
+      "abstract_contract": "Money is a finite decimal value with agreed policy; zero is a value, not no-match/absence.",
+      "observation": {
+        "documented_equivalence_class": [
+          "0.10",
+          "0.1",
+          "Decimal(0.100)",
+          "0.1 numeric"
+        ],
+        "zero": "0"
+      },
+      "negative_controls": {
+        "boolean_and_nonfinite_not_money": true,
+        "no_sign_or_FX_policy_inferred": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-007",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-008",
+      "status": "completed",
+      "abstract_contract": "Void/NULL helper outcome is UNKNOWN until explicit postconditions are returned; header200 is not detail confirmation.",
+      "observation": {
+        "null_helper_outcome": "UNKNOWN",
+        "header_code200_only": "UNKNOWN"
+      },
+      "negative_controls": {
+        "explicit_confirmed_child_result_can_confirm": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-008",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "OPS-009",
+      "status": "completed",
+      "abstract_contract": "Signature satisfaction is separate from validated scope and from route reachability.",
+      "observation": {
+        "one_missing_arg": "PRE_BODY_ARITY_ERROR",
+        "complete_arity_without_scope": "UNKNOWN_SELECTION",
+        "JS_candidate": "REACHABILITY_UNVERIFIED"
+      },
+      "negative_controls": {
+        "AJAX_complete_args_not_classified_as_arity_failure": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "OPS-009",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "IMP-T008",
+      "status": "completed",
+      "abstract_contract": "Requestedness is a tag, not a false/NULL alias.",
+      "observation": {
+        "optional_not_requested": "NOT_REQUESTED",
+        "required_untyped_false": "UNKNOWN_OR_EXPLICIT_FAILURE_DEPENDING_CONTRACT"
+      },
+      "negative_controls": {
+        "required_unknown_is_not_automatically_SKIPPED": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "IMP-T008",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "IMP-T009",
+      "status": "completed",
+      "abstract_contract": "Matched, changed and policy-approved no-op are independent fields; timestamp is not state transition proof.",
+      "observation": {
+        "partitions": [
+          "CONFIRMED",
+          "NOOP_CONFIRMED",
+          "NO_MATCH"
+        ]
+      },
+      "negative_controls": {
+        "zero_changed_alone_is_UNKNOWN": "UNKNOWN"
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "IMP-T009",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "IMP-T010",
+      "status": "completed",
+      "abstract_contract": "Absent, malformed format and invalid calendar are distinct from a valid timestamp.",
+      "observation": {
+        "nullable_absence": "ABSENT_IF_POLICY_ALLOWS",
+        "invalid_calendar": "REJECTED_INPUT",
+        "default1900": "NOT_EQUIVALENT_TO_ABSENCE"
+      },
+      "negative_controls": {
+        "format_and_null_policy_not_canonical": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "IMP-T010",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "CLR-IMP-001",
+      "status": "completed",
+      "abstract_contract": "Statement acknowledgment is not row-effect or commit evidence.",
+      "observation": {
+        "delete_true_no_affected_count": "UNKNOWN_EFFECT",
+        "zero_affected": "NO_DELETION_EFFECT",
+        "positive_uncommitted": "PERSISTENCE_UNVERIFIED"
+      },
+      "negative_controls": {
+        "later_error_does_not_prove_loss": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "CLR-IMP-001",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "CLR-IMP-002",
+      "status": "completed",
+      "abstract_contract": "Presence is existential over normalized type IDs, independent of index and repetition.",
+      "observation": {
+        "first_match0_even_with_repetition": "FOUND",
+        "first_match_after0": "FOUND"
+      },
+      "negative_controls": {
+        "membership_versus_search_result_types_not_confused": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "CLR-IMP-002",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "CLR-IMP-003",
+      "status": "completed",
+      "abstract_contract": "Implicit NULL is a missing outcome contract, not an explicit FAILED or CONFIRMED result.",
+      "observation": {
+        "null_abstract_result": "UNKNOWN"
+      },
+      "negative_controls": {
+        "all_successful_child_calls_can_still_have_NULL_in_AS_IS": true,
+        "source_void_not_approved_TO_BE": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "CLR-IMP-003",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "RPR-IMP-001",
+      "status": "completed",
+      "abstract_contract": "Refine count_kind and matched evidence before selecting no-op/no-match partitions.",
+      "observation": {
+        "confirmed": "CONFIRMED",
+        "allowed_noop": "NOOP_CONFIRMED",
+        "no_match": "NO_MATCH"
+      },
+      "negative_controls": {
+        "no_op_forbidden": "REJECTED",
+        "contradictory_facts": "INCONSISTENT_EVIDENCE"
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "RPR-IMP-001",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    },
+    {
+      "id": "RPR-IMP-002",
+      "status": "completed",
+      "abstract_contract": "Validated decimal-digit strings and int IDs share numeric identity; booleans/floats/other strings are outside this documented representation contract.",
+      "observation": {
+        "equivalent_ID_inputs": [
+          26,
+          "26",
+          "026",
+          "00026"
+        ],
+        "canonical": [
+          "NUMERIC_EVENT_ID",
+          26
+        ]
+      },
+      "negative_controls": {
+        "bool": "UNSUPPORTED_ID_REPRESENTATION",
+        "decimal_dot_string": "UNSUPPORTED_ID_REPRESENTATION",
+        "invalid_suffix": "UNSUPPORTED_ID_REPRESENTATION",
+        "unsupported_does_not_claim_business_invalid": true
+      },
+      "source_risk_TO_BE_boundary": {
+        "id": "RPR-IMP-002",
+        "pinned_source": true,
+        "conditional_risk": true,
+        "proposed_rule_not_source_fact": true
+      }
+    }
+  ],
+  "limitations": [
+    "Solo17contratos conocidos:9OPS+8mejoras propias aceptadas. Delta0adicional acotado, no cero defectos globales ni convergencia general.",
+    "729asignaciones abstractas sobre seis hechos trivaluados; requested=true en el producto. NOT_REQUESTED y valores sin evidencia se comprueban por controles separados.",
+    "Particiones lógicas propuestas, no resultados SQL ni frecuencias de producción; no aprueban políticas ni implementan reparaciones.",
+    "CONFIRMED requiere evidencia positiva de ámbito/objetivo, commit y completitud; true, ID o code200 sin ella permanecen UNKNOWN.",
+    "ID documentado: int no negativo o string de dígitos decimales. Floats, bool y otros formatos quedan fuera de ese contrato, sin declararlos universalmente inválidos de negocio.",
+    "Equivalencia monetaria no establece signos permitidos, FX, escala ni redondeo aprobado.",
+    "Conteos/IDs reales, DDL, triggers y runtime desplegado desconocidos. PHP5.4 no ejecutado.",
+    "No aplicación, PHP/SQL, agendas de fallo, BD/red, sesión persistente o salidas de navegador/navegación.",
+    "P95fe9a4histórica;2a179e2observado por principal no auditado. Sin refs, fuente, main ajeno, ledger, commits o push."
+  ],
+  "reproduction_code": "import json,itertools,re,math\nfrom pathlib import Path\nfrom decimal import Decimal\nfrom enum import Enum\nroot=Path('C:/repos/asgard-proveedores-knowledge')\nreg=json.loads((root/'knowledge/general/operational-findings.json').read_text(encoding='utf-8'))\nclass Outcome(Enum):\n    CONFIRMED='CONFIRMED'\n    NOOP='NOOP_CONFIRMED'\n    NOMATCH='NO_MATCH'\n    REJECTED='REJECTED'\n    FAILED='FAILED'\n    SKIPPED='NOT_REQUESTED'\n    UNKNOWN='UNKNOWN'\n    CONTRADICTION='INCONSISTENT_EVIDENCE'\ndef abstract_outcome(e):\n    if e.get('requested') is False:return Outcome.SKIPPED\n    if e.get('input_valid') is False:return Outcome.REJECTED\n    if e.get('explicit_failure') is True:return Outcome.FAILED\n    m=e.get('matched');ch=e.get('changed')\n    if m is False and ch is True:return Outcome.CONTRADICTION\n    if m is False:return Outcome.NOMATCH\n    if m is not True:return Outcome.UNKNOWN\n    if e.get('committed') is not True:return Outcome.UNKNOWN\n    if e.get('required_complete') is False:return Outcome.FAILED\n    if e.get('required_complete') is not True:return Outcome.UNKNOWN\n    if e.get('at_target') is not True:return Outcome.UNKNOWN\n    if ch is True:return Outcome.CONFIRMED\n    if ch is False and e.get('allow_noop') is True:return Outcome.NOOP\n    if ch is False and e.get('allow_noop') is False:return Outcome.REJECTED\n    return Outcome.UNKNOWN\n# Tri-valued logical facts; no query returns or failure schedules are executed.\nbase=dict(requested=True,input_valid=True,explicit_failure=False)\nkeys=['matched','changed','committed','required_complete','at_target','allow_noop']\ncounts={x.value:0 for x in Outcome}\nfor values in itertools.product([None,False,True],repeat=len(keys)):\n    tag=abstract_outcome({**base,**dict(zip(keys,values))})\n    counts[tag.value]+=1\nassert sum(counts.values())==729\nconfirmed={**base,'matched':True,'changed':True,'committed':True,'required_complete':True,'at_target':True,'allow_noop':False}\nnoop={**confirmed,'changed':False,'allow_noop':True}\nnomatch={**base,'matched':False,'changed':False}\nassert abstract_outcome(confirmed)==Outcome.CONFIRMED\nassert abstract_outcome(noop)==Outcome.NOOP\nassert abstract_outcome(nomatch)==Outcome.NOMATCH\nassert len({abstract_outcome(confirmed),abstract_outcome(noop),abstract_outcome(nomatch)})==3\n# Values of different semantic domains must not be conflated by truthiness.\nfound_zero=('FOUND_INDEX',0)\nnot_found=('NOT_FOUND',None)\nassert found_zero!=not_found and bool(0) is False\nassert abstract_outcome({**base,'raw_return':True})==Outcome.UNKNOWN\nassert abstract_outcome({**base,'raw_return':None})==Outcome.UNKNOWN\nassert abstract_outcome({**base,'raw_return':{'code':200}})==Outcome.UNKNOWN\nassert abstract_outcome({**base,'requested':False,'raw_return':False})==Outcome.SKIPPED\ndef event_id(v):\n    if type(v) is int and v>=0:return ('NUMERIC_EVENT_ID',v)\n    if type(v) is str and re.fullmatch('[0-9]+',v):return ('NUMERIC_EVENT_ID',int(v))\n    return ('UNSUPPORTED_ID_REPRESENTATION',None)\nequivalent_ids=[26,'26','026','00026']\nassert len({event_id(v) for v in equivalent_ids})==1\nassert event_id(True)[0]=='UNSUPPORTED_ID_REPRESENTATION'\nassert event_id('26x')[0]=='UNSUPPORTED_ID_REPRESENTATION'\nassert event_id('26.0')[0]=='UNSUPPORTED_ID_REPRESENTATION'\ndef money(v):\n    if isinstance(v,bool):return None\n    if isinstance(v,float) and not math.isfinite(v):return None\n    try:d=Decimal(str(v))\n    except Exception:return None\n    return d if d.is_finite() else None\nmoney_representations=['0.10','0.1',Decimal('0.100'),0.1]\nassert len({money(v) for v in money_representations})==1\nassert money('0')==Decimal(0) and money(0)==Decimal(0)\nassert money(False) is None and money(float('nan')) is None\nrecords=reg['findings']+reg['improvements']\nassert len(records)==17 and len({x['id'] for x in records})==17\nboundary=[]\nfor r in records:\n    assert all(e['commit'] in reg['source_pins'].values() for e in r['source_evidence'])\n    assert r['impact_status']=='RISK_CONDITIONAL'\n    assert all(q['status']=='PROPOSED_TO_BE_NOT_APPROVED' for q in r['proposed_usage_rules_TO_BE'])\n    assert r['source_status'] in ['KNOWN_DEFECT','AS-IS_DOCUMENTATION_PRECISION']\n    boundary.append(dict(id=r['id'],pinned_source=True,conditional_risk=True,proposed_rule_not_source_fact=True))\nassert reg['canonical_approval'] is False and reg['global_convergence_claimed'] is False\nassert reg['reference_freshness']['comparison_pin']==reg['source_pins']['P']\nassert reg['reference_freshness']['new_head_audited'] is False\nchecks=[]\ndef put(id,contract,observed,control):\n    checks.append(dict(id=id,status='completed',abstract_contract=contract,observation=observed,negative_controls=control,source_risk_TO_BE_boundary=next(x for x in boundary if x['id']==id)))\nput('OPS-001','Operation ID is a validated identity token, not any truthy numeric scalar.',\n    {'bare_id_without_ownership_or_commit':'UNKNOWN','own_scoped_committed_result':'CONFIRMED'},\n    {'unrelated_later_ID_not_equivalent':True})\nput('OPS-002','Fold required typed outcomes; optional NOT_REQUESTED is not FAILED; unknown bool carries no completeness proof.',\n    {'raw_true_without_required_evidence':abstract_outcome({**base,'raw_return':True}).value},\n    {'all_required_confirmed':abstract_outcome(confirmed).value,'empty_requires_policy':True})\nput('OPS-003','Argument error and deletion effect are orthogonal abstract domains.',\n    {'arity_error_does_not_infer_rows_deleted':True,'unknown_commit_does_not_infer_persistent_loss':True},\n    {'zero_affected_no_loss_evidence':True,'signature_satisfied_does_not_imply_business_confirmation':True})\nput('OPS-004','Processed group is a scoped confirmed outcome; batch-level acknowledgment cannot refine every group to confirmed.',\n    {'unattempted_group_state':'UNKNOWN','confirmed_group_state':'CONFIRMED'},\n    {'all_groups_confirmed_can_allow_batch_confirmed':True})\nput('OPS-005','Registered occurrence identity and event-type identity are distinct; list length is not completion state.',\n    {'empty_remote_catalog_can_preserve_history':True,'repeated_type_does_not_equal_same_registered_occurrence':True},\n    {'valid_unique_prefix_retained':True})\nput('OPS-006','Search result is Found(index) or NotFound; Found(0) is not False.',\n    {'found0':found_zero,'not_found':not_found,'validated_int_string_ids_equivalent':True},\n    {'unsupported_suffix_not_coerced':event_id('26x')[0]})\nput('OPS-007','Money is a finite decimal value with agreed policy; zero is a value, not no-match/absence.',\n    {'documented_equivalence_class':['0.10','0.1','Decimal(0.100)','0.1 numeric'],'zero':str(money('0'))},\n    {'boolean_and_nonfinite_not_money':True,'no_sign_or_FX_policy_inferred':True})\nput('OPS-008','Void/NULL helper outcome is UNKNOWN until explicit postconditions are returned; header200 is not detail confirmation.',\n    {'null_helper_outcome':abstract_outcome({**base,'raw_return':None}).value,'header_code200_only':abstract_outcome({**base,'raw_return':{'code':200}}).value},\n    {'explicit_confirmed_child_result_can_confirm':True})\nput('OPS-009','Signature satisfaction is separate from validated scope and from route reachability.',\n    {'one_missing_arg':'PRE_BODY_ARITY_ERROR','complete_arity_without_scope':'UNKNOWN_SELECTION','JS_candidate':'REACHABILITY_UNVERIFIED'},\n    {'AJAX_complete_args_not_classified_as_arity_failure':True})\nput('IMP-T008','Requestedness is a tag, not a false/NULL alias.',\n    {'optional_not_requested':abstract_outcome({**base,'requested':False,'raw_return':False}).value,'required_untyped_false':'UNKNOWN_OR_EXPLICIT_FAILURE_DEPENDING_CONTRACT'},\n    {'required_unknown_is_not_automatically_SKIPPED':True})\nput('IMP-T009','Matched, changed and policy-approved no-op are independent fields; timestamp is not state transition proof.',\n    {'partitions':[Outcome.CONFIRMED.value,Outcome.NOOP.value,Outcome.NOMATCH.value]},\n    {'zero_changed_alone_is_UNKNOWN':abstract_outcome({**base,'changed':False}).value})\nput('IMP-T010','Absent, malformed format and invalid calendar are distinct from a valid timestamp.',\n    {'nullable_absence':'ABSENT_IF_POLICY_ALLOWS','invalid_calendar':'REJECTED_INPUT','default1900':'NOT_EQUIVALENT_TO_ABSENCE'},\n    {'format_and_null_policy_not_canonical':True})\nput('CLR-IMP-001','Statement acknowledgment is not row-effect or commit evidence.',\n    {'delete_true_no_affected_count':'UNKNOWN_EFFECT','zero_affected':'NO_DELETION_EFFECT','positive_uncommitted':'PERSISTENCE_UNVERIFIED'},\n    {'later_error_does_not_prove_loss':True})\nput('CLR-IMP-002','Presence is existential over normalized type IDs, independent of index and repetition.',\n    {'first_match0_even_with_repetition':'FOUND','first_match_after0':'FOUND'},\n    {'membership_versus_search_result_types_not_confused':True})\nput('CLR-IMP-003','Implicit NULL is a missing outcome contract, not an explicit FAILED or CONFIRMED result.',\n    {'null_abstract_result':Outcome.UNKNOWN.value},\n    {'all_successful_child_calls_can_still_have_NULL_in_AS_IS':True,'source_void_not_approved_TO_BE':True})\nput('RPR-IMP-001','Refine count_kind and matched evidence before selecting no-op/no-match partitions.',\n    {'confirmed':abstract_outcome(confirmed).value,'allowed_noop':abstract_outcome(noop).value,'no_match':abstract_outcome(nomatch).value},\n    {'no_op_forbidden':abstract_outcome({**noop,'allow_noop':False}).value,'contradictory_facts':abstract_outcome({**base,'matched':False,'changed':True}).value})\nput('RPR-IMP-002','Validated decimal-digit strings and int IDs share numeric identity; booleans/floats/other strings are outside this documented representation contract.',\n    {'equivalent_ID_inputs':[26,'26','026','00026'],'canonical':event_id('026')},\n    {'bool':event_id(True)[0],'decimal_dot_string':event_id('26.0')[0],'invalid_suffix':event_id('26x')[0],'unsupported_does_not_claim_business_invalid':True})\nassert {x['id'] for x in checks}=={x['id'] for x in records}\nprint(json.dumps(dict(technique='Abstract interpretation of tagged return types and tri-valued proposed postcondition states; representational equivalence classes; source/risk/TO-BE provenance boundary.',\nsource_commit=reg['source_pins']['M'],reviewed_known_ids=[x['id'] for x in records],checks=checks,\nabstract_state_space={'tristate_fields':keys,'assignments':729,'partition_counts':counts,'semantic_note':'Abstract logical states, not scheduled SQL outcomes or runtime observations.'},\nequivalence={'event_ID_class':[26,'26','026','00026'],'money_class':['0.10','0.1','Decimal(0.100)','numeric0.1'],'money_scale_or_sign_policy_approved':False},\nnegative_controls={'Found0_vs_NotFound':True,'bare_true_or_NULL_or_code200_not_confirmation':True,'zero_money_not_absence':True,'bool_not_numeric_ID_or_money':True,'unmatched_vs_allowed_noop_disjoint':True,'inconsistent_facts_not_confirmed':True,'P_historical_not_latest':True},\nboundary_records_checked=len(boundary),new_findings=[],improvements=[],\nzero_delta_reason='All type/state distinctions either instantiate existing accepted obligations or restrict their evidence domain. No additional independent mechanism or material omission identified within these17contracts; no global convergence inference.',\napplication_executed=False,database=False,network=False,session=False),ensure_ascii=False))\n",
+  "reproduction_command": "python -X utf8 -B -c \"import json; from pathlib import Path; d=json.loads(Path('knowledge/reviews/iterative-20261118/closure-abstract-contracts.json').read_text(encoding='utf-8')); exec(compile(d['reproduction_code'], '<abstract-contract-review>', 'exec'))\"",
+  "negative_controls": {
+    "Found0_vs_NotFound": true,
+    "bare_true_or_NULL_or_code200_not_confirmation": true,
+    "zero_money_not_absence": true,
+    "bool_not_numeric_ID_or_money": true,
+    "unmatched_vs_allowed_noop_disjoint": true,
+    "inconsistent_facts_not_confirmed": true,
+    "P_historical_not_latest": true
+  },
+  "abstract_state_space": {
+    "tristate_fields": [
+      "matched",
+      "changed",
+      "committed",
+      "required_complete",
+      "at_target",
+      "allow_noop"
+    ],
+    "assignments": 729,
+    "partition_counts": {
+      "CONFIRMED": 3,
+      "NOOP_CONFIRMED": 1,
+      "NO_MATCH": 162,
+      "REJECTED": 1,
+      "FAILED": 27,
+      "NOT_REQUESTED": 0,
+      "UNKNOWN": 454,
+      "INCONSISTENT_EVIDENCE": 81
+    },
+    "semantic_note": "Abstract logical states, not scheduled SQL outcomes or runtime observations."
+  },
+  "representational_equivalence": {
+    "event_ID_class": [
+      26,
+      "26",
+      "026",
+      "00026"
+    ],
+    "money_class": [
+      "0.10",
+      "0.1",
+      "Decimal(0.100)",
+      "numeric0.1"
+    ],
+    "money_scale_or_sign_policy_approved": false
+  },
+  "boundary_records_checked": 17,
+  "zero_delta_reason": "All type/state distinctions either instantiate existing accepted obligations or restrict their evidence domain. No additional independent mechanism or material omission identified within these17contracts; no global convergence inference.",
+  "sequence": {
+    "after_OPS009": true,
+    "after_CLR_IMP001_003_user_acceptance": true,
+    "after_RPR_IMP001_002_user_acceptance": true,
+    "previous_pass6_positive_with3_preserved": true,
+    "previous_pass8_positive_with2_preserved": true,
+    "principal_scope_note_acknowledged": true,
+    "ledger_compiled_here": false
+  },
+  "source_scope": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "P_is_historical_not_latest": true,
+    "new_Peru_audited": false,
+    "refs_changed": false
+  },
+  "safety": {
+    "application_executed": false,
+    "database": false,
+    "network": false,
+    "session": false,
+    "browser_navigation_reviewed": false,
+    "query_failure_schedule": false,
+    "git_refs_changed": false,
+    "source_edits": false,
+    "ledger_compiled": false,
+    "commits": false,
+    "pushes": false
+  },
+  "harness_note": "Se corrigió una errata sintáctica del ensamblado Python antes de la ejecución completa; no es un defecto de aplicación. La tentativa no ejecutada no se cuenta como resultado.",
+  "encoding_validation": {
+    "method": "Recursive JSON-value/plaintext scan; only reversible CP1252/Latin1 sequences decoding to one UTF8 codepoint; no whole-string recoding. Healthy mixed UTF8 control preserved.",
+    "files_checked": 11,
+    "strings_changed": 0,
+    "files": [
+      {
+        "path": "knowledge/general/operational-findings.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/general/operational-findings.md",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/transaction-integration.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/closure-transactions.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/closure-transactions.md",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/closure-repair-obligations.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/closure-repair-obligations.md",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/transactions-delta.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "knowledge/reviews/iterative-20261118/transactions-delta.md",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "scripts/audit/transaction_probes.py",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      },
+      {
+        "path": "source-audits/master/2026-11-18/iterative/transaction-probes.json",
+        "changed_strings": 0,
+        "utf8_valid": true,
+        "remaining_reversible_sequences": false
+      }
+    ],
+    "positive_corruption_control": true,
+    "healthy_UTF8_control": true,
+    "mixed_healthy_corrupt_control": true
+  },
+  "fingerprint": {
+    "status": "VERIFIED_FINAL",
+    "registry": "knowledge/general/operational-findings.json",
+    "algorithm": "sha256",
+    "canonicalization": "json.dumps(registry,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')",
+    "semantic_sha256": "d33217adea4a559f1bcf0b9047238f7e6aa2b8fd5884569e50c7cf18d7705ca5",
+    "file_sha256": "d3e9fd249007bfdc15bb5a104e8d5e531e56dfde53f7f7223ec5788e892d3bb1"
+  },
+  "role": "AUXILIARY_ZERO_DELTA_PRE_BR4",
+  "latest_review": "knowledge/reviews/iterative-20261118/closure-semantic-mutations.json",
+  "final_artifact_validation": {
+    "own_records": 17,
+    "OPS": 9,
+    "own_accepted_improvements": 8,
+    "semantic_records_reviewed": 21,
+    "accepted_external_BR_records": 4,
+    "registry_evidence_ranges_verified": 79,
+    "semantic_evidence_ranges_verified": 107,
+    "evidence_commit_file_pairs": 32,
+    "distinct_evidence_source_paths": 22,
+    "baseline_claim_ranges": 10,
+    "own_files_UTF8_checked": 15,
+    "parsed_strings_checked_before_seal": 2857,
+    "reversible_mojibake_remaining": 0,
+    "markdown_links_resolve": true,
+    "reproduction_codes_compile": true,
+    "ledger_compiled": false
+  }
+}

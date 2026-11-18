@@ -916,13 +916,13 @@ Los enlaces de cada entrada llevan a las referencias exactas que sustentan estas
 <a id="estado-viaje"></a>
 ### Estado de la asignación de viaje
 
-**Definición.** Dato propio del viaje que se guarda al crear su información. La rutina revisada utiliza un valor nulo o un código según el indicador de asignación.
+**Definición.** Dato propio de la asignación de viaje. Al crearla se guarda NULL si isAssignment=1 y 4 en otro caso. La plantilla del listado contiene las etiquetas 0 «Rechazado», 1 «Aceptado», 2 «Interrumpido», 3 «Completado» y 4 «Borrador»; la rama exterior muestra «Asignado».
 
-**Uso y relaciones.** No se ha confirmado el nombre de todos sus códigos; no traducir el código de creación a un estado de embarque.
+**Uso y relaciones.** Las etiquetas son del viaje, no estados de embarque ni del resumen aduanero. La plantilla compara estado <> null antes del switch: en la prueba aislada con PHP 8.4.25, NULL e int 0 muestran «Asignado», mientras string "0" muestra «Rechazado»; los valores 1–4, enteros o cadenas, conservan su etiqueta. Esto no confirma el tipo que entrega el driver desplegado ni valida el comportamiento de PHP 5.4 del Dockerfile. Los nombres de la plantilla no acreditan una transición de negocio ni un catálogo SQL validado.
 
 **Alias de búsqueda:** estado del viaje. **Ámbito:** `shared_evidence`. **Confianza:** `inferred`.
 
-**Evidencia:** [E049](#e049), [E050](#e050).
+**Evidencia:** [E049](#e049), [E050](#e050), [E194](#e194), [E195](#e195).
 
 <a id="estado-resumen"></a>
 ### Estado resumen calculado del embarque
@@ -1248,6 +1248,9 @@ Cada referencia incluye rama, commit, ruta y rango de líneas. Las consultas SQL
 - <a id="e191"></a>**E191** — `origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` · `index_archivos/embarques/componentes/inventario-local/kilometraje.js` · **L46-L62**.
 - <a id="e192"></a>**E192** — `origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` · `index_archivos/embarques/componentes/inventario/parte-recepcion.js` · **L1-L31**.
 - <a id="e193"></a>**E193** — `origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` · `index_archivos/embarques/componentes/inventario/parte-recepcion.js` · **L54-L77**.
+
+- <a id="e194"></a>**E194** — `master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707` · `index_archivos/tracking/listaviajes.php` · **L203-L236**.
+- <a id="e195"></a>**E195** — `origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` · `index_archivos/tracking/listaviajes.php` · **L203-L236**.
 
 ## Candidatos históricos y límites
 

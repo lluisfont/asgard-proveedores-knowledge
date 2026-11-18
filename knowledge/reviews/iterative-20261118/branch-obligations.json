@@ -1,0 +1,393 @@
+{
+  "schema_version": "1.0",
+  "registry_type": "accepted_branch_obligations",
+  "integration_status": "AUDIT_REVIEW_ACCEPTED_USER_AUTHORIZED_PUBLICATION_NOT_CANONICAL",
+  "canonical": false,
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "acceptance": {
+    "pass_number": 9,
+    "accepted_ids": [
+      "BR-IMP-001",
+      "BR-IMP-002",
+      "BR-IMP-003",
+      "BR-IMP-004"
+    ],
+    "classification": "four_material_improvements_no_new_OPS"
+  },
+  "improvements": [
+    {
+      "id": "BR-IMP-001",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Distinguir el intento automático de EDP de carga masiva M y P95",
+      "related_known_ids": [
+        "OPS-004",
+        "IMP-T008"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 603,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 283,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/variants/peru.md",
+        "claim": "Valida embarque nacional, bulto, unidad, conductor, origen y cobertura de destinos; reutiliza la carga masiva para crear el viaje.",
+        "registry_comparison": "P aplica el mismo UPDATE de lote completo en590-591."
+      },
+      "correction": "Al alcanzar el final favorable de CargaMasiva::crearViaje, M intenta registrarEdp después de WhatsApp y antes de responder. P95 no llama a ese helper en la ruta masiva. El helper existe en ambos pins y TrackingNewClass::save ordinario lo llama bajo condición de asignación. Por tanto, la ausencia de esa llamada se limita a la cadena masiva P95, incluida su reutilización desde VIN; no demuestra ausencia global de EDP, ni inserción efectiva en M. Otras rutas, triggers, datos y fallos previos no se comprobaron.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "path_M": [
+            "batch_state_update",
+            "sendWhatsapp",
+            "registrarEdp_attempt",
+            "success"
+          ],
+          "path_P95": [
+            "batch_state_update",
+            "sendWhatsapp",
+            "success"
+          ],
+          "helper_conditions": [
+            "cliente_resuelto",
+            "sin_EDP129_activo"
+          ]
+        },
+        "negative_control": "Helper disponible ysaveordinario enPimpiden concluir que todoPerú carece de registro automático."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-002",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Fecharegistro frente a created_at puede cambiar la guardia26 con las mismas filas",
+      "related_known_ids": [
+        "OPS-005",
+        "OPS-006",
+        "CLR-IMP-002",
+        "RPR-IMP-002"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "scope_precision",
+        "path": "knowledge/general/operational-findings.json#/findings/4/observed_behavior",
+        "claim": "Se sobrescriben posiciones del catálogo con filas ordenadas por fecharegistro sin reconciliar IDs. Remotos[3,5,7] y detalle[5] producen[5,5,7]: desaparece pendiente3 y se duplica5. Detalle[3,3] produce[3,3,7], omitiendo5. El defecto demostrado es de representación, no modificación del historial SQL.",
+        "comparison": "P conserva el ensamblado posicional en157-190."
+      },
+      "correction": "El historial M se ordena por fecharegistro; P95 usa tck_registrareventos.created_at. El consumidor posicional y la guardia de primera coincidencia26 se conservan, pero el mismo conjunto de filas puede llegar en un orden distinto. Con catálogo remoto no vacío, eso puede cambiar qué rama activa la guardia. La evidencia no decide qué fecha debe gobernar el orden de negocio ni cómo tratar empates. Corregir la presencia o los tipos no establece esa política temporal.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "same_rows": [
+            {
+              "event_id": 26,
+              "fecharegistro": "2026-11-18 10:00:00",
+              "created_at": "2026-11-18 12:00:00"
+            },
+            {
+              "event_id": 3,
+              "fecharegistro": "2026-11-18 11:00:00",
+              "created_at": "2026-11-18 09:00:00"
+            }
+          ],
+          "M_order": [
+            26,
+            3
+          ],
+          "P95_order": [
+            3,
+            26
+          ],
+          "first26_index_M": 0,
+          "first26_index_P95": 1,
+          "consequence": "Guardiaactual no retorna por26enMysíenP95; deducción de fuente, sinPHP/SQL.",
+          "remote_catalog_nonempty": [
+            3,
+            5,
+            7
+          ]
+        },
+        "negative_control": "Si ambos timestamps inducen el mismo orden, no cambia la secuencia por este motivo. No se probaron empates ni datos reales."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-003",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "La referencia de lugar restringe la resolución en P95 pero no en M",
+      "related_known_ids": [
+        "OPS-004"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 132,
+          "line_end": 161,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 134,
+          "line_end": 178,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 438,
+          "line_end": 439,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 454,
+          "line_end": 455,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 518,
+          "line_end": 518,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 534,
+          "line_end": 534,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 632,
+          "line_end": 632,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 647,
+          "line_end": 647,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/variants/comparison.md",
+        "claim": "VIN seleccionados → validacion → filas de carga masiva → crear viaje; filtra soft deletes y viajes existentes."
+      },
+      "correction": "P95 pasa la referencia a los callers de validación/carga y su resolver interpola un filtro de nombre/dirección; con al menos tres segmentos toma los tres primeros como nombre/latitud/longitud. M calcula una condición pero no la incorpora al SELECT y varios callers pasan solo código/cuenta. El filtro adicional cambia el conjunto candidato, sin demostrar unicidad, autorización, coordenadas válidas ni elección correcta. Ambos mantienen LIMIT1 sin ORDER BY; no se predice una fila concreta.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "same_provider_code_locations": [
+            {
+              "id": 101,
+              "provider": 11,
+              "code": "C-01",
+              "name": "ALFA",
+              "address": "DIRECCION ALFA"
+            },
+            {
+              "id": 102,
+              "provider": 11,
+              "code": "C-01",
+              "name": "BETA",
+              "address": "DIRECCION BETA"
+            }
+          ],
+          "reference": "BETA",
+          "candidate_ids_M": [
+            101,
+            102
+          ],
+          "candidate_ids_P95": [
+            102
+          ],
+          "selected_first_row": "not_predicted_without_order"
+        },
+        "negative_control": "SinreferenciaPno agrega esa restricción. El ejemplo compara conjuntos candidatos, no filas realmente seleccionadas enSQL."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-004",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Acotar a M la sustitución incondicional de fecha/hora en el temporal masivo",
+      "related_known_ids": [
+        "OPS-004",
+        "IMP-T010"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 80,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 47,
+          "line_end": 48,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 82,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 124,
+          "line_end": 138,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 258,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/general/business-rules.md",
+        "claim": "Inserta fecha/hora actuales, aunque O/P se hayan leído del Excel",
+        "scope": "RN-31: evidenciaM, no regla común"
+      },
+      "correction": "La sustitución incondicional por fecha/hora actuales del temporal corresponde a M. P95 usa fechacarguio/horacarguio recibidos cuando cumplen !empty de PHP, y CURRENT_DATE/TIME como fallback. El lector Excel y la ruta VIN suministran esos campos. La diferencia describe expresiones preparadas para el temporal; no acredita calendario válido, formato SQL aceptado, timezone, persistencia ni conservación de toda la programación del viaje.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "nonempty_input": {
+            "fechacarguio": "2030-12-01",
+            "horacarguio": "14:30:00"
+          },
+          "M_expression": [
+            "CURRENT_DATE()",
+            "CURRENT_TIME()"
+          ],
+          "P95_expression": [
+            "input_fechacarguio",
+            "input_horacarguio"
+          ],
+          "empty_P95": [
+            "CURRENT_DATE()",
+            "CURRENT_TIME()"
+          ]
+        },
+        "negative_control": "Concampos vacíosPtambién usa actuales. No se declara reparadocastDate ni persistencia de fechas."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    }
+  ],
+  "summary": {
+    "accepted_improvements": 4,
+    "new_findings": 0
+  },
+  "limitations": [
+    "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+    "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+    "No modifica el registro operativo, el ledger ni la fuente.",
+    "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+  ]
+}

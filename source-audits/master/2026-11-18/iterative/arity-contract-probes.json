@@ -1,0 +1,34 @@
+{
+  "php_version": "8.4.25",
+  "cases": [
+    {
+      "arguments": 1,
+      "actual": "ArgumentCountError",
+      "expected": "ArgumentCountError",
+      "status": "pass"
+    },
+    {
+      "arguments": 2,
+      "actual": "signature_satisfied",
+      "expected": "signature_satisfied",
+      "status": "pass"
+    },
+    {
+      "arguments": 5,
+      "actual": "signature_satisfied",
+      "expected": "signature_satisfied",
+      "status": "pass"
+    }
+  ],
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "path": "index_archivos/embarques/EmbarqueClass.php",
+  "source_normalized_sha256": "5c7c73da020c9a781044c70a64f2001d7315aeb1e0a92009a40ffcec9cb182ad",
+  "technique": "source_signature_only_sentinel_body_boundary_check",
+  "body_adaptation": "Entire application method body replaced with a constant sentinel; only original parameter signature tested.",
+  "passed": 3,
+  "total": 3,
+  "application_body_executed": false,
+  "database_access": false,
+  "network_access": false,
+  "limitation": "PHP 8.4 CLI signature behavior only; does not execute the controller or prove production reachability."
+}

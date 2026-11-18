@@ -19,6 +19,7 @@ documento no acredita validacion de negocio, despliegue ni cierre de riesgos.
 | Flujos y manual | general/workflows.md, general/user-manual.md | Pantallas y secuencias respaldadas por codigo; prueba de usuario pendiente |
 | Variantes pais | variants/bolivia.md, variants/peru.md, variants/comparison.md | Diferencias de fuente observadas; configuracion efectiva pendiente |
 | Seguridad | general/security-audit.md, general/security-findings.json | Hallazgos revisados y precondiciones; riesgos abiertos |
+| Auditoría iterativa | reviews/iterative-20261118/, general/operational-findings.json | Deltas, deduplicación, precondiciones y criterio de cierre; no equivale a ausencia de riesgos desplegados |
 | Operacion y configuracion | general/operations.md | Receta versionada; operaciones reales y recuperacion no suministradas |
 | QA y pruebas | general/testing.md, php-lint.json, guard-probes.json | Chequeos ejecutados separados de escenarios propuestos |
 | Requisitos y cambios | general/requirements-guide.md, openspec/ | Guia AS-IS e impacto; no especificacion TO-BE aprobada |

@@ -1,5 +1,7 @@
 # Guía para analizar requisitos a partir del comportamiento actual
 
+La [ampliación iterativa](../reviews/iterative-20261118/README.md) y sus [hallazgos operativos](operational-findings.md) añaden contraejemplos que deben entrar en cualquier propuesta de cambio: identidad del maestro de costos, alcance del lote, éxito parcial, composición de eventos y contratos de retorno. Las recomendaciones TO-BE permanecen pendientes de diseño y aprobación; documentar el defecto no lo convierte en requisito aceptable ni en corrección implementada.
+
 Esta guía organiza el análisis de cambios; **no contiene requisitos de negocio validados**. Parte de observaciones de código del 18-11-2026 y propone preguntas y pruebas pendientes, diferenciadas de lo implementado.
 
 Base `M`: `master` **a8ce2c23dead8552d2c4699e4a9b9134f7a18707**, inspeccionado en `C:/repos/proveedores-github-review-20261118`. Contraste `P`: `origin/master_peru` **95fe9a4c3b3cddd84be922cc0e1eb9c88603df62**, leído mediante `git show`. `M:ruta:Lx-Ly` y `P:ruta:Lx-Ly` fijan commit, ruta y líneas. Los IDs RN/F/A/U enlazan evidencias locales de las páginas citadas, no decisiones aprobadas del negocio.

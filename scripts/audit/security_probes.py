@@ -49,12 +49,13 @@ def php_value(value):
     return "json_decode(" + php_literal(json.dumps(value)) + ",true)"
 
 
-def run_php(php, body):
+def run_php(php, body, *, short_open_tag=False):
     prefix = """<?php
 if (extension_loaded('mysqli') || extension_loaded('pdo_mysql')) { exit(90); }
 """
     result = subprocess.run(
         [php, "-n", "-d", "display_errors=0", "-d", "log_errors=0",
+         "-d", "short_open_tag=" + ("1" if short_open_tag else "0"),
          "-d", "allow_url_fopen=0", "-d", "allow_url_include=0",
          "-d", "disable_functions=" + DISABLED],
         input=prefix + body, text=True, encoding="utf-8", capture_output=True,

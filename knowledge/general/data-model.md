@@ -4,6 +4,8 @@ Fuente M: `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`; contraste P: `95fe9a4c3b3c
 
 ## Que esquema tiene autoridad
 
+La revisión iterativa añade un [contraste por AST MySQL](table-reference.md): 100 nombres en 227 fragmentos interpretados y 167 fragmentos sin resolver, frente a 134 candidatos léxicos anteriores. Es una mejora de la calidad y trazabilidad de referencias; no acredita un nuevo esquema físico ni permite trasladar el dump histórico de Perú a master.
+
 | Fuente | Evidencia y tratamiento |
 | --- | --- |
 | Arbol versionado M | No contiene SQL de aplicacion. El unico `.sql` es `index_archivos/js/jqwidgetsVer/phpdemos/Northwind.MySQL5.sql`, cuyo encabezado identifica Northwind y cuyas tablas incluyen Categories/Customers. No es el esquema de Proveedores. |

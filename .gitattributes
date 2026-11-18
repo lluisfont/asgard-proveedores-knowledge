@@ -1,4 +1,6 @@
 # Preserve evidence bytes so exported hashes remain portable across checkouts.
 source-audits/** -text
+# Iteration snapshots are compared byte-for-byte as well as semantically.
+knowledge/reviews/**/versions/*.json -text
 *.gz binary
 *.xlsx binary

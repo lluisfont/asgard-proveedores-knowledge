@@ -1,0 +1,1506 @@
+{
+  "schema_version": "1.0",
+  "phase": "POST_ACCEPTANCE_BR4_INFERENCE_BOUNDARIES",
+  "technique": "Entailment-boundary audit: for each integrated accepted assertion, trace the source observation, reject its stronger counterassertion, and verify that qualification survives in the integrated text. Uses source slices, caller guards, candidate/selection distinctions and persistence/absence boundaries; no VM, repeated type matrix or blob-only validation.",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "reviewed_known_ids": [
+    "SEC-015",
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "VAR-001",
+    "IMP-AST-001",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "IMP-C1",
+    "IMP-C2",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003",
+    "IMP-SCOPE-001",
+    "RPR-IMP-001",
+    "RPR-IMP-002",
+    "BR-IMP-001",
+    "BR-IMP-002",
+    "BR-IMP-003",
+    "BR-IMP-004"
+  ],
+  "new_findings": [],
+  "improvements": [],
+  "checks": [
+    {
+      "id": "SEC-015",
+      "status": "completed",
+      "claim_reviewed": "A hidden form submits complete SQL; POST query is split on xxx; auxiliary segments and then the first segment are passed verbatim to mysqli_query.",
+      "source_observation": "El exportador transmite segmentos completos de POST a la API SQL después de includes; el primer segmento se despacha tras auxiliares.",
+      "counterassertion_rejected": "Cualquier anónimo puede modificar toda la base o ejecutar SQL independientemente de privilegios/runtime.",
+      "entailment_boundary": "El despacho en fuente no prueba bootstrap accesible ni grants desplegados; una operación puede ejecutarse antes de un error de render, sin garantizar salida Excel.",
+      "integrated_artifacts": [
+        "knowledge/general/security-findings.json#SEC-015",
+        "knowledge/reviews/iterative-20261118/report-query-contract.md"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/reportecontrolol.php",
+          "line_start": 111,
+          "line_end": 118,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 11,
+          "line_end": 25,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 52,
+          "line_end": 58,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "acceso efectivo",
+        "conexión/grants utilizables",
+        "sin filas reales",
+        "solo M; no Perú equivalente"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-001",
+      "status": "completed",
+      "claim_reviewed": "A selecciona el máximo id por embarque/created_by sin usar su ID de inserción ni filtrar categoría. Puede insertar sus conceptos en B y, si falla el detalle, emitir DELETE del maestro B. A puede quedar sin detalle. No exige SQLi ni otro tenant.",
+      "source_observation": "Seleccionar por embarque/creador no identifica el INSERT propio; el ID seleccionado alimenta detalle y posible limpieza.",
+      "counterassertion_rejected": "Siempre se borra el maestro ajeno o cualquier otro tenant.",
+      "entailment_boundary": "Se exige intercalado visible, claves coincidentes y detalle false sin excepción; datos normales bastan para el modelo, no para probar efecto desplegado.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-001",
+        "knowledge/general/operational-findings.md#OPS-001"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 592,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 415,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 594,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-002",
+      "status": "completed",
+      "claim_reviewed": "statusSave solo se actualiza tras insertar una localización. Un fallo temprano de subítems se sobreescribe con un éxito posterior; un fallo tardío del INSERT de localización conserva el true anterior. saveLocation retorna true y su llamador puede responder éxito sin todos los destinos/cargas.",
+      "source_observation": "La última asignación a statusSave puede ocultar fallos de localizaciones/subítems.",
+      "counterassertion_rejected": "Todo false SQL termina en éxito o se pierden siempre destinos.",
+      "entailment_boundary": "La posición del fallo y resultados posteriores gobiernan el retorno; excepción, cero localizaciones o fallo final cambian la ruta.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-002",
+        "knowledge/general/operational-findings.md#OPS-002"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1192,
+          "line_end": 1239,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 214,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1592,
+          "line_end": 1600,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1227,
+          "line_end": 1239,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-003",
+      "status": "completed",
+      "claim_reviewed": "saveLoad requiere descripcionMercancia como quinto argumento, pero editLoad pasa cuatro después de borrar. En PHP probado se lanza ArgumentCountError antes del INSERT; catch(Exception) de edit no lo captura. No retorna su code100 ni repone la carga. La respuesta HTTP final depende del servidor; no se necesita un fallo SQL.",
+      "source_observation": "DELETE favorable precede enlace4/5 en editLoad.",
+      "counterassertion_rejected": "ArgumentCountError demuestra filas borradas o pérdida permanente.",
+      "entailment_boundary": "CLR-IMP-001 exige filas coincidentes y efecto confirmado; el error aislado PHP8 no prueba PHP5.4 ni autocommit.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-003",
+        "knowledge/general/operational-findings.md#OPS-003"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 257,
+          "line_end": 285,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1189,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/editar_asignacion.php",
+          "line_start": 68,
+          "line_end": 76,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1168,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos.",
+        "ArgumentCountError no prueba filas afectadas ni pérdida: el mismo error puede ocurrir tras DELETE aceptado sin filas."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-004",
+      "status": "completed",
+      "claim_reviewed": "El UPDATE filtra lote/cuenta, no numero_viaje: el primer grupo intenta marcar estado1 también en filas sin viaje creado. Tras fallo posterior, la señal de procesado queda adelantada; la limpieza inicial de otra carga solo elimina estado nulo/0 y excluye esas filas. No se afirma que un nuevo fichero no pueda reinsertarlas ni que no exista reintento manual.",
+      "source_observation": "Marcado usa lote/cuenta sin número de grupo.",
+      "counterassertion_rejected": "Todo alta VIN falla o todo grupo marcado está confirmado; todos los efectos M/P son iguales.",
+      "entailment_boundary": "Requiere lote multigrupo para el adelanto descrito; BR-IMP-001/003/004 separan los efectos/entradas de ruta y no prueban reintento imposible.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-004",
+        "knowledge/general/operational-findings.md#OPS-004"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 361,
+          "line_end": 367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 208,
+          "line_end": 226,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 23,
+          "line_end": 29,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 597,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-005",
+      "status": "completed",
+      "claim_reviewed": "Se sobrescriben posiciones del catálogo con filas ordenadas por fecharegistro sin reconciliar IDs. Remotos[3,5,7] y detalle[5] producen[5,5,7]: desaparece pendiente3 y se duplica5. Detalle[3,3] produce[3,3,7], omitiendo5. El defecto demostrado es de representación, no modificación del historial SQL.",
+      "source_observation": "El consumidor sustituye catálogo por posiciones del historial.",
+      "counterassertion_rejected": "M/P siempre muestran igual historial o el orden correcto de negocio es uno concreto.",
+      "entailment_boundary": "BR-IMP-002 aclara fecharegistro M frente a created_at P95; el efecto es de representación, no escritura o eliminación del historial SQL.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-005",
+        "knowledge/general/operational-findings.md#OPS-005"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-006",
+      "status": "completed",
+      "claim_reviewed": "array_search devuelve0 y el if lo interpreta como false. El mismo26 detiene el ensamblado en índice1, pero en índice0 se añaden hitos del catálogo. Remotos[3,5,7] con detalle[26] producen[26,5,7]; detalle[3,26] se conserva. No se atribuye nombre o significado de cierre al evento26. Si el primer26está en índice0, la guardia falla aunque existan otros26en posiciones posteriores: array_search conserva la primera coincidencia.",
+      "source_observation": "La guardia usa como booleano la primera posición de26.",
+      "counterassertion_rejected": "26 significa cierre o corregir presencia obliga a coerción indiscriminada.",
+      "entailment_boundary": "CLR-IMP-002 preserva primera coincidencia/repetidos; RPR-IMP-002 preserva representaciones válidas. No se valida significado ni tipos de driver.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-006",
+        "knowledge/general/operational-findings.md#OPS-006"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 159,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-007",
+      "status": "completed",
+      "claim_reviewed": "El navegador suma importes, pero el servidor inserta totalCategory como total_costos y cada amount por separado sin recalcular/comparar. Total999 y conceptos10+20 generan esas tres cantidades y success. getCostos devuelve total almacenado y detalle, que pueden discrepar si la BD confirma. No se infiere impacto contable ni regla de signos.",
+      "source_observation": "Total del maestro y montos se toman de entradas separadas sin reconciliación local.",
+      "counterassertion_rejected": "El total siempre difiere o hay una política contable/monetaria demostrada.",
+      "entailment_boundary": "El hallazgo requiere discrepancia de entrada y ausencia de corrección SQL; no fija signos, divisas o precisión decimal empresarial.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-007",
+        "knowledge/general/operational-findings.md#OPS-007"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/ajax/guardar-costos.php",
+          "line_start": 1,
+          "line_end": 8,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 355,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 414,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/costos/card-component.js",
+          "line_start": 106,
+          "line_end": 113,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 590,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Evidencia de fuente y pruebas aisladas; sin SQL real, despliegue o persistencia confirmados.",
+        "Retornos false inyectados solo modelan configuración que no lanza excepción; autocommit, constraints y triggers desconocidos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-008",
+      "status": "completed",
+      "claim_reviewed": "En alta, guardarCotizacionCliente llama a crearPedidosEmbarqueLocal solo para cliente417/alcance3 y crea cabecera de pedido. En edición, editarController acepta nuevoschasis y editarCotizacionCliente llama getPedidos/crearPedidosDetalle si es truthy, sin repetir en esa cadena la condición cliente417/local del formulario. getPedidos usa embarque_id LIMIT1 sin ORDER BY ni deleted_at; no selecciona explícitamente un pedido válido único ni crea uno si falta. crearPedidosDetalle no devuelve un resultado, ignora retornos de INSERT y UPDATE de descripción, y el padre retorna code200 si el UPDATE de cabecera fue true. code200 no acredita chasis añadidos; editarController recoge $result y redirige sin comprobarlo. La redirección tampoco acredita éxito. No se declara acceso entre tenants, ni que la política UI sea por sí misma la política de servidor aprobada.",
+      "source_observation": "Ampliación selecciona primer pedido; helper sin resultado y padre/controlador no consumen un éxito de detalle.",
+      "counterassertion_rejected": "La condición UI es autorización aprobada o el code200/redirección confirma chasis añadidos.",
+      "entailment_boundary": "Se documentan truthiness, accesibilidad condicionada y ausencia de selección activa/única. CLR-IMP-003 impide convertir NULL actual en test booleano de éxito.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-008",
+        "knowledge/general/operational-findings.md#OPS-008"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/editar.php",
+          "line_start": 110,
+          "line_end": 122,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+          "line_start": 4,
+          "line_end": 23,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 25,
+          "line_end": 33,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 54,
+          "line_end": 56,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 27,
+          "line_end": 38,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 59,
+          "line_end": 63,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1209,
+          "line_end": 1223,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 680,
+          "line_end": 694,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1288,
+          "line_end": 1309,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "UI417/local es evidencia de presentación, no autorización probada.",
+        "No se ha confirmado unicidad, constraints, flags de detalle o cascadas del esquema.",
+        "No se ejecutó el controlador, BD, entrega de mensajes ni sesión persistente."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "OPS-009",
+      "status": "completed",
+      "claim_reviewed": "EmbarqueClass::getListaEmbarques exige dos argumentos ($idtransportista,$logistica) y tiene tres opcionales. La acción mostrartabla pasa solo la sesión idtransportista. PHP8 arroja ArgumentCountError antes de entrar al método: no se atribuye a SQL del cuerpo ni a filas del listado. datosCotizacion.js162 contiene una petición candidata, sin demostrar reachability. Las llamadas de ajax/listaEmbarques.php40 y42 pasan respectivamente5 y2 argumentos; OPS-009 no describe un fallo de esa ruta.",
+      "source_observation": "Caller mostrartabla suministra1contra2formales obligatorios.",
+      "counterassertion_rejected": "El listado AJAX principal está roto o su reachability desde navegador está demostrada.",
+      "entailment_boundary": "El AJAX separado pasa5/2argumentos; el fallo de enlace se atribuye al sitio exacto y PHP8 observado, no a SQL o a todo el portal.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#OPS-009",
+        "knowledge/general/operational-findings.md#OPS-009"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 16,
+          "line_end": 22,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 129,
+          "line_end": 135,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosCotizacion.js",
+          "line_start": 153,
+          "line_end": 163,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+          "line_start": 40,
+          "line_end": 42,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 18,
+          "line_end": 20,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 173,
+          "line_end": 179,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Sin alcance real o exposición comprobados.",
+        "No se deduce comportamiento PHP5.4 de la prueba PHP8.",
+        "No demuestra fallo de datos, consultas, permisos o listado AJAX completo."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "VAR-001",
+      "status": "completed",
+      "claim_reviewed": "Contador y filtro nacional consumen pendiente con coerciones distintas.",
+      "source_observation": "Fuente P95 usa parseInt en agregado y comparación estricta en filtro; población recibida difiere de visible.",
+      "counterassertion_rejected": "La API real devuelve esos tipos o completado demuestra inspección física terminada.",
+      "entailment_boundary": "El documento marca fixtures sintéticos, ámbito P/nacional y ausencia de prueba del backend; no extiende a M/local/preembarque.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md#var-001"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 162,
+          "line_end": 207,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "datos sintéticos",
+        "sin respuesta API real",
+        "sin persistencia"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-AST-001",
+      "status": "completed",
+      "claim_reviewed": "394 fragmentos: 227 AST MySQL, 167 sin resolver; 100 nombres AST frente a 134 léxicos, cinco adicionales. Las ausencias del subconjunto no prueban ausencia de tablas.",
+      "source_observation": "Los nombres AST se obtienen de un subconjunto de fragmentos; otros no se reconstruyen o no se interpretan.",
+      "counterassertion_rejected": "100nombres son tablas físicas existentes; los39léxicos no reproducidos son falsos o faltan en BD.",
+      "entailment_boundary": "La precisión mantiene léxico/AST/esquema como inventarios distintos; los167sin resolver impiden interpretar ausencia. El SQL local sigue sin autoridad verificada.",
+      "integrated_artifacts": [
+        "knowledge/general/table-reference.md",
+        "source-audits/master/2026-11-18/iterative/sql-ast-summary.json"
+      ],
+      "evidence": [],
+      "qualifiers_preserved": [
+        "sin DDL master verificado",
+        "sin ejecución SQL",
+        "no repetir parser ni asumir datos"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-T008",
+      "status": "completed",
+      "claim_reviewed": "save ignora resultados de rutas, relevo y registro de ubicaciones; EDP tampoco propaga el resultado. Puede devolver200 con esas operaciones fallidas. saveRoutes también devuelvefalse sin aduana, que puede ser ausencia opcional válida. No toda devolución false equivale a fallo empresarial.",
+      "source_observation": "Hay resultados de rutas/relevo/ubicaciones ignorados y rutas puede retornar false por ausencia opcional.",
+      "counterassertion_rejected": "Toda devolución false es defecto empresarial obligatorio.",
+      "entailment_boundary": "No se endurecen todas las escrituras como obligatorias sin política; BR-IMP-001 limita la llamada EDP por ruta.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#IMP-T008",
+        "knowledge/general/operational-findings.md#IMP-T008"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 184,
+          "line_end": 234,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 274,
+          "line_end": 285,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Precisión documental integrada aquí; no se editan las páginas originales ni se aprueba una política de negocio."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-T009",
+      "status": "completed",
+      "claim_reviewed": "fecha_estado es alias de updated_at, no una fecha dedicada de transición. editInfo lo actualiza aunque no cambie estado; interrupción escribe fecha_interrupcion/estado2 sin asignar updated_at. El WHERE solo exige ID, sin estado previo, borrado lógico o comprobación de filas afectadas. Los filtros de UI no acreditan una máquina de estados del servidor. No se declara transición empresarial prohibida sin política validada.",
+      "source_observation": "fecha_estado deriva de updated_at; interrupción usa otro campo y el predicado no impone estado previo.",
+      "counterassertion_rejected": "updated_at es fecha de transición exacta o hay una máquina de estados aprobada.",
+      "entailment_boundary": "RPR-IMP-001 distingue resultado SQL, cambios/coincidencias y no-op permitido; no se infiere transición prohibida o filas coincidentes.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#IMP-T009",
+        "knowledge/general/operational-findings.md#IMP-T009"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 30,
+          "line_end": 36,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 238,
+          "line_end": 238,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 279,
+          "line_end": 284,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/discontinued-trip.php",
+          "line_start": 1,
+          "line_end": 10,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Precisión documental integrada aquí; no se editan las páginas originales ni se aprueba una política de negocio."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-T010",
+      "status": "completed",
+      "claim_reviewed": "castDate permuta tres segmentos separados por /:31/02/2026 sale2026-02-31 sin validar. ISO2026-11-18 se sustituye por1900-01-01; vacío usa el mismo centinela. No se debe describir como validación completa ni afirmar que una fecha imposible se persistirá.",
+      "source_observation": "castDate permuta segmentos y usa centinela sin validación calendárica.",
+      "counterassertion_rejected": "Una fecha imposible se persistirá necesariamente o toda ruta acepta el mismo formato.",
+      "entailment_boundary": "No se verifican tipos/sql_mode de la base; BR-IMP-004 trata otro productor temporal y no repara castDate.",
+      "integrated_artifacts": [
+        "knowledge/general/operational-findings.json#IMP-T010",
+        "knowledge/general/operational-findings.md#IMP-T010"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1198,
+          "line_end": 1200,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1214,
+          "line_end": 1217,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1304,
+          "line_end": 1312,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Precisión documental integrada aquí; no se editan las páginas originales ni se aprueba una política de negocio."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-C1",
+      "status": "completed",
+      "claim_reviewed": "Overlay persistente corrige dos POST y retira PUT/root como llamada, conservando20raw.",
+      "source_observation": "Callers fijados definen método/cuerpo; el input base se sigue hasta GET detalle.",
+      "counterassertion_rejected": "Las20filas raw son20APIs confirmadas o el overlay verifica servidor/despliegue.",
+      "entailment_boundary": "La vista separa raw y revisado y prevalencia explícita; no convierte configuración en transporte ni código en operación remota.",
+      "integrated_artifacts": [
+        "knowledge/general/api-reference.md",
+        "scripts/audit/build_knowledge.py"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/inventario-por-chasis.php",
+          "line_start": 68,
+          "line_end": 101,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 42,
+          "line_end": 44,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 99,
+          "line_end": 107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 1,
+          "line_end": 17,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        }
+      ],
+      "qualifiers_preserved": [
+        "tres contratos revisados",
+        "sin HTTP",
+        "sin nuevo total de APIs verificadas"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-C2",
+      "status": "completed",
+      "claim_reviewed": "Las etiquetas son del viaje, no estados de embarque ni del resumen aduanero. La plantilla compara estado <> null antes del switch: en la prueba aislada con PHP 8.4.25, NULL e int 0 muestran «Asignado», mientras string \"0\" muestra «Rechazado»; los valores 1–4, enteros o cadenas, conservan su etiqueta. Esto no confirma el tipo que entrega el driver desplegado ni valida el comportamiento de PHP 5.4 del Dockerfile. Los nombres de la plantilla no acreditan una transición de negocio ni un catálogo SQL validado.",
+      "source_observation": "El guard externo de la plantilla y el switch distinguen representación int/string del cero.",
+      "counterassertion_rejected": "La prueba PHP8.4 demuestra PHP5.4, el tipo del driver o un estado de negocio validado.",
+      "entailment_boundary": "JSON/Markdown/CSV nombran etiquetas de plantilla y mantienen runtime/tipo de driver no confirmados, sin fusionar viaje y embarque.",
+      "integrated_artifacts": [
+        "knowledge/glossary/business-glossary.json#/entries/69",
+        "knowledge/glossary/business-glossary.md#estado-viaje",
+        "knowledge/glossary/business-glossary.csv"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        }
+      ],
+      "qualifiers_preserved": [
+        "PHP8.4.25 aislado",
+        "PHP5.4 no probado",
+        "sin catálogo SQL validado"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "CLR-IMP-001",
+      "status": "completed",
+      "claim_reviewed": "El retorno comprobado es éxito de sentencia, sin consulta de filas afectadas. El contraejemplo con DELETE aceptado y0filas alcanza la llamada4/5 igualmente, pero no borra carga previa. La condición de pérdida requiere filas coincidentes y efecto confirmado.",
+      "source_observation": "DELETEquerytrue no consulta filas afectadas.",
+      "counterassertion_rejected": "Error posterior demuestra que había carga y se perdió.",
+      "entailment_boundary": "Se requiere fila coincidente, borrado confirmado y ausencia de reversión externa.",
+      "integrated_artifacts": [
+        "knowledge/reviews/iterative-20261118/closure-transactions.json#CLR-IMP-001",
+        "knowledge/general/operational-findings.json"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1517,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "precisión aceptada",
+        "no código modificado",
+        "no filas reales"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "CLR-IMP-002",
+      "status": "completed",
+      "claim_reviewed": "Sobre90historiales con26 de longitud1..4,40no activan la guardia;25de ellos tienen otro26posterior. array_search devuelve la primera coincidencia, no basta con que exista26fuera del índice0.",
+      "source_observation": "La primera coincidencia gobierna también con26repetidos.",
+      "counterassertion_rejected": "Basta cualquier26en posición no inicial o cualquier orden M/P es equivalente.",
+      "entailment_boundary": "La mejora trata primera coincidencia; BR-IMP-002 separa el productor de orden y RPR-IMP-002 la representación válida.",
+      "integrated_artifacts": [
+        "knowledge/reviews/iterative-20261118/closure-transactions.json#CLR-IMP-002",
+        "knowledge/general/operational-findings.json"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "precisión aceptada",
+        "no código modificado",
+        "no filas reales"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "CLR-IMP-003",
+      "status": "completed",
+      "claim_reviewed": "crearPedidosDetalle llega al final sin return aun con todas las sentencias exitosas: devuelveNULL implícito. Una corrección ingenua if(!crearPedidosDetalle(...)) detectaría también los éxitos como error. Seleccionar un pedido activo/único es una obligación separada; ordenar LIMIT1por sí solo no la cumple.",
+      "source_observation": "Helper termina sin return incluso con sentencias favorables.",
+      "counterassertion_rejected": "Añadir if sobre el retorno actual acredita éxito o ORDER BY arregla selección de pedido.",
+      "entailment_boundary": "Debe definirse resultado explícito antes de consumirlo; selección activa/única es otra obligación y no se certifica con LIMIT1.",
+      "integrated_artifacts": [
+        "knowledge/reviews/iterative-20261118/closure-transactions.json#CLR-IMP-003",
+        "knowledge/general/operational-findings.json"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "precisión aceptada",
+        "no código modificado",
+        "no filas reales"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "IMP-SCOPE-001",
+      "status": "completed",
+      "claim_reviewed": "PinP95se conserva y remoto2ase registra como actualidad.",
+      "source_observation": "La observación remota tiene tres rutas cambiadas; las evidencias semánticas de la revisión usan solo M/P95.",
+      "counterassertion_rejected": "Se auditó latestPerú o las tres rutas nuevas heredaron validación.",
+      "entailment_boundary": "El aviso inicial y las tablas BR fijan explícitamente95; ningún cuerpo del nuevo head se leyó para estos artefactos.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md",
+        "knowledge/variants/comparison.md",
+        "source-audits/master/2026-11-18/iterative/remote-refs-observation.json"
+      ],
+      "evidence": [],
+      "qualifiers_preserved": [
+        "metadata remota ajena",
+        "sin fetch",
+        "sin revisión JS/nav"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "RPR-IMP-001",
+      "status": "completed",
+      "claim_reviewed": "Definir resultados distintos para CHANGED, NOOP_CONFIRMED si la política lo permite, NOT_FOUND y rechazo de transición. Fijar qué cuenta el cliente SQL; combinar predicado autorizado y estado observado para distinguirlos. Si la política no permite no-op, devolver ese resultado específico sin inferir inexistencia.",
+      "source_observation": "La reparación distingue cambios, coincidencias, no-op permitido y ausencia.",
+      "counterassertion_rejected": "0affected significa NOT_FOUND o todo no-op es política permitida.",
+      "entailment_boundary": "Son resultados TO-BE condicionados al contrato autorizado y semántica del cliente SQL; no se atribuye política AS-IS.",
+      "integrated_artifacts": [
+        "knowledge/reviews/iterative-20261118/closure-repair-obligations.json#RPR-IMP-001",
+        "knowledge/general/operational-findings.json"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 30,
+          "line_end": 36,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "TO-BE propuesto",
+        "política/representación condicionadas",
+        "no implementación"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "RPR-IMP-002",
+      "status": "completed",
+      "claim_reviewed": "Comparar el resultado de búsqueda con false estrictamente sin cambiar la igualdad de valores, o validar y normalizar de forma explícita el tipo de ID antes de pertenencia estricta. Conservar int26 y '26'; no convertir indiscriminadamente entradas no numéricas como'26x'.",
+      "source_observation": "Se conserva26entero/cadena decimal válida al reparar la guardia.",
+      "counterassertion_rejected": "Se debe usar pertenencia estricta sin normalizar o aceptar26x mediante cast.",
+      "entailment_boundary": "Comparar resultado!==false conserva igualdad de valores; normalización exige validación. No se afirma tipo desplegado.",
+      "integrated_artifacts": [
+        "knowledge/reviews/iterative-20261118/closure-repair-obligations.json#RPR-IMP-002",
+        "knowledge/general/operational-findings.json"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "qualifiers_preserved": [
+        "TO-BE propuesto",
+        "política/representación condicionadas",
+        "no implementación"
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "BR-IMP-001",
+      "status": "completed",
+      "claim_reviewed": "Al alcanzar el final favorable de CargaMasiva::crearViaje, M intenta registrarEdp después de WhatsApp y antes de responder. P95 no llama a ese helper en la ruta masiva. El helper existe en ambos pins y TrackingNewClass::save ordinario lo llama bajo condición de asignación. Por tanto, la ausencia de esa llamada se limita a la cadena masiva P95, incluida su reutilización desde VIN; no demuestra ausencia global de EDP, ni inserción efectiva en M. Otras rutas, triggers, datos y fallos previos no se comprobaron.",
+      "source_observation": "La llamada a registrarEdp falta solo en el final de crearViaje masivo P95; existe helper y llamada ordinaria.",
+      "counterassertion_rejected": "En Perú nunca se genera EDP o M siempre insertaEDP129.",
+      "entailment_boundary": "El texto distingue cadena, intento y estado global; helper requiere cliente y ausencia de otro129activo, y faltan datos/triggers/ejecución.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md#br-imp-001",
+        "knowledge/variants/comparison.md",
+        "knowledge/reviews/iterative-20261118/branch-obligations.json#BR-IMP-001"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 603,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 283,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+        "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+        "No modifica el registro operativo, el ledger ni la fuente.",
+        "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "BR-IMP-002",
+      "status": "completed",
+      "claim_reviewed": "El historial M se ordena por fecharegistro; P95 usa tck_registrareventos.created_at. El consumidor posicional y la guardia de primera coincidencia26 se conservan, pero el mismo conjunto de filas puede llegar en un orden distinto. Con catálogo remoto no vacío, eso puede cambiar qué rama activa la guardia. La evidencia no decide qué fecha debe gobernar el orden de negocio ni cómo tratar empates. Corregir la presencia o los tipos no establece esa política temporal.",
+      "source_observation": "Productores ordenan campos distintos y guardia/ensamblador consumen el orden.",
+      "counterassertion_rejected": "fecharegistro o created_at es la fecha empresarial correcta, todos los historiales difieren o26tiene significado de cierre.",
+      "entailment_boundary": "El documento exige órdenes distintos y catálogo no vacío para el ejemplo; si ambos ordenan igual no hay diferencia por este motivo. No resuelve empates/política temporal.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md#br-imp-002",
+        "knowledge/variants/comparison.md",
+        "knowledge/reviews/iterative-20261118/branch-obligations.json#BR-IMP-002"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+        "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+        "No modifica el registro operativo, el ledger ni la fuente.",
+        "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "BR-IMP-003",
+      "status": "completed",
+      "claim_reviewed": "P95 pasa la referencia a los callers de validación/carga y su resolver interpola un filtro de nombre/dirección; con al menos tres segmentos toma los tres primeros como nombre/latitud/longitud. M calcula una condición pero no la incorpora al SELECT y varios callers pasan solo código/cuenta. El filtro adicional cambia el conjunto candidato, sin demostrar unicidad, autorización, coordenadas válidas ni elección correcta. Ambos mantienen LIMIT1 sin ORDER BY; no se predice una fila concreta.",
+      "source_observation": "La referencia adicional entra enP95SELECTy no enM; ambosLIMIT1sinORDER BY.",
+      "counterassertion_rejected": "La referencia demuestra unicidad, ubicación correcta, coordenadas válidas o autorización.",
+      "entailment_boundary": "Se describe restricción de candidatos y obligación adicional; la ausencia de referencia desactiva ese filtro y no se predice fila seleccionada.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md#br-imp-003",
+        "knowledge/variants/comparison.md",
+        "knowledge/reviews/iterative-20261118/branch-obligations.json#BR-IMP-003"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 132,
+          "line_end": 161,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 134,
+          "line_end": 178,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 438,
+          "line_end": 439,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 454,
+          "line_end": 455,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 518,
+          "line_end": 518,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 534,
+          "line_end": 534,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 632,
+          "line_end": 632,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 647,
+          "line_end": 647,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+        "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+        "No modifica el registro operativo, el ledger ni la fuente.",
+        "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    },
+    {
+      "id": "BR-IMP-004",
+      "status": "completed",
+      "claim_reviewed": "La sustitución incondicional por fecha/hora actuales del temporal corresponde a M. P95 usa fechacarguio/horacarguio recibidos cuando cumplen !empty de PHP, y CURRENT_DATE/TIME como fallback. El lector Excel y la ruta VIN suministran esos campos. La diferencia describe expresiones preparadas para el temporal; no acredita calendario válido, formato SQL aceptado, timezone, persistencia ni conservación de toda la programación del viaje.",
+      "source_observation": "P95prepara entrada temporal si!emptyyactuales como fallback;Mpreparaactuales.",
+      "counterassertion_rejected": "La entrada es SQL válido, calendario válido, timezone válido, fue persistida o toda programación se conserva.",
+      "entailment_boundary": "El texto limita la afirmación a expresiones preparadas del temporal, distingue fallback y no declara reparadocastDate.",
+      "integrated_artifacts": [
+        "knowledge/variants/peru.md#br-imp-004",
+        "knowledge/variants/comparison.md",
+        "knowledge/reviews/iterative-20261118/branch-obligations.json#BR-IMP-004"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 80,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 47,
+          "line_end": 48,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 82,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 124,
+          "line_end": 138,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 258,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "qualifiers_preserved": [
+        "Comparación fijada a M/P95; no revisión semántica del nuevo head2a.",
+        "AS-IS de código y precisión documental; no contrato empresarial aprobado ni prueba de BD o aplicación.",
+        "No modifica el registro operativo, el ledger ni la fuente.",
+        "Los intentos y expresiones de consulta no prueban efectos persistidos ni ausencia global de efectos."
+      ],
+      "result": "within_bounded_evidence_limits",
+      "new_causal_delta": false
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "SEC-015",
+      "rejected": "Cualquier anónimo puede modificar toda la base o ejecutar SQL independientemente de privilegios/runtime.",
+      "reason": "El despacho en fuente no prueba bootstrap accesible ni grants desplegados; una operación puede ejecutarse antes de un error de render, sin garantizar salida Excel."
+    },
+    {
+      "id": "OPS-001",
+      "rejected": "Siempre se borra el maestro ajeno o cualquier otro tenant.",
+      "reason": "Se exige intercalado visible, claves coincidentes y detalle false sin excepción; datos normales bastan para el modelo, no para probar efecto desplegado."
+    },
+    {
+      "id": "OPS-002",
+      "rejected": "Todo false SQL termina en éxito o se pierden siempre destinos.",
+      "reason": "La posición del fallo y resultados posteriores gobiernan el retorno; excepción, cero localizaciones o fallo final cambian la ruta."
+    },
+    {
+      "id": "OPS-003",
+      "rejected": "ArgumentCountError demuestra filas borradas o pérdida permanente.",
+      "reason": "CLR-IMP-001 exige filas coincidentes y efecto confirmado; el error aislado PHP8 no prueba PHP5.4 ni autocommit."
+    },
+    {
+      "id": "OPS-004",
+      "rejected": "Todo alta VIN falla o todo grupo marcado está confirmado; todos los efectos M/P son iguales.",
+      "reason": "Requiere lote multigrupo para el adelanto descrito; BR-IMP-001/003/004 separan los efectos/entradas de ruta y no prueban reintento imposible."
+    },
+    {
+      "id": "OPS-005",
+      "rejected": "M/P siempre muestran igual historial o el orden correcto de negocio es uno concreto.",
+      "reason": "BR-IMP-002 aclara fecharegistro M frente a created_at P95; el efecto es de representación, no escritura o eliminación del historial SQL."
+    },
+    {
+      "id": "OPS-006",
+      "rejected": "26 significa cierre o corregir presencia obliga a coerción indiscriminada.",
+      "reason": "CLR-IMP-002 preserva primera coincidencia/repetidos; RPR-IMP-002 preserva representaciones válidas. No se valida significado ni tipos de driver."
+    },
+    {
+      "id": "OPS-007",
+      "rejected": "El total siempre difiere o hay una política contable/monetaria demostrada.",
+      "reason": "El hallazgo requiere discrepancia de entrada y ausencia de corrección SQL; no fija signos, divisas o precisión decimal empresarial."
+    },
+    {
+      "id": "OPS-008",
+      "rejected": "La condición UI es autorización aprobada o el code200/redirección confirma chasis añadidos.",
+      "reason": "Se documentan truthiness, accesibilidad condicionada y ausencia de selección activa/única. CLR-IMP-003 impide convertir NULL actual en test booleano de éxito."
+    },
+    {
+      "id": "OPS-009",
+      "rejected": "El listado AJAX principal está roto o su reachability desde navegador está demostrada.",
+      "reason": "El AJAX separado pasa5/2argumentos; el fallo de enlace se atribuye al sitio exacto y PHP8 observado, no a SQL o a todo el portal."
+    },
+    {
+      "id": "VAR-001",
+      "rejected": "La API real devuelve esos tipos o completado demuestra inspección física terminada.",
+      "reason": "El documento marca fixtures sintéticos, ámbito P/nacional y ausencia de prueba del backend; no extiende a M/local/preembarque."
+    },
+    {
+      "id": "IMP-AST-001",
+      "rejected": "100nombres son tablas físicas existentes; los39léxicos no reproducidos son falsos o faltan en BD.",
+      "reason": "La precisión mantiene léxico/AST/esquema como inventarios distintos; los167sin resolver impiden interpretar ausencia. El SQL local sigue sin autoridad verificada."
+    },
+    {
+      "id": "IMP-T008",
+      "rejected": "Toda devolución false es defecto empresarial obligatorio.",
+      "reason": "No se endurecen todas las escrituras como obligatorias sin política; BR-IMP-001 limita la llamada EDP por ruta."
+    },
+    {
+      "id": "IMP-T009",
+      "rejected": "updated_at es fecha de transición exacta o hay una máquina de estados aprobada.",
+      "reason": "RPR-IMP-001 distingue resultado SQL, cambios/coincidencias y no-op permitido; no se infiere transición prohibida o filas coincidentes."
+    },
+    {
+      "id": "IMP-T010",
+      "rejected": "Una fecha imposible se persistirá necesariamente o toda ruta acepta el mismo formato.",
+      "reason": "No se verifican tipos/sql_mode de la base; BR-IMP-004 trata otro productor temporal y no repara castDate."
+    },
+    {
+      "id": "IMP-C1",
+      "rejected": "Las20filas raw son20APIs confirmadas o el overlay verifica servidor/despliegue.",
+      "reason": "La vista separa raw y revisado y prevalencia explícita; no convierte configuración en transporte ni código en operación remota."
+    },
+    {
+      "id": "IMP-C2",
+      "rejected": "La prueba PHP8.4 demuestra PHP5.4, el tipo del driver o un estado de negocio validado.",
+      "reason": "JSON/Markdown/CSV nombran etiquetas de plantilla y mantienen runtime/tipo de driver no confirmados, sin fusionar viaje y embarque."
+    },
+    {
+      "id": "CLR-IMP-001",
+      "rejected": "Error posterior demuestra que había carga y se perdió.",
+      "reason": "Se requiere fila coincidente, borrado confirmado y ausencia de reversión externa."
+    },
+    {
+      "id": "CLR-IMP-002",
+      "rejected": "Basta cualquier26en posición no inicial o cualquier orden M/P es equivalente.",
+      "reason": "La mejora trata primera coincidencia; BR-IMP-002 separa el productor de orden y RPR-IMP-002 la representación válida."
+    },
+    {
+      "id": "CLR-IMP-003",
+      "rejected": "Añadir if sobre el retorno actual acredita éxito o ORDER BY arregla selección de pedido.",
+      "reason": "Debe definirse resultado explícito antes de consumirlo; selección activa/única es otra obligación y no se certifica con LIMIT1."
+    },
+    {
+      "id": "IMP-SCOPE-001",
+      "rejected": "Se auditó latestPerú o las tres rutas nuevas heredaron validación.",
+      "reason": "El aviso inicial y las tablas BR fijan explícitamente95; ningún cuerpo del nuevo head se leyó para estos artefactos."
+    },
+    {
+      "id": "RPR-IMP-001",
+      "rejected": "0affected significa NOT_FOUND o todo no-op es política permitida.",
+      "reason": "Son resultados TO-BE condicionados al contrato autorizado y semántica del cliente SQL; no se atribuye política AS-IS."
+    },
+    {
+      "id": "RPR-IMP-002",
+      "rejected": "Se debe usar pertenencia estricta sin normalizar o aceptar26x mediante cast.",
+      "reason": "Comparar resultado!==false conserva igualdad de valores; normalización exige validación. No se afirma tipo desplegado."
+    },
+    {
+      "id": "BR-IMP-001",
+      "rejected": "En Perú nunca se genera EDP o M siempre insertaEDP129.",
+      "reason": "El texto distingue cadena, intento y estado global; helper requiere cliente y ausencia de otro129activo, y faltan datos/triggers/ejecución."
+    },
+    {
+      "id": "BR-IMP-002",
+      "rejected": "fecharegistro o created_at es la fecha empresarial correcta, todos los historiales difieren o26tiene significado de cierre.",
+      "reason": "El documento exige órdenes distintos y catálogo no vacío para el ejemplo; si ambos ordenan igual no hay diferencia por este motivo. No resuelve empates/política temporal."
+    },
+    {
+      "id": "BR-IMP-003",
+      "rejected": "La referencia demuestra unicidad, ubicación correcta, coordenadas válidas o autorización.",
+      "reason": "Se describe restricción de candidatos y obligación adicional; la ausencia de referencia desactiva ese filtro y no se predice fila seleccionada."
+    },
+    {
+      "id": "BR-IMP-004",
+      "rejected": "La entrada es SQL válido, calendario válido, timezone válido, fue persistida o toda programación se conserva.",
+      "reason": "El texto limita la afirmación a expresiones preparadas del temporal, distingue fallback y no declara reparadocastDate."
+    }
+  ],
+  "limitations": [
+    "Auditoría de límites de inferencia sobre11hallazgos y16mejoras aceptadas, no repetición exhaustiva de la aplicación ni certificación de especificación empresarial.",
+    "No VM/probes nuevos,SQL,BD,red,bootstrap,submódulos o navegador/navegación. La fuente se lee por hashes M/P95;2a solo es actualidad registrada.",
+    "No se afirma explotación anónima, filas afectadas, triggers, permisos SQL, tipo de driver, compatibilidad PHP5.4 ni pérdida/ausencia persistente a partir del flujo estático.",
+    "Los resultadosTO-BEde RPR/CLR no son código implantado ni política autorizada en producción. El principal mantiene registro operativo,ledger,fingerprintsystreak.",
+    "Cero delta de esta revisión significa que no se halló otra inferencia causal material fuera de las precisiones aceptadas; no cierra todos los riesgos ni declara convergencia global."
+  ],
+  "limits": [
+    "Auditoría de límites de inferencia sobre11hallazgos y16mejoras aceptadas, no repetición exhaustiva de la aplicación ni certificación de especificación empresarial.",
+    "No VM/probes nuevos,SQL,BD,red,bootstrap,submódulos o navegador/navegación. La fuente se lee por hashes M/P95;2a solo es actualidad registrada.",
+    "No se afirma explotación anónima, filas afectadas, triggers, permisos SQL, tipo de driver, compatibilidad PHP5.4 ni pérdida/ausencia persistente a partir del flujo estático.",
+    "Los resultadosTO-BEde RPR/CLR no son código implantado ni política autorizada en producción. El principal mantiene registro operativo,ledger,fingerprintsystreak.",
+    "Cero delta de esta revisión significa que no se halló otra inferencia causal material fuera de las precisiones aceptadas; no cierra todos los riesgos ni declara convergencia global."
+  ],
+  "status": "completed_bounded_inference_review",
+  "global_convergence_claimed": false,
+  "summary": {
+    "accepted_findings_reviewed": 11,
+    "accepted_improvements_reviewed": 16,
+    "completed_checks": 27,
+    "new_findings": 0,
+    "improvements": 0
+  },
+  "operational_registry_rechecked": {
+    "path": "knowledge/general/operational-findings.json",
+    "summary": {
+      "findings": 9,
+      "P1": 2,
+      "P2": 7,
+      "improvements": 8,
+      "records_total": 17
+    },
+    "modified": false
+  },
+  "positive_predecessor": {
+    "path": "knowledge/reviews/iterative-20261118/closure-branch-obligations.json",
+    "status": "PASADA_POSITIVA_4_ACCEPTED",
+    "improvements": 4
+  },
+  "branch_registry": "knowledge/reviews/iterative-20261118/branch-obligations.json",
+  "source_new_peru_head_read": false
+}

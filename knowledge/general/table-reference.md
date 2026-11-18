@@ -3,6 +3,16 @@
 Estado: candidatos de referencias SQL, sin DDL de master.
 Tipos, claves, relaciones e invariantes fisicas quedan desconocidos.
 
+## Contraste semántico añadido en la revisión iterativa
+
+El inventario de abajo conserva **134 nombres léxicos históricos**, incluidos falsos positivos; no es un diccionario de tablas físicas. La nueva extracción por AST MySQL analiza 394 fragmentos: 227 interpretados y 167 sin resolver. Obtiene **100 nombres de tabla en AST**, cinco adicionales al inventario léxico. Véanse el [resumen](../../source-audits/master/2026-11-18/iterative/sql-ast-summary.json), las [referencias con líneas](../../source-audits/master/2026-11-18/iterative/sql-ast-references.csv) y los [fragmentos con hash, sin SQL literal](../../source-audits/master/2026-11-18/iterative/sql-ast-fragments.json).
+
+Los cinco nombres adicionales son `ada_clienteagenteaduana`, `dav_documentos`, `ges_clientegestortransporte`, `logis_clientemails` y `tck_ultimas_ubicaciones`. De los 39 nombres léxicos no reproducidos no se deduce ausencia ni falsedad: puede faltar reconstruir SQL dinámico. Los controles negativos distinguen una columna dentro de TRIM, un alias CTE y palabras dentro de literales. `Selected`, `all`, `failed`, `the` y `capacidad` del inventario léxico requieren esa cautela. El AST tampoco confirma existencia, columnas, permisos ni relaciones en una base desplegada.
+
+Técnica: [script](../../scripts/audit/sql_ast_crosscheck.py), SQLglot 30.33.0 en entorno aislado, dialecto MySQL. Su [documentación primaria](https://github.com/tobymao/sqlglot) distingue análisis sintáctico de validación de ejecución. Esta precisión se registra como IMP-AST-001; el diccionario físico continúa pendiente.
+
+## Inventario léxico conservado
+
 | Tabla candidata | Lecturas | Escrituras | Fuentes de ejemplo |
 | --- | ---: | ---: | --- |
 | `Selected` | 1 | 0 | index_archivos/js/ux/form/ItemSelector.js:40 |

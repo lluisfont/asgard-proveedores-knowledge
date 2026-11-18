@@ -1,5 +1,7 @@
 # Manual de recorridos de proveedores
 
+La [revisión iterativa](../reviews/iterative-20261118/README.md) incorpora advertencias nuevas sobre costos, edición de cargas/chasis, procesamiento de lotes y representación de eventos. Consulte los [defectos operativos](operational-findings.md) antes de interpretar una confirmación como persistencia completa. Las correcciones de documentación no corrigen la aplicación ni constituyen una validación operativa.
+
 Edición del 18-11-2026, reconstruida desde **master a8ce2c23dead8552d2c4699e4a9b9134f7a18707**. Las etiquetas entre comillas se han leído en plantillas/componentes. **No se ha comprobado la aplicación en navegador ni con datos reales:** son instrucciones respaldadas por fuente, pendientes de validación operativa. Los resultados dependientes de configuración o servicios se indican como ❓.
 
 La referencia abreviada `M:ruta:Lx-Ly` significa ese commit exacto, archivo y líneas. El contraste Perú usa `P` = **95fe9a4c3b3cddd84be922cc0e1eb9c88603df62**. Para elegir versión: [Bolivia/master](../variants/bolivia.md), [Perú](../variants/peru.md) y [comparación](../variants/README.md). Los menús de una cuenta dependen de sus permisos y del tipo de proveedor: no todas las opciones descritas aparecerán a todos los usuarios.

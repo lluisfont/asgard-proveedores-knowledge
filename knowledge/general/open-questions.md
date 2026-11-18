@@ -8,7 +8,7 @@
 | OPEN-04 | Revision con responsables de negocio del glosario y las reglas | Las definiciones reconstruidas tienen evidencia de codigo, no aprobacion funcional |
 | OPEN-05 | Implementaciones y contratos de los dos submodulos | Intercambio documental y notificaciones con cobertura parcial |
 | OPEN-06 | Configuracion de servicios externos, errores y reintentos en despliegue | Contratos de ejecucion y efectos secundarios sin probar |
-| OPEN-07 | Significado completo de codigos de estado y campos sin uso observado | Mantener los codigos sin descripcion funcional inventada |
+| OPEN-07 | Significado completo de códigos de estado y campos sin uso observado | IMP-C2 resuelve los nombres locales 0–4 del estado de viaje; quedan por validar semántica empresarial, transiciones y representación del driver. No extender esos nombres a estados de embarque o inventario |
 | OPEN-08 | Validacion de candidatos SQL/API y controles compartidos en ejecucion | Senales estaticas no confirman por si solas exposicion o explotabilidad |
 | OPEN-09 | Retencion documental, backups, recuperacion y operacion aprobada | Manuales de operacion limitados a evidencia versionada |
 | OPEN-10 | Ejecucion nativa de ASGARD API Auditor | Lanzador bloqueado por Windows Application Control; se uso ampliacion estatica alternativa |

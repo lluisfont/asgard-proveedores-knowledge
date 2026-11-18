@@ -1,0 +1,650 @@
+{
+  "schema_version": "1.0",
+  "phase": "NEW_REVIEW_AFTER_USER_PASS6_ACCEPTANCE",
+  "status": "PASADA_CON_DELTA_ACCEPTED_USER_PASS8",
+  "new_findings": [],
+  "improvements": [
+    {
+      "id": "RPR-IMP-001",
+      "classification": "proposed_material_TO_BE_improvement",
+      "title": "El retorno de actualización debe separar filas coincidentes, cambios y una operación sin cambios permitida",
+      "related_known_ids": [
+        "IMP-T009",
+        "CLR-IMP-001"
+      ],
+      "priority": "P2",
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 30,
+          "line_end": 36,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "condition": "La política TO-BE admite repetir una operación ya satisfecha o guardar valores idénticos. La configuración del cliente SQL puede informar cambios o coincidencias; esa configuración no se ha comprobado.",
+      "observation": "El modelo de una sentencia exitosa con fila existente y valores ya iguales produce cero cambios. Un arreglo que traduce affected_rows==0 a inexistencia o error rechaza ese éxito permitido. La condición no debe confundirse con una fila que no coincide o no está autorizada.",
+      "proposed_rule_TO_BE": "Definir resultados distintos para CHANGED, NOOP_CONFIRMED si la política lo permite, NOT_FOUND y rechazo de transición. Fijar qué cuenta el cliente SQL; combinar predicado autorizado y estado observado para distinguirlos. Si la política no permite no-op, devolver ese resultado específico sin inferir inexistencia.",
+      "validation_check_ids": [
+        "IMP-T009",
+        "CLR-IMP-001"
+      ],
+      "novelty": "La mejora aceptada CLR-IMP-001 limitaba la afirmación de pérdida tras DELETE; esta pasada contrasta una reparación basada en conteos con una actualización/no-op exitosa y exige un contrato de retorno más preciso.",
+      "dedup_rationale": "Mejora de reparación/contrato dentro de IDs existentes; no otro defecto OPS ni una política de idempotencia declarada AS-IS.",
+      "notified_before_publication": true,
+      "registry_status": "ACCEPTED_AS_IMPROVEMENT_USER_PASS8"
+    },
+    {
+      "id": "RPR-IMP-002",
+      "classification": "proposed_material_TO_BE_improvement",
+      "title": "La reparación de pertenencia debe conservar IDs numéricos válidos recibidos como string",
+      "related_known_ids": [
+        "OPS-006",
+        "CLR-IMP-002"
+      ],
+      "priority": "P2",
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "condition": "La representación válida del ID de evento es int26 o string decimal'26'. El tipo concreto devuelto en el despliegue no se ha verificado; la fuente no normaliza antes de la búsqueda.",
+      "observation": "Cambiar el if de array_search por pertenencia estricta al entero26 no reconoce '26', aunque representa el mismo ID y la búsqueda previa no estricta lo reconoce. Es una regresión de un caso exitoso de lectura, independiente de la posición o repetición.",
+      "proposed_rule_TO_BE": "Comparar el resultado de búsqueda con false estrictamente sin cambiar la igualdad de valores, o validar y normalizar de forma explícita el tipo de ID antes de pertenencia estricta. Conservar int26 y '26'; no convertir indiscriminadamente entradas no numéricas como'26x'.",
+      "validation_check_ids": [
+        "OPS-006",
+        "CLR-IMP-002"
+      ],
+      "novelty": "Los probes y la pasada anterior usaban IDs enteros. El contraejemplo exitoso de representación string prueba una obligación de reparación no cubierta por corregir solo índice0 o repeticiones.",
+      "dedup_rationale": "Precisión de TO-BE de OPS-006/CLR-IMP-002, no nuevo hallazgo OPS ni confirmación de tipos o eventos reales.",
+      "notified_before_publication": true,
+      "registry_status": "ACCEPTED_AS_IMPROVEMENT_USER_PASS8"
+    }
+  ],
+  "checks": [
+    {
+      "id": "OPS-001",
+      "status": "completed",
+      "obligation_TO_BE": "Preserve operation identity across notifications/other statements; same connection and capture before collaborators.",
+      "successful_input_counterexample": {
+        "all_inserts_successful": true,
+        "own_insert": 101,
+        "later_insert_on_same_connection": 102
+      },
+      "weak_repair_outcome": {
+        "capture_after_collaborator": 102,
+        "matches_own": false
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "known_obligation_reinforced",
+      "negative_controls": {
+        "single_insert_has_no_identity_collision": true,
+        "category_filter_does_not_replace_operation_key": true
+      }
+    },
+    {
+      "id": "OPS-002",
+      "status": "completed",
+      "obligation_TO_BE": "Conjunction must use a valid neutral element and an explicit empty-list policy; do not initialize an AND reduction with false.",
+      "successful_input_counterexample": {
+        "required_operations": "all successful",
+        "nonempty_locations": true
+      },
+      "weak_repair_outcome": {
+        "false_seed_fold": false,
+        "rejects_success": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "fold_identity_precision_already_within_known_accumulation_remedy",
+      "negative_controls": {
+        "empty_requires_explicit_policy": true,
+        "successful_last_item_alone_does_not_prove_all": true
+      }
+    },
+    {
+      "id": "OPS-003",
+      "status": "completed",
+      "obligation_TO_BE": "Repair signature and preserve/validate the required description before destructive replacement.",
+      "successful_input_counterexample": {
+        "old_load_exists": true,
+        "valid_description": "VEHICLE-A",
+        "all_writes_successful": true
+      },
+      "weak_repair_outcome": {
+        "default_empty_argument_avoids_arity_but_erases_description": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "known_obligation_reinforced",
+      "negative_controls": {
+        "no_claim_empty_is_always_business_invalid": "contract dependent",
+        "zero_affected_delete_does_not_prove_loss": true
+      }
+    },
+    {
+      "id": "OPS-004",
+      "status": "completed",
+      "obligation_TO_BE": "At group commit, processed rows must belong to confirmed groups; report/account/group identity bound.",
+      "successful_input_counterexample": {
+        "created_groups": [
+          1
+        ],
+        "other_group_not_attempted": 2,
+        "all_attempted_operations_successful": true
+      },
+      "weak_repair_outcome": {
+        "marked": [
+          1,
+          2
+        ],
+        "contains_uncreated": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "known_obligation_reinforced",
+      "negative_controls": {
+        "all_groups_created_final_snapshot_can_be_consistent": true,
+        "one_group_batch_is_valid": true
+      }
+    },
+    {
+      "id": "OPS-005",
+      "status": "completed",
+      "obligation_TO_BE": "Identity reconciliation must conserve registered occurrences and pending membership, if repeated event types are allowed.",
+      "successful_input_counterexample": {
+        "two_successfully_registered_occurrences": [
+          {
+            "event_id": 3,
+            "registered_id": 100
+          },
+          {
+            "event_id": 3,
+            "registered_id": 101
+          }
+        ],
+        "repeat_policy": "conditional, not established from DDL"
+      },
+      "weak_repair_outcome": {
+        "map_by_type_retains_registered_ids": [
+          101
+        ],
+        "loses_occurrence": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "repeat_policy_already_explicit_in_OPS005_not_new_finding",
+      "negative_controls": {
+        "if_repeats_forbidden_validate_instead_of_silent_collapse": true,
+        "physical_milestone_truth_not_modeled": true
+      }
+    },
+    {
+      "id": "OPS-006",
+      "status": "completed",
+      "obligation_TO_BE": "Membership repair must preserve valid int/string ID representations; strict value equality is not strict search-result comparison.",
+      "successful_input_counterexample": {
+        "registered_id_representation": "26",
+        "all_reads_successful": true,
+        "logical_event_id": 26
+      },
+      "weak_repair_outcome": {
+        "strict_int_membership_recognizes": false,
+        "regression_for_valid_string_id": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "NEW_REPAIR_IMPROVEMENT_RPR_IMP_002",
+      "negative_controls": {
+        "integer26_also_recognized": true,
+        "invalid_suffix_rejected": true,
+        "runtime_ID_type_not_verified": true
+      }
+    },
+    {
+      "id": "OPS-007",
+      "status": "completed",
+      "obligation_TO_BE": "Recompute totals using an agreed monetary representation/rounding policy, not strict binary-float equality.",
+      "successful_input_counterexample": {
+        "amounts": [
+          "0.10",
+          "0.20"
+        ],
+        "declared_total": "0.30",
+        "all_writes_successful": true
+      },
+      "weak_repair_outcome": {
+        "binary_float_sum": 0.30000000000000004,
+        "strict_binary_equality_to_0_3": false
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "precision_already_required_no_new_delta",
+      "negative_controls": {
+        "scale_and_rounding_policy_not_approved": true,
+        "zero_total_with_zero_amounts_can_be_valid": true
+      }
+    },
+    {
+      "id": "OPS-008",
+      "status": "completed",
+      "obligation_TO_BE": "Return a defined confirmation contract and choose authorized active order; consume it in caller.",
+      "successful_input_counterexample": {
+        "all_child_queries_successful": true,
+        "existing_active_order": 11
+      },
+      "weak_repair_outcome": {
+        "not_null_child_check_reports_error": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "covered_by_accepted_CLR_IMP003",
+      "negative_controls": {
+        "ordering_LIMIT1_does_not_establish_active_unique": true,
+        "redirect_is_not_result_contract": true
+      }
+    },
+    {
+      "id": "OPS-009",
+      "status": "completed",
+      "obligation_TO_BE": "Supply validated intended scope; adding a default null only fixes arity, not selection semantics.",
+      "successful_input_counterexample": {
+        "requested_validated_scope": 3,
+        "all_queries_successful": true
+      },
+      "weak_repair_outcome": {
+        "signature_with_default_is_callable": true,
+        "default_null_rows": []
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "scope_validation_already_required_no_new_delta",
+      "negative_controls": {
+        "AJAX_two_and_five_args_unchanged": true,
+        "JS_reachability_not_evaluated": true
+      }
+    },
+    {
+      "id": "IMP-T008",
+      "status": "completed",
+      "obligation_TO_BE": "Distinguish required failures from valid optional absence; a raw false may represent no requested route.",
+      "successful_input_counterexample": {
+        "steps": [
+          {
+            "required": true,
+            "status": "SUCCESS"
+          },
+          {
+            "required": false,
+            "status": "SKIPPED"
+          }
+        ],
+        "all_requested_operations_successful": true
+      },
+      "weak_repair_outcome": {
+        "AND_all_raw_bools": false,
+        "rejects_successful_optional_absence": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "optional_false_already_documented_no_new_delta",
+      "negative_controls": {
+        "required_step_cannot_be_skipped": true,
+        "neutral_fold_identity_must_be_explicit": true
+      }
+    },
+    {
+      "id": "IMP-T009",
+      "status": "completed",
+      "obligation_TO_BE": "Separate matched/changed rows and allowed no-op; affected-row zero alone cannot mean missing/unauthorized.",
+      "successful_input_counterexample": {
+        "row_exists": true,
+        "already_at_target": true,
+        "same_values_and_timestamp_granularity": true,
+        "changed_rows": 0,
+        "allowed_noop_policy": true,
+        "statement_successful": true
+      },
+      "weak_repair_outcome": {
+        "if_changed_rows_gt_zero_else_error": "error for an allowed unchanged row"
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "NEW_REPAIR_IMPROVEMENT_RPR_IMP_001",
+      "negative_controls": {
+        "if_noop_forbidden_use_explicit_outcome": true,
+        "CLIENT_FOUND_ROWS_configuration_not_assumed": true,
+        "timestamp_and_business_policy_unverified": true
+      }
+    },
+    {
+      "id": "IMP-T010",
+      "status": "completed",
+      "obligation_TO_BE": "Calendar, format and absence are separate obligations; accepted empty input must not silently become1900.",
+      "successful_input_counterexample": {
+        "contract_format": "DD/MM/YYYY for this example",
+        "valid": "18/11/2026",
+        "absence_allowed": true
+      },
+      "weak_repair_outcome": {
+        "regex_only_accepts_impossible_date": true,
+        "sentinel_changes_absence_meaning": "1900-01-01"
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "known_date_obligation_reinforced",
+      "negative_controls": {
+        "actual_format_and_null_policy_require_agreement": true,
+        "ISO_not_silently_sentinel": true
+      }
+    },
+    {
+      "id": "CLR-IMP-001",
+      "status": "completed",
+      "obligation_TO_BE": "Classify observed data loss independently from successful DELETE statement and arity error.",
+      "successful_input_counterexample": {
+        "delete_statement_successful": true,
+        "affected_rows": 0,
+        "later_arity_error": true
+      },
+      "weak_repair_outcome": {
+        "logging_every_later_error_as_data_loss": true
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "accepted_precision_reinforced",
+      "negative_controls": {
+        "positive_affected_rows_and_commit_required_for_loss": true
+      }
+    },
+    {
+      "id": "CLR-IMP-002",
+      "status": "completed",
+      "obligation_TO_BE": "Check presence, not truthiness of first matching index; preserve repeated26 condition.",
+      "successful_input_counterexample": {
+        "valid_repeated_ids": [
+          26,
+          26
+        ],
+        "first_match": 0
+      },
+      "weak_repair_outcome": {
+        "bool_first_index": false
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "accepted_precision_reinforced",
+      "negative_controls": {
+        "first_match_after0_also_detected": true,
+        "no_business_terminal_semantics_assumed": true
+      }
+    },
+    {
+      "id": "CLR-IMP-003",
+      "status": "completed",
+      "obligation_TO_BE": "Define return contract before testing it; implicit NULL is not an operation outcome.",
+      "successful_input_counterexample": {
+        "all_child_statements_successful": true,
+        "implicit_return": null
+      },
+      "weak_repair_outcome": {
+        "adding_if_not_legacy_child": "rejects the successful operation"
+      },
+      "sufficient_candidate_satisfies_witness": true,
+      "delta_classification": "accepted_precision_reinforced",
+      "negative_controls": {
+        "NULL_not_reclassified_as_SUCCESS_for_required_unknown_work": true
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "OPS-001",
+      "controls": {
+        "single_insert_has_no_identity_collision": true,
+        "category_filter_does_not_replace_operation_key": true
+      }
+    },
+    {
+      "id": "OPS-002",
+      "controls": {
+        "empty_requires_explicit_policy": true,
+        "successful_last_item_alone_does_not_prove_all": true
+      }
+    },
+    {
+      "id": "OPS-003",
+      "controls": {
+        "no_claim_empty_is_always_business_invalid": "contract dependent",
+        "zero_affected_delete_does_not_prove_loss": true
+      }
+    },
+    {
+      "id": "OPS-004",
+      "controls": {
+        "all_groups_created_final_snapshot_can_be_consistent": true,
+        "one_group_batch_is_valid": true
+      }
+    },
+    {
+      "id": "OPS-005",
+      "controls": {
+        "if_repeats_forbidden_validate_instead_of_silent_collapse": true,
+        "physical_milestone_truth_not_modeled": true
+      }
+    },
+    {
+      "id": "OPS-006",
+      "controls": {
+        "integer26_also_recognized": true,
+        "invalid_suffix_rejected": true,
+        "runtime_ID_type_not_verified": true
+      }
+    },
+    {
+      "id": "OPS-007",
+      "controls": {
+        "scale_and_rounding_policy_not_approved": true,
+        "zero_total_with_zero_amounts_can_be_valid": true
+      }
+    },
+    {
+      "id": "OPS-008",
+      "controls": {
+        "ordering_LIMIT1_does_not_establish_active_unique": true,
+        "redirect_is_not_result_contract": true
+      }
+    },
+    {
+      "id": "OPS-009",
+      "controls": {
+        "AJAX_two_and_five_args_unchanged": true,
+        "JS_reachability_not_evaluated": true
+      }
+    },
+    {
+      "id": "IMP-T008",
+      "controls": {
+        "required_step_cannot_be_skipped": true,
+        "neutral_fold_identity_must_be_explicit": true
+      }
+    },
+    {
+      "id": "IMP-T009",
+      "controls": {
+        "if_noop_forbidden_use_explicit_outcome": true,
+        "CLIENT_FOUND_ROWS_configuration_not_assumed": true,
+        "timestamp_and_business_policy_unverified": true
+      }
+    },
+    {
+      "id": "IMP-T010",
+      "controls": {
+        "actual_format_and_null_policy_require_agreement": true,
+        "ISO_not_silently_sentinel": true
+      }
+    },
+    {
+      "id": "CLR-IMP-001",
+      "controls": {
+        "positive_affected_rows_and_commit_required_for_loss": true
+      }
+    },
+    {
+      "id": "CLR-IMP-002",
+      "controls": {
+        "first_match_after0_also_detected": true,
+        "no_business_terminal_semantics_assumed": true
+      }
+    },
+    {
+      "id": "CLR-IMP-003",
+      "controls": {
+        "NULL_not_reclassified_as_SUCCESS_for_required_unknown_work": true
+      }
+    }
+  ],
+  "technique": "counterfactual repair-obligation/discriminating success witnesses; Hoare-style postconditions on proposed TO-BE contracts",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reviewed_known_ids": [
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003"
+  ],
+  "limitations": [
+    "Review bounded to9OPS+6accepted improvements; two further TO-BE proposals, no new OPS IDs or global convergence.",
+    "Candidate repairs are logical models, not implemented PHP/SQL changes or approved requirements.",
+    "No runtime, query fault injection, MySQL, DB/network, sessions or browser/navigation outputs executed or reviewed.",
+    "No universally valid no-op policy, affected-row client flags, actual event-ID representation, timezone or monetary scale inferred.",
+    "Counterexamples with successful inputs show insufficiency of a weak repair; satisfying the listed witness is not a proof for all inputs.",
+    "Original PHP8 signature probes remain prior evidence; PHP5.4 not executed.",
+    "PinP95fe9a4is historical, not latestPeru; observed2a179e2is not audited. No refs changed.",
+    "IMP-SCOPE001 belongs to principal; not duplicated as an operational improvement. Ledger not compiled here."
+  ],
+  "reproduction_code": "import json,subprocess,re,datetime\nfrom decimal import Decimal\nfrom pathlib import Path\nSRC=Path('C:/repos/proveedores-github-review-20261118')\nM='a8ce2c23dead8552d2c4699e4a9b9134f7a18707'\nfiles={\n'C':'index_archivos/embarques/CostosClass.php',\n'T':'index_archivos/tracking/TrackingNewClass.php',\n'E':'index_archivos/tracking/ListaViajesClass.php',\n'H':'index_archivos/tracking/HerramientasClass.php',\n'Q':'index_archivos/embarques/CotizacionClass.php',\n'L':'index_archivos/embarques/EmbarqueClass.php',\n'MC':'index_archivos/embarques/embarquesController.php'}\ns={k:subprocess.check_output(['git','show',M+':'+p],cwd=SRC).decode('utf-8') for k,p in files.items()}\nassert 'if ($statusSave)' in s['T'] and '$statusSave = false;' in s['T']\nassert 'if ($rutas->aduanNacionalizacion)' in s['T']\nassert \"array_search(26 , array_column($detalle, 'id'))\" in s['E']\nassert 'tck_asignacion_viaje.updated_at as fecha_estado' in s['E']\nassert 'WHERE id = {$viaje->id}' in s['H']\nchecks=[]\ndef put(id,obligation,witness,weak,candidate,verdict,controls):\n    assert candidate is True,id\n    checks.append(dict(id=id,status='completed',obligation_TO_BE=obligation,\n        successful_input_counterexample=witness,weak_repair_outcome=weak,\n        sufficient_candidate_satisfies_witness=candidate,delta_classification=verdict,negative_controls=controls))\n# No SQL calls, failed queries or query-return schedules occur below.\n# Models are candidate repairs, NOT application implementations or approved policies.\nown_id=101; last_id_after_other_work=102\nput('OPS-001','Preserve operation identity across notifications/other statements; same connection and capture before collaborators.',\n    {'all_inserts_successful':True,'own_insert':101,'later_insert_on_same_connection':102},\n    {'capture_after_collaborator':last_id_after_other_work,'matches_own':False},\n    own_id==101,'known_obligation_reinforced',\n    {'single_insert_has_no_identity_collision':True,'category_filter_does_not_replace_operation_key':True})\nrequired=[True,True]\nacc=False\nfor v in required:acc=acc and v\ngood=bool(required) and all(required)\nput('OPS-002','Conjunction must use a valid neutral element and an explicit empty-list policy; do not initialize an AND reduction with false.',\n    {'required_operations':'all successful','nonempty_locations':True}, {'false_seed_fold':acc,'rejects_success':not acc},\n    good,'fold_identity_precision_already_within_known_accumulation_remedy',\n    {'empty_requires_explicit_policy':True,'successful_last_item_alone_does_not_prove_all':True})\ndescription='VEHICLE-A'\nput('OPS-003','Repair signature and preserve/validate the required description before destructive replacement.',\n    {'old_load_exists':True,'valid_description':description,'all_writes_successful':True},\n    {'default_empty_argument_avoids_arity_but_erases_description':True},\n    len([1,2,3,4,description])==5 and description=='VEHICLE-A','known_obligation_reinforced',\n    {'no_claim_empty_is_always_business_invalid':'contract dependent','zero_affected_delete_does_not_prove_loss':True})\ncreated={1};marked_weak={1,2};marked_candidate=set(created)\nput('OPS-004','At group commit, processed rows must belong to confirmed groups; report/account/group identity bound.',\n    {'created_groups':[1],'other_group_not_attempted':2,'all_attempted_operations_successful':True},\n    {'marked':sorted(marked_weak),'contains_uncreated':bool(marked_weak-created)},\n    marked_candidate<=created,'known_obligation_reinforced',\n    {'all_groups_created_final_snapshot_can_be_consistent':True,'one_group_batch_is_valid':True})\nhistory=[{'event_id':3,'registered_id':100},{'event_id':3,'registered_id':101}]\nweak={x['event_id']:x for x in history}\npreserved=list(history)\nput('OPS-005','Identity reconciliation must conserve registered occurrences and pending membership, if repeated event types are allowed.',\n    {'two_successfully_registered_occurrences':history,'repeat_policy':'conditional, not established from DDL'},\n    {'map_by_type_retains_registered_ids':[x['registered_id'] for x in weak.values()],'loses_occurrence':len(weak)<len(history)},\n    len(preserved)==2 and {x['registered_id'] for x in preserved}=={100,101},\n    'repeat_policy_already_explicit_in_OPS005_not_new_finding',\n    {'if_repeats_forbidden_validate_instead_of_silent_collapse':True,'physical_milestone_truth_not_modeled':True})\ndef normalized_event_id(v):\n    if type(v) is int:return v\n    if type(v) is str and re.fullmatch(r'[0-9]+',v):return int(v)\n    raise ValueError('not a validated numeric ID')\nids=['26']\nstrict_weak=any(type(v) is int and v==26 for v in ids)\nnormalized=26 in [normalized_event_id(v) for v in ids]\nput('OPS-006','Membership repair must preserve valid int/string ID representations; strict value equality is not strict search-result comparison.',\n    {'registered_id_representation':'26','all_reads_successful':True,'logical_event_id':26},\n    {'strict_int_membership_recognizes':strict_weak,'regression_for_valid_string_id':not strict_weak},\n    normalized,'NEW_REPAIR_IMPROVEMENT_RPR_IMP_002',\n    {'integer26_also_recognized':normalized_event_id(26)==26,'invalid_suffix_rejected':True,'runtime_ID_type_not_verified':True})\ntry:normalized_event_id('26x');raise AssertionError('must reject suffix')\nexcept ValueError:pass\nput('OPS-007','Recompute totals using an agreed monetary representation/rounding policy, not strict binary-float equality.',\n    {'amounts':['0.10','0.20'],'declared_total':'0.30','all_writes_successful':True},\n    {'binary_float_sum':0.1+0.2,'strict_binary_equality_to_0_3':0.1+0.2==0.3},\n    Decimal('0.10')+Decimal('0.20')==Decimal('0.30'),'precision_already_required_no_new_delta',\n    {'scale_and_rounding_policy_not_approved':True,'zero_total_with_zero_amounts_can_be_valid':True})\nchild_return=None\nexplicit={'status':'CONFIRMED','pedido_id':11,'added':1,'description_synced':True}\nput('OPS-008','Return a defined confirmation contract and choose authorized active order; consume it in caller.',\n    {'all_child_queries_successful':True,'existing_active_order':11},\n    {'not_null_child_check_reports_error':not bool(child_return)},\n    explicit['status']=='CONFIRMED' and explicit['description_synced'],\n    'covered_by_accepted_CLR_IMP003',\n    {'ordering_LIMIT1_does_not_establish_active_unique':True,'redirect_is_not_result_contract':True})\nrows=[{'scope':2,'id':20},{'scope':3,'id':30}]\nselected_wrong=[r for r in rows if r['scope']==None]\nselected_good=[r for r in rows if r['scope']==3]\nput('OPS-009','Supply validated intended scope; adding a default null only fixes arity, not selection semantics.',\n    {'requested_validated_scope':3,'all_queries_successful':True},\n    {'signature_with_default_is_callable':True,'default_null_rows':selected_wrong},\n    selected_good==[{'scope':3,'id':30}],'scope_validation_already_required_no_new_delta',\n    {'AJAX_two_and_five_args_unchanged':True,'JS_reachability_not_evaluated':True})\nsteps=[{'required':True,'status':'SUCCESS'},{'required':False,'status':'SKIPPED'}]\nraw_bool=[True,False]\nvalid=all(x['status']=='SUCCESS' if x['required'] else x['status'] in ['SUCCESS','SKIPPED'] for x in steps)\nput('IMP-T008','Distinguish required failures from valid optional absence; a raw false may represent no requested route.',\n    {'steps':steps,'all_requested_operations_successful':True},\n    {'AND_all_raw_bools':all(raw_bool),'rejects_successful_optional_absence':not all(raw_bool)},\n    valid,'optional_false_already_documented_no_new_delta',\n    {'required_step_cannot_be_skipped':True,'neutral_fold_identity_must_be_explicit':True})\ndef classify_update(matched,changed,already_target,allow_noop):\n    if not matched:return 'NOT_FOUND'\n    if changed:return 'CHANGED'\n    if already_target and allow_noop:return 'NOOP_CONFIRMED'\n    return 'NO_CHANGE_NOT_CONFIRMED'\nnoop=classify_update(True,False,True,True)\nmissing=classify_update(False,False,False,True)\nput('IMP-T009','Separate matched/changed rows and allowed no-op; affected-row zero alone cannot mean missing/unauthorized.',\n    {'row_exists':True,'already_at_target':True,'same_values_and_timestamp_granularity':True,'changed_rows':0,'allowed_noop_policy':True,'statement_successful':True},\n    {'if_changed_rows_gt_zero_else_error':'error for an allowed unchanged row'},\n    noop=='NOOP_CONFIRMED' and missing=='NOT_FOUND','NEW_REPAIR_IMPROVEMENT_RPR_IMP_001',\n    {'if_noop_forbidden_use_explicit_outcome':classify_update(True,False,True,False)=='NO_CHANGE_NOT_CONFIRMED',\n     'CLIENT_FOUND_ROWS_configuration_not_assumed':True,'timestamp_and_business_policy_unverified':True})\nvalid_date=datetime.datetime.strptime('18/11/2026','%d/%m/%Y').date().isoformat()\ntry:datetime.datetime.strptime('31/02/2026','%d/%m/%Y');raise AssertionError('must reject invalid calendar')\nexcept ValueError:pass\nput('IMP-T010','Calendar, format and absence are separate obligations; accepted empty input must not silently become1900.',\n    {'contract_format':'DD/MM/YYYY for this example','valid':'18/11/2026','absence_allowed':True},\n    {'regex_only_accepts_impossible_date':bool(re.fullmatch(r'[0-9]{2}/[0-9]{2}/[0-9]{4}','31/02/2026')),'sentinel_changes_absence_meaning':'1900-01-01'},\n    valid_date=='2026-11-18','known_date_obligation_reinforced',\n    {'actual_format_and_null_policy_require_agreement':True,'ISO_not_silently_sentinel':True})\nput('CLR-IMP-001','Classify observed data loss independently from successful DELETE statement and arity error.',\n    {'delete_statement_successful':True,'affected_rows':0,'later_arity_error':True},\n    {'logging_every_later_error_as_data_loss':True},\n    (0>0) is False,'accepted_precision_reinforced',\n    {'positive_affected_rows_and_commit_required_for_loss':True})\nrepeated=[26,26]\nweak_index=bool(repeated.index(26));good_presence=26 in repeated\nput('CLR-IMP-002','Check presence, not truthiness of first matching index; preserve repeated26 condition.',\n    {'valid_repeated_ids':repeated,'first_match':0},\n    {'bool_first_index':weak_index},\n    good_presence,'accepted_precision_reinforced',\n    {'first_match_after0_also_detected':True,'no_business_terminal_semantics_assumed':True})\nput('CLR-IMP-003','Define return contract before testing it; implicit NULL is not an operation outcome.',\n    {'all_child_statements_successful':True,'implicit_return':None},\n    {'adding_if_not_legacy_child':'rejects the successful operation'},\n    explicit['status']=='CONFIRMED','accepted_precision_reinforced',\n    {'NULL_not_reclassified_as_SUCCESS_for_required_unknown_work':True})\nassert len(checks)==15 and len({x['id'] for x in checks})==15\nprint(json.dumps(dict(technique='counterfactual repair-obligation/discriminating success witnesses; Hoare-style postconditions on proposed TO-BE contracts',\nsource_commit=M,checks=checks,negative_controls=[{'id':x['id'],'controls':x['negative_controls']} for x in checks],\ncandidate_improvement_checks=[x['id'] for x in checks if x['delta_classification'].startswith('NEW_REPAIR_')],\napplication_executed=False,queries_or_query_failure_injection=False,database=False,network=False,session=False),ensure_ascii=False))\n",
+  "reproduction_command": "python -X utf8 -B -c \"import json; from pathlib import Path; d=json.loads(Path('knowledge/reviews/iterative-20261118/closure-repair-obligations.json').read_text(encoding='utf-8')); exec(compile(d['reproduction_code'], '<repair-obligations-review>', 'exec'))\"",
+  "sequence": {
+    "after_OPS009_acceptance": true,
+    "after_CLR_IMP001_003_acceptance": true,
+    "previous_pass6_positive_with_delta_preserved": true,
+    "principal_pass7_scope_note_acknowledged": true,
+    "comparison_pin_not_latest": true,
+    "review_of_new_Peru_head": false
+  },
+  "contextual_scope_note": {
+    "id": "IMP-SCOPE001",
+    "owner": "principal",
+    "artifact": "source-audits/master/2026-11-18/iterative/remote-refs-observation.json",
+    "observed_at_utc": "2026-11-18T20:43:09.902803+00:00",
+    "comparison_pin": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "observed_new_peru_head": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "meaning": "P is the immutable historical comparison pin, not the latest Peru head. Newly observed head is not audited.",
+    "new_head_audited": false,
+    "refs_changed_by_this_task": false
+  },
+  "summary": {
+    "known_OPS_reviewed": 9,
+    "accepted_improvements_reviewed": 6,
+    "completed_checks": 15,
+    "proposed_additional_improvements": 2,
+    "added_OPS_ids": [],
+    "zero_delta_claim": false,
+    "accepted_additional_improvements": 2
+  },
+  "obligation_interpretation": "Each completed check constructs a successful input/statement or valid optional/no-op case. Weak repairs are hypothetical, not application changes. Candidate repair predicates satisfy the witness; that is not proof of universal correctness or policy approval.",
+  "dedup_decisions": [
+    {
+      "id": "OPS-002",
+      "result": "Neutral AND identity is a required implementation detail of the already proposed accumulation repair; no separate new finding."
+    },
+    {
+      "id": "OPS-005",
+      "result": "Retain registered occurrence IDs if repetitions allowed; existing repair already requires deciding representation of repetitions."
+    },
+    {
+      "id": "OPS-007",
+      "result": "Binary float equality can reject0.10+0.20, already covered by agreed monetary precision requirement."
+    },
+    {
+      "id": "OPS-008/CLR-IMP-003",
+      "result": "NULL success rejection already accepted in pass6; not recounted."
+    },
+    {
+      "id": "OPS-009",
+      "result": "Default null avoids arity but breaks scope selection; existing validated-scope requirement covers it."
+    },
+    {
+      "id": "IMP-T008/IMP-T010",
+      "result": "Optional absence and separate calendar/absence policy already explicit; useful counterexamples without additional registry IDs."
+    }
+  ],
+  "safety": {
+    "application_source_modified": false,
+    "application_code_executed": false,
+    "SQL_or_failure_schedule_executed": false,
+    "network": false,
+    "database": false,
+    "session_persistence": false,
+    "browser_navigation_outputs_reviewed": false,
+    "git_refs_changed": false,
+    "commits": false,
+    "pushes": false,
+    "ledger_compiled": false
+  },
+  "acceptance": {
+    "user_pass": 8,
+    "positive": true,
+    "delta_count": 2,
+    "accepted_registry_ids": [
+      "RPR-IMP-001",
+      "RPR-IMP-002"
+    ],
+    "zero_delta": false,
+    "canonical_approval": false
+  },
+  "fingerprint": {
+    "status": "VERIFIED_FINAL",
+    "registry": "knowledge/general/operational-findings.json",
+    "algorithm": "sha256",
+    "canonicalization": "json.dumps(registry,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')",
+    "semantic_sha256": "d33217adea4a559f1bcf0b9047238f7e6aa2b8fd5884569e50c7cf18d7705ca5",
+    "file_sha256": "d3e9fd249007bfdc15bb5a104e8d5e531e56dfde53f7f7223ec5788e892d3bb1"
+  },
+  "final_artifact_validation": {
+    "own_records": 17,
+    "OPS": 9,
+    "own_accepted_improvements": 8,
+    "semantic_records_reviewed": 21,
+    "accepted_external_BR_records": 4,
+    "registry_evidence_ranges_verified": 79,
+    "semantic_evidence_ranges_verified": 107,
+    "evidence_commit_file_pairs": 32,
+    "distinct_evidence_source_paths": 22,
+    "baseline_claim_ranges": 10,
+    "own_files_UTF8_checked": 15,
+    "parsed_strings_checked_before_seal": 2857,
+    "reversible_mojibake_remaining": 0,
+    "markdown_links_resolve": true,
+    "reproduction_codes_compile": true,
+    "ledger_compiled": false
+  }
+}

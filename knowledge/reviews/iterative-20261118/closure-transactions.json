@@ -1,0 +1,946 @@
+{
+  "schema_version": "1.0",
+  "phase": "POST_ACCEPTANCE_OPS009_INDEPENDENT_BOUNDED_REVIEW",
+  "status": "PASADA_CON_DELTA_ACCEPTED_USER_PASS6",
+  "new_findings": [],
+  "improvements": [
+    {
+      "id": "CLR-IMP-001",
+      "classification": "material_scope_precision",
+      "related_known_ids": [
+        "OPS-003"
+      ],
+      "title": "El éxito del DELETE no demuestra filas borradas ni pérdida de carga",
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1517,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "observation": "El retorno comprobado es éxito de sentencia, sin consulta de filas afectadas. El contraejemplo con DELETE aceptado y0filas alcanza la llamada4/5 igualmente, pero no borra carga previa. La condición de pérdida requiere filas coincidentes y efecto confirmado.",
+      "novelty": "La pasada anterior comparó DELETEtrue/false; esta pasada distingue efecto0/positivo con sentencia exitosa, sin inyectar fallos.",
+      "action": "Añadir precondición explícita de carga existente/coincidente y separar error de aridad de pérdida persistente. No interpretar la excepción como comprobación de borrado.",
+      "dedup_rationale": "Precisión del impacto de OPS-003; no otro hallazgo de aridad ni nueva entrada OPS.",
+      "validation_check": "OPS-003",
+      "notified_to_user": true
+    },
+    {
+      "id": "CLR-IMP-002",
+      "classification": "material_counterexample_extension",
+      "related_known_ids": [
+        "OPS-006"
+      ],
+      "title": "La primera coincidencia26 en índice0 oculta también repeticiones posteriores",
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "observation": "Sobre90historiales con26 de longitud1..4,40no activan la guardia;25de ellos tienen otro26posterior. array_search devuelve la primera coincidencia, no basta con que exista26fuera del índice0.",
+      "novelty": "La prueba diferencial anterior usó[26] frente a[3,26]. El nuevo dominio enumera repeticiones y descubre la clase[26,26] y sus extensiones.",
+      "action": "Ampliar caracterización para la primera coincidencia y repeticiones; evitar una especificación de presencia basada en una posición no inicial aislada.",
+      "dedup_rationale": "Misma causa de OPS-006. Distinta de la mezcla de pendientes OPS-005; no se infiere significado de negocio de26.",
+      "validation_check": "OPS-006",
+      "notified_to_user": true
+    },
+    {
+      "id": "CLR-IMP-003",
+      "classification": "material_return_contract_precision",
+      "related_known_ids": [
+        "OPS-008"
+      ],
+      "title": "Comprobar un retorno booleano inexistente también rechazaría adiciones exitosas",
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "observation": "crearPedidosDetalle llega al final sin return aun con todas las sentencias exitosas: devuelveNULL implícito. Una corrección ingenua if(!crearPedidosDetalle(...)) detectaría también los éxitos como error. Seleccionar un pedido activo/único es una obligación separada; ordenar LIMIT1por sí solo no la cumple.",
+      "novelty": "Se sustituye la agenda previa de fallos por prueba de totalidad del retorno y selección relacional con operaciones exitosas. Hace explícito un criterio de corrección que no estaba en la caracterización de fallos.",
+      "action": "Definir antes un resultado explícito de detalle/conciliación y consumirlo en padre/controlador; no añadir solo un if sobre el actual retornoNULL.",
+      "dedup_rationale": "Profundiza el TO-BE de OPS-008; ausencia de resultado y selección ya pertenecen a esa entrada. No se añade OPS-010.",
+      "validation_check": "OPS-008",
+      "notified_to_user": true
+    }
+  ],
+  "technique": "pinned-source def-use/postcondition review + finite relational selection + bounded metamorphic data models; no query fault injection",
+  "reviewed_known_ids": [
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009"
+  ],
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reference_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "sequence": {
+    "integration_completed_before_review": true,
+    "ops009_accepted_before_review": true,
+    "prior_fault_injection_not_rerun": true,
+    "principal_census_not_claimed_as_own_new_review": true
+  },
+  "checks": [
+    {
+      "id": "OPS-001",
+      "method": "finite relational predicate/key review",
+      "bound": {
+        "fixtures": 16,
+        "other_rows": 1
+      },
+      "observation": {
+        "wrong_identity_count": 2,
+        "same_category_still_wrong": 1,
+        "witness": {
+          "ship": 33,
+          "creator": 11,
+          "category": 1,
+          "visible": true,
+          "selected": 102
+        },
+        "static_obligation": "SELECT filters shipment/creator, not insertion identity; adding category alone is insufficient."
+      },
+      "negative_control": {
+        "different_shipment_or_creator_never_selected": true,
+        "single_row_selects_own": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-002",
+      "method": "static def-use and return postcondition derivation",
+      "bound": {
+        "assignment_sites": 2,
+        "source_lines": [
+          1192,
+          1239
+        ]
+      },
+      "observation": {
+        "assignments": [
+          "false",
+          "self::subItems($location,$lastId,$idEmbarque,$idOperador,$info)"
+        ],
+        "return_formula": "false if no successful location INSERT; otherwise the subItems return of the last successful location INSERT.",
+        "missing_postcondition": "No conjunction quantifies every required location/item write. Failed location INSERT has no assignment/reset path."
+      },
+      "negative_control": {
+        "all_successful_nonempty_returns_true": "conditional on ordinary true SQL returns",
+        "empty_returns_false": true,
+        "exception_path_not_covered_by_boolean_formula": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-003",
+      "method": "signature obligation and dominance/order review",
+      "bound": {
+        "required_parameters": 5,
+        "actual_arguments": 4
+      },
+      "observation": {
+        "delete_precedes_invalid_call": true,
+        "required_argument_absent": "$descripcionMercancia",
+        "catch_type": "Exception, not Throwable",
+        "conditional_runtime": "PHP8 behavior is prior evidence, not re-executed here.",
+        "all_successful_statement_effect_counterexamples": [
+          {
+            "affected_rows": 0,
+            "query_return": true,
+            "invalid_call_reached": true,
+            "prior_load_removed": false
+          },
+          {
+            "affected_rows": 1,
+            "query_return": true,
+            "invalid_call_reached": true,
+            "prior_load_removed": true
+          }
+        ],
+        "deletion_loss_precondition": "Matching prior load rows and confirmed DELETE effect; query true alone does not prove loss."
+      },
+      "negative_control": {
+        "creation_call_supplies_description": true,
+        "delete_false_branch_does_not_reach_invalid_call": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-004",
+      "method": "relational selection cardinality and intermediate invariant",
+      "bound": {
+        "rows": 8,
+        "groups_in_target_batch": 2
+      },
+      "observation": {
+        "actual_marked_groups": [
+          1,
+          2
+        ],
+        "confirmed_groups_at_snapshot": [
+          1
+        ],
+        "premature_groups": [
+          2
+        ],
+        "late_total_success_does_not_prove_intermediate_correctness": true
+      },
+      "negative_control": {
+        "other_accounts_or_batches_excluded": true,
+        "single_group_batch_obeys_inclusion": true,
+        "all_groups_eventually_created_can_have_correct_final_state": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-005",
+      "method": "bounded metamorphic multiset/pending-event conservation",
+      "bound": {
+        "remote_permutations": 6,
+        "history_lengths": "0..4",
+        "history_ids": [
+          3,
+          5,
+          7
+        ],
+        "configurations": 726
+      },
+      "observation": {
+        "pending_conservation_violations": 450,
+        "witness": {
+          "remote": [
+            3,
+            5,
+            7
+          ],
+          "detail": [
+            5
+          ],
+          "pending": [
+            5,
+            7
+          ],
+          "required_pending": [
+            3,
+            7
+          ]
+        },
+        "source_model_only": "History rows retained; only pending membership is compared, not physical milestone truth."
+      },
+      "negative_control": {
+        "exact_unique_prefix_controls": 24,
+        "prefix_controls_valid": 24,
+        "empty_catalog_preserves_history": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-006",
+      "method": "bounded membership/permutation invariance",
+      "bound": {
+        "histories_with_26": 90,
+        "lengths": "1..4",
+        "ids": [
+          3,
+          5,
+          26
+        ]
+      },
+      "observation": {
+        "presence_not_respected": 40,
+        "with_repeated26_also_missed": 25,
+        "repeated_witness": [
+          26,
+          26
+        ],
+        "stronger_condition": "First matching occurrence at index0 disables guard even if another26 exists later."
+      },
+      "negative_control": {
+        "all_histories_with_first_match_after0_guard_true": true,
+        "empty_remote_exits_before_guard": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-007",
+      "method": "bounded numeric-field independence and exact-decimal conservation",
+      "bound": {
+        "amount_domain": [
+          "0",
+          "0.10",
+          "1.25"
+        ],
+        "concepts": 2,
+        "tuples": 27
+      },
+      "observation": {
+        "inconsistent_tuples_not_bound_by_source_check": 22,
+        "witness": {
+          "amounts": [
+            "0",
+            "0"
+          ],
+          "header_total": "0.10",
+          "required_total": "0"
+        },
+        "scope": "No conclusion about allowed signs, FX, rounding policy or real constraints."
+      },
+      "negative_control": {
+        "coherent_tuples": 5,
+        "zero_total_for_zero_details_is_not_itself_an_error": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-008",
+      "method": "return-totality, selection nondeterminism and caller consumption",
+      "bound": {
+        "orders_for_same_shipment": 2,
+        "all_statements_assumed_successful": true
+      },
+      "observation": {
+        "legal_LIMIT1_results_without_order": [
+          10,
+          11
+        ],
+        "one_legal_result_is_deleted_order": 10,
+        "child_return_on_success": "implicit NULL",
+        "parent_success_depends_on": "header UPDATE bool and absence of abort",
+        "caller_consumption": "result assigned then ignored by redirect",
+        "proof_boundary": "No assertion that DB chooses10; query admits it absent extra constraints. Adding ORDER BY alone cannot establish active/unique order."
+      },
+      "negative_control": {
+        "sole_active_existing_order_can_work": true,
+        "empty_nuevoschasis_skips_child": true,
+        "successful_child_still_returns_NULL_so_naive_if_not_child_fix_is_wrong": true
+      },
+      "status": "completed"
+    },
+    {
+      "id": "OPS-009",
+      "method": "call-site parameter binding and route-specific negative control",
+      "bound": {
+        "required": 2,
+        "mostrartabla_supplied": 1,
+        "ajax_supplied": [
+          5,
+          2
+        ]
+      },
+      "observation": {
+        "missing_parameter": "$logistica",
+        "request_t_does_not_bind_formal_parameter": true,
+        "no_body_or_controller_execution": true,
+        "candidate_JS_reachability": "not evaluated"
+      },
+      "negative_control": {
+        "both_ajax_call_arities_satisfy_signature": true,
+        "no_claim_main_ajax_list_fails": true
+      },
+      "status": "completed"
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "OPS-001",
+      "controls": {
+        "different_shipment_or_creator_never_selected": true,
+        "single_row_selects_own": true
+      }
+    },
+    {
+      "id": "OPS-002",
+      "controls": {
+        "all_successful_nonempty_returns_true": "conditional on ordinary true SQL returns",
+        "empty_returns_false": true,
+        "exception_path_not_covered_by_boolean_formula": true
+      }
+    },
+    {
+      "id": "OPS-003",
+      "controls": {
+        "creation_call_supplies_description": true,
+        "delete_false_branch_does_not_reach_invalid_call": true
+      }
+    },
+    {
+      "id": "OPS-004",
+      "controls": {
+        "other_accounts_or_batches_excluded": true,
+        "single_group_batch_obeys_inclusion": true,
+        "all_groups_eventually_created_can_have_correct_final_state": true
+      }
+    },
+    {
+      "id": "OPS-005",
+      "controls": {
+        "exact_unique_prefix_controls": 24,
+        "prefix_controls_valid": 24,
+        "empty_catalog_preserves_history": true
+      }
+    },
+    {
+      "id": "OPS-006",
+      "controls": {
+        "all_histories_with_first_match_after0_guard_true": true,
+        "empty_remote_exits_before_guard": true
+      }
+    },
+    {
+      "id": "OPS-007",
+      "controls": {
+        "coherent_tuples": 5,
+        "zero_total_for_zero_details_is_not_itself_an_error": true
+      }
+    },
+    {
+      "id": "OPS-008",
+      "controls": {
+        "sole_active_existing_order_can_work": true,
+        "empty_nuevoschasis_skips_child": true,
+        "successful_child_still_returns_NULL_so_naive_if_not_child_fix_is_wrong": true
+      }
+    },
+    {
+      "id": "OPS-009",
+      "controls": {
+        "both_ajax_call_arities_satisfy_signature": true,
+        "no_claim_main_ajax_list_fails": true
+      }
+    }
+  ],
+  "source_files_lf_utf8_sha256": {
+    "index_archivos/embarques/CostosClass.php": "60a26bbba7eb697efef832df54b86a7b6f5675c260bece2119d146c70cf687d2",
+    "index_archivos/tracking/TrackingNewClass.php": "8d537b45ac2231a29ea9e117bb5b4942dca9e661a6efe3a585787c9e8a3fe25b",
+    "index_archivos/tracking/controllers/CargaMasiva.php": "c294471feaff9ad1a7bc01ebb54096e9bf39ef36aa4e0c8406ec0b662e3ad444",
+    "index_archivos/tracking/ListaViajesClass.php": "1847cfff7c1588d635560f6b86c5cdde704e35da1556c6d376afd8efbbfcbfdf",
+    "index_archivos/embarques/CotizacionClass.php": "4f47ecd811882f5d91d6104b0624578774cb116a79af9360e00ea3c12b8c0a03",
+    "index_archivos/embarques/editarController.php": "3a118a5c7cc1162e5999cc93f9eafd48ad35198e7b4c17800e89e6c71e8e7007",
+    "index_archivos/embarques/embarquesController.php": "8c6abf222dc4f3b5cf23c4f0edd9d7d6557ae3ef3266977e8faf960834bd47d5",
+    "index_archivos/embarques/EmbarqueClass.php": "5c7c73da020c9a781044c70a64f2001d7315aeb1e0a92009a40ffcec9cb182ad",
+    "index_archivos/embarques/ajax/listaEmbarques.php": "f2aae2dd3c15e400795bef8cde578809bf2611bd5520b4fd8ffd267304285a15"
+  },
+  "evidence_by_known_id": [
+    {
+      "id": "OPS-001",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 592,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 415,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 594,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-002",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1192,
+          "line_end": 1239,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 214,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1592,
+          "line_end": 1600,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1227,
+          "line_end": 1239,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-003",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 257,
+          "line_end": 285,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1189,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/editar_asignacion.php",
+          "line_start": 68,
+          "line_end": 76,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1168,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-004",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 361,
+          "line_end": 367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 208,
+          "line_end": 226,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 23,
+          "line_end": 29,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 597,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-005",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-006",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 159,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-007",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/ajax/guardar-costos.php",
+          "line_start": 1,
+          "line_end": 8,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 355,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 414,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/costos/card-component.js",
+          "line_start": 106,
+          "line_end": 113,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 590,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-008",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/editar.php",
+          "line_start": 110,
+          "line_end": 122,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+          "line_start": 4,
+          "line_end": 23,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 25,
+          "line_end": 33,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 54,
+          "line_end": 56,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 27,
+          "line_end": 38,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 59,
+          "line_end": 63,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1209,
+          "line_end": 1223,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 680,
+          "line_end": 694,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1288,
+          "line_end": 1309,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "OPS-009",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 16,
+          "line_end": 22,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 129,
+          "line_end": 135,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosCotizacion.js",
+          "line_start": 153,
+          "line_end": 163,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+          "line_start": 40,
+          "line_end": 42,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 18,
+          "line_end": 20,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 173,
+          "line_end": 179,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    }
+  ],
+  "bounded_results": {
+    "OPS001_relational_fixtures": 16,
+    "OPS005_configurations": 726,
+    "OPS005_counterexamples": 450,
+    "OPS005_prefix_controls": 24,
+    "OPS006_histories": 90,
+    "OPS006_missed_presence": 40,
+    "OPS006_repeated26_missed": 25,
+    "OPS007_numeric_tuples": 27,
+    "OPS007_inconsistent": 22,
+    "interpretation": "Conteos de modelos finitos sobre datos sintéticos y fuente contrastada; no son frecuencias de producción ni tests de PHP/MySQL. Se mantienen defectos aceptados, no se contabilizan otra vez como nuevos."
+  },
+  "dedup_review": [
+    {
+      "ids": [
+        "OPS-001",
+        "OPS-007"
+      ],
+      "result": "Identidad elegida por SELECT frente a suma cabecera/detalle; no son SQLi ni el falso éxito genérico RN-40."
+    },
+    {
+      "ids": [
+        "OPS-002",
+        "OPS-003"
+      ],
+      "result": "Retorno del acumulador frente a firma inválida posterior a DELETE; RN-21/23 genéricos no los sustituyen."
+    },
+    {
+      "ids": [
+        "OPS-004"
+      ],
+      "result": "Conjunto de filas marcadas antes de completar todos los grupos; distinto del agregador RN-33 que ignora códigos."
+    },
+    {
+      "ids": [
+        "OPS-005",
+        "OPS-006"
+      ],
+      "result": "Conservación de pendientes frente a guardia por primera coincidencia; causas y controles independientes."
+    },
+    {
+      "ids": [
+        "OPS-008"
+      ],
+      "result": "Edición de pedido existente separada de alta RN-14/15; no se infiere autorización real ni se separa cada retorno ignorado en un hallazgo."
+    },
+    {
+      "ids": [
+        "OPS-009",
+        "OPS-003",
+        "RN-34"
+      ],
+      "result": "Tres sitios de aridad: uno nuevo aceptado por principal, otroOPSexistente y otrobaseline. No tres nuevos hallazgos del censo."
+    }
+  ],
+  "limitations": [
+    "Acotado a los nueveIDsaceptados; no cierre global ni aprobación canónica, dominio/release o ausencia global de defectos.",
+    "Los modelos usan dominios explícitos; no ejecutan código PHP, motorSQL, concurrencia, BD, red ni sesión.",
+    "La derivación def-use describe rutas con retornos ordinarios; excepciones, triggers, constraints y autocommit reales desconocidos.",
+    "PHP8/PHP5.4: el comportamiento8es evidencia previa del principal/sidecar; no se repitió runtime ni se probó5.4.",
+    "Modelo LIMIT1describe resultados permitidos por el predicado, no el orden realmente devuelto ni datos existentes.",
+    "Modelos numéricos exactos no deciden política de signos, FX, escala o redondeo de negocio.",
+    "API/IDsde eventos sintéticos;26no se etiqueta como cierre de negocio.",
+    "Salidas de navegador/navegación bloqueadas: no revisadas; candidatoJSdeOPS009sin evaluación de reachability."
+  ],
+  "safety": {
+    "application_code_executed": false,
+    "sql_or_database_access": false,
+    "network": false,
+    "session_persistence": false,
+    "browser_or_navigation_outputs_reviewed": false,
+    "source_edits": false,
+    "commits": false,
+    "pushes": false
+  },
+  "reproduction_code": "import json,re,subprocess,hashlib,itertools\nfrom pathlib import Path\nfrom collections import Counter\nfrom decimal import Decimal\nSOURCE=Path('C:/repos/proveedores-github-review-20261118')\nM='a8ce2c23dead8552d2c4699e4a9b9134f7a18707'\nP='95fe9a4c3b3cddd84be922cc0e1eb9c88603df62'\npaths={\n'C':'index_archivos/embarques/CostosClass.php',\n'T':'index_archivos/tracking/TrackingNewClass.php',\n'B':'index_archivos/tracking/controllers/CargaMasiva.php',\n'E':'index_archivos/tracking/ListaViajesClass.php',\n'Q':'index_archivos/embarques/CotizacionClass.php',\n'EC':'index_archivos/embarques/editarController.php',\n'MC':'index_archivos/embarques/embarquesController.php',\n'L':'index_archivos/embarques/EmbarqueClass.php',\n'A':'index_archivos/embarques/ajax/listaEmbarques.php'\n}\ntexts={}\nfor key,path in paths.items():\n    blob=subprocess.check_output(['git','show',M+':'+path],cwd=SOURCE).decode('utf-8').replace('\\r\\n','\\n')\n    assert (SOURCE/path).read_text(encoding='utf-8')==blob,path\n    texts[key]=blob\ndef span(key,start,end):\n    return '\\n'.join(texts[key].splitlines()[start-1:end])\nchecks=[]\ndef put(id,method,domain,observation,control):\n    checks.append(dict(id=id,method=method,bound=domain,observation=observation,negative_control=control,status='completed'))\n# OPS001: relational key sufficiency, no interleaved processes or result scheduling.\nsel=span('C',583,586)\nassert 'lc.embarque_id' in sel and 'created_by' in sel and 'order by lc.id desc LIMIT 1' in sel\nassert 'categoria_id' not in sel and 'lc.id=' not in sel and 'lc.id =' not in sel\nown=dict(id=101,shipment=33,creator=11,category=1,operation='A')\nvariants=[]\nfor ship,creator,category,visible in itertools.product([33,34],[11,12],[1,2],[False,True]):\n    other=dict(id=102,shipment=ship,creator=creator,category=category,operation='B')\n    rows=[own]+([other] if visible else [])\n    selected=max((r for r in rows if r['shipment']==33 and r['creator']==11),key=lambda r:r['id'])\n    variants.append(dict(ship=ship,creator=creator,category=category,visible=visible,selected=selected['id']))\nwrong=[v for v in variants if v['selected']!=101]\nsamecat=[v for v in wrong if v['category']==1]\nput('OPS-001','finite relational predicate/key review',{'fixtures':len(variants),'other_rows':1},\n    {'wrong_identity_count':len(wrong),'same_category_still_wrong':len(samecat),'witness':wrong[0],\n     'static_obligation':'SELECT filters shipment/creator, not insertion identity; adding category alone is insufficient.'},\n    {'different_shipment_or_creator_never_selected':all(v['selected']==101 for v in variants if v['ship']!=33 or v['creator']!=11),'single_row_selects_own':True})\n# OPS002: assignment/dependency proof, not invocation of query failures.\nloc=span('T',1192,1239)\nassignments=re.findall(r'\\$statusSave\\s*=\\s*([^;]+);',loc)\nassert assignments==['false','self::subItems($location,$lastId,$idEmbarque,$idOperador,$info)'],assignments\nassert 'if ($result)' in loc and 'if ($statusSave)' in loc\nput('OPS-002','static def-use and return postcondition derivation',{'assignment_sites':len(assignments),'source_lines':[1192,1239]},\n    {'assignments':assignments,'return_formula':'false if no successful location INSERT; otherwise the subItems return of the last successful location INSERT.',\n     'missing_postcondition':'No conjunction quantifies every required location/item write. Failed location INSERT has no assignment/reset path.'},\n    {'all_successful_nonempty_returns_true':'conditional on ordinary true SQL returns','empty_returns_false':True,\n     'exception_path_not_covered_by_boolean_formula':True})\n# OPS003: independent call/signature shape and statement order, no executed PHP.\nsig=re.search(r'function saveLoad\\s*\\(([^)]*)\\)',texts['T']).group(1).split(',')\nedit=span('T',1581,1589)\nargs=re.search(r'self::saveLoad\\(([^)]*)\\)',edit).group(1).split(',')\nassert len(sig)==5 and all('=' not in p for p in sig) and len(args)==4\nassert edit.index('DELETE FROM')<edit.index('self::saveLoad')\nassert 'catch (Exception $e)' in span('T',281,285)\ndelete_effects=[dict(affected_rows=n,query_return=True,invalid_call_reached=True,prior_load_removed=n>0) for n in [0,1]]\ngood_call=span('T',200,200)\nassert 'descripcionMercancia' in good_call\nput('OPS-003','signature obligation and dominance/order review',{'required_parameters':len(sig),'actual_arguments':len(args)},\n    {'delete_precedes_invalid_call':True,'required_argument_absent':sig[-1].strip(),'catch_type':'Exception, not Throwable',\n     'conditional_runtime':'PHP8 behavior is prior evidence, not re-executed here.',\n     'all_successful_statement_effect_counterexamples':delete_effects,\n     'deletion_loss_precondition':'Matching prior load rows and confirmed DELETE effect; query true alone does not prove loss.'},\n    {'creation_call_supplies_description':True,'delete_false_branch_does_not_reach_invalid_call':True})\n# OPS004: set inclusion at an intermediate batch snapshot, all eventual writes may succeed.\nupd=span('B',574,575)\nassert 'idcargado' in upd and 'idusuarioaccesoproveedor' in upd and 'numero_viaje' not in upd\nrows=[dict(batch=b,user=u,group=g) for b,u,g in itertools.product([88,89],[22,23],[1,2])]\nactual=[r for r in rows if r['batch']==88 and r['user']==22]\nexpected=[r for r in actual if r['group']==1]\nput('OPS-004','relational selection cardinality and intermediate invariant',{'rows':len(rows),'groups_in_target_batch':2},\n    {'actual_marked_groups':[r['group'] for r in actual],'confirmed_groups_at_snapshot':[1],\n     'premature_groups':[r['group'] for r in actual if r not in expected],\n     'late_total_success_does_not_prove_intermediate_correctness':True},\n    {'other_accounts_or_batches_excluded':True,'single_group_batch_obeys_inclusion':True,\n     'all_groups_eventually_created_can_have_correct_final_state':True})\n# OPS005: metamodel of a deterministic array operation, no application/DB execution.\nevent=span('E',157,190)\nassert '$eventos[$i] = $detalle[$i];' in event\nassert 'for ($j = $i; $j < count($eventos); $j++)' in event\nassert \"ORDER BY fecharegistro ASC\" in span('E',387,409)\ndef merge_model(remote,detail):\n    if not remote:return [('registered',x) for x in detail]\n    if 26 in detail and detail.index(26)!=0:return [('registered',x) for x in detail]\n    return [('registered',x) for x in detail]+[('pending',x) for x in remote[len(detail):]]\ntotal=0;violations=[];prefix_controls=0;prefix_valid=0\nfor remote in itertools.permutations([3,5,7]):\n    for n in range(5):\n        for detail in itertools.product([3,5,7],repeat=n):\n            total+=1\n            out=merge_model(remote,detail)\n            pending=[x for kind,x in out if kind=='pending']\n            desired=[x for x in remote if x not in detail]\n            if Counter(pending)!=Counter(desired):\n                violations.append(dict(remote=remote,detail=detail,pending=pending,required_pending=desired))\n            if len(detail)<=len(remote) and tuple(detail)==remote[:len(detail)]:\n                prefix_controls+=1;prefix_valid+=Counter(pending)==Counter(desired)\nput('OPS-005','bounded metamorphic multiset/pending-event conservation',{'remote_permutations':6,'history_lengths':'0..4','history_ids':[3,5,7],'configurations':total},\n    {'pending_conservation_violations':len(violations),'witness':violations[0],\n     'source_model_only':'History rows retained; only pending membership is compared, not physical milestone truth.'},\n    {'exact_unique_prefix_controls':prefix_controls,'prefix_controls_valid':prefix_valid,'empty_catalog_preserves_history':merge_model([], [5,3])==[('registered',5),('registered',3)]})\n# OPS006: permutation invariance of membership guard with repeated occurrences.\nassert \"array_search(26 , array_column($detalle, 'id'))\" in event\nwith26=[];false_guards=[];duplicates=[]\nfor n in range(1,5):\n    for detail in itertools.product([3,5,26],repeat=n):\n        if 26 not in detail:continue\n        with26.append(detail)\n        guard=bool(detail.index(26))\n        if not guard:\n            false_guards.append(detail)\n            if detail.count(26)>1:duplicates.append(detail)\nput('OPS-006','bounded membership/permutation invariance',{'histories_with_26':len(with26),'lengths':'1..4','ids':[3,5,26]},\n    {'presence_not_respected':len(false_guards),'with_repeated26_also_missed':len(duplicates),'repeated_witness':duplicates[0],\n     'stronger_condition':'First matching occurrence at index0 disables guard even if another26 exists later.'},\n    {'all_histories_with_first_match_after0_guard_true':all(bool(d.index(26)) for d in with26 if d[0]!=26),'empty_remote_exits_before_guard':True})\n# OPS007: independence of monetary fields over exact decimal models; no DB failures.\nassert \"{$item['totalCategory']}\" in span('C',578,580)\nassert \"{$concept['amount']}\" in span('C',384,390)\nvals=[Decimal('0'),Decimal('0.10'),Decimal('1.25')]\ncombos=0;bad=0;equal=0;witness=None\nfor a,b,total_amount in itertools.product(vals,vals,vals):\n    combos+=1\n    if a+b!=total_amount:\n        bad+=1\n        if witness is None:witness=dict(amounts=[str(a),str(b)],header_total=str(total_amount),required_total=str(a+b))\n    else:equal+=1\nput('OPS-007','bounded numeric-field independence and exact-decimal conservation',{'amount_domain':[str(v) for v in vals],'concepts':2,'tuples':combos},\n    {'inconsistent_tuples_not_bound_by_source_check':bad,'witness':witness,\n     'scope':'No conclusion about allowed signs, FX, rounding policy or real constraints.'},\n    {'coherent_tuples':equal,'zero_total_for_zero_details_is_not_itself_an_error':True})\n# OPS008: totality of return contract; relational ambiguity under successful writes.\nedit=span('Q',1195,1206);pick=span('Q',1342,1345);child=span('Q',1347,1367);caller=span('EC',56,70)\nassert \"if ($embarques['nuevoschasis'])\" in edit and \"self::crearPedidosDetalle\" in edit\nassert 'idcliente' not in edit and 'idtipoviaje' not in edit\nassert 'LIMIT 1' in pick and 'ORDER BY' not in pick and 'deleted_at' not in pick\nassert re.search(r'\\breturn\\b',child) is None\nassert '$result =' in caller and 'header(' in caller and '$result[' not in caller and 'if ($result' not in caller\norders=[dict(id=10,shipment=33,active=False),dict(id=11,shipment=33,active=True)]\nlegal_selections=[r['id'] for r in orders if r['shipment']==33]\nput('OPS-008','return-totality, selection nondeterminism and caller consumption',{'orders_for_same_shipment':2,'all_statements_assumed_successful':True},\n    {'legal_LIMIT1_results_without_order':legal_selections,'one_legal_result_is_deleted_order':10,\n     'child_return_on_success':'implicit NULL','parent_success_depends_on':'header UPDATE bool and absence of abort',\n     'caller_consumption':'result assigned then ignored by redirect',\n     'proof_boundary':'No assertion that DB chooses10; query admits it absent extra constraints. Adding ORDER BY alone cannot establish active/unique order.'},\n    {'sole_active_existing_order_can_work':True,'empty_nuevoschasis_skips_child':True,\n     'successful_child_still_returns_NULL_so_naive_if_not_child_fix_is_wrong':True})\n# OPS009: argument binding, not SQL semantics; t request field does not bind missing argument.\nsig=re.search(r'function getListaEmbarques\\s*\\(([^)]*)\\)',texts['L']).group(1).split(',')\nrequired=[p for p in sig if '=' not in p]\nbad_call=span('MC',18,20);ajax=span('A',40,42)\nassert len(required)==2\nassert 'getListaEmbarques($_SESSION[\"idtransportista\"]);' in bad_call\nassert '$logistica,$_REQUEST,1,$filtros' in ajax and '$logistica);' in ajax\nput('OPS-009','call-site parameter binding and route-specific negative control',{'required':len(required),'mostrartabla_supplied':1,'ajax_supplied':[5,2]},\n    {'missing_parameter':required[1].strip(),'request_t_does_not_bind_formal_parameter':True,\n     'no_body_or_controller_execution':True,'candidate_JS_reachability':'not evaluated'},\n    {'both_ajax_call_arities_satisfy_signature':True,'no_claim_main_ajax_list_fails':True})\nprint(json.dumps(dict(technique='pinned-source def-use/postcondition review + finite relational selection + bounded metamorphic data models; no query fault injection',\nsource_commit=M,source_files={paths[k]:hashlib.sha256(v.encode()).hexdigest() for k,v in texts.items()},checks=checks,\nnegative_controls=[dict(id=x['id'],controls=x['negative_control']) for x in checks],\napplication_code_executed=False,database_access=False,network_access=False,session_persistence=False),ensure_ascii=False))\n",
+  "reproduction_command": "python -X utf8 -B -c \"import json; from pathlib import Path; d=json.loads(Path('knowledge/reviews/iterative-20261118/closure-transactions.json').read_text(encoding='utf-8')); exec(compile(d['reproduction_code'], '<bounded-transaction-review>', 'exec'))\"",
+  "no_new_id_rationale": "No se han añadido mecanismos independientes fuera deOPS001..009en este alcance. Se registran tres precisiones materiales notificadas; no se infiere cero defectos globales ni se declara convergencia por repetir controles.",
+  "fingerprint": {
+    "status": "VERIFIED_FINAL",
+    "registry": "knowledge/general/operational-findings.json",
+    "algorithm": "sha256",
+    "canonicalization": "json.dumps(registry,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')",
+    "semantic_sha256": "d33217adea4a559f1bcf0b9047238f7e6aa2b8fd5884569e50c7cf18d7705ca5",
+    "file_sha256": "d3e9fd249007bfdc15bb5a104e8d5e531e56dfde53f7f7223ec5788e892d3bb1"
+  },
+  "acceptance": {
+    "user_pass": 6,
+    "positive": true,
+    "delta_count": 3,
+    "delta_kind": "material_improvements",
+    "accepted_registry_ids": [
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003"
+    ],
+    "not_zero_delta": true,
+    "canonical_approval": false
+  },
+  "final_artifact_validation": {
+    "own_records": 17,
+    "OPS": 9,
+    "own_accepted_improvements": 8,
+    "semantic_records_reviewed": 21,
+    "accepted_external_BR_records": 4,
+    "registry_evidence_ranges_verified": 79,
+    "semantic_evidence_ranges_verified": 107,
+    "evidence_commit_file_pairs": 32,
+    "distinct_evidence_source_paths": 22,
+    "baseline_claim_ranges": 10,
+    "own_files_UTF8_checked": 15,
+    "parsed_strings_checked_before_seal": 2857,
+    "reversible_mojibake_remaining": 0,
+    "markdown_links_resolve": true,
+    "reproduction_codes_compile": true,
+    "ledger_compiled": false
+  }
+}

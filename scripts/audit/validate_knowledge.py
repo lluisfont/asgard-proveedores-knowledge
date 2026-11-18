@@ -17,6 +17,7 @@ from xml.etree import ElementTree
 import jsonschema
 
 from collect_master import TOKEN
+from validate_iterative import validate as validate_iterative
 
 
 def main():
@@ -65,6 +66,12 @@ def main():
     if 'schema' in glossary:
         jsonschema.Draft202012Validator(glossary['schema']).validate(glossary)
     entries=glossary['entries']
+    glossary_csv=list(csv.DictReader((root/'knowledge/glossary/business-glossary.csv').open(encoding='utf-8-sig',newline='')))
+    if len(glossary_csv)!=len(entries):
+        raise ValueError('Glossary CSV count differs from JSON')
+    for entry,row in zip(entries,glossary_csv):
+        if any(row[key]!=entry[key] for key in ['id','term','definition','scope','confidence']) or json.loads(row['evidence'])!=entry['evidence']:
+            raise ValueError('Glossary CSV is stale: '+entry['id'])
     ids=set()
     for entry in entries:
         if entry['id'] in ids:
@@ -159,6 +166,7 @@ def main():
     security_probes=json.loads((root/'source-audits/master/2026-11-18/security-probes.json').read_text(encoding='utf-8'))
     if security_probes['passed']!=security_probes['total']:
         raise ValueError('Independent security probe failure unresolved')
+    iterative=validate_iterative(root,cite) if (root/'knowledge/reviews/iterative-20261118/iterations.json').exists() else None
     report={'status':'PASS','context':'installed_application_checkout' if installed_checkout else 'standalone_knowledge',
         'source_commit':master,'peru_commit':peru,
         'current_payloads_verified':len(current['entries']),'glossary_terms':len(entries),
@@ -167,6 +175,7 @@ def main():
         'local_links_checked':local_links,'distinct_pinned_source_citations':len(citations),
         'source_line_bounds_verified':all(source_roots.values()),'guard_cases_passed':probes['passed'],
         'independent_security_cases_passed':security_probes['passed'],
+        'iterative_review':iterative,
         'database_schema':'missing_for_master','runtime_end_to_end':'not_verified','business_approval':'pending',
         'overall_audit_coverage':'PARTIAL',
         'note':'PASS validates evidence integrity, structure and references. It does not certify business correctness or close security findings.'}

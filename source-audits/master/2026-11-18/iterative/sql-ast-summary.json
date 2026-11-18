@@ -1,0 +1,95 @@
+{
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "technique": "sql_dialect_ast_vs_lexical_token_inventory",
+  "parser_version": "30.33.0",
+  "fragments": 394,
+  "fragment_statuses": {
+    "parsed_mysql_ast": 227,
+    "unresolved_fragment": 167
+  },
+  "ast_table_names": 100,
+  "lexical_table_names": 134,
+  "not_reproduced_by_ast": [
+    "Selected",
+    "ada_agentescontactos",
+    "adaprov_agenteproveedor",
+    "adaprov_agenteproveedormercancia",
+    "all",
+    "capacidad",
+    "dav_clientetipoproducto",
+    "dav_contadorreportesclientes",
+    "dav_dam",
+    "dav_damitems",
+    "dav_documentosprevios",
+    "dav_meses",
+    "dav_modotransportedocumento",
+    "dav_otrosdocumentosprevios",
+    "dav_tipodocumento",
+    "dav_tramites",
+    "dav_transportistamail",
+    "dex_suma_estado_historial",
+    "failed",
+    "intercambiodocumental",
+    "log_asgard_cloud",
+    "logis_costosconcepto",
+    "logis_costosdetalles",
+    "logis_cotizacion",
+    "logis_cotizacionoperador",
+    "logis_embarquescontenedor",
+    "logis_embarquesdocumentos",
+    "logis_libroventas",
+    "logis_pedidos",
+    "logis_pedidos_detalle",
+    "prov_proveedorusuariospermisos",
+    "tck_aduanasrutasplazos",
+    "tck_asignacionesviajes",
+    "tck_items_localizaciones",
+    "tck_programacionembarques",
+    "tck_transporte",
+    "the",
+    "tmp_estadoEmbarque",
+    "tmp_eventos"
+  ],
+  "ast_additional_names": [
+    "ada_clienteagenteaduana",
+    "dav_documentos",
+    "ges_clientegestortransporte",
+    "logis_clientemails",
+    "tck_ultimas_ubicaciones"
+  ],
+  "negative_controls": [
+    {
+      "case": "trim_column_is_not_a_table",
+      "expected": [
+        "tck_capacidadestransporte"
+      ],
+      "actual": [
+        "tck_capacidadestransporte"
+      ],
+      "status": "pass"
+    },
+    {
+      "case": "cte_alias_is_not_a_physical_table",
+      "expected": [
+        "source_table"
+      ],
+      "actual": [
+        "source_table"
+      ],
+      "status": "pass"
+    },
+    {
+      "case": "quoted_word_is_not_a_table",
+      "expected": [
+        "actual_table"
+      ],
+      "actual": [
+        "actual_table"
+      ],
+      "status": "pass"
+    }
+  ],
+  "network_access": false,
+  "database_access": false,
+  "limitation": "AST interpretation is a stricter subset, not a complete query reconstruction or physical schema verification."
+}

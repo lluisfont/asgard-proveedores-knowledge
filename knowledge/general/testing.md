@@ -1,5 +1,9 @@
 # Pruebas y regresion
 
+## Ampliación iterativa del 18-11-2026
+
+Se añaden pruebas de contrato del exportador (3/3), firma de aridad con cuerpo centinela (3/3), inyección de fallos transaccionales (34/34, incluidos 15 controles negativos), contratos y representaciones tipadas en PHP/Node, y tres controles negativos de SQL AST. Un resultado reproducido puede demostrar un defecto; no equivale a aprobar el comportamiento. Los [resultados y límites](../reviews/iterative-20261118/README.md) incluyen el censo estático de 279 PHP, 460 declaraciones y 542 llamadas resueltas, más los cierres independientes. No se ejecutó SQL, bootstrap ni tráfico de aplicación.
+
 El Knowledge Pack diferencia verificaciones ejecutadas y escenarios que
 requieren un entorno controlado de aplicacion. Las comprobaciones estaticas
 no equivalen a una prueba funcional de produccion.

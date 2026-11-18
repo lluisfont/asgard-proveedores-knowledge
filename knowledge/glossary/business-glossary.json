@@ -2333,7 +2333,7 @@
     {
       "id": "estado-viaje",
       "term": "Estado de la asignación de viaje",
-      "definition": "Dato propio del viaje que se guarda al crear su información. La rutina revisada utiliza un valor nulo o un código según el indicador de asignación.",
+      "definition": "Dato propio de la asignación de viaje. Al crearla se guarda NULL si isAssignment=1 y 4 en otro caso. La plantilla del listado contiene las etiquetas 0 «Rechazado», 1 «Aceptado», 2 «Interrumpido», 3 «Completado» y 4 «Borrador»; la rama exterior muestra «Asignado».",
       "scope": "shared_evidence",
       "evidence": [
         {
@@ -2347,13 +2347,25 @@
           "path": "index_archivos/tracking/TrackingNewClass.php",
           "line_start": 1099,
           "line_end": 1107
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236
         }
       ],
       "confidence": "inferred",
       "aliases": [
         "estado del viaje"
       ],
-      "usage_and_relationships": "No se ha confirmado el nombre de todos sus códigos; no traducir el código de creación a un estado de embarque.",
+      "usage_and_relationships": "Las etiquetas son del viaje, no estados de embarque ni del resumen aduanero. La plantilla compara estado <> null antes del switch: en la prueba aislada con PHP 8.4.25, NULL e int 0 muestran «Asignado», mientras string \"0\" muestra «Rechazado»; los valores 1–4, enteros o cadenas, conservan su etiqueta. Esto no confirma el tipo que entrega el driver desplegado ni valida el comportamiento de PHP 5.4 del Dockerfile. Los nombres de la plantilla no acreditan una transición de negocio ni un catálogo SQL validado.",
       "category": "Inventario y seguimiento"
     },
     {

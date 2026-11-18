@@ -87,7 +87,28 @@ Clases: **AS-IS** = expresión/acción leída; **RISK** = límite concreto obser
 | RN-49 | Diferencias P | Tipo 7/concesionario en identidad; menús Pedidos/Pre Embarques y archivos propios de preembarques, viajes desde ítems y vídeo. Ver [Bolivia/master](../variants/bolivia.md) y [Perú](../variants/peru.md); no ofrecer esos recorridos como comportamiento de M | `P:src/core/users/application/Find/UserFind.php:L25-L63`; `P:index_archivos/menu_b4.php:L148-L172`; `P:index_archivos/preembarques/index.php:L1-L24`; `P:index_archivos/embarques/ajax/crear-viaje-desde-items.php:L1-L7`; `P:index_archivos/tracking/getVideo.php:L1-L20`. Su exclusividad se contrastó con `git ls-tree` de ambos commits |
 | RN-50 | Pestañas, finalización y permisos | Detalle obtiene permisos del grupo 6. Gestión Aduanera exige internacional y tipo 3/5/6; Tracking admite tipo 1 o excepción de cuenta 195; Crear Viaje requiere opción 16, tipo 1 y fecha de finalización vacía. Costos recibe bandera de edición basada en esa fecha. Son condiciones de UI, no bloqueos de servidor demostrados | `M:index_archivos/embarques/embarquever.php:L128-L144,L219-L284`; `M:index_archivos/embarques/frames/costos.php:L51-L68` |
 
-## Límites de validez
+## Precisiones de la auditoría iterativa
+
+Las 51 reglas anteriores conservan su numeración. Los [defectos operativos](operational-findings.md) amplían su interpretación, sin convertir comportamientos defectuosos en reglas de negocio aprobadas:
+
+| Reglas y proceso | Precisión nueva |
+| --- | --- |
+| RN-40, costos | OPS-001: selección de otro maestro ante intercalado; OPS-007: total recibido independiente de conceptos. La falta genérica de transacción ya estaba documentada y no se vuelve a contar. |
+| RN-21–RN-29, viajes | OPS-002: éxito dependiente del orden de fallos; OPS-003: argumento ausente después de borrar carga; OPS-005/006: composición posicional de eventos y condición falsa en índice cero. |
+| RN-31–RN-34, lote | OPS-004: el UPDATE de procesamiento abarca más grupos del lote. No presupone filas huérfanas ni efectos de rutinas desconocidas. |
+| RN-14/15, mercancía | OPS-008: añadir chasis durante edición sigue una ruta distinta del alta; sus precondiciones y confirmación requieren revisión separada. |
+| Listados de embarques | OPS-009: incompatibilidad de argumentos en la rama `mostrartabla`; no se atribuye al handler AJAX alternativo que sí pasa los argumentos. |
+| RN-47, informes | [SEC-015](../reviews/iterative-20261118/report-query-contract.md): el cliente elige SQL completo; requiere contrato autorizado en el servidor. |
+
+IMP-T008 aclara qué escrituras hijas se comprueban; IMP-T009 separa fecha de modificación, interrupción y transición válida; IMP-T010 distingue conversión de formato y validación de calendario. El detalle y las fuentes constan en el registro operativo. El [glosario](../glossary/business-glossary.md) incorpora nombres observados de estados, con cautela sobre NULL y tipos PHP. La [variante Perú](../variants/peru.md) conserva por separado VAR-001, relativo a la representación de `pendiente`.
+
+CLR-IMP-001 precisa que DELETE correcto no implica filas afectadas; CLR-IMP-002 considera la primera coincidencia del evento 26 y sus repeticiones; CLR-IMP-003 exige definir un resultado explícito de `crearPedidosDetalle` antes de comprobarlo como booleano. Son mejoras de caracterización y de la recomendación, no correcciones implementadas.
+
+RPR-IMP-001 separa cambios efectivos, operación sin cambios permitida y falta de coincidencia; no define por sí misma una política de idempotencia. RPR-IMP-002 conserva el ID numérico válido recibido como texto al corregir pertenencia y exige validar antes de normalizar tipos. Ambas afinan las recomendaciones sin afirmar tipos de driver ni políticas desplegadas.
+
+## Límites conservados
+
+Las [obligaciones por rama](../reviews/iterative-20261118/branch-obligations.md) precisan el alcance: BR-IMP-001 diferencia el intento de EDP de la carga masiva; BR-IMP-002 distingue `fecharegistro` en M de `created_at` en P al ordenar eventos; BR-IMP-003 contrasta el uso de referencia para resolver lugares; BR-IMP-004 acota a M la fecha/hora actual incondicional del temporal. La evidencia M de RN-31 sigue siendo válida; no debe trasladarse ese comportamiento a P por compartir el nombre del método.
 
 No hay esquema SQL de aplicación verificado en el inventario de esta revisión; por tanto no se infieren restricciones físicas, cascadas, triggers, unicidad o transacciones por el nombre de una tabla o procedimiento. Las funciones `fn_obtener_estado`, `sp_delete_trip`, `tck_duplicar_viaje` y `sp_workdaydiff` requieren definición SQL y prueba con datos. No se han invocado.
 

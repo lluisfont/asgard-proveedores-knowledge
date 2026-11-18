@@ -1,0 +1,673 @@
+{
+  "schema_version": "1.0",
+  "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_root": "C:/repos/proveedores-github-review-20261118",
+  "technique": "extracted_method_failure_injection_and_data_invariant_review",
+  "php_version": "8.4.25",
+  "source_hashes_lf_utf8": {
+    "index_archivos/embarques/CostosClass.php": "60a26bbba7eb697efef832df54b86a7b6f5675c260bece2119d146c70cf687d2",
+    "index_archivos/tracking/TrackingNewClass.php": "8d537b45ac2231a29ea9e117bb5b4942dca9e661a6efe3a585787c9e8a3fe25b",
+    "index_archivos/tracking/controllers/CargaMasiva.php": "c294471feaff9ad1a7bc01ebb54096e9bf39ef36aa4e0c8406ec0b662e3ad444",
+    "index_archivos/tracking/ListaViajesClass.php": "1847cfff7c1588d635560f6b86c5cdde704e35da1556c6d376afd8efbbfcbfdf",
+    "index_archivos/tracking/HerramientasClass.php": "0a6699c0b25b93b21981c0be2557daebbc4487bb230891ab4630e2800bf64232"
+  },
+  "extracted_methods": {
+    "index_archivos/embarques/CostosClass.php": [
+      "guardarCostos",
+      "guardarCostoDetalle",
+      "deleteOldCost",
+      "guardaCostoMaestro"
+    ],
+    "index_archivos/tracking/TrackingNewClass.php": [
+      "save",
+      "edit",
+      "getErrorResponse",
+      "saveLoad",
+      "saveLocation",
+      "castDate",
+      "subItems",
+      "editLoad"
+    ],
+    "index_archivos/tracking/controllers/CargaMasiva.php": [
+      "crearViaje"
+    ],
+    "index_archivos/tracking/ListaViajesClass.php": [
+      "eventosViaje"
+    ],
+    "index_archivos/tracking/HerramientasClass.php": [
+      "dicontinuedTrip"
+    ]
+  },
+  "safety": {
+    "app_includes_executed": false,
+    "app_entrypoints_executed": false,
+    "db_access": false,
+    "network": false,
+    "session_persistence": false,
+    "app_writes": false,
+    "php_ini_loaded": false,
+    "sql_is_mocked": true
+  },
+  "adaptations": [
+    "Methods wrapped as public static in isolated probe classes; bodies unchanged.",
+    "Unselected collaborators replaced with explicit success/failure/no-op doubles.",
+    "Cost concurrent row 102 scheduled at latest-row SELECT; own INSERT fixture is 101.",
+    "Bulk lookup data synthetic; destination list empty to isolate batch-state UPDATE.",
+    "PHP built-in mysqli extension absent; identically named functions are memory doubles."
+  ],
+  "limitations": [
+    "No real transaction, SQL engine, affected-row counts, triggers, cascades, or concurrency executed.",
+    "No PHP 5.4 execution; local PHP version is not deployment evidence.",
+    "Passed means source behavior reproduced, not business invariant satisfied."
+  ],
+  "summary": {
+    "total": 34,
+    "passed": 34,
+    "negative_controls": 15
+  },
+  "results": [
+    {
+      "id": "cost-ok",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 101, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 101, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "cost-master-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": "error",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())"
+        ],
+        "notifications": 0,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "cost-detail-fail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 101, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 101, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "DELETE FROM logis_costos WHERE id = 101"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "cost-delete-fail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 101, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 101, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "cost-race",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 102, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 102, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": 102
+      }
+    },
+    {
+      "id": "cost-race-detail-fail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 30, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 102, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 102, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "DELETE FROM logis_costos WHERE id = 102"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": 102
+      }
+    },
+    {
+      "id": "cost-mismatch",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "queries": [
+          "SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos SET deleted_at = CURRENT_TIMESTAMP() WHERE embarque_id = 33 AND categoria_id = 1",
+          "UPDATE logis_costos_detalle SET deleted_at = CURRENT_TIMESTAMP() WHERE costos_id IN (SELECT id FROM logis_costos WHERE embarque_id = 33 AND categoria_id = 1)",
+          "INSERT INTO logis_costos (id, embarque_id, categoria_id, categoria_otro, total_costos,moneda, created_by, created_at, updated_at) VALUES (DEFAULT,33, 1, '', 999, 'BOB', 11, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())",
+          "SELECT * from logis_costos lc where lc.embarque_id= 33 AND created_by = 11 order by lc.id desc LIMIT 1;",
+          "INSERT INTO logis_costos_detalle (id, costos_id, concepto, concepto_otros, monto, esAutomatico, created_by, created_at, updated_at) VALUES(DEFAULT, 101, 'A', '', 10, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP()),(DEFAULT, 101, 'B', '', 20, 0, 22, CURRENT_TIMESTAMP(), CURRENT_TIMESTAMP())"
+        ],
+        "notifications": 1,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "cost-empty",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": "warning",
+        "queries": [],
+        "notifications": 0,
+        "own_insert_id_fixture": 101,
+        "concurrent_id_fixture": null
+      }
+    },
+    {
+      "id": "location-all-ok",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "returned": true,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ],
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,102,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,104,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())"
+        ]
+      }
+    },
+    {
+      "id": "location-first-location-fails",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "returned": true,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            false
+          ],
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,107,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())"
+        ]
+      }
+    },
+    {
+      "id": "location-last-location-fails",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "returned": true,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ],
+          [
+            "tck_localizaciones",
+            false
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,109,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')"
+        ]
+      }
+    },
+    {
+      "id": "location-first-items-fail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "returned": true,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            false
+          ],
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,112,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,114,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())"
+        ]
+      }
+    },
+    {
+      "id": "location-last-items-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "returned": false,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            true
+          ],
+          [
+            "tck_localizaciones",
+            true
+          ],
+          [
+            "tck_items_localizaciones",
+            false
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,116,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')",
+          "INSERT INTO tck_items_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, localizacion_id, tipo_bulto, cantidad, disponibles, created_at, updated_at) VALUES(DEFAULT,33,11,701,118,1,2,null,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP())"
+        ]
+      }
+    },
+    {
+      "id": "location-all-locations-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "returned": false,
+        "scheduled": [
+          [
+            "tck_localizaciones",
+            false
+          ],
+          [
+            "tck_localizaciones",
+            false
+          ]
+        ],
+        "queries": [
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 1, '44')",
+          "INSERT INTO tck_localizaciones (id, embarque_id, operador_id, asignacion_viaje_id, tipo, lugar, pais, estado, ciudad, direccion, latitud, longitud, envio_puerto, fecha_limite_carguio, hora_llimite_carguio_primera, hora_llimite_carguio_segunda, fecha_salida_puerto, hora_salida_puerto_primera, hora_salida_puerto_segunda, contacto, telefono, tipo_despacho, tipo_viaje, created_at, updated_at, observaciones, orden, location_id) VALUES (DEFAULT,33,11,701,'2','PLACE','BO','','CITY','ADDRESS','0','0',0,'2026-11-18','00:00','00:00','2026-11-18','00:00','00:00','CONTACT','0','',2,CURRENT_TIMESTAMP(),CURRENT_TIMESTAMP(),'', 2, '44')"
+        ]
+      }
+    },
+    {
+      "id": "location-empty",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "returned": false,
+        "scheduled": [],
+        "queries": []
+      }
+    },
+    {
+      "id": "save-optional-fail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": {
+          "code": 200,
+          "message": "Viaje asignado",
+          "newId": 701
+        },
+        "queries": []
+      }
+    },
+    {
+      "id": "save-order-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": {
+          "code": 100,
+          "message": "No se guardar la informacion de la orden"
+        },
+        "queries": [
+          "DELETE FROM tck_asignacion_viaje WHERE id = 701;"
+        ]
+      }
+    },
+    {
+      "id": "edit-load",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "error": "ArgumentCountError",
+        "response": null,
+        "queries": [
+          "DELETE FROM tck_carga WHERE asignacion_viaje_id = 701 AND operador_id = 11 AND embarque_id = 33"
+        ]
+      }
+    },
+    {
+      "id": "edit-load-delete-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "error": null,
+        "response": {
+          "code": 100,
+          "message": "No se guardar la informacion del carga"
+        },
+        "queries": [
+          "DELETE FROM tck_carga WHERE asignacion_viaje_id = 701 AND operador_id = 11 AND embarque_id = 33"
+        ]
+      }
+    },
+    {
+      "id": "bulk-first-group",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": {
+          "code": 200,
+          "message": "Viaje asignado",
+          "newId": 701
+        },
+        "batch_mark_attempt": true,
+        "state_updates": [
+          "UPDATE tck_tmpcargamasiva SET estado = 1 WHERE idcargado = 88 AND idusuarioaccesoproveedor=22;"
+        ],
+        "fixture_batch_groups": [
+          1,
+          2
+        ],
+        "created_group": 1,
+        "group2_not_yet_attempted": true
+      }
+    },
+    {
+      "id": "bulk-header-fails",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": {
+          "code": 100,
+          "message": "No se guardar la informacion del viaje"
+        },
+        "batch_mark_attempt": false,
+        "state_updates": [],
+        "fixture_batch_groups": [
+          1,
+          2
+        ],
+        "created_group": 1,
+        "group2_not_yet_attempted": true
+      }
+    },
+    {
+      "id": "events-aligned",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "remote_ids": [
+          3,
+          5,
+          7
+        ],
+        "registered_ids": [
+          3
+        ],
+        "output_ids": [
+          3,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "events-out-of-order",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "remote_ids": [
+          3,
+          5,
+          7
+        ],
+        "registered_ids": [
+          5
+        ],
+        "output_ids": [
+          5,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "events-duplicate-detail",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "remote_ids": [
+          3,
+          5,
+          7
+        ],
+        "registered_ids": [
+          3,
+          3
+        ],
+        "output_ids": [
+          3,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "events-terminal-first",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "remote_ids": [
+          3,
+          5,
+          7
+        ],
+        "registered_ids": [
+          26
+        ],
+        "output_ids": [
+          26,
+          5,
+          7
+        ]
+      }
+    },
+    {
+      "id": "events-terminal-second",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "remote_ids": [
+          3,
+          5,
+          7
+        ],
+        "registered_ids": [
+          3,
+          26
+        ],
+        "output_ids": [
+          3,
+          26
+        ]
+      }
+    },
+    {
+      "id": "events-empty-remote",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "remote_ids": [],
+        "registered_ids": [
+          5
+        ],
+        "output_ids": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "date-18/11/2026",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "input": "18/11/2026",
+        "output": "2026-11-18"
+      }
+    },
+    {
+      "id": "date-2026-11-18",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "input": "2026-11-18",
+        "output": "1900-01-01"
+      }
+    },
+    {
+      "id": "date-31/02/2026",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "input": "31/02/2026",
+        "output": "2026-02-31"
+      }
+    },
+    {
+      "id": "date-empty",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "input": "",
+        "output": "1900-01-01"
+      }
+    },
+    {
+      "id": "state-ok",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "query": "UPDATE tck_asignacion_viaje SET comentario_interrumpido = 'TEST', usuario_interruptor_viaje = 11, estado = 2, fecha_interrupcion = CURRENT_TIMESTAMP() WHERE id = 701",
+        "double_affected_rows": null
+      }
+    },
+    {
+      "id": "state-sql-fail",
+      "passed": true,
+      "negative_control": true,
+      "observation": {
+        "response": "error",
+        "query": "UPDATE tck_asignacion_viaje SET comentario_interrumpido = 'TEST', usuario_interruptor_viaje = 11, estado = 2, fecha_interrupcion = CURRENT_TIMESTAMP() WHERE id = 701",
+        "double_affected_rows": null
+      }
+    },
+    {
+      "id": "state-zero-affected",
+      "passed": true,
+      "negative_control": false,
+      "observation": {
+        "response": "success",
+        "query": "UPDATE tck_asignacion_viaje SET comentario_interrumpido = 'TEST', usuario_interruptor_viaje = 11, estado = 2, fecha_interrupcion = CURRENT_TIMESTAMP() WHERE id = 701",
+        "double_affected_rows": 0
+      }
+    }
+  ]
+}

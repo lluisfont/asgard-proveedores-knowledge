@@ -1,0 +1,1096 @@
+{
+  "schema_version": "1.0",
+  "phase": "POST_ACCEPTANCE_CLR3_SCOPE001_RPR2_BRANCH_OBLIGATIONS",
+  "status": "PASADA_POSITIVA_4_ACCEPTED",
+  "technique": "Differential obligation/data-lineage audit: follow triggers through producer predicates, parameter binding, ordered effects, consumer guards and returns in fixed M/P95. Compare the UPDATED operational registry. Relational candidate-set and crossed-timestamp witnesses; not blob equality, VM or a repeated type decision table.",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "reviewed_known_ids": [
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "VAR-001",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003",
+    "RPR-IMP-001",
+    "RPR-IMP-002",
+    "IMP-SCOPE-001",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010"
+  ],
+  "new_findings": [],
+  "improvements": [
+    {
+      "id": "BR-IMP-001",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Distinguir el intento automático de EDP de carga masiva M y P95",
+      "related_known_ids": [
+        "OPS-004",
+        "IMP-T008"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 603,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 283,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/variants/peru.md",
+        "claim": "Valida embarque nacional, bulto, unidad, conductor, origen y cobertura de destinos; reutiliza la carga masiva para crear el viaje.",
+        "registry_comparison": "P aplica el mismo UPDATE de lote completo en590-591."
+      },
+      "correction": "Al alcanzar el final favorable de CargaMasiva::crearViaje, M intenta registrarEdp después de WhatsApp y antes de responder. P95 no llama a ese helper en la ruta masiva. El helper existe en ambos pins y TrackingNewClass::save ordinario lo llama bajo condición de asignación. Por tanto, la ausencia de esa llamada se limita a la cadena masiva P95, incluida su reutilización desde VIN; no demuestra ausencia global de EDP, ni inserción efectiva en M. Otras rutas, triggers, datos y fallos previos no se comprobaron.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "path_M": [
+            "batch_state_update",
+            "sendWhatsapp",
+            "registrarEdp_attempt",
+            "success"
+          ],
+          "path_P95": [
+            "batch_state_update",
+            "sendWhatsapp",
+            "success"
+          ],
+          "helper_conditions": [
+            "cliente_resuelto",
+            "sin_EDP129_activo"
+          ]
+        },
+        "negative_control": "Helper disponible ysaveordinario enPimpiden concluir que todoPerú carece de registro automático."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-002",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Fecharegistro frente a created_at puede cambiar la guardia26 con las mismas filas",
+      "related_known_ids": [
+        "OPS-005",
+        "OPS-006",
+        "CLR-IMP-002",
+        "RPR-IMP-002"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "scope_precision",
+        "path": "knowledge/general/operational-findings.json#/findings/4/observed_behavior",
+        "claim": "Se sobrescriben posiciones del catálogo con filas ordenadas por fecharegistro sin reconciliar IDs. Remotos[3,5,7] y detalle[5] producen[5,5,7]: desaparece pendiente3 y se duplica5. Detalle[3,3] produce[3,3,7], omitiendo5. El defecto demostrado es de representación, no modificación del historial SQL.",
+        "comparison": "P conserva el ensamblado posicional en157-190."
+      },
+      "correction": "El historial M se ordena por fecharegistro; P95 usa tck_registrareventos.created_at. El consumidor posicional y la guardia de primera coincidencia26 se conservan, pero el mismo conjunto de filas puede llegar en un orden distinto. Con catálogo remoto no vacío, eso puede cambiar qué rama activa la guardia. La evidencia no decide qué fecha debe gobernar el orden de negocio ni cómo tratar empates. Corregir la presencia o los tipos no establece esa política temporal.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "same_rows": [
+            {
+              "event_id": 26,
+              "fecharegistro": "2026-11-18 10:00:00",
+              "created_at": "2026-11-18 12:00:00"
+            },
+            {
+              "event_id": 3,
+              "fecharegistro": "2026-11-18 11:00:00",
+              "created_at": "2026-11-18 09:00:00"
+            }
+          ],
+          "M_order": [
+            26,
+            3
+          ],
+          "P95_order": [
+            3,
+            26
+          ],
+          "first26_index_M": 0,
+          "first26_index_P95": 1,
+          "consequence": "Guardiaactual no retorna por26enMysíenP95; deducción de fuente, sinPHP/SQL.",
+          "remote_catalog_nonempty": [
+            3,
+            5,
+            7
+          ]
+        },
+        "negative_control": "Si ambos timestamps inducen el mismo orden, no cambia la secuencia por este motivo. No se probaron empates ni datos reales."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-003",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "La referencia de lugar restringe la resolución en P95 pero no en M",
+      "related_known_ids": [
+        "OPS-004"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 132,
+          "line_end": 161,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 134,
+          "line_end": 178,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 438,
+          "line_end": 439,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 454,
+          "line_end": 455,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 518,
+          "line_end": 518,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 534,
+          "line_end": 534,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 632,
+          "line_end": 632,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 647,
+          "line_end": 647,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/variants/comparison.md",
+        "claim": "VIN seleccionados → validacion → filas de carga masiva → crear viaje; filtra soft deletes y viajes existentes."
+      },
+      "correction": "P95 pasa la referencia a los callers de validación/carga y su resolver interpola un filtro de nombre/dirección; con al menos tres segmentos toma los tres primeros como nombre/latitud/longitud. M calcula una condición pero no la incorpora al SELECT y varios callers pasan solo código/cuenta. El filtro adicional cambia el conjunto candidato, sin demostrar unicidad, autorización, coordenadas válidas ni elección correcta. Ambos mantienen LIMIT1 sin ORDER BY; no se predice una fila concreta.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "same_provider_code_locations": [
+            {
+              "id": 101,
+              "provider": 11,
+              "code": "C-01",
+              "name": "ALFA",
+              "address": "DIRECCION ALFA"
+            },
+            {
+              "id": 102,
+              "provider": 11,
+              "code": "C-01",
+              "name": "BETA",
+              "address": "DIRECCION BETA"
+            }
+          ],
+          "reference": "BETA",
+          "candidate_ids_M": [
+            101,
+            102
+          ],
+          "candidate_ids_P95": [
+            102
+          ],
+          "selected_first_row": "not_predicted_without_order"
+        },
+        "negative_control": "SinreferenciaPno agrega esa restricción. El ejemplo compara conjuntos candidatos, no filas realmente seleccionadas enSQL."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    },
+    {
+      "id": "BR-IMP-004",
+      "status": "accepted",
+      "classification": "material_branch_precision",
+      "title": "Acotar a M la sustitución incondicional de fecha/hora en el temporal masivo",
+      "related_known_ids": [
+        "OPS-004",
+        "IMP-T010"
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 80,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 47,
+          "line_end": 48,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 82,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 124,
+          "line_end": 138,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 258,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "current_claim": {
+        "type": "missing_branch_distinction",
+        "path": "knowledge/general/business-rules.md",
+        "claim": "Inserta fecha/hora actuales, aunque O/P se hayan leído del Excel",
+        "scope": "RN-31: evidenciaM, no regla común"
+      },
+      "correction": "La sustitución incondicional por fecha/hora actuales del temporal corresponde a M. P95 usa fechacarguio/horacarguio recibidos cuando cumplen !empty de PHP, y CURRENT_DATE/TIME como fallback. El lector Excel y la ruta VIN suministran esos campos. La diferencia describe expresiones preparadas para el temporal; no acredita calendario válido, formato SQL aceptado, timezone, persistencia ni conservación de toda la programación del viaje.",
+      "validation": {
+        "technique": "Differential producer/caller/consumer obligations on immutable Git objects; no business code execution.",
+        "counterexample": {
+          "nonempty_input": {
+            "fechacarguio": "2030-12-01",
+            "horacarguio": "14:30:00"
+          },
+          "M_expression": [
+            "CURRENT_DATE()",
+            "CURRENT_TIME()"
+          ],
+          "P95_expression": [
+            "input_fechacarguio",
+            "input_horacarguio"
+          ],
+          "empty_P95": [
+            "CURRENT_DATE()",
+            "CURRENT_TIME()"
+          ]
+        },
+        "negative_control": "Concampos vacíosPtambién usa actuales. No se declara reparadocastDate ni persistencia de fechas."
+      },
+      "new_independent_OPS": false,
+      "notified_to_user": true
+    }
+  ],
+  "checks": [
+    {
+      "id": "OPS-001",
+      "status": "completed",
+      "obligation": "Identidad del maestro propio antes de escribir o limpiar detalle.",
+      "master": "SELECT último maestro por embarque/entidad alimenta detalle y DELETE si detalle=false.",
+      "peru_pin95": "Conserva claves de selección y dependencia del ID seleccionado; mysql no agrega identidad de petición.",
+      "differential_conclusion": "Obligación no satisfecha en ambas; no equivale a runtime o persistencia iguales.",
+      "negative_control": "Categoría tampoco basta para identificar la petición propia; ejecución secuencial no demuestra el intercalado.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 594,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 596,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-001"
+      ]
+    },
+    {
+      "id": "OPS-002",
+      "status": "completed",
+      "obligation": "Éxito de todas las localizaciones requeridas y subítems, no de la última asignación favorable.",
+      "master": "statusSave se reemplaza solo tras INSERT favorable; save/edit consultan su retorno.",
+      "peru_pin95": "Mismos puntos de asignación y llamadas a subItems; no hay conjunción que abarque cada resultado.",
+      "differential_conclusion": "Se mantiene la obligación en ambos pins; el comportamiento de excepciones SQL no se supone equivalente.",
+      "negative_control": "No se convierte false de una ruta opcional en fallo obligatorio; esta obligación trata localizaciones.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1192,
+          "line_end": 1239,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1192,
+          "line_end": 1239,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 214,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 214,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-002"
+      ]
+    },
+    {
+      "id": "OPS-003",
+      "status": "completed",
+      "obligation": "Enlazar todos los argumentos antes de reemplazo destructivo y distinguir sentencia de filas borradas.",
+      "master": "DELETE favorable precede llamada4/5; filtros viaje/operador/embarque.",
+      "peru_pin95": "Conserva llamada4/5 y filtros; ninguna comprobación nueva de filas afectadas.",
+      "differential_conclusion": "Falta de enlace común; CLR-IMP-001 limita pérdida en ambas. No se extrapola PHP8a5.4.",
+      "negative_control": "Una sentencia DELETEtrue sin filas también puede alcanzar el error, sin probar pérdida.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1168,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1168,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-003",
+        "CLR-IMP-001"
+      ]
+    },
+    {
+      "id": "OPS-004",
+      "status": "completed",
+      "obligation": "Confirmar solo el grupo completado; no confundir algoritmo compartido con igualdad de efectos de la cadena.",
+      "master": "Estado del lote por lote/cuenta; luego WhatsApp, intento EDP y success.",
+      "peru_pin95": "Mismo marcado de lote/cuenta; ruta masiva retorna tras WhatsApp sin registrarEdp.",
+      "differential_conclusion": "OPS-004 se conserva. BR-IMP-001/003/004 precisan efectos y obligaciones de entradas que difieren entre variantes.",
+      "negative_control": "El nuevo caller VIN usa tres argumentos y un grupo explícito; no se le atribuye automáticamente el caso multigrupo.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 603,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 283,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-004"
+      ]
+    },
+    {
+      "id": "OPS-005",
+      "status": "completed",
+      "obligation": "Reconciliar por identidad y preservar la procedencia del orden del historial.",
+      "master": "Sobrescritura posicional; historial de fecharegistro.",
+      "peru_pin95": "Sobrescritura posicional; historial de created_at.",
+      "differential_conclusion": "Causa posicional compartida, productor de orden distinto: BR-IMP-002.",
+      "negative_control": "Si ambos timestamps ordenan igual, ese cambio no altera secuencia; no se presume divergencia en cada historial.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-005"
+      ]
+    },
+    {
+      "id": "OPS-006",
+      "status": "completed",
+      "obligation": "Presencia26 independiente de índice y conservación de representaciones válidas al reparar.",
+      "master": "Primera coincidencia como condición sobre orden fecharegistro.",
+      "peru_pin95": "Misma condición, con orden created_at que puede cambiar índice inicial.",
+      "differential_conclusion": "CLR-IMP-002 yRPR-IMP-002 se conservan; BR-IMP-002 añade productor de posición.",
+      "negative_control": "No se nombra26como cierre ni se propone cast ciego de26x.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 402,
+          "line_end": 402,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 401,
+          "line_end": 401,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-006",
+        "CLR-IMP-002",
+        "RPR-IMP-002"
+      ]
+    },
+    {
+      "id": "OPS-007",
+      "status": "completed",
+      "obligation": "Conciliar total de maestro y detalle en servidor si se adopta esa regla TO-BE.",
+      "master": "totalCategory llega al maestro yamount a detalles sin reconciliación.",
+      "peru_pin95": "Los mismos campos llegan separados y no se observa suma nueva que limite el maestro.",
+      "differential_conclusion": "No hay delta de país en esta obligación; no se infieren precisión monetaria ni constraints.",
+      "negative_control": "Un trigger podría cambiar persistencia; no se afirma discrepancia en toda solicitud.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 590,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 592,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 384,
+          "line_end": 392,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-007"
+      ]
+    },
+    {
+      "id": "OPS-008",
+      "status": "completed",
+      "obligation": "Pedido activo/único y helper con resultado explícito consumido antes de confirmar.",
+      "master": "Tras cabecera/magnitudes/tramos, nuevoschasis truthy activa getPedidos LIMIT1 y helper sin return; padre code200.",
+      "peru_pin95": "Agrega cabecera de concesionario para tipo1 y edición de operador para tipo7 antes de la cadena de chasis. Helper sigue sin return.",
+      "differential_conclusion": "CLR-IMP-003 permanece. El registro actualizado ya aclara esos pasos P; no se declara igualdad de todos los efectos.",
+      "negative_control": "if sobreNULL del helper rechaza incluso éxito; ordenar LIMIT1no satisface actividad/unicidad.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1184,
+          "line_end": 1223,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-008",
+        "CLR-IMP-003"
+      ]
+    },
+    {
+      "id": "OPS-009",
+      "status": "completed",
+      "obligation": "Enlazar logistica enmostrartabla y distinguirlo del AJAX completo.",
+      "master": "Caller1formal contra2obligatorios; AJAX separado pasa5/2.",
+      "peru_pin95": "Caller1formal contra2obligatorios con firma enL173; AJAX separado pasa5/2.",
+      "differential_conclusion": "Mismo sitio causal, sin exclusividad de país ni reparación observada.",
+      "negative_control": "t en URL no enlaza un formal PHP; tampoco prueba reachability o fallo del AJAX correcto.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 18,
+          "line_end": 20,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 18,
+          "line_end": 20,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 129,
+          "line_end": 135,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 173,
+          "line_end": 179,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+          "line_start": 40,
+          "line_end": 42,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+          "line_start": 40,
+          "line_end": 42,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "OPS-009"
+      ]
+    },
+    {
+      "id": "VAR-001",
+      "status": "completed",
+      "obligation": "Atribuir el contador/filtro nacional solo al consumidor P que los implementa.",
+      "master": "Inventario con controles de reportado pero sin evento conteoInventario.",
+      "peru_pin95": "Contador emitido solo en contexto nacional y filtro Pendiente distinto.",
+      "differential_conclusion": "Atribución P/nacional se mantiene; sin repetir matriz de tipos ni VM.",
+      "negative_control": "Existencia de inventario Mno implica mismo agregado; no se extiende a preembarques o latest2a.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 55,
+          "line_end": 108,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 94,
+          "line_end": 95,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 178,
+          "line_end": 207,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "VAR-001"
+      ]
+    },
+    {
+      "id": "CLR-IMP-001",
+      "status": "completed",
+      "obligation": "No inferir filas borradas de querytrue.",
+      "master": "editLoad comprueba éxito de sentencia sin conteo.",
+      "peru_pin95": "Su homólogo mysql conserva esa puerta sin conteo.",
+      "differential_conclusion": "Precisión aceptada compartida, sin delta.",
+      "negative_control": "Error de enlace no confirma eliminación persistente.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "CLR-IMP-001",
+        "OPS-003"
+      ]
+    },
+    {
+      "id": "CLR-IMP-002",
+      "status": "completed",
+      "obligation": "Conservar primera coincidencia26incluso con repeticiones y rastrear su orden de entrada.",
+      "master": "Primera coincidencia sobre fecha operativa.",
+      "peru_pin95": "Primera coincidencia sobre creación de registro.",
+      "differential_conclusion": "Precisión de repetidos válida; diferencia aguas arriba enBR-IMP-002.",
+      "negative_control": "Otro26posterior no sustituye la primera coincidencia eníndice0; no se repite el censo anterior.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 402,
+          "line_end": 402,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 401,
+          "line_end": 401,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "CLR-IMP-002",
+        "OPS-006"
+      ]
+    },
+    {
+      "id": "CLR-IMP-003",
+      "status": "completed",
+      "obligation": "Definir el retorno antes de un if y separar resultado de selección del resultado de escritura.",
+      "master": "Helper termina trasUPDATEsin return.",
+      "peru_pin95": "Mismo final sin return; concesionario previo no lo convierte enbooleano.",
+      "differential_conclusion": "Precisión aceptada retenida en ambos; no se altera el código ni se ejecuta.",
+      "negative_control": "NULLactual no distingue éxito y error; seleccionar un primer pedido no demuestra selección válida.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "CLR-IMP-003",
+        "OPS-008"
+      ]
+    },
+    {
+      "id": "RPR-IMP-001",
+      "status": "completed",
+      "obligation": "Distinguir CHANGED/NOOPautorizado/NOT_FOUND según política y cliente SQL.",
+      "master": "Interrupción/editInfo no ofrecen ese resultado rico.",
+      "peru_pin95": "La variante mysql tampoco lo implementa.",
+      "differential_conclusion": "TO-BE compartido; no se presume que mysql/mysqli cuenten cambios o coincidencias igual.",
+      "negative_control": "0affected no se traduce a inexistencia de ningún país; no-op permitido no es política AS-IS.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "RPR-IMP-001",
+        "IMP-T009",
+        "CLR-IMP-001"
+      ]
+    },
+    {
+      "id": "RPR-IMP-002",
+      "status": "completed",
+      "obligation": "Conservar26int/stringválido o normalizar validando antes de presencia estricta.",
+      "master": "IDdelSELECTse añade sin normalización antes de búsqueda no estricta.",
+      "peru_pin95": "También sin normalización, con orden SQL distinto.",
+      "differential_conclusion": "Precisión aceptada se aplica aP95; no se atribuye a tipos reales de drivers o código2a.",
+      "negative_control": "Comparar resultado!==false conserva igualdad de valores; normalizar no significa aceptar26x. TO-BE no desplegado.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "related_known_ids": [
+        "RPR-IMP-002",
+        "CLR-IMP-002",
+        "OPS-006"
+      ]
+    },
+    {
+      "id": "IMP-SCOPE-001",
+      "status": "completed",
+      "obligation": "Citar95fepara semántica P y separar metadatos remotos.",
+      "master": "a8ceauditado coincide con observación remota.",
+      "peru_pin95": "95fees comparación fijada;2asolo aparece en metadatos, sin leer sus3archivos.",
+      "differential_conclusion": "Aviso conocido integrado al inicio dePeru.md; no agrega delta.",
+      "negative_control": "Todos los git show de esta revisión usan hashes; no se usa origin/master_peru para obtener fuente.",
+      "evidence": [],
+      "related_known_ids": [
+        "IMP-SCOPE-001"
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "OPS-001",
+      "control": "Categoría tampoco basta para identificar la petición propia; ejecución secuencial no demuestra el intercalado."
+    },
+    {
+      "id": "OPS-002",
+      "control": "No se convierte false de una ruta opcional en fallo obligatorio; esta obligación trata localizaciones."
+    },
+    {
+      "id": "OPS-003",
+      "control": "Una sentencia DELETEtrue sin filas también puede alcanzar el error, sin probar pérdida."
+    },
+    {
+      "id": "OPS-004",
+      "control": "El nuevo caller VIN usa tres argumentos y un grupo explícito; no se le atribuye automáticamente el caso multigrupo."
+    },
+    {
+      "id": "OPS-005",
+      "control": "Si ambos timestamps ordenan igual, ese cambio no altera secuencia; no se presume divergencia en cada historial."
+    },
+    {
+      "id": "OPS-006",
+      "control": "No se nombra26como cierre ni se propone cast ciego de26x."
+    },
+    {
+      "id": "OPS-007",
+      "control": "Un trigger podría cambiar persistencia; no se afirma discrepancia en toda solicitud."
+    },
+    {
+      "id": "OPS-008",
+      "control": "if sobreNULL del helper rechaza incluso éxito; ordenar LIMIT1no satisface actividad/unicidad."
+    },
+    {
+      "id": "OPS-009",
+      "control": "t en URL no enlaza un formal PHP; tampoco prueba reachability o fallo del AJAX correcto."
+    },
+    {
+      "id": "VAR-001",
+      "control": "Existencia de inventario Mno implica mismo agregado; no se extiende a preembarques o latest2a."
+    },
+    {
+      "id": "CLR-IMP-001",
+      "control": "Error de enlace no confirma eliminación persistente."
+    },
+    {
+      "id": "CLR-IMP-002",
+      "control": "Otro26posterior no sustituye la primera coincidencia eníndice0; no se repite el censo anterior."
+    },
+    {
+      "id": "CLR-IMP-003",
+      "control": "NULLactual no distingue éxito y error; seleccionar un primer pedido no demuestra selección válida."
+    },
+    {
+      "id": "RPR-IMP-001",
+      "control": "0affected no se traduce a inexistencia de ningún país; no-op permitido no es política AS-IS."
+    },
+    {
+      "id": "RPR-IMP-002",
+      "control": "Comparar resultado!==false conserva igualdad de valores; normalizar no significa aceptar26x. TO-BE no desplegado."
+    },
+    {
+      "id": "IMP-SCOPE-001",
+      "control": "Todos los git show de esta revisión usan hashes; no se usa origin/master_peru para obtener fuente."
+    }
+  ],
+  "limits": [
+    "SoloM a8ceyP95fepara semántica; remoto2aes actualidad registrada, no fuente auditada. No se leen sus3archivos ni se declaralatestPerúrevisado.",
+    "Sin ejecución de aplicación,VM,PHP/JSde negocio,SQL,BD,red,submódulos,navegador/navegación. Los modelos de orden yconjuntos ilustran predicados leídos.",
+    "Predicados compartidos no prueban mismos efectos desplegados; mysql/mysqli,excepciones,configuración,triggersydatos noverificados.",
+    "BR-IMPson propuestas documentales de ruta/variante, no nuevosOPS. No se modifica registro operativo,ledger,fingerprintsniotrasdocs.",
+    "CLR/RPRson conocidas yaceptadas por elusuario;TO-BEnoes código implantado ni política empresarial aprobada.",
+    "No se nombra26o129por número; no se infiere pérdida dequerytrue ni inexistencia de0cambios.",
+    "Elprincipal decide aceptación ystreak. Hay4mejoras propuestas, no unpase global sindelta ni cierre de riesgos de producción."
+  ],
+  "limitations": [
+    "SoloM a8ceyP95fepara semántica; remoto2aes actualidad registrada, no fuente auditada. No se leen sus3archivos ni se declaralatestPerúrevisado.",
+    "Sin ejecución de aplicación,VM,PHP/JSde negocio,SQL,BD,red,submódulos,navegador/navegación. Los modelos de orden yconjuntos ilustran predicados leídos.",
+    "Predicados compartidos no prueban mismos efectos desplegados; mysql/mysqli,excepciones,configuración,triggersydatos noverificados.",
+    "BR-IMPson propuestas documentales de ruta/variante, no nuevosOPS. No se modifica registro operativo,ledger,fingerprintsniotrasdocs.",
+    "CLR/RPRson conocidas yaceptadas por elusuario;TO-BEnoes código implantado ni política empresarial aprobada.",
+    "No se nombra26o129por número; no se infiere pérdida dequerytrue ni inexistencia de0cambios.",
+    "Elprincipal decide aceptación ystreak. Hay4mejoras propuestas, no unpase global sindelta ni cierre de riesgos de producción."
+  ],
+  "global_convergence_claimed": false,
+  "operational_registry_rechecked": {
+    "path": "knowledge/general/operational-findings.json",
+    "summary": {
+      "findings": 9,
+      "P1": 2,
+      "P2": 7,
+      "improvements": 8,
+      "records_total": 17
+    },
+    "accepted_CLR_ids": [
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003"
+    ],
+    "refinements": {
+      "OPS-003": [
+        "CLR-IMP-001"
+      ],
+      "OPS-006": [
+        "CLR-IMP-002"
+      ],
+      "OPS-008": [
+        "CLR-IMP-003"
+      ]
+    },
+    "modification_performed": false
+  },
+  "accepted_RPR_source": "closure-repair-obligations.json; user acceptance supersedes earlier proposed-status metadata",
+  "freshness_observation": {
+    "artifact": "source-audits/master/2026-11-18/iterative/remote-refs-observation.json",
+    "observed_at_utc": "2026-11-18T20:43:09.902803+00:00",
+    "audited_master": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "comparison_peru": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "unreviewed_remote_peru": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "changed_paths_count": 3,
+    "new_head_code_read": false,
+    "known_scope_improvement_not_counted": true
+  },
+  "ownership": {
+    "writes": [
+      "closure-branch-obligations.json",
+      "closure-branch-obligations.md"
+    ],
+    "known_scope_patch": "knowledge/variants/peru.md:IMP-SCOPE-001 notice only as explicitly requested",
+    "operational_registry_modified": false,
+    "ledger_modified": false
+  },
+  "summary": {
+    "new_findings": 0,
+    "improvements": 4,
+    "completed_checks": 16,
+    "source_pin_paths_read": 25,
+    "new_head_audited": false,
+    "accepted_improvements": 4
+  },
+  "acceptance": "User accepted BR-IMP-001..004 as four material improvements in pass9. Historical positive pass; not a zero-delta closure."
+}

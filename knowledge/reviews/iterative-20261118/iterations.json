@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "baseline_knowledge_commit": "3822900b6d54d99ccf854bec43005a208e2a9694",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_unchanged": true,
+  "semantic_state_definition": "Baseline commit plus cumulative accepted-deltas records, canonical sorted JSON; excludes clerical metadata and audit logs.",
+  "iterations": [
+    {
+      "version": 1,
+      "technique": "Contratos de consulta completa con despacho aislado",
+      "status": "completed",
+      "new_findings": [
+        "SEC-015"
+      ],
+      "improvements": [],
+      "before_semantic_sha256": "011dc2001bd99090ff424d1f5b23acf7eed3e28b26ca040ff2a1bccaea914c3d",
+      "after_semantic_sha256": "1510e269367c05d4be13b49d10753e76b02c99a288a760067203541c42951b45",
+      "cumulative_delta_count": 1,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v01.json",
+      "snapshot_sha256": "1e7eda7fb55406fd20eada40a312b15ca2c6fc3af1b3a7dcd3998c6441bb85b6"
+    },
+    {
+      "version": 2,
+      "technique": "AST MySQL contrastado con inventario léxico y controles negativos",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "IMP-AST-001"
+      ],
+      "before_semantic_sha256": "1510e269367c05d4be13b49d10753e76b02c99a288a760067203541c42951b45",
+      "after_semantic_sha256": "ea5927e7892ffbd4a926de94da2a0431d37fbf76ae08f44c5c2e704e1616664c",
+      "cumulative_delta_count": 2,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v02.json",
+      "snapshot_sha256": "fdc31666517712781e4f5a76b673e1529036e822dfe6b7039cbfc80dbd147de8"
+    },
+    {
+      "version": 3,
+      "technique": "Inyección de fallos, intercalado sintético y permutaciones de invariantes",
+      "status": "completed",
+      "new_findings": [
+        "OPS-001",
+        "OPS-002",
+        "OPS-003",
+        "OPS-004",
+        "OPS-005",
+        "OPS-006",
+        "OPS-007"
+      ],
+      "improvements": [
+        "IMP-T008",
+        "IMP-T009",
+        "IMP-T010"
+      ],
+      "before_semantic_sha256": "ea5927e7892ffbd4a926de94da2a0431d37fbf76ae08f44c5c2e704e1616664c",
+      "after_semantic_sha256": "714dfabf97d0730ca7bded7593b0de91aab3e05f2bd936678eb19ea9b82803e0",
+      "cumulative_delta_count": 12,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v03.json",
+      "snapshot_sha256": "3a4457dcdcda761e124f3937aa33328a0c9c6866b628e9df03189bd82f623f0d"
+    },
+    {
+      "version": 4,
+      "technique": "Diferencial de contratos M/P, callbacks sin transporte y matrices de representación",
+      "status": "completed",
+      "new_findings": [
+        "VAR-001",
+        "OPS-008"
+      ],
+      "improvements": [
+        "IMP-C1",
+        "IMP-C2"
+      ],
+      "before_semantic_sha256": "714dfabf97d0730ca7bded7593b0de91aab3e05f2bd936678eb19ea9b82803e0",
+      "after_semantic_sha256": "ea7e758e834c24f7371dd274c1b1af1f3ae62093d1bc333e8a8bd47d6bd92548",
+      "cumulative_delta_count": 16,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v04.json",
+      "snapshot_sha256": "cbcf575c7390d8fd40667e6e3337ad8f8e892287417242b87d53db900f5d2eab"
+    },
+    {
+      "version": 5,
+      "technique": "Censo de llamadas/firma mediante tokens PHP y fronteras de aridad",
+      "status": "completed",
+      "new_findings": [
+        "OPS-009"
+      ],
+      "improvements": [],
+      "before_semantic_sha256": "ea7e758e834c24f7371dd274c1b1af1f3ae62093d1bc333e8a8bd47d6bd92548",
+      "after_semantic_sha256": "bc830d28191368a63a9cb50b874f4911039a6a3d486ae78729c2d2b4291b8f71",
+      "cumulative_delta_count": 17,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v05.json",
+      "snapshot_sha256": "3682c1c22fb47ec8a943ea425607ed604c992a5cce63d216113f3cbb95e8707e"
+    },
+    {
+      "version": 6,
+      "technique": "pinned-source def-use/postcondition review + finite relational selection + bounded metamorphic data models; no query fault injection",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "CLR-IMP-001",
+        "CLR-IMP-002",
+        "CLR-IMP-003"
+      ],
+      "before_semantic_sha256": "bc830d28191368a63a9cb50b874f4911039a6a3d486ae78729c2d2b4291b8f71",
+      "after_semantic_sha256": "289b158ef38cad457337b96ed9b68f36eb200714ce2b8a2cbc30fd5cd9600d03",
+      "cumulative_delta_count": 20,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v06.json",
+      "snapshot_sha256": "d35f78449254cf718bba4f5225825b1c226b606f183babb5d0554e7bdb814db4"
+    },
+    {
+      "version": 7,
+      "technique": "Verificación remota de referencias y diferencia de árbol para actualidad del alcance",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "IMP-SCOPE-001"
+      ],
+      "before_semantic_sha256": "289b158ef38cad457337b96ed9b68f36eb200714ce2b8a2cbc30fd5cd9600d03",
+      "after_semantic_sha256": "3698e9866219ffa0449c046b67be84c728b8ec7492a7f3afa4f00a0091a4718b",
+      "cumulative_delta_count": 21,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v07.json",
+      "snapshot_sha256": "ad80d1cf949496fab84b3023d28c8447d1e3def6d354f0a7403d8943898d102d"
+    },
+    {
+      "version": 8,
+      "technique": "counterfactual repair-obligation/discriminating success witnesses; Hoare-style postconditions on proposed TO-BE contracts",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "RPR-IMP-001",
+        "RPR-IMP-002"
+      ],
+      "before_semantic_sha256": "3698e9866219ffa0449c046b67be84c728b8ec7492a7f3afa4f00a0091a4718b",
+      "after_semantic_sha256": "d6a16ba6fe3b3a04afe9d658e8b187f2d2f905d80adcf8e8a47c629ddc9bd521",
+      "cumulative_delta_count": 23,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v08.json",
+      "snapshot_sha256": "52f2da2fda971177045bdd7901dc0016a02f0ed5aa9eb74d5a55c9684958f55c"
+    },
+    {
+      "version": 9,
+      "technique": "Differential obligation/data-lineage audit: follow triggers through producer predicates, parameter binding, ordered effects, consumer guards and returns in fixed M/P95. Compare the UPDATED operational registry. Relational candidate-set and crossed-timestamp witnesses; not blob equality, VM or a repeated type decision table.",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "BR-IMP-001",
+        "BR-IMP-002",
+        "BR-IMP-003",
+        "BR-IMP-004"
+      ],
+      "before_semantic_sha256": "d6a16ba6fe3b3a04afe9d658e8b187f2d2f905d80adcf8e8a47c629ddc9bd521",
+      "after_semantic_sha256": "4615e33874e41ead6f7e39483b9b9b355300f1f40244d5c3b9e803354f6cd760",
+      "cumulative_delta_count": 27,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v09.json",
+      "snapshot_sha256": "654aa36bfea216a52082c8f547789b3bb0cf8ff7907a66d24937249156518ec4"
+    },
+    {
+      "version": 10,
+      "technique": "Semantic mutation testing of pinned documentary claims: change country, timestamp, caller, conditional default or epistemic qualifier; positive and legitimate-equivalence controls.",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "review_artifact": "knowledge/reviews/iterative-20261118/closure-semantic-mutations.json",
+      "before_semantic_sha256": "4615e33874e41ead6f7e39483b9b9b355300f1f40244d5c3b9e803354f6cd760",
+      "after_semantic_sha256": "4615e33874e41ead6f7e39483b9b9b355300f1f40244d5c3b9e803354f6cd760",
+      "cumulative_delta_count": 27,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v10.json",
+      "snapshot_sha256": "654aa36bfea216a52082c8f547789b3bb0cf8ff7907a66d24937249156518ec4"
+    },
+    {
+      "version": 11,
+      "technique": "Entailment-boundary audit: for each integrated accepted assertion, trace the source observation, reject its stronger counterassertion, and verify that qualification survives in the integrated text. Uses source slices, caller guards, candidate/selection distinctions and persistence/absence boundaries; no VM, repeated type matrix or blob-only validation.",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "review_artifact": "knowledge/reviews/iterative-20261118/closure-inference-boundaries.json",
+      "before_semantic_sha256": "4615e33874e41ead6f7e39483b9b9b355300f1f40244d5c3b9e803354f6cd760",
+      "after_semantic_sha256": "4615e33874e41ead6f7e39483b9b9b355300f1f40244d5c3b9e803354f6cd760",
+      "cumulative_delta_count": 27,
+      "snapshot": "knowledge/reviews/iterative-20261118/versions/audit-v11.json",
+      "snapshot_sha256": "654aa36bfea216a52082c8f547789b3bb0cf8ff7907a66d24937249156518ec4"
+    }
+  ],
+  "converged": true,
+  "consecutive_zero_delta_passes": 2,
+  "scope": "Reviewed pinned static source and isolated contracts; not exhaustive production assurance.",
+  "excluded_attempts": [
+    {
+      "technique": "Delegated browser-output/navigation review",
+      "status": "rejected_automatic_safety_review_before_completion",
+      "reason": "possible_cybersecurity_risk",
+      "partial_artifacts": "excluded_from_publication_and_convergence",
+      "counts_as_zero_delta": false
+    }
+  ],
+  "auxiliary_reviews_not_counted_as_final_streak": [
+    "knowledge/reviews/iterative-20261118/closure-contracts.json: completed before version-6 precisions; retained as supporting evidence only.",
+    "knowledge/reviews/iterative-20261118/closure-abstract-contracts.json: zero delta before version-9 branch precisions; retained as supporting evidence only."
+  ]
+}

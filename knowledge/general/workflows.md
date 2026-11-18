@@ -169,4 +169,8 @@ M fija zona La Paz y contiene ruta Tambo Quemado–Patacamaya y selecciones geog
 
 ## Brechas que impiden validar los recorridos
 
+El [contraste de obligaciones](../reviews/iterative-20261118/branch-obligations.md) añade diferencias entre los pins M/P en EDP de la ruta masiva, orden del historial, resolución de lugares y fecha/hora temporal. Compartir helper o reutilizar la carga masiva no demuestra identidad de todos los efectos. Las particularidades conservan la ruta y el pin correspondiente.
+
+La [revisión iterativa](../reviews/iterative-20261118/README.md) amplía F02/F03 (mercancía y edición), F04 (viaje/carga/localizaciones/eventos), F05 (lotes), F08 (costos) y F09 (reportes). Los [hallazgos operativos](operational-findings.md) contienen condiciones de fallo, controles negativos y efectos no demostrados. Una respuesta de éxito no prueba la persistencia completa de esos recorridos. Las nuevas pruebas usan colaboradores sintéticos y no validan una transacción MySQL real.
+
 ❓ Faltan esquema/rutinas SQL de aplicación, configuración efectiva de permisos y clientes, submódulos de documentos/notificaciones y comprobación de APIs de tracking/inventario. Asgard nativo no se ejecutó por bloqueo de Windows App Control comunicado en esta revisión; se realizó inspección estática alternativa. No se han confirmado pantallas en navegador, entrega de mensajes, concurrencia, aislamiento entre proveedores ni recuperación de fallos parciales. El conjunto queda como documentación fuente, sin promoción a especificación canónica ni PASS funcional.

@@ -22,7 +22,9 @@ ficheros no demuestra identidad de configuracion, datos o despliegue.
 | Bolivia | [Particularidades de master](variants/bolivia.md) |
 | Peru | [Particularidades de master_peru](variants/peru.md) |
 | Comparacion | [Matriz funcional y tecnica](variants/comparison.md), [indice de variantes](variants/README.md) |
+| Obligaciones por rama | [EDP, fechas, eventos y lugares](reviews/iterative-20261118/branch-obligations.md), [registro JSON](reviews/iterative-20261118/branch-obligations.json) |
 | Seguridad | [Auditoria revisada](general/security-audit.md), [hallazgos JSON](general/security-findings.json) |
+| Revisión iterativa | [Cambios frente a la auditoría anterior](reviews/iterative-20261118/README.md), [defectos operativos](general/operational-findings.md), [registro de pasadas](reviews/iterative-20261118/iterations.json) |
 | Operacion | [Configuracion y despliegue](general/operations.md) |
 | Pruebas | [Resultados y escenarios](general/testing.md) |
 | Cobertura y pendientes | [Matriz documental](documentation-coverage.md), [preguntas abiertas](general/open-questions.md) |

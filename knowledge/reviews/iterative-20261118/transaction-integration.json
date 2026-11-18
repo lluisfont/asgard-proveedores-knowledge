@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0",
+  "phase": "COMPLETED_OWN_INTEGRATION_AND_POST_BR4_SEMANTIC_REVIEW",
+  "source_pins": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "knowledge_baseline_commit": "3822900b6d54d99ccf854bec43005a208e2a9694",
+  "authority": "User requested integration ofT001..007/C4 then addedOPS009 before independent review.",
+  "write_set": [
+    "knowledge/general/operational-findings.json",
+    "knowledge/general/operational-findings.md",
+    "knowledge/reviews/iterative-20261118/transaction-integration.json",
+    "knowledge/reviews/iterative-20261118/closure-transactions.json",
+    "knowledge/reviews/iterative-20261118/closure-transactions.md",
+    "knowledge/reviews/iterative-20261118/closure-repair-obligations.json",
+    "knowledge/reviews/iterative-20261118/closure-repair-obligations.md",
+    "knowledge/reviews/iterative-20261118/closure-abstract-contracts.json",
+    "knowledge/reviews/iterative-20261118/closure-abstract-contracts.md",
+    "knowledge/reviews/iterative-20261118/closure-semantic-mutations.json",
+    "knowledge/reviews/iterative-20261118/closure-semantic-mutations.md"
+  ],
+  "mapping": [
+    {
+      "origin": "TEMP-T001",
+      "target": "OPS-001",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T002",
+      "target": "OPS-002",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T003",
+      "target": "OPS-003",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T004",
+      "target": "OPS-004",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T005",
+      "target": "OPS-005",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T006",
+      "target": "OPS-006",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T007",
+      "target": "OPS-007",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-C4",
+      "target": "OPS-008",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "principal/static-arity-review",
+      "target": "OPS-009",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T008",
+      "target": "IMP-T008",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T009",
+      "target": "IMP-T009",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "TEMP-T010",
+      "target": "IMP-T010",
+      "action": "integrated_with_conditions_and_dedup"
+    },
+    {
+      "origin": "closure-transactions/CLR-IMP-001",
+      "target": "CLR-IMP-001",
+      "action": "user_accepted_material_improvement_pass6_not_new_OPS"
+    },
+    {
+      "origin": "closure-transactions/CLR-IMP-002",
+      "target": "CLR-IMP-002",
+      "action": "user_accepted_material_improvement_pass6_not_new_OPS"
+    },
+    {
+      "origin": "closure-transactions/CLR-IMP-003",
+      "target": "CLR-IMP-003",
+      "action": "user_accepted_material_improvement_pass6_not_new_OPS"
+    },
+    {
+      "origin": "closure-repair-obligations/RPR-IMP-001",
+      "target": "RPR-IMP-001",
+      "action": "user_accepted_material_TO_BE_improvement_pass8_not_new_OPS"
+    },
+    {
+      "origin": "closure-repair-obligations/RPR-IMP-002",
+      "target": "RPR-IMP-002",
+      "action": "user_accepted_material_TO_BE_improvement_pass8_not_new_OPS"
+    }
+  ],
+  "prior_rejected_items": [
+    "TEMP-T011",
+    "TEMP-T012",
+    "TEMP-T013",
+    "TEMP-T014"
+  ],
+  "baseline_claims_separated": true,
+  "source_evidence_pins_only": [
+    "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  ],
+  "canonical_approval": false,
+  "global_convergence_claimed": false,
+  "ops008_review": "Revisada ruta de edición separada del alta, verdad PHP del guard, selección arbitraria de pedido, falta de resultado hijo y $result ignorado al redirigir.",
+  "ops009_review": "Código recontrastado; artifacts del principal static-arity-review y arity-contract-probes leídos. 1arg rechazado,2/5 válidos solo en firma. JS candidato sin reachability; AJAX completo separado.",
+  "independent_review": {
+    "scope": [
+      "OPS-001",
+      "OPS-002",
+      "OPS-003",
+      "OPS-004",
+      "OPS-005",
+      "OPS-006",
+      "OPS-007",
+      "OPS-008",
+      "OPS-009"
+    ],
+    "status": "PASADA_CON_DELTA_ACCEPTED",
+    "closure": "knowledge/reviews/iterative-20261118/closure-transactions.json",
+    "new_OPS_ids": [],
+    "material_improvements": [
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003"
+    ],
+    "user_pass": 6,
+    "positive": true,
+    "global_convergence": false
+  },
+  "fingerprint": {
+    "status": "VERIFIED_FINAL",
+    "registry": "knowledge/general/operational-findings.json",
+    "algorithm": "sha256",
+    "canonicalization": "json.dumps(registry,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')",
+    "semantic_sha256": "d33217adea4a559f1bcf0b9047238f7e6aa2b8fd5884569e50c7cf18d7705ca5",
+    "file_sha256": "d3e9fd249007bfdc15bb5a104e8d5e531e56dfde53f7f7223ec5788e892d3bb1"
+  },
+  "next_review": {
+    "status": "PASADA_CON_DELTA_ACCEPTED_USER_PASS8",
+    "scope": [
+      "OPS-001",
+      "OPS-002",
+      "OPS-003",
+      "OPS-004",
+      "OPS-005",
+      "OPS-006",
+      "OPS-007",
+      "OPS-008",
+      "OPS-009",
+      "IMP-T008",
+      "IMP-T009",
+      "IMP-T010",
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003"
+    ],
+    "closure": "knowledge/reviews/iterative-20261118/closure-repair-obligations.json",
+    "positive": true,
+    "accepted_improvement_ids": [
+      "RPR-IMP-001",
+      "RPR-IMP-002"
+    ],
+    "delta_count": 2
+  },
+  "ledger_compiled_by_this_task": false,
+  "reference_freshness": {
+    "id": "IMP-SCOPE001",
+    "owner": "principal",
+    "artifact": "source-audits/master/2026-11-18/iterative/remote-refs-observation.json",
+    "observed_at_utc": "2026-11-18T20:43:09.902803+00:00",
+    "comparison_pin": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "observed_new_peru_head": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "meaning": "P is the immutable historical comparison pin, not the latest Peru head. Newly observed head is not audited.",
+    "new_head_audited": false,
+    "refs_changed_by_this_task": false
+  },
+  "final_abstract_review": {
+    "status": "COMPLETED_AUXILIARY_ZERO_DELTA_PRE_BR4",
+    "scope": [
+      "OPS-001",
+      "OPS-002",
+      "OPS-003",
+      "OPS-004",
+      "OPS-005",
+      "OPS-006",
+      "OPS-007",
+      "OPS-008",
+      "OPS-009",
+      "IMP-T008",
+      "IMP-T009",
+      "IMP-T010",
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003",
+      "RPR-IMP-001",
+      "RPR-IMP-002"
+    ],
+    "closure": "knowledge/reviews/iterative-20261118/closure-abstract-contracts.json",
+    "checks_completed": 17,
+    "abstract_assignments": 729,
+    "additional_delta": 0,
+    "global_convergence": false
+  },
+  "final_validation": {
+    "own_records": 17,
+    "OPS": 9,
+    "own_accepted_improvements": 8,
+    "semantic_records_reviewed": 21,
+    "accepted_external_BR_records": 4,
+    "registry_evidence_ranges_verified": 79,
+    "semantic_evidence_ranges_verified": 107,
+    "evidence_commit_file_pairs": 32,
+    "distinct_evidence_source_paths": 22,
+    "baseline_claim_ranges": 10,
+    "own_files_UTF8_checked": 15,
+    "parsed_strings_checked_before_seal": 2857,
+    "reversible_mojibake_remaining": 0,
+    "markdown_links_resolve": true,
+    "reproduction_codes_compile": true,
+    "ledger_compiled": false
+  },
+  "semantic_mutation_review": {
+    "status": "COMPLETED_BOUNDED_ZERO_ADDITIONAL_DELTA_AFTER_ACCEPTED_BR4",
+    "closure": "knowledge/reviews/iterative-20261118/closure-semantic-mutations.json",
+    "known_ids": [
+      "OPS-001",
+      "OPS-002",
+      "OPS-003",
+      "OPS-004",
+      "OPS-005",
+      "OPS-006",
+      "OPS-007",
+      "OPS-008",
+      "OPS-009",
+      "IMP-T008",
+      "IMP-T009",
+      "IMP-T010",
+      "CLR-IMP-001",
+      "CLR-IMP-002",
+      "CLR-IMP-003",
+      "RPR-IMP-001",
+      "RPR-IMP-002",
+      "BR-IMP-001",
+      "BR-IMP-002",
+      "BR-IMP-003",
+      "BR-IMP-004"
+    ],
+    "checks_completed": 21,
+    "mutants": 70,
+    "source_contradictions": 30,
+    "qualifier_removals_not_entailed": 23,
+    "legitimate_equivalent_country_controls": 17,
+    "new_findings": [],
+    "improvements": [],
+    "basis": "User-accepted BR4 sidecar before external variant registry exists; explicitly authorized.",
+    "BR4_added_to_operational_registry": false,
+    "global_convergence": false,
+    "principal_owns_pass_counting": true
+  },
+  "encoding_normalization": {
+    "method": "Recursive interpreted JSON values and plaintext; convert only reversible CP1252/Latin1 sequences decoding to one UTF8 codepoint. Healthy UTF8 retained.",
+    "own_files_checked": 15,
+    "confirmed_corrupt_strings_requiring_change": 0,
+    "remaining_reversible_mojibake": 0,
+    "positive_corruption_control_passed": true,
+    "mixed_UTF8_control_passed": true,
+    "healthy_UTF8_control_passed": true,
+    "note": "Current on-disk strings include correct U+00F3 in comprobacion with accent, not U+00C3 followed by U+00B3; no blind whole-string recoding performed."
+  }
+}

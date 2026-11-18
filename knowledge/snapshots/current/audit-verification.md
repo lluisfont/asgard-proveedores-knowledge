@@ -10,7 +10,8 @@ Fecha: 2026-11-18. Perfil principal master
 | Candidatos historicos | PASS; 891 entradas contabilizadas y clasificadas individualmente |
 | Referencias de fuente | PASS; commits, rutas y limites de linea comprobados en ambos checkouts |
 | Navegacion y formatos actuales | PASS; enlaces locales, JSON/CSV, XML de XLSX y hashes |
-| Hallazgos de seguridad | 14 revisados; siete P1 y siete P2 con precondiciones y limites |
+| Hallazgos de seguridad | 15 revisados; ocho P1 y siete P2 con precondiciones y límites; SEC-015 nuevo |
+| Revisión iterativa | Véase [delta y criterio de cierre](../../reviews/iterative-20261118/README.md), con defectos operativos, mejoras y registros de pasadas |
 | Guardas aisladas | 8/8 casos correctos |
 | Pruebas independientes de seguridad | 12/12 casos reproducibles correctos, sin DB/red/sesion persistente |
 | Lint de aplicacion | 276/279 pasan bajo PHP 8.4.25; tres fallos documentados, sin afirmar compatibilidad de produccion |

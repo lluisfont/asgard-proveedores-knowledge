@@ -1,0 +1,85 @@
+{
+  "baseline_knowledge_commit": "3822900b6d54d99ccf854bec43005a208e2a9694",
+  "deltas": [
+    {
+      "id": "IMP-AST-001",
+      "classification": "improvement",
+      "first_version": 2,
+      "title": "Separar nombres léxicos, tablas en AST y esquema físico",
+      "statement": "394 fragmentos: 227 AST MySQL, 167 sin resolver; 100 nombres AST frente a 134 léxicos, cinco adicionales. Las ausencias del subconjunto no prueban ausencia de tablas.",
+      "scope": "master",
+      "origin": "source-audits/master/2026-11-18/iterative/sql-ast-summary.json",
+      "evidence": [],
+      "validation": {
+        "parser": "30.33.0",
+        "negative_controls": [
+          {
+            "case": "trim_column_is_not_a_table",
+            "expected": [
+              "tck_capacidadestransporte"
+            ],
+            "actual": [
+              "tck_capacidadestransporte"
+            ],
+            "status": "pass"
+          },
+          {
+            "case": "cte_alias_is_not_a_physical_table",
+            "expected": [
+              "source_table"
+            ],
+            "actual": [
+              "source_table"
+            ],
+            "status": "pass"
+          },
+          {
+            "case": "quoted_word_is_not_a_table",
+            "expected": [
+              "actual_table"
+            ],
+            "actual": [
+              "actual_table"
+            ],
+            "status": "pass"
+          }
+        ],
+        "source_references": "source-audits/master/2026-11-18/iterative/sql-ast-references.csv"
+      },
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "SEC-015",
+      "classification": "new_finding",
+      "first_version": 1,
+      "title": "El exportador acepta operaciones SQL completas del cliente",
+      "statement": "El cliente elige consultas completas y segmentos auxiliares. El impacto depende de acceso efectivo, bootstrap y privilegios SQL.",
+      "scope": "master",
+      "origin": "report-query-contract.md",
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/reportecontrolol.php",
+          "line_start": 111,
+          "line_end": 118,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 11,
+          "line_end": 25,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 52,
+          "line_end": 58,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "validation": "3/3 isolated decoding/dispatch cases; memory substitutes only, no DB, HTTP or application bootstrap.",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    }
+  ]
+}

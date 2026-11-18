@@ -56,6 +56,19 @@ Evidencia legible de esas funciones: [M Docker, L1-L6](https://github.com/KPO-Gr
 | Sesion/enlaces / divergencia tecnica | Entrada frameset a login; cifrado OpenSSL con manejo de fallo. | Entrada reconoce sesion, rechaza POST y difiere carga del frame; mantiene mcrypt en enlaces externos. | [M entrada L57-L82](https://github.com/KPO-Group/proveedores/blob/a8ce2c23dead8552d2c4699e4a9b9134f7a18707/index.php#L57-L82); [M cifrado L11-L54](https://github.com/KPO-Group/proveedores/blob/a8ce2c23dead8552d2c4699e4a9b9134f7a18707/index.php#L11-L54); [P sesion L1-L23](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index.php#L1-L23), [P cifrado/frame L59-L93](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index.php#L59-L93). |
 | Descargas/imagenes / control diferente | Guardas locales de sesion y ruta. | Elimina guardas y sus inclusiones; no asumir controles equivalentes. | [M descarga L1-L10](https://github.com/KPO-Group/proveedores/blob/a8ce2c23dead8552d2c4699e4a9b9134f7a18707/index_archivos/download.php#L1-L10); [P L1-L9](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/download.php#L1-L9); [M imagen L1-L6](https://github.com/KPO-Group/proveedores/blob/a8ce2c23dead8552d2c4699e4a9b9134f7a18707/index_archivos/tracking/getImage.php#L1-L6); [P L1-L5](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/getImage.php#L1-L5). |
 
+## Obligaciones por ruta — BR-IMP-001..004
+
+La igualdad de una operación concreta no equivale a igualdad de sus productores, entradas o efectos posteriores. Estas cuatro precisiones aceptadas se acotan a M/P95; el head remoto2a queda fuera de la revisión semántica.
+
+| ID / contrato | M | P95 | Límite que se conserva |
+| --- | --- | --- | --- |
+| [BR-IMP-001](peru.md#br-imp-001), intento EDP de carga masiva | Tras WhatsApp llama `registrarEdp`. | La ruta masiva retorna sin esa llamada; el helper y el `save` ordinario sí existen. | No inferir ausencia global de EDP ni inserción efectiva desde una llamada. |
+| [BR-IMP-002](peru.md#br-imp-002), orden del historial | `ORDER BY fecharegistro ASC`. | `ORDER BY tck_registrareventos.created_at ASC`. | Mismas filas pueden cambiar la posición de26; no determina la fecha correcta del negocio. |
+| [BR-IMP-003](peru.md#br-imp-003), referencia de lugar | La condición calculada no entra en el SELECT. | Filtro por referencia nombre/dirección o primeros tres segmentos nombre/latitud/longitud. | Restricción de candidatos y `LIMIT 1` no prueban unicidad, autorización o elección correcta. |
+| [BR-IMP-004](peru.md#br-imp-004), fecha/hora del temporal | Expresiones actuales aun con O/P recibidas. | Entrada con `!empty`; fallback actual si no se cumple. | Usar entrada no valida calendario/SQL/timezone ni acredita persistencia o programación completa. |
+
+Evidencia de código con pin completo, controles negativos y relación con OPS-004/005/006 están en [las cuatro entradas aceptadas](../reviews/iterative-20261118/branch-obligations.md). La [documentación de Perú](peru.md#br-imp-001) incluye los enlaces primarios por rango. Las precisiones CLR/RPR de pérdida, primera coincidencia y retorno explícito siguen vigentes; estas diferencias no las sustituyen ni añaden nuevos OPS.
+
 ## Submodulos fuera de alcance
 
 | Ruta | Gitlink M | Gitlink P |

@@ -1,0 +1,66 @@
+{
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source": "index_archivos/reporteexcel/reporteexcel.php",
+  "source_normalized_sha256": "50eb9e470bfb03b6afb4c821d93f98e85efa5d52856839ddd1e7134c3e743e43",
+  "source_ranges": [
+    {
+      "line_start": 13,
+      "line_end": 25
+    },
+    {
+      "line_start": 52,
+      "line_end": 58
+    }
+  ],
+  "technique": "contract_based_extracted_source_with_database_substitutes",
+  "network_access": false,
+  "database_access": false,
+  "application_entrypoint_executed": false,
+  "guard_bypassed_for_analysis": "No guard/route reachability is tested; only decoding and dispatch blocks are evaluated.",
+  "cases": [
+    {
+      "case": "single_selection",
+      "expected": [
+        "SELECT marker FROM audit_fixture"
+      ],
+      "actual": [
+        "SELECT marker FROM audit_fixture"
+      ],
+      "status": "pass"
+    },
+    {
+      "case": "auxiliary_mutation_before_selection",
+      "expected": [
+        "UPDATE audit_fixture SET marker=1",
+        "SELECT marker FROM audit_fixture"
+      ],
+      "actual": [
+        "UPDATE audit_fixture SET marker=1",
+        "SELECT marker FROM audit_fixture"
+      ],
+      "status": "pass"
+    },
+    {
+      "case": "multiple_auxiliary_commands",
+      "expected": [
+        "UPDATE audit_fixture SET marker=1",
+        "DELETE FROM audit_fixture WHERE marker=0",
+        "SELECT marker FROM audit_fixture"
+      ],
+      "actual": [
+        "UPDATE audit_fixture SET marker=1",
+        "DELETE FROM audit_fixture WHERE marker=0",
+        "SELECT marker FROM audit_fixture"
+      ],
+      "status": "pass"
+    }
+  ],
+  "passed": 3,
+  "total": 3,
+  "conclusion": "A caller-supplied auxiliary SQL command is dispatched verbatim before the first query. This demonstrates a query contract, not execution against any database.",
+  "limitations": [
+    "Requires reachable exporter with working bootstrap and applicable access controls",
+    "No deployed grants, schema, rows, multi-statements or anonymous reachability tested",
+    "The synthetic audit_fixture names do not refer to application data"
+  ]
+}

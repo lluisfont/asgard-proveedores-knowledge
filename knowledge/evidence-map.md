@@ -13,6 +13,7 @@ AS-IS estatico del commit `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`, rama `mast
 | Datos | [Modelo](general/data-model.md), [candidatos SQL](general/table-reference.md), [referencias con linea](../source-audits/master/2026-11-18/sql-references.csv) |
 | API | [Referencia](general/api-reference.md), [campos](../source-audits/master/2026-11-18/request-fields.csv), [catalogo](../source-audits/master/2026-11-18/brownfield/custom/http_endpoint_catalog.csv) |
 | Seguridad | [Revision](general/security-audit.md), [hallazgos](general/security-findings.json) |
+| Ampliación iterativa | [Delta aceptado](reviews/iterative-20261118/accepted-deltas.json), [versiones](reviews/iterative-20261118/iterations.json), [defectos operativos](general/operational-findings.json) |
 | Verificaciones | [Validacion del paquete](snapshots/current/knowledge-validation.json), [lint](../source-audits/master/2026-11-18/php-lint.json), [guardas](../source-audits/master/2026-11-18/guard-probes.json) |
 | Limites | [Cobertura documental](documentation-coverage.md), [pendientes](general/open-questions.md) |
 | Historia Peru | [Mapa original](history/evidence-map-20261001.md), [transferencia](transfer-scope.md) |

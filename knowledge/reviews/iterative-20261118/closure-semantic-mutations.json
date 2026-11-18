@@ -1,0 +1,1491 @@
+{
+  "schema_version": "1.0",
+  "phase": "POST_ACCEPTANCE_BR4_NEW_SEMANTIC_MUTATION_REVIEW",
+  "status": "COMPLETED_BOUNDED_ZERO_ADDITIONAL_DELTA_AFTER_ACCEPTED_BR4",
+  "new_findings": [],
+  "improvements": [],
+  "checks": [
+    {
+      "id": "OPS-001",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "cost_master_identity",
+        "value": "shipment_creator_max_id"
+      },
+      "required_qualifiers": [
+        "concurrent_visible_other_insert",
+        "source_not_production"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "own_insert_id",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "concurrent_visible_other_insert",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 592,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 415,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 594,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-002",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "location_return",
+        "value": "overwritten_status_of_last_successful_location"
+      },
+      "required_qualifiers": [
+        "ordinary_returns_no_exception",
+        "multiple_required_locations"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "all_required_writes_conjunction",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "ordinary_returns_no_exception",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1192,
+          "line_end": 1239,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 214,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1592,
+          "line_end": 1600,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1227,
+          "line_end": 1239,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-003",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "load_replace",
+        "value": "DELETE_then_call_four_for_five_required"
+      },
+      "required_qualifiers": [
+        "call_reached_after_DELETE_true",
+        "loss_requires_matching_committed_rows",
+        "PHP8_not54"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "call_five_before_DELETE",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "call_reached_after_DELETE_true",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 257,
+          "line_end": 285,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1189,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajaxAsignacion/editar_asignacion.php",
+          "line_start": 68,
+          "line_end": 76,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1168,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-004",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "batch_mark",
+        "value": "batch_and_user_without_group"
+      },
+      "required_qualifiers": [
+        "multiple_groups_snapshot",
+        "update_confirmed_no_external_correction"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "batch_user_and_current_group",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "multiple_groups_snapshot",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 361,
+          "line_end": 367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 208,
+          "line_end": 226,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 23,
+          "line_end": 29,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 597,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-005",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "event_merge",
+        "value": "positional_overwrite"
+      },
+      "required_qualifiers": [
+        "nonempty_remote",
+        "history_not_unique_prefix",
+        "representation_not_SQL_mutation"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "merge_by_registered_identity",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "nonempty_remote",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        },
+        {
+          "axis": "replace_timestamp_with_created_at_in_M",
+          "result": "SOURCE_CONTRADICTED"
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-006",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "event_guard",
+        "value": "truthiness_of_first_array_search_index"
+      },
+      "required_qualifiers": [
+        "first_matching_index0",
+        "no_business_meaning_for26"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "strict_false_presence_check",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "first_matching_index0",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 159,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-007",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "cost_total",
+        "value": "client_totalCategory"
+      },
+      "required_qualifiers": [
+        "header_total_differs_from_detail",
+        "no_DB_constraint_claim",
+        "monetary_policy_unapproved"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "server_recomputed_total",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "header_total_differs_from_detail",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/ajax/guardar-costos.php",
+          "line_start": 1,
+          "line_end": 8,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 355,
+          "line_end": 390,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 399,
+          "line_end": 414,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/costos/card-component.js",
+          "line_start": 106,
+          "line_end": 113,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 590,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "OPS-008",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "edit_chassis",
+        "value": "header_success_then_truthy_new_chassis_child_without_return"
+      },
+      "required_qualifiers": [
+        "edit_not_create_route",
+        "PHP_truthy_not_every_nonempty",
+        "no_upstream_policy_claim"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "create_new_order_only_for417_local",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "edit_not_create_route",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/editar.php",
+          "line_start": 110,
+          "line_end": 122,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+          "line_start": 4,
+          "line_end": 23,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 25,
+          "line_end": 33,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 54,
+          "line_end": 56,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 27,
+          "line_end": 38,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 59,
+          "line_end": 63,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1209,
+          "line_end": 1223,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 680,
+          "line_end": 694,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1288,
+          "line_end": 1309,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "OPS-009",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "mostrartabla_arity",
+        "value": [
+          1,
+          2
+        ]
+      },
+      "required_qualifiers": [
+        "mostrartabla_not_main_AJAX",
+        "PHP8_not54",
+        "JS_reachability_unverified"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": [
+            2,
+            2
+          ],
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "mostrartabla_not_main_AJAX",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 16,
+          "line_end": 22,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 129,
+          "line_end": 135,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosCotizacion.js",
+          "line_start": 153,
+          "line_end": 163,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/listaEmbarques.php",
+          "line_start": 40,
+          "line_end": 42,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "Dockerfile",
+          "line_start": 1,
+          "line_end": 6,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/embarquesController.php",
+          "line_start": 18,
+          "line_end": 20,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 173,
+          "line_end": 179,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "IMP-T008",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "save_optional_results",
+        "value": "unchecked_routes_relay_locations"
+      },
+      "required_qualifiers": [
+        "optional_false_can_be_no_request",
+        "only_observed_helper_chain"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "all_optional_false_is_failure",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "optional_false_can_be_no_request",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 184,
+          "line_end": 234,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 274,
+          "line_end": 285,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "IMP-T009",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "status_time",
+        "value": "updated_at_alias_and_separate_interruption_time"
+      },
+      "required_qualifiers": [
+        "DDL_trigger_unknown",
+        "UI_filter_not_server_state_machine"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "dedicated_transition_timestamp",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "DDL_trigger_unknown",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 30,
+          "line_end": 36,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 238,
+          "line_end": 238,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 279,
+          "line_end": 284,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/discontinued-trip.php",
+          "line_start": 1,
+          "line_end": 10,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "IMP-T010",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "cast_date",
+        "value": "slash_reorder_or1900_without_calendar_check"
+      },
+      "required_qualifiers": [
+        "format_absence_policy_unapproved",
+        "SQL_acceptance_unknown"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "calendar_validated_ISO_parser",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "format_absence_policy_unapproved",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1198,
+          "line_end": 1200,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1214,
+          "line_end": 1217,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1304,
+          "line_end": 1312,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "CLR-IMP-001",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "deletion_evidence",
+        "value": "statement_bool_without_affected_count"
+      },
+      "required_qualifiers": [
+        "zero_rows_is_possible",
+        "commit_required_for_loss"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "true_guarantees_positive_deleted_rows",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "zero_rows_is_possible",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1581,
+          "line_end": 1589,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1517,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "CLR-IMP-002",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "guard_repetitions",
+        "value": "first_match_index0_remains_falsy"
+      },
+      "required_qualifiers": [
+        "first_match_not_any_later_index",
+        "event26_meaning_unverified"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "later26_overrides_first_match",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "first_match_not_any_later_index",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "CLR-IMP-003",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "child_return",
+        "value": "implicit_NULL_even_if_queries_succeed"
+      },
+      "required_qualifiers": [
+        "child_not_parent_return",
+        "queries_not_executed"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "explicit_true_on_success",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "child_not_parent_return",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1195,
+          "line_end": 1206,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1342,
+          "line_end": 1367,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/editarController.php",
+          "line_start": 56,
+          "line_end": 70,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1397,
+          "line_end": 1422,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "RPR-IMP-001",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "count_partition",
+        "value": "proposed_only_not_implemented_in_helper"
+      },
+      "required_qualifiers": [
+        "TO_BE_not_AS_IS",
+        "no_op_policy_conditional",
+        "count_client_config_unknown"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "implemented_changed_noop_nomatch_partition",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "TO_BE_not_AS_IS",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/HerramientasClass.php",
+          "line_start": 29,
+          "line_end": 47,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1509,
+          "line_end": 1521,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 30,
+          "line_end": 36,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "RPR-IMP-002",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "id_normalization",
+        "value": "proposed_only_not_before_current_search"
+      },
+      "required_qualifiers": [
+        "TO_BE_not_AS_IS",
+        "documented_int_digit_string_only",
+        "runtime_type_unknown"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "current_helper_normalizes_numeric_strings",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "TO_BE_not_AS_IS",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+          "note": "Equivalent source predicate is a legitimate surviving control, not equal runtime."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 166,
+          "line_end": 174,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ]
+    },
+    {
+      "id": "BR-IMP-001",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "bulk_edp_call",
+        "value": true
+      },
+      "required_qualifiers": [
+        "bulk_route_not_all_routes",
+        "attempt_not_persistence"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": false,
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "bulk_route_not_all_routes",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SOURCE_CONTRADICTED",
+          "note": "Claim cannot be moved to other country."
+        },
+        {
+          "axis": "replace_VIN_caller_with_ordinary_save",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_route_claim_no_EDP_anywhere_in_P",
+          "result": "SOURCE_CONTRADICTED",
+          "witness": {
+            "ordinary_save_P_has_EDP": true
+          }
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 574,
+          "line_end": 588,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 590,
+          "line_end": 603,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 222,
+          "line_end": 224,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1635,
+          "line_end": 1648,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 283,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "BR-IMP-002",
+      "status": "completed",
+      "source_fact": {
+        "pin": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "key": "event_order",
+        "value": "fecharegistro"
+      },
+      "required_qualifiers": [
+        "producer_order_pin_specific",
+        "same_order_possible_no_universal_divergence"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "tck_registrareventos.created_at",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "producer_order_pin_specific",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SOURCE_CONTRADICTED",
+          "note": "Claim cannot be moved to other country."
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 387,
+          "line_end": 409,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 386,
+          "line_end": 408,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ListaViajesClass.php",
+          "line_start": 157,
+          "line_end": 190,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/viajedetalle.php",
+          "line_start": 89,
+          "line_end": 90,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "BR-IMP-003",
+      "status": "completed",
+      "source_fact": {
+        "pin": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+        "key": "reference_in_resolver_SQL",
+        "value": true
+      },
+      "required_qualifiers": [
+        "nonempty_reference",
+        "SQL_interpolation_not_only_variable_construction",
+        "LIMIT1_not_uniqueness"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": false,
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "nonempty_reference",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SOURCE_CONTRADICTED",
+          "note": "Claim cannot be moved to other country."
+        },
+        {
+          "axis": "remove_nonempty_qualifier_always_restricts",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER",
+          "source_predicate": "if (!empty($nombreLugar))"
+        },
+        {
+          "axis": "change_more_than_two_segments_to_exactly_three",
+          "result": "SOURCE_CONTRADICTED",
+          "source_predicate": "count($datosLugar) > 2",
+          "negative_control": "four segments still selects first three; no geography validated"
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 132,
+          "line_end": 161,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 134,
+          "line_end": 178,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 438,
+          "line_end": 439,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 454,
+          "line_end": 455,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 518,
+          "line_end": 518,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 534,
+          "line_end": 534,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 632,
+          "line_end": 632,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 647,
+          "line_end": 647,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    },
+    {
+      "id": "BR-IMP-004",
+      "status": "completed",
+      "source_fact": {
+        "pin": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+        "key": "temporary_dates",
+        "value": "input_if_not_empty_else_current"
+      },
+      "required_qualifiers": [
+        "not_empty_input_else_fallback",
+        "temporary_expression_not_full_trip_schedule",
+        "no_calendar_timezone_claim"
+      ],
+      "positive_control": "SUPPORTED_WITHIN_PIN_AND_SCOPE",
+      "semantic_mutations": [
+        {
+          "axis": "replace_semantic_value_or_caller",
+          "claimed_value": "current_unconditionally",
+          "result": "SOURCE_CONTRADICTED"
+        },
+        {
+          "axis": "remove_qualifier",
+          "removed": "not_empty_input_else_fallback",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        },
+        {
+          "axis": "swap_country_pin",
+          "result": "SOURCE_CONTRADICTED",
+          "note": "Claim cannot be moved to other country."
+        },
+        {
+          "axis": "remove_fallback_always_input",
+          "result": "SOURCE_CONTRADICTED",
+          "source_predicate": "!empty(input) ? input : CURRENT_DATE/TIME"
+        },
+        {
+          "axis": "swap_caller_dates_mean_stored_calendar_valid",
+          "result": "NOT_ENTAILED_WITHOUT_QUALIFIER"
+        }
+      ],
+      "source_evidence": [
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 80,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 47,
+          "line_end": 48,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/controllers/CargaMasiva.php",
+          "line_start": 64,
+          "line_end": 82,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/ajax/uploadExcelCargaMasiva.php",
+          "line_start": 61,
+          "line_end": 73,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 124,
+          "line_end": 138,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/ajax/crear-viaje-desde-items.php",
+          "line_start": 256,
+          "line_end": 258,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ]
+    }
+  ],
+  "technique": "Semantic mutation testing of pinned documentary claims: change country, timestamp, caller, conditional default or epistemic qualifier; positive and legitimate-equivalence controls.",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reviewed_known_ids": [
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003",
+    "RPR-IMP-001",
+    "RPR-IMP-002",
+    "BR-IMP-001",
+    "BR-IMP-002",
+    "BR-IMP-003",
+    "BR-IMP-004"
+  ],
+  "limitations": [
+    "21registros aceptados:9OPS+8mejoras operativas propias+4BRaceptadas externas. No global convergence or absence-of-defects claim.",
+    "País significa pin inmutable M/P95, no despliegue. P95es comparación histórica, no último Perú.2a179e2no auditado; no refs cambiadas.",
+    "Una mutación SOURCE_CONTRADICTED difiere del valor extraído. NOT_ENTAILED_WITHOUT_QUALIFIER significa que la fuente no sustenta la afirmación ampliada, no prueba el contrario en producción.",
+    "Las17mutaciones equivalentes legítimas no son fallos del test ni igualdad funcional global: conservan solo la propiedad leída en los dos pins.",
+    "Se usan BR4aceptadas del sidecar por autorización del usuario; al ejecutar, el registro externo de variantes aún no existía. No se edita ni se espera aprobación adicional.",
+    "No PHP/motorSQL ni agendas de fallo, BD/red, sesiones o salidas de navegador/navegación. No se ejecutan rutas.",
+    "No se inventa timezone, calendario válido, unicidad, geografía correcta, EDPpersistido ni significado empresarial de26.",
+    "Reparaciones siguen TO-BE. Fuente AS-IS, riesgo condicionado y propuesta se separan. Sin ledger, main ajeno, commits o push."
+  ],
+  "reproduction_code": "import json,re,subprocess\nfrom pathlib import Path\nroot=Path('C:/repos/asgard-proveedores-knowledge')\nsource=Path('C:/repos/proveedores-github-review-20261118')\nreg=json.loads((root/'knowledge/general/operational-findings.json').read_text(encoding='utf-8'))\nbranch_path=root/'knowledge/variants/branch-obligations.json'\nsidecar_path=root/'knowledge/reviews/iterative-20261118/closure-branch-obligations.json'\nbranch=json.loads(sidecar_path.read_text(encoding='utf-8'))\nbr=branch['improvements']\nassert {x['id'] for x in br}=={f'BR-IMP-{n:03}' for n in range(1,5)}\nM=reg['source_pins']['M'];P=reg['source_pins']['P']\nC='index_archivos/embarques/CostosClass.php';T='index_archivos/tracking/TrackingNewClass.php'\nB='index_archivos/tracking/controllers/CargaMasiva.php';E='index_archivos/tracking/ListaViajesClass.php'\nQ='index_archivos/embarques/CotizacionClass.php';H='index_archivos/tracking/HerramientasClass.php'\nMC='index_archivos/embarques/embarquesController.php';L='index_archivos/embarques/EmbarqueClass.php'\nA='index_archivos/embarques/ajax/listaEmbarques.php';VIN='index_archivos/embarques/ajax/crear-viaje-desde-items.php'\ncache={}\ndef text(pin,path):\n    key=(pin,path)\n    if key not in cache:\n        cache[key]=subprocess.check_output(['git','show',pin+':'+path],cwd=source).decode('utf-8')\n    return cache[key]\ndef method(pin,path,name):\n    src=text(pin,path);hit=re.search(r'(?:public|private|protected)\\s+static\\s+function\\s+'+re.escape(name)+r'\\s*\\(',src)\n    assert hit,(pin,path,name)\n    nxt=re.search(r'(?:public|private|protected)\\s+static\\s+function\\s+',src[hit.end():])\n    return src[hit.start():hit.end()+nxt.start()] if nxt else src[hit.start():]\ndef require(v):\n    assert v\n    return True\nfacts={}\nfor pin in [M,P]:\n    c=method(pin,C,'guardaCostoMaestro');loc=method(pin,T,'saveLocation');editload=method(pin,T,'editLoad')\n    save=method(pin,T,'save');bulk=method(pin,B,'crearViaje');cast=method(pin,T,'castDate')\n    ev=method(pin,E,'eventosViaje');hist=method(pin,E,'viajeDetalle');quotes=method(pin,Q,'editarCotizacionCliente')\n    child=method(pin,Q,'crearPedidosDetalle');pick=method(pin,Q,'getPedidos');stop=method(pin,H,'dicontinuedTrip')\n    tmp=method(pin,B,'guadarSolicitudCargaMasiva');resolver=method(pin,B,'buscarCodigoCliente')\n    require('order by lc.id desc LIMIT 1' in c and 'created_by' in c)\n    require('$statusSave = self::subItems' in loc and '$statusSave = false;' in loc)\n    require('DELETE FROM tck_carga' in editload and 'self::saveLoad($carga,$idJourney, $idEmbarque, $idOperador)' in editload)\n    require('SET estado = 1 WHERE idcargado' in bulk and 'numero_viaje' not in next(x for x in bulk.splitlines() if 'SET estado = 1 WHERE' in x))\n    require('$eventos[$i] = $detalle[$i];' in ev)\n    require(\"array_search(26 , array_column($detalle, 'id'))\" in ev)\n    require(\"{$item['totalCategory']}\" in c)\n    require('self::getPedidos($id)' in quotes and re.search(r'\\breturn\\b',child) is None)\n    require('self::saveRoutes(' in save and '$routesStored' not in save)\n    require('updated_at as fecha_estado' in text(pin,E) and 'fecha_interrupcion' in stop)\n    require(\"'1900-01-01'\" in cast and 'checkdate(' not in cast)\n    require('affected_rows' not in editload and 'affected_rows' not in stop)\n    require('intval' not in ev and \"array_column($detalle, 'id')\" in ev)\n    order=re.search(r'ORDER BY\\s+([A-Za-z0-9_.]+)\\s+ASC',hist).group(1).strip()\n    select_part=resolver[resolver.index('$query = \"SELECT'):]\n    controller_call=re.search(r'EmbarqueClass::getListaEmbarques\\((.*?)\\);',text(pin,MC),re.S).group(1)\n    signature=re.search(r'function getListaEmbarques\\s*\\(([^)]*)\\)',text(pin,L)).group(1)\n    required=len([x for x in signature.split(',') if '=' not in x])\n    facts[pin]={\n      'cost_master_identity':'shipment_creator_max_id',\n      'location_return':'overwritten_status_of_last_successful_location',\n      'load_replace':'DELETE_then_call_four_for_five_required',\n      'batch_mark':'batch_and_user_without_group',\n      'event_merge':'positional_overwrite',\n      'event_guard':'truthiness_of_first_array_search_index',\n      'cost_total':'client_totalCategory',\n      'edit_chassis':'header_success_then_truthy_new_chassis_child_without_return',\n      'mostrartabla_arity':(controller_call.count(',')+1,required),\n      'save_optional_results':'unchecked_routes_relay_locations',\n      'status_time':'updated_at_alias_and_separate_interruption_time',\n      'cast_date':'slash_reorder_or1900_without_calendar_check',\n      'deletion_evidence':'statement_bool_without_affected_count',\n      'guard_repetitions':'first_match_index0_remains_falsy',\n      'child_return':'implicit_NULL_even_if_queries_succeed',\n      'count_partition':'proposed_only_not_implemented_in_helper',\n      'id_normalization':'proposed_only_not_before_current_search',\n      'bulk_edp_call':bool(re.search(r'TrackingNewClass::registrarEdp\\s*\\(',bulk)),\n      'ordinary_edp_call':bool(re.search(r'self::registrarEdp\\s*\\(',save)),\n      'event_order':order,\n      'reference_in_resolver_SQL':'$condicionNombreLugar' in select_part,\n      'temporary_dates':'input_if_not_empty_else_current' if '$fechaCarguio = !empty' in tmp else 'current_unconditionally'\n    }\n    assert facts[pin]['mostrartabla_arity']==(1,2)\nvin_body=text(P,VIN)\nrequire('CargaMasiva::crearViaje(' in vin_body)\nfacts[P]['vin_caller']='CargaMasiva::crearViaje'\nassert facts[M]['event_order']=='fecharegistro' and facts[P]['event_order']=='tck_registrareventos.created_at'\nassert facts[M]['bulk_edp_call'] is True and facts[P]['bulk_edp_call'] is False\nassert facts[M]['reference_in_resolver_SQL'] is False and facts[P]['reference_in_resolver_SQL'] is True\nassert facts[M]['temporary_dates']=='current_unconditionally'\nassert facts[P]['temporary_dates']=='input_if_not_empty_else_current'\nrecords=reg['findings']+reg['improvements']+br\nassert len(records)==21\nchecks=[]\ndef evaluate(pin,key,value,qualifiers,required):\n    if not set(required)<=set(qualifiers):return 'NOT_ENTAILED_WITHOUT_QUALIFIER'\n    return 'SOURCE_CONTRADICTED' if facts[pin][key]!=value else 'SUPPORTED_WITHIN_PIN_AND_SCOPE'\ndef review(id,pin,key,value,wrong,required,extra=None):\n    positive=evaluate(pin,key,value,required,required)\n    assert positive=='SUPPORTED_WITHIN_PIN_AND_SCOPE',(id,key,positive)\n    mutations=[\n      dict(axis='replace_semantic_value_or_caller',claimed_value=wrong,result=evaluate(pin,key,wrong,required,required)),\n      dict(axis='remove_qualifier',removed=required[0],result=evaluate(pin,key,value,required[1:],required))\n    ]\n    assert mutations[0]['result']=='SOURCE_CONTRADICTED'\n    assert mutations[1]['result']=='NOT_ENTAILED_WITHOUT_QUALIFIER'\n    other=P if pin==M else M\n    if key in facts[other]:\n        swapped=evaluate(other,key,value,required,required)\n        mutations.append(dict(axis='swap_country_pin',result=swapped,\n            note='Equivalent source predicate is a legitimate surviving control, not equal runtime.' if swapped.startswith('SUPPORTED') else 'Claim cannot be moved to other country.'))\n    if extra:mutations.extend(extra)\n    rec=next(x for x in records if x['id']==id)\n    evs=rec.get('source_evidence',rec.get('evidence',[]))\n    for e in evs:\n        lines=text(e['commit'],e['path']).splitlines()\n        assert 1<=e['line_start']<=e['line_end']<=len(lines)\n    checks.append(dict(id=id,status='completed',source_fact=dict(pin=pin,key=key,value=value),\n        required_qualifiers=required,positive_control=positive,semantic_mutations=mutations,source_evidence=evs))\nreview('OPS-001',M,'cost_master_identity','shipment_creator_max_id','own_insert_id',['concurrent_visible_other_insert','source_not_production'])\nreview('OPS-002',M,'location_return','overwritten_status_of_last_successful_location','all_required_writes_conjunction',['ordinary_returns_no_exception','multiple_required_locations'])\nreview('OPS-003',M,'load_replace','DELETE_then_call_four_for_five_required','call_five_before_DELETE',['call_reached_after_DELETE_true','loss_requires_matching_committed_rows','PHP8_not54'])\nreview('OPS-004',M,'batch_mark','batch_and_user_without_group','batch_user_and_current_group',['multiple_groups_snapshot','update_confirmed_no_external_correction'])\nreview('OPS-005',M,'event_merge','positional_overwrite','merge_by_registered_identity',['nonempty_remote','history_not_unique_prefix','representation_not_SQL_mutation'],\n [dict(axis='replace_timestamp_with_created_at_in_M',result=evaluate(M,'event_order','tck_registrareventos.created_at',['M_only'],['M_only']))])\nreview('OPS-006',M,'event_guard','truthiness_of_first_array_search_index','strict_false_presence_check',['first_matching_index0','no_business_meaning_for26'])\nreview('OPS-007',M,'cost_total','client_totalCategory','server_recomputed_total',['header_total_differs_from_detail','no_DB_constraint_claim','monetary_policy_unapproved'])\nreview('OPS-008',M,'edit_chassis','header_success_then_truthy_new_chassis_child_without_return','create_new_order_only_for417_local',['edit_not_create_route','PHP_truthy_not_every_nonempty','no_upstream_policy_claim'])\nreview('OPS-009',M,'mostrartabla_arity',(1,2),(2,2),['mostrartabla_not_main_AJAX','PHP8_not54','JS_reachability_unverified'])\nreview('IMP-T008',M,'save_optional_results','unchecked_routes_relay_locations','all_optional_false_is_failure',['optional_false_can_be_no_request','only_observed_helper_chain'])\nreview('IMP-T009',M,'status_time','updated_at_alias_and_separate_interruption_time','dedicated_transition_timestamp',['DDL_trigger_unknown','UI_filter_not_server_state_machine'])\nreview('IMP-T010',M,'cast_date','slash_reorder_or1900_without_calendar_check','calendar_validated_ISO_parser',['format_absence_policy_unapproved','SQL_acceptance_unknown'])\nreview('CLR-IMP-001',M,'deletion_evidence','statement_bool_without_affected_count','true_guarantees_positive_deleted_rows',['zero_rows_is_possible','commit_required_for_loss'])\nreview('CLR-IMP-002',M,'guard_repetitions','first_match_index0_remains_falsy','later26_overrides_first_match',['first_match_not_any_later_index','event26_meaning_unverified'])\nreview('CLR-IMP-003',M,'child_return','implicit_NULL_even_if_queries_succeed','explicit_true_on_success',['child_not_parent_return','queries_not_executed'])\nreview('RPR-IMP-001',M,'count_partition','proposed_only_not_implemented_in_helper','implemented_changed_noop_nomatch_partition',['TO_BE_not_AS_IS','no_op_policy_conditional','count_client_config_unknown'])\nreview('RPR-IMP-002',M,'id_normalization','proposed_only_not_before_current_search','current_helper_normalizes_numeric_strings',['TO_BE_not_AS_IS','documented_int_digit_string_only','runtime_type_unknown'])\nreview('BR-IMP-001',M,'bulk_edp_call',True,False,['bulk_route_not_all_routes','attempt_not_persistence'],\n [dict(axis='replace_VIN_caller_with_ordinary_save',result=evaluate(P,'vin_caller','TrackingNewClass::save',['VIN_route'],['VIN_route'])),\n  dict(axis='remove_route_claim_no_EDP_anywhere_in_P',result='SOURCE_CONTRADICTED',witness=dict(ordinary_save_P_has_EDP=facts[P]['ordinary_edp_call']))])\nreview('BR-IMP-002',M,'event_order','fecharegistro','tck_registrareventos.created_at',['producer_order_pin_specific','same_order_possible_no_universal_divergence'])\nreview('BR-IMP-003',P,'reference_in_resolver_SQL',True,False,['nonempty_reference','SQL_interpolation_not_only_variable_construction','LIMIT1_not_uniqueness'],\n [dict(axis='remove_nonempty_qualifier_always_restricts',result='NOT_ENTAILED_WITHOUT_QUALIFIER',source_predicate='if (!empty($nombreLugar))'),\n  dict(axis='change_more_than_two_segments_to_exactly_three',result='SOURCE_CONTRADICTED',source_predicate='count($datosLugar) > 2',negative_control='four segments still selects first three; no geography validated')])\nreview('BR-IMP-004',P,'temporary_dates','input_if_not_empty_else_current','current_unconditionally',['not_empty_input_else_fallback','temporary_expression_not_full_trip_schedule','no_calendar_timezone_claim'],\n [dict(axis='remove_fallback_always_input',result='SOURCE_CONTRADICTED',source_predicate='!empty(input) ? input : CURRENT_DATE/TIME'),\n  dict(axis='swap_caller_dates_mean_stored_calendar_valid',result='NOT_ENTAILED_WITHOUT_QUALIFIER')])\ncounts={}\nfor c in checks:\n    for m in c['semantic_mutations']:counts[m['result']]=counts.get(m['result'],0)+1\nassert len(checks)==21 and all(x['status']=='completed' for x in checks)\nprint(json.dumps(dict(technique='Semantic mutation testing of pinned documentary claims: change country, timestamp, caller, conditional default or epistemic qualifier; positive and legitimate-equivalence controls.',\nsource_commit=M,reference_commit=P,reviewed_known_ids=[x['id'] for x in records],checks=checks,mutant_outcomes=counts,\nbranch_basis={'accepted_by_user':True,'source':sidecar_path.relative_to(root).as_posix(),'variant_registry_exists_when_run':branch_path.exists(),'not_reclassified_as_new':True},\nvalidated_source_pairs=len(cache),new_findings=[],improvements=[],\nzero_delta_reason='Mutations expose already accepted OPS/operational/BR distinctions; no additional independent omission found. Equivalent country mutations survive only where pinned source facts match, without inferring runtime equality.',\napplication_code_executed=False,database=False,network=False,sessions=False,browser_navigation_reviewed=False,refs_changed=False),ensure_ascii=False))\n",
+  "reproduction_command": "python -X utf8 -B -c \"import json; from pathlib import Path; d=json.loads(Path('knowledge/reviews/iterative-20261118/closure-semantic-mutations.json').read_text(encoding='utf-8')); exec(compile(d['reproduction_code'], '<semantic-mutation-review>', 'exec'))\"",
+  "reference_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "mutant_outcomes": {
+    "SOURCE_CONTRADICTED": 30,
+    "NOT_ENTAILED_WITHOUT_QUALIFIER": 23,
+    "SUPPORTED_WITHIN_PIN_AND_SCOPE": 17
+  },
+  "branch_basis": {
+    "accepted_by_user": true,
+    "source": "knowledge/reviews/iterative-20261118/closure-branch-obligations.json",
+    "variant_registry_exists_when_run": false,
+    "not_reclassified_as_new": true
+  },
+  "validated_source_pairs": 33,
+  "zero_delta_reason": "Mutations expose already accepted OPS/operational/BR distinctions; no additional independent omission found. Equivalent country mutations survive only where pinned source facts match, without inferring runtime equality.",
+  "summary": {
+    "records_reviewed": 21,
+    "own_operational_records": 17,
+    "accepted_external_BR_records": 4,
+    "mutants": 70,
+    "source_contradicted": 30,
+    "qualifier_not_entailed": 23,
+    "legitimate_equivalent_country_controls": 17,
+    "new_findings": 0,
+    "improvements": 0
+  },
+  "sequence": {
+    "after_acceptance_BR4": true,
+    "previous_abstract_role": "auxiliary_pre_BR4_zero_delta_preserved",
+    "prior_positive_pass6_CLR3_preserved": true,
+    "prior_positive_pass8_RPR2_preserved": true,
+    "BR4_not_added_to_operational_registry": true,
+    "ledger_compiled_here": false
+  },
+  "harness_note": "Se acotó el patrón de extracción ORDER BY al identificador final tras detectar que el primero capturaba también la ventana ROW_NUMBER. La tentativa interrumpida no se contó como resultado ni defecto de aplicación.",
+  "fingerprint": {
+    "status": "VERIFIED_FINAL",
+    "registry": "knowledge/general/operational-findings.json",
+    "algorithm": "sha256",
+    "canonicalization": "json.dumps(registry,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode('utf-8')",
+    "semantic_sha256": "d33217adea4a559f1bcf0b9047238f7e6aa2b8fd5884569e50c7cf18d7705ca5",
+    "file_sha256": "d3e9fd249007bfdc15bb5a104e8d5e531e56dfde53f7f7223ec5788e892d3bb1"
+  },
+  "final_artifact_validation": {
+    "own_records": 17,
+    "OPS": 9,
+    "own_accepted_improvements": 8,
+    "semantic_records_reviewed": 21,
+    "accepted_external_BR_records": 4,
+    "registry_evidence_ranges_verified": 79,
+    "semantic_evidence_ranges_verified": 107,
+    "evidence_commit_file_pairs": 32,
+    "distinct_evidence_source_paths": 22,
+    "baseline_claim_ranges": 10,
+    "own_files_UTF8_checked": 15,
+    "parsed_strings_checked_before_seal": 2857,
+    "reversible_mojibake_remaining": 0,
+    "markdown_links_resolve": true,
+    "reproduction_codes_compile": true,
+    "ledger_compiled": false
+  }
+}

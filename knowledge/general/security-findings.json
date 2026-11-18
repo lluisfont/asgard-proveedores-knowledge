@@ -19,8 +19,8 @@
     "release_approval": false
   },
   "summary": {
-    "total": 14,
-    "P1": 7,
+    "total": 15,
+    "P1": 8,
     "P2": 7
   },
   "activity_constraints": {
@@ -899,6 +899,54 @@
         "JWT consumers in unpopulated submodule not verified"
       ],
       "summary": "El flujo sin MFA entrega al registro la sesión completa después de asignar el JWT. El almacenamiento efectivo exige un INSERT correcto; la reutilización del token depende de consumidores no verificados."
+    },
+    {
+      "id": "SEC-015",
+      "priority": "P1",
+      "title": "El exportador acepta operaciones SQL completas del cliente",
+      "cwe": [
+        "CWE-89"
+      ],
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_status": "SOURCE_CONFIRMED_QUERY_CONTRACT",
+      "runtime_status": "BOOTSTRAP_ACCESS_AND_DATABASE_PRIVILEGES_UNVERIFIED",
+      "confidence": "high",
+      "validation_type": [
+        "contract_based_extracted_source_with_database_substitutes"
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/reportecontrolol.php",
+          "line_start": 111,
+          "line_end": 118
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 11,
+          "line_end": 25
+        },
+        {
+          "path": "index_archivos/reporteexcel/reporteexcel.php",
+          "line_start": 52,
+          "line_end": 58
+        }
+      ],
+      "trace": "A hidden form submits complete SQL; POST query is split on xxx; auxiliary segments and then the first segment are passed verbatim to mysqli_query.",
+      "trigger_preconditions": [
+        "Reachable exporter with working bootstrap and applicable access",
+        "Usable database connection and grants permitting the selected operations"
+      ],
+      "impact": "Caller chooses operations and their order within effective database privileges; production impact and rows are unverified.",
+      "recommendation": "Select an authorized report query on the server by identifier, bind typed filters and enforce account scope; never accept complete SQL from the caller.",
+      "validation_result": "3/3 isolated decoding/dispatch cases; memory substitutes only, no DB, HTTP or application bootstrap.",
+      "reference_comparison": "New master finding relative to knowledge baseline 3822900; not claimed as a newly introduced application regression. Peru exporter not independently assessed here.",
+      "limitations": [
+        "No anonymous reachability claim",
+        "No deployed privileges or rows inspected",
+        "Source control flow is not a deployment execution test"
+      ],
+      "dedup": "SEC-006 covers interpolation into fixed server SQL. This contract delegates the entire SQL operation and sequence to the client.",
+      "summary": "El cliente elige consultas completas y segmentos auxiliares. El impacto depende de acceso efectivo, bootstrap y privilegios SQL."
     }
   ],
   "bounded_observations_not_separate_findings": [
@@ -940,5 +988,13 @@
     "Credential validity, service permissions and historical logs"
   ],
   "source_integrity": "El código de aplicación coincide con el commit auditado, normalizando CRLF/LF, y permanece sin modificaciones. Los entregables contienen únicamente referencias a la credencial, sin su valor ni fragmentos.",
-  "summary_text": "Catorce hallazgos sustentados por trazas de código: siete P1 y siete P2. Las prioridades expresan urgencia bajo las precondiciones indicadas; la explotación en producción permanece sin verificar."
+  "summary_text": "Quince hallazgos de seguridad: ocho P1 y siete P2. Impacto en producción sin verificar; SEC-015 se incorpora en la revisión iterativa.",
+  "iterative_review": {
+    "baseline_knowledge_commit": "3822900b6d54d99ccf854bec43005a208e2a9694",
+    "new_ids": [
+      "SEC-015"
+    ],
+    "evidence": "source-audits/master/2026-11-18/iterative/report-contract-probes.json",
+    "documentation": "knowledge/reviews/iterative-20261118/report-query-contract.md"
+  }
 }

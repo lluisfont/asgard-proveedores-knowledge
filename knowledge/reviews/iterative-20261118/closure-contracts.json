@@ -1,0 +1,677 @@
+{
+  "schema_version": "1.0",
+  "technique": "Cruce fuente/docs y tablas de decisión por clases de tipo, prioridad y población; falsación con contraejemplos. Sin vm ni nuevos probes de aplicación.",
+  "reviewed_known_ids": [
+    "SEC-015",
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "OPS-008",
+    "OPS-009",
+    "VAR-001",
+    "IMP-AST-001",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "IMP-C1",
+    "IMP-C2"
+  ],
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "new_findings": [],
+  "improvements": [],
+  "checks": [
+    {
+      "id": "CLOSE-CONTRACT-HTTP",
+      "area": "HTTP source → caller → reviewed overlay and raw table",
+      "result": "consistent",
+      "source_decision_table": [
+        {
+          "input": "buscar-chasis: URL + type + data",
+          "source_method": "POST",
+          "documented_method": "POST",
+          "parameters": [
+            "chasis"
+          ],
+          "verdict": "consistent"
+        },
+        {
+          "input": "resumen-inventario: URL + type + data",
+          "source_method": "POST",
+          "documented_method": "POST",
+          "parameters": [
+            "chasis",
+            "tipo_inventario_id"
+          ],
+          "verdict": "consistent"
+        },
+        {
+          "input": "items.php hidden url_pedidos input",
+          "source_method": null,
+          "raw_method": "PUT",
+          "documented_disposition": "configuration_only_rejected_as_call",
+          "verdict": "consistent"
+        },
+        {
+          "input": "items include → ver_detalle_posiciones_pedido → settings",
+          "source_method": "GET",
+          "documented_method": "GET",
+          "parameters": [
+            "idpedido_in_path",
+            "Authorization"
+          ],
+          "verdict": "consistent"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/inventario-por-chasis.php",
+          "line_start": 68,
+          "line_end": 123,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 42,
+          "line_end": 44,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 99,
+          "line_end": 107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 1,
+          "line_end": 17,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        }
+      ],
+      "documentation": [
+        "knowledge/general/api-reference.md",
+        "scripts/audit/build_knowledge.py"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "CLOSE-CONTRACT-STATE",
+      "area": "State labels, null guard, actual type, creation and independent button condition",
+      "result": "consistent_with_IMP-C2",
+      "decision_table": [
+        {
+          "type": "NULL",
+          "value": null,
+          "display_label": "Asignado",
+          "interrupt_condition": true,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "int",
+          "value": 0,
+          "display_label": "Asignado",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "string",
+          "value": "0",
+          "display_label": "Rechazado",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "int",
+          "value": 1,
+          "display_label": "Aceptado",
+          "interrupt_condition": true,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "string",
+          "value": "1",
+          "display_label": "Aceptado",
+          "interrupt_condition": true,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "int",
+          "value": 2,
+          "display_label": "Interrumpido",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "string",
+          "value": "2",
+          "display_label": "Interrumpido",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "int",
+          "value": 3,
+          "display_label": "Completado",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "string",
+          "value": "3",
+          "display_label": "Completado",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "int",
+          "value": 4,
+          "display_label": "Borrador",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        },
+        {
+          "type": "string",
+          "value": "4",
+          "display_label": "Borrador",
+          "interrupt_condition": false,
+          "known_id": "IMP-C2"
+        }
+      ],
+      "derivation": "Source branch table combined with PHP8.4.25 comparison already observed in prior probe; no new runtime execution.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 273,
+          "line_end": 291,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 275,
+          "line_end": 292,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "documentation": [
+        "knowledge/glossary/business-glossary.json#/entries/69",
+        "knowledge/glossary/business-glossary.md#estado-viaje"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "CLOSE-CONTRACT-VAR",
+      "area": "Typed predicates, priority, filter versus aggregate population and country scope",
+      "result": "known_VAR001_family_no_new_mechanism",
+      "decision_table": [
+        {
+          "pending_type": "number",
+          "pending_value": 1,
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": true,
+          "reported_filter": false,
+          "sin_observaciones_filter": false,
+          "completed": false,
+          "button": "Pendiente",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "number",
+          "pending_value": 1,
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": true,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": false,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "number",
+          "pending_value": 1,
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": true,
+          "reported_filter": false,
+          "sin_observaciones_filter": false,
+          "completed": false,
+          "button": "Pendiente",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "1",
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": false,
+          "button": "Detalle",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "1",
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": false,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "1",
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": false,
+          "button": "none",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "number",
+          "pending_value": 0,
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "Detalle",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "number",
+          "pending_value": 0,
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": true,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "number",
+          "pending_value": 0,
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "none",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "0",
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "Detalle",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "0",
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": true,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "string",
+          "pending_value": "0",
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "none",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "null",
+          "pending_value": null,
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "Detalle",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "null",
+          "pending_value": null,
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": true,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "null",
+          "pending_value": null,
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "none",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "absent",
+          "pending_value": null,
+          "reported_type": "number",
+          "reported_value": 0,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "Detalle",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "absent",
+          "pending_value": null,
+          "reported_type": "number",
+          "reported_value": 1,
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": true,
+          "sin_observaciones_filter": false,
+          "completed": true,
+          "button": "Reportado",
+          "known_id": "VAR001"
+        },
+        {
+          "pending_type": "absent",
+          "pending_value": null,
+          "reported_type": "string",
+          "reported_value": "1",
+          "damage_flags": "all_numeric_zero",
+          "pending_filter": false,
+          "reported_filter": false,
+          "sin_observaciones_filter": true,
+          "completed": true,
+          "button": "none",
+          "known_id": "VAR001"
+        }
+      ],
+      "derivation": "Source predicates partitioned by type with numeric-zero damage flags held fixed; table is symbolic, not API observation.",
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 75,
+          "line_end": 87,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 129,
+          "line_end": 207,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/index.js",
+          "line_start": 8,
+          "line_end": 16,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/index.js",
+          "line_start": 147,
+          "line_end": 149,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+        }
+      ],
+      "documentation": [
+        "knowledge/variants/peru.md#var-001"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "CLOSE-CONTRACT-KNOWN",
+      "area": "Deduplication after acceptance of OPS009",
+      "result": "known_only",
+      "signature_counterexample": {
+        "known_id": "OPS009",
+        "caller_arguments": 1,
+        "required_arguments": 2,
+        "verdict": "known_mismatch_not_new",
+        "evidence": [
+          {
+            "path": "index_archivos/embarques/embarquesController.php",
+            "line_start": 20,
+            "line_end": 20,
+            "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+          },
+          {
+            "path": "index_archivos/embarques/EmbarqueClass.php",
+            "line_start": 129,
+            "line_end": 129,
+            "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+          }
+        ]
+      },
+      "reference_only": [
+        "OPS008",
+        "SEC015"
+      ],
+      "not_reaudited_as_new": [
+        "OPS001",
+        "OPS002",
+        "OPS003",
+        "OPS004",
+        "OPS005",
+        "OPS006",
+        "OPS007",
+        "IMP-AST001",
+        "IMPT008",
+        "IMPT009",
+        "IMPT010"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": "CLOSE-CONTRACT-SERIALIZATION",
+      "area": "JSON/Markdown/CSV entry69 synchronization",
+      "result": "consistent",
+      "entries": 81,
+      "changed_entry_indices": [
+        69
+      ],
+      "fieldnames": [
+        "id",
+        "term",
+        "definition",
+        "scope",
+        "confidence",
+        "evidence"
+      ],
+      "schema_valid": true,
+      "indices_and_counts_preserved": true,
+      "status": "completed"
+    }
+  ],
+  "negative_controls": [
+    {
+      "id": "NEG-CALL-BASE",
+      "counterexample": "URL_API in hidden input does not constitute a PUT request.",
+      "covered_by": "IMP-C1",
+      "result": "rejected_as_call"
+    },
+    {
+      "id": "NEG-RAW-OVERLAY",
+      "counterexample": "Rejected PUT remains in the clearly labeled raw table; it must not re-enter the reviewed contracts.",
+      "covered_by": "IMP-C1",
+      "result": "20_raw_rows_preserved_3_reviewed_contracts"
+    },
+    {
+      "id": "NEG-ZERO",
+      "counterexample": "NULL and int0 share a display label under observed PHP8.4 behavior; string0 follows case0. Equal label is not equality of values or button conditions.",
+      "covered_by": "IMP-C2",
+      "result": "not_generalized_to_PHP54_or_DB_driver"
+    },
+    {
+      "id": "NEG-PENDING-STRING",
+      "counterexample": {
+        "pending_type": "string",
+        "pending_value": "1",
+        "reported_type": "number",
+        "reported_value": 0,
+        "damage_flags": "all_numeric_zero",
+        "pending_filter": false,
+        "reported_filter": false,
+        "sin_observaciones_filter": true,
+        "completed": false,
+        "button": "Detalle",
+        "known_id": "VAR001"
+      },
+      "covered_by": "VAR001",
+      "result": "known_type_inconsistency_not_new"
+    },
+    {
+      "id": "NEG-FLAG-PRIORITY",
+      "counterexample": "reportado=1 and pendiente=1 activate both filters, while the button chooses Reportado first. The documentation does not claim exclusive flags.",
+      "covered_by": "VAR001",
+      "result": "no_new_documentation_contradiction"
+    },
+    {
+      "id": "NEG-FILTER-AGGREGATE",
+      "counterexample": "A filtered visible subset of one of two received vehicles does not reduce the badge denominator2; the document now names the received population.",
+      "covered_by": "VAR001",
+      "result": "consistent"
+    },
+    {
+      "id": "NEG-COUNTRY",
+      "counterexample": "P-only counter predicates are not promoted to M or to all inventory namespaces.",
+      "covered_by": "VAR001",
+      "result": "scope_preserved"
+    },
+    {
+      "id": "NEG-ARITY",
+      "counterexample": {
+        "known_id": "OPS009",
+        "caller_arguments": 1,
+        "required_arguments": 2,
+        "verdict": "known_mismatch_not_new",
+        "evidence": [
+          {
+            "path": "index_archivos/embarques/embarquesController.php",
+            "line_start": 20,
+            "line_end": 20,
+            "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+          },
+          {
+            "path": "index_archivos/embarques/EmbarqueClass.php",
+            "line_start": 129,
+            "line_end": 129,
+            "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707"
+          }
+        ]
+      },
+      "covered_by": "OPS009",
+      "result": "known_accepted_not_new"
+    },
+    {
+      "id": "NEG-OVERLAY-DRIFT",
+      "counterexample": [
+        "missing_raw_candidate",
+        "ambiguous_raw_candidate",
+        "different_source_pin"
+      ],
+      "covered_by": "IMP-C1",
+      "result": "all_rejected_by_generator"
+    }
+  ],
+  "limitations": [
+    "Cierre acotado a contratos HTTP IMP-C1, estado de viaje IMP-C2, inventario P VAR001 y deduplicación de OPS008/OPS009/SEC015; no es censo exhaustivo de contratos.",
+    "No browser ni revisión de navegación; no aplicación, red, BD, submódulos o servicios ejecutados. La tabla de decisión no vuelve a ejecutar vm/probes.",
+    "Las reglas de comparación PHP de la tabla se acotan al PHP8.4.25 ya observado; no validan PHP5.4, tipos devueltos por un driver o transiciones de negocio.",
+    "Las combinaciones de flags son contraejemplos sintéticos derivados de predicados; no se afirma que la API real produzca esos valores.",
+    "El SQL local conserva autoridad no verificada. El censo SQLglot, SEC015 y los riesgos de transacciones se deduplican, no se reabren aquí.",
+    "El proceso principal genera ledger y fingerprints y decide el streak. No se declara convergencia global ni cierre de todos los riesgos de producción."
+  ],
+  "status": "bounded_static_review_complete",
+  "global_convergence_claimed": false,
+  "summary": {
+    "new_findings": 0,
+    "improvements": 0,
+    "source_doc_contract_areas": 4,
+    "state_rows": 11,
+    "inventory_rows": 18
+  }
+}

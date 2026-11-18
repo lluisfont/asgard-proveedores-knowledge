@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-11-18T20:43:09.902803+00:00",
+  "audited_master_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "master_remote_observed": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "comparison_peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "peru_remote_observed": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "changed_paths_vs_comparison_pin": [
+    "index_archivos/embarques/js/datosEmbarques.js",
+    "index_archivos/reportes/reportepreembarquenacional.php",
+    "index_archivos/reportes/reportepreembarquenacionalquery.php"
+  ],
+  "audit_scope_decision": "Keep immutable master and Peru comparison pins. New Peru head recorded for freshness only; not claimed audited. No latest-Peru semantic or browser/navigation review performed.",
+  "production_validation": "UNVERIFIED"
+}

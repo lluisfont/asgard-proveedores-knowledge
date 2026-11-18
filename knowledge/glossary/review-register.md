@@ -112,6 +112,8 @@ No se ejecutó la aplicación. La coordinación informó que Windows App Control
 
 ## Reproducción de la validación JSON
 
+La revisión iterativa IMP-C2 corrige una incertidumbre del registro anterior: la plantilla de ambos pins sí nombra los códigos de estado de viaje 0–4. Se añaden esas fuentes al concepto `estado-viaje` y se sincronizan JSON/Markdown/CSV sin aumentar los 81 conceptos. La representación local con NULL, cero entero y cero textual requiere la cautela de tipos descrita en el glosario; no confirma valores que devuelva un driver desplegado. El [delta de contratos](../reviews/iterative-20261118/contract-integration.json) conserva la corrección y sus límites.
+
 Desde la raíz del repositorio de conocimiento, con Python y `jsonschema` disponibles:
 
 ```powershell

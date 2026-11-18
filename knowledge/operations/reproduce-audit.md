@@ -68,3 +68,24 @@ correspondencia con master.
 La receta no inicia servicios de aplicacion, no construye Docker, no conecta a
 base de datos ni ejecuta mutaciones por HTTP. Las pruebas de seguridad usan
 guardas o metodos aislados con sustitutos controlados y registran sus limites.
+
+## Ampliación iterativa
+
+La [revisión iterativa](../reviews/iterative-20261118/README.md) conserva por separado las propuestas iniciales, su aceptación/deduplicación y los cierres. Para reproducir sus pruebas desde la raíz del paquete:
+
+```powershell
+python -B scripts/audit/report_contract_probes.py --source C:/ruta/master --output source-audits/master/2026-11-18/iterative/report-contract-probes.json
+python -B scripts/audit/transaction_probes.py --source C:/ruta/master --output source-audits/master/2026-11-18/iterative/transaction-probes.json
+python -B scripts/audit/contract_consistency_probes.py --source-repo C:/ruta/master
+python -B scripts/audit/static_arity_review.py --source C:/ruta/master
+python -B scripts/audit/arity_contract_probes.py --source C:/ruta/master
+python -B scripts/audit/sql_ast_crosscheck.py --source C:/ruta/master --parser-path C:/ruta/sqlglot-30.33.0
+python -B scripts/audit/integrate_iterative_core.py
+python -B scripts/audit/build_knowledge.py --view api-reference
+python -B scripts/audit/build_knowledge.py --view glossary-csv
+python -B scripts/audit/compile_iterative_review.py --close
+python -B scripts/audit/index_artifacts.py
+python -B scripts/audit/validate_knowledge.py --source C:/ruta/master --peru-source C:/ruta/peru
+```
+
+El parser SQLglot requiere su versión fijada y Brownfield instalado. El censo usa solo tokenización; las pruebas de aridad sustituyen el cuerpo por un centinela, hecho registrado en su JSON. No se reproduce la revisión rechazada de salidas al navegador/navegación ni se usa para el criterio de convergencia. La auditoría nativa ASGARD continúa bloqueada por AppControl y no se intenta eludir ese bloqueo.

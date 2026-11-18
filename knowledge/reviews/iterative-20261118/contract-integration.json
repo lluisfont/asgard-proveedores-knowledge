@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "source_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "source_commits": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "status": "accepted_integration_complete",
+  "accepted_improvements": [
+    {
+      "id": "IMP-C1",
+      "registry_alias": "IMPC1",
+      "source_delta": "TEMP-C1",
+      "status": "accepted",
+      "targets": [
+        "scripts/audit/build_knowledge.py",
+        "knowledge/general/api-reference.md"
+      ],
+      "durable_overlay": true,
+      "raw_candidates_preserved": 20,
+      "raw_candidate_ids": [
+        "aug_c10c9e4036eee4149654",
+        "aug_4c20a763aaf1e6aac7c5",
+        "aug_bff50abd38e0839eca27"
+      ],
+      "reviewed_contracts": [
+        {
+          "method": "POST",
+          "url": "UNRESOLVED_CONST:URL_API/inventario/proveedores/reportes/buscar-chasis",
+          "parameters": "chasis; Authorization",
+          "evidence": "`M:index_archivos/reportes/inventario-por-chasis.php:L68-L86`"
+        },
+        {
+          "method": "POST",
+          "url": "UNRESOLVED_CONST:URL_API/inventario/proveedores/reportes/resumen-inventario",
+          "parameters": "chasis, tipo_inventario_id; Authorization",
+          "evidence": "`M:index_archivos/reportes/inventario-por-chasis.php:L89-L123`"
+        },
+        {
+          "method": "GET",
+          "url": "UNRESOLVED_CONST:URL_API/proveedores/detalle-pedido/{idpedido}",
+          "parameters": "idpedido en ruta; Authorization",
+          "evidence": "`M:index_archivos/embarques/frames/items.php:L42-L44,L99-L107` → `M:index_archivos/embarques/js/datosEmbarques.js:L1-L17`"
+        }
+      ],
+      "rejected_root_put": [
+        "PUT",
+        "UNRESOLVED_CONST:URL_API",
+        "`M:index_archivos/embarques/frames/items.php:L43`",
+        "Input oculto de configuracion; no es una llamada a la raiz. La cadena activa termina en GET detalle-pedido/{idpedido}."
+      ],
+      "evidence": [
+        {
+          "path": "index_archivos/reportes/inventario-por-chasis.php",
+          "line_start": 68,
+          "line_end": 101,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 42,
+          "line_end": 44,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 99,
+          "line_end": 107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 1,
+          "line_end": 17,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        }
+      ]
+    },
+    {
+      "id": "IMP-C2",
+      "registry_alias": "IMPC2",
+      "source_delta": "TEMP-C2",
+      "status": "accepted",
+      "targets": [
+        "knowledge/glossary/business-glossary.json",
+        "knowledge/glossary/business-glossary.md",
+        "knowledge/glossary/business-glossary.csv"
+      ],
+      "json_pointer": "/entries/69",
+      "entry_id": "estado-viaje",
+      "confidence_preserved": "inferred",
+      "evidence_refs": [
+        "E049",
+        "E050",
+        "E194",
+        "E195"
+      ],
+      "scope": "shared_evidence",
+      "php_runtime_caveat": "Observed PHP8.4.25 only; PHP5.4 and deployed driver types unverified.",
+      "evidence": [
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        }
+      ]
+    }
+  ],
+  "accepted_findings": [
+    {
+      "id": "VAR001",
+      "documentation_id": "VAR-001",
+      "source_delta": "TEMP-C3",
+      "status": "accepted",
+      "country_variant": "peru",
+      "source_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "target": "knowledge/variants/peru.md#var-001",
+      "classification": "AS-IS / RISK",
+      "implemented_app_fix": false,
+      "evidence": [
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 75,
+          "line_end": 87,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+          "line_start": 162,
+          "line_end": 207,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/index.js",
+          "line_start": 8,
+          "line_end": 16,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        },
+        {
+          "path": "index_archivos/embarques/componentes/inventario-local/index.js",
+          "line_start": 147,
+          "line_end": 149,
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "repository": "C:/repos/proveedores-github-review-20261118"
+        }
+      ]
+    }
+  ],
+  "references_only": [
+    {
+      "id": "OPS008",
+      "source_delta": "TEMP-C4",
+      "status": "accepted_known",
+      "integration_owner": "transaction_agent",
+      "integration_performed_here": false
+    },
+    {
+      "id": "OPS009",
+      "status": "accepted_known",
+      "integration_owner": "principal",
+      "integration_performed_here": false
+    },
+    {
+      "id": "SEC015",
+      "status": "accepted_known",
+      "scope": "whole-query export; distinct from legacy SEC006",
+      "integration_performed_here": false
+    }
+  ],
+  "validation": {
+    "schema_valid": true,
+    "glossary_entries": 81,
+    "json_md_csv_synchronized": true,
+    "changed_entry_indices": [
+      69
+    ],
+    "counts_indices_preserved": true,
+    "raw_rows_untouched": true,
+    "raw_rows_in_view": 20,
+    "reviewed_contracts": 3,
+    "overlay_negative_controls": [
+      "missing_raw_candidate",
+      "ambiguous_raw_candidate",
+      "different_source_pin"
+    ],
+    "targeted_views_only": true,
+    "full_build_not_run": true
+  },
+  "reproduction": [
+    "python -B scripts/audit/build_knowledge.py --view api-reference",
+    "python -B scripts/audit/build_knowledge.py --view glossary-csv"
+  ],
+  "closure_report": "knowledge/reviews/iterative-20261118/closure-contracts.json",
+  "write_set": [
+    "scripts/audit/build_knowledge.py",
+    "knowledge/general/api-reference.md",
+    "knowledge/glossary/business-glossary.json",
+    "knowledge/glossary/business-glossary.md",
+    "knowledge/glossary/business-glossary.csv",
+    "knowledge/variants/peru.md",
+    "knowledge/reviews/iterative-20261118/contract-integration.json",
+    "knowledge/reviews/iterative-20261118/closure-contracts.json",
+    "knowledge/reviews/iterative-20261118/closure-contracts.md"
+  ],
+  "limitations": [
+    "Cierre acotado a contratos HTTP IMP-C1, estado de viaje IMP-C2, inventario P VAR001 y deduplicación de OPS008/OPS009/SEC015; no es censo exhaustivo de contratos.",
+    "No browser ni revisión de navegación; no aplicación, red, BD, submódulos o servicios ejecutados. La tabla de decisión no vuelve a ejecutar vm/probes.",
+    "Las reglas de comparación PHP de la tabla se acotan al PHP8.4.25 ya observado; no validan PHP5.4, tipos devueltos por un driver o transiciones de negocio.",
+    "Las combinaciones de flags son contraejemplos sintéticos derivados de predicados; no se afirma que la API real produzca esos valores.",
+    "El SQL local conserva autoridad no verificada. El censo SQLglot, SEC015 y los riesgos de transacciones se deduplican, no se reabren aquí.",
+    "El proceso principal genera ledger y fingerprints y decide el streak. No se declara convergencia global ni cierre de todos los riesgos de producción."
+  ]
+}

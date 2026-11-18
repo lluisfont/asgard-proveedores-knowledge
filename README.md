@@ -18,6 +18,8 @@ como evidencia historica de Peru.
 - [Procesos](knowledge/general/workflows.md) y [reglas de negocio](knowledge/general/business-rules.md).
 - [Arquitectura](knowledge/general/architecture.md) y [referencia API](knowledge/general/api-reference.md).
 - [Auditoria de seguridad](knowledge/general/security-audit.md).
+- [Revisión iterativa y cambios respecto a la auditoría anterior](knowledge/reviews/iterative-20261118/README.md).
+- [Defectos operativos y pruebas de invariantes](knowledge/general/operational-findings.md).
 - [Mapa de evidencias](knowledge/evidence-map.md).
 - [Manifiesto del paquete](knowledge/manifest.json).
 - [Inventario de transferencia y hashes](knowledge/transfer-artifacts.json).
@@ -93,4 +95,3 @@ sobrescribir archivos existentes.
 Revisar [QUICK_START.md](QUICK_START.md) y el estado de cobertura antes de usar
 el paquete para cambios. Los valores `unknown`, `partial` e `inferred` conservan
 su significado original.
-

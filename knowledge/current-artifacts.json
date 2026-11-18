@@ -76,11 +76,11 @@
     },
     {
       "path": "source-audits/master/2026-11-18/AUDIT_REPORT.md",
-      "export_sha256": "d2377a19abef5afe6c68e91c5314f060dcdf427b9e54a0d7bb54592a1b269a4c",
-      "stored_sha256": "d2377a19abef5afe6c68e91c5314f060dcdf427b9e54a0d7bb54592a1b269a4c",
+      "export_sha256": "1d604d5d797a495966b8e113404119fe0773926066b9607dc5ad7ded89b68ce0",
+      "stored_sha256": "1d604d5d797a495966b8e113404119fe0773926066b9607dc5ad7ded89b68ce0",
       "compression": null,
-      "bytes": 4312,
-      "stored_bytes": 4312
+      "bytes": 5708,
+      "stored_bytes": 5708
     },
     {
       "path": "source-audits/master/2026-11-18/branch-comparison.csv",
@@ -1113,6 +1113,78 @@
       "compression": null,
       "bytes": 2284813,
       "stored_bytes": 2284813
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/arity-contract-probes.json",
+      "export_sha256": "0b70859b4cba0e78150f2d6aeb4d3984893c2bdb0f529de2612278cee6310078",
+      "stored_sha256": "0b70859b4cba0e78150f2d6aeb4d3984893c2bdb0f529de2612278cee6310078",
+      "compression": null,
+      "bytes": 1155,
+      "stored_bytes": 1155
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/contract-consistency-probes.json",
+      "export_sha256": "851b851a61a4ac75b9c647606f8d0afcda336f3cbef91b40405bfb834cc6dc31",
+      "stored_sha256": "851b851a61a4ac75b9c647606f8d0afcda336f3cbef91b40405bfb834cc6dc31",
+      "compression": null,
+      "bytes": 27138,
+      "stored_bytes": 27138
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/remote-refs-observation.json",
+      "export_sha256": "74a648f88d322563f190c5fef2449b9573d110361501058ffe03d27b2510ed41",
+      "stored_sha256": "74a648f88d322563f190c5fef2449b9573d110361501058ffe03d27b2510ed41",
+      "compression": null,
+      "bytes": 830,
+      "stored_bytes": 830
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/report-contract-probes.json",
+      "export_sha256": "913ee139867a0984e30f06e5419fd4649be39289902c7a71d5324f00c87260b8",
+      "stored_sha256": "913ee139867a0984e30f06e5419fd4649be39289902c7a71d5324f00c87260b8",
+      "compression": null,
+      "bytes": 2181,
+      "stored_bytes": 2181
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/sql-ast-fragments.json",
+      "export_sha256": "72bce6771a34533e1d53ea19071dfe3842b7d0033792618d5b6ce739d3e1d297",
+      "stored_sha256": "72bce6771a34533e1d53ea19071dfe3842b7d0033792618d5b6ce739d3e1d297",
+      "compression": null,
+      "bytes": 155882,
+      "stored_bytes": 155882
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/sql-ast-references.csv",
+      "export_sha256": "3b41e31f101041dda925a6302714f44a990da28416dc92cafe53a5dc2eeea316",
+      "stored_sha256": "3b41e31f101041dda925a6302714f44a990da28416dc92cafe53a5dc2eeea316",
+      "compression": null,
+      "bytes": 79982,
+      "stored_bytes": 79982
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/sql-ast-summary.json",
+      "export_sha256": "c636c1ceed975da5dcae599a8dbfbc4168334821ae06f558123e48880c417893",
+      "stored_sha256": "c636c1ceed975da5dcae599a8dbfbc4168334821ae06f558123e48880c417893",
+      "compression": null,
+      "bytes": 2449,
+      "stored_bytes": 2449
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/static-arity-review.json",
+      "export_sha256": "61ea1b2d313915029212ea8b813ded1a874836ec90702e5421161c8ce8cdcb49",
+      "stored_sha256": "61ea1b2d313915029212ea8b813ded1a874836ec90702e5421161c8ce8cdcb49",
+      "compression": null,
+      "bytes": 236317,
+      "stored_bytes": 236317
+    },
+    {
+      "path": "source-audits/master/2026-11-18/iterative/transaction-probes.json",
+      "export_sha256": "590488da9811d50acb22da8f7fbe7eafab3e776921311765a6ee49dfde2fbba2",
+      "stored_sha256": "590488da9811d50acb22da8f7fbe7eafab3e776921311765a6ee49dfde2fbba2",
+      "compression": null,
+      "bytes": 31602,
+      "stored_bytes": 31602
     },
     {
       "path": "source-audits/master/2026-11-18/native-api-execution.json",

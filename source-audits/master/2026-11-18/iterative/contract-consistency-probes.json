@@ -1,0 +1,1067 @@
+{
+  "schema_version": "1.0",
+  "pins": {
+    "M": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "P": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62"
+  },
+  "mode": "isolated_extracted_source_offline",
+  "application_bootstrap_executed": false,
+  "database_access": false,
+  "network_access": false,
+  "application_writes": false,
+  "session_storage_used": false,
+  "limits": "PHP 8.4 local probes do not validate PHP 5.4 Docker or deployment. Synthetic API values test consumer assumptions, not actual backend outputs.",
+  "state_probes": [
+    {
+      "variant": "M",
+      "method_range": [
+        117,
+        139
+      ],
+      "summary": [
+        {
+          "mask": 0,
+          "label": "Pendiente"
+        },
+        {
+          "mask": 1,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 2,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 3,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 4,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 5,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 6,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 7,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 8,
+          "label": "Enviado"
+        },
+        {
+          "mask": 9,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 10,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 11,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 12,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 13,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 14,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 15,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 16,
+          "label": "Enviado"
+        },
+        {
+          "mask": 17,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 18,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 19,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 20,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 21,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 22,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 23,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 24,
+          "label": "Enviado"
+        },
+        {
+          "mask": 25,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 26,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 27,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 28,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 29,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 30,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 31,
+          "label": "Finalizado"
+        }
+      ],
+      "render": [
+        {
+          "value": null,
+          "php_type": "null",
+          "label": "Asignado"
+        },
+        {
+          "value": 0,
+          "php_type": "int",
+          "label": "Asignado"
+        },
+        {
+          "value": "0",
+          "php_type": "string",
+          "label": "Rechazado"
+        },
+        {
+          "value": 1,
+          "php_type": "int",
+          "label": "Aceptado"
+        },
+        {
+          "value": "1",
+          "php_type": "string",
+          "label": "Aceptado"
+        },
+        {
+          "value": 2,
+          "php_type": "int",
+          "label": "Interrumpido"
+        },
+        {
+          "value": "2",
+          "php_type": "string",
+          "label": "Interrumpido"
+        },
+        {
+          "value": 3,
+          "php_type": "int",
+          "label": "Completado"
+        },
+        {
+          "value": "3",
+          "php_type": "string",
+          "label": "Completado"
+        },
+        {
+          "value": 4,
+          "php_type": "int",
+          "label": "Borrador"
+        },
+        {
+          "value": "4",
+          "php_type": "string",
+          "label": "Borrador"
+        }
+      ],
+      "php_version": "8.4.25"
+    },
+    {
+      "variant": "P",
+      "method_range": [
+        117,
+        139
+      ],
+      "summary": [
+        {
+          "mask": 0,
+          "label": "Pendiente"
+        },
+        {
+          "mask": 1,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 2,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 3,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 4,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 5,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 6,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 7,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 8,
+          "label": "Enviado"
+        },
+        {
+          "mask": 9,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 10,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 11,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 12,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 13,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 14,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 15,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 16,
+          "label": "Enviado"
+        },
+        {
+          "mask": 17,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 18,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 19,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 20,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 21,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 22,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 23,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 24,
+          "label": "Enviado"
+        },
+        {
+          "mask": 25,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 26,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 27,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 28,
+          "label": "Aceptado"
+        },
+        {
+          "mask": 29,
+          "label": "Finalizado"
+        },
+        {
+          "mask": 30,
+          "label": "En Proceso"
+        },
+        {
+          "mask": 31,
+          "label": "Finalizado"
+        }
+      ],
+      "render": [
+        {
+          "value": null,
+          "php_type": "null",
+          "label": "Asignado"
+        },
+        {
+          "value": 0,
+          "php_type": "int",
+          "label": "Asignado"
+        },
+        {
+          "value": "0",
+          "php_type": "string",
+          "label": "Rechazado"
+        },
+        {
+          "value": 1,
+          "php_type": "int",
+          "label": "Aceptado"
+        },
+        {
+          "value": "1",
+          "php_type": "string",
+          "label": "Aceptado"
+        },
+        {
+          "value": 2,
+          "php_type": "int",
+          "label": "Interrumpido"
+        },
+        {
+          "value": "2",
+          "php_type": "string",
+          "label": "Interrumpido"
+        },
+        {
+          "value": 3,
+          "php_type": "int",
+          "label": "Completado"
+        },
+        {
+          "value": "3",
+          "php_type": "string",
+          "label": "Completado"
+        },
+        {
+          "value": 4,
+          "php_type": "int",
+          "label": "Borrador"
+        },
+        {
+          "value": "4",
+          "php_type": "string",
+          "label": "Borrador"
+        }
+      ],
+      "php_version": "8.4.25"
+    }
+  ],
+  "inventory_contract": {
+    "node_version": "v24.19.0",
+    "M": {
+      "request": {
+        "url": "BASE/inventario/proveedores/lista-inventarios-locales/1",
+        "method": "POST",
+        "data": {
+          "embarque_id": 901,
+          "chasis": null,
+          "partida": null
+        }
+      }
+    },
+    "P": {
+      "request": {
+        "url": "BASE/proveedores/inventarios-nacionales-locales/1/901",
+        "method": "POST",
+        "data": {
+          "busqueda": null
+        }
+      },
+      "flags": [
+        {
+          "input": {
+            "pending": 1
+          },
+          "pendienteFilter": true,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 0,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": "1"
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 0,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": 0
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": "0"
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": null
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "missing": true
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": true
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        },
+        {
+          "input": {
+            "pending": 2
+          },
+          "pendienteFilter": false,
+          "event": {
+            "name": "conteoInventario",
+            "value": {
+              "completados": 1,
+              "total": 1
+            }
+          }
+        }
+      ],
+      "filtered": {
+        "visible": 1,
+        "header": {
+          "completados": 1,
+          "total": 2
+        }
+      },
+      "local_counter_emitted": false
+    }
+  },
+  "edit_call_chain": [
+    {
+      "variant": "M",
+      "ranges": {
+        "editarCotizacionCliente": [
+          1175,
+          1208
+        ],
+        "getPedidos": [
+          1342,
+          1345
+        ],
+        "crearPedidosDetalle": [
+          1347,
+          1367
+        ]
+      },
+      "cases": [
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": true,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": false
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        },
+        {
+          "cliente": 417,
+          "scope": 3,
+          "new_chasis_present": true,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": false
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        },
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": false,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            }
+          ]
+        },
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": true,
+          "pedido_present": false,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": true
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "P",
+      "ranges": {
+        "editarCotizacionCliente": [
+          1184,
+          1225
+        ],
+        "getPedidos": [
+          1397,
+          1400
+        ],
+        "crearPedidosDetalle": [
+          1402,
+          1422
+        ]
+      },
+      "cases": [
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": true,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": false
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        },
+        {
+          "cliente": 417,
+          "scope": 3,
+          "new_chasis_present": true,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": false
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        },
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": false,
+          "pedido_present": true,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            }
+          ]
+        },
+        {
+          "cliente": 999,
+          "scope": 1,
+          "new_chasis_present": true,
+          "pedido_present": false,
+          "result": {
+            "code": 200
+          },
+          "calls": [
+            {
+              "kind": "update_header"
+            },
+            {
+              "kind": "insert_detail",
+              "missing_pedido": true
+            },
+            {
+              "kind": "update_description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items_detail_request": {
+    "url": "BASE/proveedores/detalle-pedido/700001",
+    "method": "GET",
+    "headers": [
+      "Authorization"
+    ]
+  },
+  "report_http_requests": [
+    {
+      "url": "BASE/inventario/proveedores/reportes/buscar-chasis",
+      "method": "POST",
+      "data": {
+        "chasis": "VIN-SYNTHETIC"
+      },
+      "authHeaderPresent": true
+    },
+    {
+      "url": "BASE/inventario/proveedores/reportes/resumen-inventario",
+      "method": "POST",
+      "data": {
+        "chasis": "VIN-SYNTHETIC",
+        "tipo_inventario_id": 3
+      },
+      "authHeaderPresent": true
+    }
+  ],
+  "equality_controls": [
+    {
+      "path": ".env-example.php",
+      "objects": {
+        "M": "8226c56b7b9b86d32e7d021e85b1ee4efa3b06f6",
+        "P": "8226c56b7b9b86d32e7d021e85b1ee4efa3b06f6"
+      },
+      "equal": true
+    },
+    {
+      "path": "Dockerfile",
+      "objects": {
+        "M": "1809ef64124c79d50557492ca9884293acfa0b6c",
+        "P": "1809ef64124c79d50557492ca9884293acfa0b6c"
+      },
+      "equal": true
+    },
+    {
+      "path": "package.json",
+      "objects": {
+        "M": "936d198888e5c20a3e1d3fdc0de7717dab1628d4",
+        "P": "936d198888e5c20a3e1d3fdc0de7717dab1628d4"
+      },
+      "equal": true
+    },
+    {
+      "path": "index_archivos/composer.json",
+      "objects": {
+        "M": "390c7f15d42d3e9a00a16c8549a73399daf0aa4a",
+        "P": "390c7f15d42d3e9a00a16c8549a73399daf0aa4a"
+      },
+      "equal": true
+    },
+    {
+      "path": "index_archivos/MailClass.php",
+      "objects": {
+        "M": "259021860e416d356b028b8494928f725cc2d9e8",
+        "P": "259021860e416d356b028b8494928f725cc2d9e8"
+      },
+      "equal": true
+    },
+    {
+      "path": "index_archivos/embarques/embarquesController.php",
+      "objects": {
+        "M": "94dec7d667025de14cee0a1dfb174ee242cd9722",
+        "P": "94dec7d667025de14cee0a1dfb174ee242cd9722"
+      },
+      "equal": true
+    },
+    {
+      "path": "src/core/users/config.php",
+      "objects": {
+        "M": "b1e1ff9828626fcb8649c65bb14d2bbefb200bad",
+        "P": "b1e1ff9828626fcb8649c65bb14d2bbefb200bad"
+      },
+      "equal": true
+    }
+  ],
+  "namespace_controls": {
+    "national_local": {
+      "M": {
+        "1": "DESPACHO NACIONAL",
+        "2": "RECEPCION NACIONAL",
+        "4": "DESPACHO LOCAL",
+        "3": "RECEPCION LOCAL",
+        "5": "INVENTARIO ADICIONAL SHOWROOM"
+      },
+      "P": {
+        "1": "DESPACHO NACIONAL",
+        "2": "RECEPCION NACIONAL",
+        "4": "DESPACHO LOCAL",
+        "3": "RECEPCION LOCAL",
+        "5": "INVENTARIO ADICIONAL SHOWROOM"
+      }
+    },
+    "pre_shipment_P": {
+      "1": "PRE EMBARQUE",
+      "2": "CONFIRMACIÓN PRE EMBARQUE",
+      "3": "POST CONFIRMACIÓN"
+    },
+    "numeric_overlap_is_not_identity": true
+  },
+  "local_schema_candidate": {
+    "status": "LOCAL_SCHEMA_CANDIDATE_UNVERIFIED",
+    "dump_sha256": "a0833cde6629ac2d458dad6faaa17df4c61af19401eacad59e4bc4400aa5d1e5",
+    "country": "unknown",
+    "deployment_match": "not_verified",
+    "declarations_only": [
+      {
+        "table": "logis_edp",
+        "column": "estado_edp_id",
+        "data_type": "int",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12097",
+        "evidence_id": "DB-COLUMN-ABE9AE3034AB96"
+      },
+      {
+        "table": "logis_edp",
+        "column": "tipo_proveedor",
+        "data_type": "varchar(255) CHARACTER SET utf8mb4",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12099",
+        "evidence_id": "DB-COLUMN-0272CE367A2525"
+      },
+      {
+        "table": "logis_embarques",
+        "column": "cotizacion",
+        "data_type": "tinyint(1)",
+        "nullable": "NO",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12204",
+        "evidence_id": "DB-COLUMN-C6AC41AD53B837"
+      },
+      {
+        "table": "logis_embarques",
+        "column": "idconcesionario",
+        "data_type": "int",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12213",
+        "evidence_id": "DB-COLUMN-B27B8EE493233F"
+      },
+      {
+        "table": "logis_pedidos",
+        "column": "id",
+        "data_type": "int",
+        "nullable": "NO",
+        "key_role": "PRIMARY_KEY",
+        "source": "asgard.sql",
+        "line": "12546",
+        "evidence_id": "DB-COLUMN-0E388037DA97AA"
+      },
+      {
+        "table": "logis_pedidos",
+        "column": "embarque_id",
+        "data_type": "int",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12552",
+        "evidence_id": "DB-COLUMN-F3F60AAE570E48"
+      },
+      {
+        "table": "logis_pedidos_detalle",
+        "column": "pedido_id",
+        "data_type": "varchar(50) CHARACTER SET utf8mb3",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12572",
+        "evidence_id": "DB-COLUMN-9D06126C34BB1F"
+      },
+      {
+        "table": "logis_pedidos_detalle",
+        "column": "posicion",
+        "data_type": "varchar(20) CHARACTER SET utf8mb3",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "12575",
+        "evidence_id": "DB-COLUMN-FEEFF1E997D150"
+      },
+      {
+        "table": "tck_asignacion_viaje",
+        "column": "estado",
+        "data_type": "int",
+        "nullable": "YES_OR_UNSPECIFIED",
+        "key_role": "",
+        "source": "asgard.sql",
+        "line": "16154",
+        "evidence_id": "DB-COLUMN-9AA5D239C7D0FA"
+      }
+    ],
+    "interpretation": "Candidate columns corroborate names only. INT/TINYINT do not define labels, Boolean domains or deployed constraints. No country identity or cross-namespace equality inferred."
+  },
+  "sources": [
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/CotizacionClass.php",
+      "sha256_utf8": "4f47ecd811882f5d91d6104b0624578774cb116a79af9360e00ea3c12b8c0a03"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+      "sha256_utf8": "c2c73b41d6eddae345abc1c4cbfcc2d91b138b8ccf50c1ca017d987bdc2c86c7"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "sha256_utf8": "267e38ef1ae3f8eae52fa23076074e6bcde77d715ff2541301323db093b26480"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+      "sha256_utf8": "00a0ab3a2b4ac54bb3de524f0262862bdde6316e23f41b3fd28c23ef2096b203"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/editar.php",
+      "sha256_utf8": "7e8e611151ecbf4f79a99fae4d10a1595dca3b4b4e8f2cc27f28b26f3efe0b37"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/editarController.php",
+      "sha256_utf8": "3a118a5c7cc1162e5999cc93f9eafd48ad35198e7b4c17800e89e6c71e8e7007"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/frames/inventario_local.php",
+      "sha256_utf8": "04f8e6bb61413ff9e97ae98e313d6288afaed6516ec3e13aa43c68334542d1c6"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/frames/items.php",
+      "sha256_utf8": "618b4e6452c7764c33105e1bafdb6f362e90317f1b105d01cecdf2657307a1e9"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/embarques/js/datosEmbarques.js",
+      "sha256_utf8": "0ebcb8c9294b523710f22eb8abeda73110532a8ac59783f153164ffe9588f5a3"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/reportes/inventario-por-chasis.php",
+      "sha256_utf8": "7cb584d47f5cd8159f60d65fccf480086253b3171772420c90ce4c72fd95679a"
+    },
+    {
+      "variant": "M",
+      "commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "path": "index_archivos/tracking/listaviajes.php",
+      "sha256_utf8": "786622fc52bc437336b25745829149e05659e1803fe0dba046048265451583af"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/CotizacionClass.php",
+      "sha256_utf8": "11957cdfca8517b053b06166af03721fd0c689c7379c30a41de5cf5a92db1625"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/componentes/embarques_mercancia.php",
+      "sha256_utf8": "8fd1409bf421dca1d2d048692139e110e3aac3230abcc2a65906d75bbcec4f12"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+      "sha256_utf8": "997a25b639c0205a4d0f9f94ea7079af372d2a2faac72e105bd44a7b76f9e774"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/componentes/inventario-local/tabla-vehiculos.js",
+      "sha256_utf8": "8a05fe33b569ac1154593b16c0a975022c9592c1a5dd7fba3662fbf781e05a04"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/editar.php",
+      "sha256_utf8": "1f912ee356fcd96a5adcbbe1c9044aadb70639a19816064550826c0620d97628"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/editarController.php",
+      "sha256_utf8": "f7baafa63a1ae73c32f5da6c4ec538d97b8ea4e9d8caf37e019f1746d1e74f58"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/embarques/frames/inventario_local.php",
+      "sha256_utf8": "ee6238175885538e475ab76f23ec02c0a8649606d54abef34aefe585bba338e6"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/preembarques/frames/inventario.php",
+      "sha256_utf8": "9d9c097e49fdadfd2743e4109754c6c4d9808a1ade8a581e1923d2f8774591f5"
+    },
+    {
+      "variant": "P",
+      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "path": "index_archivos/tracking/listaviajes.php",
+      "sha256_utf8": "7fe16890bf3136dcb88628d82f8bef67cd9253157ce8bab1c2b11a09b2daa3ea"
+    }
+  ],
+  "checks_passed": true
+}

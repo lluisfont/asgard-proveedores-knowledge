@@ -2,7 +2,7 @@
 
 AS-IS estatico del commit `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`, rama `master`. Los candidatos requieren verificar configuracion y despliegue.
 
-La aplicacion usa scripts PHP directos y llamadas AJAX. El catalogo actual contiene 241 candidatos de exposicion y 20 candidatos de consumo externo. No son rutas probadas mediante un servidor HTTP. Las peticiones de fichero, includes y paginas HTML pueden aparecer como candidatos junto a handlers JSON.
+La aplicacion usa scripts PHP directos y llamadas AJAX. El catalogo raw del extractor conserva 241 candidatos de exposicion y **20 candidatos raw de consumo externo**. El conteo raw no es un numero de llamadas confirmadas. El overlay revisado IMP-C1 que sigue corrige tres atribuciones y enlaza un caller real; no modifica los CSV/JSON/OpenAPI originales. No son rutas probadas mediante un servidor HTTP. Las peticiones de fichero, includes y paginas HTML pueden aparecer como candidatos junto a handlers JSON.
 
 La auditoria nativa ASGARD no se ejecuto: Windows Application Control bloqueo el lanzador instalado. El catalogo procede de los escaneres de ampliacion y del cruce con las evidencias de Brownfield. Los antiguos ceros nativos de Peru no describen master.
 
@@ -10,17 +10,35 @@ La auditoria nativa ASGARD no se ejecuto: Windows Application Control bloqueo el
 
 - [Handlers, callers y tablas](../crosswalk/screens-endpoints-tables.md).
 - [Campos de peticion observados](../../source-audits/master/2026-11-18/request-fields.csv).
-- [Catalogo JSON provisional](../../source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/api-catalog.augmented.json).
-- [OpenAPI provisional](../../source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/openapi.augmented.yaml).
+- [Catalogo JSON raw provisional](../../source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/api-catalog.augmented.json).
+- [OpenAPI raw provisional](../../source-audits/master/2026-11-18/brownfield/custom/asgard-api-audit-augmented/openapi.augmented.yaml).
 - [Riesgos por endpoint](../../source-audits/master/2026-11-18/brownfield/custom/api-deep-iterative/endpoint_deep_risks.csv).
 
 ## Interpretacion de respuestas
 
 Un campo JSON `code` no acredita que el servidor devuelva ese estado HTTP. Los metodos y parametros se infieren de accesos a superglobales y callers; los parametros calculados, sus tipos completos y las ramas dinamicas requieren revision del handler. La autenticacion puede depender de includes y de la configuracion web. Las senales locales de CSRF, sesion o ausencia de ellas no sustituyen esa comprobacion.
 
-## Llamadas externas observadas
+## Contratos revisados — IMP-C1 aceptada
 
-| Metodo candidato | Destino/configuracion | Fuente | Linea | Senales |
+M fija el commit indicado en la cabecera. En los casos siguientes, esta lectura de fuente prevalece sobre la atribucion raw. Una base de URL sin resolver no impide leer el metodo ni los parametros del caller.
+
+| Metodo observado | Destino | Parametros/contexto | Evidencia fijada |
+| --- | --- | --- | --- |
+| POST | UNRESOLVED_CONST:URL_API/inventario/proveedores/reportes/buscar-chasis | chasis; Authorization | `M:index_archivos/reportes/inventario-por-chasis.php:L68-L86` |
+| POST | UNRESOLVED_CONST:URL_API/inventario/proveedores/reportes/resumen-inventario | chasis, tipo_inventario_id; Authorization | `M:index_archivos/reportes/inventario-por-chasis.php:L89-L123` |
+| GET | UNRESOLVED_CONST:URL_API/proveedores/detalle-pedido/{idpedido} | idpedido en ruta; Authorization | `M:index_archivos/embarques/frames/items.php:L42-L44,L99-L107` → `M:index_archivos/embarques/js/datosEmbarques.js:L1-L17` |
+
+| Atribucion raw rechazada | Destino raw | Evidencia | Correccion |
+| --- | --- | --- | --- |
+| PUT | UNRESOLVED_CONST:URL_API | `M:index_archivos/embarques/frames/items.php:L43` | Input oculto de configuracion; no es una llamada a la raiz. La cadena activa termina en GET detalle-pedido/{idpedido}. |
+
+La ruta de detalle se obtiene siguiendo el input `url_pedidos`, la inclusion de `datosEmbarques.js` y la llamada a `ver_detalle_posiciones_pedido`. No se atribuye un PUT a la raiz por el mero valor de ese input. Las dos filas POST reemplazan metodo desconocido; el GET aporta el contrato real del caller antes confundido con configuracion. No se deduce un nuevo total de APIs verificadas a partir de este overlay parcial.
+
+## Candidatos raw de consumo externo (sin reconciliar)
+
+Las **20 filas originales** se conservan a continuacion para trazabilidad. Incluyen las atribuciones corregidas o rechazadas arriba; su presencia en esta tabla no las rehabilita como contratos. Los catalogos enlazados tambien conservan esos candidatos raw.
+
+| Metodo raw candidato | Destino/configuracion raw | Fuente | Linea | Senales raw |
 | --- | --- | --- | --- | --- |
 | GET_OR_UNKNOWN | UNRESOLVED_CONST:TRACKING_URL | index_archivos/tracking/viajedetalle.php | 580 | UNRESOLVED_BASE_CONSTANT |
 | GET_OR_UNKNOWN | UNRESOLVED_CONST:TRACKING_URL/event/journey | index_archivos/tracking/ListaViajesClass.php | 205 | TLS_VERIFY_DISABLED;UNRESOLVED_BASE_CONSTANT |
@@ -44,3 +62,5 @@ Un campo JSON `code` no acredita que el servidor devuelva ese estado HTTP. Los m
 | PUT | UNRESOLVED_CONST:URL_API | index_archivos/embarques/frames/items.php | 43 | UNRESOLVED_BASE_CONSTANT |
 
 Las constantes UNRESOLVED_CONST permanecen sin valor. No se contactaron servicios ni se verificaron contratos externos. Las credenciales detectadas se redactan.
+
+Reproducir solo esta vista: `python -B scripts/audit/build_knowledge.py --view api-reference`. La generacion completa utiliza el mismo overlay. Registro: [integracion de contratos](../reviews/iterative-20261118/contract-integration.json).
