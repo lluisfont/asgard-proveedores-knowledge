@@ -1,0 +1,881 @@
+{
+  "schema_version": "1.0",
+  "registry_type": "peru_head_reverse_provenance_closure",
+  "date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "sourcepins": {
+    "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+  },
+  "canonical": false,
+  "status": "completed",
+  "technique": {
+    "name": "reverse_claim_provenance_with_metadata_mutations",
+    "direction": "Published claim -> accepted ID -> TEMP origin -> evidence/context -> source pins and delegated proof",
+    "different_from_blob_check": "Checks classification, temporal provenance, support relation, scope exclusions, inherited-vs-changed effects and false promotions. Git identity alone is not the decision criterion.",
+    "different_from_sql_closure": "No SQL AST or finite relational re-execution; delegated report bodies remain out of deep-review scope."
+  },
+  "review_sequence": {
+    "own_three_improvements_integrated": true,
+    "human_accepted_four_findings_and_eight_improvements": true,
+    "parent_integrated_snapshot_available": true,
+    "post_parent_integration_closure_completed": true
+  },
+  "new_findings": [],
+  "improvements": [],
+  "delta_assessment": "No additional material delta was found after reverse-tracing the twelve published records to the report and carry-forward sources.",
+  "checks": [
+    {
+      "id": "OWN-01_HISTORICAL_BODY_AND_PREFIXES",
+      "status": "completed",
+      "result": "preserved"
+    },
+    {
+      "id": "OWN-02_GLOSSARY_81_UNCHANGED",
+      "status": "completed",
+      "result": "80 P carried; 1 M only; no new concept or M-to-P mapping"
+    },
+    {
+      "id": "OWN-03_API5_HEAD_REQUESTS",
+      "status": "completed",
+      "result": "five requests with HEAD ranges and explicit exclusions"
+    },
+    {
+      "id": "OWN-04_CF_ACCEPTANCE_MAP",
+      "status": "completed",
+      "result": "TEMP-CF001/002/003 -> PH-IMP-006/007/008; improvements only"
+    },
+    {
+      "id": "CP-01_ACCEPTED_12_SOURCE_ORIGINS",
+      "status": "completed",
+      "result": "Human-accepted mapping: four new findings, eight documentary improvements; report nine origins plus CF three origins.",
+      "evidence": [
+        {
+          "id": "PH-001",
+          "origin_id": "TEMP-PH002",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-002",
+          "origin_id": "TEMP-PH003",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-003",
+          "origin_id": "TEMP-PH004",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-004",
+          "origin_id": "TEMP-PH005",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-001",
+          "origin_id": "TEMP-PH001",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-002",
+          "origin_id": "TEMP-PH006",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-003",
+          "origin_id": "TEMP-PH007",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-004",
+          "origin_id": "TEMP-PH008",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-005",
+          "origin_id": "TEMP-PH010",
+          "path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+        },
+        {
+          "id": "PH-IMP-006",
+          "origin_id": "TEMP-CF001",
+          "path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+        },
+        {
+          "id": "PH-IMP-007",
+          "origin_id": "TEMP-CF002",
+          "path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+        },
+        {
+          "id": "PH-IMP-008",
+          "origin_id": "TEMP-CF003",
+          "path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+        }
+      ]
+    },
+    {
+      "id": "CP-02_ONE_CHANGED_THREE_INHERITED",
+      "status": "completed",
+      "result": "PH-001 changed_role_effect; PH-002 inherited_P95_new_owner_boundary_consequence; PH-003/004 inherited_P95; no automatic four-regression claim.",
+      "evidence": [
+        {
+          "id": "PH-001",
+          "origin_id": "TEMP-PH002",
+          "change_vs_P95": "changed_role_effect"
+        },
+        {
+          "id": "PH-002",
+          "origin_id": "TEMP-PH003",
+          "change_vs_P95": "inherited_P95_new_owner_boundary_consequence"
+        },
+        {
+          "id": "PH-003",
+          "origin_id": "TEMP-PH004",
+          "change_vs_P95": "inherited_P95"
+        },
+        {
+          "id": "PH-004",
+          "origin_id": "TEMP-PH005",
+          "change_vs_P95": "inherited_P95"
+        }
+      ]
+    },
+    {
+      "id": "CP-03_DELEGATED_TEST_LINKS",
+      "status": "completed",
+      "result": "All accepted report test IDs exist in report-probes.json with pass status. Read only; not rerun and not treated as new dynamic proof.",
+      "evidence": {
+        "path": "source-audits/peru/2026-11-19/report-probes.json",
+        "sha256": "cc226643e5df034fa0498dfbf8a4cc574d7d43a23735905a8a9d05a6a28139d7"
+      }
+    },
+    {
+      "id": "CP-04_POSITIVE_SOURCE_PROVENANCE",
+      "status": "completed",
+      "result": "12/12 source-level controls pass; this is not the unpublished parent snapshot.",
+      "evidence": [
+        {
+          "id": "PH-001",
+          "origin_id": "TEMP-PH002",
+          "classification": "new_finding",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "9becb78ed5e150b873196cf58f01bd4c60ed3176f2b0930e32643cf97299c108",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/menu.php|60|67||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|2|9||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|328|382||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/veriflogin.php|85|91||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|src/core/users/application/Find/UserFind.php|19|35||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|src/core/users/application/Find/UserFind.php|58|63||"
+          ],
+          "origin_change_vs_P95": "changed_role_effect",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-002",
+          "origin_id": "TEMP-PH003",
+          "classification": "new_finding",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "9c81a93c3e98db4e267d0f3984986c7d6ddaedcddcc655898b3321d432519f19",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/data.php|11|14||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|29|40||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|85|87||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|381|391||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|45|50||"
+          ],
+          "origin_change_vs_P95": "inherited_P95_new_owner_boundary_consequence",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-003",
+          "origin_id": "TEMP-PH004",
+          "classification": "new_finding",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "8951d392d4abf07a5296a1e81d2ac172a4d2cf5256afaa0524edbc3d5c05963e",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|166|261||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|28|30||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|299|310||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|364|382||"
+          ],
+          "origin_change_vs_P95": "inherited_P95",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-004",
+          "origin_id": "TEMP-PH005",
+          "classification": "new_finding",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "8a4e66b755163d3aea05e3bcae3352acd22da1b5af0b06997dd0919db931a078",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|262|269||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|310|320||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|370|380||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|393|428||"
+          ],
+          "origin_change_vs_P95": "inherited_P95",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-001",
+          "origin_id": "TEMP-PH001",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "71a5b700dd98e417f6cf3a2066ed0495c9612d38838d3c78774869547aa278c6",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|52|59||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|6|9||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|381|391||",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/reportes/reportepreembarquenacionalquery.php|381|390||"
+          ],
+          "origin_change_vs_P95": "changed",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-002",
+          "origin_id": "TEMP-PH006",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "6a3921100c39fe11725abb547c78537d512beefbbf4389823e6e40bd5606b4cd",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|158|174||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|299|305||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|33|57||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|386|387||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|411|413||"
+          ],
+          "origin_change_vs_P95": "inherited_P95",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-003",
+          "origin_id": "TEMP-PH007",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "e32f1b260bd51ec435ee0e64e639fe8ed53dbf71722f2b7a6d8b1ce6bc9db07b",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|288|310||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|328|391||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|393|428||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|59|164||"
+          ],
+          "origin_change_vs_P95": "inherited_P95",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-004",
+          "origin_id": "TEMP-PH008",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "74650a8aa6e9bab73fc9da4359970e5a8d21707e92d054fd87d7b4b36cc2ad16",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/cnfdb105.php|13|24||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/cnfdb105.php|2|3||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/data.php|6|14||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|29|87||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|2|3||"
+          ],
+          "origin_change_vs_P95": "inherited_except_aux_transportista_scope",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-005",
+          "origin_id": "TEMP-PH010",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+          "origin_statement_sha256": "a004b0750e477f1be95dae33121834c4859d7801a1ad16690749263cab6214f2",
+          "origin_evidence_keys": [
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/data.php|11|14||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacional.php|85|87||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|1|52||",
+            "2a179e2e6472d5705d031665ecbc90c3d806edec|index_archivos/reportes/reportepreembarquenacionalquery.php|430|438||"
+          ],
+          "origin_change_vs_P95": "builder_inherited_new_context_variable",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-006",
+          "origin_id": "TEMP-CF001",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+          "origin_statement_sha256": "8fda7fb98d028fa697a53a759f748cf1bd9b015d55dcafdb6ede9f6c759d7c4a",
+          "origin_evidence_keys": [
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|236|236|5e12930c95d85c36204c68bce49b564aebeef933|71232c85f811b9c89b7519d7ca496a839aa5318304dd5dd260ca0d95f1d5ffb6",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|238|238|5e12930c95d85c36204c68bce49b564aebeef933|dd30d11fbbf44f9b8973b2c5e194dbc3ce293deae6cbe4827de0386128816513",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|239|239|5e12930c95d85c36204c68bce49b564aebeef933|c9ede0400e47ed648aa9e910487efba1060f55306edb1074d66b4d626fa6ae0d",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|240|240|5e12930c95d85c36204c68bce49b564aebeef933|5bf83c6ff5ff14c12adfcd3f3ed28b1c4f1951533bb0b755d35e683064098e1e",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|57|57|5e12930c95d85c36204c68bce49b564aebeef933|b51f76048ec12bd7bb038ee426424e4a02f45ef80ecdaccd03353f72233d6f8e",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|258|258|284278ae8b3de226b9a9326ff499f9a44d08bc86|c2067d22ffdef8a01b4944a26a9b2dea10ffa489e356f445dc3c9ad477baabcb",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|265|265|284278ae8b3de226b9a9326ff499f9a44d08bc86|9075ce3f8b94e885aa362fe83e60c734ee3e50a2332fb2fc2134a54eab4561ee",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|269|269|284278ae8b3de226b9a9326ff499f9a44d08bc86|744baf533286103d0d401c19cf1412ad4b97183a75b920d53b29120e7cec8357",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|303|303|284278ae8b3de226b9a9326ff499f9a44d08bc86|b933f8db34dbbca0795468afde4b7730cb719ca8d9e97955c2423c5e0a7107c7",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|397|405|284278ae8b3de226b9a9326ff499f9a44d08bc86|d9dd51581181c75d7e76f467d60132a2bf4fb8f6bc04327c1dcd6eb0a9391ae6",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|416|421|284278ae8b3de226b9a9326ff499f9a44d08bc86|a8e809821a14eaca07c428f684f7f258f1cc2ed28ab3b05c88f67356eb4462c5",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/js/datosEmbarques.js|510|521|284278ae8b3de226b9a9326ff499f9a44d08bc86|3d586ae8b35963145b173646b507762f54308cff5cccebff0e988424b24f1492"
+          ],
+          "origin_change_vs_P95": "identity_carryforward_documentation",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-007",
+          "origin_id": "TEMP-CF002",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+          "origin_statement_sha256": "9111566bb9cd180d101b281aa49938aaec15e03995217cbc7d91103504c1c760",
+          "origin_evidence_keys": [
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/embarquecrear.php|335|335|e51e490264da04ea2e8ff31f5e635cd5d65a1edf|3077056666a27aadb5351230a63e3aca43535128c79da73a07a4075972fd8ff7",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/embarquever.php|545|545|fa6bc900cafdf8b92fa88302d7c2249ab496b440|6325481f2d993aaf0e3a989322d6ff1b6ca0882ffa91a598f72257ff56f9e616",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/aduanas.php|104|104|5309b0a8baa24b7ac41b3b6a03d41e71b7d381c6|10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/costos.php|92|92|e127d31f1f61ef67e35a2e6b375982ea5d5a1a21|7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/datoscaso.php|67|67|73c1e066ecfba5737ae2f828636a22c6c2c597fe|7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/documentos.php|100|100|e946e72f5d85845adc574541e5855eb3d9dad1ac|7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/estado-pedidos.php|93|93|467cbe575dda986c8cb22045ba57ebcec32c07eb|10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/items.php|243|243|5e12930c95d85c36204c68bce49b564aebeef933|7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/frames/rutas.php|144|144|c8bef64e17bf98b5b42456313025c2003da49875|7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+            "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62|index_archivos/embarques/index.php|133|133|ceb93cecef9769e70848a31cbef89fefaa7434be|e99cbc6cf6a1bf9f30429501f84cb2b7ecf9c0801c85ffdf794b97084a347c43"
+          ],
+          "origin_change_vs_P95": "identity_carryforward_documentation",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        },
+        {
+          "id": "PH-IMP-008",
+          "origin_id": "TEMP-CF003",
+          "classification": "improvement",
+          "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+          "origin_statement_sha256": "8f51f5f919c580e5e1ab4950abae587a3c88d4e55801ab45004de0ecb2d6932c",
+          "origin_evidence_keys": [
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/general/operational-findings.json|||7bf8b8c744f5a8154cc12c4c4d8fa64be456135b|",
+            "0c4bb99f076d6a8c18ae98375d6e154da6319922|knowledge/glossary/business-glossary.json|||9de283364edfb873b756ef46082d5619c7ce44c9|"
+          ],
+          "origin_change_vs_P95": "identity_carryforward_documentation",
+          "scope": "Peru_HEAD_static",
+          "runtime": "UNVERIFIED",
+          "canonical": false
+        }
+      ]
+    },
+    {
+      "id": "CP-05_PROVENANCE_METADATA_MUTATIONS",
+      "status": "completed",
+      "result": "10/10 deliberate mutations rejected against accepted source-level provenance contracts.",
+      "evidence": [
+        {
+          "id": "MUT-01_IMPROVEMENT_AS_DEFECT",
+          "target": "PH-IMP-006",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "classification"
+          ]
+        },
+        {
+          "id": "MUT-02_CROSSED_REPORT_ORIGIN",
+          "target": "PH-001",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_id"
+          ]
+        },
+        {
+          "id": "MUT-03_INHERITED_AS_HEAD_REGRESSION",
+          "target": "PH-002",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_change_vs_P95"
+          ]
+        },
+        {
+          "id": "MUT-04_UNVERIFIED_AS_PRODUCTION",
+          "target": "PH-003",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "runtime"
+          ]
+        },
+        {
+          "id": "MUT-05_CANONICAL_PROMOTION",
+          "target": "PH-IMP-008",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "canonical"
+          ]
+        },
+        {
+          "id": "MUT-06_SHIFTED_REQUEST_RANGE",
+          "target": "PH-IMP-006",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_evidence_keys"
+          ]
+        },
+        {
+          "id": "MUT-07_REMOVED_DEPENDENCY_EVIDENCE",
+          "target": "PH-IMP-007",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_evidence_keys"
+          ]
+        },
+        {
+          "id": "MUT-08_KB_PIN_AS_SOURCE_PIN",
+          "target": "PH-IMP-008",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_evidence_keys"
+          ]
+        },
+        {
+          "id": "MUT-09_UNBACKED_STATEMENT",
+          "target": "PH-004",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "origin_statement_sha256"
+          ]
+        },
+        {
+          "id": "MUT-10_EXCLUDED_CALLBACK_SCOPE",
+          "target": "PH-IMP-006",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CP-06_INTEGRATED_OVERLAY_MUTATIONS",
+      "status": "completed",
+      "result": "5/5 metadata mutations of actual integrated glossary overlay rejected; positive 81-entry overlay passes.",
+      "evidence": [
+        {
+          "id": "MUT-11_INVENT_M_TO_P_CONCEPT",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "peru_mapping:parte-recepcion"
+          ]
+        },
+        {
+          "id": "MUT-12_DROP_CHANGED_JS_DEPENDENCY",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "changed_dependency:viaje-desde-vin"
+          ]
+        },
+        {
+          "id": "MUT-13_ADD_CONCEPT_82",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "concept_count",
+            "unknown_concept"
+          ]
+        },
+        {
+          "id": "MUT-14_REPLACE_ORIGINAL_SCOPE_EVIDENCE",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "original_evidence:cliente-logistico"
+          ]
+        },
+        {
+          "id": "MUT-15_SHIFT_HEAD_RANGE",
+          "status": "completed",
+          "expected": "reject",
+          "actual": "rejected",
+          "detected_fields": [
+            "range_mapping:cliente-logistico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CP-07_SEMANTIC_LIMITS_REVERSE_OBLIGATIONS",
+      "status": "completed",
+      "result": "Source obligations and non-entailments recorded for all 12 accepted items. Parent publication cannot yet be checked for preserving them.",
+      "evidence": [
+        {
+          "id": "PH-001",
+          "obligation": "Acceso efectivo del tipo7 y colision de dominios son precondiciones; el cast no resuelve identidad. Solo este efecto se atribuye al cambio HEAD.",
+          "limit": "No demuestra acceso real de tipo7 ni politica aprobada de concesionario."
+        },
+        {
+          "id": "PH-002",
+          "obligation": "La construccion de fechas puede alterar el predicado; la cadena a data.php y las condiciones de parser/runtime/conexion deben permanecer.",
+          "limit": "Heredado P95; no explotacion SQL, lectura real ni anonymous bypass demostrado."
+        },
+        {
+          "id": "PH-003",
+          "obligation": "La cabecera acotada no acota todas las relaciones globales por chasis; multiplicidad/borrados condicionan el efecto.",
+          "limit": "No sustituye necesariamente p por otra cabecera ni generaliza el defecto a todas las CTE."
+        },
+        {
+          "id": "PH-004",
+          "obligation": "Maximos independientes pueden combinar atributos de distintas relaciones cuando hay multiplicidad.",
+          "limit": "No ocurre necesariamente con una sola relacion; ID maximo no demuestra orden temporal o estado correcto."
+        },
+        {
+          "id": "PH-IMP-001",
+          "obligation": "Proveedor de cabecera y concesionario seleccionan poblaciones diferentes.",
+          "limit": "No equivalencia de identificadores ni autorizacion completa acreditada."
+        },
+        {
+          "id": "PH-IMP-002",
+          "obligation": "Filtros por fila/tipo actuan antes del pivote y pueden retirar una columna de otro inventario.",
+          "limit": "No trasladar VAR-001 JS ni declarar requisito de conservar todas las columnas."
+        },
+        {
+          "id": "PH-IMP-003",
+          "obligation": "Realizado se apoya en presencia de registros; no completitud de secciones demostrada.",
+          "limit": "No declarar esa etiqueta incumplimiento de un contrato de negocio inexistente."
+        },
+        {
+          "id": "PH-IMP-004",
+          "obligation": "Constructor, includes, auxiliares y ejecutor tienen contratos y fallos distintos.",
+          "limit": "Ausencia en arbol no acredita fallo de despliegue; sin divulgacion en navegador ni continuacion universal."
+        },
+        {
+          "id": "PH-IMP-005",
+          "obligation": "query.php construye y data.php ejecuta en el contexto del caller.",
+          "limit": "No ejecucion autonoma demostrada, sin prueba HTTP ni parser SQL."
+        },
+        {
+          "id": "PH-IMP-006",
+          "obligation": "Cinco cabeceras/parametros de solicitudes conservan rangos, aunque el blob JS cambie.",
+          "limit": "Sin callbacks, respuesta, navegacion, salidas o recarga; no cinco APIs nuevas verificadas."
+        },
+        {
+          "id": "PH-IMP-007",
+          "obligation": "La evidencia local y el destino de dependencia directa tienen estados distintos.",
+          "limit": "No promover identidad local a equivalencia funcional compuesta ni a revision semantica global."
+        },
+        {
+          "id": "PH-IMP-008",
+          "obligation": "Evidencia P95 se arrastra como P95->HEAD; M conserva su procedencia.",
+          "limit": "81 conceptos intactos, parte-recepcion solo M, seis mejoras historicas solo M; sin mapping inventado."
+        }
+      ]
+    },
+    {
+      "id": "CP-08_SQL_CLOSURE_DIFFERENT_TECHNIQUE",
+      "status": "completed",
+      "result": "Delegated closure-sql is available and reports no deltas; its AST/metamorphic checks are not recounted as this provenance pass.",
+      "evidence": {
+        "path": "knowledge/reviews/peru-head-20261119/closure-sql.json",
+        "sha256": "e96da9455956de5ba2c96ffc397f4485ee6da5e017cac815d6b07eba45e1f87a"
+      }
+    },
+    {
+      "id": "CP-PENDING-1",
+      "status": "completed",
+      "path": "knowledge/reviews/peru-head-20261119/README.md",
+      "reason": "Parent-owned integrated publication required for post-integration reverse traceability.",
+      "result": "Parent README, Peru HEAD page and accepted registry fixed by SHA256."
+    },
+    {
+      "id": "CP-PENDING-2",
+      "status": "completed",
+      "path": "knowledge/variants/peru-head-20261119.md",
+      "reason": "Parent-owned integrated publication required for post-integration reverse traceability.",
+      "result": "12/12 published IDs reverse-traced to their reviewed origin records with pins and evidence unchanged."
+    },
+    {
+      "id": "CP-PENDING-3",
+      "status": "completed",
+      "path": "knowledge/reviews/peru-head-20261119/accepted-deltas.json",
+      "reason": "Parent-owned integrated publication required for post-integration reverse traceability.",
+      "result": "6/6 deliberate parent-registry mutations rejected: classification, origin, pin, range, count and canonical boundary."
+    }
+  ],
+  "input_snapshots": [
+    {
+      "path": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+      "sha256": "785fc28d4c76f462e141f9926ce26d8c3c2d6674c8e12e9f0394c89107133825"
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/report-probes.json",
+      "sha256": "cc226643e5df034fa0498dfbf8a4cc574d7d43a23735905a8a9d05a6a28139d7"
+    },
+    {
+      "path": "knowledge/reviews/peru-head-20261119/closure-sql.json",
+      "sha256": "e96da9455956de5ba2c96ffc397f4485ee6da5e017cac815d6b07eba45e1f87a"
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/carryforward.json",
+      "sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29"
+    },
+    {
+      "path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+      "sha256": "f2870561addc0693c5234bc795023971c0bdc6677bbb22491378241aff3c06c2"
+    },
+    {
+      "path": "knowledge/variants/peru.md",
+      "sha256": "3e1cab80f93839621a4af6416ec5cf97dae78edb1e601270adf68d4364d97900"
+    },
+    {
+      "path": "knowledge/variants/comparison.md",
+      "sha256": "cc998cfeb77e4dcf731ddd3486c60c01a8ddb5453dcaa2333959ff964e37379f"
+    },
+    {
+      "path": "knowledge/variants/peru-api-head-20261119.md",
+      "sha256": "08e11e2824554bd2750f202d09d19d7568afb6cea6fc9613692b4ba0d80957a4"
+    },
+    {
+      "path": "knowledge/glossary/review-register.md",
+      "sha256": "9ea488c5db43fe141abe35b58fa55d769c81db14a96eead4344ed4c5790637f1"
+    },
+    {
+      "path": "knowledge/glossary/peru-head-revalidation.json",
+      "sha256": "41e0acc1163b680c1bf92ca6585ab839655f55eb2305c60d88b8afb559168334"
+    }
+  ],
+  "accepted_mapping": [
+    {
+      "id": "PH-001",
+      "origin_id": "TEMP-PH002",
+      "classification": "new_finding",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-002",
+      "origin_id": "TEMP-PH003",
+      "classification": "new_finding",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-003",
+      "origin_id": "TEMP-PH004",
+      "classification": "new_finding",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-004",
+      "origin_id": "TEMP-PH005",
+      "classification": "new_finding",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-001",
+      "origin_id": "TEMP-PH001",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-002",
+      "origin_id": "TEMP-PH006",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-003",
+      "origin_id": "TEMP-PH007",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-004",
+      "origin_id": "TEMP-PH008",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-005",
+      "origin_id": "TEMP-PH010",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "id": "PH-IMP-006",
+      "origin_id": "TEMP-CF001",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+    },
+    {
+      "id": "PH-IMP-007",
+      "origin_id": "TEMP-CF002",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+    },
+    {
+      "id": "PH-IMP-008",
+      "origin_id": "TEMP-CF003",
+      "classification": "improvement",
+      "origin_path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+    }
+  ],
+  "semantic_obligations": [
+    {
+      "id": "PH-001",
+      "obligation": "Acceso efectivo del tipo7 y colision de dominios son precondiciones; el cast no resuelve identidad. Solo este efecto se atribuye al cambio HEAD.",
+      "limit": "No demuestra acceso real de tipo7 ni politica aprobada de concesionario."
+    },
+    {
+      "id": "PH-002",
+      "obligation": "La construccion de fechas puede alterar el predicado; la cadena a data.php y las condiciones de parser/runtime/conexion deben permanecer.",
+      "limit": "Heredado P95; no explotacion SQL, lectura real ni anonymous bypass demostrado."
+    },
+    {
+      "id": "PH-003",
+      "obligation": "La cabecera acotada no acota todas las relaciones globales por chasis; multiplicidad/borrados condicionan el efecto.",
+      "limit": "No sustituye necesariamente p por otra cabecera ni generaliza el defecto a todas las CTE."
+    },
+    {
+      "id": "PH-004",
+      "obligation": "Maximos independientes pueden combinar atributos de distintas relaciones cuando hay multiplicidad.",
+      "limit": "No ocurre necesariamente con una sola relacion; ID maximo no demuestra orden temporal o estado correcto."
+    },
+    {
+      "id": "PH-IMP-001",
+      "obligation": "Proveedor de cabecera y concesionario seleccionan poblaciones diferentes.",
+      "limit": "No equivalencia de identificadores ni autorizacion completa acreditada."
+    },
+    {
+      "id": "PH-IMP-002",
+      "obligation": "Filtros por fila/tipo actuan antes del pivote y pueden retirar una columna de otro inventario.",
+      "limit": "No trasladar VAR-001 JS ni declarar requisito de conservar todas las columnas."
+    },
+    {
+      "id": "PH-IMP-003",
+      "obligation": "Realizado se apoya en presencia de registros; no completitud de secciones demostrada.",
+      "limit": "No declarar esa etiqueta incumplimiento de un contrato de negocio inexistente."
+    },
+    {
+      "id": "PH-IMP-004",
+      "obligation": "Constructor, includes, auxiliares y ejecutor tienen contratos y fallos distintos.",
+      "limit": "Ausencia en arbol no acredita fallo de despliegue; sin divulgacion en navegador ni continuacion universal."
+    },
+    {
+      "id": "PH-IMP-005",
+      "obligation": "query.php construye y data.php ejecuta en el contexto del caller.",
+      "limit": "No ejecucion autonoma demostrada, sin prueba HTTP ni parser SQL."
+    },
+    {
+      "id": "PH-IMP-006",
+      "obligation": "Cinco cabeceras/parametros de solicitudes conservan rangos, aunque el blob JS cambie.",
+      "limit": "Sin callbacks, respuesta, navegacion, salidas o recarga; no cinco APIs nuevas verificadas."
+    },
+    {
+      "id": "PH-IMP-007",
+      "obligation": "La evidencia local y el destino de dependencia directa tienen estados distintos.",
+      "limit": "No promover identidad local a equivalencia funcional compuesta ni a revision semantica global."
+    },
+    {
+      "id": "PH-IMP-008",
+      "obligation": "Evidencia P95 se arrastra como P95->HEAD; M conserva su procedencia.",
+      "limit": "81 conceptos intactos, parte-recepcion solo M, seis mejoras historicas solo M; sin mapping inventado."
+    }
+  ],
+  "mutation_controls": {
+    "source_positive": 12,
+    "source_mutations": 10,
+    "integrated_overlay_positive": 1,
+    "integrated_overlay_mutations": 5,
+    "all_deliberate_mutations_rejected": true,
+    "parent_snapshot_mutations_applied": true,
+    "parent_snapshot_mutations": [
+      {
+        "id": "classification",
+        "status": "rejected"
+      },
+      {
+        "id": "origin_id",
+        "status": "rejected"
+      },
+      {
+        "id": "peru_head_pin",
+        "status": "rejected"
+      },
+      {
+        "id": "evidence_range",
+        "status": "rejected"
+      },
+      {
+        "id": "record_count",
+        "status": "rejected"
+      },
+      {
+        "id": "canonical_boundary",
+        "status": "rejected"
+      }
+    ]
+  },
+  "zero_delta_pass_eligible": true,
+  "global_convergence_claimed": false,
+  "limits": [
+    "Parent README, current Peru HEAD page and accepted-deltas registry not available at this snapshot; cannot claim reverse closure after their integration.",
+    "Completed source-level/own-overlay checks are distinguished from pending publication checks; no completed global pass or consecutive-zero count claimed.",
+    "No application, network, database, PHP/JS execution, browser/navigation/output/reload review or native auditor workaround.",
+    "Two report PHP bodies remain delegated; only source sidecars, provenance, proof references and existing delegated closure inspected.",
+    "Canonical glossary retains 81 definitions and original M/P95 evidence; no M-to-P mapping invented.",
+    "Master remote a44 outside scope; source/manifest/index/general/finding registry/commits/push untouched by this task."
+  ],
+  "next_action": "Preserve the immutable pins and PARTIAL boundary. A new source head requires a new dated profile.",
+  "parent_snapshot": [
+    {
+      "path": "knowledge/reviews/peru-head-20261119/README.md",
+      "sha256": "07f474d3a1ec3b21f6119b5bf78a1ad075d4e3c68152e7cb96d0eebb601d9761"
+    },
+    {
+      "path": "knowledge/variants/peru-head-20261119.md",
+      "sha256": "f7271e6719556c6888f00f9f5e5ade9a53b3c730dee01bcf5253d3f31f028e59"
+    },
+    {
+      "path": "knowledge/reviews/peru-head-20261119/accepted-deltas.json",
+      "sha256": "1c4f6f372205d251dc3bbffaac0912ac32347c04f1cfaec2360a9f3b22a3d262"
+    }
+  ]
+}

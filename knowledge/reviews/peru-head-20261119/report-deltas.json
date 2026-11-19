@@ -1,0 +1,766 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "date_authority": "user",
+  "source_root": "C:\\repos\\proveedores-peru-head-review-20261119",
+  "source_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "previous_peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "historical_master_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "knowledge_baseline_commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+  "canonical": false,
+  "production_status": "UNVERIFIED",
+  "boundaries": {
+    "application_entrypoints_executed": false,
+    "php_executed": false,
+    "bootstrap_executed": false,
+    "sql_executed": false,
+    "database_access": false,
+    "network_access": false,
+    "real_rows_used": false,
+    "browser_output_or_navigation_reviewed": false,
+    "deployment_emulated": false,
+    "remote_refs_consulted": false,
+    "new_master_a44_reviewed": false,
+    "source_modified": false,
+    "main_manifest_or_docs_modified": false,
+    "commits_or_pushes": false,
+    "third_changed_JS_reviewed": false
+  },
+  "limits": [
+    "Comprobación textual del blob fijado; no acredita ejecución ni accesibilidad.",
+    "Modelo Python con filas sintéticas; sin motor SQL, collation, constraints ni datos reales.",
+    "SOURCE/KNOWNDEFECT describe fuente; RISK es condicionado; TOBE es propuesta no aprobada.",
+    "Sin promoción canónica ni actualización de manifest/docs. No se reintenta el alcance navegador/navegación excluido."
+  ],
+  "counts": {
+    "new_finding": 4,
+    "improvement": 5,
+    "duplicate_or_rejected": 1
+  },
+  "items": [
+    {
+      "id": "TEMP-PH001",
+      "classification": "improvement",
+      "title": "HEAD sustituye ámbito de concesionario por proveedor de cabecera",
+      "statement": "P95 exige tc.idconcesionario igual al ID de sesión; HEAD exige p.proveedor_id igual a un entero obtenido en el caller. No son predicados equivalentes: HEAD admite cabeceras propias sin concesionario y excluye cabeceras de otros proveedores aunque su concesionario coincida. El SELECT auxiliar de transportistas adopta el mismo proveedor. Los demás bloques del query son idénticos tras esa sustitución exacta.",
+      "source_status": "SOURCE",
+      "risk": "La mejora de aislamiento de cabecera no acredita autorización de todos los roles ni de las relaciones anexas.",
+      "tobe": "Documentar separadamente identidad de proveedor y concesionario y su población autorizada antes de integrar el delta.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 6,
+          "line_end": 9
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 52,
+          "line_end": 59
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        },
+        {
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 390
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-01",
+          "status": "pass"
+        },
+        {
+          "id": "RP-02",
+          "status": "pass"
+        },
+        {
+          "id": "RP-03",
+          "status": "pass"
+        },
+        {
+          "id": "RP-04",
+          "status": "pass"
+        },
+        {
+          "id": "RP-36",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "Comprobación textual del blob fijado; no acredita ejecución ni accesibilidad.",
+        "M carece de ambos reportes; no es una regresión respecto de un reporte M."
+      ],
+      "dedup": {
+        "related": [
+          "IMP-SCOPE-001",
+          "knowledge/variants/peru.md"
+        ],
+        "decision": "Actualiza solo estos dos PHP respecto de P95; no audita el tercer JS ni reemplaza los documentos previos."
+      },
+      "change_vs_P95": "changed",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH002",
+      "classification": "new_finding",
+      "title": "El ID genérico de proveedor se usa como transportista sin discriminar tipo7",
+      "statement": "El login guarda idproveedor en idtransportista junto con idtipoproveedor. UserFinder resuelve tipo7 contra cn_concesionario. El reporte no consulta el tipo ni permisos de módulo antes del query y HEAD aplica p.proveedor_id al mismo número para todos. Si una cuenta tipo7 alcanza esta ruta, pierde el ámbito de concesionario de P95 y puede coincidir con el número de un transportista distinto; el cast no resuelve ese cruce de dominios. El menú de Reportes obtiene enlaces del grupo8 por cuenta, pero no demuestra qué cuentas tienen este reporte.",
+      "source_status": "KNOWNDEFECT",
+      "risk": "Pérdida de filas o asociación con cabeceras de otro dominio si existen acceso efectivo y colisión numérica. No se afirma acceso real de tipo7 ni que deba conservarse una política concreta de P95.",
+      "tobe": "Definir roles admitidos y resolver el identificador con su dominio; denegar explícitamente roles no admitidos o aplicar el alcance de concesionario aprobado.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 85,
+          "line_end": 91
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 19,
+          "line_end": 35
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 58,
+          "line_end": 63
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 2,
+          "line_end": 9
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 328,
+          "line_end": 382
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/menu.php",
+          "line_start": 60,
+          "line_end": 67
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-05",
+          "status": "pass"
+        },
+        {
+          "id": "RP-06",
+          "status": "pass"
+        },
+        {
+          "id": "RP-30",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "Acceso, catálogos de permisos, unicidad entre tablas e identidades reales sin verificar."
+      ],
+      "dedup": {
+        "related": [
+          "knowledge/variants/peru.md: País y perfiles",
+          "knowledge/general/actors-and-permissions.md",
+          "SEC-005"
+        ],
+        "decision": "El soporte previo de tipo7 y la guardia genérica no describen el efecto del nuevo predicado en este reporte; hallazgo nuevo de revisión, condicionado a acceso y dominio."
+      },
+      "change_vs_P95": "changed_role_effect",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH003",
+      "classification": "new_finding",
+      "title": "El filtro de fechas puede alterar el predicado que acota al proveedor",
+      "statement": "POST fecha1/fecha2 se divide por '/' y concatena sin escape ni validación en BETWEEN. fechafiltro=1 y dos valores no vacíos habilitan el fragmento. Un segmento con comilla y OR sale del literal y entra después de p.proveedor_id y los otros AND, pudiendo convertirlos en una alternativa booleana. El cast de sesión protege solo su operando, no el WHERE completo. La cadena llega a data.php mediante query[0].",
+      "source_status": "KNOWNDEFECT",
+      "risk": "Lectura fuera del proveedor si el parser, runtime, conexión y acceso permiten la consulta alterada. Sin prueba de explotación, datos, privilegios, sentencias múltiples ni SQL ejecutado.",
+      "tobe": "Validar fechas completas con calendario y formato explícitos, enlazarlas como parámetros y mantener autorización en una consulta construida exclusivamente en servidor.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 29,
+          "line_end": 40
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 45,
+          "line_end": 50
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 11,
+          "line_end": 14
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-08",
+          "status": "pass"
+        },
+        {
+          "id": "RP-09",
+          "status": "pass"
+        },
+        {
+          "id": "RP-10",
+          "status": "pass"
+        },
+        {
+          "id": "RP-11",
+          "status": "pass"
+        },
+        {
+          "id": "RP-12",
+          "status": "pass"
+        },
+        {
+          "id": "RP-32",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "Testigo de construcción y precedencia; no parser MySQL ni alcance anónimo demostrados."
+      ],
+      "dedup": {
+        "related": [
+          "SEC-006",
+          "source-audits/api/api-deep-iterative/API_DEEP_ITERATIVE_FINDINGS.md: reportepreembarquenacional"
+        ],
+        "decision": "Misma familia de interpolación de SEC-006, nueva cadena concreta no cubierta por sus cuatro sinks; el inventario histórico solo marcaba RAW_SQL_SIGNAL. Se aporta el efecto sobre el límite de proveedor, sin contar otra vulnerabilidad genérica."
+      },
+      "change_vs_P95": "inherited_P95_new_owner_boundary_consequence",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH004",
+      "classification": "new_finding",
+      "title": "Las relaciones por chasis pueden atravesar el alcance de cabecera",
+      "statement": "HEAD acota p, pero tmp_embarques y tmp_concesionario agrupan globalmente por chasis y mdos se enlaza solo por chasis. tmp_embarques toma MAX(embarque_id) sin deleted_at de pedido/detalle. El le externo no filtra deleted_at. Un VIN reutilizado puede aportar embarque, concesionario o movimiento local2 de otra relación y cambiar estadodos. COALESCE da prioridad a te sobre mdos y tc, aun cuando otra relación sea más pertinente. El filtro de embarque usa esa misma resolución. Esto no equivale a sustituir la cabecera p por otra.",
+      "source_status": "KNOWNDEFECT",
+      "risk": "Decoración o estado asociados al embarque equivocado si hay VIN compartidos/reutilizados o filas borradas que sigan candidatas; constraints efectivos desconocidos.",
+      "tobe": "Resolver relaciones con clave de preembarque/pedido/propietario autorizada, definir unicidad y borrados lógicos y rechazar ambigüedad en vez de elegir máximos globales.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 28,
+          "line_end": 30
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 166,
+          "line_end": 261
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 299,
+          "line_end": 310
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 364,
+          "line_end": 382
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-15",
+          "status": "pass"
+        },
+        {
+          "id": "RP-16",
+          "status": "pass"
+        },
+        {
+          "id": "RP-17",
+          "status": "pass"
+        },
+        {
+          "id": "RP-18",
+          "status": "pass"
+        },
+        {
+          "id": "RP-19",
+          "status": "pass"
+        },
+        {
+          "id": "RP-34",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "Sin DDL autorizado ni prueba de VIN duplicados. Los movimientos m/mtres sí conservan pre_embarque_id y tipo; no se generaliza el defecto a todas las CTE."
+      ],
+      "dedup": {
+        "related": [
+          "knowledge/variants/peru.md",
+          "source-audits/brownfield/reports/process_maps/components/8dc5c196467d.md"
+        ],
+        "decision": "El mapa histórico inventaría nombres de CTE, no su clave ni este contraejemplo. No duplicado del cruce de identidad de TEMP-PH002 ni de SQLi."
+      },
+      "change_vs_P95": "inherited_P95",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH005",
+      "classification": "new_finding",
+      "title": "Los MAX independientes no conservan una fila coherente de embarque y viaje",
+      "statement": "Con te/tc sin embarque y mdos con dos embarques para el mismo chasis, base puede producir dos relaciones. La agregación final toma por separado MAX de embarque_id, fecha, numero_viaje y app_tracking; puede formar un registro que no perteneció a ninguna relación. tmp_viaje elige MAX(id) activo por embarque, no orden temporal. El MAX textual de app_tracking no demuestra el estado del viaje numéricamente máximo.",
+      "source_status": "KNOWNDEFECT",
+      "risk": "Asociación interna incoherente si base contiene varias relaciones por grupo; no depende de ataque ni de que falle SQL.",
+      "tobe": "Definir cuál relación gobierna el informe y seleccionar su fila completa con desempate explícito; no usar máximos independientes como sustituto de selección de fila.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 262,
+          "line_end": 269
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 310,
+          "line_end": 320
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 370,
+          "line_end": 380
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 428
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-20",
+          "status": "pass"
+        },
+        {
+          "id": "RP-21",
+          "status": "pass"
+        },
+        {
+          "id": "RP-33",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "Caso condicionado a multiplicidad; con una sola relación no hay mezcla. No se presupone orden de collation, equivalencia de ID con fecha o política del viaje correcto."
+      ],
+      "dedup": {
+        "related": [
+          "TEMP-PH004",
+          "knowledge/general/operational-findings.json"
+        ],
+        "decision": "TEMP-PH004 trata pertenencia; aquí incluso relaciones del mismo proveedor producen una tupla imposible por agregación. No se encontró este mecanismo en el registro previo."
+      },
+      "change_vs_P95": "inherited_P95",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH006",
+      "classification": "improvement",
+      "title": "Estado y tipo filtran la población antes del pivote de inventarios",
+      "statement": "Los aliases de filtros pertenecen a base. tipos_inventario aporta solo1/2; cualquier tipo positivo distinto genera cero filas, no selecciona el estado3 derivado. estado1/2 filtra presencia de m por fila de tipo antes de los MAX CASE: un vehículo con tipo1 pendiente y tipo2 realizado conserva solo la primera fila al pedir estado1, y la columna tipo2 queda NULL. El campo inventario3 se deriva de local2 o preembarque3, sin unificar esos dominios.",
+      "source_status": "SOURCE",
+      "risk": "Una interpretación de filtros como selección de vehículo conservando todas sus columnas sería distinta de lo implementado; no se declara esa interpretación requisito aprobado.",
+      "tobe": "Documentar el alcance por fila/tipo; si negocio pide filtrar vehículos conservando inventarios, evaluar ese predicado después del pivote.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 33,
+          "line_end": 57
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 158,
+          "line_end": 174
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 299,
+          "line_end": 305
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 386,
+          "line_end": 387
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 411,
+          "line_end": 413
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-13",
+          "status": "pass"
+        },
+        {
+          "id": "RP-14",
+          "status": "pass"
+        },
+        {
+          "id": "RP-22",
+          "status": "pass"
+        },
+        {
+          "id": "RP-23",
+          "status": "pass"
+        },
+        {
+          "id": "RP-33",
+          "status": "pass"
+        },
+        {
+          "id": "RP-35",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "No se simulan controles del navegador ni se decide la política de filtros; un POST no numérico para IDs se ignora en vez de producir error."
+      ],
+      "dedup": {
+        "related": [
+          "VAR-001",
+          "knowledge/variants/peru.md"
+        ],
+        "decision": "VAR-001 es contador/filtro del consumidor JS; este contrato SQL de tipos/población es distinto. Mejora de precisión, no nuevo defecto de completitud aprobado."
+      },
+      "change_vs_P95": "inherited_P95",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH007",
+      "classification": "improvement",
+      "title": "Realizado significa existencia de un registro, no completitud demostrada",
+      "statement": "m une accesorios, partes, contaminaciones y parámetros activos con UNION por preembarque/chasis/tipo. Una sola fila de cualquiera basta para estado Realizado; no se exige cubrir todas las secciones ni ausencia de faltantes. estadodos usa presencia de local2 o preembarque3. Los flags de faltante/desperfecto/contaminación y kilometraje se calculan en base pero no forman parte de la proyección final. El nombre Nacional no añade por sí solo un predicado de tipo de viaje.",
+      "source_status": "SOURCE",
+      "risk": "Sobreinterpretar el alias como inspección completa o universo nacional validado carece de respaldo en estos predicados.",
+      "tobe": "Mantener los alias como etiquetas de fuente y pedir definición de completitud/población antes de convertirlos en reglas de negocio.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 59,
+          "line_end": 164
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 288,
+          "line_end": 310
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 328,
+          "line_end": 391
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 428
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-19",
+          "status": "pass"
+        },
+        {
+          "id": "RP-24",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "No se afirma que presencia sea una regla incorrecta; no hay contrato de completitud ni catálogo nacional validado."
+      ],
+      "dedup": {
+        "related": [
+          "VAR-001",
+          "knowledge/glossary/review-register.md"
+        ],
+        "decision": "No reutiliza semántica del contador pendiente del JS ni promueve los nombres del SQL a glosario canónico."
+      },
+      "change_vs_P95": "inherited_P95",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH008",
+      "classification": "improvement",
+      "title": "La cadena local no distingue todos los fallos del reporte",
+      "statement": "cnfdb105 se incluye antes de permisos y depende de .env.php/autoload externos al árbol. Con accion=ge se incluye contador.php, ausente del árbol fijado. Los SELECT auxiliares de transportistas y destinos se intentan antes del include condicional del constructor; destinos conserva población global sin proveedor. No comprueban false antes de fetch. El constructor solo prepara query[0]; data.php ejecuta su principal sin comprobar el retorno antes de fetch, a diferencia de su rama auxiliar con die. No se atribuye divulgación al navegador ni continuación universal ante errores.",
+      "source_status": "SOURCE",
+      "risk": "Fallo de conexión/include/query puede abortar o producir diagnósticos según runtime; no hay contrato de fallo de informe explícito ni prueba de que resultado vacío equivalga a consulta exitosa.",
+      "tobe": "Comprobar identidad antes de trabajo dependiente, revisar dependencias opcionales, acotar o retirar lecturas auxiliares innecesarias y distinguir fallo SQL de resultado vacío de forma terminal y controlada.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 2,
+          "line_end": 3
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 29,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/cnfdb105.php",
+          "line_start": 2,
+          "line_end": 3
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/cnfdb105.php",
+          "line_start": 13,
+          "line_end": 24
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 6,
+          "line_end": 14
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-25",
+          "status": "pass"
+        },
+        {
+          "id": "RP-26",
+          "status": "pass"
+        },
+        {
+          "id": "RP-27",
+          "status": "pass"
+        },
+        {
+          "id": "RP-28",
+          "status": "pass"
+        },
+        {
+          "id": "RP-31",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "No se abren .env, vendor o datos reales. Dependencias/versiones/errores personalizados de despliegue desconocidos. No se presenta ausencia del árbol como fallo demostrado del despliegue. La divergencia La_Paz/Lima es heredada."
+      ],
+      "dedup": {
+        "related": [
+          "RN-47",
+          "knowledge/general/architecture.md",
+          "knowledge/variants/peru.md"
+        ],
+        "decision": "Amplía el contrato local de ejecución/fallo; no repite el exportador SEC-015 ni afirma un nuevo fallo productivo."
+      },
+      "change_vs_P95": "inherited_except_aux_transportista_scope",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH009",
+      "classification": "duplicate_or_rejected",
+      "title": "No recontar la guardia ni declarar que fallback0 deniega siempre",
+      "statement": "La guardia compartida comprueba isset(idtransportista), sin rol/módulo ni terminación explícita. Su constante datoconservar mantiene el límite de runtime documentado en SEC-005. HEAD sustituye ausencia por0, pero igualdad con proveedor0 no es denegación incondicional: depende de que no existan esas filas. No se declara alcance anónimo, ejecución de handler ni denegación garantizada. La consulta del menú no añade retrospectivamente autorización al query ya construido/ejecutado.",
+      "source_status": "KNOWNDEFECT",
+      "risk": "Riesgo heredado y dependiente de runtime/datos; no nuevo hallazgo contabilizado.",
+      "tobe": "Reutilizar SEC-005 para corrección de guardia; requerir ID válido y denegación explícita antes del reporte y definir permisos de ruta en servidor.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/permisos.php",
+          "line_start": 1,
+          "line_end": 27
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 2,
+          "line_end": 9
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 221,
+          "line_end": 222
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/MenuClass.php",
+          "line_start": 25,
+          "line_end": 42
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-07",
+          "status": "pass"
+        },
+        {
+          "id": "RP-29",
+          "status": "pass"
+        },
+        {
+          "id": "RP-30",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "No PHP ejecutado; no inferencia de bypass anónimo en PHP8 ni existencia de proveedor0."
+      ],
+      "dedup": {
+        "related": [
+          "SEC-005",
+          "knowledge/general/actors-and-permissions.md"
+        ],
+        "decision": "Duplicado del defecto compartido; se rechazan las generalizaciones sobre anonimato y fail-closed por0."
+      },
+      "change_vs_P95": "guard_inherited_fallback_changed",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    },
+    {
+      "id": "TEMP-PH010",
+      "classification": "improvement",
+      "title": "Corregir el candidato histórico: query.php es constructor, no ejecutor autónomo",
+      "statement": "El catálogo histórico clasificó query.php como candidato public_php_page GET y no halló callers. La lectura completa del blob muestra construcción de filtros/query[0]/metadatos sin include, session_start ni mysql_query. El caller real es el reporte, bajo accion=ge, seguido de data.php. Sin ese contexto faltan identidad, filtros y conexión; no se concluye que una petición directa ejecute la consulta. Todos los aliases de los fragmentos sí existen en base; tampoco se acredita compilación SQL, soporte de CTE ni sintaxis de ejecución por esa comprobación.",
+      "source_status": "SOURCE",
+      "risk": "Contar el constructor como endpoint SQL ejecutable sobrestima la superficie probada.",
+      "tobe": "Registrar la dependencia caller→constructor→data.php y mantener accesibilidad/runtime como no verificados.",
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 1,
+          "line_end": 52
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 430,
+          "line_end": 438
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 11,
+          "line_end": 14
+        }
+      ],
+      "tests": [
+        {
+          "id": "RP-13",
+          "status": "pass"
+        },
+        {
+          "id": "RP-28",
+          "status": "pass"
+        }
+      ],
+      "limits": [
+        "No petición directa, bootstrap, handler ni parser PHP/SQL ejecutados. Ninguna conclusión sobre salidas al navegador."
+      ],
+      "dedup": {
+        "related": [
+          "source-audits/api/asgard-api-audit-augmented/api-catalog.augmented.json: aug_ce1a5a0f133b5b07c241"
+        ],
+        "decision": "Corrección del inventario histórico de candidatos, no nueva vulnerabilidad de acceso directo."
+      },
+      "change_vs_P95": "builder_inherited_new_context_variable",
+      "production_status": "UNVERIFIED",
+      "canonical": false
+    }
+  ],
+  "probe_artifact": "source-audits/peru/2026-11-19/report-probes.json",
+  "reproduction_script": "scripts/audit/peru_head_report_probes.py",
+  "dedup_sources": [
+    "knowledge/variants/peru.md",
+    "knowledge/general/actors-and-permissions.md",
+    "knowledge/general/security-findings.json",
+    "knowledge/general/operational-findings.json",
+    "knowledge/reviews/iterative-20261118/accepted-deltas.json",
+    "knowledge/reviews/iterative-20261118/report-query-contract.md",
+    "source-audits/api/api-deep-iterative/API_DEEP_ITERATIVE_FINDINGS.md",
+    "source-audits/api/asgard-api-audit-augmented/api-catalog.augmented.json",
+    "source-audits/brownfield/reports/process_maps/components/8dc5c196467d.md"
+  ],
+  "change_summary": {
+    "two_report_files_absent_in_M": true,
+    "query_change_only_owner_predicate": true,
+    "query_execution_owner": "index_archivos/data.php:13",
+    "date_filter_alias": "p.created_at",
+    "concesionario_filter_alias": "d.destino (texto), no tc.idconcesionario",
+    "national_population_predicate": "No hay predicado explícito que valide tipo nacional en este query"
+  }
+}

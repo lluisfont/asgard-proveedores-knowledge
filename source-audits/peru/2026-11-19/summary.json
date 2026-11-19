@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "source_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "previous_peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "master_reference_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "tracked_entries": 10685,
+  "code_candidates": 558,
+  "tree_delta": {
+    "identical": 10682,
+    "changed": 3
+  },
+  "master_comparison": {
+    "identical": 10466,
+    "changed": 159,
+    "peru_only": 60,
+    "master_only": 4
+  },
+  "php_lint": {
+    "total": 288,
+    "passed": 285
+  },
+  "database_access": false,
+  "application_executed": false,
+  "native_asgard": "not_executed_prior_appcontrol_block",
+  "browser_output_navigation_security_review": "excluded_prior_automatic_rejection_not_retried",
+  "coverage": "PARTIAL",
+  "graphify": {
+    "source_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "tool": "graphifyy",
+    "version": "0.9.108",
+    "mode": "local_ast_structural_only",
+    "code_candidates": 558,
+    "nodes": 2351,
+    "edges": 2694,
+    "communities": 640,
+    "single_node_source_files": 325,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "semantic_extraction": false,
+    "limitations": "AST and equal blobs do not establish route execution, authorization, business policy or deployment."
+  }
+}

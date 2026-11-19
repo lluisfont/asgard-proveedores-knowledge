@@ -1,8 +1,14 @@
-# Peru: diferencias de comportamiento
+# Perú: base histórica P95 y revisión HEAD
 
-**IMP-SCOPE-001 — Pin de comparación fijado.** Esta revisión conserva P `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`. El 2026-11-18 se observó el remoto Perú en `2a179e2e6472d5705d031665ecbc90c3d806edec`, con tres rutas cambiadas respecto de ese pin; véase [la observación remota](../../source-audits/master/2026-11-18/iterative/remote-refs-observation.json). Ese nuevo head no está auditado aquí. Las conclusiones siguientes corresponden a P95, no acreditan la revisión del último Perú ni amplían el alcance a sus cambios o a navegador/navegación.
+Fecha cliente: **19-11-2026, Europe/Madrid**. Perú HEAD `2a179e2e6472d5705d031665ecbc90c3d806edec` está auditado en el alcance estático documentado en el [expediente de revisión](../reviews/peru-head-20261119/README.md) y en la [revisión actual de la variante](../variants/peru-head-20261119.md). Se conservan las exclusiones de navegador, navegación, salidas y recarga JS. La auditoría no certifica despliegue, servicios o base de datos ni aprobación canónica.
 
-Fuente P: `origin/master_peru`, commit `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`. Base M: `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`. Todas las conclusiones siguientes son estaticas; no prueban despliegue, datos disponibles ni contratos externos funcionando.
+La revisión aceptada reúne cuatro hallazgos nuevos para la KB —uno con efecto cambiado en HEAD y tres heredados de P95— y ocho mejoras documentales. El padre integra su registro; aquí se publican **PH-IMP-006/007/008**, procedentes de TEMP-CF001/002/003. Los [cinco contratos de solicitud acotados](peru-api-head-20261119.md), la [comparación](comparison.md#comparacion-m-peru-head-20261119) y la [revalidación del glosario](../glossary/peru-head-revalidation.json) precisan qué evidencia se conserva.
+
+## Base histórica M/P95 preservada
+
+**IMP-SCOPE-001, antecedente del 18-11-2026.** La comparación y el cuerpo histórico siguientes fijan P95 `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` y M `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`. La observación remota de HEAD era entonces solo una observación; la auditoría estática posterior del 19-11-2026 está enlazada arriba. Las referencias P de este cuerpo mantienen P95 y no se sustituyen por HEAD. La revalidación por rango no equivale a una nueva lectura semántica de todo el código.
+
+El cuerpo histórico se conserva íntegro desde «Pais y perfiles» hasta «Video y compatibilidad», incluidas sus referencias y límites. La integración nueva continúa después bajo PH-IMP-006/007/008.
 
 ## Pais y perfiles
 
@@ -77,3 +83,16 @@ M prepara fecha/hora actuales para el temporal aunque el lector haya recibido O/
 P agrega videos de formularios de entrega/recojo: consulta columnas `video`/`video_path`, permite acceder segun operador, gestor o concesionario, descarga desde `URL_API/blob/download` con `ASGARD_KEY_TRACKING`, mantiene cache temporal con bloqueo y sirve rangos HTTP. Si la consulta de formularios falla, vuelve a PDF; ese fallback no instala las columnas ausentes ([P consulta y acceso, L443-L493](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/ListaViajesClass.php#L443-L493); [P descarga, L83-L120](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/getVideo.php#L83-L120); [P cache/sesion, L133-L165](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/getVideo.php#L133-L165); [P rangos, L170-L204](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/getVideo.php#L170-L204)).
 
 P conserva conexion y consultas `mysql_*`, etiquetas cortas PHP y cifrado mcrypt donde M usa un puente `mysqli` y OpenSSL. El nuevo proxy de video desactiva verificacion TLS en su cliente HTTP. Estas diferencias deben revisarse por separado de las funciones de negocio; no se ha validado P en PHP 8.4 ni contra una base real ([P bootstrap, L13-L24](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/cnfdb105.php#L13-L24); [P etiquetas/cifrado, L57-L70](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index.php#L57-L70); [P TLS, L89-L103](https://github.com/KPO-Group/proveedores/blob/95fe9a4c3b3cddd84be922cc0e1eb9c88603df62/index_archivos/tracking/getVideo.php#L89-L103)).
+
+
+## Integración aceptada PH-IMP-006/007/008
+
+| Mejora | Precisión integrada | Evidencia y límite |
+| --- | --- | --- |
+| PH-IMP-006 ← TEMP-CF001 | El blob de datosEmbarques cambia, pero las cinco solicitudes de negocio acotadas conservan sus rangos exactos. | [API HEAD](peru-api-head-20261119.md): creación P95 L416–421 → HEAD L409–414; detalle L510–521 → L505–516. Sin callbacks, resultados, salidas o recarga. |
+| PH-IMP-007 ← TEMP-CF002 | La identidad de una cita local no acredita identidad de su comportamiento compuesto cuando cambia una dependencia directa. | Cuatro conceptos: alcance-viaje, item-posicion, finalizado-resumen y viaje-desde-vin. El JSON de revalidación conserva sus referencias directas al JS y la necesidad de revisión separada de esa frontera. |
+| PH-IMP-008 ← TEMP-CF003 | Se conserva la procedencia M/P95 de conceptos y mejoras, sin inventar correspondencias M→P. | 80 conceptos con evidencia P95 conservada; parte-recepcion solo M. Seis de las ocho mejoras operativas históricas solo citan M; no se promocionan a Perú. |
+
+Los 81 conceptos del JSON base permanecen intactos. Nueve OPS históricas, VAR-001 y cuatro BR conservan su evidencia P por identidad; su significado, confianza y condiciones siguen siendo los del registro original. Las dos mejoras operativas históricas con evidencia P son CLR-IMP-002/003; IMP-T008/009/010, CLR-IMP-001 y RPR-IMP-001/002 conservan solo su procedencia M. Los cuatro nuevos PH del reporte quedan en el registro del padre y no se recuentan como OPS.
+
+La [integración de carry-forward](../reviews/peru-head-20261119/carryforward-integration.json) fija aceptación, destinos y pruebas. La igualdad de 10.682 entradas por modo/tipo/OID solo demuestra identidad Git; aporta **cero** revisiones semánticas globales.

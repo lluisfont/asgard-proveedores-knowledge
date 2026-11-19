@@ -1241,7 +1241,100 @@
       "compression": null,
       "bytes": 121379,
       "stored_bytes": 121379
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/carryforward.json",
+      "export_sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29",
+      "stored_sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29",
+      "compression": null,
+      "bytes": 1313212,
+      "stored_bytes": 1313212
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/closure-sql.json",
+      "export_sha256": "11a9dd63935318990713f63a7562b01b0d8a8d842770f193dd0d3532098c9f85",
+      "stored_sha256": "11a9dd63935318990713f63a7562b01b0d8a8d842770f193dd0d3532098c9f85",
+      "compression": null,
+      "bytes": 49805,
+      "stored_bytes": 49805
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/graphify/graph.json.gz",
+      "export_sha256": "a4c017453e1aa9846a36a0e7f19f2a9e4f00eb4ab6a987d62753ac4ee4a66fc8",
+      "stored_sha256": "cf3bb14bc0589032239c2653294cf8a0a3c22a14575f9d7e981a88d038957918",
+      "compression": "gzip",
+      "bytes": 1576987,
+      "stored_bytes": 93431
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/graphify/summary.json",
+      "export_sha256": "544e8138e73582e29c3368c2dc3f756c343a51355c06aeeda6590f46b3f7bd01",
+      "stored_sha256": "544e8138e73582e29c3368c2dc3f756c343a51355c06aeeda6590f46b3f7bd01",
+      "compression": null,
+      "bytes": 479,
+      "stored_bytes": 479
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/inventory.csv",
+      "export_sha256": "c773aab5ac59d0a37bdf9d51561796715504ccb85389110ac5c54557e486fe07",
+      "stored_sha256": "c773aab5ac59d0a37bdf9d51561796715504ccb85389110ac5c54557e486fe07",
+      "compression": null,
+      "bytes": 2269006,
+      "stored_bytes": 2269006
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/master-peru-comparison.csv",
+      "export_sha256": "08362b20ecb04469b5b586a338919d7802102aedd93ffd165d260404cee55289",
+      "stored_sha256": "08362b20ecb04469b5b586a338919d7802102aedd93ffd165d260404cee55289",
+      "compression": null,
+      "bytes": 1667362,
+      "stored_bytes": 1667362
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/php-lint.json",
+      "export_sha256": "bdc8769c32bf35e596f89ae5319b469711a5fc9a6914c9ce43991b06db43e273",
+      "stored_sha256": "bdc8769c32bf35e596f89ae5319b469711a5fc9a6914c9ce43991b06db43e273",
+      "compression": null,
+      "bytes": 53291,
+      "stored_bytes": 53291
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/report-probes.json",
+      "export_sha256": "cc226643e5df034fa0498dfbf8a4cc574d7d43a23735905a8a9d05a6a28139d7",
+      "stored_sha256": "cc226643e5df034fa0498dfbf8a4cc574d7d43a23735905a8a9d05a6a28139d7",
+      "compression": null,
+      "bytes": 68940,
+      "stored_bytes": 68940
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/summary.json",
+      "export_sha256": "4d2ce08bd9190b6bf969cf004967a0d5c3d78f55bb5fc234691239be500de5de",
+      "stored_sha256": "4d2ce08bd9190b6bf969cf004967a0d5c3d78f55bb5fc234691239be500de5de",
+      "compression": null,
+      "bytes": 1352,
+      "stored_bytes": 1352
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/tree-comparison.csv",
+      "export_sha256": "46dad7d21c170155c08482120d8d13404143ca100ffa00417f429540bc4bc940",
+      "stored_sha256": "46dad7d21c170155c08482120d8d13404143ca100ffa00417f429540bc4bc940",
+      "compression": null,
+      "bytes": 1723090,
+      "stored_bytes": 1723090
+    },
+    {
+      "path": "source-audits/peru/2026-11-19/tree-comparison.json",
+      "export_sha256": "de7bb7ae19838f5bb20dc6d5abce43165c5e3570329d635dd4bdd0a08856855f",
+      "stored_sha256": "de7bb7ae19838f5bb20dc6d5abce43165c5e3570329d635dd4bdd0a08856855f",
+      "compression": null,
+      "bytes": 458,
+      "stored_bytes": 458
     }
   ],
-  "note": "Integrity of the current static evidence snapshot, not validation of runtime behavior."
+  "note": "Integrity of the current static evidence snapshot, not validation of runtime behavior.",
+  "source_commits": {
+    "master_reference": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "peru_previous": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "peru_head": "2a179e2e6472d5705d031665ecbc90c3d806edec"
+  }
 }

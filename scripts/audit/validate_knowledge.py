@@ -24,6 +24,7 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--source')
     parser.add_argument('--peru-source')
+    parser.add_argument('--peru-head-source')
     args=parser.parse_args()
     root=Path(__file__).resolve().parents[2]
     manifest=json.loads((root/'knowledge/manifest.json').read_text(encoding='utf-8-sig'))
@@ -31,6 +32,9 @@ def main():
     peru=manifest['repository']['comparison_commit']
     source_roots={master:Path(args.source).resolve() if args.source else None,
                   peru:Path(args.peru_source).resolve() if args.peru_source else None}
+    peru_head=manifest['repository'].get('peru_audited_commit')
+    if peru_head:
+        source_roots[peru_head]=Path(args.peru_head_source).resolve() if args.peru_head_source else None
     for commit,source in source_roots.items():
         if source is None:
             continue
@@ -47,6 +51,9 @@ def main():
                 known_paths[master].add(record['path'])
             if record['peru_blob']:
                 known_paths[peru].add(record['path'])
+    if peru_head:
+        with (root/'source-audits/peru/2026-11-19/inventory.csv').open(encoding='utf-8-sig',newline='') as file:
+            known_paths[peru_head]={row['path'] for row in csv.DictReader(file)}
     lines_cache={}
     citations=set()
     def cite(commit,path,start,end):
@@ -124,7 +131,7 @@ def main():
                 list(csv.reader(io.StringIO(text,newline=''),strict=True))
     link_pattern=re.compile(r'\[[^\]\n]*\]\(([^)\n]+)\)')
     source_pattern=re.compile(r'https://github\.com/KPO-Group/proveedores/blob/([0-9a-f]{40})/([^\s)#]+)#L(\d+)(?:-L(\d+))?')
-    abbreviated_source_pattern=re.compile(r'\b([MP]):([^`\s;]+?):(L\d+(?:-L\d+)?(?:,L\d+(?:-L\d+)?)*)')
+    abbreviated_source_pattern=re.compile(r'\b(M|P2|P95|P):([^`\s;]+?):(L\d+(?:-L\d+)?(?:,L\d+(?:-L\d+)?)*)')
     installed_checkout=(root/'index.php').exists()
     documents=sorted((root/'knowledge').rglob('*.md'))
     if not installed_checkout:
@@ -148,7 +155,8 @@ def main():
         for branch,source,ranges in abbreviated_source_pattern.findall(text):
             for line_range in ranges.split(','):
                 bounds=[int(v.removeprefix('L')) for v in line_range.split('-')]
-                cite(master if branch=='M' else peru,source,bounds[0],bounds[-1])
+                commit=master if branch=='M' else peru_head if branch=='P2' else peru
+                cite(commit,source,bounds[0],bounds[-1])
     security=json.loads((root/'knowledge/general/security-findings.json').read_text(encoding='utf-8'))
     finding_ids=set()
     for finding in security['findings']:
@@ -167,6 +175,10 @@ def main():
     if security_probes['passed']!=security_probes['total']:
         raise ValueError('Independent security probe failure unresolved')
     iterative=validate_iterative(root,cite) if (root/'knowledge/reviews/iterative-20261118/iterations.json').exists() else None
+    peru_review=None
+    if (root/'knowledge/reviews/peru-head-20261119/iterations.json').exists():
+        from validate_peru_head import validate as validate_peru_head
+        peru_review=validate_peru_head(root,cite)
     report={'status':'PASS','context':'installed_application_checkout' if installed_checkout else 'standalone_knowledge',
         'source_commit':master,'peru_commit':peru,
         'current_payloads_verified':len(current['entries']),'glossary_terms':len(entries),
@@ -176,6 +188,7 @@ def main():
         'source_line_bounds_verified':all(source_roots.values()),'guard_cases_passed':probes['passed'],
         'independent_security_cases_passed':security_probes['passed'],
         'iterative_review':iterative,
+        'peru_head_review':peru_review,
         'database_schema':'missing_for_master','runtime_end_to_end':'not_verified','business_approval':'pending',
         'overall_audit_coverage':'PARTIAL',
         'note':'PASS validates evidence integrity, structure and references. It does not certify business correctness or close security findings.'}

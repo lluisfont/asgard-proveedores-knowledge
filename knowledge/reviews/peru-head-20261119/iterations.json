@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "baseline_knowledge_commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+  "peru_head": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "previous_peru": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "master_reference": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "counts": {
+    "new_findings": 4,
+    "improvements": 8
+  },
+  "iterations": [
+    {
+      "version": 1,
+      "technique": "Static report contract review with isolated probes",
+      "status": "completed",
+      "new_findings": [
+        "PH-001",
+        "PH-002",
+        "PH-003",
+        "PH-004"
+      ],
+      "improvements": [
+        "PH-IMP-001",
+        "PH-IMP-002",
+        "PH-IMP-003",
+        "PH-IMP-004",
+        "PH-IMP-005"
+      ],
+      "artifact": "knowledge/reviews/peru-head-20261119/report-deltas.json",
+      "semantic_sha256": "23dbd9f363a808adc32235dfba8f75293dca96f210cbd281c58fdf3710972acd",
+      "snapshot": "knowledge/reviews/peru-head-20261119/versions/audit-v01.json",
+      "snapshot_sha256": "0124d57d28283a91b39743d0f8b83988b47cf01c446ca98e92a5c8b547d3cf4f",
+      "consecutive_zero_delta_passes": 0
+    },
+    {
+      "version": 2,
+      "technique": "Git range carry-forward and provenance review",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "PH-IMP-006",
+        "PH-IMP-007",
+        "PH-IMP-008"
+      ],
+      "artifact": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+      "semantic_sha256": "439c75d960a51fda6db08b068cd9cd533baace369cb611f0b9ee9228b18a2635",
+      "snapshot": "knowledge/reviews/peru-head-20261119/versions/audit-v02.json",
+      "snapshot_sha256": "9d6b0bc17db56d36dac5f9aab8f5eeb61f4a4d1119d94c52bd6f2922fe3ce97d",
+      "consecutive_zero_delta_passes": 0
+    },
+    {
+      "version": 3,
+      "technique": "SQL AST and metamorphic closure",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "artifact": "knowledge/reviews/peru-head-20261119/closure-sql.json",
+      "semantic_sha256": "439c75d960a51fda6db08b068cd9cd533baace369cb611f0b9ee9228b18a2635",
+      "snapshot": "knowledge/reviews/peru-head-20261119/versions/audit-v03.json",
+      "snapshot_sha256": "9d6b0bc17db56d36dac5f9aab8f5eeb61f4a4d1119d94c52bd6f2922fe3ce97d",
+      "consecutive_zero_delta_passes": 1
+    },
+    {
+      "version": 4,
+      "technique": "Reverse provenance closure on the published parent snapshot",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "artifact": "knowledge/reviews/peru-head-20261119/closure-provenance.json",
+      "semantic_sha256": "439c75d960a51fda6db08b068cd9cd533baace369cb611f0b9ee9228b18a2635",
+      "snapshot": "knowledge/reviews/peru-head-20261119/versions/audit-v04.json",
+      "snapshot_sha256": "9d6b0bc17db56d36dac5f9aab8f5eeb61f4a4d1119d94c52bd6f2922fe3ce97d",
+      "consecutive_zero_delta_passes": 2
+    }
+  ],
+  "consecutive_zero_delta_passes": 2,
+  "converged": true,
+  "coverage": "PARTIAL",
+  "canonical": false,
+  "materiality": "Only new supported behavior or substantive knowledge correction. Equal blobs, repeated checks, timestamps and clerical edits alone are not new findings.",
+  "excluded_reviews": [
+    "Browser-output/navigation security review: prior automatic rejection; not retried or counted as zero.",
+    "Native ASGARD executable: prior AppControl block; not executed or bypassed.",
+    "New master remote head: outside this Peru audit; master reference stays immutable."
+  ]
+}

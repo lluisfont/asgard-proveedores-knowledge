@@ -1,0 +1,14 @@
+{
+  "previous_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+  "current_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "counts": {
+    "identical": 10682,
+    "changed": 3
+  },
+  "changed_paths": [
+    "index_archivos/embarques/js/datosEmbarques.js",
+    "index_archivos/reportes/reportepreembarquenacional.php",
+    "index_archivos/reportes/reportepreembarquenacionalquery.php"
+  ],
+  "equal_blobs_are_not_runtime_proof": true
+}

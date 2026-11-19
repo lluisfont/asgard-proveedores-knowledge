@@ -1,0 +1,4681 @@
+{
+  "schema_version": "1.0",
+  "registry_type": "peru_head_glossary_revalidation_overlay",
+  "date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "sourcepins": {
+    "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+  },
+  "canonical": false,
+  "business_owner_approval": false,
+  "source_glossary": {
+    "path": "knowledge/glossary/business-glossary.json",
+    "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+    "sha256": "1940d0482b19cebec489c107e30e45513f306e9996ef64986f5cb2a827ca1148",
+    "blob": "9de283364edfb873b756ef46082d5619c7ce44c9",
+    "unchanged": true,
+    "entries": 81
+  },
+  "acceptance": [
+    {
+      "id": "PH-IMP-006",
+      "origin_id": "TEMP-CF001",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "El blob JS cambia; cinco solicitudes de negocio conservan rangos exactos",
+      "new_independent_finding": false
+    },
+    {
+      "id": "PH-IMP-007",
+      "origin_id": "TEMP-CF002",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "Distinguir evidencia local estable de dependencia directa modificada",
+      "new_independent_finding": false
+    },
+    {
+      "id": "PH-IMP-008",
+      "origin_id": "TEMP-CF003",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "La revalidacion Peru conserva la procedencia de las mejoras citadas solo en M",
+      "new_independent_finding": false
+    }
+  ],
+  "counts": {
+    "concepts": 81,
+    "concepts_with_original_P95": 80,
+    "M_only": 1,
+    "changed_direct_dependency_concepts": 4,
+    "new_concepts": 0,
+    "new_defects": 0
+  },
+  "coverage": {
+    "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 80,
+    "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION": 1
+  },
+  "rows": [
+    {
+      "id": "cliente-logistico",
+      "term": "Cliente de la operación logística",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/0",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 252,
+          "line_end": 262
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 252,
+          "line_end": 262
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 1,
+          "line_end": 9
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 1,
+          "line_end": 9
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0002",
+        "R0004"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0002",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 252,
+          "line_end": 262,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "919afa011f1265f6e3c43c613c28d8ac0e48de7cd3394ccb589d840800766083",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 252,
+          "origin_line_end": 262
+        },
+        {
+          "proof_id": "R0004",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 1,
+          "line_end": 9,
+          "blob": "aaf1caa7e05710f6bba989bf97b4ffc655bc3d8f",
+          "range_sha256": "7ea3aebbbdb3e530b95a76c48dddc0df2a2127d1c331f00b86c9f079acc0a89b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1,
+          "origin_line_end": 9
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "cliente-del-operador",
+      "term": "Cliente propio del operador",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/1",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line_start": 12,
+          "line_end": 28
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line_start": 12,
+          "line_end": 28
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0006"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0006",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/parametros/clientes/ClienteProveedorClass.php",
+          "line_start": 12,
+          "line_end": 28,
+          "blob": "690a7645ea4c68ab4da9491ce72e91fade0a4f21",
+          "range_sha256": "7bf3ef50f0e051d743aec4b47315c6d3dbcbbeac70452d81c6c1b20212e9a819",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 12,
+          "origin_line_end": 28
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "proveedor-mercancia",
+      "term": "Proveedor de mercancía",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/2",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 655,
+          "line_end": 674
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 663,
+          "line_end": 682
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 172,
+          "line_end": 193
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 172,
+          "line_end": 193
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0008",
+        "R0010"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0008",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 663,
+          "line_end": 682,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "36eb94180ad8e658e12ca75979428372bd0ebc163bda277c027a9675b0a9603b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 663,
+          "origin_line_end": 682
+        },
+        {
+          "proof_id": "R0010",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 172,
+          "line_end": 193,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "193189ee0492847056cf8d0ca29392e6a0e221ae4218089ee8073467eb9cabd3",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 172,
+          "origin_line_end": 193
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "operador-logistico",
+      "term": "Operador logístico",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/3",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 39,
+          "line_end": 60
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 83,
+          "line_end": 104
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 549,
+          "line_end": 559
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 549,
+          "line_end": 558
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0012",
+        "R0014"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0012",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 83,
+          "line_end": 104,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "7d62f6f86e1adcb50db61e3987abce82b41ed28d13b598040edf19d6eacea88d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 83,
+          "origin_line_end": 104
+        },
+        {
+          "proof_id": "R0014",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 549,
+          "line_end": 558,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "542175a1f301e5a36c3955e6709b69e603309272ac3d77277c3b6863900fb627",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 549,
+          "origin_line_end": 558
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "empresa-transporte",
+      "term": "Empresa de transporte del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/4",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1132,
+          "line_end": 1144
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1132,
+          "line_end": 1144
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0016"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0016",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1132,
+          "line_end": 1144,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "80036c1c4c01a68f221e397cf261633d69e5ed88eabbcaa6427614b4c96404b9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1132,
+          "origin_line_end": 1144
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "conductor",
+      "term": "Conductor",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/5",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 192,
+          "line_end": 199
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 192,
+          "line_end": 199
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1147,
+          "line_end": 1163
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1147,
+          "line_end": 1163
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0018",
+        "R0020"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0018",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 192,
+          "line_end": 199,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "b25e8f6d8d311c98661c83aaeed860ad1cc717476b867ff3a8daf9d4c71760b4",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 192,
+          "origin_line_end": 199
+        },
+        {
+          "proof_id": "R0020",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1147,
+          "line_end": 1163,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "61c300fa47380fc3c85fcf8cd11190af5f063360162f1b98720632af387b6967",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1147,
+          "origin_line_end": 1163
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "conductor-relevo",
+      "term": "Conductor de relevo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/6",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 212,
+          "line_end": 220
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 212,
+          "line_end": 220
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0022"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0022",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 212,
+          "line_end": 220,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "24a1cc55bc42e0763d66a7d37ca5e2857a462ae69bd7f5331eebb45e5ab65a06",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 212,
+          "origin_line_end": 220
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "gestor-transporte",
+      "term": "Gestor de transporte",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/7",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 186
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 186
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0024"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0024",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 186,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "990732b83ee2565863ed5df1a9361c870e65fa524c700888824c04f0274e3ff4",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 148,
+          "origin_line_end": 186
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "agente-aduana",
+      "term": "Agente de aduana",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/8",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 314,
+          "line_end": 338
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 316,
+          "line_end": 340
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 178
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 178
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0026",
+        "R0028"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0026",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 316,
+          "line_end": 340,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "6eb6bd48d0f807c8ff9370a54ece4202ba9bb7ff51d7a9894e949a0f382fb8ef",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 316,
+          "origin_line_end": 340
+        },
+        {
+          "proof_id": "R0028",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 148,
+          "line_end": 178,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "891735ff70276de0a52673ba69d9a154b3cdfef82090f7a619d15b583ff7451b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 148,
+          "origin_line_end": 178
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "agente-seguro",
+      "term": "Agente de seguro",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/9",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 69,
+          "line_end": 86
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 113,
+          "line_end": 130
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0030"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0030",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 113,
+          "line_end": 130,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "63e0e99b10ddbbb40a1e02836b2fb274c023d23838721d795559b5f97a28c2f6",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 113,
+          "origin_line_end": 130
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "agente-proveedor",
+      "term": "Agente del proveedor de mercancía",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/10",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 650,
+          "line_end": 671
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 744,
+          "line_end": 765
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0032"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0032",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 744,
+          "line_end": 765,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "ef4fcc2949aea0de384c13ac9432a3481b5a548ac47bde9e8837c84a252a1d09",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 744,
+          "origin_line_end": 765
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "declarante",
+      "term": "Declarante del cliente",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/11",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 653,
+          "line_end": 661
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 559,
+          "line_end": 567
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0034"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0034",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 559,
+          "line_end": 567,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "f7821d5fade044fd29bc2e4b7b87134f9e8d8d1771faaf34660355cf3408b64f",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 559,
+          "origin_line_end": 567
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "cotizacion",
+      "term": "Cotización logística",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/12",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 86,
+          "line_end": 101
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 86,
+          "line_end": 101
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0036",
+        "R0038"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0036",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 86,
+          "line_end": 101,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "a1f51378e1988fab20f37c4fbd43f2219248f864a49369fd1d574d2f010042b7",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 86,
+          "origin_line_end": 101
+        },
+        {
+          "proof_id": "R0038",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "bbe2b5baf32280cc7c8333f49e43f30a254c505d0dac7d42a254c69270bcc077",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1007,
+          "origin_line_end": 1014
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "embarque",
+      "term": "Embarque",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/13",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 117,
+          "line_end": 126
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 161,
+          "line_end": 170
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 685,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 779,
+          "line_end": 784
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0038",
+        "R0040",
+        "R0042",
+        "R0044"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0038",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "bbe2b5baf32280cc7c8333f49e43f30a254c505d0dac7d42a254c69270bcc077",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1007,
+          "origin_line_end": 1014
+        },
+        {
+          "proof_id": "R0040",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 161,
+          "line_end": 170,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "5e005cdb79b11cdb5f3be54add2cfc1ce5d7aff921aab023bd9ffe1d7c66c9a6",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 161,
+          "origin_line_end": 170
+        },
+        {
+          "proof_id": "R0042",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 779,
+          "line_end": 784,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "b4570727d3ab4805801e3039cb1b4258fc41bf255f4f5d8c011d0af9f0b92998",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 779,
+          "origin_line_end": 784
+        },
+        {
+          "proof_id": "R0044",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35,
+          "blob": "d8512b0bc80e4548c944a4fe736b2ffd40b9ee1c",
+          "range_sha256": "17aecb55d179ab2cb47b495d9d734ff03a72d926c1d0d053e814b108bf40b7bf",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 18,
+          "origin_line_end": 35
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "viaje",
+      "term": "Viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/14",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 181,
+          "line_end": 220
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 181,
+          "line_end": 220
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0046",
+        "R0044"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0046",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 181,
+          "line_end": 220,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "a88704aed193427d7302a52b6256a441ea61ce042c6c6bf4b0c594c43d81844f",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 181,
+          "origin_line_end": 220
+        },
+        {
+          "proof_id": "R0044",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/ViajesClass.php",
+          "line_start": 18,
+          "line_end": 35,
+          "blob": "d8512b0bc80e4548c944a4fe736b2ffd40b9ee1c",
+          "range_sha256": "17aecb55d179ab2cb47b495d9d734ff03a72d926c1d0d053e814b108bf40b7bf",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 18,
+          "origin_line_end": 35
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "alcance-viaje",
+      "term": "Alcance del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/15",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 293,
+          "line_end": 305
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 293,
+          "line_end": 305
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 33,
+          "line_end": 40
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "line_start": 8,
+          "line_end": 12
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "line_start": 8,
+          "line_end": 12
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0048",
+        "R0050",
+        "R0052",
+        "R0054"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0048",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 293,
+          "line_end": 305,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "14c7daf4c1840f09d166f57bc60e63107581c7815d23a74b7b67bb81fcef9d53",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 293,
+          "origin_line_end": 305
+        },
+        {
+          "proof_id": "R0050",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "9156af6e56a5187c19b12d253b08d0aaa76b73c1d4b10ad4576c8f64a6bd820b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1099,
+          "origin_line_end": 1107
+        },
+        {
+          "proof_id": "R0052",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126,
+          "blob": "ef34bb0b643caa95cbee067879f04d5ba21a8008",
+          "range_sha256": "26cc61f5fbad6fea59fe5f9f6bb28de31ed715d0918ab3c7317134867cc13d17",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 119,
+          "origin_line_end": 126
+        },
+        {
+          "proof_id": "R0054",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "line_start": 8,
+          "line_end": 12,
+          "blob": "e51e490264da04ea2e8ff31f5e635cd5d65a1edf",
+          "range_sha256": "379fb69131bdf382b7c562ac8e3a51ef580bdd489871f4ce1de8f03d1b52ce66",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 8,
+          "origin_line_end": 12
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": true,
+      "changed_dependency_references": [
+        {
+          "from": "index_archivos/embarques/embarquecrear.php",
+          "to": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 335,
+          "line_end": 335,
+          "line_sha256": "3077056666a27aadb5351230a63e3aca43535128c79da73a07a4075972fd8ff7",
+          "proof_id": "R0382",
+          "status": "LEXICAL_REFERENCE_ONLY_NO_EXECUTION_CLAIM",
+          "review_navigation_or_output": false
+        }
+      ],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "sentido-viaje",
+      "term": "Sentido del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/16",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 323,
+          "line_end": 338
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 323,
+          "line_end": 338
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0056"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0056",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 323,
+          "line_end": 338,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "340a8b16a12c42932f1d6800be03ecdbbf76625efad78bfbb9e9fedbc439f901",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 323,
+          "origin_line_end": 338
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "modalidad-transporte",
+      "term": "Modalidad de transporte",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/17",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 80,
+          "line_end": 87
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 80,
+          "line_end": 87
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 402,
+          "line_end": 419
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 496,
+          "line_end": 513
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0058",
+        "R0060"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0058",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 80,
+          "line_end": 87,
+          "blob": "aaf1caa7e05710f6bba989bf97b4ffc655bc3d8f",
+          "range_sha256": "6ef1a6a6fd7b7b230e435221e8aa4d4e191a632025a621cd33c8f3fee33df2a8",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 80,
+          "origin_line_end": 87
+        },
+        {
+          "proof_id": "R0060",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 496,
+          "line_end": 513,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "077590baf5715c9c84884163237004bfdb399d28d3d19d76502023586c6cc1f3",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 496,
+          "origin_line_end": 513
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "tramo",
+      "term": "Tramo del embarque",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/18",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 739,
+          "line_end": 755
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 747,
+          "line_end": 763
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0062"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0062",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 747,
+          "line_end": 763,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "7c82435ea3a1a341f751691c62ae43136be86c20c38575176fb5d1c75cecbadb",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 747,
+          "origin_line_end": 763
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "ruta-embarque",
+      "term": "Ruta del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/19",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 393,
+          "line_end": 421
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 487,
+          "line_end": 515
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0064"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0064",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 487,
+          "line_end": 515,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "0157d7111d963ba10b78651845dd25b7a240470acc0a7f4bff99a28c6f088420",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 487,
+          "origin_line_end": 515
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "origen-destino",
+      "term": "Origen y destino del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/20",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 210
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 210
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0066",
+        "R0068"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0066",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 204,
+          "line_end": 210,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "789b31478cf0ab5a8451f332eb53b68a4b2c261e70cc9a6e44349f6e8fde1e53",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 204,
+          "origin_line_end": 210
+        },
+        {
+          "proof_id": "R0068",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1315,
+          "line_end": 1333,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "ba3a2337bb3cd2a4b93a8d97de5700e7d7928280c8776060a3fd76d3b96493e1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1315,
+          "origin_line_end": 1333
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "orden-compra",
+      "term": "Orden de compra de referencia",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/21",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0070"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0070",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78,
+          "blob": "aaf1caa7e05710f6bba989bf97b4ffc655bc3d8f",
+          "range_sha256": "dd339d04a07aa68c2fa0f4fc3751789573ea77140e38eb31f2ed21b61d33ae6d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 71,
+          "origin_line_end": 78
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "pedido-referencia",
+      "term": "Pedido de referencia",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/22",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0070"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0070",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 71,
+          "line_end": 78,
+          "blob": "aaf1caa7e05710f6bba989bf97b4ffc655bc3d8f",
+          "range_sha256": "dd339d04a07aa68c2fa0f4fc3751789573ea77140e38eb31f2ed21b61d33ae6d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 71,
+          "origin_line_end": 78
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "pedido-operativo",
+      "term": "Pedido operativo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/23",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 680,
+          "line_end": 689
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 688,
+          "line_end": 697
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1288,
+          "line_end": 1304
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1343,
+          "line_end": 1359
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0072",
+        "R0074"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0072",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 688,
+          "line_end": 697,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "614c272c4a39bb11777f0d1c6321b795ba74bf1b730473aa3e9d9411e3601b06",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 688,
+          "origin_line_end": 697
+        },
+        {
+          "proof_id": "R0074",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1343,
+          "line_end": 1359,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "41c24c9c8f9a94cda0efa222702ebb330b77e479660a9df3c21cb679e6a04921",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1343,
+          "origin_line_end": 1359
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "item-posicion",
+      "term": "Ítem o posición del pedido",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/24",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1293,
+          "line_end": 1301
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 54,
+          "line_end": 70
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 110,
+          "line_end": 125
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0076",
+        "R0078"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0076",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "de24f9066536e2901d0a576ee296f1ffb52d8ea1c71706e2d81f14df5b2be287",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1348,
+          "origin_line_end": 1356
+        },
+        {
+          "proof_id": "R0078",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 110,
+          "line_end": 125,
+          "blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "range_sha256": "99fa86019324f57234476344fe4b0c44397ed30ffbb7315e28b28a8ffc86911b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 110,
+          "origin_line_end": 125
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": true,
+      "changed_dependency_references": [
+        {
+          "from": "index_archivos/embarques/frames/items.php",
+          "to": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 243,
+          "line_end": 243,
+          "line_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "proof_id": "R0389",
+          "status": "LEXICAL_REFERENCE_ONLY_NO_EXECUTION_CLAIM",
+          "review_navigation_or_output": false
+        }
+      ],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "bulto",
+      "term": "Bulto y tipo de bulto",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/25",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 570,
+          "line_end": 580
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 578,
+          "line_end": 588
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 714
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0080",
+        "R0082"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0080",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 578,
+          "line_end": 588,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "1b1bf8a0713da3fd04788dc20ff1b72c0960a45588f5f26e860d0458d973e86f",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 578,
+          "origin_line_end": 588
+        },
+        {
+          "proof_id": "R0082",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "a73edb76c2c8c28e84ee71d167ed6895696d120bac9cfd974f79dc065c497bc7",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 707,
+          "origin_line_end": 722
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "tipo-carga",
+      "term": "Tipo de carga o carguío",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/26",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+          "line_start": 124,
+          "line_end": 139
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+          "line_start": 124,
+          "line_end": 139
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0084",
+        "R0086"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0084",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_tramos.php",
+          "line_start": 124,
+          "line_end": 139,
+          "blob": "bef70409df98975e2b4972f6304e592ab8bbb06f",
+          "range_sha256": "ac898127ff35305737becbba55fea03e0477191c82223cdd6e680ed36d4a7095",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 124,
+          "origin_line_end": 139
+        },
+        {
+          "proof_id": "R0086",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "e9d42ac07bc317b07b86f9d91d9ffc537192e83af222ec6a31434fe18529eb71",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1110,
+          "origin_line_end": 1129
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "tipo-mercancia",
+      "term": "Tipo de mercancía",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/27",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 216,
+          "line_end": 237
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 216,
+          "line_end": 237
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0088",
+        "R0086"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0088",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 216,
+          "line_end": 237,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "2410004396395c06b3db29d81cfbda9a6bc2b68945848d8850f41a625d65e595",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 216,
+          "origin_line_end": 237
+        },
+        {
+          "proof_id": "R0086",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "e9d42ac07bc317b07b86f9d91d9ffc537192e83af222ec6a31434fe18529eb71",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1110,
+          "origin_line_end": 1129
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "clase-mercancia",
+      "term": "Clase de mercancía",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/28",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 228,
+          "line_end": 249
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 228,
+          "line_end": 249
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0090"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0090",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 228,
+          "line_end": 249,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "ec466c77a6e05b6d8b49c69bc1d1f741feb37f298d76bb2fac9001ad2589f246",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 228,
+          "origin_line_end": 249
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "codigo-un",
+      "term": "Código UN de mercancía",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/29",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 240,
+          "line_end": 249
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 240,
+          "line_end": 249
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0092",
+        "R0086"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0092",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 240,
+          "line_end": 249,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "fe8d8e2706b25fbf73b7b3c2e4900e94135f073545f606f6c9ab84fc79ff7390",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 240,
+          "origin_line_end": 249
+        },
+        {
+          "proof_id": "R0086",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "e9d42ac07bc317b07b86f9d91d9ffc537192e83af222ec6a31434fe18529eb71",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1110,
+          "origin_line_end": 1129
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "incoterm",
+      "term": "Incoterm seleccionado",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/30",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 89,
+          "line_end": 98
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 89,
+          "line_end": 98
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 250,
+          "line_end": 251
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 252,
+          "line_end": 253
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0094",
+        "R0096"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0094",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/embarques_datos.php",
+          "line_start": 89,
+          "line_end": 98,
+          "blob": "aaf1caa7e05710f6bba989bf97b4ffc655bc3d8f",
+          "range_sha256": "c00b183e03209185d17589fb5a6bb87f478e4cfb0b2c9a1b7d4daf5d0264c90c",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 89,
+          "origin_line_end": 98
+        },
+        {
+          "proof_id": "R0096",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 252,
+          "line_end": 253,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "374b576b2a1e2dd5126b04c54492f1c2d2e459a7d603246f628c09692dbd1140",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 252,
+          "origin_line_end": 253
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "magnitudes-carga",
+      "term": "Magnitudes de la carga",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/31",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 732
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 740
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0098"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0098",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 740,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "abaab30ecd9a150a3f3e90c2fb4eea3400e7949bdd8811810d2c7ac90cd6bb99",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 707,
+          "origin_line_end": 740
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "contenedor",
+      "term": "Contenedor",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/32",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 596,
+          "line_end": 619
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 604,
+          "line_end": 627
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 723,
+          "line_end": 733
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 731,
+          "line_end": 741
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0100",
+        "R0102",
+        "R0086"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0100",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 604,
+          "line_end": 627,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "0e36e82d78586c677dbbef09c22f24112f428207b504b5b4be58b06963f89b00",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 604,
+          "origin_line_end": 627
+        },
+        {
+          "proof_id": "R0102",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 731,
+          "line_end": 741,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "dde5dde9cbcb2ff9f42458cf9ed793448f616f7c44890223f3f6a9fb33962f0a",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 731,
+          "origin_line_end": 741
+        },
+        {
+          "proof_id": "R0086",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1110,
+          "line_end": 1129,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "e9d42ac07bc317b07b86f9d91d9ffc537192e83af222ec6a31434fe18529eb71",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1110,
+          "origin_line_end": 1129
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "peso-carga",
+      "term": "Peso y peso bruto de la carga",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/33",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 699,
+          "line_end": 714
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0082",
+        "R0104"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0082",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 707,
+          "line_end": 722,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "a73edb76c2c8c28e84ee71d167ed6895696d120bac9cfd974f79dc065c497bc7",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 707,
+          "origin_line_end": 722
+        },
+        {
+          "proof_id": "R0104",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "5aec8dab6697ba70063f8c5a97845323394fd6d2afc5862075675bc55d8e51f1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1166,
+          "origin_line_end": 1184
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "volumen-carga",
+      "term": "Volumen de la carga",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/34",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0104"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0104",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1166,
+          "line_end": 1184,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "5aec8dab6697ba70063f8c5a97845323394fd6d2afc5862075675bc55d8e51f1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1166,
+          "origin_line_end": 1184
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "almacen-cliente",
+      "term": "Almacén del cliente",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/35",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 537,
+          "line_end": 546
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 537,
+          "line_end": 546
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0106"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0106",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 537,
+          "line_end": 546,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "6feeee38fc830bbe7b43cb1970d444b95064a9e3bb57653bcfd88e93d1ebed1a",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 537,
+          "origin_line_end": 546
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "propuesta-costos",
+      "term": "Propuesta de costos del operador",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/36",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 269,
+          "line_end": 285
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 287
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0108"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0108",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 287,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "2ae2f280667ea9fd3720bd6a4cb18cb9635c9755904d508cbb3824c6ba19d18a",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 271,
+          "origin_line_end": 287
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "aceptacion-cotizacion",
+      "term": "Aceptación de la cotización del operador",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/37",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 998,
+          "line_end": 1005
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0038"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0038",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1007,
+          "line_end": 1014,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "bbe2b5baf32280cc7c8333f49e43f30a254c505d0dac7d42a254c69270bcc077",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1007,
+          "origin_line_end": 1014
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "revision-cotizacion",
+      "term": "Revisión de cotización",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/38",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 987,
+          "line_end": 1013
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 996,
+          "line_end": 1022
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0110"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0110",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 996,
+          "line_end": 1022,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "884d35c77bc6571fc27d7fd37a428f0e36df8758b523eb7ca0787543021531de",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 996,
+          "origin_line_end": 1022
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "concepto-costo",
+      "term": "Concepto de costo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/39",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 269,
+          "line_end": 281
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 283
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 382,
+          "line_end": 390
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 384,
+          "line_end": 392
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0112",
+        "R0114"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0112",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 271,
+          "line_end": 283,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "8f91205f64e10a27858e0971655a6dfcd74eee9b93ec365b9e8804d059051ffd",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 271,
+          "origin_line_end": 283
+        },
+        {
+          "proof_id": "R0114",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 384,
+          "line_end": 392,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "d2c96293a39249203ab095b454b67fccf08d39104a17a0658122be3fe5cecba7",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 384,
+          "origin_line_end": 392
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "categoria-costo",
+      "term": "Categoría de costo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/40",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 340,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 342,
+          "line_end": 369
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 443,
+          "line_end": 449
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 445,
+          "line_end": 451
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0116",
+        "R0118"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0116",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 342,
+          "line_end": 369,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "604f5f2a263503de4374d7b87ed2ab07a610171282dbbc1e7354c19b8fc7bc79",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 342,
+          "origin_line_end": 369
+        },
+        {
+          "proof_id": "R0118",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 445,
+          "line_end": 451,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "a6d78289acd3f1a1656c6e08ab113ba6ea6d8ed5601c3adf7bfe5b4af53ff135",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 445,
+          "origin_line_end": 451
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "moneda-costo",
+      "term": "Moneda del costo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/41",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 453,
+          "line_end": 464
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 455,
+          "line_end": 466
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 576,
+          "line_end": 583
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 585
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0120",
+        "R0122"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0120",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 455,
+          "line_end": 466,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "b334644b9791da2e75841b1a6f4c022fe307fb81d3c46a8ac77ce8d57d107a74",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 455,
+          "origin_line_end": 466
+        },
+        {
+          "proof_id": "R0122",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CostosClass.php",
+          "line_start": 578,
+          "line_end": 585,
+          "blob": "f4797167524e5455611326ba68dda4971cecc200",
+          "range_sha256": "6ef12eda886216a5874ecb109c9de0b6d8b13dd716f291896b41fd0ae7edd512",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 578,
+          "origin_line_end": 585
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "documento-adjunto",
+      "term": "Documento adjunto del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/42",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 310,
+          "line_end": 332
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 404,
+          "line_end": 426
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0124"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0124",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 404,
+          "line_end": 426,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "5bc10f41e126c71f7d93520256ad3e9ec41705851e01e61fed986977d3a2d0d0",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 404,
+          "origin_line_end": 426
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "documento-soporte-viaje",
+      "term": "Documento de soporte del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/43",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1347,
+          "line_end": 1363
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1347,
+          "line_end": 1363
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0126"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0126",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1347,
+          "line_end": 1363,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "147e917d4df5c4dd1a4ecbb8a1f51609895caff6793eaac2507499d52f070bc7",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1347,
+          "origin_line_end": 1363
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "solicitud-aduanera",
+      "term": "Solicitud de gestión aduanera",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/44",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 684,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 719
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 625
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0128",
+        "R0130"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0128",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "c3d20486f1fc18b1224a9a1d1d77b602e60f631111704e56b01cca0a84f7e60d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 778,
+          "origin_line_end": 784
+        },
+        {
+          "proof_id": "R0130",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 625,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "ad2dcbfd006191de1969056c651f197ba5d565108460f84cd0a28ca8610e116d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 589,
+          "origin_line_end": 625
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "documento-previo",
+      "term": "Documento previo de la solicitud",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/45",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 743,
+          "line_end": 745
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 649,
+          "line_end": 651
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0132"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0132",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 649,
+          "line_end": 651,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "505b73072ca0284a84d8e9e921f563347be75fa8e670430a31a4c3805af39269",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 649,
+          "origin_line_end": 651
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "caso-aduanero",
+      "term": "Caso aduanero",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/46",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 340,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 273
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0134"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0134",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 273,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "5f1b16659a1ca347f957997c97c8cd0df8a0684af01c60c8cf4e560989d5eddf",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 246,
+          "origin_line_end": 273
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "carpeta",
+      "term": "Carpeta del caso",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/47",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 340,
+          "line_end": 354
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 260
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0136",
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0136",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 246,
+          "line_end": 260,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "79368f2d73a500039ae24400bd2ba9e8b336dc36f0a9b47471bfc7eb9b3a279c",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 246,
+          "origin_line_end": 260
+        },
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "tramite",
+      "term": "Trámite de una solicitud",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/48",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 684,
+          "line_end": 690
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0128"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0128",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 778,
+          "line_end": 784,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "c3d20486f1fc18b1224a9a1d1d77b602e60f631111704e56b01cca0a84f7e60d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 778,
+          "origin_line_end": 784
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "regimen-aduanero",
+      "term": "Régimen de la solicitud",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/49",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 533,
+          "line_end": 535
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 439,
+          "line_end": 441
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 694
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0140",
+        "R0142"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0140",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 439,
+          "line_end": 441,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "b3cef12fb22b775958ee23780521991ed2fc62416cd67af3eaf1970a1bdd3b75",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 439,
+          "origin_line_end": 441
+        },
+        {
+          "proof_id": "R0142",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "5cb08728b0aced3408d17cfd9bbbf7cab40c3f20f8776805006e0b5a648f278d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 589,
+          "origin_line_end": 600
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "tipo-declaracion",
+      "term": "Tipo de declaración",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/50",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 545,
+          "line_end": 547
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 451,
+          "line_end": 453
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 683,
+          "line_end": 694
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0144",
+        "R0142"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0144",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 451,
+          "line_end": 453,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "0783a3690fd69837f1d1a3e63767adbdeea89cae024a0318ab9f6f50a5045f83",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 451,
+          "origin_line_end": 453
+        },
+        {
+          "proof_id": "R0142",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 589,
+          "line_end": 600,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "5cb08728b0aced3408d17cfd9bbbf7cab40c3f20f8776805006e0b5a648f278d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 589,
+          "origin_line_end": 600
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "aduana",
+      "term": "Aduana seleccionada",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/51",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 557,
+          "line_end": 559
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 463,
+          "line_end": 465
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 56,
+          "line_end": 76
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 56,
+          "line_end": 76
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0146",
+        "R0148"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0146",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 463,
+          "line_end": 465,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "0887647c11afb454e1059a1d270d36cc4163cae128aeb597de7fd1ac2c640d16",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 463,
+          "origin_line_end": 465
+        },
+        {
+          "proof_id": "R0148",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 56,
+          "line_end": 76,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "c29b2bea6b58036dd460c933e01a23ffe03696a49b278de7d02059595298d446",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 56,
+          "origin_line_end": 76
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "ruta-autorizada",
+      "term": "Ruta autorizada del viaje",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/52",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0150"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0150",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "338b4338217984d336fadf7fa630923f2b5d331ba9d931d7709fd5507daf5a19",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1336,
+          "origin_line_end": 1344
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "cierre-transito",
+      "term": "Fecha límite de cierre de tránsito",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/53",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0150"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0150",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1336,
+          "line_end": 1344,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "338b4338217984d336fadf7fa630923f2b5d331ba9d931d7709fd5507daf5a19",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1336,
+          "origin_line_end": 1344
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "dam",
+      "term": "DAM en el control de solicitudes",
+      "scope": "shared_evidence",
+      "confidence": "unknown",
+      "baseline_json_pointer": "/entries/54",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 160,
+          "line_end": 176
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 125,
+          "line_end": 141
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0152"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0152",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 125,
+          "line_end": 141,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "3c30e09d038da293c060acfbb63ab680873197db315062c6b3bdd9a7b2dba5a3",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 125,
+          "origin_line_end": 141
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "dui",
+      "term": "DUI en la clasificación de despacho",
+      "scope": "shared_evidence",
+      "confidence": "unknown",
+      "baseline_json_pointer": "/entries/55",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 402,
+          "line_end": 408
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 308,
+          "line_end": 314
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 442,
+          "line_end": 447
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 348,
+          "line_end": 353
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0154",
+        "R0156"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0154",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 308,
+          "line_end": 314,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "a3c319d2bd93c048281c1612da92396c7666bd0979d44f793222a560cab988c8",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 308,
+          "origin_line_end": 314
+        },
+        {
+          "proof_id": "R0156",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 348,
+          "line_end": 353,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "ebb7d6f63612a98416c1ad2bbbf81801250f9337f235702286ee9077a47f3e81",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 348,
+          "origin_line_end": 353
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "inventario-vehicular",
+      "term": "Inventario del vehículo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/56",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0158",
+        "R0160"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0158",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22,
+          "blob": "3ae0f1afafdf28f37bcc7b3fec81127ca3efdf0a",
+          "range_sha256": "cda1451fbd3a7f4e2978e8ab97f10940d49a3de5211a6b8cb27ef4ff351f03b4",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 11,
+          "origin_line_end": 22
+        },
+        {
+          "proof_id": "R0160",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34,
+          "blob": "76d976c8bff0c41e51aac8cd4826fd7583d50c48",
+          "range_sha256": "c1061a063cbb26f9ed4bb90d6c361ed43fdc66a6d4087b2b3a9a02b3017d42d1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 30,
+          "origin_line_end": 34
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "inventario-puerto",
+      "term": "Inventario en puerto de carga",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/57",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0160"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0160",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34,
+          "blob": "76d976c8bff0c41e51aac8cd4826fd7583d50c48",
+          "range_sha256": "c1061a063cbb26f9ed4bb90d6c361ed43fdc66a6d4087b2b3a9a02b3017d42d1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 30,
+          "origin_line_end": 34
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "inventario-deposito",
+      "term": "Inventario de depósito transitorio",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/58",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0160"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0160",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34,
+          "blob": "76d976c8bff0c41e51aac8cd4826fd7583d50c48",
+          "range_sha256": "c1061a063cbb26f9ed4bb90d6c361ed43fdc66a6d4087b2b3a9a02b3017d42d1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 30,
+          "origin_line_end": 34
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "inventario-post-nacionalizacion",
+      "term": "Inventario post nacionalización",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/59",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0160"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0160",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario.php",
+          "line_start": 30,
+          "line_end": 34,
+          "blob": "76d976c8bff0c41e51aac8cd4826fd7583d50c48",
+          "range_sha256": "c1061a063cbb26f9ed4bb90d6c361ed43fdc66a6d4087b2b3a9a02b3017d42d1",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 30,
+          "origin_line_end": 34
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "inventario-nacional-local",
+      "term": "Inventario de despacho y recepción",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/60",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 33,
+          "line_end": 40
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0052"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0052",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/inventario_local.php",
+          "line_start": 119,
+          "line_end": 126,
+          "blob": "ef34bb0b643caa95cbee067879f04d5ba21a8008",
+          "range_sha256": "26cc61f5fbad6fea59fe5f9f6bb28de31ed715d0918ab3c7317134867cc13d17",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 119,
+          "origin_line_end": 126
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "chasis",
+      "term": "Chasis como identificador de vehículo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/61",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1293,
+          "line_end": 1301
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0158",
+        "R0076"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0158",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 22,
+          "blob": "3ae0f1afafdf28f37bcc7b3fec81127ca3efdf0a",
+          "range_sha256": "cda1451fbd3a7f4e2978e8ab97f10940d49a3de5211a6b8cb27ef4ff351f03b4",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 11,
+          "origin_line_end": 22
+        },
+        {
+          "proof_id": "R0076",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 1348,
+          "line_end": 1356,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "de24f9066536e2901d0a576ee296f1ffb52d8ea1c71706e2d81f14df5b2be287",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1348,
+          "origin_line_end": 1356
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "partida-inventario",
+      "term": "Partida del inventario",
+      "scope": "shared_evidence",
+      "confidence": "unknown",
+      "baseline_json_pointer": "/entries/62",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 16
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 16
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0162"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0162",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/index.js",
+          "line_start": 11,
+          "line_end": 16,
+          "blob": "3ae0f1afafdf28f37bcc7b3fec81127ca3efdf0a",
+          "range_sha256": "8344d1517a0620ea0153d467ebc666f41512e84530d4a8c34b1c60a437924fcd",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 11,
+          "origin_line_end": 16
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "parte-recepcion",
+      "term": "Parte de recepción",
+      "scope": "master",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/63",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 27,
+          "line_end": 48
+        }
+      ],
+      "peru_P95_proof_ids": [],
+      "head_evidence": [],
+      "status": "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "desperfecto",
+      "term": "Desperfecto del vehículo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/64",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js",
+          "line_start": 4,
+          "line_end": 31
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js",
+          "line_start": 4,
+          "line_end": 40
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0165"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0165",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/desperfectos.js",
+          "line_start": 4,
+          "line_end": 40,
+          "blob": "396931c18843d423ba549758e897d35ed6d52a05",
+          "range_sha256": "7d39dec7acb81ac8ad97bc81f32a599ed76f1f5f8d01490506714d40ed652659",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 4,
+          "origin_line_end": 40
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "contaminacion",
+      "term": "Contaminación en la revisión del vehículo",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/65",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js",
+          "line_start": 10,
+          "line_end": 26
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js",
+          "line_start": 10,
+          "line_end": 26
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0167"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0167",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/contaminacion.js",
+          "line_start": 10,
+          "line_end": 26,
+          "blob": "4dd9c7a2988d1e862a83fafb6a20e91a6311dd04",
+          "range_sha256": "bf4099469811d81cb0614be3d3a339aa9f27774fdb616bbf3d1ca46a981f0e55",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 10,
+          "origin_line_end": 26
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "accesorio",
+      "term": "Accesorio inventariado",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/66",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js",
+          "line_start": 10,
+          "line_end": 25
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js",
+          "line_start": 10,
+          "line_end": 25
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0169"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0169",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/accesorios.js",
+          "line_start": 10,
+          "line_end": 25,
+          "blob": "46b369128537c5eaf952ad1b68df842e53ca1541",
+          "range_sha256": "a04ccf045ea18a3645b83693cea861cdb8889464d9300a8abf7eb5c65af28be9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 10,
+          "origin_line_end": 25
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "estado-catalogo-embarque",
+      "term": "Estado del catálogo de embarques",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/67",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 20,
+          "line_end": 29
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 64,
+          "line_end": 73
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0171"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0171",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/EmbarqueClass.php",
+          "line_start": 64,
+          "line_end": 73,
+          "blob": "323a6e7a6b146236f98cc8a41baebf619d0942d0",
+          "range_sha256": "73533cf79fe52036b0a5156468a63faddbbc2e9b8896fd7eb81d906641860806",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 64,
+          "origin_line_end": 73
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "edp",
+      "term": "Estado de pedidos (EDP)",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/68",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 14,
+          "line_end": 70
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 14,
+          "line_end": 70
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0173"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0173",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 14,
+          "line_end": 70,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "cecbbca5f4887ac4f6dd34aca6760981456c082233d6029844ce22fcf089904e",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 14,
+          "origin_line_end": 70
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "estado-viaje",
+      "term": "Estado de la asignación de viaje",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/69",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0050",
+        "R0175"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0050",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/TrackingNewClass.php",
+          "line_start": 1099,
+          "line_end": 1107,
+          "blob": "9e836d7b605630c72b00ec362d9405bd752c5e1f",
+          "range_sha256": "9156af6e56a5187c19b12d253b08d0aaa76b73c1d4b10ad4576c8f64a6bd820b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1099,
+          "origin_line_end": 1107
+        },
+        {
+          "proof_id": "R0175",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/tracking/listaviajes.php",
+          "line_start": 203,
+          "line_end": 236,
+          "blob": "86de9a9b400d07d4b3018bbab4067f3094fe4c27",
+          "range_sha256": "dfdec1269c6f0e7e17fb5abadae080a49e4bfcf0cb68c47397e4696a3da3f4e3",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 203,
+          "origin_line_end": 236
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "estado-resumen",
+      "term": "Estado resumen calculado del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/70",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "pendiente-resumen",
+      "term": "Pendiente en el resumen del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/71",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "enviado-resumen",
+      "term": "Enviado en el resumen del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/72",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "aceptado-resumen",
+      "term": "Aceptado en el resumen del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/73",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "en-proceso-resumen",
+      "term": "En proceso en el resumen del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/74",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "finalizado-resumen",
+      "term": "Finalizado en el resumen del embarque",
+      "scope": "shared_evidence",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/75",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line_start": 20,
+          "line_end": 27
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line_start": 20,
+          "line_end": 27
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0138",
+        "R0177"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0138",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/estado-pedidos/controllers/EstadoPedidosClass.php",
+          "line_start": 117,
+          "line_end": 138,
+          "blob": "694eeabdf0325ec6e65c9f7605aa9f53af26b13d",
+          "range_sha256": "be0a8c9a034bb54df881e2e71df897ed881c0278a10b3949403bb4a306c85af9",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 117,
+          "origin_line_end": 138
+        },
+        {
+          "proof_id": "R0177",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "line_start": 20,
+          "line_end": 27,
+          "blob": "467cbe575dda986c8cb22045ba57ebcec32c07eb",
+          "range_sha256": "bd3b0447507ba35e4b4df42f4ce1a347a5878703cdae2f7c13cce6431e8e3cf2",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 20,
+          "origin_line_end": 27
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": true,
+      "changed_dependency_references": [
+        {
+          "from": "index_archivos/embarques/frames/estado-pedidos.php",
+          "to": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 93,
+          "line_end": 93,
+          "line_sha256": "10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+          "proof_id": "R0388",
+          "status": "LEXICAL_REFERENCE_ONLY_NO_EXECUTION_CLAIM",
+          "review_navigation_or_output": false
+        }
+      ],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "estados-solicitud-aduanera",
+      "term": "Estados de las listas de solicitudes aduaneras",
+      "scope": "shared_evidence",
+      "confidence": "inferred",
+      "baseline_json_pointer": "/entries/76",
+      "original_evidence": [
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 74,
+          "line_end": 79
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 74,
+          "line_end": 79
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 203,
+          "line_end": 209
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 168,
+          "line_end": 174
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 353,
+          "line_end": 367
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 259,
+          "line_end": 273
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 394,
+          "line_end": 409
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 300,
+          "line_end": 315
+        },
+        {
+          "ref": "master@a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 435,
+          "line_end": 448
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 341,
+          "line_end": 354
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0179",
+        "R0181",
+        "R0183",
+        "R0185",
+        "R0187"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0179",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 74,
+          "line_end": 79,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "89011944f49bc92d195f837e9d49260b3c0bf2e203a9e47e5baf747cc40a047e",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 74,
+          "origin_line_end": 79
+        },
+        {
+          "proof_id": "R0181",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 168,
+          "line_end": 174,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "f381c1d1e0394ea007f507b96c3c90519ea15ef2e16c45402fe4969d198d0216",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 168,
+          "origin_line_end": 174
+        },
+        {
+          "proof_id": "R0183",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 259,
+          "line_end": 273,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "f4ee576ad0e76eb43ec7037ffaf40924b542b319c3233a1b4d948556f44da3f6",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 259,
+          "origin_line_end": 273
+        },
+        {
+          "proof_id": "R0185",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 300,
+          "line_end": 315,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "8254c3f2b1b1a98d2a3753f43882cd17f00a66f66e50341118056342eccea46c",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 300,
+          "origin_line_end": 315
+        },
+        {
+          "proof_id": "R0187",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/SolicitudesClass.php",
+          "line_start": 341,
+          "line_end": 354,
+          "blob": "bbfa8fa709b47970d1f882afeb60d76f9ac26717",
+          "range_sha256": "db5c02bdcf4d46638bca16e6a6b126609b44b129a5331d2691580386ed8812f0",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 341,
+          "origin_line_end": 354
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "concesionario-cliente",
+      "term": "Concesionario asociado al cliente",
+      "scope": "peru",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/77",
+      "original_evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 560,
+          "line_end": 575
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0188"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0188",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/CotizacionClass.php",
+          "line_start": 560,
+          "line_end": 575,
+          "blob": "c4898f3c0b266ce3a011500187b7063566e84ffa",
+          "range_sha256": "286c2d857af358ecad26fa083bf71be901ca3473e9313c47306729ef6f871490",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 560,
+          "origin_line_end": 575
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "viaje-desde-vin",
+      "term": "Creación de viaje desde VIN seleccionados",
+      "scope": "peru",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/78",
+      "original_evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 61,
+          "line_end": 76
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 19,
+          "line_end": 54
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 68,
+          "line_end": 106
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0189",
+        "R0190",
+        "R0191"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0189",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/frames/items.php",
+          "line_start": 61,
+          "line_end": 76,
+          "blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "range_sha256": "499a51fe3b4330dec01de6bbab7acac00b82006d12cd220434650431149ac0cf",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 61,
+          "origin_line_end": 76
+        },
+        {
+          "proof_id": "R0190",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 19,
+          "line_end": 54,
+          "blob": "5311c6d4fd463f1f94f32522c74079043e87046f",
+          "range_sha256": "f3ec586cf06b65665a47fb14e30c7f7b1884242114326f7e2a595f61dff3ad8d",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 19,
+          "origin_line_end": 54
+        },
+        {
+          "proof_id": "R0191",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/ajax/FlujoCrearViajeDesdeItems.php",
+          "line_start": 68,
+          "line_end": 106,
+          "blob": "5311c6d4fd463f1f94f32522c74079043e87046f",
+          "range_sha256": "43ccac3d55aeb644a03564d4136075e3927791d531450bff80be9b0a64bdf68b",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 68,
+          "origin_line_end": 106
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": true,
+      "changed_dependency_references": [
+        {
+          "from": "index_archivos/embarques/frames/items.php",
+          "to": "index_archivos/embarques/js/datosEmbarques.js",
+          "line_start": 243,
+          "line_end": 243,
+          "line_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "proof_id": "R0389",
+          "status": "LEXICAL_REFERENCE_ONLY_NO_EXECUTION_CLAIM",
+          "review_navigation_or_output": false
+        }
+      ],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "registro-kilometraje-imagen",
+      "term": "Registro de kilometraje con imagen",
+      "scope": "peru",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/79",
+      "original_evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 1,
+          "line_end": 20
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 46,
+          "line_end": 62
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0192",
+        "R0193"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0192",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 1,
+          "line_end": 20,
+          "blob": "aae13af527e59724a1d90faaad14313cf31f2ce8",
+          "range_sha256": "1ec5c205a7bbd69b9d69ee5850d018c2c890ca804fb83fae7654a2d7a13a9088",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1,
+          "origin_line_end": 20
+        },
+        {
+          "proof_id": "R0193",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario-local/kilometraje.js",
+          "line_start": 46,
+          "line_end": 62,
+          "blob": "aae13af527e59724a1d90faaad14313cf31f2ce8",
+          "range_sha256": "dbc975eae6f6c414413fc124cbb8a1316da207aa36c198a90fc5c506f77054e6",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 46,
+          "origin_line_end": 62
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    },
+    {
+      "id": "fotografias-360",
+      "term": "Fotografías 360° del inventario",
+      "scope": "peru",
+      "confidence": "observed",
+      "baseline_json_pointer": "/entries/80",
+      "original_evidence": [
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 1,
+          "line_end": 31
+        },
+        {
+          "ref": "origin/master_peru@95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 54,
+          "line_end": 77
+        }
+      ],
+      "peru_P95_proof_ids": [
+        "R0194",
+        "R0195"
+      ],
+      "head_evidence": [
+        {
+          "proof_id": "R0194",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 1,
+          "line_end": 31,
+          "blob": "a2edb18294becdaf95da50bf11c933f11c060974",
+          "range_sha256": "2e0e454615ff93470d05ebf5c3519843f9df94483f9d2d09e92be9d2a924f397",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 1,
+          "origin_line_end": 31
+        },
+        {
+          "proof_id": "R0195",
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/embarques/componentes/inventario/parte-recepcion.js",
+          "line_start": 54,
+          "line_end": 77,
+          "blob": "a2edb18294becdaf95da50bf11c933f11c060974",
+          "range_sha256": "f74dadc4f7685c87e3337bad2aa22792135ad9026d88dc484717662dd7613d84",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "origin_line_start": 54,
+          "origin_line_end": 77
+        }
+      ],
+      "status": "P95_EVIDENCE_CARRIED_IDENTITY_ONLY",
+      "semantic_rereview": false,
+      "changed_dependency": false,
+      "changed_dependency_references": [],
+      "no_M_to_P_mapping": true
+    }
+  ],
+  "proof_artifact": {
+    "path": "source-audits/peru/2026-11-19/carryforward.json",
+    "sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29"
+  },
+  "limits": [
+    "Identidad de evidencia P95/HEAD; no nueva revision semantica completa ni ejecucion de probes.",
+    "Parte-recepcion conserva solo M y no recibe evidencia P inventada.",
+    "No se modifican definiciones, scopes, confianza, canonical ni aprobaciones del JSON base.",
+    "Cuatro referencias directas al JS cambiado requieren frontera separada; sin callbacks/navegacion/salidas/recarga.",
+    "Nueve OPS y ocho mejoras historicas no se convierten en conceptos nuevos; seis mejoras tienen solo evidencia original M."
+  ]
+}

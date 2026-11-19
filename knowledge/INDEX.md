@@ -1,7 +1,8 @@
 # Indice del conocimiento de Proveedores
 
-Fuente principal: master `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
-Comparacion: master_peru `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`.
+Fuente principal auditada: master `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
+Comparación histórica: master_peru `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`.
+Perú HEAD auditado: `2a179e2e6472d5705d031665ecbc90c3d806edec`.
 Los conceptos comunes requieren evidencia en ambas variantes; identidad de
 ficheros no demuestra identidad de configuracion, datos o despliegue.
 
@@ -20,11 +21,12 @@ ficheros no demuestra identidad de configuracion, datos o despliegue.
 | API | [Referencia](general/api-reference.md), [pantallas, endpoints y tablas](crosswalk/screens-endpoints-tables.md) |
 | Integraciones | [Servicios y contratos](general/integrations.md) |
 | Bolivia | [Particularidades de master](variants/bolivia.md) |
-| Peru | [Particularidades de master_peru](variants/peru.md) |
+| Peru | [HEAD auditado](variants/peru-head-20261119.md), [base histórica P95](variants/peru.md) |
 | Comparacion | [Matriz funcional y tecnica](variants/comparison.md), [indice de variantes](variants/README.md) |
 | Obligaciones por rama | [EDP, fechas, eventos y lugares](reviews/iterative-20261118/branch-obligations.md), [registro JSON](reviews/iterative-20261118/branch-obligations.json) |
 | Seguridad | [Auditoria revisada](general/security-audit.md), [hallazgos JSON](general/security-findings.json) |
 | Revisión iterativa | [Cambios frente a la auditoría anterior](reviews/iterative-20261118/README.md), [defectos operativos](general/operational-findings.md), [registro de pasadas](reviews/iterative-20261118/iterations.json) |
+| Revisión Perú HEAD | [Auditoría corregida](reviews/peru-head-20261119/README.md), [registro aceptado](reviews/peru-head-20261119/accepted-deltas.json), [ledger](reviews/peru-head-20261119/iterations.json) |
 | Operacion | [Configuracion y despliegue](general/operations.md) |
 | Pruebas | [Resultados y escenarios](general/testing.md) |
 | Cobertura y pendientes | [Matriz documental](documentation-coverage.md), [preguntas abiertas](general/open-questions.md) |

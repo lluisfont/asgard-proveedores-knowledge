@@ -1,15 +1,26 @@
 # Alcance de la auditoria actual
 
+La [revalidación corregida de Perú HEAD](reviews/peru-head-20261119/README.md)
+fija `master_peru` en `2a179e2e6472d5705d031665ecbc90c3d806edec` y conserva P95 como base
+histórica. Acepta cuatro hallazgos y ocho mejoras, con dos cierres consecutivos
+sin delta material. Su convergencia es del alcance revisado y no modifica el
+estado global PARTIAL. El master remoto `a44f4ed69470f1bc00c800e592eadfce1bac6053`
+queda observado pero fuera de esta revisión.
+
 La [ampliación iterativa](reviews/iterative-20261118/README.md) compara esta base con Knowledge `3822900b6d54d99ccf854bec43005a208e2a9694`, conserva los mismos pins y separa once hallazgos nuevos de dieciséis mejoras documentales. El [registro de versiones](reviews/iterative-20261118/iterations.json) fija el criterio de parada por deltas semánticos; no amplía por sí mismo la verificación al despliegue o a la base de datos.
 
-Actualidad comprobada el 18-11-2026: master continúa en el commit auditado; el remoto Perú avanzó a `2a179e2e6472d5705d031665ecbc90c3d806edec`. El contraste funcional de este informe se mantiene fijado en `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`. La [observación de referencias y tres rutas cambiadas](../source-audits/master/2026-11-18/iterative/remote-refs-observation.json) no equivale a auditar el nuevo HEAD de Perú.
+Actualidad comprobada el 19-11-2026: Perú HEAD está auditado en el perfil
+fechado y P95 permanece como referencia histórica. Master remoto avanzó a
+`a44f4ed69470f1bc00c800e592eadfce1bac6053`; la auditoría general continúa
+fijada en `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
 
 Fecha: 2026-11-18. Repositorio: `https://github.com/KPO-Group/proveedores`.
 
 | Perfil | Fuente fijada | Uso |
 | --- | --- | --- |
 | Principal | master a8ce2c23dead8552d2c4699e4a9b9134f7a18707 | Codigo general observado; particularidades Bolivia separadas |
-| Comparacion Peru | master_peru 95fe9a4c3b3cddd84be922cc0e1eb9c88603df62 | Diferencias funcionales, codigo y conceptos de variante |
+| Comparación Perú histórica | master_peru 95fe9a4c3b3cddd84be922cc0e1eb9c88603df62 | Base de diferencias y citas históricas |
+| Perú HEAD corregido | master_peru 2a179e2e6472d5705d031665ecbc90c3d806edec | Tres rutas cambiadas, revisión funcional y carry-forward acotado |
 | Historia Peru | Auditoria local 2026-09-15 sin commit Git confirmado | Evidencia del dump y artefactos historicos, no esquema universal |
 
 ## Tecnicas ejecutadas

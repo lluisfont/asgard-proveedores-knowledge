@@ -1,9 +1,12 @@
 # ASGARD Proveedores Knowledge
 
-Conocimiento tecnico y de negocio de Proveedores, actualizado el 2026-11-18
+Conocimiento tecnico y de negocio de Proveedores, actualizado el 2026-11-19
 desde [KPO-Group/proveedores](https://github.com/KPO-Group/proveedores).
-La base actual es `master` en `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`,
-comparada con `master_peru` en `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`.
+La base general auditada es `master` en `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`,
+comparada históricamente con `master_peru` en `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`;
+Perú HEAD está revalidado en `2a179e2e6472d5705d031665ecbc90c3d806edec`.
+El master remoto `a44f4ed69470f1bc00c800e592eadfce1bac6053` se observó pero no forma parte
+de esta auditoría corregida.
 Las particularidades de Bolivia y Peru se documentan por separado.
 La transferencia original realizada con convertidor-knowledge queda conservada
 como evidencia historica de Peru.
@@ -19,6 +22,7 @@ como evidencia historica de Peru.
 - [Arquitectura](knowledge/general/architecture.md) y [referencia API](knowledge/general/api-reference.md).
 - [Auditoria de seguridad](knowledge/general/security-audit.md).
 - [Revisión iterativa y cambios respecto a la auditoría anterior](knowledge/reviews/iterative-20261118/README.md).
+- [Auditoría corregida de Perú HEAD](knowledge/reviews/peru-head-20261119/README.md).
 - [Defectos operativos y pruebas de invariantes](knowledge/general/operational-findings.md).
 - [Mapa de evidencias](knowledge/evidence-map.md).
 - [Manifiesto del paquete](knowledge/manifest.json).

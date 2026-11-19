@@ -1,0 +1,1399 @@
+{
+  "schema_version": 1,
+  "phase": "closure_after_acceptance_of_4_findings_and_8_improvements",
+  "date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "date_authority": "user",
+  "canonical": false,
+  "status": "completed",
+  "global_closure_claimed": false,
+  "technique": {
+    "name": "mysql_ast_scope_and_benign_finite_metamorphic_closure",
+    "parser": "SQLglot",
+    "version": "30.33.0",
+    "dialect": "mysql",
+    "isolated_package": "C:\\repos\\audit-tools-proveedores-sqlglot-20261118",
+    "ast_operations": [
+      "CTE/scope resolution",
+      "mandatory WHERE conjunctions",
+      "join key extraction",
+      "projection/GROUP BY aggregate lineage",
+      "finite type domains",
+      "AST round-trip"
+    ],
+    "metamorphisms": [
+      "benign optional-filter insertion",
+      "abstract AND/OR composition",
+      "identity domain tagging",
+      "foreign-scope mutation with fixed VIN",
+      "VIN/preembarque/type key mutation",
+      "row permutation/duplication/dominance",
+      "group partitioning",
+      "filter-before/after-pivot"
+    ],
+    "different_from_phase1": "No se ejecuta peru_head_report_probes.py ni se reutilizan sus 36 resultados como comprobaciones de cierre. Aquí se parsean árboles y se evalúan sus nodos en dominios finitos.",
+    "interpreter_limit": "Subconjunto explícito Column/Placeholder/Literal/NULL/Boolean/AND/OR/NOT/EQ/IS NULL/CASE/IF/COALESCE y MAX de grupos sintéticos; cualquier otro nodo falla como no soportado. No es motor SQL."
+  },
+  "evidencepins": {
+    "source": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "previous_peru": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "historical_master": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "knowledge_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+    "phase1_report_sha256": "785fc28d4c76f462e141f9926ce26d8c3c2d6674c8e12e9f0394c89107133825"
+  },
+  "accepted_scope": {
+    "findings": [
+      "PH-001",
+      "PH-002",
+      "PH-003",
+      "PH-004"
+    ],
+    "improvements": [
+      "PH-IMP001",
+      "PH-IMP002",
+      "PH-IMP003",
+      "PH-IMP004",
+      "PH-IMP005"
+    ],
+    "excluded_CF_improvements": [
+      "PH-IMP006",
+      "PH-IMP007",
+      "PH-IMP008"
+    ]
+  },
+  "new_findings": [],
+  "improvements": [],
+  "delta_assessment": "No se encontró precisión material adicional fuera de PH-001..004 y PH-IMP001..005. La ubicación del scope, dominios, claves, población y agregados quedan revalidados con AST/controles negativos. Las restricciones de la técnica se explicitan; no se fuerza el cierre global.",
+  "checks": [
+    {
+      "id": "CS-01",
+      "title": "Consulta única y resolución local de aliases",
+      "accepted_ids": [
+        "PH-IMP005"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "ctes": 11,
+        "scopes": 29,
+        "unresolved_table_aliases": []
+      },
+      "expected": {
+        "ctes": 11,
+        "scopes": 29,
+        "unresolved_table_aliases": []
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 52,
+          "line_end": 432
+        }
+      ],
+      "negative_controls": "No se infiere que la existencia del alias pruebe columnas físicas o que query.php ejecute SQL.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-02",
+      "title": "Predicado HEAD y predicado P95 pertenecen a dominios distintos",
+      "accepted_ids": [
+        "PH-001",
+        "PH-IMP001"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        },
+        {
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 390
+        }
+      ],
+      "negative_controls": "El predicado de concesionario no aparece como obligación adicional en HEAD.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-03",
+      "title": "Igualdad AST fuera del cambio de WHERE",
+      "accepted_ids": [
+        "PH-IMP001"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": true,
+      "expected": true,
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 52,
+          "line_end": 432
+        },
+        {
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 52,
+          "line_end": 431
+        }
+      ],
+      "negative_controls": "No extiende igualdad a runtime, datos ni al tercer JS cambiado.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-04",
+      "title": "Filtros benignos conservan la conjunción obligatoria de proveedor",
+      "accepted_ids": [
+        "PH-002",
+        "PH-IMP001",
+        "PH-IMP002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        }
+      ],
+      "negative_controls": "No se genera ninguna entrada adversarial: la prueba no afirma que entradas arbitrarias mantengan esta propiedad.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-05",
+      "title": "El operador raíz determina si un scope sigue siendo obligatorio",
+      "accepted_ids": [
+        "PH-002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "and_has_scope_term": true,
+        "or_has_mandatory_scope_term": false,
+        "and_accepts_false_scope": false,
+        "or_accepts_false_scope": true
+      },
+      "expected": {
+        "and_has_scope_term": true,
+        "or_has_mandatory_scope_term": false,
+        "and_accepts_false_scope": false,
+        "or_accepts_false_scope": true
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 45,
+          "line_end": 50
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        }
+      ],
+      "negative_controls": "Control abstracto AND frente a OR; no consulta de ataque, concatenación maliciosa ni replay de RP-09.",
+      "limits": "No acredita que un servidor acepte un texto de ataque; el riesgo de composición conserva la evidencia de PHP de fase1."
+    },
+    {
+      "id": "CS-06",
+      "title": "La variante de fecha benigna no prueba parametrización del constructor",
+      "accepted_ids": [
+        "PH-002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "between_nodes": 1,
+        "raw_array_components": true,
+        "escape_in_assignment": false
+      },
+      "expected": {
+        "between_nodes": 1,
+        "raw_array_components": true,
+        "escape_in_assignment": false
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 45,
+          "line_end": 50
+        }
+      ],
+      "negative_controls": "SQLglot recibe la instanciación segura, no ejecuta PHP ni demuestra validación de entradas no instanciadas.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-07",
+      "title": "Igualdad numérica no equivale a identidad con dominio",
+      "accepted_ids": [
+        "PH-001"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        false,
+        true
+      ],
+      "expected": [
+        true,
+        false,
+        true
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 85,
+          "line_end": 91
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 19,
+          "line_end": 35
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 382
+        }
+      ],
+      "negative_controls": "Al igualar dominios desaparece la discrepancia. No se presume acceso efectivo de tipo7 ni una política de admisión aprobada.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-08",
+      "title": "El WHERE no incorpora discriminador de rol",
+      "accepted_ids": [
+        "PH-001"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        "p.deleted_at",
+        "p.proveedor_id"
+      ],
+      "expected": [
+        "p.deleted_at",
+        "p.proveedor_id"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        }
+      ],
+      "negative_controls": "La presencia de ambos IDs en PHP no transforma el ID genérico en un ID tipado en SQL.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue. La admisión PHP/ruta no se prueba con AST SQL."
+    },
+    {
+      "id": "CS-09",
+      "title": "Las tres uniones débiles tienen solo clave chasis",
+      "accepted_ids": [
+        "PH-003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "mdos": [
+          "d.chasis",
+          "mdos.chasis"
+        ],
+        "te": [
+          "d.chasis",
+          "te.chasis"
+        ],
+        "tc": [
+          "d.chasis",
+          "tc.chasis"
+        ]
+      },
+      "expected": {
+        "mdos": [
+          "d.chasis",
+          "mdos.chasis"
+        ],
+        "te": [
+          "d.chasis",
+          "te.chasis"
+        ],
+        "tc": [
+          "d.chasis",
+          "tc.chasis"
+        ]
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 370,
+          "line_end": 377
+        }
+      ],
+      "negative_controls": "m, mtres e ip no se incluyen en esta generalización.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-10",
+      "title": "Mutar pertenencia no afecta una unión que solo mira chasis",
+      "accepted_ids": [
+        "PH-003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        true,
+        false,
+        false
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 370,
+          "line_end": 382
+        }
+      ],
+      "negative_controls": "Cambiar VIN elimina el match; una clave compuesta abstracta también lo elimina. No se propone una columna física inexistente como reparación.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-11",
+      "title": "El control correlacionado rechaza otro preembarque o tipo",
+      "accepted_ids": [
+        "PH-003",
+        "PH-IMP003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 354,
+          "line_end": 362
+        }
+      ],
+      "negative_controls": "Evita afirmar que todas las CTE cruzan por VIN sin más claves.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-12",
+      "title": "El MAX de pedidos opera con agrupación global de chasis",
+      "accepted_ids": [
+        "PH-003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "group": [
+          "lpd.posicion"
+        ],
+        "where_columns": [
+          "lp.embarque_id",
+          "lpd.posicion"
+        ],
+        "max_arguments": [
+          "lp.embarque_id"
+        ]
+      },
+      "expected": {
+        "group": [
+          "lpd.posicion"
+        ],
+        "where_columns": [
+          "lp.embarque_id",
+          "lpd.posicion"
+        ],
+        "max_arguments": [
+          "lp.embarque_id"
+        ]
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 210,
+          "line_end": 220
+        }
+      ],
+      "negative_controls": "No se deriva aislamiento por proveedor de un GROUP BY sin tal clave; constraints reales desconocidos.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-13",
+      "title": "Agregar una fila incomparable puede producir una tupla sin fila origen",
+      "accepted_ids": [
+        "PH-004"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "same_group": true,
+        "one_row_coherent": true,
+        "two_rows_coherent": false,
+        "result": {
+          "embarque_id": 200,
+          "numero_viaje": 900,
+          "embarque_fecha_creacion": "2026-11-19"
+        }
+      },
+      "expected": {
+        "same_group": true,
+        "one_row_coherent": true,
+        "two_rows_coherent": false,
+        "result": {
+          "embarque_id": 200,
+          "numero_viaje": 900,
+          "embarque_fecha_creacion": "2026-11-19"
+        }
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 428
+        }
+      ],
+      "negative_controls": "Una sola fila mantiene coherencia. No se usa MAX textual de app_tracking ni se presupone collation.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-14",
+      "title": "Permutación, duplicación y dominación no reparan la agregación",
+      "accepted_ids": [
+        "PH-004"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 413
+        }
+      ],
+      "negative_controls": "El último control selecciona una fila completa como ejemplo abstracto de coherencia, no como política aprobada de cuál fila usar.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-15",
+      "title": "Cambiar una clave GROUP BY separa las poblaciones",
+      "accepted_ids": [
+        "PH-004"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": 2,
+      "expected": 2,
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 416,
+          "line_end": 428
+        }
+      ],
+      "negative_controls": "La mezcla requiere al menos dos relaciones dentro del mismo grupo; no se afirma para grupos distintos.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-16",
+      "title": "Dominio de CROSS JOIN solo1/2 frente al estado3 derivado",
+      "accepted_ids": [
+        "PH-IMP002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": []
+      },
+      "expected": {
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": []
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 53,
+          "line_end": 57
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 337,
+          "line_end": 337
+        }
+      ],
+      "negative_controls": "El filtro3 tiene dominio vacío; no selecciona inventario_3_concesionario.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-17",
+      "title": "Filtrar antes de pivotar no equivale a seleccionar vehículo después",
+      "accepted_ids": [
+        "PH-IMP002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "pre_pivot": {
+          "inventario_1_pre_embarque": "Pendiente",
+          "inventario_2_confirmacion_pre_embarque": null
+        },
+        "post_vehicle_selection": {
+          "inventario_1_pre_embarque": "Pendiente",
+          "inventario_2_confirmacion_pre_embarque": "Realizado"
+        },
+        "equivalent": false
+      },
+      "expected": {
+        "pre_pivot": {
+          "inventario_1_pre_embarque": "Pendiente",
+          "inventario_2_confirmacion_pre_embarque": null
+        },
+        "post_vehicle_selection": {
+          "inventario_1_pre_embarque": "Pendiente",
+          "inventario_2_confirmacion_pre_embarque": "Realizado"
+        },
+        "equivalent": false
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 38,
+          "line_end": 43
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 386,
+          "line_end": 387
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 411,
+          "line_end": 413
+        }
+      ],
+      "negative_controls": "Sin filtro ambas rutas coinciden; no se declara cuál política debe adoptar negocio.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-18",
+      "title": "Pivote vacío y tipo único conservan NULL de SQL MAX",
+      "accepted_ids": [
+        "PH-IMP002"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        {
+          "inventario_1_pre_embarque": null,
+          "inventario_2_confirmacion_pre_embarque": null
+        },
+        {
+          "inventario_1_pre_embarque": null,
+          "inventario_2_confirmacion_pre_embarque": "Realizado"
+        }
+      ],
+      "expected": [
+        {
+          "inventario_1_pre_embarque": null,
+          "inventario_2_confirmacion_pre_embarque": null
+        },
+        {
+          "inventario_1_pre_embarque": null,
+          "inventario_2_confirmacion_pre_embarque": "Realizado"
+        }
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 411,
+          "line_end": 412
+        }
+      ],
+      "negative_controls": "No se transforma NULL en Pendiente ni se atribuye comportamiento al navegador.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-19",
+      "title": "Los dominios local2 y preembarque3 permanecen separados",
+      "accepted_ids": [
+        "PH-IMP002",
+        "PH-IMP003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "local_branches": 4,
+        "local2_guard_per_branch": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "pre3_guard": true
+      },
+      "expected": {
+        "local_branches": 4,
+        "local2_guard_per_branch": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "pre3_guard": true
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 158,
+          "line_end": 207
+        }
+      ],
+      "negative_controls": "Los números de dos campos distintos no se convierten en un único catálogo.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-20",
+      "title": "CASE de estado3 es disyunción de presencia, no completitud",
+      "accepted_ids": [
+        "PH-IMP003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        "Pendiente",
+        "Realizado",
+        "Realizado",
+        "Realizado"
+      ],
+      "expected": [
+        "Pendiente",
+        "Realizado",
+        "Realizado",
+        "Realizado"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 299,
+          "line_end": 305
+        }
+      ],
+      "negative_controls": "Solo el caso sin ambos registros queda Pendiente; no se valida la inspección física ni todas sus secciones.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    },
+    {
+      "id": "CS-21",
+      "title": "Existencia UNION de cuatro fuentes y flags sin consumo exterior",
+      "accepted_ids": [
+        "PH-IMP003"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "sources": [
+          "inventario_parametros",
+          "inventario_registros_accesorios",
+          "inventario_registros_contaminaciones",
+          "inventario_registros_partes_mercancia"
+        ],
+        "base_flags_used_outside": []
+      },
+      "expected": {
+        "sources": [
+          "inventario_parametros",
+          "inventario_registros_accesorios",
+          "inventario_registros_contaminaciones",
+          "inventario_registros_partes_mercancia"
+        ],
+        "base_flags_used_outside": []
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 115,
+          "line_end": 156
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 288,
+          "line_end": 308
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 413
+        }
+      ],
+      "negative_controls": "No se interpreta presencia de una fuente como defecto de completitud; tampoco se audita presentación de resultados.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-22",
+      "title": "Los SELECT auxiliares no comparten el mismo scope de proveedor",
+      "accepted_ids": [
+        "PH-IMP001",
+        "PH-IMP004"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        true,
+        false
+      ],
+      "expected": [
+        true,
+        false
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 52,
+          "line_end": 76
+        }
+      ],
+      "negative_controls": "Consulta global no equivale a divulgación: no se inspecciona su salida al navegador.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-23",
+      "title": "Dependencia constructor→data no equivale a ejecución del constructor",
+      "accepted_ids": [
+        "PH-IMP004",
+        "PH-IMP005"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": {
+        "query_assignments": 1,
+        "builder_sql_dispatches": 0,
+        "caller_order": true,
+        "principal_fetch_without_explicit_return_check": true
+      },
+      "expected": {
+        "query_assignments": 1,
+        "builder_sql_dispatches": 0,
+        "caller_order": true,
+        "principal_fetch_without_explicit_return_check": true
+      },
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 52,
+          "line_end": 52
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 6,
+          "line_end": 14
+        }
+      ],
+      "negative_controls": "Un AST SQL válido no demuestra éxito de PHP/mysql_query ni captura fallos de include/conexión. No se ejecuta data.php.",
+      "limits": "Lectura estática del puente PHP; los controles de fallo de fase1 se conservan, sin emulación de despliegue."
+    },
+    {
+      "id": "CS-24",
+      "title": "Round-trip AST sin cambiar cláusulas ni claves",
+      "accepted_ids": [
+        "PH-003",
+        "PH-004",
+        "PH-IMP005"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": true,
+      "expected": true,
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 52,
+          "line_end": 432
+        }
+      ],
+      "negative_controls": "SQL emitido solo se vuelve a parsear en memoria; no se guarda ni se envía a un motor.",
+      "limits": "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue."
+    },
+    {
+      "id": "CS-25",
+      "title": "NULL no satisface igualdad de scope",
+      "accepted_ids": [
+        "PH-IMP001"
+      ],
+      "status": "completed",
+      "result": "pass",
+      "actual": [
+        null,
+        true,
+        false
+      ],
+      "expected": [
+        null,
+        true,
+        false
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 382
+        }
+      ],
+      "negative_controls": "WHERE admite solo True; Unknown no se convierte en True por coerción Python.",
+      "limits": "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales."
+    }
+  ],
+  "accepted_revalidation": [
+    {
+      "id": "PH-001",
+      "origin_id": "TEMP-PH002",
+      "classification": "new_finding",
+      "title": "El ID genérico de proveedor se usa como transportista sin discriminar tipo7",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-02",
+        "CS-07",
+        "CS-08"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/veriflogin.php",
+          "line_start": 85,
+          "line_end": 91
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 19,
+          "line_end": 35
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "src/core/users/application/Find/UserFind.php",
+          "line_start": 58,
+          "line_end": 63
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 2,
+          "line_end": 9
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 328,
+          "line_end": 382
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/menu.php",
+          "line_start": 60,
+          "line_end": 67
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-002",
+      "origin_id": "TEMP-PH003",
+      "classification": "new_finding",
+      "title": "El filtro de fechas puede alterar el predicado que acota al proveedor",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-04",
+        "CS-05",
+        "CS-06"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 29,
+          "line_end": 40
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 45,
+          "line_end": 50
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 11,
+          "line_end": 14
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-003",
+      "origin_id": "TEMP-PH004",
+      "classification": "new_finding",
+      "title": "Las relaciones por chasis pueden atravesar el alcance de cabecera",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-09",
+        "CS-10",
+        "CS-11",
+        "CS-12",
+        "CS-24"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 28,
+          "line_end": 30
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 166,
+          "line_end": 261
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 299,
+          "line_end": 310
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 364,
+          "line_end": 382
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-004",
+      "origin_id": "TEMP-PH005",
+      "classification": "new_finding",
+      "title": "Los MAX independientes no conservan una fila coherente de embarque y viaje",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-13",
+        "CS-14",
+        "CS-15",
+        "CS-24"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 262,
+          "line_end": 269
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 310,
+          "line_end": 320
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 370,
+          "line_end": 380
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 428
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-IMP001",
+      "origin_id": "TEMP-PH001",
+      "classification": "improvement",
+      "title": "HEAD sustituye ámbito de concesionario por proveedor de cabecera",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-02",
+        "CS-03",
+        "CS-04",
+        "CS-22",
+        "CS-25"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 6,
+          "line_end": 9
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 52,
+          "line_end": 59
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 391
+        },
+        {
+          "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 381,
+          "line_end": 390
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-IMP002",
+      "origin_id": "TEMP-PH006",
+      "classification": "improvement",
+      "title": "Estado y tipo filtran la población antes del pivote de inventarios",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-04",
+        "CS-16",
+        "CS-17",
+        "CS-18",
+        "CS-19"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 33,
+          "line_end": 57
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 158,
+          "line_end": 174
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 299,
+          "line_end": 305
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 386,
+          "line_end": 387
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 411,
+          "line_end": 413
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-IMP003",
+      "origin_id": "TEMP-PH007",
+      "classification": "improvement",
+      "title": "Realizado significa existencia de un registro, no completitud demostrada",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-11",
+        "CS-19",
+        "CS-20",
+        "CS-21"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 59,
+          "line_end": 164
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 288,
+          "line_end": 310
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 328,
+          "line_end": 391
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 393,
+          "line_end": 428
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-IMP004",
+      "origin_id": "TEMP-PH008",
+      "classification": "improvement",
+      "title": "La cadena local no distingue todos los fallos del reporte",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-22",
+        "CS-23"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 2,
+          "line_end": 3
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 29,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/cnfdb105.php",
+          "line_start": 2,
+          "line_end": 3
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/cnfdb105.php",
+          "line_start": 13,
+          "line_end": 24
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 6,
+          "line_end": 14
+        }
+      ],
+      "canonical": false
+    },
+    {
+      "id": "PH-IMP005",
+      "origin_id": "TEMP-PH010",
+      "classification": "improvement",
+      "title": "Corregir el candidato histórico: query.php es constructor, no ejecutor autónomo",
+      "status": "completed",
+      "result": "pass",
+      "check_ids": [
+        "CS-01",
+        "CS-23",
+        "CS-24"
+      ],
+      "evidence": [
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 1,
+          "line_end": 52
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "line_start": 430,
+          "line_end": 438
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "line_start": 85,
+          "line_end": 87
+        },
+        {
+          "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+          "path": "index_archivos/data.php",
+          "line_start": 11,
+          "line_end": 14
+        }
+      ],
+      "canonical": false
+    }
+  ],
+  "summary": {
+    "checks_completed": 25,
+    "checks_passed": 25,
+    "accepted_findings_revalidated": 4,
+    "accepted_improvements_revalidated": 5,
+    "new_findings": 0,
+    "new_improvements": 0
+  },
+  "limitations": [
+    "AST MySQL de SQLglot; no valida servidor, esquema, tipos reales, optimizador, privilegios o despliegue.",
+    "Dominio sintético finito; no prueba ausencia/presencia de esos casos en datos ni constraints reales.",
+    "La extracción sustituye el ID por placeholder y nueve fragmentos por constantes benignas; no interpreta PHP ni prueba toda entrada dinámica.",
+    "No se vuelve a probar explotación de fechas; solo su frontera de composición y la diferencia entre AST instanciado y constructor de PHP.",
+    "Sin DDL autorizado: resolución de aliases no demuestra columnas físicas, unicidad, tipos efectivos, FK ni aislamiento entre tenants.",
+    "La obligación de rol de PH-001 mantiene acceso efectivo y dominios reales como precondiciones; no se decide política de tipo7.",
+    "No se valida SQL_MODE, versión del servidor, collation, plan de ejecución, privilegios, PHP/extensiones, includes ni despliegue.",
+    "No revisión de navegación/salidas al navegador, exportador, master a44, código JS ni CF/PH-IMP006..008 en esta fase acotada.",
+    "Checks completed significa pruebas aisladas terminadas, no cierre global, aprobación de TOBE ni certificación productiva."
+  ],
+  "boundaries": {
+    "php_or_handler_executed": false,
+    "bootstrap_executed": false,
+    "sql_executed": false,
+    "database_or_http_access": false,
+    "network_access": false,
+    "real_rows_used": false,
+    "operational_attack_or_payload_generated": false,
+    "browser_output_navigation_reviewed": false,
+    "new_master_a44_reviewed": false,
+    "deployment_emulated": false,
+    "phase1_or_final_docs_or_manifest_edited": false,
+    "commit_or_push": false
+  },
+  "probe_artifact": "source-audits/peru/2026-11-19/closure-sql.json",
+  "script": "scripts/audit/peru_head_closure_sql.py"
+}

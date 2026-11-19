@@ -1,0 +1,15 @@
+{
+  "source_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+  "tool": "graphifyy",
+  "version": "0.9.108",
+  "mode": "local_ast_structural_only",
+  "code_candidates": 558,
+  "nodes": 2351,
+  "edges": 2694,
+  "communities": 640,
+  "single_node_source_files": 325,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "semantic_extraction": false,
+  "limitations": "AST and equal blobs do not establish route execution, authorization, business policy or deployment."
+}

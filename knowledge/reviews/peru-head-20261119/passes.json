@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "passes": [
+    {
+      "version": 1,
+      "technique": "Static report contract review with isolated probes",
+      "status": "completed",
+      "new_findings": [
+        "PH-001",
+        "PH-002",
+        "PH-003",
+        "PH-004"
+      ],
+      "improvements": [
+        "PH-IMP-001",
+        "PH-IMP-002",
+        "PH-IMP-003",
+        "PH-IMP-004",
+        "PH-IMP-005"
+      ],
+      "artifact": "knowledge/reviews/peru-head-20261119/report-deltas.json"
+    },
+    {
+      "version": 2,
+      "technique": "Git range carry-forward and provenance review",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [
+        "PH-IMP-006",
+        "PH-IMP-007",
+        "PH-IMP-008"
+      ],
+      "artifact": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json"
+    },
+    {
+      "version": 3,
+      "technique": "SQL AST and metamorphic closure",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "artifact": "knowledge/reviews/peru-head-20261119/closure-sql.json"
+    },
+    {
+      "version": 4,
+      "technique": "Reverse provenance closure on the published parent snapshot",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "artifact": "knowledge/reviews/peru-head-20261119/closure-provenance.json"
+    }
+  ]
+}

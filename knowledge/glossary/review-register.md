@@ -121,3 +121,22 @@ python -c "import json,jsonschema,pathlib; d=json.loads(pathlib.Path('knowledge/
 ```
 
 Los controles de correspondencia entre índices, conteos y archivos Git se describen arriba y son adicionales al esquema: JSON Schema no prueba que el texto citado respalde una definición. Esa revisión requirió lectura directa.
+
+
+## Revalidación Perú HEAD — 19-11-2026
+
+El registro anterior describe la revisión semántica histórica M/P95. La actualización actual conserva sus 81 conceptos y el JSON base íntegro; incorpora PH-IMP-006/007/008 aceptadas como mejoras documentales. Perú HEAD `2a179e2e6472d5705d031665ecbc90c3d806edec` está auditado en el [alcance estático del expediente](../reviews/peru-head-20261119/README.md) y la [variante actual](../variants/peru-head-20261119.md). La evidencia detallada se publica como [overlay de revalidación](peru-head-revalidation.json), separado del JSON base.
+
+| Medida | Resultado |
+| --- | ---: |
+| Conceptos JSON base, sin modificaciones | 81 |
+| Conceptos con evidencia P95 conservada por identidad en HEAD | 80 |
+| Conceptos solo M, sin atribución P inventada | 1: parte-recepcion |
+| Conceptos con referencia directa al JS cambiado | 4 |
+| Conceptos nuevos o nuevas aprobaciones canónicas | 0 |
+
+PH-IMP-006 enlaza [cinco solicitudes de negocio](../variants/peru-api-head-20261119.md) por rangos HEAD. PH-IMP-007 conserva la alerta de dependencia directa para **alcance-viaje, item-posicion, finalizado-resumen y viaje-desde-vin**. La cita local idéntica no demuestra equivalencia del comportamiento compuesto. PH-IMP-008 mantiene la procedencia M/P95: el único concepto solo M no se promociona, ni las seis mejoras operativas históricas solo M reciben un mapping M→P inferido.
+
+Este overlay arrastra evidencia histórica local y su confianza, sin repetir la revisión semántica de los 81 conceptos ni extenderla a los 10.682 objetos idénticos del árbol. Se conservan 76 shared_evidence, un master, cuatro peru; 69 observed, nueve inferred y tres unknown. Ninguna identidad Git aprueba reglas de negocio ni acredita datos, DDL, servicios o producción. Las referencias históricas a pantalla se conservan; no se reabre el campo excluido de navegador, navegación, salidas o recarga.
+
+La [integración aceptada](../reviews/peru-head-20261119/carryforward-integration.json) documenta los tres IDs definitivos. Los cuatro PH del reporte y sus cinco mejoras pertenecen al registro del padre; no añaden conceptos al glosario.

@@ -1,0 +1,25 @@
+# Perú HEAD: cinco solicitudes de negocio acotadas
+
+**PH-IMP-006** (TEMP-CF001), aceptada el 19-11-2026, Europe/Madrid. Fuente HEAD `2a179e2e6472d5705d031665ecbc90c3d806edec`; contraste P95 `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`. [Revisión Perú actual](peru-head-20261119.md) · [Expediente](../reviews/peru-head-20261119/README.md).
+
+Se documenta método, destino, campos y configuración del consumidor. La base `URL_API` sigue sin valor de despliegue confirmado. No se ha contactado ninguna ruta ni validado respuesta, persistencia o servicio externo. Los catálogos locales y el handler de creación conservan sus blobs frente a P95. Los callbacks, navegación, salidas y recarga JS siguen excluidos.
+
+| Solicitud | Método y destino | Campos/contexto | Evidencia HEAD |
+| --- | --- | --- | --- |
+| API-CF-001 | GET `UNRESOLVED_CONST:URL_API/proveedores/detalle-pedido/{idpedido}` | `idpedido (ruta)`, `Authorization (simbolo tokenJWT)` | [JS L505–516](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L505-L516); [Configuración L57–57](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/frames/items.php#L57-L57) |
+| API-CF-002 | POST `index_archivos/embarques/ajax/crear-viaje-desde-items.php` | `embarque_id`, `vins`, `origin_location_id`, `carrier_unit_id`, `driver_id`, `schedule_date`, `schedule_time`, `destination_mappings` | [JS L390–398](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L390-L398); [JS L409–414](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L409-L414); [Configuración L238–238](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/frames/items.php#L238-L238) |
+| API-CF-003 | GET `index_archivos/tracking/ajaxAsignacion/transporte.php` | Sin campos adicionales documentados en estas cabeceras. | [JS L258–258](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L258-L258); [Configuración L239–239](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/frames/items.php#L239-L239) |
+| API-CF-004 | GET `index_archivos/tracking/ajaxAsignacion/origen.php` | Sin campos adicionales documentados en estas cabeceras. | [JS L265–265](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L265-L265); [JS L269–269](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L269-L269); [Configuración L236–236](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/frames/items.php#L236-L236) |
+| API-CF-005 | GET `index_archivos/tracking/ajaxAsignacion/conductores.php?carrier_id={carrierBusinessId}` | `carrier_id (query)` | [JS L303–303](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/js/datosEmbarques.js#L303-L303); [Configuración L240–240](https://github.com/KPO-Group/proveedores/blob/2a179e2e6472d5705d031665ecbc90c3d806edec/index_archivos/embarques/frames/items.php#L240-L240) |
+
+El POST de creación prepara `application/json` con `embarque_id`, `vins`, `origin_location_id`, `carrier_unit_id`, `driver_id`, `schedule_date`, `schedule_time` y `destination_mappings`. El detalle GET usa el ID del pedido en la ruta y `Authorization` obtenido del símbolo `tokenJWT`; no se publican valores. El origen, transporte y conductor usan configuración del frame; `carrier_id` viaja en la query de conductores.
+
+| Rango de solicitud | P95 | HEAD | Prueba |
+| --- | --- | --- | --- |
+| API-CF-001 | L510–521 | L505–516 | R0370, SHA256 `3d586ae8b35963145b173646b507762f54308cff5cccebff0e988424b24f1492` |
+| API-CF-002 | L397–405 | L390–398 | R0372, SHA256 `d9dd51581181c75d7e76f467d60132a2bf4fb8f6bc04327c1dcd6eb0a9391ae6` |
+| API-CF-002 | L416–421 | L409–414 | R0373, SHA256 `a8e809821a14eaca07c428f684f7f258f1cc2ed28ab3b05c88f67356eb4462c5` |
+
+La identidad exacta se limita a los rangos enlazados; el blob JS completo cambia. La [matriz de auditoría](../../source-audits/peru/2026-11-19/carryforward.json) conserva OIDs, SHA256 y dependencias directas. PH-IMP-007 mantiene separadas la validez de una cita y su dependencia modificada. PH-IMP-008 conserva la procedencia histórica; ni los 20 candidatos raw de consumo externo ni un input de configuración se convierten en contratos verificados.
+
+Esta página amplía IMP-C1 con evidencia P95/HEAD de solicitudes; no cuenta cinco APIs nuevas ni valida un catálogo exhaustivo. El [cuerpo histórico P95](peru.md) y [M/P95](comparison.md) conservan sus pins.

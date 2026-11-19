@@ -93,3 +93,29 @@ git -C $sourceRepo diff --unified=4 $masterPin $peruPin -- index_archivos/embarq
 ```
 
 Comparar los dos mapas por ruta y tupla `(modo,tipo,objeto)` reproduce los conteos sin semantica de renombrados. Para revisar una cita, leer el blob del pin indicado y contar sus lineas LF. Los archivos de configuracion contienen literales sensibles: no volcar su contenido en documentacion ni logs compartidos.
+
+
+<a id="comparacion-m-peru-head-20261119"></a>
+
+## Comparación adicional M / Perú HEAD — 19-11-2026
+
+Esta sección añade M/P2 sin modificar la comparación M/P95 anterior. M histórico sigue en `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`; P2/HEAD auditado fija `2a179e2e6472d5705d031665ecbc90c3d806edec`. El nuevo master remoto a44 queda fuera de alcance. Los resultados funcionales y sus condiciones están en la [revisión actual de Perú](peru-head-20261119.md) y el [expediente](../reviews/peru-head-20261119/README.md).
+
+| Medida de árbol | M histórico | P2/HEAD |
+| --- | ---: | ---: |
+| Entradas | 10.629 | 10.685 |
+| Blobs | 10.627 | 10.683 |
+| Gitlinks | 2 | 2 |
+| Solo en ese árbol | 4 | 60 |
+
+M/P2 tiene 10.466 entradas idénticas y 159 distintas en rutas compartidas, comparando modo, tipo y OID; los dos gitlinks están dentro de las 159 distintas. Que estos conteos coincidan con M/P95 no significa que ambos Perú tengan el mismo contenido.
+
+| Referencia | OID de árbol |
+| --- | --- |
+| M histórico | `96bad65e873d9308d52b9e9d861eacd211433924` |
+| P95 histórico | `db7e6e23c4417264f23fb635309786a2f1887054` |
+| P2/HEAD auditado | `8900dc187eb59eff183354e871866cd240eae790` |
+
+P95/P2 conserva 10.682 entradas de las 10.685 y cambia exactamente tres rutas: `index_archivos/embarques/js/datosEmbarques.js`, `index_archivos/reportes/reportepreembarquenacional.php` y `index_archivos/reportes/reportepreembarquenacionalquery.php`. La [prueba Git por path/rango](../../source-audits/peru/2026-11-19/carryforward.json) y el [comparativo M/P2](../../source-audits/peru/2026-11-19/master-peru-comparison.csv) permiten reproducirlo. La identidad Git no se cuenta como revisión semántica de los diez mil archivos.
+
+**PH-IMP-006/007/008 aceptadas.** Las [cinco solicitudes de negocio](peru-api-head-20261119.md) preservan rangos exactos dentro del JS cambiado. Cuatro conceptos tienen referencias directas a ese JS y conservan una frontera pendiente de revisión separada del alcance excluido. La [revalidación de 81 conceptos](../glossary/peru-head-revalidation.json) conserva 80 evidencias P y un concepto solo M, sin cambio del JSON base ni equivalencia M→P. Los dos reportes tienen revisión semántica del agente responsable; sus cuatro hallazgos y cinco mejoras se integran por el padre. No se infiere que esos cuatro hallazgos sean cuatro regresiones HEAD.

@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.0",
+  "registry_type": "accepted_carryforward_documentation_integration",
+  "date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "sourcepins": {
+    "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+  },
+  "canonical": false,
+  "user_authorized": true,
+  "status": "OWN_DOCUMENTATION_INTEGRATED_REVERSE_CLOSURE_PENDING_PARENT_PUBLICATION",
+  "accepted_improvements": [
+    {
+      "id": "PH-IMP-006",
+      "origin_id": "TEMP-CF001",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "El blob JS cambia; cinco solicitudes de negocio conservan rangos exactos",
+      "new_independent_finding": false
+    },
+    {
+      "id": "PH-IMP-007",
+      "origin_id": "TEMP-CF002",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "Distinguir evidencia local estable de dependencia directa modificada",
+      "new_independent_finding": false
+    },
+    {
+      "id": "PH-IMP-008",
+      "origin_id": "TEMP-CF003",
+      "classification": "improvement",
+      "kind": "documentary_precision",
+      "title": "La revalidacion Peru conserva la procedencia de las mejoras citadas solo en M",
+      "new_independent_finding": false
+    }
+  ],
+  "scope": {
+    "new_independent_findings": 0,
+    "documentary_improvements": 3,
+    "parent_total_new_findings": 4,
+    "parent_total_improvements": 8,
+    "HEAD_changed_finding_effects": 1,
+    "inherited_P95_findings": 3
+  },
+  "own_write_set": [
+    "knowledge/variants/peru.md",
+    "knowledge/variants/comparison.md",
+    "knowledge/variants/peru-api-head-20261119.md",
+    "knowledge/glossary/review-register.md",
+    "knowledge/glossary/peru-head-revalidation.json",
+    "knowledge/reviews/peru-head-20261119/carryforward-integration.json"
+  ],
+  "closure_write_set": [
+    "knowledge/reviews/peru-head-20261119/closure-provenance.json",
+    "knowledge/reviews/peru-head-20261119/closure-provenance.md"
+  ],
+  "source_artifacts": [
+    {
+      "path": "source-audits/peru/2026-11-19/carryforward.json",
+      "sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29"
+    },
+    {
+      "path": "knowledge/reviews/peru-head-20261119/carryforward-deltas.json",
+      "sha256": "f2870561addc0693c5234bc795023971c0bdc6677bbb22491378241aff3c06c2"
+    }
+  ],
+  "canonical_glossary": {
+    "path": "knowledge/glossary/business-glossary.json",
+    "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+    "sha256": "1940d0482b19cebec489c107e30e45513f306e9996ef64986f5cb2a827ca1148",
+    "blob": "9de283364edfb873b756ef46082d5619c7ce44c9",
+    "unchanged": true,
+    "entries": 81
+  },
+  "historical_preservation": {
+    "peru_body_from_Pais_y_perfiles_sha256": "5fb5b23c366b7d29a127dcc63cfaa9ccdebbbbb32901172aad5c5a4801bd7949",
+    "comparison_original_prefix_sha256": "6dccd0a98ab0156b0963604326322b22e67ef5653acf69e2da53a5d1a1ceb635",
+    "glossary_register_original_prefix_sha256": "035856c21db8e82202609a681001e42a68eb2e00b67cc4624e046faaa0a7458d"
+  },
+  "comparison_M_HEAD": {
+    "M_entries": 10629,
+    "HEAD_entries": 10685,
+    "identical": 10466,
+    "changed_shared": 159,
+    "M_only": 4,
+    "HEAD_only": 60
+  },
+  "source_request_ids": [
+    "API-CF-001",
+    "API-CF-002",
+    "API-CF-003",
+    "API-CF-004",
+    "API-CF-005"
+  ],
+  "coverage": {
+    "tree": {
+      "P95_entries": 10685,
+      "HEAD_entries": 10685,
+      "identical_entries_mode_type_oid": 10682,
+      "changed_paths": 3,
+      "P95_blobs": 10683,
+      "HEAD_blobs": 10683,
+      "P95_tree_oid": "db7e6e23c4417264f23fb635309786a2f1887054",
+      "HEAD_tree_oid": "8900dc187eb59eff183354e871866cd240eae790",
+      "identical_path_manifest_sha256": "abb3bf6da1509756d68eae32430584de6b8afeb2b36906b3b5c5c454e9ab3b60",
+      "semantic_review_count_from_tree_equality": 0
+    },
+    "matrix_records": 103,
+    "groups": {
+      "glossary": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 80,
+        "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION": 1
+      },
+      "OPS": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 9
+      },
+      "operational_improvement": {
+        "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION": 6,
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 2
+      },
+      "branch_precision": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 4
+      },
+      "VAR": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 1
+      }
+    },
+    "proofs_total": 766,
+    "proof_statuses": {
+      "REQUIRES_RANGE_REVIEW": 85,
+      "IDENTICAL_RANGE": 681
+    },
+    "distinct_P95_ranges": 615,
+    "range_statuses_by_origin": {
+      "P95": {
+        "IDENTICAL_RANGE": 615
+      },
+      "M_historical": {
+        "REQUIRES_RANGE_REVIEW": 85,
+        "IDENTICAL_RANGE": 66
+      }
+    },
+    "md_documents_inventoried": 62,
+    "md_documents_with_P_citations": {
+      "knowledge/general/actors-and-permissions.md": 2,
+      "knowledge/general/architecture.md": 10,
+      "knowledge/general/business-rules.md": 5,
+      "knowledge/general/data-model.md": 11,
+      "knowledge/general/integrations.md": 19,
+      "knowledge/general/operational-findings.md": 16,
+      "knowledge/general/requirements-guide.md": 3,
+      "knowledge/general/workflows.md": 5,
+      "knowledge/reviews/iterative-20261118/closure-contracts.md": 3,
+      "knowledge/reviews/iterative-20261118/closure-transactions.md": 2,
+      "knowledge/reviews/iterative-20261118/contracts-delta.md": 4,
+      "knowledge/reviews/iterative-20261118/transactions-delta.md": 9,
+      "knowledge/variants/bolivia.md": 4,
+      "knowledge/variants/comparison.md": 28,
+      "knowledge/variants/peru.md": 54
+    },
+    "P_citation_occurrences_from_md": 175,
+    "P_citation_distinct_ranges_from_md": 115,
+    "md_citation_syntax": "GitHub commit+Lx-Ly; P:path:Lx-Ly; M/P:path:Lx-Ly; inclusive; percent-decoded.",
+    "md_citation_limit": "No inference of bare filenames/ranges or unpinned prose; no blanket claim of all mentions resolved.",
+    "excluded_md_history": [
+      "knowledge/history/evidence-map-20261001.md"
+    ],
+    "source_audits_history": "Outside documentary inventory; not traversed or promoted.",
+    "api_document_rows": 44,
+    "api_business_requests_bounded": 5,
+    "api_contract_status_counts": {
+      "DOCUMENTED_CONTEXT_NOT_LIVE_VERIFIED": 13,
+      "REJECTED_RAW_ATTRIBUTION": 1,
+      "KNOWN_RAW_CANDIDATE_NOT_CONTRACT": 20,
+      "CONFIGURATION_CONTEXT_NOT_API_CALL": 10
+    },
+    "raw_api_candidates_promoted_to_verified": 0,
+    "direct_dependency_edges": 389,
+    "dependency_status_counts": {
+      "UNCHANGED_DIRECT_DEPENDENCY": 253,
+      "UNRESOLVED_STATIC_INCLUDE": 126,
+      "CHANGED_DIRECT_DEPENDENCY": 10
+    },
+    "changed_path_lexical_references": 12,
+    "boundary_affected_matrix_rows": [
+      "alcance-viaje",
+      "item-posicion",
+      "finalizado-resumen",
+      "viaje-desde-vin"
+    ],
+    "source_paths_used_for_range_metadata": 74,
+    "runtime_contract_or_semantic_global_closure": false
+  },
+  "boundaries": {
+    "source_modified": false,
+    "manifest_or_index_or_parent_general_or_finding_registry_modified": false,
+    "application_network_DB": false,
+    "browser_navigation_output_reload_reviewed": false,
+    "M_to_P_mapping_invented": false,
+    "commit_or_push": false,
+    "global_convergence_claimed": false
+  },
+  "parent_owned_dependencies": [
+    "knowledge/reviews/peru-head-20261119/README.md",
+    "knowledge/variants/peru-head-20261119.md",
+    "knowledge/reviews/peru-head-20261119/accepted-deltas.json"
+  ],
+  "closure_plan": "Reverse provenance of all four findings and eight improvements against report/carryforward origin and parent integrated documentation; metadata mutations, not just blob identity.",
+  "checks": [
+    {
+      "id": "OWN-01_HISTORICAL_BODY_AND_PREFIXES",
+      "status": "completed",
+      "result": "preserved"
+    },
+    {
+      "id": "OWN-02_GLOSSARY_81_UNCHANGED",
+      "status": "completed",
+      "result": "80 P carried; 1 M only; no new concept or M-to-P mapping"
+    },
+    {
+      "id": "OWN-03_API5_HEAD_REQUESTS",
+      "status": "completed",
+      "result": "five requests with HEAD ranges and explicit exclusions"
+    },
+    {
+      "id": "OWN-04_CF_ACCEPTANCE_MAP",
+      "status": "completed",
+      "result": "TEMP-CF001/002/003 -> PH-IMP-006/007/008; improvements only"
+    }
+  ],
+  "integration_outputs": [
+    {
+      "path": "knowledge/variants/peru.md",
+      "sha256": "3e1cab80f93839621a4af6416ec5cf97dae78edb1e601270adf68d4364d97900"
+    },
+    {
+      "path": "knowledge/variants/comparison.md",
+      "sha256": "cc998cfeb77e4dcf731ddd3486c60c01a8ddb5453dcaa2333959ff964e37379f"
+    },
+    {
+      "path": "knowledge/variants/peru-api-head-20261119.md",
+      "sha256": "08e11e2824554bd2750f202d09d19d7568afb6cea6fc9613692b4ba0d80957a4"
+    },
+    {
+      "path": "knowledge/glossary/review-register.md",
+      "sha256": "9ea488c5db43fe141abe35b58fa55d769c81db14a96eead4344ed4c5790637f1"
+    },
+    {
+      "path": "knowledge/glossary/peru-head-revalidation.json",
+      "sha256": "41e0acc1163b680c1bf92ca6585ab839655f55eb2305c60d88b8afb559168334"
+    }
+  ],
+  "closure": {
+    "path": "knowledge/reviews/peru-head-20261119/closure-provenance.json",
+    "status": "pending_parent_publication",
+    "zero_delta_pass_eligible": false,
+    "pending": [
+      "knowledge/reviews/peru-head-20261119/README.md",
+      "knowledge/variants/peru-head-20261119.md",
+      "knowledge/reviews/peru-head-20261119/accepted-deltas.json"
+    ]
+  }
+}

@@ -1,11 +1,14 @@
 # Variantes auditadas: master y Peru
 
-Auditoria estatica del 2026-11-18 sobre `C:/repos/proveedores-github-review-20261118`. Los nombres de pais son etiquetas de navegacion; las diferencias se justifican con codigo, consultas y configuracion versionada.
+Auditoría estática general del 18-11-2026 y revalidación de Perú HEAD del
+19-11-2026. Los nombres de país son etiquetas de navegación; las diferencias
+se justifican con código, consultas y configuración versionada.
 
 | Identificador | Referencia comprobada | Commit inmutable |
 | --- | --- | --- |
 | M | `master` | `a8ce2c23dead8552d2c4699e4a9b9134f7a18707` |
 | P | `origin/master_peru` | `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` |
+| P2 | `origin/master_peru` HEAD auditado | `2a179e2e6472d5705d031665ecbc90c3d806edec` |
 
 Las citas enlazan a `KPO-Group/proveedores`, remoto observado del checkout, con commit, ruta y lineas exactas. La fuente leida fue el objeto Git local mediante `git show <commit>:<ruta>`, no una rama remota mutable. Los numeros de linea cuentan separadores LF del blob, conservando las lineas de archivos CRLF. Una ausencia se fundamenta en el arbol completo, no en una busqueda parcial.
 
@@ -13,6 +16,7 @@ Las citas enlazan a `KPO-Group/proveedores`, remoto observado del checkout, con 
 
 - [Bolivia: comportamiento observado de master](bolivia.md).
 - [Peru: cambios de comportamiento](peru.md).
+- [Perú HEAD auditado y corregido](peru-head-20261119.md).
 - [Comparacion y mediciones reproducibles](comparison.md).
 - [Arquitectura](../general/architecture.md), [modelo de datos y autoridad del esquema](../general/data-model.md) e [integraciones](../general/integrations.md).
 

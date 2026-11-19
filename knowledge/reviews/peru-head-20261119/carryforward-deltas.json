@@ -1,0 +1,897 @@
+{
+  "schema_version": "1.0",
+  "registry_type": "peru_HEAD_carryforward_documentary_deltas",
+  "date_client": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "sourcepins": {
+    "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+    "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+  },
+  "canonical": false,
+  "final_docs_or_manifest_updated": false,
+  "network_database_application_execution": false,
+  "asgard_auditor_or_python_workaround": false,
+  "master_remote_a44": "OUT_OF_SCOPE_NOT_RESOLVED",
+  "exclusions": [
+    "Dos PHP de reportes: solo blobs, modos y paths; semantica delegada a otro agente.",
+    "Navegador, navegacion, salidas y JS de recarga: excluidos; no reintentados.",
+    "datosEmbarques.js: solo hashes, rangos y solicitudes de negocio acotadas; sin callbacks de respuesta.",
+    "Sin ejecucion PHP/JS, aplicacion, red, BD, submodulos, instalacion ni auditor nativo.",
+    "Igualdad Git de todo el arbol no se cuenta como revision semantica de sus archivos."
+  ],
+  "proof_semantics": {
+    "blob": "OID Git, modo y tipo por path; igualdad de bytes versionados, no de runtime.",
+    "range": "Lineas inclusivas; SHA256 de bytes crudos concatenados con finales de linea preservados.",
+    "carry": "Conserva evidencia historica local; no nueva aprobacion de negocio ni repeticion de probes.",
+    "dependency": "Un salto estatico; includes/scripts y contratos de negocio fijados. No grafo exhaustivo."
+  },
+  "coverage": {
+    "tree": {
+      "P95_entries": 10685,
+      "HEAD_entries": 10685,
+      "identical_entries_mode_type_oid": 10682,
+      "changed_paths": 3,
+      "P95_blobs": 10683,
+      "HEAD_blobs": 10683,
+      "P95_tree_oid": "db7e6e23c4417264f23fb635309786a2f1887054",
+      "HEAD_tree_oid": "8900dc187eb59eff183354e871866cd240eae790",
+      "identical_path_manifest_sha256": "abb3bf6da1509756d68eae32430584de6b8afeb2b36906b3b5c5c454e9ab3b60",
+      "semantic_review_count_from_tree_equality": 0
+    },
+    "matrix_records": 103,
+    "groups": {
+      "glossary": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 80,
+        "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION": 1
+      },
+      "OPS": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 9
+      },
+      "operational_improvement": {
+        "NO_ORIGINAL_P_EVIDENCE_NO_PROMOTION": 6,
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 2
+      },
+      "branch_precision": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 4
+      },
+      "VAR": {
+        "P95_EVIDENCE_CARRIED_IDENTITY_ONLY": 1
+      }
+    },
+    "proofs_total": 766,
+    "proof_statuses": {
+      "REQUIRES_RANGE_REVIEW": 85,
+      "IDENTICAL_RANGE": 681
+    },
+    "distinct_P95_ranges": 615,
+    "range_statuses_by_origin": {
+      "P95": {
+        "IDENTICAL_RANGE": 615
+      },
+      "M_historical": {
+        "REQUIRES_RANGE_REVIEW": 85,
+        "IDENTICAL_RANGE": 66
+      }
+    },
+    "md_documents_inventoried": 62,
+    "md_documents_with_P_citations": {
+      "knowledge/general/actors-and-permissions.md": 2,
+      "knowledge/general/architecture.md": 10,
+      "knowledge/general/business-rules.md": 5,
+      "knowledge/general/data-model.md": 11,
+      "knowledge/general/integrations.md": 19,
+      "knowledge/general/operational-findings.md": 16,
+      "knowledge/general/requirements-guide.md": 3,
+      "knowledge/general/workflows.md": 5,
+      "knowledge/reviews/iterative-20261118/closure-contracts.md": 3,
+      "knowledge/reviews/iterative-20261118/closure-transactions.md": 2,
+      "knowledge/reviews/iterative-20261118/contracts-delta.md": 4,
+      "knowledge/reviews/iterative-20261118/transactions-delta.md": 9,
+      "knowledge/variants/bolivia.md": 4,
+      "knowledge/variants/comparison.md": 28,
+      "knowledge/variants/peru.md": 54
+    },
+    "P_citation_occurrences_from_md": 175,
+    "P_citation_distinct_ranges_from_md": 115,
+    "md_citation_syntax": "GitHub commit+Lx-Ly; P:path:Lx-Ly; M/P:path:Lx-Ly; inclusive; percent-decoded.",
+    "md_citation_limit": "No inference of bare filenames/ranges or unpinned prose; no blanket claim of all mentions resolved.",
+    "excluded_md_history": [
+      "knowledge/history/evidence-map-20261001.md"
+    ],
+    "source_audits_history": "Outside documentary inventory; not traversed or promoted.",
+    "api_document_rows": 44,
+    "api_business_requests_bounded": 5,
+    "api_contract_status_counts": {
+      "DOCUMENTED_CONTEXT_NOT_LIVE_VERIFIED": 13,
+      "REJECTED_RAW_ATTRIBUTION": 1,
+      "KNOWN_RAW_CANDIDATE_NOT_CONTRACT": 20,
+      "CONFIGURATION_CONTEXT_NOT_API_CALL": 10
+    },
+    "raw_api_candidates_promoted_to_verified": 0,
+    "direct_dependency_edges": 389,
+    "dependency_status_counts": {
+      "UNCHANGED_DIRECT_DEPENDENCY": 253,
+      "UNRESOLVED_STATIC_INCLUDE": 126,
+      "CHANGED_DIRECT_DEPENDENCY": 10
+    },
+    "changed_path_lexical_references": 12,
+    "boundary_affected_matrix_rows": [
+      "alcance-viaje",
+      "item-posicion",
+      "finalizado-resumen",
+      "viaje-desde-vin"
+    ],
+    "source_paths_used_for_range_metadata": 74,
+    "runtime_contract_or_semantic_global_closure": false
+  },
+  "items": [
+    {
+      "id": "TEMP-CF001",
+      "classification": "documentary_precision",
+      "title": "El blob JS cambia; cinco solicitudes de negocio conservan rangos exactos",
+      "statement": "En HEAD los cinco contratos de solicitud acotados siguen identicos: detalle GET/Authorization, creacion POST JSON y tres catalogos GET. Creacion P95 L416-L421 pasa a HEAD L409-L414; detalle P95 L510-L521 pasa a HEAD L505-L516. Configuracion del frame y cuatro handlers locales conservan blob. Solo se arrastra esta evidencia de solicitud; callbacks, resultados, recarga y navegacion siguen excluidos.",
+      "evidence": [
+        {
+          "id": "R0370",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 510,
+          "line_end": 521,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "3d586ae8b35963145b173646b507762f54308cff5cccebff0e988424b24f1492",
+          "whole_blob_equal": false,
+          "mapping": "UNIQUE_EXACT_RANGE_RELOCATED",
+          "head_line_start": 505,
+          "head_line_end": 516,
+          "head_range_sha256": "3d586ae8b35963145b173646b507762f54308cff5cccebff0e988424b24f1492",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0371",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 57,
+          "line_end": 57,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "b51f76048ec12bd7bb038ee426424e4a02f45ef80ecdaccd03353f72233d6f8e",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 57,
+          "head_line_end": 57,
+          "head_range_sha256": "b51f76048ec12bd7bb038ee426424e4a02f45ef80ecdaccd03353f72233d6f8e",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0372",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 397,
+          "line_end": 405,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "d9dd51581181c75d7e76f467d60132a2bf4fb8f6bc04327c1dcd6eb0a9391ae6",
+          "whole_blob_equal": false,
+          "mapping": "UNIQUE_EXACT_RANGE_RELOCATED",
+          "head_line_start": 390,
+          "head_line_end": 398,
+          "head_range_sha256": "d9dd51581181c75d7e76f467d60132a2bf4fb8f6bc04327c1dcd6eb0a9391ae6",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0373",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 416,
+          "line_end": 421,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "a8e809821a14eaca07c428f684f7f258f1cc2ed28ab3b05c88f67356eb4462c5",
+          "whole_blob_equal": false,
+          "mapping": "UNIQUE_EXACT_RANGE_RELOCATED",
+          "head_line_start": 409,
+          "head_line_end": 414,
+          "head_range_sha256": "a8e809821a14eaca07c428f684f7f258f1cc2ed28ab3b05c88f67356eb4462c5",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0374",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 238,
+          "line_end": 238,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "dd30d11fbbf44f9b8973b2c5e194dbc3ce293deae6cbe4827de0386128816513",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 238,
+          "head_line_end": 238,
+          "head_range_sha256": "dd30d11fbbf44f9b8973b2c5e194dbc3ce293deae6cbe4827de0386128816513",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0375",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 258,
+          "line_end": 258,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "c2067d22ffdef8a01b4944a26a9b2dea10ffa489e356f445dc3c9ad477baabcb",
+          "whole_blob_equal": false,
+          "mapping": "SAME_LINES",
+          "head_line_start": 258,
+          "head_line_end": 258,
+          "head_range_sha256": "c2067d22ffdef8a01b4944a26a9b2dea10ffa489e356f445dc3c9ad477baabcb",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0376",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 239,
+          "line_end": 239,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "c9ede0400e47ed648aa9e910487efba1060f55306edb1074d66b4d626fa6ae0d",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 239,
+          "head_line_end": 239,
+          "head_range_sha256": "c9ede0400e47ed648aa9e910487efba1060f55306edb1074d66b4d626fa6ae0d",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0377",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 265,
+          "line_end": 265,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "9075ce3f8b94e885aa362fe83e60c734ee3e50a2332fb2fc2134a54eab4561ee",
+          "whole_blob_equal": false,
+          "mapping": "SAME_LINES",
+          "head_line_start": 265,
+          "head_line_end": 265,
+          "head_range_sha256": "9075ce3f8b94e885aa362fe83e60c734ee3e50a2332fb2fc2134a54eab4561ee",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0378",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 269,
+          "line_end": 269,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "744baf533286103d0d401c19cf1412ad4b97183a75b920d53b29120e7cec8357",
+          "whole_blob_equal": false,
+          "mapping": "SAME_LINES",
+          "head_line_start": 269,
+          "head_line_end": 269,
+          "head_range_sha256": "744baf533286103d0d401c19cf1412ad4b97183a75b920d53b29120e7cec8357",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0379",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 236,
+          "line_end": 236,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "71232c85f811b9c89b7519d7ca496a839aa5318304dd5dd260ca0d95f1d5ffb6",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 236,
+          "head_line_end": 236,
+          "head_range_sha256": "71232c85f811b9c89b7519d7ca496a839aa5318304dd5dd260ca0d95f1d5ffb6",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0380",
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 303,
+          "line_end": 303,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86",
+          "head_blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed",
+          "origin_line_count": 1660,
+          "head_line_count": 1655,
+          "range_sha256": "b933f8db34dbbca0795468afde4b7730cb719ca8d9e97955c2423c5e0a7107c7",
+          "whole_blob_equal": false,
+          "mapping": "SAME_LINES",
+          "head_line_start": 303,
+          "head_line_end": 303,
+          "head_range_sha256": "b933f8db34dbbca0795468afde4b7730cb719ca8d9e97955c2423c5e0a7107c7",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0381",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 240,
+          "line_end": 240,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "5bf83c6ff5ff14c12adfcd3f3ed28b1c4f1951533bb0b755d35e683064098e1e",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 240,
+          "head_line_end": 240,
+          "head_range_sha256": "5bf83c6ff5ff14c12adfcd3f3ed28b1c4f1951533bb0b755d35e683064098e1e",
+          "status": "IDENTICAL_RANGE"
+        }
+      ],
+      "related_known_ids": [
+        "IMP-C1",
+        "BR-IMP-001",
+        "BR-IMP-003",
+        "BR-IMP-004"
+      ],
+      "deduplication": "IMP-C1 ya identifica el GET correcto en M; no se reabre como API nueva. Lo nuevo es la prueba P95/HEAD y sus rangos desplazados en el blob cambiado.",
+      "new_independent_finding": false,
+      "sourcepins": {
+        "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+        "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+        "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+      },
+      "status": "PROPOSED_FOR_COORDINATOR_INTEGRATION_NOT_CANONICAL"
+    },
+    {
+      "id": "TEMP-CF002",
+      "classification": "documentary_precision",
+      "title": "Distinguir evidencia local estable de dependencia directa modificada",
+      "statement": "La matriz identifica por registro los frames/pantallas con referencias directas al JS cambiado. Sus blobs y citas pueden conservarse, pero esa igualdad no acredita el comportamiento compuesto. Las referencias a los reportes se inventarian sin leer sus cuerpos; sus cambios semanticos quedan en la tarea del otro agente. Los tres paths cambiados y sus vecinos no se convierten en una revision de todo el arbol.",
+      "evidence": [
+        {
+          "id": "R0382",
+          "path": "index_archivos/embarques/embarquecrear.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 335,
+          "line_end": 335,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "e51e490264da04ea2e8ff31f5e635cd5d65a1edf",
+          "head_blob": "e51e490264da04ea2e8ff31f5e635cd5d65a1edf",
+          "origin_line_count": 441,
+          "head_line_count": 441,
+          "range_sha256": "3077056666a27aadb5351230a63e3aca43535128c79da73a07a4075972fd8ff7",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 335,
+          "head_line_end": 335,
+          "head_range_sha256": "3077056666a27aadb5351230a63e3aca43535128c79da73a07a4075972fd8ff7",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0383",
+          "path": "index_archivos/embarques/embarquever.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 545,
+          "line_end": 545,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "fa6bc900cafdf8b92fa88302d7c2249ab496b440",
+          "head_blob": "fa6bc900cafdf8b92fa88302d7c2249ab496b440",
+          "origin_line_count": 559,
+          "head_line_count": 559,
+          "range_sha256": "6325481f2d993aaf0e3a989322d6ff1b6ca0882ffa91a598f72257ff56f9e616",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 545,
+          "head_line_end": 545,
+          "head_range_sha256": "6325481f2d993aaf0e3a989322d6ff1b6ca0882ffa91a598f72257ff56f9e616",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0384",
+          "path": "index_archivos/embarques/frames/aduanas.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 104,
+          "line_end": 104,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5309b0a8baa24b7ac41b3b6a03d41e71b7d381c6",
+          "head_blob": "5309b0a8baa24b7ac41b3b6a03d41e71b7d381c6",
+          "origin_line_count": 108,
+          "head_line_count": 108,
+          "range_sha256": "10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 104,
+          "head_line_end": 104,
+          "head_range_sha256": "10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0385",
+          "path": "index_archivos/embarques/frames/costos.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 92,
+          "line_end": 92,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "e127d31f1f61ef67e35a2e6b375982ea5d5a1a21",
+          "head_blob": "e127d31f1f61ef67e35a2e6b375982ea5d5a1a21",
+          "origin_line_count": 106,
+          "head_line_count": 106,
+          "range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 92,
+          "head_line_end": 92,
+          "head_range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0386",
+          "path": "index_archivos/embarques/frames/datoscaso.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 67,
+          "line_end": 67,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "73c1e066ecfba5737ae2f828636a22c6c2c597fe",
+          "head_blob": "73c1e066ecfba5737ae2f828636a22c6c2c597fe",
+          "origin_line_count": 70,
+          "head_line_count": 70,
+          "range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 67,
+          "head_line_end": 67,
+          "head_range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0387",
+          "path": "index_archivos/embarques/frames/documentos.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 100,
+          "line_end": 100,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "e946e72f5d85845adc574541e5855eb3d9dad1ac",
+          "head_blob": "e946e72f5d85845adc574541e5855eb3d9dad1ac",
+          "origin_line_count": 145,
+          "head_line_count": 145,
+          "range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 100,
+          "head_line_end": 100,
+          "head_range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0388",
+          "path": "index_archivos/embarques/frames/estado-pedidos.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 93,
+          "line_end": 93,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "467cbe575dda986c8cb22045ba57ebcec32c07eb",
+          "head_blob": "467cbe575dda986c8cb22045ba57ebcec32c07eb",
+          "origin_line_count": 108,
+          "head_line_count": 108,
+          "range_sha256": "10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 93,
+          "head_line_end": 93,
+          "head_range_sha256": "10c5588f96cb8a09deecc767bc25d187ec220bd55cb25869b635ea146b8ea67a",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0389",
+          "path": "index_archivos/embarques/frames/items.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 243,
+          "line_end": 243,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "head_blob": "5e12930c95d85c36204c68bce49b564aebeef933",
+          "origin_line_count": 252,
+          "head_line_count": 252,
+          "range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 243,
+          "head_line_end": 243,
+          "head_range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0390",
+          "path": "index_archivos/embarques/frames/rutas.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 144,
+          "line_end": 144,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "c8bef64e17bf98b5b42456313025c2003da49875",
+          "head_blob": "c8bef64e17bf98b5b42456313025c2003da49875",
+          "origin_line_count": 180,
+          "head_line_count": 180,
+          "range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 144,
+          "head_line_end": 144,
+          "head_range_sha256": "7f4c85a99e6b83e3c77fda011f23f476a94cf397ebfe506cd780607bca9404b3",
+          "status": "IDENTICAL_RANGE"
+        },
+        {
+          "id": "R0391",
+          "path": "index_archivos/embarques/index.php",
+          "origin_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+          "line_start": 133,
+          "line_end": 133,
+          "sourcepins": {
+            "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+            "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+            "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+            "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+          },
+          "comparison_role": "P95_TO_HEAD",
+          "origin_blob": "ceb93cecef9769e70848a31cbef89fefaa7434be",
+          "head_blob": "ceb93cecef9769e70848a31cbef89fefaa7434be",
+          "origin_line_count": 146,
+          "head_line_count": 146,
+          "range_sha256": "e99cbc6cf6a1bf9f30429501f84cb2b7ecf9c0801c85ffdf794b97084a347c43",
+          "whole_blob_equal": true,
+          "mapping": "SAME_LINES",
+          "head_line_start": 133,
+          "head_line_end": 133,
+          "head_range_sha256": "e99cbc6cf6a1bf9f30429501f84cb2b7ecf9c0801c85ffdf794b97084a347c43",
+          "status": "IDENTICAL_RANGE"
+        }
+      ],
+      "changed_path_blob_evidence": [
+        {
+          "path": "index_archivos/embarques/js/datosEmbarques.js",
+          "P95": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "284278ae8b3de226b9a9326ff499f9a44d08bc86"
+          },
+          "HEAD": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "8bfe0a4a253ce8f7401b4ae5ee2ee40e395fc4ed"
+          },
+          "review": "BOUNDED_BUSINESS_REQUEST_METADATA"
+        },
+        {
+          "path": "index_archivos/reportes/reportepreembarquenacional.php",
+          "P95": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "a3b947856751f2e97ceca4eec056f636583d8bac"
+          },
+          "HEAD": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "510ad3740fab4da9a4c711a18245f943f613f596"
+          },
+          "review": "DELEGATED_METADATA_ONLY"
+        },
+        {
+          "path": "index_archivos/reportes/reportepreembarquenacionalquery.php",
+          "P95": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "189d9cba0c329e070c2b8618e7b93cba52e9d412"
+          },
+          "HEAD": {
+            "mode": "100644",
+            "type": "blob",
+            "blob": "64d9e27cf0acae2bc21ead3c9d64603289f7e4c6"
+          },
+          "review": "DELEGATED_METADATA_ONLY"
+        }
+      ],
+      "affected_matrix_ids": [
+        "alcance-viaje",
+        "item-posicion",
+        "finalizado-resumen",
+        "viaje-desde-vin"
+      ],
+      "related_known_ids": [
+        "IMP-SCOPE-001"
+      ],
+      "deduplication": "La observacion remota de tres paths ya era conocida; aporta ahora propagacion directa por registro y pruebas de blobs/rangos en HEAD, no un nuevo hallazgo de frescura.",
+      "new_independent_finding": false,
+      "sourcepins": {
+        "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+        "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+        "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+      },
+      "status": "PROPOSED_FOR_COORDINATOR_INTEGRATION_NOT_CANONICAL"
+    },
+    {
+      "id": "TEMP-CF003",
+      "classification": "documentary_precision",
+      "title": "La revalidacion Peru conserva la procedencia de las mejoras citadas solo en M",
+      "statement": "De 81 conceptos, 80 tienen evidencia P95; parte-recepcion solo M. Las nueve OPS, VAR-001 y cuatro BR tienen evidencia P. 6 de ocho mejoras operativas solo citan M: IMP-T008, IMP-T009, IMP-T010, CLR-IMP-001, RPR-IMP-001, RPR-IMP-002. Se registran coincidencias M/HEAD por rango cuando existen; no se promocionan a Peru ni se reutilizan lineas M como P. Las mejoras restantes con evidencia P conservan sus pins propios. Cualquier apoyo indirecto por un OPS/BR relacionado se mantiene separado del registro original.",
+      "evidence": [
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/glossary/business-glossary.json",
+          "blob": "9de283364edfb873b756ef46082d5619c7ce44c9",
+          "json_pointer": "/entries/63"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/0"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/1"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/2"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/3"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/6"
+        },
+        {
+          "repository": "C:/repos/asgard-proveedores-knowledge",
+          "commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+          "path": "knowledge/general/operational-findings.json",
+          "blob": "7bf8b8c744f5a8154cc12c4c4d8fa64be456135b",
+          "json_pointer": "/improvements/7"
+        }
+      ],
+      "related_known_ids": [
+        "IMP-T008",
+        "IMP-T009",
+        "IMP-T010",
+        "CLR-IMP-001",
+        "RPR-IMP-001",
+        "RPR-IMP-002"
+      ],
+      "deduplication": "No altera los mecanismos conocidos ni abre OPS nuevas; documenta la cobertura y procedencia del traslado al HEAD solicitado.",
+      "new_independent_finding": false,
+      "sourcepins": {
+        "P95": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+        "HEAD": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+        "M_historical": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+        "KB_baseline": "0c4bb99f076d6a8c18ae98375d6e154da6319922"
+      },
+      "status": "PROPOSED_FOR_COORDINATOR_INTEGRATION_NOT_CANONICAL"
+    }
+  ],
+  "known_ids_considered": [
+    "SEC-015",
+    "IMP-AST-001",
+    "OPS-001",
+    "OPS-002",
+    "OPS-003",
+    "OPS-004",
+    "OPS-005",
+    "OPS-006",
+    "OPS-007",
+    "IMP-T008",
+    "IMP-T009",
+    "IMP-T010",
+    "IMP-C1",
+    "IMP-C2",
+    "VAR-001",
+    "OPS-008",
+    "OPS-009",
+    "CLR-IMP-001",
+    "CLR-IMP-002",
+    "CLR-IMP-003",
+    "IMP-SCOPE-001",
+    "RPR-IMP-001",
+    "RPR-IMP-002",
+    "BR-IMP-001",
+    "BR-IMP-002",
+    "BR-IMP-003",
+    "BR-IMP-004"
+  ],
+  "summary": {
+    "documentary_precisions": 3,
+    "new_independent_findings": 0,
+    "canonical_integrations": 0
+  },
+  "closure_test_proposal": {
+    "status": "PROPOSAL_NOT_EXECUTED_AFTER_INTEGRATION",
+    "technique": "Independent reverse traceability challenge with counterfactual mutations of in-memory evidence records; no application code.",
+    "different_from_this_pass": "Este pase construye identidad adelante P95->HEAD y dependencias de un salto. El cierre parte de cada afirmacion documental integrada, reconstruye su soporte hacia atras con git cat-file --batch, y desafia su suficiencia con mutaciones de metadatos.",
+    "precondition": "Coordinador integra novedades aceptadas y aporta sidecar del otro agente para los dos reportes; no ampliar exclusiones.",
+    "steps": [
+      "Fijar el commit o snapshot documental integrado y su digest, H/P95/K/M; no consultar master remoto a44.",
+      "Para cada afirmacion integrada reconstruir claim->registro->rango->objeto Git usando un verificador independiente de este script y git cat-file --batch; calcular SHA256 otra vez, sin ejecutar PHP/JS.",
+      "Controles negativos en memoria: desplazar una linea, cambiar un OID, asignar pin M a P, eliminar una dependencia al JS y marcar como verificado un callback excluido. Deben fallar o quedar fuera de alcance, nunca pasar silenciosamente.",
+      "Control positivo: rangos reubicados de solicitudes (416-421->409-414 y510-521->505-516) conservan SHA256 y se aceptan solo como identidad acotada.",
+      "Contrastar por separado el sidecar delegado de reportes contra sus OIDs HEAD, sin reabrir cuerpos ni navegacion; ausencia de resultado impide cerrar ese dominio.",
+      "Registrar solo nuevas precisiones materiales o contradicciones con los IDs existentes; integrar cada novedad y reiniciar el conteo de pases sin delta que lleve el coordinador."
+    ],
+    "acceptance": "Todos los registros y citas integrados trazables; controles negativos detectados; procedencia M/P correcta; dependencias cambiadas o excluidas visibles; cero deltas materiales en este pase independiente. No prueba runtime, red, BD, politica empresarial ni cierre global automatico."
+  }
+}

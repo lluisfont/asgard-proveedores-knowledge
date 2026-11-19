@@ -3,7 +3,7 @@
     "name": "asgard-proveedores",
     "url": "https://github.com/KPO-Group/proveedores",
     "branch": "master",
-    "current_head": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "current_head": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
     "audited_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
     "current_checkout": "C:\\repos\\proveedores-github-review-20261118",
     "functional_paths": [
@@ -19,12 +19,14 @@
     "comparison_branch": "master_peru",
     "comparison_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
     "comparison_remote_observed": "2a179e2e6472d5705d031665ecbc90c3d806edec",
-    "comparison_freshness": "pinned_comparison_not_latest_peru_head"
+    "peru_audited_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+    "comparison_freshness": "latest_peru_head_audited_historical_p95_preserved",
+    "master_freshness": "remote_master_a44_observed_not_audited"
   },
   "knowledge_pack": {
-    "version": "0.3.0",
-    "generated_at": "2026-11-18",
-    "generated_by": "convertidor-knowledge plus pinned master audit and evidence review",
+    "version": "0.4.0",
+    "generated_at": "2026-11-19",
+    "generated_by": "convertidor-knowledge plus pinned master audit, iterative review and Peru HEAD revalidation",
     "mode": "embedded-and-standalone",
     "primary_scope": "master_with_explicit_country_variants",
     "glossary": {
@@ -95,6 +97,25 @@
       "consecutive_zero_delta_passes": 2,
       "application_source_modified": false,
       "overall_coverage": "PARTIAL"
+    },
+    "peru_head": {
+      "baseline_knowledge_commit": "0c4bb99f076d6a8c18ae98375d6e154da6319922",
+      "source_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+      "previous_peru_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "master_reference_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "documentation": "knowledge/reviews/peru-head-20261119/README.md",
+      "accepted_deltas": "knowledge/reviews/peru-head-20261119/accepted-deltas.json",
+      "ledger": "knowledge/reviews/peru-head-20261119/iterations.json",
+      "counts": {
+        "new_findings": 4,
+        "improvements": 8
+      },
+      "converged_in_reviewed_scope": true,
+      "consecutive_zero_delta_passes": 2,
+      "graphify_nodes": 2351,
+      "graphify_edges": 2694,
+      "application_source_modified": false,
+      "overall_coverage": "PARTIAL"
     }
   },
   "variants": {
@@ -105,9 +126,11 @@
     },
     "peru": {
       "source_branch": "master_peru",
-      "commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
-      "status": "current_source_comparison_and_historical_database_evidence",
-      "documentation": "knowledge/variants/peru.md"
+      "commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
+      "historical_comparison_commit": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
+      "status": "peru_head_static_audit_with_historical_p95_preserved",
+      "documentation": "knowledge/variants/peru-head-20261119.md",
+      "historical_documentation": "knowledge/variants/peru.md"
     }
   },
   "coverage": {
