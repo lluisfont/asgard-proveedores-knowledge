@@ -27,8 +27,9 @@ Ver `manifest.json`.
 La fuente general auditada está fijada al commit master
 `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`. La comparación histórica usa
 master_peru `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62` y la auditoría corregida de
-Perú HEAD fija `2a179e2e6472d5705d031665ecbc90c3d806edec`. El master remoto observado
-`a44f4ed69470f1bc00c800e592eadfce1bac6053` no está auditado. Falta acreditar
+Perú HEAD fija `2a179e2e6472d5705d031665ecbc90c3d806edec`. El master HEAD
+`a44f4ed69470f1bc00c800e592eadfce1bac6053` está revisado por delta: el padre
+no cambia y solo avanza un gitlink cuyo contenido interno no está auditado. Falta acreditar
 el esquema físico de master, la ejecución real y la aprobación de negocio.
 
 ## Regla

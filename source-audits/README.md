@@ -2,7 +2,8 @@
 
 | Carpeta | Proyecto auditado | Papel |
 | --- | --- | --- |
-| `master/2026-11-18/` | KPO-Group/proveedores, master a8ce2c23 | Auditoria actual fijada a commit, comparacion de variantes y verificaciones |
+| `master/2026-11-18/` | KPO-Group/proveedores, master a8ce2c23 | Base general fijada, comparacion de variantes y verificaciones |
+| `master/2026-11-19/` | KPO-Group/proveedores, master a44f4ed6 | Revisión incremental del padre; único cambio: gitlink privado no descargable |
 | `local-schema-candidate/2026-11-18/` | asgard.sql local no versionado, hash fijado | Metadatos estructurales; pais y correspondencia con master sin confirmar |
 | `graphify/` | Proveedores, copia `proveedores-master_peru` | Grafo historico completo y artefactos de extraccion |
 | `brownfield/` | Proveedores, copia `proveedores-master_peru` | Baseline determinista, evidencias, reconstruccion y borradores |

@@ -1,0 +1,9 @@
+category,path,line,contract
+php_include,index_archivos/2fa/TwoFaClass.php,5,companyTypes.php
+php_include,index_archivos/embarques/frames/documentos.php,47,lista_intercambios_documentales.php
+javascript_include,index_archivos/embarques/frames/documentos.php,94,js/datosIntercambio.js
+ajax_call,index_archivos/embarques/js/datosEmbarques.js,1036,ajax/iniciarIntercambio.php
+ajax_call,index_archivos/embarques/js/logisticaShared.js,4,ajax/iniciarIntercambio.php
+ajax_call,index_archivos/embarques/js/logisticaShared.js,18,ajax/saveExchangeIdInShippment.php
+ajax_call,index_archivos/embarques/js/logisticaShared.js,35,ajax/saveExchangeIdInPedido.php
+database_contract,index_archivos/reportes/reportecontroladquery.php,230,exchange_id

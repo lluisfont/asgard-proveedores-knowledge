@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "baseline_knowledge_commit": "c094a874ab7f63963fc7660bfad8cd6add0db14d",
+  "previous_master": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "master_head": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+  "deltas": [
+    {
+      "id": "MH-IMP-001",
+      "classification": "improvement",
+      "title": "Traslado verificable de la auditoría del repositorio padre",
+      "statement": "Las 10.628 entradas ajenas al gitlink modificado conservan modo, tipo y OID; no cambia ningún blob del código padre.",
+      "first_version": 1,
+      "canonical": false
+    },
+    {
+      "id": "MH-IMP-002",
+      "classification": "improvement",
+      "title": "Frontera explícita del nuevo commit del submódulo",
+      "statement": "Se fijan ambos SHA y los consumidores del contrato sin afirmar una auditoría del objeto 88e6d6a, que no estaba disponible localmente ni mediante fetch autenticado.",
+      "first_version": 1,
+      "canonical": false
+    }
+  ],
+  "counts": {
+    "new_findings": 0,
+    "improvements": 2
+  },
+  "converged_in_reviewed_scope": true,
+  "coverage": "PARTIAL",
+  "canonical": false
+}

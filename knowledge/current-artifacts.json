@@ -1243,6 +1243,46 @@
       "stored_bytes": 121379
     },
     {
+      "path": "source-audits/master/2026-11-19/audit-summary.json",
+      "export_sha256": "4aba51a61bcceaafebc78474ae4260c0d4a1578f8e7cc7474ddf1176811bc728",
+      "stored_sha256": "4aba51a61bcceaafebc78474ae4260c0d4a1578f8e7cc7474ddf1176811bc728",
+      "compression": null,
+      "bytes": 849,
+      "stored_bytes": 849
+    },
+    {
+      "path": "source-audits/master/2026-11-19/AUDIT_REPORT.md",
+      "export_sha256": "6e939cc3c2459269451b53db63e44b9ae6a830da1aebe105c7d5c95747e6ce6b",
+      "stored_sha256": "6e939cc3c2459269451b53db63e44b9ae6a830da1aebe105c7d5c95747e6ce6b",
+      "compression": null,
+      "bytes": 1291,
+      "stored_bytes": 1291
+    },
+    {
+      "path": "source-audits/master/2026-11-19/consumers.csv",
+      "export_sha256": "bccef036948ae64425d0a94be2b165eb171708e35ca72497a8d99b462db5c305",
+      "stored_sha256": "bccef036948ae64425d0a94be2b165eb171708e35ca72497a8d99b462db5c305",
+      "compression": null,
+      "bytes": 730,
+      "stored_bytes": 730
+    },
+    {
+      "path": "source-audits/master/2026-11-19/submodule-boundary.json",
+      "export_sha256": "7c97390c9d6f8157a8e176406dfa57d01fa25b5955cc772c73451b54e5a081cd",
+      "stored_sha256": "7c97390c9d6f8157a8e176406dfa57d01fa25b5955cc772c73451b54e5a081cd",
+      "compression": null,
+      "bytes": 1171,
+      "stored_bytes": 1171
+    },
+    {
+      "path": "source-audits/master/2026-11-19/tree-comparison.json",
+      "export_sha256": "bb4fcc8db27eb8ad3300c3fc6e8fb416611585709f4994ec2744350154683c58",
+      "stored_sha256": "bb4fcc8db27eb8ad3300c3fc6e8fb416611585709f4994ec2744350154683c58",
+      "compression": null,
+      "bytes": 1110,
+      "stored_bytes": 1110
+    },
+    {
       "path": "source-audits/peru/2026-11-19/carryforward.json",
       "export_sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29",
       "stored_sha256": "2d8d74160557b754ba321afce60b8fac153039979ff40cd236a96a26dc75fa29",
@@ -1334,6 +1374,7 @@
   "note": "Integrity of the current static evidence snapshot, not validation of runtime behavior.",
   "source_commits": {
     "master_reference": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+    "master_head": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
     "peru_previous": "95fe9a4c3b3cddd84be922cc0e1eb9c88603df62",
     "peru_head": "2a179e2e6472d5705d031665ecbc90c3d806edec"
   }

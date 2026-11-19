@@ -1,6 +1,7 @@
 # Indice del conocimiento de Proveedores
 
-Fuente principal auditada: master `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
+Base principal de contenido: master `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
+Master HEAD revisado por delta: `a44f4ed69470f1bc00c800e592eadfce1bac6053`.
 Comparación histórica: master_peru `95fe9a4c3b3cddd84be922cc0e1eb9c88603df62`.
 Perú HEAD auditado: `2a179e2e6472d5705d031665ecbc90c3d806edec`.
 Los conceptos comunes requieren evidencia en ambas variantes; identidad de
@@ -27,11 +28,12 @@ ficheros no demuestra identidad de configuracion, datos o despliegue.
 | Seguridad | [Auditoria revisada](general/security-audit.md), [hallazgos JSON](general/security-findings.json) |
 | Revisión iterativa | [Cambios frente a la auditoría anterior](reviews/iterative-20261118/README.md), [defectos operativos](general/operational-findings.md), [registro de pasadas](reviews/iterative-20261118/iterations.json) |
 | Revisión Perú HEAD | [Auditoría corregida](reviews/peru-head-20261119/README.md), [registro aceptado](reviews/peru-head-20261119/accepted-deltas.json), [ledger](reviews/peru-head-20261119/iterations.json) |
+| Revisión master HEAD | [Cierre incremental](reviews/master-head-20261119/README.md), [registro aceptado](reviews/master-head-20261119/accepted-deltas.json), [ledger](reviews/master-head-20261119/iterations.json) |
 | Operacion | [Configuracion y despliegue](general/operations.md) |
 | Pruebas | [Resultados y escenarios](general/testing.md) |
 | Cobertura y pendientes | [Matriz documental](documentation-coverage.md), [preguntas abiertas](general/open-questions.md) |
 | Trabajo de ingenieria | [Contexto OpenSpec](openspec/context.md), [reglas de impacto](openspec/impact-rules.md) |
-| Reproducir el trabajo | [Receta del perfil fijado](operations/reproduce-audit.md), [informe actual](../source-audits/master/2026-11-18/AUDIT_REPORT.md) |
+| Reproducir el trabajo | [Receta del perfil fijado](operations/reproduce-audit.md), [informe base](../source-audits/master/2026-11-18/AUDIT_REPORT.md), [delta master HEAD](../source-audits/master/2026-11-19/AUDIT_REPORT.md) |
 | Historia | [Transferencia original](transfer-scope.md), [manifiesto original](history/manifest-20261001.json) |
 
 El paquete permite consulta tecnica y funcional sin codigo fuente. Los enlaces

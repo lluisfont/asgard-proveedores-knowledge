@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "path": "index_archivos/intercambioDocumental",
+  "url": "https://gitlab.com/kpo-group/asgard-project/documents-exchange/exchange-component.git",
+  "configured_branch": "develop",
+  "old_commit": "dc840f9dd80d5d0bda0f31c343a0f9f877519327",
+  "new_commit": "88e6d6a58ef54662eaa604aa060adbeba96098ff",
+  "old_object_available_locally": true,
+  "new_object_available_locally": false,
+  "authenticated_fetch_available": false,
+  "content_diff_executed": false,
+  "consumer_search": {
+    "scope": "tracked PHP and JavaScript below index_archivos",
+    "patterns": "intercambioDocumental|idExchange|lista_intercambios|modal_intercambio|companyTypes",
+    "matches": 29,
+    "representative_contract_records_exported": 8,
+    "sha256_lf_terminated": "8ec200ec98ffea6b0181136fc633a93a2679bff6f615c4e23f7ce790890bad74"
+  },
+  "decision": "The parent repository delta is closed and the unchanged parent audit is carried forward. The internal behavior and security of the new submodule commit remain explicitly unaudited until that GitLab object is accessible.",
+  "coverage": "PARTIAL"
+}

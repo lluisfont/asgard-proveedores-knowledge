@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "baseline_knowledge_commit": "c094a874ab7f63963fc7660bfad8cd6add0db14d",
+  "previous_master": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "master_head": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+  "iterations": [
+    {
+      "version": 1,
+      "technique": "Git tree and object identity comparison",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": ["MH-IMP-001", "MH-IMP-002"],
+      "consecutive_zero_delta_passes": 0
+    },
+    {
+      "version": 2,
+      "technique": "Reverse consumer-boundary review",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "consecutive_zero_delta_passes": 1
+    },
+    {
+      "version": 3,
+      "technique": "Pinned provenance and evidence-integrity closure",
+      "status": "completed",
+      "new_findings": [],
+      "improvements": [],
+      "consecutive_zero_delta_passes": 2
+    }
+  ],
+  "consecutive_zero_delta_passes": 2,
+  "converged": true,
+  "scope": "parent_repository_only",
+  "excluded": [
+    "Internal content of submodule commit 88e6d6a58ef54662eaa604aa060adbeba96098ff"
+  ],
+  "coverage": "PARTIAL",
+  "canonical": false
+}

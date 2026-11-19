@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/KPO-Group/proveedores",
+  "branch": "master",
+  "audit_date": "2026-11-19",
+  "timezone": "Europe/Madrid",
+  "previous_audited_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "reviewed_head_commit": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+  "reviewed_head_author_date": "2026-11-18T17:01:31-04:00",
+  "reviewed_head_commit_date": "2026-11-18T17:01:31-04:00",
+  "reviewed_head_subject": "CBN DOC",
+  "tracked_entries": 10629,
+  "changed_entries": 1,
+  "unchanged_parent_entries": 10628,
+  "application_files_changed": 0,
+  "submodule_gitlinks_changed": 1,
+  "parent_code_audit": "CARRIED_FORWARD_BY_IDENTICAL_GIT_OBJECTS",
+  "submodule_content_audit": "NOT_EXECUTED_NEW_COMMIT_OBJECT_UNAVAILABLE",
+  "converged_in_reviewed_scope": true,
+  "consecutive_zero_delta_passes": 2,
+  "coverage": "PARTIAL"
+}

@@ -23,6 +23,7 @@ from validate_iterative import validate as validate_iterative
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--source')
+    parser.add_argument('--master-head-source')
     parser.add_argument('--peru-source')
     parser.add_argument('--peru-head-source')
     args=parser.parse_args()
@@ -35,6 +36,9 @@ def main():
     peru_head=manifest['repository'].get('peru_audited_commit')
     if peru_head:
         source_roots[peru_head]=Path(args.peru_head_source).resolve() if args.peru_head_source else None
+    master_head=manifest['repository'].get('master_head_reviewed_commit')
+    if master_head:
+        source_roots[master_head]=Path(args.master_head_source).resolve() if args.master_head_source else None
     for commit,source in source_roots.items():
         if source is None:
             continue
@@ -179,6 +183,10 @@ def main():
     if (root/'knowledge/reviews/peru-head-20261119/iterations.json').exists():
         from validate_peru_head import validate as validate_peru_head
         peru_review=validate_peru_head(root,cite)
+    master_head_review=None
+    if (root/'knowledge/reviews/master-head-20261119/iterations.json').exists():
+        from validate_master_head import validate as validate_master_head
+        master_head_review=validate_master_head(root)
     report={'status':'PASS','context':'installed_application_checkout' if installed_checkout else 'standalone_knowledge',
         'source_commit':master,'peru_commit':peru,
         'current_payloads_verified':len(current['entries']),'glossary_terms':len(entries),
@@ -189,6 +197,7 @@ def main():
         'independent_security_cases_passed':security_probes['passed'],
         'iterative_review':iterative,
         'peru_head_review':peru_review,
+        'master_head_review':master_head_review,
         'database_schema':'missing_for_master','runtime_end_to_end':'not_verified','business_approval':'pending',
         'overall_audit_coverage':'PARTIAL',
         'note':'PASS validates evidence integrity, structure and references. It does not certify business correctness or close security findings.'}

@@ -1,24 +1,31 @@
 # Alcance de la auditoria actual
 
+La [revisión incremental de master HEAD](reviews/master-head-20261119/README.md)
+fija `master` en `a44f4ed69470f1bc00c800e592eadfce1bac6053`. Frente a la base general
+`a8ce2c23dead8552d2c4699e4a9b9134f7a18707`, las 10.628 entradas ajenas al
+gitlink cambiado conservan modo, tipo y OID. El único delta es el puntero de
+`index_archivos/intercambioDocumental`; su nuevo objeto privado no estuvo
+disponible y su contenido interno no se presenta como auditado.
+
 La [revalidación corregida de Perú HEAD](reviews/peru-head-20261119/README.md)
 fija `master_peru` en `2a179e2e6472d5705d031665ecbc90c3d806edec` y conserva P95 como base
 histórica. Acepta cuatro hallazgos y ocho mejoras, con dos cierres consecutivos
 sin delta material. Su convergencia es del alcance revisado y no modifica el
-estado global PARTIAL. El master remoto `a44f4ed69470f1bc00c800e592eadfce1bac6053`
-queda observado pero fuera de esta revisión.
+estado global PARTIAL.
 
 La [ampliación iterativa](reviews/iterative-20261118/README.md) compara esta base con Knowledge `3822900b6d54d99ccf854bec43005a208e2a9694`, conserva los mismos pins y separa once hallazgos nuevos de dieciséis mejoras documentales. El [registro de versiones](reviews/iterative-20261118/iterations.json) fija el criterio de parada por deltas semánticos; no amplía por sí mismo la verificación al despliegue o a la base de datos.
 
-Actualidad comprobada el 19-11-2026: Perú HEAD está auditado en el perfil
-fechado y P95 permanece como referencia histórica. Master remoto avanzó a
-`a44f4ed69470f1bc00c800e592eadfce1bac6053`; la auditoría general continúa
-fijada en `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
+Actualidad comprobada el 19-11-2026: Perú HEAD está auditado en su perfil y P95
+permanece como referencia histórica. Master HEAD está revisado por delta en
+`a44f4ed69470f1bc00c800e592eadfce1bac6053`; la auditoría completa de contenido
+del padre se conserva desde `a8ce2c23dead8552d2c4699e4a9b9134f7a18707`.
 
 Fecha: 2026-11-18. Repositorio: `https://github.com/KPO-Group/proveedores`.
 
 | Perfil | Fuente fijada | Uso |
 | --- | --- | --- |
 | Principal | master a8ce2c23dead8552d2c4699e4a9b9134f7a18707 | Codigo general observado; particularidades Bolivia separadas |
+| Master HEAD | master a44f4ed69470f1bc00c800e592eadfce1bac6053 | Padre idéntico salvo gitlink; revisión incremental cerrada, contenido del nuevo submódulo pendiente |
 | Comparación Perú histórica | master_peru 95fe9a4c3b3cddd84be922cc0e1eb9c88603df62 | Base de diferencias y citas históricas |
 | Perú HEAD corregido | master_peru 2a179e2e6472d5705d031665ecbc90c3d806edec | Tres rutas cambiadas, revisión funcional y carry-forward acotado |
 | Historia Peru | Auditoria local 2026-09-15 sin commit Git confirmado | Evidencia del dump y artefactos historicos, no esquema universal |
@@ -57,7 +64,8 @@ descarga, sin handlers de negocio, base de datos ni llamadas externas.
 
 ## Separacion de fuentes
 
-Los artefactos actuales estan en `source-audits/master/2026-11-18/`.
+La base completa está en `source-audits/master/2026-11-18/` y el delta del HEAD
+en `source-audits/master/2026-11-19/`.
 El grafo y modelo fisico antiguos de `source-audits/graphify/` y
 `source-audits/brownfield/` proceden de Peru. Los hallazgos de
 `source-audits/related-graphify-audits/` describen la herramienta Graphify,
@@ -71,7 +79,9 @@ que compartan el mismo DDL, poblacion, constraints o reglas de despliegue.
 ## Limites
 
 No se recibio el esquema SQL de master ni un entorno de despliegue verificable.
-Los dos submodulos externos se inventariaron, pero no se descargaron ni auditaron.
+Los dos submodulos externos se inventariaron. El nuevo gitlink de
+`intercambioDocumental` se fijó, pero su commit `88e6d6a…` no pudo descargarse
+ni auditarse internamente.
 No se comprobaron servicios externos, autorizacion por tenant ni todos los
 flujos con datos reales. Los significados reconstruidos conservan su evidencia,
 confianza e inferencias; la aprobacion de responsables de negocio queda pendiente.

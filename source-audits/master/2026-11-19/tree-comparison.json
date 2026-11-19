@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-11-19",
+  "old_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+  "new_commit": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+  "old_tree": "96bad65e873d9308d52b9e9d861eacd211433924",
+  "new_tree": "584128739e7dc2d519a6bd0afd255754fbe77376",
+  "counts": {
+    "old_entries": 10629,
+    "new_entries": 10629,
+    "identical_non_changed_entries": 10628,
+    "changed_entries": 1
+  },
+  "non_changed_entry_manifest": {
+    "algorithm": "sha256",
+    "normalization": "git ls-tree -r --full-tree, changed gitlink excluded, LF terminated",
+    "old": "906a55498c6b633c204c4f09ff7d9e89d1813508cf7a8ab224e99be989817593",
+    "new": "906a55498c6b633c204c4f09ff7d9e89d1813508cf7a8ab224e99be989817593",
+    "equal": true
+  },
+  "changes": [
+    {
+      "path": "index_archivos/intercambioDocumental",
+      "old_mode": "160000",
+      "new_mode": "160000",
+      "old_type": "commit",
+      "new_type": "commit",
+      "old_oid": "dc840f9dd80d5d0bda0f31c343a0f9f877519327",
+      "new_oid": "88e6d6a58ef54662eaa604aa060adbeba96098ff",
+      "status": "M"
+    }
+  ]
+}

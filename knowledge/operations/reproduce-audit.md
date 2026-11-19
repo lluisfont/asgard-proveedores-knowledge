@@ -1,8 +1,8 @@
 # Reproducir la auditoria fijada
 
-Esta receta reproduce el perfil del 2026-11-18; los scripts rechazan commits
-distintos. Para una revision nueva se debe crear un perfil fechado y actualizar
-sus fuentes, no sobrescribir silenciosamente esta instantanea.
+Esta receta reproduce la base completa del 2026-11-18; los scripts rechazan
+commits distintos. El perfil incremental del 2026-11-19 conserva esa base porque
+las 10.628 entradas del padre ajenas al gitlink son idénticas por objeto Git.
 
 ## Entradas
 
@@ -68,6 +68,21 @@ correspondencia con master.
 La receta no inicia servicios de aplicacion, no construye Docker, no conecta a
 base de datos ni ejecuta mutaciones por HTTP. Las pruebas de seguridad usan
 guardas o metodos aislados con sustitutos controlados y registran sus limites.
+
+## Revisión incremental de master HEAD
+
+Comparar la base y el HEAD, y verificar que el único delta sea el gitlink:
+
+```powershell
+git diff-tree --no-commit-id --raw -r a8ce2c23dead8552d2c4699e4a9b9134f7a18707 a44f4ed69470f1bc00c800e592eadfce1bac6053
+git ls-tree a8ce2c23dead8552d2c4699e4a9b9134f7a18707 index_archivos/intercambioDocumental
+git ls-tree a44f4ed69470f1bc00c800e592eadfce1bac6053 index_archivos/intercambioDocumental
+python -B scripts/audit/validate_knowledge.py --source C:/ruta/master-a8c --master-head-source C:/ruta/master-a44
+```
+
+Para auditar el contenido interno debe estar disponible el objeto
+`88e6d6a58ef54662eaa604aa060adbeba96098ff` del GitLab configurado en
+`.gitmodules`. Sin él solo se reproduce el cierre del repositorio padre.
 
 ## Ampliación iterativa
 

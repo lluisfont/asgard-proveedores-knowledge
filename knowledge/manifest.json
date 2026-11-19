@@ -5,7 +5,8 @@
     "branch": "master",
     "current_head": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
     "audited_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
-    "current_checkout": "C:\\repos\\proveedores-github-review-20261118",
+    "master_head_reviewed_commit": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+    "current_checkout": "C:\\repos\\proveedores-master-head-review-20261119",
     "functional_paths": [
       "src",
       "index_archivos",
@@ -21,12 +22,12 @@
     "comparison_remote_observed": "2a179e2e6472d5705d031665ecbc90c3d806edec",
     "peru_audited_commit": "2a179e2e6472d5705d031665ecbc90c3d806edec",
     "comparison_freshness": "latest_peru_head_audited_historical_p95_preserved",
-    "master_freshness": "remote_master_a44_observed_not_audited"
+    "master_freshness": "master_a44_parent_delta_closed_submodule_commit_88e6d6a_not_audited"
   },
   "knowledge_pack": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "generated_at": "2026-11-19",
-    "generated_by": "convertidor-knowledge plus pinned master audit, iterative review and Peru HEAD revalidation",
+    "generated_by": "convertidor-knowledge plus pinned master audit, iterative review, Peru HEAD revalidation and master HEAD delta closure",
     "mode": "embedded-and-standalone",
     "primary_scope": "master_with_explicit_country_variants",
     "glossary": {
@@ -116,6 +117,27 @@
       "graphify_edges": 2694,
       "application_source_modified": false,
       "overall_coverage": "PARTIAL"
+    },
+    "master_head": {
+      "baseline_knowledge_commit": "c094a874ab7f63963fc7660bfad8cd6add0db14d",
+      "previous_master_commit": "a8ce2c23dead8552d2c4699e4a9b9134f7a18707",
+      "source_commit": "a44f4ed69470f1bc00c800e592eadfce1bac6053",
+      "documentation": "knowledge/reviews/master-head-20261119/README.md",
+      "accepted_deltas": "knowledge/reviews/master-head-20261119/accepted-deltas.json",
+      "ledger": "knowledge/reviews/master-head-20261119/iterations.json",
+      "counts": {
+        "new_findings": 0,
+        "improvements": 2
+      },
+      "changed_parent_files": 0,
+      "changed_submodule_gitlinks": 1,
+      "submodule_old_commit": "dc840f9dd80d5d0bda0f31c343a0f9f877519327",
+      "submodule_new_commit": "88e6d6a58ef54662eaa604aa060adbeba96098ff",
+      "submodule_content_audited": false,
+      "converged_in_reviewed_scope": true,
+      "consecutive_zero_delta_passes": 2,
+      "application_source_modified": false,
+      "overall_coverage": "PARTIAL"
     }
   },
   "variants": {
@@ -139,7 +161,7 @@
     "database_schema": "missing_for_master",
     "runtime": "not_verified",
     "deployed_roles_and_tenants": "not_verified",
-    "submodules": "not_audited",
+    "submodules": "gitlinks_inventoried_new_intercambio_commit_not_audited",
     "human_business_approval": "pending",
     "overall": "PARTIAL"
   },
